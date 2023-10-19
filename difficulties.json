@@ -2,23 +2,23 @@
     "difficulties": [
         {
             "name": "Vanilla + Items",
-            "description": "Description for Vanilla + IALR Content."
+            "description": "Play the vanilla game with the Mod config and the new infected and inventory"
         },
         {
             "name": "Casual Survivor",
-            "description": "Description for Casual Survivor."
+            "description": "Recommended for the faint of heart, this version is made for players that want to explore the lore game."
         },
         {
             "name": "Survivor",
-            "description": "Description for Survivor."
+            "description": "Recommended for first time players of DL2 that want a good fight and many improved systems."
         },
         {
             "name": "Ultimate Survivor",
-            "description": "Description for Ultimate Survivor."
+            "description": "Deadly world. Biters can run and climb. Increased spawns and difficulty. Consider this Nightmare Mode."
         },
         {
             "name": "Insanity",
-            "description": "Description for Insanity."
+            "description": "The end of the line. The Biters are mixed but the world reacts to the noise you make, leaving you always on guard"
         }
     ]
 }
