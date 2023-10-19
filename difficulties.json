@@ -1,0 +1,24 @@
+{
+    "difficulties": [
+        {
+            "name": "Vanilla + Items",
+            "description": "Description for Vanilla + IALR Content."
+        },
+        {
+            "name": "Casual Survivor",
+            "description": "Description for Casual Survivor."
+        },
+        {
+            "name": "Survivor",
+            "description": "Description for Survivor."
+        },
+        {
+            "name": "Ultimate Survivor",
+            "description": "Description for Ultimate Survivor."
+        },
+        {
+            "name": "Insanity",
+            "description": "Description for Insanity."
+        }
+    ]
+}
