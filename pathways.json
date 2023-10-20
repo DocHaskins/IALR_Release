@@ -2,19 +2,19 @@
     "pathways": [
         {
             "name": "Peacekeeper",
-            "description": "Keeper of the Peace: Starter kit featuring Peacekeeper Armor Set, weapons, UV flares, glowsticks, bandages, and crafting recipes."
+            "description": "Keeper of the Peace: Peacekeeper Armor Set, Peacekeeper 1 Handed Axe, Weak Sharpshooter Crossbow and bolts, 15 tier 1 UV flares, 10 Blue Glowsticks, 2 Clean Bandages, 6 Tiers of Crafting PeaceKeeper Reinforcements Recipes, 1 Tier 1 Peacekeeper Reinforcements"
         },
         {
             "name": "Veteran",
-            "description": "The Veteran: Includes Tier 1 Military Armor Set, weapons, Molotovs, and bandages."
+            "description": "The Veteran: Tier 1 Military Armor Set, 1 Handed Club, Renegade 2 Handed Axe, 5 tier 1 Molotovs, 2 Basic Bandages"
         },
         {
             "name": "RoadWarrior",
-            "description": "Road Warrior: Features Mixed Renegade and Bandit Armor Set, weapons, Molotovs, bandages, and various potions."
+            "description": "Road Warrior: Mixed Renegade and Bandit Armor Set, Renegade 1 Handed Blade, Renegade 2 Handed Axe, 5 tier 1 Molotovs, , 2 Basic Bandages, Rage and Damage potions"
         },
         {
             "name": "DoomsDayPrepper",
-            "description": "The DoomsDay Prepper: Unlocks all skills from the start of the game, includes starting weapons, a custom paraglider, starting cash, potions, crafting items, grenades and other explosives, and crafting mods."
+            "description": "The DoomsDay Prepper: This version is for those of you who want to get to the good stuff already, 6 starting weapons including a Bow and Crossbow, A custom paraglider that can be equiped to boost your current paraglider, $5000 starting cash, several potions, crafting items, grenades and other explosives, and crafting mods."
         }
     ]
 }
