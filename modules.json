@@ -11,6 +11,10 @@
         {
             "name": "Custom Map Data",
             "description": "CUSTOM MAP CHANGES: (!Work in Progress!) May cause quest bugs/frame loss, adds new custom locations to the Windmills and Bazaar Exterior."
+        },
+        {
+            "name": "Halloween Event",
+            "description": "Halloween Event: Coming soon!"
         }
     ]
 }
