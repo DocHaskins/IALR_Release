@@ -1,6 +1,20 @@
 {
-    "news": {
-        "header": "Header string",
-        "body": "Body string"
-    }
+    "news": [
+        {
+            "header": "Feature 1",
+            "body": "Body text for Feature 1"
+        },
+        {
+            "header": "Feature 2",
+            "body": "Body text for Feature 2"
+        },
+        {
+            "header": "Feature 3",
+            "body": "Body text for Feature 3"
+        },
+        {
+            "header": "Feature 4",
+            "body": "Body text for Feature 4"
+        }
+    ]
 }
