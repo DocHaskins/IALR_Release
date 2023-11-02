@@ -5,6 +5,10 @@
             "body": "You no longer have to worry about getting the latest version of the mod from the NexusMods, when launching the launcher you'll see if there is a new version of the mod available. If the UPDATE IALR button is visible, click it and it will update the underlying code. If you have already installed the mod, your previous selection will be used when updating the code so you don't have to run the installer again! Use the installer to change your selected options."
         },
         {
+            "header": "Halloween Event",
+            "body": "Vampires can be found throughout the world at night and in some interiors. They are friends of no one but their clan and move deadly fast. Run if you are not high enough level to take them on, as they will call for other nearby Vampires when you are spotted. Evil Clowns have joined the world and can be found randomly through encounters. The event is still be fully updated and implemented, but thankfully the launcher should make this easy to get the updates!"
+        },
+        {
             "header": "NG+ Crash fix",
             "body": "Fixed an issue with the spawn system that was causing a crash while playing New Game+"
         },
