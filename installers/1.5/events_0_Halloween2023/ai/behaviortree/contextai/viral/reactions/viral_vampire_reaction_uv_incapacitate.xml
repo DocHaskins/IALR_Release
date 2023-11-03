@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <Sequence>
+        <Succeeder>
+            <Selector>
+                <Sequence>
+                    <!-- Go to knees -->
+                    <Cnd_IsBBValueGreaterOrEqual_float m_Key="#uv_progress" m_Value="1.0"/>
+                    <Cnd_IsIncapacitatedByUV m_Invert="true"/>
+                    <Selector>
+                        <Cnd_IsInUVLight/>
+                        <Cnd_IsInSunlight/>
+                    </Selector>
+                    <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Final"/>
+                    <Opr_Trigger m_Key="#trigger_uv_reaction"/>
+                </Sequence>
+                <!-- Get Up -->
+                <Sequence>
+                    <Cnd_IsBBValueGreaterOrEqual_float m_Key="#uv_progress" m_Value="0.5" m_Invert="true"/>
+                    <Cnd_IsIncapacitatedByUV/>
+                    <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Recover"/>
+                    <Opr_SetBBValue_bool m_Key="#trigger_uv_reaction" m_Value="true"/>
+                </Sequence>
+                <Sequence>
+                    <Cnd_IsInUVLight/>
+                    <Cnd_IsIncapacitatedByUV m_Invert="true"/>
+                    <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT" m_Invert="true"/>
+                    <Cnd_IsInUVLightOfType m_Type="SUPER_SPOTLIGHT" m_Invert="true"/>
+                    <Cnd_PositionInAngle m_Angle="125" m_Position="#uv_light_pos"/>
+                    <Cnd_IsActivityModuleRunning_Movement/>
+                    <Cnd_IsBBValueGreater_float m_Key="#uv_progress" m_Value="0.25" m_Invert="true"/>
+                    <Opr_SetDirCorrectionSpeed m_MaxSpeed="$flashlight_dodge_dir_correction_speed"/>
+                    <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Start"/>
+                    <Opr_SetBBValue_bool m_Key="#trigger_uv_reaction" m_Value="true"/>
+                </Sequence>
+            </Selector>
+        </Succeeder>
+        <Selector>
+            <Starter m_Key="#trigger_uv_reaction">
+                <Act_Incapacitate m_Type="#uv_reaction_type" m_SourcePos="#uv_light_pos" m_BlockMoveLimitOnNavi="true" m_StartPolicy="DISCARD" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+            </Starter>
+        </Selector>
+    </Sequence>
+</BehaviorTree>

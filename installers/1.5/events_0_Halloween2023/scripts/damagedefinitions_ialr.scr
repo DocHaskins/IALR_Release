@@ -1,0 +1,540 @@
+import "ial_settings.mth"
+
+sub ialr_damagedefinitions()
+{
+////////////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+	//////////////////////////BITERS
+	
+	Damage("Biter_Crawler_Chomp")
+    {
+        Physical(IAL_Biter_Leg_Chomp_DMG_Percent);
+    }
+
+    Damage("Biter_Crawler_Venom_Chomp")
+    {
+        Physical(IAL_Biter_Leg_Chomp_DMG_Percent);
+        Poison("5");
+    }
+
+
+	DamageResistance("BiterImmunity")
+    {
+        Poison("100%");
+		Drowning("100%");
+    }
+    
+	DamageResistance("GoonResistance")
+    {
+        Physical("50%");
+		Ram("50%");
+		Drowning("100%");
+    }
+	DamageResistance("SpitterResistance")
+    {
+        Poison("100%");
+		Drowning("100%");
+    }
+	DamageResistance("BansheeResistance")
+    {
+        Physical("40%");
+		Ram("20%");
+		Poison("100%");
+		Drowning("100%");
+    }
+	DamageResistance("BolterResistance")
+    {
+        Poison("100%");
+		Drowning("100%");
+    }
+	DamageResistance("WeakScreamerResistance")
+    {
+        Ranged("30%");
+    }
+	DamageResistance("ChildScreamerResistance")
+    {
+        Ranged("10%");
+    }
+
+    DamageResistance("AIRenegadeArmoredDamageResistance")
+    {
+        Blunt("35%");
+        Cut("35%");
+        Ram("35%");
+        Physical("35%");
+    }
+	 
+	///////////////////////////DAMAGE 
+///////////////////////////////WEAPONS
+
+	Damage("Shield_Bash")
+    {
+        Blunt("45");
+    }
+///////////////////////////////BOWS
+	Damage("throwing_stone_small")
+    {
+        Blunt("15-55");
+    }
+
+    Damage("throwing_stone_heavy")
+    {
+        Blunt("35-95");
+    }
+
+    Damage("throwing_hammer_tier1")
+    {
+        Blunt("25-75");
+    }
+
+    Damage("throwing_hammer_tier2")
+    {
+        Blunt("75-155");
+    }
+
+    Damage("throwing_hammer_tier3")
+    {
+        Blunt("155-355");
+    }
+
+    Damage("throwing_axe_tier1")
+    {
+        Ranged("35-99");
+    }
+
+    Damage("throwing_axe_tier2")
+    {
+        Ranged("135-199");
+    }
+
+    Damage("throwing_axe_tier3")
+    {
+        Ranged("235-399");
+    }
+
+    Damage("throwing_axe")
+    {
+        Ranged("95-149");
+    }
+
+    Damage("heavy_throwing_axe_tier1")
+    {
+        Ranged("195-249");
+    }
+
+    Damage("heavy_throwing_axe_tier2")
+    {
+        Ranged("255-349");
+    }
+
+    Damage("heavy_throwing_axe_tier3")
+    {
+        Ranged("395-549");
+    }
+
+	Damage("swiftshot_bow_t0")
+    {
+        Ranged("10");
+    }
+	
+	Damage("swiftshot_bow_t1")
+    {
+        Ranged("16-25");
+    }
+	Damage("swiftshot_bow_t2")
+    {
+		Ranged("28-40");
+    }
+	Damage("swiftshot_bow_t3")
+    {
+        Ranged("48-66");
+    }
+	Damage("swiftshot_bow_t4")
+    {
+        Ranged("70-98");
+    }
+	Damage("swiftshot_bow_t5")
+    {
+        Ranged("117-160");
+    }
+	Damage("swiftshot_bow_t6")
+    {
+        Ranged("183-237");
+    }
+	Damage("swiftshot_bow_t7")
+    {
+        Ranged("284-384");
+    }
+	Damage("swiftshot_bow_t8")
+    {
+        Ranged("474-565");
+    }
+	Damage("swiftshot_bow_t9")
+    {
+        Ranged("695-949");
+    }
+	Damage("swiftshot_bow_t1_low")
+    {
+        Ranged("7");
+    }
+	Damage("swiftshot_bow_t2_low")
+    {
+		Ranged("11");
+    }
+	Damage("swiftshot_bow_t3_low")
+    {
+        Ranged("15");
+    }
+	Damage("swiftshot_bow_t4_low")
+    {
+        Ranged("22");
+    }
+	Damage("swiftshot_bow_t5_low")
+    {
+        Ranged("30");
+    }
+	Damage("swiftshot_bow_t6_low")
+    {
+        Ranged("40");
+    }
+	Damage("swiftshot_bow_t7_low")
+    {
+        Ranged("52");
+    }
+	Damage("swiftshot_bow_t8_low")
+    {
+        Ranged("85");
+    }
+	Damage("swiftshot_bow_t9_low")
+    {
+        Ranged("105");
+    }
+	
+	Damage("powerdraw_bow_t0")
+    {
+        Ranged("25");
+    }
+	
+	Damage("powerdraw_bow_t1")
+    {
+        Ranged("26-34");
+    }
+	Damage("powerdraw_bow_t2")
+    {
+		Ranged("38-50");
+    }
+	Damage("powerdraw_bow_t3")
+    {
+        Ranged("58-76");
+    }
+	Damage("powerdraw_bow_t4")
+    {
+        Ranged("90-118");
+    }
+	Damage("powerdraw_bow_t5")
+    {
+        Ranged("137-180");
+    }
+	Damage("powerdraw_bow_t6")
+    {
+        Ranged("203-267");
+    }
+	Damage("powerdraw_bow_t7")
+    {
+        Ranged("314-414");
+    }
+	Damage("powerdraw_bow_t8")
+    {
+        Ranged("504-665");
+    }
+	Damage("powerdraw_bow_t9")
+    {
+        Ranged("795-1049");
+    }
+	
+	Damage("powerdraw_bow_t0_low")
+    {
+        Ranged("15");
+    }
+	Damage("powerdraw_bow_t1_low")
+    {
+        Ranged("20");
+    }
+	Damage("powerdraw_bow_t2_low")
+    {
+		Ranged("24");
+    }
+	Damage("powerdraw_bow_t3_low")
+    {
+        Ranged("29");
+    }
+	Damage("powerdraw_bow_t4_low")
+    {
+        Ranged("39");
+    }
+	Damage("powerdraw_bow_t5_low")
+    {
+        Ranged("50");
+    }
+	Damage("powerdraw_bow_t6_low")
+    {
+        Ranged("60");
+    }
+	Damage("powerdraw_bow_t7_low")
+    {
+        Ranged("82");
+    }
+	Damage("powerdraw_bow_t8_low")
+    {
+        Ranged("111");
+    }
+	Damage("powerdraw_bow_t9_low")
+    {
+        Ranged("146");
+    }
+
+///////////////////////////////THROWABLES
+	
+	Damage("throwable_gasbomb_splash")
+    {
+        Fire("15");
+    }
+	
+	Damage("gasbomb")
+    {
+        Fire("75-204");
+    }
+	
+	Damage("throwable_firebomb_splash")
+    {
+        Fire("10");
+    }
+	
+	Damage("firebomb")
+    {
+        Fire("46-105");
+    }
+	
+	Damage("throwable_firebomb_splash_AI")
+    {
+        Fire("4");
+    }
+	
+	Damage("firebomb_AI")
+    {
+        Fire("16-55");
+    }
+
+/////////////////////////////////////FLAMETHROWER
+
+	Damage("flamethrower_splash_broken")
+    {
+        Fire("25-100");
+    }
+	
+	Damage("flamethrower_dmg_broken")
+    {
+        Fire("25-75");
+    }
+	
+	Damage("flamethrower_splash_weak")
+    {
+        Fire("25-100");
+    }
+	
+	Damage("flamethrower_dmg_weak")
+    {
+        Fire("75-200");
+    }
+	
+	Damage("flamethrower_splash")
+    {
+        Fire("25-100");
+    }
+	
+	Damage("flamethrower_dmg")
+    {
+        Fire("175-200");
+    }
+	
+	Damage("flamethrower_splash_wb")
+    {
+        Fire("25-100");
+    }
+	
+	Damage("flamethrower_dmg_wb")
+    {
+        Fire("175-700");
+    }
+
+////////////////////////////////////////RANGED
+	
+	Damage("survivor_bow_t1")
+    {
+        Ranged("15%-20% of MaxHealth");
+    }
+	Damage("survivor_bow_t2")
+    {
+		Ranged("15%-25% of MaxHealth");
+    }
+	Damage("survivor_bow_t3")
+    {
+        Ranged("15%-25% of MaxHealth");
+    }
+	Damage("survivor_bow_t4")
+    {
+        Ranged("15%-27% of MaxHealth");
+    }
+	
+	Damage("pk_bow_t1")
+    {
+        Ranged("20%-25% of MaxHealth");
+    }
+	Damage("pk_bow_t2")
+    {
+		Ranged("20%-25% of MaxHealth");
+    }
+	Damage("pk_bow_t3")
+    {
+        Ranged("22%-25% of MaxHealth");
+    }
+	Damage("pk_bow_t4")
+    {
+        Ranged("22%-27% of MaxHealth");
+    }
+	Damage("pk_bow_t5")
+    {
+        Ranged("25%-30% of MaxHealth");
+    }
+	Damage("pk_bow_t6")
+    {
+        Ranged("25%-35% of MaxHealth");
+    }
+	Damage("pk_bow_t7")
+    {
+        Ranged("30%-40% of MaxHealth");
+    }
+	Damage("pk_bow_t8")
+    {
+        Ranged("35%-45% of MaxHealth");
+    }
+	Damage("pk_bow_t9")
+    {
+        Ranged("55%-65% of MaxHealth");
+    }
+	
+    DamageResistance("Infected_Drowning_Resistance")
+    {
+		Drowning("100%");
+    }
+	
+	Damage("IALR_Hag_Spit")
+	{
+		Physical("40% of MaxHealth");
+	}
+
+    DamageMul("AI_Vampire")
+    {
+        Physical("+1.5");
+    }
+
+    DamageMul("Vampire_Mul_VS_AI")
+    {
+        Physical("+3.0");
+    }
+	
+	Damage("IALR_Volatile_Spit")
+	{
+		Physical("60% of MaxHealth");
+	}
+	
+	Damage("IALR_Volatile_Tyrant_Spit")
+	{
+		Physical("80% of MaxHealth");
+	}
+	
+	Damage("IALR_Volatile_Tyrant_Fists")
+	{
+		Physical("180");
+	}
+	
+	DamageTotalMul("Weak_Can_O_Beer_DamageBuff")
+    {
+        All("1.1");
+    }
+
+    DamageResistance("Weak_Can_O_Beer_DamageReduction")
+    {
+        All("2%");
+    }
+	
+	DamageTotalMul("Can_O_Beer_DamageBuff")
+    {
+        All("1.2");
+    }
+
+    DamageResistance("Can_O_Beer_DamageReduction")
+    {
+        All("10%");
+    }
+	
+	DamageTotalMul("Weak_Wine_DamageBuff")
+    {
+        All("1.2");
+    }
+
+    DamageResistance("Weak_Wine_DamageReduction")
+    {
+        All("6%");
+    }
+	
+	DamageTotalMul("Wine_DamageBuff")
+    {
+        All("1.4");
+    }
+
+    DamageResistance("Wine_DamageReduction")
+    {
+        All("15%");
+    }
+	
+	DamageTotalMul("Vodka_DamageBuff")
+    {
+        All("1.7");
+    }
+
+    DamageResistance("Vodka_DamageReduction")
+    {
+        All("20%");
+    }
+	
+	DamageTotalMul("Weak_Vodka_DamageBuff")
+    {
+        All("1.3");
+    }
+
+    DamageResistance("Weak_Vodka_DamageReduction")
+    {
+        All("10%");
+    }
+	
+	DamageTotalMul("Whiskey_DamageBuff")
+    {
+        All("1.8");
+    }
+
+    DamageResistance("Whiskey_DamageReduction")
+    {
+        All("25%");
+    }
+	
+	DamageTotalMul("Weak_Whiskey_DamageBuff")
+    {
+        All("1.4");
+    }
+
+    DamageResistance("Weak_Whiskey_DamageReduction")
+    {
+        All("15%");
+    }
+}

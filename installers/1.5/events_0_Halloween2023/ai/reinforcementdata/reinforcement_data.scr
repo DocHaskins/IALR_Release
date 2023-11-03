@@ -1,0 +1,914 @@
+import "ial_settings.mth"
+
+////IALR\\\\
+////Screamer
+bool Screamer_Force_Player_Target = IALR_Screamer_Force_Player_Target;
+float Screamer_Chance_To_Spawn = IALR_Screamer_Chance_To_Spawn;
+float Screamer_Spawn_Initial_Delay = IALR_Screamer_Spawn_Initial_Delay;
+float Screamer_Spawn_Cooldown = IALR_Screamer_Spawn_Cooldown;
+
+string Screamer_SpawnType01 = IALR_Screamer_SpawnType01;
+string Screamer_SpawnType02 = IALR_Screamer_SpawnType02;
+string Screamer_SpawnType03 = IALR_Screamer_SpawnType03;
+string Screamer_SpawnType04 = IALR_Screamer_SpawnType04;
+string Screamer_SpawnType05 = IALR_Screamer_SpawnType05;
+string Screamer_SpawnType06 = IALR_Screamer_SpawnType06;
+string Screamer_SpawnType07 = IALR_Screamer_SpawnType07;
+string Screamer_SpawnType08 = IALR_Screamer_SpawnType08;
+string Screamer_SpawnType09 = IALR_Screamer_SpawnType09;
+string Screamer_SpawnType10 = IALR_Screamer_SpawnType10;
+string Screamer_SpawnType11 = IALR_Screamer_SpawnType11;
+string Screamer_SpawnType12 = IALR_Screamer_SpawnType12;
+string Screamer_SpawnType13 = IALR_Screamer_SpawnType13;
+string Screamer_SpawnType14 = IALR_Screamer_SpawnType14;
+string Screamer_SpawnType15 = IALR_Screamer_SpawnType15;
+string Screamer_SpawnType16 = IALR_Screamer_SpawnType16;
+string Screamer_SpawnType17 = IALR_Screamer_SpawnType17;
+string Screamer_SpawnType18 = IALR_Screamer_SpawnType18;
+string Screamer_SpawnType19 = IALR_Screamer_SpawnType19;
+string Screamer_SpawnType20 = IALR_Screamer_SpawnType20;
+
+int Screamer_SpawnType01_Count_Min = IALR_Screamer_SpawnType01_Count_Min;
+int Screamer_SpawnType01_Count_Max = IALR_Screamer_SpawnType01_Count_Max;
+int Screamer_SpawnType02_Count_Min = IALR_Screamer_SpawnType02_Count_Min;
+int Screamer_SpawnType02_Count_Max = IALR_Screamer_SpawnType02_Count_Max;
+int Screamer_SpawnType03_Count_Min = IALR_Screamer_SpawnType03_Count_Min;
+int Screamer_SpawnType03_Count_Max = IALR_Screamer_SpawnType03_Count_Max;
+int Screamer_SpawnType04_Count_Min = IALR_Screamer_SpawnType04_Count_Min;
+int Screamer_SpawnType04_Count_Max = IALR_Screamer_SpawnType04_Count_Max;
+int Screamer_SpawnType05_Count_Min = IALR_Screamer_SpawnType05_Count_Min;
+int Screamer_SpawnType05_Count_Max = IALR_Screamer_SpawnType05_Count_Max;
+int Screamer_SpawnType06_Count_Min = IALR_Screamer_SpawnType06_Count_Min;
+int Screamer_SpawnType06_Count_Max = IALR_Screamer_SpawnType06_Count_Max;
+int Screamer_SpawnType07_Count_Min = IALR_Screamer_SpawnType07_Count_Min;
+int Screamer_SpawnType07_Count_Max = IALR_Screamer_SpawnType07_Count_Max;
+int Screamer_SpawnType08_Count_Min = IALR_Screamer_SpawnType08_Count_Min;
+int Screamer_SpawnType08_Count_Max = IALR_Screamer_SpawnType08_Count_Max;
+int Screamer_SpawnType09_Count_Min = IALR_Screamer_SpawnType09_Count_Min;
+int Screamer_SpawnType09_Count_Max = IALR_Screamer_SpawnType09_Count_Max;
+int Screamer_SpawnType10_Count_Min = IALR_Screamer_SpawnType10_Count_Min;
+int Screamer_SpawnType10_Count_Max = IALR_Screamer_SpawnType10_Count_Max;
+int Screamer_SpawnType11_Count_Min = IALR_Screamer_SpawnType11_Count_Min;
+int Screamer_SpawnType11_Count_Max = IALR_Screamer_SpawnType11_Count_Max;
+int Screamer_SpawnType12_Count_Min = IALR_Screamer_SpawnType12_Count_Min;
+int Screamer_SpawnType12_Count_Max = IALR_Screamer_SpawnType12_Count_Max;
+int Screamer_SpawnType13_Count_Min = IALR_Screamer_SpawnType13_Count_Min;
+int Screamer_SpawnType13_Count_Max = IALR_Screamer_SpawnType13_Count_Max;
+int Screamer_SpawnType14_Count_Min = IALR_Screamer_SpawnType14_Count_Min;
+int Screamer_SpawnType14_Count_Max = IALR_Screamer_SpawnType14_Count_Max;
+int Screamer_SpawnType15_Count_Min = IALR_Screamer_SpawnType15_Count_Min;
+int Screamer_SpawnType15_Count_Max = IALR_Screamer_SpawnType15_Count_Max;
+int Screamer_SpawnType16_Count_Min = IALR_Screamer_SpawnType16_Count_Min;
+int Screamer_SpawnType16_Count_Max = IALR_Screamer_SpawnType16_Count_Max;
+int Screamer_SpawnType17_Count_Min = IALR_Screamer_SpawnType17_Count_Min;
+int Screamer_SpawnType17_Count_Max = IALR_Screamer_SpawnType17_Count_Max;
+int Screamer_SpawnType18_Count_Min = IALR_Screamer_SpawnType18_Count_Min;
+int Screamer_SpawnType18_Count_Max = IALR_Screamer_SpawnType18_Count_Max;
+int Screamer_SpawnType19_Count_Min = IALR_Screamer_SpawnType19_Count_Min;
+int Screamer_SpawnType19_Count_Max = IALR_Screamer_SpawnType19_Count_Max;
+int Screamer_SpawnType20_Count_Min = IALR_Screamer_SpawnType20_Count_Min;
+int Screamer_SpawnType20_Count_Max = IALR_Screamer_SpawnType20_Count_Max;
+
+////Chase
+bool Chase_Force_Player_Target = IALR_Chase_Force_Player_Target;
+float Chase_Chance_To_Spawn = IALR_Chase_Chance_To_Spawn;
+float Chase_Spawn_Initial_Delay = IALR_Chase_Spawn_Initial_Delay;
+float Chase_Spawn_Cooldown = IALR_Chase_Spawn_Cooldown;
+string Chase_SpawnType01 = IALR_Chase_SpawnType01;
+string Chase_SpawnType02 = IALR_Chase_SpawnType02;
+string Chase_SpawnType03 = IALR_Chase_SpawnType03;
+string Chase_SpawnType04 = IALR_Chase_SpawnType04;
+string Chase_SpawnType05 = IALR_Chase_SpawnType05;
+string Chase_SpawnType06 = IALR_Chase_SpawnType06;
+string Chase_SpawnType07 = IALR_Chase_SpawnType07;
+string Chase_SpawnType08 = IALR_Chase_SpawnType08;
+string Chase_SpawnType09 = IALR_Chase_SpawnType09;
+string Chase_SpawnType10 = IALR_Chase_SpawnType10;
+
+int Chase_SpawnType01_Count_Min = IALR_Chase_SpawnType01_Count_Min;
+int Chase_SpawnType01_Count_Max = IALR_Chase_SpawnType01_Count_Max;
+int Chase_SpawnType02_Count_Min = IALR_Chase_SpawnType02_Count_Min;
+int Chase_SpawnType02_Count_Max = IALR_Chase_SpawnType02_Count_Max;
+int Chase_SpawnType03_Count_Min = IALR_Chase_SpawnType03_Count_Min;
+int Chase_SpawnType03_Count_Max = IALR_Chase_SpawnType03_Count_Max;
+int Chase_SpawnType04_Count_Min = IALR_Chase_SpawnType04_Count_Min;
+int Chase_SpawnType04_Count_Max = IALR_Chase_SpawnType04_Count_Max;
+int Chase_SpawnType05_Count_Min = IALR_Chase_SpawnType05_Count_Min;
+int Chase_SpawnType05_Count_Max = IALR_Chase_SpawnType05_Count_Max;
+int Chase_SpawnType06_Count_Min = IALR_Chase_SpawnType06_Count_Min;
+int Chase_SpawnType06_Count_Max = IALR_Chase_SpawnType06_Count_Max;
+int Chase_SpawnType07_Count_Min = IALR_Chase_SpawnType07_Count_Min;
+int Chase_SpawnType07_Count_Max = IALR_Chase_SpawnType07_Count_Max;
+int Chase_SpawnType08_Count_Min = IALR_Chase_SpawnType08_Count_Min;
+int Chase_SpawnType08_Count_Max = IALR_Chase_SpawnType08_Count_Max;
+int Chase_SpawnType09_Count_Min = IALR_Chase_SpawnType09_Count_Min;
+int Chase_SpawnType09_Count_Max = IALR_Chase_SpawnType09_Count_Max;
+int Chase_SpawnType10_Count_Min = IALR_Chase_SpawnType10_Count_Min;
+int Chase_SpawnType10_Count_Max = IALR_Chase_SpawnType10_Count_Max;
+
+////Volatile
+bool Volatile_Force_Player_Target = IALR_Volatile_Force_Player_Target;
+float Volatile_Chance_To_Spawn = IALR_Volatile_Chance_To_Spawn;
+float Volatile_Spawn_Initial_Delay = IALR_Volatile_Spawn_Initial_Delay;
+float Volatile_Spawn_Cooldown = IALR_Volatile_Spawn_Cooldown;
+string Volatile_SpawnType01 = IALR_Volatile_SpawnType01;
+string Volatile_SpawnType02 = IALR_Volatile_SpawnType02;
+string Volatile_SpawnType03 = IALR_Volatile_SpawnType03;
+string Volatile_SpawnType04 = IALR_Volatile_SpawnType04;
+string Volatile_SpawnType05 = IALR_Volatile_SpawnType05;
+string Volatile_SpawnType06 = IALR_Volatile_SpawnType06;
+string Volatile_SpawnType07 = IALR_Volatile_SpawnType07;
+string Volatile_SpawnType08 = IALR_Volatile_SpawnType08;
+string Volatile_SpawnType09 = IALR_Volatile_SpawnType09;
+string Volatile_SpawnType10 = IALR_Volatile_SpawnType10;
+
+int Volatile_SpawnType01_Count_Min = IALR_Volatile_SpawnType01_Count_Min;
+int Volatile_SpawnType01_Count_Max = IALR_Volatile_SpawnType01_Count_Max;
+int Volatile_SpawnType02_Count_Min = IALR_Volatile_SpawnType02_Count_Min;
+int Volatile_SpawnType02_Count_Max = IALR_Volatile_SpawnType02_Count_Max;
+int Volatile_SpawnType03_Count_Min = IALR_Volatile_SpawnType03_Count_Min;
+int Volatile_SpawnType03_Count_Max = IALR_Volatile_SpawnType03_Count_Max;
+int Volatile_SpawnType04_Count_Min = IALR_Volatile_SpawnType04_Count_Min;
+int Volatile_SpawnType04_Count_Max = IALR_Volatile_SpawnType04_Count_Max;
+int Volatile_SpawnType05_Count_Min = IALR_Volatile_SpawnType05_Count_Min;
+int Volatile_SpawnType05_Count_Max = IALR_Volatile_SpawnType05_Count_Max;
+int Volatile_SpawnType06_Count_Min = IALR_Volatile_SpawnType06_Count_Min;
+int Volatile_SpawnType06_Count_Max = IALR_Volatile_SpawnType06_Count_Max;
+int Volatile_SpawnType07_Count_Min = IALR_Volatile_SpawnType07_Count_Min;
+int Volatile_SpawnType07_Count_Max = IALR_Volatile_SpawnType07_Count_Max;
+int Volatile_SpawnType08_Count_Min = IALR_Volatile_SpawnType08_Count_Min;
+int Volatile_SpawnType08_Count_Max = IALR_Volatile_SpawnType08_Count_Max;
+int Volatile_SpawnType09_Count_Min = IALR_Volatile_SpawnType09_Count_Min;
+int Volatile_SpawnType09_Count_Max = IALR_Volatile_SpawnType09_Count_Max;
+int Volatile_SpawnType10_Count_Min = IALR_Volatile_SpawnType10_Count_Min;
+int Volatile_SpawnType10_Count_Max = IALR_Volatile_SpawnType10_Count_Max;
+
+////World Spawners - Day
+bool Day_Hunter_Force_Player_Target = IALR_Day_Hunter_Force_Player_Target;
+float Day_Hunter_Chance_To_Spawn = IALR_Day_Hunter_Chance_To_Spawn;
+float Day_Hunter_Spawn_Initial_Delay = IALR_Day_Hunter_Spawn_Initial_Delay;
+float Day_Hunter_Spawn_Cooldown = IALR_Day_Hunter_Spawn_Cooldown;
+
+string Day_Hunter_SpawnType01 = IALR_Day_Hunter_SpawnType01;
+string Day_Hunter_SpawnType02 = IALR_Day_Hunter_SpawnType02;
+string Day_Hunter_SpawnType03 = IALR_Day_Hunter_SpawnType03;
+string Day_Hunter_SpawnType04 = IALR_Day_Hunter_SpawnType04;
+string Day_Hunter_SpawnType05 = IALR_Day_Hunter_SpawnType05;
+string Day_Hunter_SpawnType06 = IALR_Day_Hunter_SpawnType06;
+string Day_Hunter_SpawnType07 = IALR_Day_Hunter_SpawnType07;
+string Day_Hunter_SpawnType08 = IALR_Day_Hunter_SpawnType08;
+string Day_Hunter_SpawnType09 = IALR_Day_Hunter_SpawnType09;
+string Day_Hunter_SpawnType10 = IALR_Day_Hunter_SpawnType10;
+string Day_Hunter_SpawnType11 = IALR_Day_Hunter_SpawnType11;
+string Day_Hunter_SpawnType12 = IALR_Day_Hunter_SpawnType12;
+string Day_Hunter_SpawnType13 = IALR_Day_Hunter_SpawnType13;
+string Day_Hunter_SpawnType14 = IALR_Day_Hunter_SpawnType14;
+string Day_Hunter_SpawnType15 = IALR_Day_Hunter_SpawnType15;
+string Day_Hunter_SpawnType16 = IALR_Day_Hunter_SpawnType16;
+string Day_Hunter_SpawnType17 = IALR_Day_Hunter_SpawnType17;
+string Day_Hunter_SpawnType18 = IALR_Day_Hunter_SpawnType18;
+string Day_Hunter_SpawnType19 = IALR_Day_Hunter_SpawnType19;
+string Day_Hunter_SpawnType20 = IALR_Day_Hunter_SpawnType20;
+
+int Day_Hunter_SpawnType01_Count_Min = IALR_Day_Hunter_SpawnType01_Count_Min;
+int Day_Hunter_SpawnType01_Count_Max = IALR_Day_Hunter_SpawnType01_Count_Max;
+int Day_Hunter_SpawnType02_Count_Min = IALR_Day_Hunter_SpawnType02_Count_Min;
+int Day_Hunter_SpawnType02_Count_Max = IALR_Day_Hunter_SpawnType02_Count_Max;
+int Day_Hunter_SpawnType03_Count_Min = IALR_Day_Hunter_SpawnType03_Count_Min;
+int Day_Hunter_SpawnType03_Count_Max = IALR_Day_Hunter_SpawnType03_Count_Max;
+int Day_Hunter_SpawnType04_Count_Min = IALR_Day_Hunter_SpawnType04_Count_Min;
+int Day_Hunter_SpawnType04_Count_Max = IALR_Day_Hunter_SpawnType04_Count_Max;
+int Day_Hunter_SpawnType05_Count_Min = IALR_Day_Hunter_SpawnType05_Count_Min;
+int Day_Hunter_SpawnType05_Count_Max = IALR_Day_Hunter_SpawnType05_Count_Max;
+int Day_Hunter_SpawnType06_Count_Min = IALR_Day_Hunter_SpawnType06_Count_Min;
+int Day_Hunter_SpawnType06_Count_Max = IALR_Day_Hunter_SpawnType06_Count_Max;
+int Day_Hunter_SpawnType07_Count_Min = IALR_Day_Hunter_SpawnType07_Count_Min;
+int Day_Hunter_SpawnType07_Count_Max = IALR_Day_Hunter_SpawnType07_Count_Max;
+int Day_Hunter_SpawnType08_Count_Min = IALR_Day_Hunter_SpawnType08_Count_Min;
+int Day_Hunter_SpawnType08_Count_Max = IALR_Day_Hunter_SpawnType08_Count_Max;
+int Day_Hunter_SpawnType09_Count_Min = IALR_Day_Hunter_SpawnType09_Count_Min;
+int Day_Hunter_SpawnType09_Count_Max = IALR_Day_Hunter_SpawnType09_Count_Max;
+int Day_Hunter_SpawnType10_Count_Min = IALR_Day_Hunter_SpawnType10_Count_Min;
+int Day_Hunter_SpawnType10_Count_Max = IALR_Day_Hunter_SpawnType10_Count_Max;
+int Day_Hunter_SpawnType11_Count_Min = IALR_Day_Hunter_SpawnType11_Count_Min;
+int Day_Hunter_SpawnType11_Count_Max = IALR_Day_Hunter_SpawnType11_Count_Max;
+int Day_Hunter_SpawnType12_Count_Min = IALR_Day_Hunter_SpawnType12_Count_Min;
+int Day_Hunter_SpawnType12_Count_Max = IALR_Day_Hunter_SpawnType12_Count_Max;
+int Day_Hunter_SpawnType13_Count_Min = IALR_Day_Hunter_SpawnType13_Count_Min;
+int Day_Hunter_SpawnType13_Count_Max = IALR_Day_Hunter_SpawnType13_Count_Max;
+int Day_Hunter_SpawnType14_Count_Min = IALR_Day_Hunter_SpawnType14_Count_Min;
+int Day_Hunter_SpawnType14_Count_Max = IALR_Day_Hunter_SpawnType14_Count_Max;
+int Day_Hunter_SpawnType15_Count_Min = IALR_Day_Hunter_SpawnType15_Count_Min;
+int Day_Hunter_SpawnType15_Count_Max = IALR_Day_Hunter_SpawnType15_Count_Max;
+int Day_Hunter_SpawnType16_Count_Min = IALR_Day_Hunter_SpawnType16_Count_Min;
+int Day_Hunter_SpawnType16_Count_Max = IALR_Day_Hunter_SpawnType16_Count_Max;
+int Day_Hunter_SpawnType17_Count_Min = IALR_Day_Hunter_SpawnType17_Count_Min;
+int Day_Hunter_SpawnType17_Count_Max = IALR_Day_Hunter_SpawnType17_Count_Max;
+int Day_Hunter_SpawnType18_Count_Min = IALR_Day_Hunter_SpawnType18_Count_Min;
+int Day_Hunter_SpawnType18_Count_Max = IALR_Day_Hunter_SpawnType18_Count_Max;
+int Day_Hunter_SpawnType19_Count_Min = IALR_Day_Hunter_SpawnType19_Count_Min;
+int Day_Hunter_SpawnType19_Count_Max = IALR_Day_Hunter_SpawnType19_Count_Max;
+int Day_Hunter_SpawnType20_Count_Min = IALR_Day_Hunter_SpawnType20_Count_Min;
+int Day_Hunter_SpawnType20_Count_Max = IALR_Day_Hunter_SpawnType20_Count_Max;
+
+////World Spawners - Night
+bool Night_Hunter_Force_Player_Target = IALR_Night_Hunter_Force_Player_Target;
+float Night_Hunter_Chance_To_Spawn = IALR_Night_Hunter_Chance_To_Spawn;
+float Night_Hunter_Spawn_Initial_Delay = IALR_Night_Hunter_Spawn_Initial_Delay;
+float Night_Hunter_Spawn_Cooldown = IALR_Night_Hunter_Spawn_Cooldown;
+
+string Night_Hunter_SpawnType01 = IALR_Night_Hunter_SpawnType01;
+string Night_Hunter_SpawnType02 = IALR_Night_Hunter_SpawnType02;
+string Night_Hunter_SpawnType03 = IALR_Night_Hunter_SpawnType03;
+string Night_Hunter_SpawnType04 = IALR_Night_Hunter_SpawnType04;
+string Night_Hunter_SpawnType05 = IALR_Night_Hunter_SpawnType05;
+string Night_Hunter_SpawnType06 = IALR_Night_Hunter_SpawnType06;
+string Night_Hunter_SpawnType07 = IALR_Night_Hunter_SpawnType07;
+string Night_Hunter_SpawnType08 = IALR_Night_Hunter_SpawnType08;
+string Night_Hunter_SpawnType09 = IALR_Night_Hunter_SpawnType09;
+string Night_Hunter_SpawnType10 = IALR_Night_Hunter_SpawnType10;
+string Night_Hunter_SpawnType11 = IALR_Night_Hunter_SpawnType11;
+string Night_Hunter_SpawnType12 = IALR_Night_Hunter_SpawnType12;
+string Night_Hunter_SpawnType13 = IALR_Night_Hunter_SpawnType13;
+string Night_Hunter_SpawnType14 = IALR_Night_Hunter_SpawnType14;
+string Night_Hunter_SpawnType15 = IALR_Night_Hunter_SpawnType15;
+string Night_Hunter_SpawnType16 = IALR_Night_Hunter_SpawnType16;
+string Night_Hunter_SpawnType17 = IALR_Night_Hunter_SpawnType17;
+string Night_Hunter_SpawnType18 = IALR_Night_Hunter_SpawnType18;
+string Night_Hunter_SpawnType19 = IALR_Night_Hunter_SpawnType19;
+string Night_Hunter_SpawnType20 = IALR_Night_Hunter_SpawnType20;
+
+int Night_Hunter_SpawnType01_Count_Min = IALR_Night_Hunter_SpawnType01_Count_Min;
+int Night_Hunter_SpawnType01_Count_Max = IALR_Night_Hunter_SpawnType01_Count_Max;
+int Night_Hunter_SpawnType02_Count_Min = IALR_Night_Hunter_SpawnType02_Count_Min;
+int Night_Hunter_SpawnType02_Count_Max = IALR_Night_Hunter_SpawnType02_Count_Max;
+int Night_Hunter_SpawnType03_Count_Min = IALR_Night_Hunter_SpawnType03_Count_Min;
+int Night_Hunter_SpawnType03_Count_Max = IALR_Night_Hunter_SpawnType03_Count_Max;
+int Night_Hunter_SpawnType04_Count_Min = IALR_Night_Hunter_SpawnType04_Count_Min;
+int Night_Hunter_SpawnType04_Count_Max = IALR_Night_Hunter_SpawnType04_Count_Max;
+int Night_Hunter_SpawnType05_Count_Min = IALR_Night_Hunter_SpawnType05_Count_Min;
+int Night_Hunter_SpawnType05_Count_Max = IALR_Night_Hunter_SpawnType05_Count_Max;
+int Night_Hunter_SpawnType06_Count_Min = IALR_Night_Hunter_SpawnType06_Count_Min;
+int Night_Hunter_SpawnType06_Count_Max = IALR_Night_Hunter_SpawnType06_Count_Max;
+int Night_Hunter_SpawnType07_Count_Min = IALR_Night_Hunter_SpawnType07_Count_Min;
+int Night_Hunter_SpawnType07_Count_Max = IALR_Night_Hunter_SpawnType07_Count_Max;
+int Night_Hunter_SpawnType08_Count_Min = IALR_Night_Hunter_SpawnType08_Count_Min;
+int Night_Hunter_SpawnType08_Count_Max = IALR_Night_Hunter_SpawnType08_Count_Max;
+int Night_Hunter_SpawnType09_Count_Min = IALR_Night_Hunter_SpawnType09_Count_Min;
+int Night_Hunter_SpawnType09_Count_Max = IALR_Night_Hunter_SpawnType09_Count_Max;
+int Night_Hunter_SpawnType10_Count_Min = IALR_Night_Hunter_SpawnType10_Count_Min;
+int Night_Hunter_SpawnType10_Count_Max = IALR_Night_Hunter_SpawnType10_Count_Max;
+int Night_Hunter_SpawnType11_Count_Min = IALR_Night_Hunter_SpawnType11_Count_Min;
+int Night_Hunter_SpawnType11_Count_Max = IALR_Night_Hunter_SpawnType11_Count_Max;
+int Night_Hunter_SpawnType12_Count_Min = IALR_Night_Hunter_SpawnType12_Count_Min;
+int Night_Hunter_SpawnType12_Count_Max = IALR_Night_Hunter_SpawnType12_Count_Max;
+int Night_Hunter_SpawnType13_Count_Min = IALR_Night_Hunter_SpawnType13_Count_Min;
+int Night_Hunter_SpawnType13_Count_Max = IALR_Night_Hunter_SpawnType13_Count_Max;
+int Night_Hunter_SpawnType14_Count_Min = IALR_Night_Hunter_SpawnType14_Count_Min;
+int Night_Hunter_SpawnType14_Count_Max = IALR_Night_Hunter_SpawnType14_Count_Max;
+int Night_Hunter_SpawnType15_Count_Min = IALR_Night_Hunter_SpawnType15_Count_Min;
+int Night_Hunter_SpawnType15_Count_Max = IALR_Night_Hunter_SpawnType15_Count_Max;
+int Night_Hunter_SpawnType16_Count_Min = IALR_Night_Hunter_SpawnType16_Count_Min;
+int Night_Hunter_SpawnType16_Count_Max = IALR_Night_Hunter_SpawnType16_Count_Max;
+int Night_Hunter_SpawnType17_Count_Min = IALR_Night_Hunter_SpawnType17_Count_Min;
+int Night_Hunter_SpawnType17_Count_Max = IALR_Night_Hunter_SpawnType17_Count_Max;
+int Night_Hunter_SpawnType18_Count_Min = IALR_Night_Hunter_SpawnType18_Count_Min;
+int Night_Hunter_SpawnType18_Count_Max = IALR_Night_Hunter_SpawnType18_Count_Max;
+int Night_Hunter_SpawnType19_Count_Min = IALR_Night_Hunter_SpawnType19_Count_Min;
+int Night_Hunter_SpawnType19_Count_Max = IALR_Night_Hunter_SpawnType19_Count_Max;
+int Night_Hunter_SpawnType20_Count_Min = IALR_Night_Hunter_SpawnType20_Count_Min;
+int Night_Hunter_SpawnType20_Count_Max = IALR_Night_Hunter_SpawnType20_Count_Max;
+
+
+string Category_Human = "human";
+string Category_Infected = "infected";
+string Category_Periodic = "periodic";
+
+sub ReinforcementSpawnPresets()
+{
+    // ReinforcementSpawnPreset([name_of_reinforcement_preset], [category_name]) - definition of reinforcement preset 
+    // - spawn([ai_preset_name], [min_amount], [max_amount]) - adds specific preset amount to both day and night spawns
+    // - spawn_day([ai_preset_name], [min_amount], [max_amount]) - adds specific preset amount to day-only spawns
+    // - spawn_night([ai_preset_name], [min_amount], [max_amount]) - adds specific preset amount to night-only spawns
+    // - probability([float_probability]) - probability value between 0.0 and 1.0 - chance for spawning any reinforcements (evaluated on every game event)
+    // - category_cooldown([float_time_delta]) - applied minimum cooldown time delta to all other reinforcements of the same category
+    // - first_spawn_delay([float_time_delta]) - minimum time delta between game event and the first spawn
+    // - spawn_delay([float_time_delta]) - minimum time delta between every next spawn
+    // - preferred_spawn_distance([float_distance]) -  specifies preferred distance of used spawn points to source game event position
+    // - use_human_spawn_points([bool]) - should be set to true for every human reinforcement
+    // - force_player_target([bool]) - if set to true, spawned AIs would try to approach the player directly, otherwise AIs would try to approach source game event position
+    // - show_icon_at_source_position([bool]) - if set to true, icon location would be visible in the position of source game event position
+    // - audio_event_name([name_of_audio_event]) - specifies name of audio event that should be played once before scheduled spawns
+
+    ReinforcementSpawnPreset("Default_Human", Category_Human)
+    {
+        spawn("Renegade_One_Handed", 1, 2);
+        spawn("Renegade_Two_Handed", 0, 1);
+        spawn("Renegade_Bow", 0, 1);
+        spawn("Renegade_Spear", 0, 1);
+        spawn("Renegade_Grenadier", 0, 1);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(3.0);
+        spawn_delay(0.5);
+        use_human_spawn_points(true);
+    }
+    ReinforcementSpawnPreset("Default_Infected", Category_Infected)
+    {
+        spawn_day("Viral_Chase", 1, 3);
+        spawn_day("Viral_Chase_Woman", 1, 2);
+        spawn_night("Viral_Chase", 1, 3);
+        probability(0.75);
+        category_cooldown(10.0);
+        first_spawn_delay(10.0);
+        spawn_delay(0.5);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("CarTrap_Infected", Category_Infected)
+    {
+        spawn_day("Viral_Chase", 0, 2);
+        spawn_day("Viral_Chase_Woman", 0, 1);
+        spawn_day("Viral_Armored", 0, 1);
+        spawn_day("Viral_Electrobox", 0, 1);
+        spawn_night("Volatile_Patrol", 1, 2);
+        probability(0.25);
+        category_cooldown(10.0);
+        first_spawn_delay(30.0);
+        spawn_delay(0.5);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("DarkZone_Infected", Category_Infected)
+    {
+        spawn("Viral_Chase", 2, 3);
+        spawn("Viral_Chase_Woman", 0, 2);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(5.0);
+        spawn_delay(0.5);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("ScreamDay_Infected", Category_Infected)
+    {
+        spawn_day("Viral_Chase", 0, 2);
+        spawn_day("Viral_Chase_Woman", 0, 2);
+        spawn_day("Viral_Armored", 0, 1);
+        spawn_day("Viral_Electrobox", 0, 1);
+        probability(1.0);
+        category_cooldown(8.0);
+        first_spawn_delay(3.5);
+        spawn_delay(0.5);
+        //show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Bait_Infected", Category_Infected)
+    {
+        spawn("Viral_Chase", 2, 3);
+        spawn("Viral_Chase_Woman", 0, 2);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(10.0);
+        spawn_delay(0.5);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Default_MeatBait", Category_Infected)
+    {
+        spawn("Biter", 1, 4);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(2.0);
+        spawn_delay(0.5);
+        preferred_spawn_distance(0.0);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("periodic_viral_spawn", Category_Periodic)
+    {
+        spawn_day("Viral", 0, 2);
+        spawn_day("Viral_Chase_Woman", 0, 1);
+        spawn_day("Viral_Armored", 0, 1);
+        spawn_day("Viral_Electrobox", 0, 1);
+        probability(0.25);
+        category_cooldown(180.0);
+        first_spawn_delay(5.0);
+        spawn_delay(0.5);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Flooded_Infected", Category_Infected)
+    {
+        spawn("Suicider_Flooded_Area", 3, 3);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(5.0);
+        spawn_delay(0.5);
+        force_player_target(true);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Flooded_Infected_EndGame", Category_Infected)
+    {
+        spawn("Suicider_Flooded_Area", 1, 1);
+        probability(0.5);
+        category_cooldown(30.0);
+        first_spawn_delay(5.0);
+        spawn_delay(0.5);
+        force_player_target(true);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Default_Infected_EndGame_Flooded", Category_Infected)
+    {
+        spawn_day("Viral_Chase", 1, 2);
+        spawn_day("Viral_Chase_Woman", 0, 2);
+        spawn_night("Volatile_Patrol", 1, 2);
+        spawn("Suicider_Flooded_Area", 1, 1);
+        probability(0.75);
+        category_cooldown(10.0);
+        first_spawn_delay(10.0);
+        spawn_delay(0.5);
+        show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("R1_Human", Category_Human)
+    {
+        spawn("Duke_One_Handed", 1, 2);
+        spawn("Renegade_Two_Handed", 0, 1);
+        spawn("Renegade_Bow", 0, 1);
+        spawn("Renegade_Spear", 0, 1);
+        probability(1.0);
+        category_cooldown(10.0);
+        first_spawn_delay(3.0);
+        spawn_delay(0.5);
+        use_human_spawn_points(true);
+    }
+    ReinforcementSpawnPreset("Skyscraper_Human", Category_Human)
+    {
+        spawn("Skyscraper_One_Handed", 1, 2);
+        spawn("Renegade_Two_Handed", 0, 1);
+        spawn("Skyscraper_Bow", 0, 1);
+        spawn("Renegade_Spear", 0, 1);
+        spawn("Renegade_Grenadier",0, 1);
+        probability(1.0);
+        category_cooldown(10.0);
+        use_human_spawn_points(true);
+    }
+    ReinforcementSpawnPreset("Tyrant_Summon", Category_Infected)
+    {
+        spawn("Viral_Tyrant_Reinforcement", 3, 4);
+        probability(1.0);
+        category_cooldown(1.0);
+        first_spawn_delay(0.5);
+        spawn_delay(0.5);
+        force_player_target(true);
+        //show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Opera_Tyrant_Summon", Category_Infected)
+    {
+        spawn("DLC_Opera_Viral", 3, 4);
+        probability(1.0);
+        category_cooldown(1.0);
+        first_spawn_delay(0.5);
+        spawn_delay(0.5);
+        force_player_target(true);
+        //show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("Hag_Human_Reinforcement", Category_Human)
+    {
+        spawn("Renegade_One_Handed", 2, 3);
+        spawn("Renegade_Two_Handed", 1, 1);
+        probability(1.0);
+        category_cooldown(1.0);
+        first_spawn_delay(0.5);
+        spawn_delay(0.5);
+        preferred_spawn_distance(0.0);
+        use_human_spawn_points(true);
+        force_player_target(true);
+    }
+    ReinforcementSpawnPreset("Hag_Infected_Reinforcement", Category_Infected)
+    {
+        spawn("Biter", 1, 4);
+        spawn("Viral", 0, 2);
+        spawn("Viral_Woman", 0, 1);
+        spawn_day("Viral_Armored", 0, 1);
+        spawn_day("Viral_Electrobox", 0, 1);
+        probability(1.0);
+        category_cooldown(1.0);
+        first_spawn_delay(0.5);
+        spawn_delay(0.5);
+        preferred_spawn_distance(0.0);
+        force_player_target(true);
+        //show_icon_at_source_position(true);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+    ReinforcementSpawnPreset("poc_continuous_spawn", Category_Infected)
+    {
+        spawn_day("Viral", 2, 3);
+        spawn("Hound", 0, 1);
+        probability(0.8);
+        category_cooldown(10.0);
+        first_spawn_delay(0.0);
+        spawn_delay(0.3);
+        audio_event_name("reinforcement_spawn_infected");
+    }
+	
+/////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	ReinforcementSpawnPreset("Swamp_Attactor", Category_Infected)
+    {
+        force_player_target(false);
+        Spawn("Biter_Swamp", 1,2);
+        Spawn("Volatile_Swamp", 0,1);
+        Spawn("Spitter_Vomit", 0,1);
+        spawn_delay(5.0);
+        first_spawn_delay(0.5);
+        probability(1.0);
+        category_cooldown(10.0);
+    }
+
+	ReinforcementSpawnPreset("Screamer_Attactor", Category_Infected)
+    {
+        force_player_target(false);
+        Spawn("Biter", 1,4);
+        spawn_delay(5.0);
+        first_spawn_delay(0.5);
+        probability(1.0);
+        category_cooldown(10.0);
+    }
+
+    ReinforcementSpawnPreset("Screamer_Weak_Attactor", Category_Infected)
+    {
+        force_player_target(false);
+        Spawn("Biter", 1,2);
+        spawn_delay(5.0);
+        first_spawn_delay(0.5);
+        probability(1.0);
+        category_cooldown(10.0);
+    }
+    
+    ReinforcementSpawnPreset("ExposionReinforce", Category_Infected)
+	{
+		Spawn("Viral_Chase", 0,4);
+        Spawn("Biter", 0,5);
+        Spawn("Banshee", 0,1);
+		force_player_target(true);
+		spawn_delay(5.0);
+		probability(0.9);
+		category_cooldown(10.0);
+	}
+
+	ReinforcementSpawnPreset("Day_Hunter", Category_Infected)
+	{
+		Spawn(Day_Hunter_SpawnType01, Day_Hunter_SpawnType01_Count_Min, Day_Hunter_SpawnType01_Count_Max);
+		Spawn(Day_Hunter_SpawnType02, Day_Hunter_SpawnType02_Count_Min, Day_Hunter_SpawnType02_Count_Max);
+		Spawn(Day_Hunter_SpawnType03, Day_Hunter_SpawnType03_Count_Min, Day_Hunter_SpawnType03_Count_Max);
+		Spawn(Day_Hunter_SpawnType04, Day_Hunter_SpawnType04_Count_Min, Day_Hunter_SpawnType04_Count_Max);
+		Spawn(Day_Hunter_SpawnType05, Day_Hunter_SpawnType05_Count_Min, Day_Hunter_SpawnType05_Count_Max);
+		Spawn(Day_Hunter_SpawnType06, Day_Hunter_SpawnType06_Count_Min, Day_Hunter_SpawnType06_Count_Max);
+		Spawn(Day_Hunter_SpawnType07, Day_Hunter_SpawnType07_Count_Min, Day_Hunter_SpawnType07_Count_Max);
+		Spawn(Day_Hunter_SpawnType08, Day_Hunter_SpawnType08_Count_Min, Day_Hunter_SpawnType08_Count_Max);
+		Spawn(Day_Hunter_SpawnType09, Day_Hunter_SpawnType09_Count_Min, Day_Hunter_SpawnType09_Count_Max);
+		Spawn(Day_Hunter_SpawnType10, Day_Hunter_SpawnType10_Count_Min, Day_Hunter_SpawnType10_Count_Max);
+        Spawn(Day_Hunter_SpawnType11, Day_Hunter_SpawnType11_Count_Min, Day_Hunter_SpawnType11_Count_Max);
+        Spawn(Day_Hunter_SpawnType12, Day_Hunter_SpawnType12_Count_Min, Day_Hunter_SpawnType12_Count_Max);
+        Spawn(Day_Hunter_SpawnType13, Day_Hunter_SpawnType13_Count_Min, Day_Hunter_SpawnType13_Count_Max);
+        Spawn(Day_Hunter_SpawnType14, Day_Hunter_SpawnType14_Count_Min, Day_Hunter_SpawnType14_Count_Max);
+        Spawn(Day_Hunter_SpawnType15, Day_Hunter_SpawnType15_Count_Min, Day_Hunter_SpawnType15_Count_Max);
+        Spawn(Day_Hunter_SpawnType16, Day_Hunter_SpawnType16_Count_Min, Day_Hunter_SpawnType16_Count_Max);
+        Spawn(Day_Hunter_SpawnType17, Day_Hunter_SpawnType17_Count_Min, Day_Hunter_SpawnType17_Count_Max);
+        Spawn(Day_Hunter_SpawnType18, Day_Hunter_SpawnType18_Count_Min, Day_Hunter_SpawnType18_Count_Max);
+        Spawn(Day_Hunter_SpawnType19, Day_Hunter_SpawnType19_Count_Min, Day_Hunter_SpawnType19_Count_Max);
+        Spawn(Day_Hunter_SpawnType20, Day_Hunter_SpawnType20_Count_Min, Day_Hunter_SpawnType20_Count_Max);
+
+		force_player_target(Day_Hunter_Force_Player_Target);
+		spawn_delay(Day_Hunter_Spawn_Initial_Delay);
+		probability(Day_Hunter_Chance_To_Spawn);
+		category_cooldown(Day_Hunter_Spawn_Cooldown);
+	}
+	ReinforcementSpawnPreset("Night_Hunter", Category_Infected)
+	{
+		Spawn(Night_Hunter_SpawnType01, Night_Hunter_SpawnType01_Count_Min, Night_Hunter_SpawnType01_Count_Max);
+		Spawn(Night_Hunter_SpawnType02, Night_Hunter_SpawnType02_Count_Min, Night_Hunter_SpawnType02_Count_Max);
+		Spawn(Night_Hunter_SpawnType03, Night_Hunter_SpawnType03_Count_Min, Night_Hunter_SpawnType03_Count_Max);
+		Spawn(Night_Hunter_SpawnType04, Night_Hunter_SpawnType04_Count_Min, Night_Hunter_SpawnType04_Count_Max);
+		Spawn(Night_Hunter_SpawnType05, Night_Hunter_SpawnType05_Count_Min, Night_Hunter_SpawnType05_Count_Max);
+		Spawn(Night_Hunter_SpawnType06, Night_Hunter_SpawnType06_Count_Min, Night_Hunter_SpawnType06_Count_Max);
+		Spawn(Night_Hunter_SpawnType07, Night_Hunter_SpawnType07_Count_Min, Night_Hunter_SpawnType07_Count_Max);
+		Spawn(Night_Hunter_SpawnType08, Night_Hunter_SpawnType08_Count_Min, Night_Hunter_SpawnType08_Count_Max);
+		Spawn(Night_Hunter_SpawnType09, Night_Hunter_SpawnType09_Count_Min, Night_Hunter_SpawnType09_Count_Max);
+		Spawn(Night_Hunter_SpawnType10, Night_Hunter_SpawnType10_Count_Min, Night_Hunter_SpawnType10_Count_Max);
+        Spawn(Night_Hunter_SpawnType11, Night_Hunter_SpawnType11_Count_Min, Night_Hunter_SpawnType11_Count_Max);
+        Spawn(Night_Hunter_SpawnType12, Night_Hunter_SpawnType12_Count_Min, Night_Hunter_SpawnType12_Count_Max);
+        Spawn(Night_Hunter_SpawnType13, Night_Hunter_SpawnType13_Count_Min, Night_Hunter_SpawnType13_Count_Max);
+        Spawn(Night_Hunter_SpawnType14, Night_Hunter_SpawnType14_Count_Min, Night_Hunter_SpawnType14_Count_Max);
+        Spawn(Night_Hunter_SpawnType15, Night_Hunter_SpawnType15_Count_Min, Night_Hunter_SpawnType15_Count_Max);
+        Spawn(Night_Hunter_SpawnType16, Night_Hunter_SpawnType16_Count_Min, Night_Hunter_SpawnType16_Count_Max);
+        Spawn(Night_Hunter_SpawnType17, Night_Hunter_SpawnType17_Count_Min, Night_Hunter_SpawnType17_Count_Max);
+        Spawn(Night_Hunter_SpawnType18, Night_Hunter_SpawnType18_Count_Min, Night_Hunter_SpawnType18_Count_Max);
+        Spawn(Night_Hunter_SpawnType19, Night_Hunter_SpawnType19_Count_Min, Night_Hunter_SpawnType19_Count_Max);
+        Spawn(Night_Hunter_SpawnType20, Night_Hunter_SpawnType20_Count_Min, Night_Hunter_SpawnType20_Count_Max);
+
+		force_player_target(Night_Hunter_Force_Player_Target);
+		spawn_delay(Night_Hunter_Spawn_Initial_Delay);
+		probability(Night_Hunter_Chance_To_Spawn);
+		category_cooldown(Night_Hunter_Spawn_Cooldown);
+	}
+	ReinforcementSpawnPreset("Screamer_Call", Category_Infected)
+	{
+		Spawn(Screamer_SpawnType01, Screamer_SpawnType01_Count_Min, Screamer_SpawnType01_Count_Max);
+		Spawn(Screamer_SpawnType02, Screamer_SpawnType02_Count_Min, Screamer_SpawnType02_Count_Max);
+		Spawn(Screamer_SpawnType03, Screamer_SpawnType03_Count_Min, Screamer_SpawnType03_Count_Max);
+		Spawn(Screamer_SpawnType04, Screamer_SpawnType04_Count_Min, Screamer_SpawnType04_Count_Max);
+		Spawn(Screamer_SpawnType05, Screamer_SpawnType05_Count_Min, Screamer_SpawnType05_Count_Max);
+		Spawn(Screamer_SpawnType06, Screamer_SpawnType06_Count_Min, Screamer_SpawnType06_Count_Max);
+		Spawn(Screamer_SpawnType07, Screamer_SpawnType07_Count_Min, Screamer_SpawnType07_Count_Max);
+		Spawn(Screamer_SpawnType08, Screamer_SpawnType08_Count_Min, Screamer_SpawnType08_Count_Max);
+		Spawn(Screamer_SpawnType09, Screamer_SpawnType09_Count_Min, Screamer_SpawnType09_Count_Max);
+		Spawn(Screamer_SpawnType10, Screamer_SpawnType10_Count_Min, Screamer_SpawnType10_Count_Max);
+        Spawn(Screamer_SpawnType11, Screamer_SpawnType11_Count_Min, Screamer_SpawnType11_Count_Max);
+        Spawn(Screamer_SpawnType12, Screamer_SpawnType12_Count_Min, Screamer_SpawnType12_Count_Max);
+        Spawn(Screamer_SpawnType13, Screamer_SpawnType13_Count_Min, Screamer_SpawnType13_Count_Max);
+        Spawn(Screamer_SpawnType14, Screamer_SpawnType14_Count_Min, Screamer_SpawnType14_Count_Max);
+        Spawn(Screamer_SpawnType15, Screamer_SpawnType15_Count_Min, Screamer_SpawnType15_Count_Max);
+        Spawn(Screamer_SpawnType16, Screamer_SpawnType16_Count_Min, Screamer_SpawnType16_Count_Max);
+        Spawn(Screamer_SpawnType17, Screamer_SpawnType17_Count_Min, Screamer_SpawnType17_Count_Max);
+        Spawn(Screamer_SpawnType18, Screamer_SpawnType18_Count_Min, Screamer_SpawnType18_Count_Max);
+        Spawn(Screamer_SpawnType19, Screamer_SpawnType19_Count_Min, Screamer_SpawnType19_Count_Max);
+        Spawn(Screamer_SpawnType20, Screamer_SpawnType20_Count_Min, Screamer_SpawnType20_Count_Max);
+		force_player_target(Screamer_Force_Player_Target);
+		spawn_delay(Screamer_Spawn_Initial_Delay);
+		probability(Screamer_Chance_To_Spawn);
+		category_cooldown(Screamer_Spawn_Cooldown);
+	}
+	ReinforcementSpawnPreset("Chase_Start", Category_Infected)
+	{
+		Spawn(Chase_SpawnType01, Chase_SpawnType01_Count_Min, Chase_SpawnType01_Count_Max);
+		Spawn(Chase_SpawnType02, Chase_SpawnType02_Count_Min, Chase_SpawnType02_Count_Max);
+		Spawn(Chase_SpawnType03, Chase_SpawnType03_Count_Min, Chase_SpawnType03_Count_Max);
+		Spawn(Chase_SpawnType04, Chase_SpawnType04_Count_Min, Chase_SpawnType04_Count_Max);
+		Spawn(Chase_SpawnType05, Chase_SpawnType05_Count_Min, Chase_SpawnType05_Count_Max);
+		Spawn(Chase_SpawnType06, Chase_SpawnType06_Count_Min, Chase_SpawnType06_Count_Max);
+		Spawn(Chase_SpawnType07, Chase_SpawnType07_Count_Min, Chase_SpawnType07_Count_Max);
+		Spawn(Chase_SpawnType08, Chase_SpawnType08_Count_Min, Chase_SpawnType08_Count_Max);
+		Spawn(Chase_SpawnType09, Chase_SpawnType09_Count_Min, Chase_SpawnType09_Count_Max);
+		Spawn(Chase_SpawnType10, Chase_SpawnType10_Count_Min, Chase_SpawnType10_Count_Max);
+		force_player_target(Chase_Force_Player_Target);
+		spawn_delay(Chase_Spawn_Initial_Delay);
+		probability(Chase_Chance_To_Spawn);
+		category_cooldown(Chase_Spawn_Cooldown);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier1", Category_Human)
+	{
+		Spawn("Peacekeeper_Soldier", 1,2);
+		Spawn("Peacekeeper_Woman_Soldier", 0,1);
+        Spawn("Peacekeeper_Soldier", 0,1);
+        Spawn("Peacekeeper_Woman_Soldier", 0,1);
+		force_player_target(false);
+		spawn_delay(15.0);
+		probability(0.6);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier2", Category_Human)
+	{
+		Spawn("Peacekeeper_Soldier", 1,3);
+		Spawn("Peacekeeper_Woman_Soldier", 0,1);
+		Spawn("Peacekeeper_Bow", 1,1);
+		Spawn("Peacekeeper_Woman_Bow", 0,1);
+        Spawn("Peacekeeper_Soldier", 0,1);
+        Spawn("Peacekeeper_Woman_Soldier", 0,1);
+		force_player_target(false);
+		spawn_delay(10.0);
+		probability(0.7);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier3", Category_Human)
+	{
+		Spawn("Peacekeeper_Soldier", 1,3);
+		Spawn("Peacekeeper_Woman_Soldier", 0,2);
+		Spawn("Peacekeeper_Bow", 1,2);
+		Spawn("Peacekeeper_Woman_Bow", 0,2);
+		Spawn("Peacekeeper_Two_Handed", 0,1);
+        Spawn("Peacekeeper_Soldier", 0,1);
+        Spawn("Peacekeeper_Woman_Soldier", 0,1);
+		force_player_target(false);
+		spawn_delay(10.0);
+		probability(0.8);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier4", Category_Human)
+	{
+		Spawn("Peacekeeper_Soldier", 2,4);
+		Spawn("Peacekeeper_Woman_Soldier", 0,3);
+		Spawn("Peacekeeper_Bow", 2,3);
+		Spawn("Peacekeeper_Woman_Bow", 1,2);
+		Spawn("Peacekeeper_Spear", 0,3);
+		Spawn("Peacekeeper_Two_Handed", 0,2);
+        Spawn("Peacekeeper_Soldier", 0,1);
+        Spawn("Peacekeeper_Woman_Soldier", 0,1);
+        Spawn("Peacekeeper_Bow", 0,1);
+        Spawn("Peacekeeper_Woman_Bow", 0,1);
+		force_player_target(false);
+		spawn_delay(10.0);
+		probability(0.9);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier5", Category_Human)
+	{
+		Spawn("Peacekeeper_Soldier", 3,5);
+		Spawn("Peacekeeper_Woman_Soldier", 1,4);
+		Spawn("Peacekeeper_Commander", 0,1);
+		Spawn("Peacekeeper_Bow", 3,5);
+		Spawn("Peacekeeper_Woman_Bow", 1,3);
+		Spawn("Peacekeeper_Spear", 1,3);
+		Spawn("Peacekeeper_Two_Handed", 1,2);
+        Spawn("Peacekeeper_Soldier", 0,1);
+        Spawn("Peacekeeper_Woman_Soldier", 0,1);
+        Spawn("Peacekeeper_Bow", 0,1);
+        Spawn("Peacekeeper_Woman_Bow", 0,1);
+		force_player_target(false);
+		spawn_delay(8.0);
+		probability(0.95);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_PK_Tier6", Category_Human)
+	{
+		Spawn("Peacekeeper_Commando", 2,5);
+		Spawn("Peacekeeper_Commando_Bow", 1,1);
+		Spawn("Peacekeeper_Commando_Commander", 1,1);
+        Spawn("Peacekeeper_Commando", 2,5);
+        Spawn("Peacekeeper_Commando_Bow", 1,1);
+        Spawn("Peacekeeper_Commando_Commander", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Hakon", Category_Human)
+	{
+		Spawn("Companion_Hakon", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Spike", Category_Human)
+	{
+		Spawn("Companion_Spike", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Lawan", Category_Human)
+	{
+		Spawn("Companion_Lawan", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Crane", Category_Human)
+	{
+		Spawn("Companion_Crane", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Aitor", Category_Human)
+	{
+		Spawn("Companion_Aitor", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Frank", Category_Human)
+	{
+		Spawn("Companion_Frank", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Barney", Category_Human)
+	{
+		Spawn("Companion_Barney", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Scavenger_1H", Category_Human)
+	{
+		Spawn("Companion_Scavenger_1H", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Summon_Scavenger_Bow", Category_Human)
+	{
+		Spawn("Companion_Scavenger_Bow", 1,1);
+		force_player_target(false);
+		spawn_delay(6.0);
+		probability(1.0);
+		category_cooldown(1.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_Volatiles", Category_Infected)
+	{
+		Spawn(Volatile_SpawnType01, Volatile_SpawnType01_Count_Min, Volatile_SpawnType01_Count_Max);
+        Spawn(Volatile_SpawnType02, Volatile_SpawnType02_Count_Min, Volatile_SpawnType02_Count_Max);
+        Spawn(Volatile_SpawnType03, Volatile_SpawnType03_Count_Min, Volatile_SpawnType03_Count_Max);
+        Spawn(Volatile_SpawnType04, Volatile_SpawnType04_Count_Min, Volatile_SpawnType04_Count_Max);
+        Spawn(Volatile_SpawnType05, Volatile_SpawnType05_Count_Min, Volatile_SpawnType05_Count_Max);
+        Spawn(Volatile_SpawnType06, Volatile_SpawnType06_Count_Min, Volatile_SpawnType06_Count_Max);
+        Spawn(Volatile_SpawnType07, Volatile_SpawnType07_Count_Min, Volatile_SpawnType07_Count_Max);
+        Spawn(Volatile_SpawnType08, Volatile_SpawnType08_Count_Min, Volatile_SpawnType08_Count_Max);
+        Spawn(Volatile_SpawnType09, Volatile_SpawnType09_Count_Min, Volatile_SpawnType09_Count_Max);
+        Spawn(Volatile_SpawnType10, Volatile_SpawnType10_Count_Min, Volatile_SpawnType10_Count_Max);
+        force_player_target(Volatile_Force_Player_Target);
+        spawn_delay(Volatile_Spawn_Initial_Delay);
+        probability(Volatile_Chance_To_Spawn);
+		category_cooldown(Volatile_Spawn_Cooldown);
+	}
+	ReinforcementSpawnPreset("Reinforcements_Renegades", Category_Human)
+	{
+		Spawn("Renegade_One_Handed", 1,3);
+		Spawn("Renegade_Woman_One_Handed", 1,3);
+		Spawn("Renegade_Two_Handed", 0,1);
+		Spawn("Renegade_Bow", 0,2);
+		Spawn("Renegade_Woman_Bow", 0,1);
+		Spawn("Renegade_Spear", 0,2);
+		Spawn("Renegade_Grenadier", 0,1);
+		Spawn("Renegade_Summoner", 0,1);
+		force_player_target(false);
+		spawn_delay(8.0);
+		probability(0.9);
+		category_cooldown(10.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_Colonel", Category_Human)
+	{
+		Spawn("Colonel_One_Handed", 1,3);
+		Spawn("Colonel_Two_Handed", 0,3);
+		Spawn("Colonel_Bow", 0,1);
+		Spawn("Colonel_Spear", 0,2);
+		Spawn("Colonel_Summoner", 0,1);
+		Spawn("Colonel_Grenadier", 0,2);
+		force_player_target(false);
+		spawn_delay(13.0);
+		probability(0.9);
+		category_cooldown(10.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_Survivor", Category_Human)
+	{
+		Spawn("Survivor", 1,3);
+		Spawn("Survivor_Summoner", 1,3);
+		Spawn("Survivor_Man_Bow", 0,1);
+		Spawn("Survivor_Woman", 1,2);
+		Spawn("Survivor_Woman_Bow", 0,1);
+		force_player_target(false);
+		spawn_delay(5.0);
+		probability(0.9);
+		category_cooldown(10.0);
+	}
+	ReinforcementSpawnPreset("Reinforcements_Plague", Category_Human)
+	{
+		Spawn("Plaguebearer_One_Handed", 1,3);
+		Spawn("Plaguebearer_Bow", 1,3);
+		Spawn("Plaguebearer_Spear", 0,1);
+		Spawn("Plaguebearer_Two_Handed", 0,2);
+		Spawn("Plaguebearer_Summoner", 0,1);
+		Spawn("Plaguebearer_Grenadier", 0,1);
+		force_player_target(true);
+		spawn_delay(5.0);
+		probability(0.9);
+		category_cooldown(10.0);
+	}
+    ReinforcementSpawnPreset("Boss_Tier1", Category_Infected)
+    {
+        Spawn("Renegade_One_Handed", 5,7);
+        Spawn("Renegade_Two_Handed", 5,9);
+        Spawn("Renegade_Elite_One_Handed", 5,7);
+        Spawn("Renegade_Bow", 5,5);
+        Spawn("Renegade_Spear", 5,5);
+        Spawn("Renegade_Grenadier", 5,5);
+        Spawn("Renegade_Summoner", 2,2);
+        force_player_target(true);
+        spawn_delay(5.0);
+        probability(1.0);
+        category_cooldown(1.0);
+    }
+    ReinforcementData("Vampire_Summon")
+    {
+        Spawn("Vampire_LowTier", 0,4);
+        Spawn("Vampire_HighTier", 0,3);
+        Spawn("Evil_Vampire_Child_01", 0,1);
+        force_player_target(true);
+        initial_spawn_delay(5.0);
+        chance_to_spawn(1.0);
+        cooldown(1.0);
+    }
+}

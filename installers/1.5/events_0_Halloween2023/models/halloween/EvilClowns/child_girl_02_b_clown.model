@@ -1,0 +1,586 @@
+{
+  "version": 6,
+  "preset": {
+    "skeletonName": "woman_zmb_skeleton.msh"
+  },
+  "data": {
+    "meshAttribute": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "properties": [
+      {
+        "name": "class",
+        "value": "survivor"
+      },
+      {
+        "name": "production_state",
+        "value": "prototype"
+      },
+      {
+        "name": "race",
+        "value": "caucasian"
+      },
+      {
+        "name": "sex",
+        "value": "female"
+      },
+      {
+        "name": "size",
+        "value": "little"
+      },
+      {
+        "name": "type",
+        "value": "character"
+      },
+      {
+        "name": "weight",
+        "value": "normal"
+      }
+    ]
+  },
+  "slots": [
+    {
+      "slotUid": 100,
+      "name": "HEAD",
+      "filterText": "head",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "player_outfit_halloween_clown_a_mask_a_tpp.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643968,
+              128,
+              4294901760,
+              92
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "player_outfit_halloween_clown_a_mask_a.mat",
+                "layoutId": 0,
+                "loadFlags": "S"
+              },
+              {
+                "number": 2,
+                "name": "chr_earing_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              },
+              {
+                "number": 3,
+                "name": "sh_man_hair_system_b_bright_red.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              },
+              {
+                "number": 4,
+                "name": "player_outfit_halloween_clown_a_mask_a_tpp_eyes.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "player_outfit_halloween_clown_a_mask_a_tpp.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "resources": [
+                  {
+                    "name": "null.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "resources": [
+                  {
+                    "name": "null.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 4,
+                "resources": [
+                  {
+                    "name": "player_outfit_halloween_clown_a_mask_a_tpp_eyes.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 101,
+      "name": "HEAD_PART_1",
+      "filterText": "multihead",
+      "tagsBits": 0,
+      "shadowMaps": 1,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 102,
+      "name": "HEAD_PART_2",
+      "filterText": "multihead",
+      "tagsBits": 0,
+      "shadowMaps": 3,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 103,
+      "name": "HEAD_PART_3",
+      "filterText": "multihead",
+      "tagsBits": 0,
+      "shadowMaps": 1,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 104,
+      "name": "HEAD_PART_4",
+      "filterText": "multihead",
+      "tagsBits": 0,
+      "shadowMaps": 0,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 200,
+      "name": "HEADCOVER",
+      "filterText": "head",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 400,
+      "name": "ARMS",
+      "filterText": "arms",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 500,
+      "name": "HANDS",
+      "filterText": "hands",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_hands_a.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643968,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "wmn_hands_white_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "wmn_hands_white_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 501,
+      "name": "HANDS_PART_1",
+      "filterText": "hands",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 600,
+      "name": "TORSO",
+      "filterText": "torso",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_torso_b_main_a.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643982,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "wmn_ren_torso_b_main_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              },
+              {
+                "number": 2,
+                "name": "wmn_ren_torso_b_main_a_nylon_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              },
+              {
+                "number": 3,
+                "name": "child_torso_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "wmn_ren_torso_b_main_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "resources": [
+                  {
+                    "name": "wmn_ren_torso_b_main_a_nylon_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 3,
+                "resources": [
+                  {
+                    "name": "child_torso_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 601,
+      "name": "TORSO_PART_1",
+      "filterText": "torso",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_torso_b_sleeves_b.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643982,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "wmn_ren_torso_b_sleeves_b.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "wmn_ren_torso_b_sleeves_b.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 602,
+      "name": "TORSO_PART_2",
+      "filterText": "torso",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_torso_b_hoodie_b.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643982,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "wmn_ren_torso_b_parts.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "wmn_ren_torso_b_parts.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 700,
+      "name": "LEGS",
+      "filterText": "legs",
+      "tagsBits": 786432,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": []
+      }
+    },
+    {
+      "slotUid": 701,
+      "name": "LEGS_PART_1",
+      "filterText": "legs",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_socks_a.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643973,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "child_sleeve_sock.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "child_sleeve_sock.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 800,
+      "name": "PANTS",
+      "filterText": "pants",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_pants_a.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643988,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "child_pants_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              },
+              {
+                "number": 2,
+                "name": "child_shoe_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "child_pants_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "resources": [
+                  {
+                    "name": "child_shoe_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slotUid": 900,
+      "name": "OTHER",
+      "filterText": "",
+      "tagsBits": 0,
+      "shadowMaps": 15,
+      "meshResources": {
+        "resources": [
+          {
+            "name": "child_sleeves_a.msh",
+            "selected": true,
+            "layoutId": 4,
+            "userData": [
+              4286643982,
+              128,
+              4294901760,
+              0
+            ],
+            "materialsData": [
+              {
+                "number": 1,
+                "name": "child_torso_a.mat",
+                "layoutId": 4,
+                "loadFlags": "S"
+              }
+            ],
+            "materialsResources": [
+              {
+                "number": 1,
+                "resources": [
+                  {
+                    "name": "child_torso_a.mat",
+                    "selected": true,
+                    "layoutId": 4,
+                    "loadFlags": "S",
+                    "rttiValues": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

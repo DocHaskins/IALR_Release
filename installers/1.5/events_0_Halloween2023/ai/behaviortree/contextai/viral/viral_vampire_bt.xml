@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <SequenceMem>
+        <!-- Init -->
+        <SequenceMem>
+            <ExternalTree m_UID="AI_COMMON_INIT" m_CustomName="Params" m_Hide="true"/>
+            <ExternalTree m_UID="VIRAL_INIT" m_CustomName="Params_Init" m_Hide="true"/>
+        </SequenceMem>
+        <ExternalTree m_UID="AI_TRANSFORM_RECOVERY" m_CustomName="TransformRecovery" m_Hide="true"/>
+        <Selector>
+            <ExternalTree m_UID="VIRAL_DEATH_UV" m_CustomName="Death_UV" m_Hide="true"/>
+            <ExternalTree m_UID="INFECTED_DEATH" m_CustomName="Death" m_Hide="true"/>
+            <ParallelRepeat m_PolicySuccess="REQUIRE_NONE" m_PolicyFailure="REQUIRE_NONE">
+                <Sequence>
+                    <!-- Gather data from senses -->
+                    <ExternalTree m_UID="AI_UPDATE_ENEMY_PROTO" m_CustomName="Find_Enemy" m_Hide="true"/>
+                    <!-- Update state -->
+                    <ExternalTree m_UID="VIRAL_VAMPIRE_COMMON_UPDATE" m_CustomName="Update" m_Hide="true"/>
+                    <!-- Select behavior -->
+                    <UseCombatSlots m_Target="#target">
+                        <RepeatOnceOnSuccess>
+                            <Selector>
+                                <ExternalTree m_UID="VIRAL_REACTION" m_CustomName="Reactions" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_RESTING_STATE" m_CustomName="Resting" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_VAMPIRE_PROLONGED_UV_BEHAVIOR" m_CustomName="UV" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_REACTION_DISTRACTED" m_CustomName="Distracted" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_VAMPIRE_ESCAPE_FROM_SUNLIGHT" m_CustomName="Sunlight_Escape" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_RETREAT" m_CustomName="Retreat" m_Hide="true"/>
+                                <!-- <ExternalTree m_UID="VIRAL_JUMP_IN_FRONT" m_CustomName="JumpInFront" m_Hide="true"/> -->
+                                <ExternalTree m_UID="VIRAL_GO_TO_FORCED" m_CustomName="GoToForced" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_ATTACK_OBJECT" m_CustomName="Object" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_VAMPIRE_COMBAT" m_CustomName="Combat" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_VAMPIRE_CHASE" m_CustomName="Chase" m_Hide="true"/>
+                                <ExternalTree m_UID="AI_INVESTIGATE_POI" m_CustomName="Investigate" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_VAMPIRE_IDLE_RANDOM_WALK" m_CustomName="Idle_Random_Walk"/>
+                                <ExternalTree m_UID="VIRAL_SEARCH" m_CustomName="Search" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_REQUESTS" m_CustomName="Scripted" m_Hide="true"/>
+                                <ExternalTree m_UID="VIRAL_RETURN_TO_SPAWN" m_CustomName="Return to spawn" m_Hide="true"/>
+                                <Act_Status m_StatusRequired="RUNNING"/>
+                            </Selector>
+                        </RepeatOnceOnSuccess>
+                    </UseCombatSlots>
+                </Sequence>
+                <Sequence>
+                    <Cnd_IsInSunlight/>
+                    <Cnd_IsBodyInState m_State="SUNLIGHT_REACTION" m_Invert="true"/>
+                    <Opr_StartLifetimeBodyState m_State="SUNLIGHT_REACTION"/>
+                </Sequence>
+                <Sequence>
+                    <Cnd_IsInSunlight m_Invert="true"/>
+                    <Cnd_IsBodyInState m_State="SUNLIGHT_REACTION"/>
+                    <Opr_StopLifetimeBodyState m_State="SUNLIGHT_REACTION"/>
+                </Sequence>
+                <ExposeTarget m_Target="#target">
+                    <Act_Status m_StatusRequired="RUNNING"/>
+                </ExposeTarget>
+                <ExternalTree m_UID="AI_TRACK" m_CustomName="TrackEnemy" m_Hide="true"/>
+                <Sequence>
+                    <Cnd_IsInUVLight/>
+                    <Act_Status m_StatusRequired="RUNNING"/>
+                </Sequence>
+            </ParallelRepeat>
+        </Selector>
+    </SequenceMem>
+</BehaviorTree>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <Selector>
+        <!-- If target approaches while we are in cautious or attack is on cooldown - dodge back -->
+        <CooldownTimeDelta m_CooldownTime="$dodge_after_combo_cooldown" m_CooldownBeforeFirstTick="true">
+            <SequenceMem>
+                <Selector>
+                    <Sequence>
+                        <Cnd_IsCombatTargetInSyncAction m_SyncAction="BiterGrab"/>
+                        <Cnd_IsCombatTargetInRadius m_Radius="1.75"/>
+                    </Sequence>
+                    <Sequence>
+                        <Selector>
+                            <Optional m_Enabled="$enable_dodge_when_cautious">
+                                <Cnd_IsBBValueEqual_string m_Key="#tactic" m_Value="cautious"/>
+                            </Optional>
+                            <Optional m_Enabled="$enable_dodge_after_combo">
+                                <Cnd_HasTimePassed m_TimePoint="#attack_cooldown" m_Invert="true"/>
+                            </Optional>
+                            <Act_Status m_StatusRequired="FAILURE"/>
+                        </Selector>
+                        <Cnd_IsCombatTargetInRadius m_Radius="2"/>
+                    </Sequence>
+                </Selector>
+                <Cnd_SpaceInSimpleDirection m_Direction="BACKWARD"  m_MinRequiredSpace="1.5"/>
+                <SetAnimatorSpeed m_Speed="$dodge_after_combo_anim_speed">
+                    <Act_Dodge m_Direction="BACKWARD" m_TargetPos="#target_pos" m_SideTracking="true" m_StartPolicy="INTERRUPT" m_AbandonPolicy="INTERRUPT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+                </SetAnimatorSpeed>
+            </SequenceMem>
+        </CooldownTimeDelta>
+        <!-- If target gets too close - attack -->
+        <Optional m_Enabled="$quick_attack_enabled">
+            <CooldownTimeDelta m_CooldownTime="1.0">
+                <SequenceMem>
+                    <Cnd_IsBBValueEqual_string m_Key="#role" m_Value="none"/>
+                    <Cnd_HasTimePassed m_TimePoint="#attack_cooldown"/>
+                    <ExternalTree m_UID="VIRAL_ATTACK_QUICK" m_CustomName="VIRAL_ATTACK_QUICK"/>
+                </SequenceMem>
+            </CooldownTimeDelta>
+        </Optional>
+    </Selector>
+</BehaviorTree>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <Sequence>
+        <Succeeder>
+            <Selector>
+                <CooldownTimeDelta m_CooldownTime="3.0">
+                    <Sequence>
+                        <Cnd_IsInUVLight/>
+                        <Cnd_CanInterruptActivityModule_Movement/>
+                        <Cnd_CanInterruptActivityModule_Dodge/>
+                        <Cnd_IsBBValueEqual_bool m_Key="#running_away_from_light" m_Value="false"/>
+                        <Opr_SetBBValue_vec3 m_Key="#dodge_pos" m_Value="#uv_light_pos"/>
+                        <Opr_SetDirCorrectionSpeed m_MaxSpeed="0"/>
+                        <Selector>
+                            <Selector>
+                                <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                                <Cnd_IsInUVLightOfType m_Type="SUPER_SPOTLIGHT"/>
+                            </Selector>
+                            <Cnd_PositionInAngle m_Angle="75" m_Position="#uv_light_pos"/>
+                        </Selector>
+                        <Selector>
+                            <Sequence>
+                                <Selector>
+                                    <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                                    <Cnd_IsInUVLightOfType m_Type="SUPER_SPOTLIGHT"/>
+                                </Selector>
+                                <Opr_SetBBValue_EDodgeDirection m_Key="#dodge_dir" m_Value="BACKWARD"/>
+                            </Sequence>
+                            <Sequence>
+                                <Cnd_OnLeftOfDirFromPos m_Position="#dodge_pos" m_Direction="#uv_light_dir"/>
+                                <Cnd_SpaceInSimpleDirection m_Direction="RIGHT"  m_MinRequiredSpace="1.5"/>
+                                <Opr_SetBBValue_EDodgeDirection m_Key="#dodge_dir" m_Value="RIGHT"/>
+                            </Sequence>
+                            <Sequence>
+                                <Cnd_SpaceInSimpleDirection m_Direction="LEFT"  m_MinRequiredSpace="1.5"/>
+                                <Opr_SetBBValue_EDodgeDirection m_Key="#dodge_dir" m_Value="LEFT"/>
+                            </Sequence>
+                            <Sequence>
+                                <Cnd_InPosAndDirHorizontalAngle m_Position="#dodge_pos" m_Direction="#uv_light_dir" m_Angle="15.0"/>
+                                <Cnd_SpaceInSimpleDirection m_Direction="BACKWARD"  m_MinRequiredSpace="1.5"/>
+                                <Opr_SetBBValue_EDodgeDirection m_Key="#dodge_dir" m_Value="BACKWARD"/>
+                            </Sequence>
+                        </Selector>
+                        <Opr_Trigger m_Key="#trigger_uv_dodge"/>
+                    </Sequence>
+                </CooldownTimeDelta>
+                <Sequence>
+                    <Cnd_IsInUVLight/>
+                    <Cnd_CanInterruptActivityModule_Step/>
+                    <Cnd_CanInterruptActivityModule_Dodge/>
+                    <Cnd_IsBBValueEqual_bool m_Key="#running_away_from_light" m_Value="false"/>
+                    <Opr_SetDirCorrectionSpeed m_MaxSpeed="$flashlight_dodge_dir_correction_speed"/>
+                    <Selector>
+                        <Cnd_IsInUVLightOfType m_Type="FLASHLIGHT" m_Invert="true"/>
+                        <Cnd_PositionInAngle m_Position="#uv_light_pos" m_Angle="65.0"/>
+                    </Selector>
+                    <Selector>
+                        <Sequence>
+                            <Selector>
+                                <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                                <Cnd_IsInUVLightOfType m_Type="FLARE"/>
+                            </Selector>
+                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="BACKWARD"/>
+                        </Sequence>
+                        <Sequence>
+                            <Cnd_OnLeftOfDirFromPos m_Position="#uv_light_pos" m_Direction="#uv_light_dir"/>
+                            <Selector>
+                                <Sequence>
+                                    <Cnd_SpaceInSimpleDirection m_Direction="RIGHT" m_MinRequiredSpace="1.5"/>
+                                    <Selector>
+                                        <Sequence>
+                                            <Cnd_Random m_Value="0.50"/>
+                                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="RIGHT"/>
+                                        </Sequence>
+                                        <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="FORWARD_RIGHT"/>
+                                    </Selector>
+                                </Sequence>
+                                <Sequence>
+                                    <Cnd_SpaceInSimpleDirection m_Direction="LEFT" m_MinRequiredSpace="1.5"/>
+                                    <Selector>
+                                        <Sequence>
+                                            <Cnd_Random m_Value="0.50"/>
+                                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="LEFT"/>
+                                        </Sequence>
+                                        <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="FORWARD_LEFT"/>
+                                    </Selector>
+                                </Sequence>
+                            </Selector>
+                        </Sequence>
+                        <Sequence>
+                            <Cnd_OnLeftOfDirFromPos m_Position="#uv_light_pos" m_Direction="#uv_light_dir" m_Invert="true"/>
+                            <Selector>
+                                <Sequence>
+                                    <Cnd_SpaceInSimpleDirection m_Direction="LEFT" m_MinRequiredSpace="1.5"/>
+                                    <Selector>
+                                        <Sequence>
+                                            <Cnd_Random m_Value="0.50"/>
+                                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="LEFT"/>
+                                        </Sequence>
+                                        <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="FORWARD_LEFT"/>
+                                    </Selector>
+                                </Sequence>
+                                <Sequence>
+                                    <Cnd_SpaceInSimpleDirection m_Direction="RIGHT" m_MinRequiredSpace="1.5"/>
+                                    <Selector>
+                                        <Sequence>
+                                            <Cnd_Random m_Value="0.50"/>
+                                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="RIGHT"/>
+                                        </Sequence>
+                                        <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="FORWARD_RIGHT"/>
+                                    </Selector>
+                                </Sequence>
+                            </Selector>
+                        </Sequence>
+                        <Sequence>
+                            <Cnd_SpaceInSimpleDirection m_Direction="BACKWARD" m_MinRequiredSpace="1.5"/>
+                            <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="BACKWARD"/>
+                        </Sequence>
+                        <Opr_SetBBValue_EStepDirection m_Key="#strafe_dir" m_Value="NONE"/>
+                    </Selector>
+                    <Opr_Trigger m_Key="#trigger_uv_strafe"/>
+                </Sequence>
+            </Selector>
+        </Succeeder>
+        <Selector>
+            <Starter m_Key="#trigger_uv_dodge">
+                <SequenceMem>
+                    <Cnd_IsInUVLight/>
+                    <Act_Dodge m_Type="UV_LIGHT" m_Direction="#dodge_dir" m_StartPolicy="DISCARD" m_AbandonPolicy="INTERRUPT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+                </SequenceMem>
+            </Starter>
+            <Starter m_Key="#trigger_uv_strafe">
+                <SequenceMem>
+                    <Cnd_IsInUVLight/>
+                    <Act_Step m_Type="UV_LIGHT" m_Style="AGGRESSIVE" m_Direction="#strafe_dir" m_TargetPos="#uv_light_pos" m_StartPolicy="DISCARD" m_AbandonPolicy="INTERRUPT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+                </SequenceMem>
+            </Starter>
+        </Selector>
+    </Sequence>
+</BehaviorTree>

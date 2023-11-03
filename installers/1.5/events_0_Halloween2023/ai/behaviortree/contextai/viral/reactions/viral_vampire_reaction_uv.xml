@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <Selector>
+        <ExternalTree m_UID="VIRAL_VAMPIRE_REACTION_UV_INCAPACITATE" m_CustomName="UV_Incapacitate" m_Hide="true"/>
+        <ExternalTree m_UID="VIRAL_VAMPIRE_REACTION_UV_MOVEMENT" m_CustomName="UV_Movement" m_Hide="true"/>
+        <ExternalTree m_UID="VIRAL_VAMPIRE_REACTION_UV_FLAVOR" m_CustomName="UV_Flavor" m_Hide="true"/>
+    </Selector>
+</BehaviorTree>

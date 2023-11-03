@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <SequenceMem>
+        <SelectorMem>
+            <CooldownTimeDeltaRandom m_MaxCooldownTime="1" m_MinCooldownTime="4" m_CooldownBeforeFirstTick="true">
+                <SequenceMem>
+                    <Cnd_IsActivityModuleRunning_Attack m_Invert="true"/>
+                    <DelayerTimeDeltaRandom m_DelayTimeMin="0" m_DelayTimeMax="1">
+                        <Cnd_IsInSunlight/>
+                    </DelayerTimeDeltaRandom>
+                    <Opr_SetDirCorrectionSpeed m_MaxSpeed="0"/>
+                    <Act_Incapacitate m_Type="Sunlight" m_SourcePos="#uv_light_pos" m_StartPolicy="DISCARD" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+                </SequenceMem>
+            </CooldownTimeDeltaRandom>
+            <CooldownTimeDeltaRandom m_MaxCooldownTime="10" m_MinCooldownTime="5">
+                <SequenceMem>
+                    <Cnd_IsCombatTargetInRadius m_Radius="10" m_Invert="true"/>
+                    <Cnd_IsActivityModuleRunning_Attack m_Invert="true"/>
+                    <DelayerTimeDeltaRandom m_DelayTimeMin="0" m_DelayTimeMax="2">
+                        <Cnd_IsInSunlight/>
+                    </DelayerTimeDeltaRandom>
+                    <Opr_SetDirCorrectionSpeed m_MaxSpeed="0"/>
+                    <Act_Taunt m_Type="Sunlight" m_StartPolicy="INTERRUPT" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="ON_END"/>
+                </SequenceMem>
+            </CooldownTimeDeltaRandom>
+        </SelectorMem>
+    </SequenceMem>
+</BehaviorTree>

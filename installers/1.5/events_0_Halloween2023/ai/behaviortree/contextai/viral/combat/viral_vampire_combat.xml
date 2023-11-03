@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+        <Sequence>
+            <Cnd_HasBBValue m_Key="#target"/>
+            <Cnd_HasTimePassed m_TimePoint="#sunlight_escape_time" m_TimeDelta="10.0"/>
+            <ExternalTree m_UID="VIRAL_GROUP_BEHAVIOR" m_CustomName="UpdateGroup" m_Hide="true"/>
+            <Selector>
+                <ExternalTree m_UID="VIRAL_VAMPIRE_DEFENSIVE" m_CustomName="Defensive" m_Hide="true"/>
+                <ExternalTree m_UID="VIRAL_VAMPIRE_OFFENSIVE" m_CustomName="Offensive" m_Hide="true"/>
+                <ExternalTree m_UID="VIRAL_VAMPIRE_KEEP_DISTANCE" m_CustomName="KeepDistance" m_Hide="true"/>
+            </Selector>
+        </Sequence>
+</BehaviorTree>

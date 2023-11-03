@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <CooldownTimeDelta m_CooldownTime="1.0">
+        <SequenceMem>
+            <Cnd_IsInDarkzone m_Invert="true"/>
+            <Selector>
+                <Sequence>
+                    <Cnd_IsInSunlight/>
+                    <!-- <Opr_StartBodyState m_State="SUNLIGHT_REACTION" m_Duration="1.0"/> -->
+                    <Selector>
+                        <Cnd_IsBBValueGreater_float m_Key="#uv_progress" m_Value="0.2"/>
+                        <DelayerTimeDelta m_DelayTime="1">
+                            <Sequence>
+                                <Cnd_IsBBValueGreater_float m_Key="#uv_progress" m_Value="0.1"/>
+                                <Cnd_HasBBValue m_Key="#forced_pos_set"/>
+                                <Cnd_HasBBValue m_Key="#forced_chase_position" m_Invert="true"/>
+                                <Cnd_HasBBValue m_Key="#target" m_Invert="true"/>
+                            </Sequence>
+                        </DelayerTimeDelta>
+                    </Selector>
+                </Sequence>
+                <Sequence>
+                    <Cnd_ChaseInProgress m_Invert="true"/>
+                    <Cnd_IsNightEnding/>
+                    <Act_Taunt m_Type="OnDayStart" m_StartPolicy="INTERRUPT" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="ON_END"/>
+                </Sequence>
+            </SelectorMem>
+            <SelectorMem>
+                <SequenceMem>
+                    <Opr_FindPositionForSunlightRetreat m_Position="#sunlight_retreat_pos"/>
+                    <Act_Move m_Destination="#sunlight_retreat_pos" m_MoveStyle="#sunlight_escape_movestyle" m_FailIfDestUnreachable="true" m_MaxDistOutsideNavmeshXZ="5.5" m_MaxDistOutsideNavmeshY="5.5" m_StopAtDest="true" m_StartPolicy="INTERRUPT" m_AbandonPolicy="BLENDOUT"/>
+                </SequenceMem>
+                <SequenceMem>
+                    <Opr_GetLocalPlayer m_Player="#local_player"/>
+                    <Opr_GetObjectPosition m_Object="#local_player" m_Position="#local_player_pos"/>
+                    <Act_Move m_Destination="#local_player_pos" m_MoveStyle="#sunlight_escape_movestyle" m_MoveAwayFromEndPosition="true" m_StopAtDest="false" m_StartPolicy="INTERRUPT" m_AbandonPolicy="BLENDOUT"/>
+                </SequenceMem>
+            </SelectorMem>
+            <Opr_GetCurrentTime m_TimePoint="#sunlight_escape_time"/>
+        </SequenceMem>
+    </CooldownTimeDelta>
+</BehaviorTree>

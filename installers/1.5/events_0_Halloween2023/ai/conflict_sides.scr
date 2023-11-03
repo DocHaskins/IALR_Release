@@ -1,0 +1,24 @@
+sub main()
+{
+	AddSide("zombie");
+	AddSide("infected");
+	AddSide("pk");
+	AddSide("vampire");
+	AddSide("companion");
+	AddSide("scav");
+	AddSide("bandit");
+	AddSide("bandit_2");
+	AddSide("survivor");
+	AddSide("colonel");
+	AddSide("survivor_ms_panic");
+	AddSide("survivor_encounter");
+	AddSide("pk_hostile");
+	AddSide("pk_encounter");
+	AddSide("monster");
+	AddSide("animal");
+    AddSide("renegade");
+	AddSide("worldburner");
+	AddSide("wolvesfaction");
+    AddSide("counter_player");
+    AddSide("counter_all");
+}

@@ -1,0 +1,21 @@
+import "modules_humanai_defaults.def"
+
+sub main()
+{
+    use HumanAI_Common_Modules_Generic_Infected();
+
+    Required()
+    {
+        Module("CollisionModuleHuman");
+    }
+
+    Parametrized()
+    {
+        ModuleProfile("LogicModuleBiomarker", "infected");
+        ModuleProfile("DamageModuleHuman", "infected");
+        ModuleProfile("LogicModuleInvestigation", "infected");
+        ModuleProfile("CollisionModuleHuman", "volatile");
+        ModuleProfile("ActivityModuleDeath", "infected");
+        ModuleProfile("LogicModuleChase", "viral");
+    }
+}
