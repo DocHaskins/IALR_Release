@@ -1,0 +1,459 @@
+import "ial_settings.mth"
+
+string Locomotion_Setting = IALR_Biter_Movement;
+string Climbing_Setting = IALR_Biter_Climbing_Ability;
+
+sub IALBitersPresets()
+{
+
+	//////////////////////////BASIC
+
+	Preset("Biter_Thug", "Biter")
+    { 
+        // Logic
+        SetField("m_MainBehaviorTree", "BITER_THUG_BT");
+        SetField("m_CustomDataPreset", "biter_thug");
+        SetField("m_XpForKill", "50");
+        SetField("m_HealthPreset", "Biter_Thug_Health");
+        SetField("m_AttackUnarmedDamageMul", "AI_Goon");
+        //SetField("m_SurvivorSensePreset", "Preset_red_strong");
+        SetField("m_SyncActionPreset", "Demolisher");
+        SetField("m_TakedownEnabled", "0");
+        SetField("m_EnemyIndicators", "NoHPGauge");
+        SetField("m_MusicPreset", "BigInfected");
+		SetField("m_DeathHintType", "Goon");
+		SetField("m_PlaySlomoOnDeath", "1");
+        // Sound
+        SetField("m_AudioEventsScript", "demolisher_audio_events.scr");
+        SetField("m_ScreamPresetNames", "demolisher_m_a");
+        SetField("m_StepPreset", "demolisher");
+        SetField("m_CombatMusicRelevanceValue", "2");
+        // BodyScale
+        SetField("m_ForcedBodyScaleMin", "1.10");
+        SetField("m_ForcedBodyScaleMax", "1.35");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Thug);
+    }
+	
+
+	Preset("Biter_Fresh", "Biter") // OPEN WORLD
+    {
+        SetField("m_MainBehaviorTree", "BITER_FRESH_BT");
+		SetField("m_CustomDataPreset", "biter_level_runner");
+        SetField("m_ConstFilename", "biter_profile_fresh_dead");
+		SetField("m_NavigationPreset", IALR_FreshDead_Climbing_Ability);
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Fresh);
+	}
+	
+	Preset("Biter_Fresh_Resting", "Biter_Fresh") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Weak_Resting", "Biter_Weak") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Nightwalker", "Biter") // OPEN WORLD
+    {
+        SetField("m_CustomDataPreset", IALR_Nightwalker_Biter_Movement);
+        SetField("m_ConstFilename", "biter_profile_fresh_dead");
+		SetField("m_NavigationPreset", IALR_Biter_Nightwalker_Climbing_Ability);
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_NightWalker);
+    }
+	
+	Preset("Biter_Woman_Fresh", "Biter_Woman") // OPEN WORLD
+    {
+        SetField("m_MainBehaviorTree", "BITER_FRESH_BT");
+		SetField("m_CustomDataPreset", "biter_level_runner");
+        SetField("m_ConstFilename", "biter_profile_fresh_dead");
+		SetField("m_NavigationPreset", IALR_FreshDead_Climbing_Ability);
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Fresh);
+    }
+	
+	Preset("Biter_Woman_Fresh_Resting", "Biter_Woman_Fresh") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Woman_Weak_Resting", "Biter_Weak_Woman") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Woman_Nightwalker", "Biter_Woman") // OPEN WORLD
+    {
+        SetField("m_CustomDataPreset", IALR_Nightwalker_Biter_Movement);
+        SetField("m_ConstFilename", "biter_profile_fresh_dead");
+		SetField("m_NavigationPreset", IALR_Biter_Nightwalker_Climbing_Ability);
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_NightWalker);
+    }
+	
+	Preset("Biter_Woman_Crawler", "Biter_Woman")
+    {
+        SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_AIModelName", "ialr_zmb_srv_wmn_injured_01.model;ialr_zmb_srv_wmn_injured_01_a.model;ialr_zmb_srv_wmn_injured_01_b.model;ialr_zmb_srv_wmn_injured_01_c.model;ialr_zmb_srv_wmn_injured_02.model;ialr_zmb_srv_wmn_injured_02_a.model;ialr_zmb_srv_wmn_injured_03.model;ialr_zmb_srv_wmn_injured_04.model;ialr_zmb_srv_wmn_injured_05.model;ialr_zmb_srv_wmn_injured_16.model;ialr_zmb_srv_wmn_injured_17.model;ialr_zmb_srv_wmn_injured_heavily_01_a.model");
+    }
+	
+    Preset("Biter_Armored_Crawler", "Biter_Armored")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_DamageRulesPreset", "whole_body_protection");
+    }
+	
+	Preset("Biter_Enraged_Crawler", "Biter")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_ENRAGED_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_AIModelName", "ialr_zmb_srv_man_injured_enraged_01.model;ialr_zmb_srv_man_injured_enraged_02.model;ialr_zmb_srv_man_injured_enraged_03.model;ialr_zmb_srv_man_injured_enraged_04.model;ialr_zmb_srv_man_injured_enraged_05.model;ialr_zmb_srv_man_injured_enraged_06.model;ialr_zmb_srv_man_injured_enraged_07.model;ialr_zmb_srv_man_injured_enraged_08.model;ialr_zmb_srv_man_injured_enraged_09.model;ialr_zmb_srv_man_injured_enraged_10.model");
+    }
+	
+	Preset("Biter_Enraged_Woman_Crawler", "Biter_Woman")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_ENRAGED_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_AIModelName", "ialr_zmb_srv_wmn_injured_enraged_01.model;ialr_zmb_srv_wmn_injured_enraged_02.model;ialr_zmb_srv_wmn_injured_enraged_03.model;ialr_zmb_srv_wmn_injured_enraged_04.model;ialr_zmb_srv_wmn_injured_enraged_05.model;ialr_zmb_srv_wmn_injured_enraged_06.model;ialr_zmb_srv_wmn_injured_enraged_07.model;ialr_zmb_srv_wmn_injured_enraged_08.model;ialr_zmb_srv_wmn_injured_enraged_09.model.model");
+    }
+	
+	Preset("Biter_Enraged_Crawler_Venomous", "Biter")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_ENRAGED_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_AIModelName", "ialr_zmb_srv_wmn_injured_enraged_venom_01.model;ialr_zmb_srv_wmn_injured_enraged_venom_02.model;ialr_zmb_srv_wmn_injured_enraged_venom_03.model;ialr_zmb_srv_wmn_injured_enraged_venom_04.model;ialr_zmb_srv_wmn_injured_enraged_venom_05.model;ialr_zmb_srv_wmn_injured_enraged_venom_06.model;ialr_zmb_srv_wmn_injured_enraged_venom_07.model;ialr_zmb_srv_wmn_injured_enraged_venom_08.model;ialr_zmb_srv_wmn_injured_enraged_venom_09.model;ialr_zmb_srv_wmn_injured_enraged_venom_10.model;ialr_zmb_srv_wmn_injured_enraged_venom_11.model;ialr_zmb_srv_wmn_injured_enraged_venom_12.model;ialr_zmb_srv_man_injured_enraged_venom_01.model;ialr_zmb_srv_man_injured_enraged_venom_02.model;ialr_zmb_srv_man_injured_enraged_venom_03.model;ialr_zmb_srv_man_injured_enraged_venom_04.model;ialr_zmb_srv_man_injured_enraged_venom_05.model;ialr_zmb_srv_man_injured_enraged_venom_06.model;ialr_zmb_srv_man_injured_enraged_venom_07.model");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Crawler_Venomous);
+    }
+	
+	Preset("Biter_Weak_Crawler", "Biter_Weak")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+		SetField("m_HealthPreset", "Body_001");
+    }
+	
+	Preset("Biter_Weak_Woman_Crawler", "Biter_Weak_Woman")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_HealthPreset", "Body_001");
+    }
+	
+	Preset("Biter_Armored_Resting", "Biter_Armored") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_XL_Resting", "Biter_XL") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Gas_Tank_Crawler", "Biter_Gas_Tank")
+    {
+        SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+    }
+	
+	Preset("Biter_Gas_Tank_Woman_Crawler", "Biter_Gas_Tank_Female")
+    {
+        SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+    }
+	
+	Preset("Biter_Child", "Biter_Woman") // OPEN WORLD
+    {
+		SetField("m_CustomLootTypeString", "IALR_Biter_Child");
+    }
+	
+	Preset("Biter_Child_Resting", "Biter_Child") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Woman_Backpack", "Biter_Backpack") //AI
+    {
+        SetField("m_AIModelName", "ialr_zmb_wmn_backpack_01.model;ialr_zmb_wmn_backpack_02.model;ialr_zmb_wmn_backpack_03.model;ialr_zmb_wmn_backpack_04.model;ialr_zmb_wmn_backpack_05.model;ialr_zmb_wmn_backpack_06.model;ialr_zmb_wmn_backpack_07.model");
+        SetField("m_AIAnimationVariant", "_w_a;_w_b");
+    }
+	
+	Preset("Biter_Backpack_Resting", "Biter_Backpack") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Woman_Backpack_Resting", "Biter_Woman_Backpack") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Gas_Tank_Resting", "Biter_Gas_Tank") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Gas_Tank_Female", "Biter_Gas_Tank") //AI
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_gastank_female_a.model;ialr_zmb_gastank_female_a_1.model;ialr_zmb_gastank_female_b.model;ialr_zmb_gastank_female_b_1.model;ialr_zmb_gastank_female_c.model;ialr_zmb_gastank_female_c_1.model;ialr_zmb_gastank_female_d.model;ialr_zmb_gastank_female_e.model");
+        SetField("m_AIAnimationVariant", "_w_a;_w_b");
+        // Sound override
+        SetField("m_AudioEventsScript", "biter_woman_audio_events.scr");
+        SetField("m_ScreamPresetNames", "biter_w_a;biter_w_b");
+		SetField("m_ForcedBodyScaleMin", "0.90");
+        SetField("m_ForcedBodyScaleMax", "1.0");
+		// Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Biter_Gastank");
+    }
+	
+	Preset("Biter_Gas_Tank_Female_Resting", "Biter_Gas_Tank_Female") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	//////////////////////////FACTIONS
+	Preset("Infected_Peacekeeper", "Biter") //OPEN WORLD
+    {
+        // Model override
+        SetField("m_AIModelName", "man_zmb_heavy_armored_pk_01_a.model;pk_heavy_man_07_a_zmb.model;pk_heavy_man_06_a_zmb.model;pk_heavy_man_09_a_zmb.model;ialr_zmb_man_pk_craftmaster_01_a.model;ialr_zmb_man_pk_craftmaster_02_a.model;ialr_zmb_man_pk_craftmaster_a.model;ialr_zmb_man_pk_shopkeeper_01_a.model;ialr_zmb_man_pk_shopkeeper_02_a.model;ialr_zmb_man_pk_shopkeeper_windmill.model;ialr_zmb_man_srv_shopkeeper_01_a.model;ialr_zmb_man_srv_shopkeeper_02_a.model;ialr_zmb_man_srv_shopkeeper_windmill.model;ialr_zmb_npc_abandon_pk_bajnok.model;ialr_zmb_npc_abandon_pk_boon.model;ialr_zmb_npc_abandon_pk_cabage.model;ialr_zmb_npc_abandon_pk_declan.model;ialr_zmb_npc_abandon_pk_don.model;ialr_zmb_npc_abandon_pk_edgar.model;ialr_zmb_npc_abandon_pk_gabrielle.model;ialr_zmb_npc_abandon_pk_gerhard.model;ialr_zmb_npc_abandon_pk_graeme.model;ialr_zmb_npc_abandon_pk_instructor.model;ialr_zmb_npc_abandon_pk_jax.model;ialr_zmb_npc_abandon_pk_maria.model;ialr_zmb_npc_abandon_pk_master_brewer.model;ialr_zmb_npc_abandon_pk_maverick.model;ialr_zmb_npc_abandon_pk_mcgregor.model;ialr_zmb_npc_abandon_pk_mconaughey.model;ialr_zmb_npc_abandon_pk_mister_z.model;ialr_zmb_npc_abandon_pk_mrs_browne.model;ialr_zmb_npc_abandon_pk_mr_browne.model;ialr_zmb_npc_abandon_pk_nikoloz.model;ialr_zmb_npc_abandon_pk_patricia.model;ialr_zmb_npc_abandon_pk_peter.model;ialr_zmb_npc_abandon_pk_phil.model;ialr_zmb_npc_abandon_pk_ron.model;ialr_zmb_npc_abandon_pk_sadio.model;ialr_zmb_npc_abandon_pk_sam.model;ialr_zmb_npc_abandon_pk_smokers_helper.model;ialr_zmb_npc_abandon_pk_theship_pk_a.model;ialr_zmb_npc_abandon_pk_theship_pk_b.model;ialr_zmb_npc_abandon_pk_wanda.model;ialr_zmb_pk_basic_man_01_a.model;ialr_zmb_pk_basic_man_01_b.model;ialr_zmb_pk_basic_man_01_c.model;ialr_zmb_pk_basic_man_01_d.model;ialr_zmb_pk_basic_man_01_e.model;ialr_zmb_pk_basic_man_01_f.model;ialr_zmb_pk_basic_man_02_a.model;ialr_zmb_pk_basic_man_02_b.model;ialr_zmb_pk_basic_man_02_c.model;ialr_zmb_pk_basic_man_02_d.model;ialr_zmb_pk_basic_man_02_e.model;ialr_zmb_pk_basic_man_02_f.model;ialr_zmb_pk_light_man_01.model;ialr_zmb_pk_light_man_010.model;ialr_zmb_pk_light_man_011.model;ialr_zmb_pk_light_man_012.model;ialr_zmb_pk_light_man_013.model;ialr_zmb_pk_light_man_014.model;ialr_zmb_pk_light_man_015.model;ialr_zmb_pk_light_man_016.model;ialr_zmb_pk_light_man_017.model;ialr_zmb_pk_light_man_018.model;ialr_zmb_pk_light_man_019.model;ialr_zmb_pk_light_man_02.model;ialr_zmb_pk_light_man_020.model;ialr_zmb_pk_light_man_021.model;ialr_zmb_pk_light_man_022.model;ialr_zmb_pk_light_man_023.model;ialr_zmb_pk_light_man_024.model;ialr_zmb_pk_light_man_025.model;ialr_zmb_pk_light_man_026.model;ialr_zmb_pk_light_man_027.model;ialr_zmb_pk_light_man_028.model;ialr_zmb_pk_light_man_029.model;ialr_zmb_pk_light_man_03.model;ialr_zmb_pk_light_man_030.model;ialr_zmb_pk_light_man_031.model;ialr_zmb_pk_light_man_04.model;ialr_zmb_pk_light_man_05.model;ialr_zmb_pk_light_man_06.model;ialr_zmb_pk_light_man_07.model;ialr_zmb_pk_light_man_08.model;ialr_zmb_pk_light_man_09.model;ialr_zmb_pk_officer_man_01_a.model;ialr_zmb_pk_officer_man_01_b.model;ialr_zmb_pk_officer_man_02_a.model;ialr_zmb_pk_officer_man_03_a.model;ialr_zmb_pk_worker_man_01_a.model;ialr_zmb_pk_worker_man_01_b.model;ialr_zmb_pk_worker_man_01_c.model;ialr_zmb_pk_worker_man_01_d.model;ialr_zmb_pk_worker_man_01_e.model;ialr_zmb_pk_worker_man_01_f.model;ialr_zmb_pk_worker_man_01_g.model;ialr_zmb_pk_worker_man_02_a.model;ialr_zmb_pk_worker_man_02_b.model;ialr_zmb_pk_worker_man_02_c.model;ialr_zmb_pk_worker_man_03_a.model;ialr_zmb_pk_worker_man_03_b.model;ialr_zmb_pk_worker_man_03_c.model;ialr_zmb_pk_worker_man_03_d.model;ialr_zmb_pk_worker_man_03_e.model;ialr_zmb_pk_worker_man_03_f.model");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "1.00");
+        SetField("m_ForcedBodyScaleMax", "1.05");
+        // Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Infected_PK");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Peacekeeper);
+    }
+	
+	Preset("Infected_Peacekeeper_Woman", "Biter_Woman") //OPEN WORLD
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_pk_basic_wmn_01_a.model;ialr_zmb_pk_basic_wmn_01_b.model;ialr_zmb_pk_basic_wmn_01_c.model;ialr_zmb_pk_basic_wmn_01_d.model;ialr_zmb_pk_basic_wmn_02_a.model;ialr_zmb_pk_basic_wmn_02_b.model;ialr_zmb_pk_hub_wmn_01.model;ialr_zmb_pk_hub_wmn_02.model;ialr_zmb_pk_hub_wmn_03.model;ialr_zmb_pk_hub_wmn_04.model;ialr_zmb_pk_hub_wmn_05.model;ialr_zmb_pk_hub_wmn_06.model;ialr_zmb_pk_light_wmn_01_a.model;ialr_zmb_pk_light_wmn_01_b.model;ialr_zmb_pk_light_wmn_01_c.model;ialr_zmb_pk_light_wmn_01_d.model;ialr_zmb_pk_light_wmn_01_e.model;ialr_zmb_pk_worker_wmn_01_a.model;ialr_zmb_pk_worker_wmn_01_b.model;ialr_zmb_pk_worker_wmn_01_c.model;ialr_zmb_pk_worker_wmn_01_d.model;ialr_zmb_pk_worker_wmn_01_e.model;ialr_zmb_pk_worker_wmn_01_f.model;ialr_zmb_wmn_pk_craftmaster_01_a.model;ialr_zmb_wmn_pk_craftmaster_02_a.model;ialr_zmb_wmn_pk_craftmaster_03_a.model;ialr_zmb_wmn_pk_shopkeeper_01_a.model;ialr_zmb_wmn_pk_shopkeeper_02_a.model;ialr_zmb_wmn_srv_shopkeeper_01_a.model;ialr_zmb_wmn_srv_shopkeeper_02_a.model");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "0.90");
+        SetField("m_ForcedBodyScaleMax", "1.00");
+        // Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Infected_PK");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Peacekeeper);
+    }
+	
+	Preset("Infected_Peacekeeper_Resting", "Infected_Peacekeeper") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Peacekeeper_Woman_Resting", "Infected_Peacekeeper_Woman") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Bandits", "Biter") //OPEN WORLD
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_bdt_man_01_a.model;ialr_zmb_bdt_man_01_b.model;ialr_zmb_bdt_man_01_c.model;ialr_zmb_bdt_man_01_d.model;ialr_zmb_bdt_man_01_e.model;ialr_zmb_bdt_man_01_f.model;ialr_zmb_bdt_man_01_g.model;ialr_zmb_bdt_man_01_h.model;ialr_zmb_bdt_man_02_a.model;ialr_zmb_bdt_man_02_b.model;ialr_zmb_bdt_man_02_c.model;ialr_zmb_bdt_man_02_d.model;ialr_zmb_bdt_man_02_e.model;ialr_zmb_bdt_man_03_a.model;ialr_zmb_bdt_man_03_b.model;ialr_zmb_bdt_man_03_c.model;ialr_zmb_bdt_man_04_a.model;ialr_zmb_bdt_man_04_b.model;ialr_zmb_bdt_man_05_a.model;ialr_zmb_bdt_man_05_b.model;ialr_zmb_bdt_man_05_c.model;ialr_zmb_bdt_man_05_d.model;ialr_zmb_bdt_man_06_a.model;ialr_zmb_bdt_man_06_b.model;ialr_zmb_bdt_man_06_c.model;ialr_zmb_bdt_man_06_d.model;ialr_zmb_bdt_man_06_e.model;ialr_zmb_bdt_man_06_f.model;ialr_zmb_bdt_man_06_g.model;ialr_zmb_bdt_man_06_h.model;ialr_zmb_bdt_man_06_i.model;ialr_zmb_bdt_man_06_j.model;ialr_zmb_bdt_man_07_a.model;ialr_zmb_bdt_man_07_b.model;ialr_zmb_bdt_man_08_a.model;ialr_zmb_bdt_man_08_b.model;ialr_zmb_bdt_man_08_c.model;ialr_zmb_bdt_man_09_a.model;ialr_zmb_bdt_man_09_b.model;ialr_zmb_bdt_man_09_c.model;ialr_zmb_duke_man_01_a.model;ialr_zmb_duke_man_01_b.model;ialr_zmb_duke_man_01_c.model;ialr_zmb_duke_man_01_d.model;ialr_zmb_duke_man_02_a.model;ialr_zmb_duke_man_02_b.model;ialr_zmb_duke_man_02_c.model;ialr_zmb_duke_man_02_d.model;ialr_zmb_duke_man_04_a.model;ialr_zmb_duke_man_04_b.model;ialr_zmb_duke_man_05_a.model;ialr_zmb_duke_man_06_a.model;ialr_zmb_duke_man_06_b.model;ialr_zmb_duke_man_07_a.model;ialr_zmb_duke_man_07_b.model;ialr_zmb_duke_man_08_a.model;ialr_zmb_duke_man_08_b.model");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "1.00");
+        SetField("m_ForcedBodyScaleMax", "1.05");
+        // Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Infected_Bandit");
+    }
+	
+	Preset("Infected_Bandits_Resting", "Infected_Bandits") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Survivor_Resting", "Infected_Survivor") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Survivor_Woman_Resting", "Infected_Survivor_Woman") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Colonels", "Biter") //OPEN WORLD
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_colonel_man_basic_01_a.model;ialr_zmb_colonel_man_basic_01_b.model;ialr_zmb_colonel_man_basic_01_c.model;ialr_zmb_colonel_man_basic_02_a.model;ialr_zmb_colonel_man_basic_02_b.model;ialr_zmb_colonel_man_basic_03_a.model;ialr_zmb_colonel_man_basic_03_b.model;ialr_zmb_colonel_man_basic_04_a.model;ialr_zmb_colonel_man_basic_04_b.model;ialr_zmb_colonel_man_basic_05_a.model;ialr_zmb_colonel_man_basic_05_b.model;ialr_zmb_colonel_man_basic_06_a.model;ialr_zmb_colonel_man_basic_06_b.model;ialr_zmb_colonel_man_basic_06_c.model;ialr_zmb_colonel_man_basic_07_a.model;ialr_zmb_colonel_man_basic_08_a.model;ialr_zmb_colonel_man_basic_08_b.model;ialr_zmb_colonel_man_basic_08_c.model;ialr_zmb_colonel_man_light_01_a.model;ialr_zmb_colonel_man_light_01_b.model;ialr_zmb_colonel_man_light_01_c.model;ialr_zmb_colonel_man_light_02_a.model;ialr_zmb_colonel_man_light_02_b.model;ialr_zmb_colonel_man_light_02_c.model;ialr_zmb_colonel_man_light_02_d.model;ialr_zmb_colonel_man_light_03_a.model;ialr_zmb_colonel_man_light_03_b.model;ialr_zmb_colonel_man_light_04_a.model;ialr_zmb_colonel_man_light_04_b.model;ialr_zmb_colonel_man_light_04_c.model;ialr_zmb_colonel_man_medium_01_a.model;ialr_zmb_colonel_man_medium_01_b.model;ialr_zmb_colonel_man_medium_01_c.model;ialr_zmb_colonel_man_medium_01_d.model;ialr_zmb_colonel_man_medium_01_e.model;ialr_zmb_colonel_man_medium_01_f.model;ialr_zmb_colonel_man_medium_01_g.model;ialr_zmb_colonel_man_medium_01_h.model;ialr_zmb_colonel_man_medium_01_i.model;ialr_zmb_colonel_man_medium_01_j.model;ialr_zmb_colonel_man_medium_02_a.model;ialr_zmb_colonel_man_medium_02_b.model;ialr_zmb_colonel_man_medium_02_c.model;ialr_zmb_colonel_man_medium_02_d.model;ialr_zmb_colonel_man_medium_02_e.model;ialr_zmb_colonel_man_medium_03_a.model;ialr_zmb_colonel_man_medium_04_a.model;ialr_zmb_colonel_man_medium_04_b.model;ialr_zmb_colonel_man_medium_05_a.model;ialr_zmb_colonel_man_medium_05_b.model");
+        SetField("m_DamageRulesPreset", "whole_body_no_head_protection");
+		SetField("m_CustomLootTypeString", "IALR_Infected_Colonel");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Colonels);
+    }
+	Preset("Infected_Colonels_Woman", "Biter_Woman") //OPEN WORLD
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_colonel_wmn_01_a.model;ialr_zmb_colonel_wmn_01_b.model");
+        SetField("m_DamageRulesPreset", "whole_body_no_head_protection");
+		SetField("m_CustomLootTypeString", "IALR_Infected_Colonel");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Colonels);
+    }
+	
+	Preset("Infected_Colonels_Resting", "Infected_Colonels") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Colonels_Woman_Resting", "Infected_Colonels_Woman") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Renegade_Resting", "Infected_Renegade") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Infected_Renegade_Woman_Resting", "Infected_Renegade_Woman") // OPEN WORLD
+    {
+        SetField("m_InitBehaviorTree", "biter_init_tree_resting");
+    }
+	
+	Preset("Biter_Military", "Infected_Colonels") // OPEN WORLD
+    {
+        SetField("m_AIModelName", "ialr_military_zmb_marine_01.model;ialr_military_zmb_marine_02.model;ialr_military_zmb_marine_03.model;ialr_military_zmb_marine_04.model;ialr_military_zmb_marine_05.model;ialr_military_zmb_marine_06.model;ialr_military_zmb_marine_07.model;ialr_military_zmb_marine_08.model;ialr_military_zmb_marine_09.model;ialr_military_zmb_navy_01.model;ialr_military_zmb_navy_02.model;ialr_military_zmb_navy_03.model;ialr_military_zmb_navy_04.model;ialr_military_zmb_navy_05.model;ialr_military_zmb_navy_06.model");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "1.00");
+        SetField("m_ForcedBodyScaleMax", "1.1");
+        // Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Infected_Colonel");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Military);
+	}
+	
+	Preset("Biter_Military_Gasmask", "Infected_Colonels") // OPEN WORLD
+    {
+        SetField("m_AIModelName", "ialr_military_zmb_gasmask_01.model;ialr_military_zmb_gasmask_02.model;ialr_military_zmb_gasmask_03.model;ialr_military_zmb_13.model;ialr_military_zmb_gasmask_04.model;ialr_military_zmb_gasmask_05.model");
+		SetField("m_ScreamPresetNames", "biter_gas_tank");
+		SetField("m_BarkPresetNames", "");
+        SetField("m_StepPreset", "gas_tank");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "1.00");
+        SetField("m_ForcedBodyScaleMax", "1.1");
+        // Loot and weapon override
+        SetField("m_CustomLootTypeString", "IALR_Infected_Colonel");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Military);
+	}
+	
+	//////////////////////////SWAMP
+	Preset("Biter_Weak_Swamp", "Biter")
+    {
+		// Model override
+        SetField("m_AIModelName", "ialr_viral_man_lvl01_02.model;ialr_viral_man_lvl01_05.model;ialr_viral_man_lvl01_09.model;ialr_viral_man_lvl02_05.model;ialr_viral_man_lvl03_02.model;ialr_zmb_charger_a_swamp.model;ialr_zmb_charger_b_swamp.model;ialr_zmb_charger_c_swamp.model;ialr_zmb_screamer_swamp.model;ialr_zmb_spitter_a_swamp.model;ialr_zmb_spitter_b_swamp.model;ialr_zmb_suicider_a_swamp.model;ialr_zmb_suicider_b_swamp.model;ialr_zmb_swamp_man_01.model;ialr_zmb_swamp_man_02.model;ialr_zmb_swamp_man_03.model;ialr_zmb_swamp_man_04.model;ialr_zmb_swamp_man_05.model;ialr_zmb_swamp_man_06.model;ialr_zmb_swamp_man_07.model;ialr_zmb_swamp_man_08.model;ialr_zmb_swamp_man_09.model;ialr_zmb_swamp_man_10.model;ialr_zmb_swamp_man_11.model;ialr_zmb_swamp_man_12.model;ialr_zmb_swamp_man_13.model;ialr_zmb_swamp_man_14.model;ialr_zmb_swamp_man_15.model;ialr_zmb_swamp_man_16.model;ialr_zmb_swamp_man_17.model;ialr_zmb_swamp_man_18.model;ialr_zmb_swamp_man_19.model;ialr_zmb_swamp_man_20.model;ialr_zmb_swamp_man_21.model;ialr_zmb_swamp_man_22.model;ialr_zmb_swamp_man_23.model;ialr_zmb_swamp_man_24.model;ialr_zmb_swamp_man_25.model;ialr_zmb_swamp_man_26.model;ialr_zmb_swamp_man_27.model;ialr_zmb_swamp_man_28.model;ialr_zmb_swamp_man_29.model;ialr_zmb_swamp_man_30.model;ialr_zmb_swamp_man_31.model;ialr_zmb_swamp_man_32.model;ialr_zmb_swamp_man_33.model;ialr_zmb_swamp_man_34.model;ialr_zmb_swamp_man_35.model;ialr_zmb_swamp_man_36.model;ialr_zmb_swamp_man_37.model;ialr_zmb_swamp_man_38.model;ialr_zmb_swamp_man_39.model;ialr_zmb_swamp_man_40.model");
+        SetField("m_AIAnimationVariant", "_m_a;_m_b");
+		SetField("m_ScreamPresetNames", "suiciderfa_m_a");
+		SetField("m_ForcedBodyScaleMin", "0.95");
+        SetField("m_ForcedBodyScaleMax", "1.05");
+		SetField("m_CustomLootTypeString", "IALR_Biter_Swamp");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Weak_Woman_Swamp", "Biter_Woman")
+    {
+	   // Model override
+        SetField("m_AIModelName", "ialr_zmb_swamp_woman_01.model;ialr_zmb_swamp_woman_02.model;ialr_zmb_swamp_woman_03.model;ialr_zmb_swamp_woman_04.model;ialr_zmb_swamp_woman_05.model;ialr_zmb_swamp_woman_06.model;ialr_zmb_swamp_woman_07.model;ialr_zmb_swamp_woman_08.model;ialr_zmb_swamp_woman_09.model;ialr_zmb_swamp_woman_10.model;ialr_zmb_banshee_hag_swamp.model");
+        // Sound override
+        SetField("m_ScreamPresetNames", "suiciderfa_m_a");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "0.9");
+        SetField("m_ForcedBodyScaleMax", "1.0");
+		SetField("m_CustomLootTypeString", "IALR_Biter_Swamp");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Weak_Swamp_Crawler", "Biter_Weak_Swamp")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+		SetField("m_HealthPreset", "Body_001");
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_3");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Weak_Woman_Swamp_Crawler", "Biter_Weak_Woman_Swamp")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+		SetField("m_HealthPreset", "Body_001");
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_3");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Swamp", "Biter")
+    {
+		// Model override
+        SetField("m_AIModelName", "ialr_viral_man_lvl01_02.model;ialr_viral_man_lvl01_05.model;ialr_viral_man_lvl01_09.model;ialr_viral_man_lvl02_05.model;ialr_viral_man_lvl03_02.model;ialr_zmb_charger_a_swamp.model;ialr_zmb_charger_b_swamp.model;ialr_zmb_charger_c_swamp.model;ialr_zmb_screamer_swamp.model;ialr_zmb_spitter_a_swamp.model;ialr_zmb_spitter_b_swamp.model;ialr_zmb_suicider_a_swamp.model;ialr_zmb_suicider_b_swamp.model;ialr_zmb_swamp_man_01.model;ialr_zmb_swamp_man_02.model;ialr_zmb_swamp_man_03.model;ialr_zmb_swamp_man_04.model;ialr_zmb_swamp_man_05.model;ialr_zmb_swamp_man_06.model;ialr_zmb_swamp_man_07.model;ialr_zmb_swamp_man_08.model;ialr_zmb_swamp_man_09.model;ialr_zmb_swamp_man_10.model;ialr_zmb_swamp_man_11.model;ialr_zmb_swamp_man_12.model;ialr_zmb_swamp_man_13.model;ialr_zmb_swamp_man_14.model;ialr_zmb_swamp_man_15.model;ialr_zmb_swamp_man_16.model;ialr_zmb_swamp_man_17.model;ialr_zmb_swamp_man_18.model;ialr_zmb_swamp_man_19.model;ialr_zmb_swamp_man_20.model;ialr_zmb_swamp_man_21.model;ialr_zmb_swamp_man_22.model;ialr_zmb_swamp_man_23.model;ialr_zmb_swamp_man_24.model;ialr_zmb_swamp_man_25.model;ialr_zmb_swamp_man_26.model;ialr_zmb_swamp_man_27.model;ialr_zmb_swamp_man_28.model;ialr_zmb_swamp_man_29.model;ialr_zmb_swamp_man_30.model;ialr_zmb_swamp_man_31.model;ialr_zmb_swamp_man_32.model;ialr_zmb_swamp_man_33.model;ialr_zmb_swamp_man_34.model;ialr_zmb_swamp_man_35.model;ialr_zmb_swamp_man_36.model;ialr_zmb_swamp_man_37.model;ialr_zmb_swamp_man_38.model;ialr_zmb_swamp_man_39.model;ialr_zmb_swamp_man_40.model");
+        SetField("m_ScreamPresetNames", "suiciderfa_m_a");
+		SetField("m_ForcedBodyScaleMin", "0.95");
+        SetField("m_ForcedBodyScaleMax", "1.15");
+		SetField("m_CustomLootTypeString", "IALR_Biter_Swamp");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Woman_Swamp", "Biter_Woman")
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_zmb_swamp_woman_01.model;ialr_zmb_swamp_woman_02.model;ialr_zmb_swamp_woman_03.model;ialr_zmb_swamp_woman_04.model;ialr_zmb_swamp_woman_05.model;ialr_zmb_swamp_woman_06.model;ialr_zmb_swamp_woman_07.model;ialr_zmb_swamp_woman_08.model;ialr_zmb_swamp_woman_09.model;ialr_zmb_swamp_woman_10.model;ialr_zmb_banshee_hag_swamp.model");
+        // Sound override
+        SetField("m_ScreamPresetNames", "suiciderfa_m_a");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "0.85");
+        SetField("m_ForcedBodyScaleMax", "1.00");
+		SetField("m_CustomLootTypeString", "IALR_Biter_Swamp");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Swamp_Crawler", "Biter_Swamp")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Woman_Swamp_Crawler", "Biter_Woman_Swamp")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+		SetField("m_AttachmentPreset", "chem_attachment_tier_3");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_XL_Swamp", "Biter_XL")
+    {
+        // Model override
+        SetField("m_AIModelName", "ialr_viral_man_lvl01_02.model;ialr_viral_man_lvl01_05.model;ialr_viral_man_lvl01_09.model;ialr_viral_man_lvl02_05.model;ialr_viral_man_lvl03_02.model;ialr_zmb_charger_a_swamp.model;ialr_zmb_charger_b_swamp.model;ialr_zmb_charger_c_swamp.model;ialr_zmb_screamer_swamp.model;ialr_zmb_spitter_a_swamp.model;ialr_zmb_spitter_b_swamp.model;ialr_zmb_suicider_a_swamp.model;ialr_zmb_suicider_b_swamp.model;ialr_zmb_swamp_man_01.model;ialr_zmb_swamp_man_02.model;ialr_zmb_swamp_man_03.model;ialr_zmb_swamp_man_04.model;ialr_zmb_swamp_man_05.model;ialr_zmb_swamp_man_06.model;ialr_zmb_swamp_man_07.model;ialr_zmb_swamp_man_08.model;ialr_zmb_swamp_man_09.model;ialr_zmb_swamp_man_10.model;ialr_zmb_swamp_man_11.model;ialr_zmb_swamp_man_12.model;ialr_zmb_swamp_man_13.model;ialr_zmb_swamp_man_14.model;ialr_zmb_swamp_man_15.model;ialr_zmb_swamp_man_16.model;ialr_zmb_swamp_man_17.model;ialr_zmb_swamp_man_18.model;ialr_zmb_swamp_man_19.model;ialr_zmb_swamp_man_20.model;ialr_zmb_swamp_man_21.model;ialr_zmb_swamp_man_22.model;ialr_zmb_swamp_man_23.model;ialr_zmb_swamp_man_24.model;ialr_zmb_swamp_man_25.model;ialr_zmb_swamp_man_26.model;ialr_zmb_swamp_man_27.model;ialr_zmb_swamp_man_28.model;ialr_zmb_swamp_man_29.model;ialr_zmb_swamp_man_30.model;ialr_zmb_swamp_man_31.model;ialr_zmb_swamp_man_32.model;ialr_zmb_swamp_man_33.model;ialr_zmb_swamp_man_34.model;ialr_zmb_swamp_man_35.model;ialr_zmb_swamp_man_36.model;ialr_zmb_swamp_man_37.model;ialr_zmb_swamp_man_38.model;ialr_zmb_swamp_man_39.model;ialr_zmb_swamp_man_40.model");
+        SetField("m_AIAnimationVariant", "_m_b");
+		// Sound override
+        SetField("m_ScreamPresetNames", "suiciderfa_m_a");
+        // BodyScale override
+        SetField("m_ForcedBodyScaleMin", "1.07");
+        SetField("m_ForcedBodyScaleMax", "1.18");
+		SetField("m_CustomLootTypeString", "IALR_Biter_Swamp");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_XL_Swamp_Crawler", "Biter_XL_Swamp")
+    {
+        // Model override
+		SetField("m_MainBehaviorTree", "BITER_CRAWLER_BT");
+        SetField("m_InitBehaviorTree", "biter_init_tree_crawler"); 
+		SetField("m_AttachmentPreset", "chem_attachment_tier_3");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+	
+	Preset("Biter_Toxic_Swamp", "Biter_Swamp")
+    {
+        // Model override
+        SetField("m_AIAnimationVariant", "_m_a;_m_b;_m_c;_m_d");
+        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Biter_Swamp);
+    }
+}
