@@ -327,6 +327,16 @@ sub IALROpenWorld()
 		SetField("m_DamageRulesPreset", "renegade_protection");
 		SetField("m_DamageResistance", "25_percent_damage");
     }
+    Preset("Renegade_Elite_Grenade", "Renegade_Grenadier")
+    {
+        SetField("m_AIModelName", "ialr_ren_elite_male_01.model;ialr_ren_elite_male_010.model;ialr_ren_elite_male_011.model;ialr_ren_elite_male_012.model;ialr_ren_elite_male_013.model;ialr_ren_elite_male_014.model;ialr_ren_elite_male_02.model;ialr_ren_elite_male_03.model;ialr_ren_elite_male_04.model;ialr_ren_elite_male_05.model;ialr_ren_elite_male_06.model;ialr_ren_elite_male_07.model;ialr_ren_elite_male_08.model;ialr_ren_elite_male_09.model");
+        SetField("m_CustomLootTypeString", "Renegades1hOutfits");
+		SetField("m_DropWeaponsAfterDeath", "0");
+		SetField("m_AllowLootingOfDroppedWeapons", "0");
+		SetField("m_DamageRulesPreset", "renegade_protection");
+		SetField("m_DamageResistance", "25_percent_damage");
+		SetField("m_WeaponSetName", "Renegade_Grenade");
+    }
 
 ///////////////////////////////COLONELS
 
@@ -419,10 +429,13 @@ sub IALROpenWorld()
 		SetField("m_DamageResistance", "25_percent_damage");
 	}
 	
-	Preset("Wolf_Bowmen", "Renegade_Bow")
+	Preset("Wolf_Bowmen", "Wolf_One_Handed")
     {
 		SetField("m_AIModelName", "ialr_wolves_male_01.model;ialr_wolves_male_02.model;ialr_wolves_male_03.model;ialr_wolves_male_04.model;ialr_wolves_male_05.model;ialr_wolves_male_06.model;ialr_wolves_male_07.model");
 		SetField("m_NavigationPreset", "pk_commandos");
+		SetField("m_ConflictSide", "wolvesfaction");
+		SetField("m_SurvivorSensePreset", "Red");
+        SetField("m_NavigationPreset", "pk_commandos");
         SetField("m_CustomLootTypeString", "IALR_Wolves");
 		SetField("m_DamageResistance", "25_percent_damage");
 	}
@@ -556,4 +569,22 @@ sub IALROpenWorld()
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Colonel_1handed);
     }
 
+///////////////////////////////CHAOS	
+
+	Preset("Chaos_Goblin_Horde", "Peacekeeper_Engineer")
+    {
+		SetField("m_AIModelName", "zmb_gastank_a.model;zmb_gastank_b.model;zmb_gastank_c.model");
+		SetField("m_ConflictSide", "zombie");
+		SetField("m_MainBehaviorTree", "HUMAN_CHAOS_BT");
+		SetField("m_ConstFilename", "human_profile_chaos_reinforce");
+		SetField("m_WeaponSetName", "Chaos_Horde");
+	}
+
+	Preset("Chaos_Goblin_Boss", "Peacekeeper_Engineer")
+    {
+		SetField("m_MainBehaviorTree", "HUMAN_CHAOS_BT");
+		SetField("m_ConflictSide", "zombie");
+		SetField("m_ConstFilename", "human_profile_chaos_spawn");
+		SetField("m_WeaponSetName", "Chaos_Boss");
+	}
 }

@@ -9,6 +9,10 @@
             "body": "Vampires can be found throughout the world at night and in some interiors. They are friends of no one but their clan and move deadly fast. Run if you are not high enough level to take them on, as they will call for other nearby Vampires when you are spotted. Evil Clowns have joined the world and can be found randomly through encounters. The event is still be fully updated and implemented, but thankfully the launcher should make this easy to get the updates!"
         },
         {
+            "header": "Fix for human melee weapon damage",
+            "body": "Finally found the cause of the weapon damage being so low on human melee enemies, this has been fixed"
+        },
+        {
             "header": "Fix for spawn error on Casual Survivor",
             "body": "Fixed a bug with the spawn code and a syntax merge error on Casual"
         },
