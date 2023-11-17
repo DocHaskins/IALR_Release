@@ -1,6 +1,10 @@
 {
     "news": [
         {
+            "header": "Updated to 1.13.1",
+            "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+        },
+        {
             "header": "New IALR Launcher!",
             "body": "You no longer have to worry about getting the latest version of the mod from the NexusMods, when launching the launcher you'll see if there is a new version of the mod available. If the UPDATE IALR button is visible, click it and it will update the underlying code. If you have already installed the mod, your previous selection will be used when updating the code so you don't have to run the installer again! Use the installer to change your selected options."
         },
