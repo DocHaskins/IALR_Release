@@ -25,28 +25,8 @@
             "body": "Feedback is always appreciated on the mod, especially if it's something that is causing players frustration"
         },
         {
-            "header": "Fix for crash",
-            "body": "Found and removed a crash due to changing the inventory size"
-        },
-        {
-            "header": "Fix for human melee weapon damage",
-            "body": "Finally found the cause of the weapon damage being so low on human melee enemies, this has been fixed"
-        },
-        {
-            "header": "Fix for spawn error on Casual Survivor",
-            "body": "Fixed a bug with the spawn code and a syntax merge error on Casual"
-        },
-        {
-            "header": "NG+ Crash fix",
-            "body": "Fixed an issue with the spawn system that was causing a crash while playing New Game+"
-        },
-        {
-            "header": "Fix for Peace Keeper armor",
-            "body": "Updated and fixed the references for the Peacekeeper armor. This also applies to the Peace Keeper Pathway"
-        },
-        {
-            "header": "Fix for spitters spawning during the day",
-            "body": "Removed the standard spitters from spawning during the day, the bloater/puker spitters should still spawn depending on the mod difficulty"
+            "header": "New Warzones Update",
+            "body": "Utilizing the new chaos system, Warzones is back with a much needed upgrade. The cities will now spawn groups/squads of enemies that will band together to take down their foes."
         }
     ]
 }
