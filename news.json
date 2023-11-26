@@ -27,6 +27,22 @@
         {
             "header": "New Warzones Update",
             "body": "Utilizing the new chaos system, Warzones is back with a much needed upgrade. The cities will now spawn groups/squads of enemies that will band together to take down their foes."
+        },
+        {
+            "header": "Fix for Instant heal consumables",
+            "body": "A small fix to update the mod to work with the new instant heal items"
+        },
+        {
+            "header": "Fix for Bows and Crossbows",
+            "body": "Fix for a glitch causing players to not be able to draw their crossbows or bows"
+        },
+        {
+            "header": "Fix for Volatile Hives spawning outdoors",
+            "body": "This fix should prevent as many hives showing up outdoors"
+        },
+        {
+            "header": "Reduction to chaos on Survivor",
+            "body": "Removed and reduced the amount of chaos agents working on Survivor Difficulty"
         }
     ]
 }
