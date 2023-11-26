@@ -41,6 +41,10 @@
             "body": "This fix should prevent as many hives showing up outdoors"
         },
         {
+            "header": "Reduction to Goons and Demolishers on Ultimate",
+            "body": "Reduced the amount of chaos agents that spawn goons and demolishers on Ultimate Difficulty"
+        },
+        {
             "header": "Reduction to chaos on Survivor",
             "body": "Removed and reduced the amount of chaos agents working on Survivor Difficulty"
         }
