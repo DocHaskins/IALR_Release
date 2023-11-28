@@ -1,0 +1,16 @@
+{
+    "modules_premium": [
+        {
+            "name": "Casual Supporter Stash Pack",
+            "description": "Contains all of the starter items from the mod, great for testing out the new content from the mod"
+        },
+        {
+            "name": "Survivor Supporter Stash Pack",
+            "description": "Contains all of the starter items from the mod, great for testing out the new content from the mod"
+        },
+        {
+            "name": "Ultimate Supporter Stash Pack",
+            "description": "Contains all of the starter items from the mod, great for testing out the new content from the mod"
+        }
+    ]
+}
