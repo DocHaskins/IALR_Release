@@ -9,6 +9,14 @@
             "body": "This system is designed to give you a chance at unique Epic moments while you play, enemies and allies will spawn inside the world randomly based on your Mod difficulty."
         },
         {
+            "header": "Noise Spawn System Restored",
+            "body": "The Day hunter, Night Hunter, Volatile, Chase, and Screamer Noise systems have been restored with new balancing for all difficulties. Day Hunter is disabled on Casual and Survivor."
+        },
+        {
+            "header": "Chase System Updated/Rebalanced",
+            "body": "The chase system has gotten a much needed tuning. Still a WIP and feedback is appreciated across the different difficulties."
+        },
+        {
             "header": "Halloween Event",
             "body": "Vampires can be found throughout the world at night and in some interiors. They are friends of no one but their clan and move deadly fast. Run if you are not high enough level to take them on, as they will call for other nearby Vampires when you are spotted. Evil Clowns have joined the world and can be found randomly through encounters. The event is still be fully updated and implemented, but thankfully the launcher should make this easy to get the updates!"
         },
