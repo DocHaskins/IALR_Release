@@ -1,5 +1,5 @@
 {
-    "modules": [
+    "modules_premium": [
         {
             "name": "Test1",
             "description": "REMOVE CHILDREN VISUALS: Removes child-like visuals from all biters, virals, and banshees in the world"
