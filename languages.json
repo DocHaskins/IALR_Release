@@ -2,27 +2,33 @@
     "languages": [
         {
             "name": "French",
-            "description": "Change the mod text to French"
+            "description": "Change the mod text to French",
+            "image": "button_languages_french.jpg"
         },
         {
             "name": "German",
-            "description": "Change the mod text to German"
+            "description": "Change the mod text to German",
+            "image": "button_languages_german.jpg"
         },
         {
             "name": "Italian",
-            "description": "Change the mod text to Italian"
+            "description": "Change the mod text to Italian",
+            "image": "button_languages_italian.jpg"
         },
         {
             "name": "Polish",
-            "description": "Change the mod text to Polish"
+            "description": "Change the mod text to Polish",
+            "image": "button_languages_polish.jpg"
         },
         {
             "name": "Portuguese",
-            "description": "Change the mod text to Portuguese"
+            "description": "Change the mod text to Portuguese",
+            "image": "button_languages_portuguese.jpg"
         },
         {
             "name": "Spanish",
-            "description": "Change the mod text to Spanish"
+            "description": "Change the mod text to Spanish",
+            "image": "button_languages_spain.jpg"
         }
     ]
 }

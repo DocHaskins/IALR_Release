@@ -3,7 +3,8 @@
         {
             "name": "Stash Unlock",
             "description": "Unlocks the stash items for IALR Survivor Patreon Supporters",
-            "category": "Premium"
+            "category": "Premium",
+            "image": "button_modules_stash.jpg"
         }
     ]
 }
