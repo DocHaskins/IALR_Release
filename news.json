@@ -5,6 +5,10 @@
             "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
+            "header": "Known Bugs",
+            "body": "IALR Custom traders currently broken due to unknown backend protections, Mod config settings for traders also not working due to something being protected"
+        },
+        {
             "header": "New Chaos System",
             "body": "This system is designed to give you a chance at unique Epic moments while you play, enemies and allies will spawn inside the world randomly based on your Mod difficulty."
         },
@@ -43,6 +47,18 @@
         {
             "header": "Fix for Bows and Crossbows",
             "body": "Fix for a glitch causing players to not be able to draw their crossbows or bows"
+        },
+        {
+            "header": "Fix for Hazmat Virals",
+            "body": "Fix for a hazmat virals not chasing the player or moving"
+        },
+        {
+            "header": "Fix for Enemies Nearby Bug",
+            "body": "This was occuring on some quests. This should be better balanced, but also try sleeping till daytime or use camouflage to help lose the scent of enemies"
+        },
+        {
+            "header": "Fix for only Biter Camouflage spawning",
+            "body": "Better balancing for all types of camouflage to spawn on special infected"
         },
         {
             "header": "Fix for Volatile Hives spawning outdoors",
