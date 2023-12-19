@@ -1513,16 +1513,17 @@ Pool("Day_Exterior_D04")
 	PresetWeighted("Character;Biter_Weak", 162)
 	PresetWeighted("Character;Biter_Weak_Woman", 162)		
 	PresetWeighted("Character;Biter_Berserker", 58)		
-	PresetWeighted("Character;Biter_XL", 58)
+	PresetWeighted("Character;Biter_XL", 44)
 	PresetWeighted("Character;Biter_Helmet", 29)	
 	PresetWeighted("Character;Biter_Armored", 35)			
 	PresetWeighted("Character;Biter_Gas_Tank", 44) 
 	PresetWeighted("Character;Biter_Electrobox", 38)
 	PresetWeighted("Character;Biter_Toxic", 15)	
 	PresetWeighted("Character;Biter_Chem", 15)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 15)	
 	PresetWeighted("Character;Biter_Backpack", 0)
-
-	PresetWeighted("Character;Screamer", 60)	
+	
+	PresetWeighted("Character;Screamer", 60)
 }
 
 Pool("Night_Exterior_D04")
@@ -1532,7 +1533,7 @@ Pool("Night_Exterior_D04")
 		PresetWeighted("Character;Biter", 100)
 		PresetWeighted("Character;Biter_Woman", 100)
     }	
-    Tag("Special")
+	Tag("Special")
     {
         PresetWeighted("Character;Screamer", 140) 
     }
@@ -1554,6 +1555,7 @@ Pool("Night_Exterior_D04")
 	PresetWeighted("Character;Biter_Electrobox", 39)
 	PresetWeighted("Character;Biter_Toxic", 15)
 	PresetWeighted("Character;Biter_Chem", 15)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 15)	
 	PresetWeighted("Character;Biter_Backpack", 50)
 	
 	PresetWeighted("Character;Screamer", 0)
@@ -1703,17 +1705,19 @@ Pool("Day_Exterior_D05")
     PresetWeighted("Character;Biter_Woman", 150)
 	PresetWeighted("Character;Biter_Weak", 150)
 	PresetWeighted("Character;Biter_Weak_Woman", 150)		
-	PresetWeighted("Character;Biter_Berserker", 68)		
+	PresetWeighted("Character;Biter_Berserker", 51)		
 	PresetWeighted("Character;Biter_XL", 51)
 	PresetWeighted("Character;Biter_Helmet", 34)	
 	PresetWeighted("Character;Biter_Armored", 34)			
-	PresetWeighted("Character;Biter_Gas_Tank", 51) 
+	PresetWeighted("Character;Biter_Gas_Tank", 34) 
 	PresetWeighted("Character;Biter_Electrobox", 34)
 	PresetWeighted("Character;Biter_Toxic", 34)	
 	PresetWeighted("Character;Biter_Chem", 34)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
 	PresetWeighted("Character;Biter_Backpack", 0)
-
-	PresetWeighted("Character;Screamer", 60)	
+	
+	PresetWeighted("Character;Screamer", 60)
 }
 
 Pool("Night_Exterior_D05")
@@ -1737,13 +1741,16 @@ Pool("Night_Exterior_D05")
     PresetWeighted("Character;Biter_Woman", 240)
 	PresetWeighted("Character;Biter_Weak", 60)
 	PresetWeighted("Character;Biter_Weak_Woman", 60)		
-	PresetWeighted("Character;Biter_Berserker", 70)		
+	PresetWeighted("Character;Biter_Berserker", 53)		
 	PresetWeighted("Character;Biter_XL", 52)
 	PresetWeighted("Character;Biter_Helmet", 35)	
 	PresetWeighted("Character;Biter_Armored", 35)			
-	PresetWeighted("Character;Biter_Gas_Tank", 53) 
+	PresetWeighted("Character;Biter_Gas_Tank", 35) 
 	PresetWeighted("Character;Biter_Electrobox", 35)
 	PresetWeighted("Character;Biter_Toxic", 35)		
+	PresetWeighted("Character;Biter_Chem", 35)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
 	PresetWeighted("Character;Biter_Backpack", 50)
 	
 	PresetWeighted("Character;Screamer", 0)
@@ -1897,13 +1904,16 @@ Pool("Day_Exterior_D06")
 	PresetWeighted("Character;Biter_XL", 34)
 	PresetWeighted("Character;Biter_Helmet", 34)	
 	PresetWeighted("Character;Biter_Armored", 34)			
-	PresetWeighted("Character;Biter_Gas_Tank", 51) 
+	PresetWeighted("Character;Biter_Gas_Tank", 34) 
 	PresetWeighted("Character;Biter_Electrobox", 34)
-	PresetWeighted("Character;Biter_Toxic", 51)	
-	PresetWeighted("Character;Biter_Chem", 51)	
+	PresetWeighted("Character;Biter_Toxic", 34)	
+	PresetWeighted("Character;Biter_Chem", 34)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 17)	
 	PresetWeighted("Character;Biter_Backpack", 0)
-
-	PresetWeighted("Character;Screamer", 60)		
+	
+	PresetWeighted("Character;Screamer", 60)
 }
 
 Pool("Night_Exterior_D06")
@@ -1931,10 +1941,13 @@ Pool("Night_Exterior_D06")
 	PresetWeighted("Character;Biter_XL", 35)
 	PresetWeighted("Character;Biter_Helmet", 35)	
 	PresetWeighted("Character;Biter_Armored", 35)			
-	PresetWeighted("Character;Biter_Gas_Tank", 53) 
+	PresetWeighted("Character;Biter_Gas_Tank", 35) 
 	PresetWeighted("Character;Biter_Electrobox", 35)
-	PresetWeighted("Character;Biter_Toxic", 53)
-	PresetWeighted("Character;Biter_Chem", 53)	
+	PresetWeighted("Character;Biter_Toxic", 35)
+	PresetWeighted("Character;Biter_Chem", 35)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 18)
 	PresetWeighted("Character;Biter_Backpack", 50)
 	
 	PresetWeighted("Character;Screamer", 0)
@@ -2077,12 +2090,15 @@ Pool("Day_Exterior_D07")
 	PresetWeighted("Character;Biter_XL", 34)
 	PresetWeighted("Character;Biter_Helmet", 34)	
 	PresetWeighted("Character;Biter_Armored", 34)			
-	PresetWeighted("Character;Biter_Gas_Tank", 51) 
+	PresetWeighted("Character;Biter_Gas_Tank", 34) 
 	PresetWeighted("Character;Biter_Electrobox", 34)
-	PresetWeighted("Character;Biter_Toxic", 51)	
-	PresetWeighted("Character;Biter_Chem", 51)	
+	PresetWeighted("Character;Biter_Toxic", 34)	
+	PresetWeighted("Character;Biter_Chem", 34)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 17)	
 	PresetWeighted("Character;Biter_Backpack", 0)
-
+	
 	PresetWeighted("Character;Screamer", 60)
 }
 
@@ -2111,10 +2127,13 @@ Pool("Night_Exterior_D07")
 	PresetWeighted("Character;Biter_XL", 35)
 	PresetWeighted("Character;Biter_Helmet", 35)	
 	PresetWeighted("Character;Biter_Armored", 35)			
-	PresetWeighted("Character;Biter_Gas_Tank", 53) 
+	PresetWeighted("Character;Biter_Gas_Tank", 35) 
 	PresetWeighted("Character;Biter_Electrobox", 35)
-	PresetWeighted("Character;Biter_Toxic", 53)
-	PresetWeighted("Character;Biter_Chem", 53)	
+	PresetWeighted("Character;Biter_Toxic", 35)
+	PresetWeighted("Character;Biter_Chem", 35)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 18)
 	PresetWeighted("Character;Biter_Backpack", 50)
 	
 	PresetWeighted("Character;Screamer", 0)
@@ -2256,12 +2275,15 @@ Pool("Day_Exterior_D08")
 	PresetWeighted("Character;Biter_XL", 34)
 	PresetWeighted("Character;Biter_Helmet", 34)	
 	PresetWeighted("Character;Biter_Armored", 34)			
-	PresetWeighted("Character;Biter_Gas_Tank", 51) 
+	PresetWeighted("Character;Biter_Gas_Tank", 34) 
 	PresetWeighted("Character;Biter_Electrobox", 34)
-	PresetWeighted("Character;Biter_Toxic", 51)	
-	PresetWeighted("Character;Biter_Chem", 51)	
+	PresetWeighted("Character;Biter_Toxic", 34)	
+	PresetWeighted("Character;Biter_Chem", 34)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 17)	
 	PresetWeighted("Character;Biter_Backpack", 0)
-
+	
 	PresetWeighted("Character;Screamer", 60)
 }
 
@@ -2291,10 +2313,13 @@ Pool("Night_Exterior_D08")
 	PresetWeighted("Character;Biter_XL", 35)
 	PresetWeighted("Character;Biter_Helmet", 35)	
 	PresetWeighted("Character;Biter_Armored", 35)			
-	PresetWeighted("Character;Biter_Gas_Tank", 53) 
+	PresetWeighted("Character;Biter_Gas_Tank", 35) 
 	PresetWeighted("Character;Biter_Electrobox", 35)
-	PresetWeighted("Character;Biter_Toxic", 53)
-	PresetWeighted("Character;Biter_Chem", 53)	
+	PresetWeighted("Character;Biter_Toxic", 35)
+	PresetWeighted("Character;Biter_Chem", 35)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 18)
 	PresetWeighted("Character;Biter_Backpack", 50)
 	
 	PresetWeighted("Character;Screamer", 0)
@@ -2431,6 +2456,23 @@ Pool("Day_Exterior_D09")
     	PresetWeighted("Character;Biter_Weak_Woman_Crawler", 15)
     	PresetWeighted("Character;Biter_Armored_Crawler", 10)
     }	
+	PresetWeighted("Character;Biter", 150)
+    PresetWeighted("Character;Biter_Woman", 150)
+	PresetWeighted("Character;Biter_Weak", 150)
+	PresetWeighted("Character;Biter_Weak_Woman", 150)		
+	PresetWeighted("Character;Biter_Berserker", 51)		
+	PresetWeighted("Character;Biter_XL", 34)
+	PresetWeighted("Character;Biter_Helmet", 34)	
+	PresetWeighted("Character;Biter_Armored", 34)			
+	PresetWeighted("Character;Biter_Gas_Tank", 34) 
+	PresetWeighted("Character;Biter_Electrobox", 34)
+	PresetWeighted("Character;Biter_Toxic", 34)	
+	PresetWeighted("Character;Biter_Chem", 34)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 17)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 17)
+	PresetWeighted("Character;Biter_Backpack", 0)
+	
 	PresetWeighted("Character;Biter_Weak", 170)
 	PresetWeighted("Character;Biter_Woman_Weak", 170)
 	PresetWeighted("Character;Biter", 245)
@@ -2477,12 +2519,20 @@ Pool("Night_Exterior_D09")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Biter_Weak_Woman_Crawler", 15)
     	PresetWeighted("Character;Biter_Armored_Crawler", 10)
+		PresetWeighted("Character;Biter", 100)
+		PresetWeighted("Character;Biter_Woman", 100)
+    }
+	Tag("Special")
+    {
+        PresetWeighted("Character;Screamer", 150) 
     }
     Tag("VolatileSpecial")
     {
+        PresetWeighted("Character;Volatile", 70)
+        PresetWeighted("Character;Volatile_Chase", 40)
+        PresetWeighted("Character;Volatile_Summoner", 60)
         PresetWeighted("Character;Vampire_LowTier", 40)
         PresetWeighted("Character;Vampire_HighTier", 20)
-        PresetWeighted("Character;Volatile", 40)
         PresetWeighted("Character;Volatile_Tyrant", 5)
     }
 	Tag("Special")
@@ -2490,6 +2540,8 @@ Pool("Night_Exterior_D09")
 		PresetWeighted("Character;Vampire_LowTier", 40)
         PresetWeighted("Character;Vampire_HighTier", 20)
 		PresetWeighted("Character;Volatile", 150)
+		PresetWeighted("Character;Volatile_Chase", 40)
+		PresetWeighted("Character;Volatile_Summoner", 60)
 		PresetWeighted("Character;Volatile_Tyrant", 5)
 		PresetWeighted("Character;Screamer", 150)
 		PresetWeighted("Character;Screamer_Child", 6)
@@ -2544,6 +2596,10 @@ Pool("Night_Exterior_D09")
     PresetWeighted("Character;Screamer", 10)
 	PresetWeighted("Character;Goon", 10)
 	PresetWeighted("Character;Banshee_Stalker", 15)
+	PresetWeighted("Character;Volatile", 10)
+    PresetWeighted("Character;Volatile_Chase", 10)
+    PresetWeighted("Character;Volatile_Summoner", 10)
+	PresetWeighted("Character;Volatile_Tyrant", 4)
 	PresetWeighted("Character;Vampire_LowTier", 40)
         PresetWeighted("Character;Vampire_HighTier", 20)
 	PresetWeighted("Character;Volatile", 12)
@@ -2551,6 +2607,27 @@ Pool("Night_Exterior_D09")
 	PresetWeighted("Character;Volatile_Hive", 0)
 	PresetWeighted("Character;Volatile_Chemical", 0)
 	PresetWeighted("Character;Volatile_Venom", 0)
+	PresetWeighted("Character;Biter", 240)
+    PresetWeighted("Character;Biter_Woman", 240)
+	PresetWeighted("Character;Biter_Weak", 60)
+	PresetWeighted("Character;Biter_Weak_Woman", 60)		
+	PresetWeighted("Character;Biter_Berserker", 53)		
+	PresetWeighted("Character;Biter_XL", 35)
+	PresetWeighted("Character;Biter_Helmet", 35)	
+	PresetWeighted("Character;Biter_Armored", 35)			
+	PresetWeighted("Character;Biter_Gas_Tank", 35) 
+	PresetWeighted("Character;Biter_Electrobox", 35)
+	PresetWeighted("Character;Biter_Toxic", 35)
+	PresetWeighted("Character;Biter_Chem", 35)	
+	PresetWeighted("Character;Biter_Fire_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Freeze_Gas_Tank", 18)	
+	PresetWeighted("Character;Biter_Toxic_Gas_Tank", 18)
+	PresetWeighted("Character;Biter_Backpack", 50)
+	
+	PresetWeighted("Character;Screamer", 0)
+	
+	PresetWeighted("Character;Spitter", 50)
+	PresetWeighted("Character;Suicider", 50)
 }
 
 /// Interiors ///	
@@ -2605,6 +2682,12 @@ Pool("Infected_Population_Day_D09")
 		PresetWeighted("Character;Volatile", 20)
 		PresetWeighted("Character;Screamer", 10)
 		PresetWeighted("Character;Biter_Electrobox", 3)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Hive_Easy_Spawn", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 
    Tag("RunThrough")
@@ -2654,6 +2737,12 @@ Pool("Infected_Population_Day_D09")
 		PresetWeighted("Character;Volatile", 20)
 		PresetWeighted("Character;Screamer", 10)
 		PresetWeighted("Character;Biter_Electrobox", 3)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Hive_Easy_Spawn", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 
     Tag("Medium")
@@ -2703,6 +2792,12 @@ Pool("Infected_Population_Day_D09")
 		PresetWeighted("Character;Volatile", 20)
 		PresetWeighted("Character;Biter_Electrobox", 5)
 		PresetWeighted("Character;Screamer", 10)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Hive_Easy_Spawn", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 
     Tag("Hard")
@@ -2752,6 +2847,12 @@ Pool("Infected_Population_Day_D09")
 		PresetWeighted("Character;Volatile", 20)
 		PresetWeighted("Character;Screamer", 10)
 		PresetWeighted("Character;Biter_Electrobox", 8)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Hive_Easy_Spawn", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
     
 	Tag("VeryHard")
@@ -2800,6 +2901,12 @@ Pool("Infected_Population_Day_D09")
         PresetWeighted("Character;Vampire_HighTier", 20)
 		PresetWeighted("Character;Volatile", 20)
 		PresetWeighted("Character;Screamer", 10)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Hive_Easy_Spawn", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }	
 }
 
@@ -2815,6 +2922,10 @@ Pool("Infected_Population_Night_D09")
         PresetWeighted("Character;Viral", 8)
 		PresetWeighted("Character;Screamer", 5)
 		PresetWeighted("Character;Viral_Electrobox", 5)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
     }
 
 	Tag("RunThrough")
@@ -2827,6 +2938,11 @@ Pool("Infected_Population_Night_D09")
         PresetWeighted("Character;Viral", 8)
 		PresetWeighted("Character;Screamer", 5)
 		PresetWeighted("Character;Viral_Electrobox", 5)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 
     Tag("Medium")
@@ -2874,6 +2990,11 @@ Pool("Infected_Population_Night_D09")
 		PresetWeighted("Character;Viral", 3)
 		PresetWeighted("Character;Screamer", 5)
 		PresetWeighted("Character;Viral_Electrobox", 5)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 
     Tag("Hard")
@@ -2929,6 +3050,11 @@ Pool("Infected_Population_Night_D09")
 		PresetWeighted("Character;Volatile_Venom", 2)
 		PresetWeighted("Character;Screamer", 5)
 		PresetWeighted("Character;Viral_Electrobox", 5)
+		PresetWeighted("Character;Chaos_Goblin_Horde", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn", 5)
+		PresetWeighted("Character;Chaos_Goblin_Zombie_Spawn_Random", 5)
+		PresetWeighted("Character;Chaos_Goblin_Goon_Spawn_Random", 5)
+PresetWeighted("Character;Chaos_Goblin_Volatile_Small_Pack_Spawn", 5)
     }
 }
 
@@ -6792,7 +6918,9 @@ Pool("Base_Looting_Impossible")
 	}
 	Tag("Special")
 	{
-		Preset("Character;Goon;Scenario;General")
+		//Preset("Character;Goon;Scenario;General")
+		PresetWeighted("Character;Goon;Scenario;General", 80)
+		PresetWeighted("Character;Goon_Caller;Scenario;General", 20)
 	}
 }
 
@@ -7791,6 +7919,24 @@ Pool("2H_2H")
 	} 
 }
 
+Pool("2HE_2HE")
+{
+    Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	} 
+}
+
+Pool("2HE_1S")
+{
+    Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_Summoner;Scenario;General")
+	} 
+}
+
 Pool("2H_1S")
 {
 	Tag("Guard")
@@ -8030,6 +8176,51 @@ Pool("SP_SP_A")
 	} 
 }
 
+Pool("HA_1H_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")	
+    }     
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }       
+}
+
+Pool("HA_1H_S")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }   
+    Tag("Range")
+    {
+    Preset("Character;Generic_Summoner_Plaguebearer;Scenario;General")	
+    }
+}
+
+Pool("SP_HA_1H")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")  
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Spear;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+}
+
 // Difficulty_05
 
 Pool("M_M_M")
@@ -8117,6 +8308,51 @@ Pool("SP_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;General")	
 	Preset("Character;Renegade_Grenadier;Scenario;General")
 	}     
+}
+
+Pool("HA_S_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }       
+}
+
+Pool("HA_1H_M")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    }
+}
+
+Pool("SP_HA_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Spear;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    }
 }
 
 // Difficulty_06
@@ -8265,7 +8501,7 @@ Pool("2HE_A_A_A")
 {
 	Tag("Guard")
     {
-	Preset("Character;Renegade_Two_Handed_;Scenario;General")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
 	}	
 	Tag("Range")
     {
@@ -8366,21 +8602,74 @@ Pool("2H_2H_A_A")
 	Preset("Character;Renegade_Bow;Scenario;General")
 	}       
 }
-Pool("2HE_2H_A_A")
+
+Pool("HA_HA_S_S")
 {
 	Tag("Guard")
     {
-	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_Halberd;Scenario;General")
 	}	
 	Tag("Melee")
     {
-	Preset("Character;Generic_Two_Handed_Plaguebearer;Scenario;General")
+	Preset("Character;Renegade_Halberd;Scenario;General")
 	}  	
 	Tag("Range")
     {
-	Preset("Character;Renegade_Bow;Scenario;General")
-	Preset("Character;Renegade_Bow;Scenario;General")
+	Preset("Character;Renegade_Summoner;Scenario;General")
+	Preset("Character;Renegade_Summoner;Scenario;General")
 	}       
+}
+
+Pool("HA_S_1H_M")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    }
+}
+
+Pool("SP_HA_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Spear;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+}
+
+
+Pool("2HE_2H_A_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Generic_Two_Handed_Plaguebearer;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Bow;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
 }
 
 // Difficulty_06
@@ -8536,23 +8825,155 @@ Pool("2H_M_M_M")
 	}        
 }
 
+Pool("2HE_M_M_M")
+{
+	Tag("Guard")
+    {
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	}	
+	Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")	
+	}  	
+	Tag("Range")
+    {
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	} 
+}
+
+Pool("2HE_1H_M_M")
+{
+	Tag("Guard")
+    {
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	}	
+	Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_One_Handed;Scenario;General")	
+	}  	
+	Tag("Range")
+    {
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	}
+}
+
+Pool("1H_SP_2HE_M")
+{
+	Tag("Guard")
+    {
+	Preset("Character;Renegade_Spear;Scenario;General")
+	}	
+	Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_One_Handed;Scenario;General")	
+	}  	
+	Tag("Range")
+    {
+	Preset("Character;Renegade_Grenadier;Scenario;General")
+	}
+}
+
+Pool("2HE_SP_S_S")
+{
+	Tag("Guard")
+    {
+	Preset("Character;Renegade_Spear;Scenario;General")
+	}	
+	Tag("Melee")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	Preset("Character;Renegade_Summoner;Scenario;General")
+	Preset("Character;Renegade_Summoner;Scenario;General")
+	}  	
+}
+
+Pool("1H_2HE_A_S")
+{
+	Tag("Guard")
+    {
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+	}	
+	Tag("Melee")
+    {
+	Preset("Character;Renegade_Summoner;Scenario;General")
+	Preset("Character;Renegade_One_Handed;Scenario;General")
+	}
+	Tag("Range")
+    {
+	Preset("Character;Renegade_Bow;Scenario;General")
+	}  	
+}
+
+Pool("HA_HA_1H_M")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    }
+}
+
+Pool("HA_HA_A_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Bow;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    } 
+}
+
+Pool("HA_HA_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+}
 
 
 //// X5 ////
 // Difficulty_07
 Pool("1H_1H_1H_S_S")
 {
-	Tag("Guard")
+    Tag("Guard")
     {
-	Preset("Character;Renegade_One_Handed;Scenario;General")
-	}	
-	Tag("Melee")
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
     {
-	Preset("Character;Renegade_One_Handed;Scenario;General")
-	Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
-	Preset("Character;Renegade_Summoner;Scenario;General")
-	Preset("Character;Renegade_Summoner;Scenario;General")
-	}  	
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    }
 }
 
 Pool("1H_1H_1H_A_A")
@@ -8784,41 +9205,97 @@ Pool("1H_SP_S_M_M")
 	}     
 }
 
+Pool("HA_HA_1H_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+}
+
+Pool("HA_HA_2HE_A_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Bow;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+	
+}
+
+Pool("2HE_HA_HA_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+}
+
+
 
 // END-GAME //
 //// X5 ////
 // Difficulty_07
 Pool("1HL_1H_1H_S_S")
 {
-	Tag("Guard")
+    Tag("Guard")
     {
-	Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
-	}	
-	Tag("Melee")
+    Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
+    }
+    Tag("Melee")
     {
-	Preset("Character;Renegade_One_Handed;Scenario;General")
-	Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
-	Preset("Character;Renegade_Summoner;Scenario;General")
-	Preset("Character;Renegade_Summoner;Scenario;General")
-	}  	
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    Preset("Character;Renegade_Summoner;Scenario;General")
+    }
 }
 
 Pool("1HL_1H_1H_A_A")
 {
-	Tag("Guard")
+    Tag("Guard")
     {
-	Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
-	}	
-	Tag("Melee")
+    Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
+    }
+    Tag("Melee")
     {
-	Preset("Character;Renegade_One_Handed;Scenario;General")
-	Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
-	}  	
-	Tag("Range")
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    Preset("Character;Generic_One_Handed_Plaguebearer;Scenario;General")
+    }
+    Tag("Range")
     {
-	Preset("Character;Renegade_Bow;Scenario;General")
-	Preset("Character;Renegade_Bow;Scenario;General")
-	}      
+    Preset("Character;Renegade_Bow;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
 }
 
 Pool("1HL_1H_1H_SP_S")
@@ -8994,6 +9471,61 @@ Pool("1HL_SP_S_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;General")
 	Preset("Character;Renegade_Grenadier;Scenario;General")
 	}     
+}
+
+Pool("1HL_HA_1H_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+}
+
+Pool("1HL_HA_2HE_A_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Bow;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
+	
+}
+
+Pool("2HE_1HL_HA_M_A")
+{
+    Tag("Guard")
+    {
+    Preset("Character;Renegade_Two_Handed_Elemental;Scenario;General")
+    }
+    Tag("Melee")
+    {
+    Preset("Character;Bandit_One_Handed_Lieutenant_EndGame;Scenario;General")
+    Preset("Character;Renegade_Halberd;Scenario;General")
+    }
+    Tag("Range")
+    {
+    Preset("Character;Renegade_Grenadier;Scenario;General")
+    Preset("Character;Renegade_Bow;Scenario;General")
+    }
 }
 // HOSTAGE //
 
@@ -9208,6 +9740,48 @@ Pool("Hostage_PK_SP_SP_A")
 
 // Difficulty_04
 
+Pool("Hostage_PK_HA_1H_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_PK_HA_1H_S")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Generic_Summoner_Plaguebearer;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_PK_SP_HA_1H")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
+
 // Difficulty_05
 
 Pool("Hostage_PK_M_M_M")
@@ -9293,7 +9867,47 @@ Pool("Hostage_PK_SP_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	}
 }
+Pool("Hostage_PK_HA_S_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 
+Pool("Hostage_PK_HA_1H_M")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_PK_SP_HA_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Bow;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
 //// X4 ////
 
 // Difficulty_06
@@ -9521,7 +10135,104 @@ Pool("Hostage_PK_2H_2H_A_A")
 	Preset("Character;Renegade_Bow;Scenario;Guard")
 	}
 }
-
+Pool("Hostage_PK_2HE_A_A_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_2HE_2H_A_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_1H_S_2HE_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_2HE_1H_M_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_HA_HA_S_S")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_HA_S_1H_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_PK_SP_HA_M_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 //// X3 ////
 // Difficulty_01
 
@@ -9746,6 +10457,47 @@ Pool("Hostage_SUR_SP_SP_A")
 
 // Difficulty_04
 
+Pool("Hostage_SUR_HA_1H_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_SUR_HA_1H_S")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Generic_Summoner_Plaguebearer;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_SUR_SP_HA_1H")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
 // Difficulty_05
 
 Pool("Hostage_SUR_M_M_M")
@@ -9831,7 +10583,47 @@ Pool("Hostage_SUR_SP_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	}
 }
+Pool("Hostage_SUR_HA_S_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 
+Pool("Hostage_SUR_HA_1H_M")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+
+Pool("Hostage_SUR_SP_HA_A")
+{
+    Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Bow;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
 // Difficulty_06
 
 //// X4 ////
@@ -10167,7 +10959,104 @@ Pool("Hostage_SUR_2H_M_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	}
 }
-
+Pool("Hostage_SUR_2HE_A_A_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_2HE_2H_A_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_1H_S_2HE_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_2HE_1H_M_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_HA_HA_S_S")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_HA_S_1H_M")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hostage_SUR_SP_HA_M_A")
+{
+        Tag("Hostage")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hostage")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 ////// INFECTED //////
 //// X2 ////
 // Difficulty_01
@@ -10415,6 +11304,17 @@ Pool("Goon_Special_EndGame_Boss")
 	Preset("Character;Biter;Scenario;General")
 	}
 }
+Pool("Goon_Caller_Special_EndGame_Boss")
+{
+    Tag("Special")
+    {
+	Preset("Character;Goon_Caller_Endgame;Scenario;Special_Infected")	
+	}    
+	Tag("Generic")
+    {
+	Preset("Character;Biter_Fire_Gas_Tank;Scenario;General")
+	}
+}
 Pool("Goon_Special_EndGame_Boss_Banshee")
 {
     Tag("Special")
@@ -10636,6 +11536,18 @@ Pool("G_D01")
 	}
 }
 
+Pool("GC_D01")
+{
+    Tag("Special")
+    {
+	Preset("Character;Goon_Caller;Scenario;Special_Infected")
+	}
+	Tag("Generic")
+    {
+	Preset("Character;Biter;Scenario;General")
+	}
+}
+
 // Difficulty_02
 
 Pool("DEM_D02")
@@ -10812,6 +11724,18 @@ Pool("G_D01_15x15")
     Tag("Special")
     {
 	Preset("Character;Goon;Scenario;Special_Infected")
+	}
+	Tag("Generic")
+    {
+	Preset("Character;Biter;Scenario;General")	
+	}
+}
+
+Pool("GC_D01_15x15")
+{
+    Tag("Special")
+    {
+	Preset("Character;Goon_Caller;Scenario;Special_Infected")
 	}
 	Tag("Generic")
     {
@@ -11002,6 +11926,18 @@ Pool("G_D01_20x20")
 	}
 }
 
+Pool("GC_D01_20x20")
+{
+    Tag("Special")
+    {
+	Preset("Character;Goon_Caller;Scenario;Special_Infected")
+	}
+	Tag("Generic")
+    {
+	Preset("Character;Biter;Scenario;General")	
+	}
+}
+
 // Difficulty_02
 
 Pool("DEM_D02_20x20")
@@ -11184,6 +12120,18 @@ Pool("G_D01_25x25")
     Tag("Special")
     {
 	Preset("Character;Goon;Scenario;Special_Infected")
+	}
+	Tag("Generic")
+    {
+	Preset("Character;Biter;Scenario;General")
+	}
+}
+
+Pool("GC_D01_25x25")
+{
+    Tag("Special")
+    {
+	Preset("Character;Goon_Caller;Scenario;Special_Infected")
 	}
 	Tag("Generic")
     {
@@ -11632,6 +12580,48 @@ Pool("Hangman_PK_SP_SP_A")
 
 // Difficulty_04
 
+Pool("Hangman_PK_HA_1H_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_PK_HA_1H_S")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Generic_Summoner_Plaguebearer;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_PK_SP_HA_1H")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
+
 // Difficulty_05
 
 Pool("Hangman_PK_M_M_M")
@@ -11717,7 +12707,47 @@ Pool("Hangman_PK_SP_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	}
 }
+Pool("Hangman_PK_HA_S_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 
+Pool("Hangman_PK_HA_1H_M")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_PK_SP_HA_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Bow;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
 //// X4 ////
 
 // Difficulty_06
@@ -11946,6 +12976,105 @@ Pool("Hangman_PK_2H_2H_A_A")
 	}
 }
 
+Pool("Hangman_PK_2HE_A_A_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_2HE_2H_A_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_1H_S_2HE_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_2HE_1H_M_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_HA_HA_S_S")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_HA_S_1H_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_PK_SP_HA_M_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Peacekeeper_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+
 //// X3 ////
 // Difficulty_01
 
@@ -12170,6 +13299,48 @@ Pool("Hangman_SUR_SP_SP_A")
 
 // Difficulty_04
 
+Pool("Hangman_SUR_HA_1H_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_SUR_HA_1H_S")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Generic_Summoner_Plaguebearer;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_SUR_SP_HA_1H")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
+
 // Difficulty_05
 
 Pool("Hangman_SUR_M_M_M")
@@ -12254,7 +13425,47 @@ Pool("Hangman_SUR_SP_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	}
 }
+Pool("Hangman_SUR_HA_S_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")	
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
 
+Pool("Hangman_SUR_HA_1H_M")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_SUR_SP_HA_A")
+{
+    Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {
+    Preset("Character;Renegade_Bow;Scenario;Guard")  
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	}
+}
 // Difficulty_06
 
 //// X4 ////
@@ -12588,6 +13799,105 @@ Pool("Hangman_SUR_2H_M_M_M")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
 	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+
+Pool("Hangman_SUR_2HE_A_A_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_2HE_2H_A_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_1H_S_2HE_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_2HE_1H_M_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Two_Handed_Elemental;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_HA_HA_S_S")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_HA_S_1H_M")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Summoner;Scenario;Guard")
+	Preset("Character;Renegade_One_Handed;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	}
+}
+Pool("Hangman_SUR_SP_HA_M_A")
+{
+        Tag("Hangman")
+    {
+	Preset("Character;Survivor_Encounter;Scenario;Hangman")
+	}
+	Tag("Guard")
+    {    
+	Preset("Character;Renegade_Spear;Scenario;Guard")
+	Preset("Character;Renegade_Halberd;Scenario;Guard")
+	Preset("Character;Renegade_Grenadier;Scenario;Guard")
+	Preset("Character;Renegade_Bow;Scenario;Guard")
 	}
 }
 
@@ -14518,7 +15828,9 @@ Pool("SI_Solo_Encounter_01")
 
 Pool("SI_Solo_Encounter_02")
 {
-	Preset("Character;Goon;Scenario;General")
+	//Preset("Character;Goon;Scenario;General")
+	PresetWeighted("Character;Goon;Scenario;General", 65)
+    PresetWeighted("Character;Goon_Caller;Scenario;General", 35)
 }
 
 Pool("Demolisher_Weak_Surv")
@@ -14830,6 +16142,15 @@ Pool("DLC_Opera_Garden")
 	}
 }
 
+// DLC 2 
+
+Pool("DLC2_Volatile_Summoner")
+{
+    Tag("Special")
+    {
+	Preset("Character;Volatile_Summoner;Scenario;General")
+	}   
+}
 
 // GAAS 2, GAAS Chapter 2, Ch2, GAAS2
 //////////////////////////////////////////////
@@ -15053,8 +16374,6 @@ Pool("GAAS_C2_E_Chamber_HMF_Tracks")
 // Mission 2 - Metro  Infecteds 
 Pool("GAAS_C2_E_Metro_Patrols")
 {
-	PresetWeighted("Character;Vampire_LowTier", 40)
-        PresetWeighted("Character;Vampire_HighTier", 20)
 	PresetWeighted("Character;Volatile", 1)
 }
 
@@ -15086,8 +16405,6 @@ Pool("GAAS_C2_E_Chamber_Crowd_Special") // Ground
 	PresetWeighted("Character;Screamer", 40)
 	PresetWeighted("Character;Banshee", 10)
 	PresetWeighted("Character;Charger", 2)
-	PresetWeighted("Character;Vampire_LowTier", 40)
-        PresetWeighted("Character;Vampire_HighTier", 20)
 	PresetWeighted("Character;Volatile", 1)
 }
 
@@ -15135,14 +16452,6 @@ Pool("GAAS_C2_E_Arena_HMF_Special")
 	PresetWeighted("Character;Generic_Spear_Plaguebearer", 1)
 }
 
-
-/* 
-Generic_One_Handed_Plaguebearer
-Generic_Bow_Plaguebearer
-Generic_Spear_Plaguebearer
-Generic_Two_Handed_Plaguebearer
-Generic_Summoner_Plaguebearer
-*/
 
 //-------------------------------------------------------------------------------------------------------
 
@@ -15358,12 +16667,561 @@ Pool("BA_Event_MWB_Wave_04")
 	PresetWeighted("Character;Spitter", 30)
 }
 
+// Winter Event 2023
+// Airdrop
+
+Pool("AD_Winter_Default") 
+{
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_B") //Screamers on ranged
+{
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Screamer;Scenario;General")
+    Preset("Character;Screamer;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_C") //Spiters on ranged
+{
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_D") //Armored bitters, Screamer and Spitter
+{
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Screamer;Scenario;General")
+    Preset("Character;Spitter;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_E") //Electric Virals, Armored Bitters and Charger on ranged
+{
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Viral_Electrobox;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Viral_Electrobox;Scenario;General")
+    
+    
+    Tag("Range")
+    {
+    Preset("Character;Charger;Scenario;Special_Infected")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_F") //Armored Biters, Explosive Biters and Spitters
+{
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Explosive_Tank;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Explosive_Tank;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_G") //Explosive Biter, Banshee,and Spitter
+{
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Explosive_Tank;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Banshee;Scenario;Special_Infected")
+    Preset("Character;Spitter;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Easy_A") // Easy Encounter with Electric Biter
+{
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;PM_Biter_Electrobox;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Easy_B") //Easy Encounter with Suiciders
+{
+    Preset("Character;Suicider;Scenario;General")
+    Preset("Character;Biter_Explosive_Tank;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Suicider;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    
+    Tag("Range")
+    {
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Easy_C") //Easy Encounter with Screamer
+{
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Screamer;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Hard_A") //Hard Encounter with Charger, Screamer and Electric Virals
+{
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Electrobox;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_Electrobox;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Charger;Scenario;Special_Infected")
+    Preset("Character;Screamer;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Hard_B") //Hard Encounter with Banshee, Spitters and Armoder Biters
+{
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Armored;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Banshee;Scenario;Special_Infected")
+    
+    Tag("Range")
+    {
+    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
+Pool("AD_Winter_Default_Hard_C") // Hard Encounter with Goon Caller, Screamer and Electric Biter
+{
+
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Viral_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;PM_Biter_Electrobox;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    Preset("Character;Biter_WinterEvent;Scenario;General")
+    Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
+    
+    Tag("Range")
+    {
+    Preset("Character;Goon_Caller;Scenario;General")
+    Preset("Character;Screamer;Scenario;General")
+    } 
+    
+    Tag("Special")
+    {
+    Preset("Character;Demolisher_Winter_Boss;Scenario;General")
+    }    
+}
+
 // EE
 Pool("EE_Infected_Patrol_Roaming")
 {
 	PresetWeighted("Character;Volatile_Patrol;Scenario;General", 1)
 }
 
+// EE
+Pool("EE_Human_Set_01_Full")
+{
+	PresetWeighted("Character;Renegade_One_Handed;Scenario;General", 1)
+    PresetWeighted("Character;Renegade_Spear;Scenario;General", 1)
+	
+    Tag("Range")
+    {
+        Preset("Character;Renegade_Bow;Scenario;General")	
+    }
+    Tag("Boss")
+    {
+        Preset("Character;Renegade_Grenadier;Scenario;General")	
+    }
+    Tag("Heavy")
+    {
+        Preset("Character;Renegade_One_Handed;Scenario;General")	
+    }
+    Tag("Guard")
+    {
+        Preset("Character;Renegade_Two_Handed;Scenario;General")	
+        Preset("Character;Renegade_Two_Handed;Scenario;General")		
+    }
+}
+
+Pool("EE_Human_Set_01_Low_density")
+{
+   Preset("Character;Renegade_One_Handed;Scenario;General")	
+   Preset("Character;Renegade_One_Handed;Scenario;General")	
+   Preset("Character;Renegade_One_Handed;Scenario;General")	
+}
+
+Pool("EE_Human_Set_Default")
+{
+	PresetWeighted("Character;Renegade_One_Handed;Scenario;General", 1)
+}
+
+//DLO
+Pool("EE_Human_Set_03")
+{
+	PresetWeighted("Character;Renegade_One_Handed;Scenario;General", 1)
+    PresetWeighted("Character;Renegade_Spear;Scenario;General", 1)
+	
+    Tag("Range")
+    {
+        Preset("Character;Renegade_Bow;Scenario;General")	
+    }
+	Tag("Two_Handed")
+    {
+        Preset("Character;Renegade_Two_Handed;Scenario;General")	
+        Preset("Character;Renegade_Two_Handed;Scenario;General")		
+    }
+}
+
+Pool("EE_Human_Set_04")
+{
+	PresetWeighted("Character;Renegade_One_Handed;Scenario;General", 1)
+    PresetWeighted("Character;Renegade_Spear;Scenario;General", 1)
+	
+    Tag("Range")
+    {
+        Preset("Character;Renegade_Bow;Scenario;General")
+		Preset("Character;Renegade_Bow;Scenario;General")
+		Preset("Character;Renegade_Bow;Scenario;General")
+		Preset("Character;Renegade_Bow;Scenario;General")
+		Preset("Character;Renegade_Bow;Scenario;General")
+    }
+	Tag("Guard")
+    {
+        Preset("Character;Renegade_One_Handed;Scenario;General")
+		Preset("Character;Renegade_One_Handed;Scenario;General")
+		Preset("Character;Renegade_One_Handed;Scenario;General")
+		Preset("Character;Renegade_One_Handed;Scenario;General")
+		Preset("Character;Renegade_One_Handed;Scenario;General")
+    }
+	Tag("Spear")
+    {
+        Preset("Character;Renegade_Spear;Scenario;General")
+		Preset("Character;Renegade_Spear;Scenario;General")
+    }
+	Tag("Two_Handed")
+    {
+        Preset("Character;Renegade_Two_Handed;Scenario;General")		
+    }
+}
+
+// URBAN OUTPOST
+
+Pool("Outpost_Day_Default")
+{
+	//Biters - standard properties
+	PresetWeighted("Character;Biter", 200)
+	PresetWeighted("Character;Biter_Weak", 100)
+    PresetWeighted("Character;Biter_Woman", 200)
+    PresetWeighted("Character;Biter_Weak_Woman", 100)
+    PresetWeighted("Character;Biter_XL", 150)
+	//Biters - special properties
+	PresetWeighted("Character;Biter_Berserker", 150)
+    PresetWeighted("Character;Biter_Armored", 40)
+	PresetWeighted("Character;Biter_Gas_Tank", 40)
+	PresetWeighted("Character;Biter_Toxic", 10)
+	PresetWeighted("Character;Biter_Backpack", 10)
+	PresetWeighted("Character;Biter_Helmet", 10)
+	//Special infected
+	PresetWeighted("Character;Suicider", 40)
+}
+
+Pool("Outpost_Night_Default")
+{
+	//Biters - standard properties
+	PresetWeighted("Character;Biter", 200)
+	PresetWeighted("Character;Biter_Weak", 50)
+    PresetWeighted("Character;Biter_Woman", 200)
+    PresetWeighted("Character;Biter_Weak_Woman", 50)
+	PresetWeighted("Character;Biter_XL", 10)
+	//Biters - special properties
+	PresetWeighted("Character;Biter_Berserker", 40)
+	PresetWeighted("Character;Biter_Armored", 40)
+	PresetWeighted("Character;Biter_Backpack", 40)
+	PresetWeighted("Character;Biter_Gas_Tank", 30)
+	PresetWeighted("Character;Biter_Toxic", 10)
+	PresetWeighted("Character;Biter_Helmet", 10)
+	//Virals
+	PresetWeighted("Character;Viral", 150)	
+    PresetWeighted("Character;Viral", 150)
+	//Special infected
+	PresetWeighted("Character;Suicider", 40)
+}
+
+//// Interiors ////	CITY CENTER INTERIORS
+	
+Pool("Infected_Population_CC_Day_Default")
+{
+
+   Tag("Easy")
+    {
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Biter_Berserker", 15)
+		PresetWeighted("Character;Biter_Toxic", 15)
+    }
+
+   Tag("RunThrough")
+    {
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Biter_Berserker", 15)
+		PresetWeighted("Character;Biter_Toxic", 15)
+    }
+
+	// SHOPS
+	
+    Tag("Medium")
+    {
+		PresetWeighted("Character;Viral", 40)
+		PresetWeighted("Character;Viral_Resting", 20)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Volatile", 15)
+		 
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }
+
+    Tag("Hard")
+    {
+		PresetWeighted("Character;Viral", 50)
+		PresetWeighted("Character;Viral_Resting", 20)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Volatile", 20)
+		
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }
+    
+	Tag("VeryHard")
+    {
+        
+		PresetWeighted("Character;Viral", 70)
+		PresetWeighted("Character;Viral_Resting", 20)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Volatile", 25)
+		
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }	
+}
+
+Pool("Infected_Population_CC_Night_Default")
+{
+   Tag("Easy")
+    {
+        PresetWeighted("Character;Biter", 35)
+		PresetWeighted("Character;Biter_Woman", 35)
+		
+		PresetWeighted("Character;Biter_Berserker", 15)
+		PresetWeighted("Character;Biter_Toxic", 15)
+		
+		PresetWeighted("Character;Screamer", 10)
+    }
+
+   Tag("RunThrough")
+    {
+        PresetWeighted("Character;Biter", 35)
+		PresetWeighted("Character;Biter_Woman", 35)
+		
+		PresetWeighted("Character;Biter_Berserker", 15)
+		PresetWeighted("Character;Biter_Toxic", 15)
+		
+		PresetWeighted("Character;Screamer", 10)
+    }
+
+	// SHOPS
+
+    Tag("Medium")
+    {
+        PresetWeighted("Character;Viral_Resting", 35)
+        PresetWeighted("Character;Viral_Woman_Resting", 35)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Screamer", 15)
+		
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }
+
+    Tag("Hard")
+    {
+        PresetWeighted("Character;Viral_Resting", 35)
+        PresetWeighted("Character;Viral_Woman_Resting", 35)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Screamer", 20)
+		
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }
+    
+	Tag("VeryHard")
+    {
+        PresetWeighted("Character;Viral", 20)
+        PresetWeighted("Character;Viral", 20)
+		PresetWeighted("Character;Viral_Woman_Resting", 20)
+		PresetWeighted("Character;Viral_Resting", 20)
+        PresetWeighted("Character;Biter_Resting", 35)
+		PresetWeighted("Character;Biter_Woman_Resting", 35)
+		
+		PresetWeighted("Character;Screamer", 35)
+		
+		PresetWeighted("Character;Biter_Berserker", 5)
+		PresetWeighted("Character;Biter_Toxic", 5)
+    }	
+}
 
 ////////////////////////////////////
 //////////// MONSTER SETS //////////
@@ -15599,8 +17457,89 @@ Pool("EE_Monster_Set_Unique_01")
 	}
 }
 
+//////////// MONSTER SETS - DL ONLINE //////////
 
-    //Pilgrim Mission
+Pool("DLO_Monster_Set_Starter_01")
+{
+    Tag("Generic")
+    {
+		Preset("Character;Biter_Explosive_Tank;Scenario;General")
+        Preset("Character;Biter_Explosive_Tank;Scenario;General")
+        Preset("Character;Biter_Armored;Scenario;General")
+        Preset("Character;Biter_Berserker;Scenario;General")
+        Preset("Character;Biter;Scenario;General")
+		Preset("Character;Biter_Berserker;Scenario;General")
+        Preset("Character;Biter;Scenario;General")
+		Preset("Character;Biter_XL;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
+        Preset("Character;Viral;Scenario;General")
+	}    
+	Tag("Range")
+    {
+		Preset("Character;Spitter;Scenario;General")
+        Preset("Character;Spitter;Scenario;General")
+        Preset("Character;Spitter;Scenario;General")
+	}
+}
+
+///////////// ENEMIES ///////////////
+
+// Generic - Biter's, Virals.
+// Range - Spitter.
+// General - Banshee, Banshee Rare.
+// Special - Volatile, Volatile Rare, Hive.
+// Boss - Corruptor 
+// Heavy - Goon, Demolisher, Charger. 
+
+// Available tags: Boss, Guard, Generic, General, 
+// One_Handed, Heavy, Range, Summoner,
+// Spear, Two_Handed, Molotov, Lieutenant, CagedZombie, Special,
+// Leader, Spitter, 
+
+Pool("Infected_Sets_Hard")
+{	
+	Tag("Generic")
+	{
+		PresetWeighted("Character;Biter;Scenario;General", 50)
+		PresetWeighted("Character;Biter_Gas_Tank;Scenario;General", 10)
+		PresetWeighted("Character;Biter_Woman;Scenario;General", 40)
+		PresetWeighted("Character;Biter_Weapon;Scenario;General", 10)
+		PresetWeighted("Character;Viral;Scenario;General", 50)
+		PresetWeighted("Character;Viral_Woman;Scenario;General", 40)
+	}
+	Tag("Range")
+	{
+		PresetWeighted("Character;Spitter;Scenario;General", 40)
+	}
+	Tag("General")
+	{
+		PresetWeighted("Character;Banshee;Scenario;General", 50)
+	}
+	Tag("Special")
+	{
+		PresetWeighted("Character;Volatile;Scenario;General", 50)
+		PresetWeighted("Character;Volatile_Tyrant;Scenario;General", 50)
+		PresetWeighted("Character;Volatile_Hive;Scenario;General", 50)
+	}
+	Tag("Boss")
+	{
+		PresetWeighted("Character;Corruptor;Scenario;General", 50)
+	}
+	Tag("Heavy")
+	{
+		PresetWeighted("Character;Goon;Scenario;General", 50)
+		PresetWeighted("Character;Demolisher;Scenario;General", 10)
+		PresetWeighted("Character;Biter_Woman;Scenario;General", 40)
+	}
+}
+
+Pool("PM_Init_Biter")
+{
+    PresetWeighted("Character;Biter", 50)
+	PresetWeighted("Character;Biter_Woman", 40)
+	PresetWeighted("Character;Biter_Weapon", 10)
+}
+
 Pool("PM_Patrol_Adds_Biters_Day")
 {
     PresetWeighted("Character;Biter;Scenario;General", 50)
@@ -15957,7 +17896,7 @@ Pool("PM_Goon_Special_EndGame_Boss_Charger_PM")
     }
 }
 
-Pool("PM_Unique_01") // Reserved, do not touch. Owner: Aciek.
+Pool("PM_Unique_01_Aciek") // Reserved, do not touch. Owner: Aciek.
 {
     Tag("Heavy")
     {
@@ -15977,7 +17916,7 @@ Pool("PM_Unique_01") // Reserved, do not touch. Owner: Aciek.
     }
 }
 
-Pool("PM_Unique_02") // Reserved, do not touch. Owner: Aciek.
+Pool("PM_Unique_02_Aciek") // Reserved, do not touch. Owner: Aciek.
 {
     Tag("General")
     {
@@ -16006,24 +17945,85 @@ Pool("PM_Unique_02") // Reserved, do not touch. Owner: Aciek.
 	}
 }
 
+Pool("PM_Unique_01")
+{
+    Tag("Generic")
+    {
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+        Preset("Character;PM_Biter_Toxic;Scenario;General")
+    }
+	Tag("General")
+    {
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Biter_Freeze_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+}
+
+Pool("PM_Unique_02")
+{
+    Tag("Generic")
+    {
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+        Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+    }
+	Tag("General")
+    {
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+	}
+}
+
 Pool("PM_Unique_03")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon;Scenario;General")	
-	}
-	Tag("Range")
-    {
-	Preset("Character;Spitter_PM;Scenario;General")
-	}
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+    }
 	Tag("General")
-	{
-	Preset("Character;Suicider_PM;Scenario;General")
+    {
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Screamer;Scenario;General")
 	}
 }
 
@@ -16031,19 +18031,25 @@ Pool("PM_Unique_04")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-	}
-    Tag("Heavy")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+    }
+	Tag("Special")
     {
-	Preset("Character;Goon;Scenario;General")	
+		Preset("Character;PM_Suicider;Scenario;General")
 	}
 	Tag("Range")
     {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
 	}
 }
 
@@ -16051,122 +18057,75 @@ Pool("PM_Unique_05")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-	}
-    Tag("General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+    }
+	Tag("General")
     {
-	Preset("Character;Banshee_PM;Scenario;General")	
+		Preset("Character;PM_Banshee;Scenario;General")
 	}
-	Tag("Heavy")
+	Tag("Special")
     {
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_06")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Gas_Tank;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	}
+    //Placeholder for additional warmup sets
 }
 
 Pool("PM_Unique_07")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")	
-	}
+    //Placeholder for additional warmup sets
 }
 
 Pool("PM_Unique_08")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")	
-	}
+    //Placeholder for additional warmup sets
 }
 
 Pool("PM_Unique_09")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-	}
-	Tag("General")
-    {
-	Preset("Character;Banshee_PM;Scenario;General")
-	Preset("Character;Banshee_PM;Scenario;General")	
-	}
-    Tag("Boss")
-    {
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")	
-	}
+    //Placeholder for additional warmup sets
 }
 
 Pool("PM_Unique_10")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Viral;Scenario;General")	
-    Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Fire_Endgame_Boss;Scenario;General")	
-	}
+    //Placeholder for additional warmup sets
 }
 
 Pool("PM_Unique_11")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")		
-	}
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+    }
 	Tag("General")
-	{
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
-	}
-    Tag("Heavy")
     {
-	Preset("Character;Goon_Fire_Endgame_Boss;Scenario;General")	
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral;Scenario;General")
 	}
-	Tag("Range")
+	Tag("Special")
     {
-	Preset("Character;Spitter_PM;Scenario;General")
+		Preset("Character;PM_Screamer;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
+	}
+	Tag("Heavy")
+    {
+		Preset("Character;PM_Charger;Scenario;General")
 	}
 }
 
@@ -16174,45 +18133,71 @@ Pool("PM_Unique_12")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-    Preset("Character;Viral;Scenario;General")
-	}
-    Tag("Heavy")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+    }
+	Tag("Special")
     {
-	Preset("Character;Demolisher_EndGame_Boss;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+	}
+	Tag("Heavy")
+    {
+		Preset("Character;PM_Goon;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_13")
 {
-    Tag("Heavy")
+    Tag("Generic")
     {
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	Preset("Character;Demolisher_EndGame_Boss;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter_Electrobox;Scenario;General")
+        Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+        Preset("Character;PM_Biter_Electrobox;Scenario;General")
+    }
+	Tag("General")
+    {
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
 	}
-	Tag("Range")
+	Tag("Special")
     {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
+		Preset("Character;PM_Screamer;Scenario;General")
+	}
+	Tag("Heavy")
+    {
+		Preset("Character;PM_Goon_Electric;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_14")
 {
-    Tag("General")
-	{
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
-	}
-    Tag("Heavy")
+    Tag("Generic")
     {
-	Preset("Character;Demolisher_EndGame_Boss;Scenario;General")
-	Preset("Character;Demolisher_Gorilla;Scenario;General")	
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter;Scenario;General")
+        Preset("Character;PM_Biter_Chem;Scenario;General")
+        Preset("Character;PM_Biter_Chem;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+        Preset("Character;PM_Biter_Toxic;Scenario;General")
+    }
+	Tag("Special")
+    {
+		Preset("Character;PM_Suicider;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+	Tag("Heavy")
+    {
+		Preset("Character;PM_Goon_Toxic;Scenario;General")
 	}
 }
 
@@ -16220,127 +18205,81 @@ Pool("PM_Unique_15")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
 	}
-    Tag("General")
+	Tag("General")
+	{
+		Preset("Character;PM_Banshee;Scenario;General")
+	}
+    Tag("Special")
     {
-	Preset("Character;Banshee_PM;Scenario;General")
-	Preset("Character;Banshee_PM;Scenario;General")	
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General") // to be replaced with PM_Biter_Fire_Gas_Tank
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General") // to be replaced with PM_Biter_Fire_Gas_Tank
 	}
 	Tag("Heavy")
     {
-	Preset("Character;Demolisher_EndGame_Boss;Scenario;General")	
+		Preset("Character;PM_Goon_Fire;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_16")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("General")
-    {
-	Preset("Character;Banshee_PM;Scenario;General")	
-	}
+    // Placeholder for additional warmup+ sets
 }
 
 Pool("PM_Unique_17")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("General")
-    {
-	Preset("Character;Banshee_PM;Scenario;General")
-	Preset("Character;Banshee_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
-	}
+    // Placeholder for additional warmup+ sets
 }
 
 Pool("PM_Unique_18")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Endgame_Boss;Scenario;General")
-	}
-	Tag("Range")
-    {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	}
+    // Placeholder for additional warmup+ sets
 }
 
 Pool("PM_Unique_19")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Electric_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Electric_Endgame_Boss;Scenario;General")
-	}
-	Tag("Range")
-    {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	}
+    // Placeholder for additional warmup+ sets
 }
 
 Pool("PM_Unique_20")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")
-	}
-	Tag("Range")
-    {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	}
+    // Placeholder for additional warmup+ sets
 }
 
 Pool("PM_Unique_21")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-    Preset("Character;Biter_Gas_Tank;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter_Chem;Scenario;General")	
+		Preset("Character;PM_Biter_Chem;Scenario;General")	
+		Preset("Character;PM_Biter_Chem;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
 	}
-    Tag("General")
+	Tag("General")
     {
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")	
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Armored;Scenario;General")
+		Preset("Character;PM_Viral_Armored;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General") // to be replaced with PM_Viral_Gas_Tank
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
 	}
 }
 
@@ -16348,12 +18287,30 @@ Pool("PM_Unique_22")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")	
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+	}
+	Tag("General")
+    {
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Suicider;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
 	}
 }
 
@@ -16361,20 +18318,27 @@ Pool("PM_Unique_23")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")	
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")	
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")	
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
 	}
 	Tag("General")
 	{
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Armored;Scenario;General")
+	}
+	Tag("Special")
+    {
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Freeze_Gas_Tank;Scenario;General")
 	}
 }
 
@@ -16382,18 +18346,27 @@ Pool("PM_Unique_24")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")	
-	Preset("Character;Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")	
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
 	}
-	Tag("General")
+	Tag("Special")
 	{
-	Preset("Character;Banshee_PM;Scenario;General")
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;;Scenario;General")
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
 	}
 }
 
@@ -16401,113 +18374,80 @@ Pool("PM_Unique_25")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
 	}
-    Tag("Boss")
-    {
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")	
+	Tag("General")
+	{
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Banshee;Scenario;General")
+	}
+	Tag("Special")
+	{
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_26")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-	}
-    Tag("General")
-    {
-	Preset("Character;Banshee;Scenario;General")
-	Preset("Character;Banshee;Scenario;General")	
-	}
+    // Placeholder for additional middle sets
 }
 
 Pool("PM_Unique_27")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Viral;Scenario;General")	
-    Preset("Character;Viral;Scenario;General")	
-    Preset("Character;Viral;Scenario;General")	
-	}
-    Tag("General")
-    {
-	Preset("Character;Banshee;Scenario;General")
-	Preset("Character;Banshee;Scenario;General")	
-	}
+    // Placeholder for additional middle sets
 }
 
 Pool("PM_Unique_28")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	}
+    // Placeholder for additional middle sets
 }
 
 Pool("PM_Unique_29")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter;Scenario;General")
-	Preset("Character;Biter;Scenario;General")	
-	Preset("Character;Biter;Scenario;General")	
-	Preset("Character;Biter;Scenario;General")	
-	Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	}
-	Tag("General")
-	{
-    Preset("Character;Biter_Gas_Tank;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	}
+    // Placeholder for additional middle sets
 }
 
 Pool("PM_Unique_30")
 {
-    Tag("Generic")
-    {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")
-	}
-	Tag("Range")
-    {
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	Preset("Character;Spitter_PM;Scenario;General")
-	}
+    // Placeholder for additional middle sets
 }
 
 Pool("PM_Unique_31")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Gas_Tank;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")	
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")	
+		Preset("Character;PM_Biter_Toxic;Scenario;General")	
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")	
+		Preset("Character;PM_Biter_Armored;Scenario;General")	
+	}
+	Tag("General")
+	{
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+	}
+	Tag("Special")
+	{
+		Preset("Character;PM_Biter_Freeze_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Freeze_Gas_Tank;Scenario;General")
+	}
+	Tag("Heavy")
+	{
+		Preset("Character;PM_Charger;Scenario;General")
 	}
 }
 
@@ -16515,77 +18455,262 @@ Pool("PM_Unique_32")
 {
     Tag("Generic")
     {
-	Preset("Character;Biter_Berserker;Scenario;General")
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")	
-    Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
-	Preset("Character;Viral;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")	
+	}
+	Tag("General")
+	{
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Banshee;Scenario;General")
+	}
+	Tag("Special")
+	{
+		Preset("Character;PM_Suicider;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+	Tag("Heavy")
+	{
+		Preset("Character;PM_Goon;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_33")
 {
     Tag("Generic")
-    {
-	Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")	
-    Preset("Character;Biter_Chem;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
+    {	
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Electrobox;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
 	}
-    Tag("Heavy")
-    {
-	Preset("Character;Goon_Toxic_Endgame_Boss;Scenario;General")	
+	Tag("General")
+	{
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Electrobox;Scenario;General")
+		Preset("Character;PM_Viral_Armored;Scenario;General")
 	}
-	Tag("Range")
+	Tag("Special")
     {
-	Preset("Character;Spitter_PM;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+	}
+	Tag("Heavy")
+	{
+		Preset("Character;PM_Goon_Electric;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_34")
 {
     Tag("Generic")
-    {
-	Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter;Scenario;General")	
-    Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
-	Preset("Character;Biter_Gas_Tank;Scenario;General")
+    {	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Chem;Scenario;General")
+		Preset("Character;PM_Biter_Chem;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
+		Preset("Character;PM_Biter_Toxic;Scenario;General")
 	}
-    Tag("Boss")
+	Tag("Special")
     {
-	Preset("Character;Goon_Fire_Endgame_Boss;Scenario;General")
-	Preset("Character;Goon_Fire_Endgame_Boss;Scenario;General")
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Screamer;Scenario;General")
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+	Tag("Heavy")
+	{
+		Preset("Character;PM_Goon_Toxic;Scenario;General")
 	}
 }
 
 Pool("PM_Unique_35")
 {
     Tag("Generic")
-    {
-	Preset("Character;Biter_Berserker;Scenario;General")
-    Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
-	Preset("Character;Biter_Berserker;Scenario;General")
+    {	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
+		Preset("Character;PM_Biter_Armored;Scenario;General")
 	}
-    Tag("General")
+	Tag("General")
+	{
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Viral_Armored;Scenario;General")
+		Preset("Character;PM_Banshee;Scenario;General")
+	}
+	Tag("Special")
     {
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
-	Preset("Character;Suicider_PM;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Suicider;Scenario;General")
 	}
 	Tag("Heavy")
+	{
+		Preset("Character;PM_Goon_Fire;Scenario;General")
+	}
+}
+
+Pool("PM_Unique_36")
+{
+    // Placeholder for additional middle+ sets
+}
+
+Pool("PM_Unique_37")
+{
+    // Placeholder for additional middle+ sets
+}
+
+Pool("PM_Unique_38")
+{
+    // Placeholder for additional middle+ sets
+}
+
+Pool("PM_Unique_39")
+{
+    // Placeholder for additional middle+ sets
+}
+
+Pool("PM_Unique_40")
+{
+    // Placeholder for additional middle+ sets
+}
+
+Pool("PM_Unique_41")
+{
+    Tag("Generic")
     {
-	Preset("Character;Demolisher_EndGame_Boss;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+	}
+	Tag("General")
+	{
+		Preset("Character;PM_Viral;Scenario;General")
+		Preset("Character;PM_Banshee;Scenario;General")
+	}
+	Tag("Special")
+	{
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Gas_Tank;Scenario;General") // to be replaced by PM_Biter_Fire_Gas_Tank
+	}
+	Tag("Range")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+}
+
+Pool("PM_Unique_42")
+{
+    Tag("Generic")
+    {
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+	}
+}
+
+Pool("PM_Unique_43")
+{
+    Tag("Generic")
+    {
+		Preset("Character;PM_Spitter;Scenario;General")	
+		Preset("Character;PM_Spitter;Scenario;General")	
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")	
+		Preset("Character;PM_Spitter;Scenario;General")	
+		Preset("Character;PM_Spitter;Scenario;General")
+		Preset("Character;PM_Spitter;Scenario;General")	
+		Preset("Character;PM_Spitter;Scenario;General")
+	}
+	Tag("Special")
+	{
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
+	}
+}
+
+Pool("PM_Unique_44")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_45")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_46")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_47")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_48")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_49")
+{
+    // Placeholder for additional finale sets
+}
+
+Pool("PM_Unique_50")
+{
+    Tag("Generic")
+    {
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")	
+		Preset("Character;PM_Biter;Scenario;General")
+		Preset("Character;PM_Biter_Berserker;Scenario;General")	
+		Preset("Character;PM_Biter_Berserker;Scenario;General")
+	}
+	Tag("General")
+	{
+		Preset("Character;PM_Banshee;Scenario;General")
 	}
 }
 
@@ -16623,7 +18748,6 @@ Pool("PM_GRE_Corruptor_r02_05")
 {
 	PresetWeighted("Character;Corruptor_r02_05_Replayable;Scenario;General", 50)
 }
-
 Pool("PM_GRE_Corruptor_r02_06_A")
 {
 	PresetWeighted("Character;Corruptor_r02_06_Replayable_A;Scenario;General", 50)
@@ -16632,6 +18756,7 @@ Pool("PM_GRE_Corruptor_r02_06_B")
 {
 	PresetWeighted("Character;Corruptor_r02_06_Replayable_B;Scenario;General", 50)
 }
+
 Pool("PM_GRE_Corruptor_r02_07")
 {
 	PresetWeighted("Character;Corruptor_r02_07_Replayable;Scenario;General", 50)
@@ -16751,4 +18876,49 @@ Pool("GAAS_FH_Friendly_ENC")
 		PresetWeighted("Character;For_Honor_Knight;Scenario;General", 50)
 		PresetWeighted("Character;For_Honor_Viking;Scenario;General", 50)
 		PresetWeighted("Character;For_Honor_Samurai;Scenario;General", 50)		
+}
+
+	//Halloween Event
+
+Pool("Halloween_Test")
+{
+		Preset("Character;Biter_Weak_Woman;Scenario;General")
+		Preset("Character;Biter_Crawler;Scenario;General")
+		Preset("Character;Biter;Scenario;General")
+	
+}
+Pool("Halloween_Start")
+{
+		Preset("Character;Biter_Weak_Woman;Scenario;General")
+		Preset("Character;Biter_Crawler;Scenario;General")
+		Preset("Character;Biter;Scenario;General")
+	
+}
+
+////////// Reinforcement Pools //////////
+
+Pool("Default_Infected_Reinforcement_Pool")
+{
+	PresetWeighted("Character;Viral_Chase", 55)
+	PresetWeighted("Character;Viral_Chase_Woman", 45)
+}
+
+Pool("Virals_Reinforcement_Pool")
+{
+	PresetWeighted("Character;Viral_Chase", 29)
+	PresetWeighted("Character;Viral_Chase_Woman", 27)
+	PresetWeighted("Character;Viral_Armored", 10)
+	PresetWeighted("Character;Viral_Electrobox", 8)
+	PresetWeighted("Character;Viral_Spit", 15)
+	PresetWeighted("Character;Viral_Gas_Tank", 11)
+}
+
+Pool("Virals_Call_Reinforcement_Pool")
+{
+	PresetWeighted("Character;Viral", 29)
+	PresetWeighted("Character;Viral_Woman", 27)
+	PresetWeighted("Character;Viral_Armored", 10)
+	PresetWeighted("Character;Viral_Electrobox", 8)
+	PresetWeighted("Character;Viral_Spit", 15)
+	PresetWeighted("Character;Viral_Gas_Tank", 11)
 }
