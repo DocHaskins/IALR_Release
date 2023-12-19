@@ -6,6 +6,13 @@
             "category": "AI Behavior",
             "image": "button_events_halloween2023.jpg",
             "folder": "events_0_Halloween2023"
+        },
+        {
+            "name": "Winter Tales 2023",
+            "description": "This is a compatibility patch for the Winter 2023 event, enabling this will allow you to play IALR with the event enabled. Some parts of IALR will not work",
+            "category": "Official Event",
+            "image": "button_events_wintertales2023.jpg",
+            "folder": "events_1_WinterTales2023"
         }
     ]
 }
