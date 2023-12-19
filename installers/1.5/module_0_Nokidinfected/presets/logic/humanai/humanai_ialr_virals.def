@@ -43,16 +43,15 @@ sub IALViralPresets()
     {
        SetField("m_AIModelName", "zmb_gastank_a.model;zmb_gastank_b.model;zmb_gastank_c.model;ialr_zmb_gastank_a.model;ialr_zmb_gastank_a_1.model;ialr_zmb_gastank_b.model;ialr_zmb_gastank_b_1.model;ialr_zmb_gastank_c.model;ialr_zmb_gastank_c_1.model;ialr_zmb_gastank_d.model;ialr_zmb_gastank_e.model;ialr_zmb_gastank_f.model");
 	   SetField("m_ConstFilename", "viral_profile_gastank");
-		// Sound override
-        SetField("m_MainBehaviorTree", "VIRAL_SUN_IMMUNE_BT");
-        SetField("m_AudioEventsScript", "biter_audio_events.scr");
-        SetField("m_ScreamPresetNames", "biter_gas_tank_m_a");
-		SetField("m_BarkPresetNames", "");
-        SetField("m_StepPreset", "gas_tank");
-        SetField("m_AutoAimItemPolicy", "ExcludeThrowables");
-        SetField("m_CustomLootTypeString", "IALR_Biter_Gastank");
-		SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
-		SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Gas_Tank);
+       SetField("m_DamageActorTagName", "viral_sun_immune");
+       SetField("m_AudioEventsScript", "biter_audio_events.scr");
+       SetField("m_ScreamPresetNames", "biter_gas_tank_m_a");
+	   SetField("m_BarkPresetNames", "");
+       SetField("m_StepPreset", "gas_tank");
+       SetField("m_AutoAimItemPolicy", "ExcludeThrowables");
+       SetField("m_CustomLootTypeString", "IALR_Biter_Gastank");
+	   SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+	   SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Gas_Tank);
 	}
     
 /////////////////////////////////////Factions	
