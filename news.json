@@ -9,6 +9,10 @@
             "body": "IALR Custom traders currently broken due to unknown backend protections, Mod config settings for traders also not working due to something being protected"
         },
         {
+            "header": "Official Christmas Event",
+            "body": "IALR has a compatibility patch to make the latest official event playable with the mod installed, head over to the Nexus and grab the latest version of the launcher and head to the Installer/Events and make sure to install with the event enabled. If you don't want the community event on, make sure to not turn on the event when playing IALR offline for full features."
+        },
+        {
             "header": "New Chaos System",
             "body": "This system is designed to give you a chance at unique Epic moments while you play, enemies and allies will spawn inside the world randomly based on your Mod difficulty."
         },
