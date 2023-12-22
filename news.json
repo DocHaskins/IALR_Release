@@ -13,6 +13,22 @@
             "body": "IALR has a compatibility patch to make the latest official event playable with the mod installed, head over to the Nexus and grab the latest version of the launcher and head to the Installer/Events and make sure to install with the event enabled. If you don't want the community event on, make sure to not turn on the event when playing IALR offline for full features."
         },
         {
+            "header": "New Infestation Module",
+            "body": "The city no longer is safe during the day. The infected no longer suffer from the sunlight and will stop at nothing to kill you."
+        },
+        {
+            "header": "New Deadly Humans Module",
+            "body": "Tired of humans being the least scary thing on the map? Active this module and fear the living"
+        },
+        {
+            "header": "New Remove Volatile Module",
+            "body": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free using the Casual Survivor spawn settings but without Volatiles"
+        },
+        {
+            "header": "New Remove Weapon Mod Visuals Module",
+            "body": "Want to get rid of those attachments on your weapons that ruin your sense of immersion? Toggle on this module to enjoy the game without the cluttered weapon appearances"
+        },
+        {
             "header": "New Chaos System",
             "body": "This system is designed to give you a chance at unique Epic moments while you play, enemies and allies will spawn inside the world randomly based on your Mod difficulty."
         },

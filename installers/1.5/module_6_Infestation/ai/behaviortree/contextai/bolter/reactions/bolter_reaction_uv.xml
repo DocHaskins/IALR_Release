@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../MetaData/schema_ai.xsd" m_ContextType="ai">
+    <Sequence>
+        <Succeeder>
+            <Selector>
+                <Sequence>
+                    <Selector>
+                        <!-- Go to knees -->
+                        <Sequence>
+                            <Cnd_IsBBValueGreaterOrEqual_float m_Key="#uv_progress" m_Value="1.0"/>
+                            <Cnd_IsIncapacitatedByUV m_Invert="true"/>
+                            <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                            <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Final"/>
+                        </Sequence>
+                        <!-- initial reaction -->
+                        <CooldownTimeDelta m_CooldownTime="7.0">
+                            <Sequence>
+                                <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                                <Cnd_IsActivityModuleRunning_Movement/>
+                                <Cnd_IsBBValueEqual_bool m_Key="#uv_reaction_initial" m_Value="true"/>
+                                <Cnd_IsIncapacitatedByUV m_Invert="true"/>
+                                <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Start"/>
+                                <Opr_SetDirCorrectionSpeed m_MaxSpeed="0"/>
+                                <Opr_SetBBValue_bool m_Key="#uv_reaction_initial" m_Value="false"/>
+                            </Sequence>
+                        </CooldownTimeDelta>
+                    </Selector>
+                    <Opr_Trigger m_Key="#trigger_uv_reaction"/>
+                </Sequence>
+                <CooldownTimeDelta m_CooldownTime="7.0">
+                    <Sequence>
+                        <Cnd_IsBBValueGreaterOrEqual_float m_Key="#uv_progress" m_Value="1.0"/>
+                        <Cnd_IsIncapacitatedByUV m_Invert="true"/>
+                        <Cnd_IsInUVLightOfType m_Type="FLASHLIGHT"/>
+                        <Cnd_IsActivityModuleRunning_Movement/>
+                        <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Final"/>
+                        <Opr_SetDirCorrectionSpeed m_MaxSpeed="0"/>
+                        <Opr_Trigger m_Key="#trigger_uv_stumble"/>
+                    </Sequence>
+                </CooldownTimeDelta>
+                <!-- Get Up -->
+                <Sequence>
+                    <Cnd_IsBBValueGreaterOrEqual_float m_Key="#uv_progress" m_Value="0.5" m_Invert="true"/>
+                    <Cnd_IsIncapacitatedByUV/>
+                    <Opr_SetBBValue_EIncapacitateType m_Key="#uv_reaction_type" m_Value="UV_Recover"/>
+                    <Opr_SetBBValue_bool m_Key="#trigger_uv_reaction" m_Value="true"/>
+                </Sequence>
+                <SequenceMem>
+                    <Cnd_IsInUVLightOfType m_Type="SPOTLIGHT"/>
+                    <Cnd_CanInterruptActivityModule_Movement/>
+                    <Opr_SetDirCorrectionSpeed m_MaxSpeed="720"/>
+                    <Opr_SetBBValue_vec3 m_Key="#dodge_pos" m_Value="#uv_light_pos"/>
+                    <Cnd_SpaceInSimpleDirection m_Direction="BACKWARD"  m_MinRequiredSpace="1.5"/>
+                    <Opr_SetBBValue_EDodgeDirection m_Key="#dodge_dir" m_Value="BACKWARD"/>
+                    <Opr_Trigger m_Key="#trigger_uv_dodge"/>
+                </SequenceMem>
+            </Selector>
+        </Succeeder>
+        <Selector>
+            <Starter m_Key="#trigger_uv_stumble">
+                <Act_Incapacitate m_Type="#uv_reaction_type" m_Phase="BEGIN" m_SourcePos="#uv_light_pos" m_BlockMoveLimitOnNavi="true" m_StartPolicy="DISCARD" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+            </Starter>
+            <Starter m_Key="#trigger_uv_reaction">
+                <Act_Incapacitate m_Type="#uv_reaction_type" m_Phase="LOOP" m_SourcePos="#uv_light_pos" m_StartPolicy="DISCARD" m_AbandonPolicy="BLENDOUT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+            </Starter>
+            <Starter m_Key="#trigger_uv_dodge">
+                <SequenceMem>
+                    <Cnd_IsInUVLight/>
+                    <Act_Dodge m_Type="UV_LIGHT" m_Direction="#dodge_dir" m_StartPolicy="DISCARD" m_AbandonPolicy="INTERRUPT" m_DecisionPolicy="WHEN_POSSIBLE"/>
+                </SequenceMem>
+            </Starter>
+        </Selector>
+    </Sequence>
+</BehaviorTree>
