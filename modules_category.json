@@ -3,7 +3,7 @@
         {
             "name": "No Kid Infected",
             "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
-            "category": "Remove Features",
+            "category": "Disable",
             "image": "button_modules_NoKids.jpg",
             "folder": "module_0_Nokidinfected"
         },
@@ -15,11 +15,11 @@
             "folder": "module_1_Warzones"
         },
         {
-            "name": "Custom Map Data",
-            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) This module has several known bugs currently including a main quest block with the Sofi quest. You can enable and disable this at any time. May cause quest bugs/frame loss, adds new custom locations to the Bazaar Exterior.",
-            "category": "Gameplay",
-            "image": "button_modules_MapChanges.jpg",
-            "folder": "module_2_Custommapdata"
+            "name": "Infestation",
+            "description": "The city no longer is safe during the day. The infected no longer suffer from the sunlight and will stop at nothing to kill you. This module is not compatible with Warzones or Volatiles Begone",
+            "category": "Spawns",
+            "image": "button_modules_Infestation.jpg",
+            "folder": "module_6_Infestation"
         },
         {
             "name": "Volatiles Begone",
@@ -43,11 +43,11 @@
             "folder": "module_5_DeadlyHumans"
         },
         {
-            "name": "Infestation",
-            "description": "The city no longer is safe during the day. The infected no longer suffer from the sunlight and will stop at nothing to kill you. This module is not compatible with Warzones or Volatiles Begone",
-            "category": "Spawns",
-            "image": "button_modules_Infestation.jpg",
-            "folder": "module_6_Infestation"
-        }
+            "name": "Custom Map Data",
+            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) This module has several known bugs currently including a main quest block with the Sofi quest. You can enable and disable this at any time. May cause quest bugs/frame loss, adds new custom locations to the Bazaar Exterior.",
+            "category": "Gameplay",
+            "image": "button_modules_MapChanges.jpg",
+            "folder": "module_2_Custommapdata"
+        },
     ]
 }
