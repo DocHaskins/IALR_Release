@@ -2,50 +2,50 @@
     "modules": [
         {
             "name": "No Kid Infected",
-            "description": "REMOVE CHILDREN VISUALS: Removes child-like visuals from all biters, virals, and banshees in the world",
+            "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
             "category": "Remove Features",
             "image": "button_modules_NoKids.jpg",
             "folder": "module_0_Nokidinfected"
         },
         {
             "name": "WarZones",
-            "description": "WARZONES: Not meant to be lore friendly, this version of the mod is a call to arms for all Human Enemies during the day to come out and take back the city",
-            "category": "Gameplay",
+            "description": "The city is called to arms during the day to reclaim their territories. All human enemies will run in packs around the city. This is not compatible with Volatiles Begone or Infestation",
+            "category": "Spawns",
             "image": "button_modules_Warzones.jpg",
             "folder": "module_1_Warzones"
         },
         {
             "name": "Custom Map Data",
-            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) May cause quest bugs/frame loss, adds new custom locations to the Windmills and Bazaar Exterior.",
+            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) This module has several known bugs currently including a main quest block with the Sofi quest. You can enable and disable this at any time. May cause quest bugs/frame loss, adds new custom locations to the Bazaar Exterior.",
             "category": "Gameplay",
             "image": "button_modules_MapChanges.jpg",
             "folder": "module_2_Custommapdata"
         },
         {
             "name": "Volatiles Begone",
-            "description": "Remove the Volatiles crawling around the world at night and in the day",
-            "category": "Disable",
+            "description": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free using the Casual Survivor spawn settings but without Volatiles. This is not compatible with Warzones or Infestation",
+            "category": "Spawns",
             "image": "button_modules_VoliBegone.jpg",
             "folder": "module_4_VolatilesBegone"
         },
         {
             "name": "Remove Weapon Mod Visuals",
-            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) May cause quest bugs/frame loss, adds new custom locations to the Windmills and Bazaar Exterior.",
+            "description": "Want to get rid of those attachments on your weapons that ruin your sense of immersion? Toggle on this module to enjoy the game without the cluttered weapon appearances",
             "category": "Disable",
             "image": "button_modules_NoWeaponModVisuals.jpg",
             "folder": "module_3_RemoveWeaponMod"
         },
         {
             "name": "Deadly Humans",
-            "description": "Damage boosts for most of the humans found in the world",
+            "description": "Tired of humans being the least scary thing on the map? Active this module and fear the living",
             "category": "Difficulty",
             "image": "button_modules_DeadlyHumans.jpg",
             "folder": "module_5_DeadlyHumans"
         },
         {
             "name": "Infestation",
-            "description": "The infected no longer suffer from daylight and are more common around the world",
-            "category": "Difficulty",
+            "description": "The city no longer is safe during the day. The infected no longer suffer from the sunlight and will stop at nothing to kill you. This module is not compatible with Warzones or Volatiles Begone",
+            "category": "Spawns",
             "image": "button_modules_Infestation.jpg",
             "folder": "module_6_Infestation"
         }
