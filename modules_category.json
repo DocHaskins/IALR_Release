@@ -22,6 +22,13 @@
             "folder": "module_6_Infestation"
         },
         {
+            "name": "Survival Options: Hunger and Thirst",
+            "description": "No free pass on unlimited energy, you need to ensure you eat and drink food to keep up your strength. Stamina no longer immediately recharges automatically, health no longer regenerates on an empty stomach. All food items now restore your health and staminas ability to regenerate.",
+            "category": "Gameplay",
+            "image": "button_modules_SurvivalOptions.jpg",
+            "folder": "module_7_SurvivorOptions"
+        },
+        {
             "name": "Volatiles Begone",
             "description": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free using the Casual Survivor spawn settings but without Volatiles. This is not compatible with Warzones or Infestation",
             "category": "Spawns",

@@ -6,11 +6,15 @@
         },
         {
             "header": "Known Bugs",
-            "body": "IALR Custom traders currently broken due to unknown backend protections, Mod config settings for traders also not working due to something being protected"
+            "body": "There are reports that Volatiles are not spawning properly with the Official Dying Light 2 Winter Tales event and the compatibility patch"
         },
         {
             "header": "Official Christmas Event",
             "body": "IALR has a compatibility patch to make the latest official event playable with the mod installed, head over to the Nexus and grab the latest version of the launcher and head to the Installer/Events and make sure to install with the event enabled. If you don't want the community event on, make sure to not turn on the event when playing IALR offline for full features."
+        },
+        {
+            "header": "New Survivor Options: Hunger and Thirst Optional",
+            "body": "Take the games difficulty and scavenging to a new level with a new optional in the Modules section that requires the player to eat and drink to properly regenerate health and stamina"
         },
         {
             "header": "New Infestation Module",
@@ -71,6 +75,10 @@
         {
             "header": "Fix for Bows and Crossbows",
             "body": "Fix for a glitch causing players to not be able to draw their crossbows or bows"
+        },
+        {
+            "header": "Fix for IALR Traders",
+            "body": "This fix should allow the custom traders to properly show items"
         },
         {
             "header": "Fix for Hazmat Virals",
