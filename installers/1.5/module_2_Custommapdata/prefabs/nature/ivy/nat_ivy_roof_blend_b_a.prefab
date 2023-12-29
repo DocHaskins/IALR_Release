@@ -1,0 +1,69 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.035469, 0.0889946, 0.122813, 1.5478441, 0.0934955, 0.308657]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_ivy_roof_blend_b"]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "m_CollisionFlags": "2116",
+            "m_NavmeshFlags": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "1",
+          "Type": "1",
+          "X": "0.00",
+          "Y": "0.00"
+        },
+        {
+          "Uuid": "2",
+          "Type": "4",
+          "X": "25.00",
+          "Y": "20.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "3",
+          "Type": "4",
+          "X": "50.00",
+          "Y": "40.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "4",
+          "Type": "4",
+          "X": "-480.00",
+          "Y": "330.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

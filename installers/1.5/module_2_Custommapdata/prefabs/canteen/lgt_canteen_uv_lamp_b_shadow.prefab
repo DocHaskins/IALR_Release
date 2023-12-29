@@ -1,0 +1,234 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "cbs::IEnable::m_State",
+            "Init": "e:EDIT;f:EDIT|QUEST;l:Enabled;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "cbs::IEnable::m_State"
+              }
+            ]
+          },
+          {
+            "Name": "m_DayNightCycleDepended",
+            "Init": "f:EXPOSE;c:LAMP PROPERTIES;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "m_DayNightCycleDepended"
+              }
+            ]
+          },
+          {
+            "Name": "FacilityDepended",
+            "Init": "f:EDIT;e:EDIT;c:LAMP PROPERTIES/Facility;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "FacilityDepended"
+              }
+            ]
+          },
+          {
+            "Name": "m_ClippingXformEntity",
+            "Init": "f:EDIT;e:BROWSE_OBJECT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "m_ClippingXformEntity"
+              },
+              {
+                "Uuid": "7",
+                "Name": "m_ClippingXformEntity"
+              }
+            ]
+          },
+          {
+            "Name": "ExternalAreaUV",
+            "Init": "f:EDIT;e:EDIT|BROWSE_OBJECT;c:LAMP PROPERTIES/UV Settings;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "ExternalAreaUV"
+              }
+            ]
+          },
+          {
+            "Name": "UVLight",
+            "Init": "f:EDIT;e:EDIT;c:LAMP PROPERTIES/UV Settings;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "UVLight"
+              }
+            ]
+          },
+          {
+            "Name": "UVLightRange",
+            "Init": "e:EDIT;f:EDIT;c:LAMP PROPERTIES/UV Settings;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "UVLightRange"
+              }
+            ]
+          },
+          {
+            "Name": "m_ClippingXformEntity_1",
+            "Init": "f:EDIT;e:BROWSE_OBJECT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "m_ClippingXformEntity_1"
+              },
+              {
+                "Uuid": "7",
+                "Name": "m_ClippingXformEntity_1"
+              }
+            ]
+          },
+          {
+            "Name": "VisibilityRange",
+            "Init": "f:EDIT;e:EDIT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "VisibilityRange"
+              },
+              {
+                "Uuid": "7",
+                "Name": "VisibilityRange"
+              }
+            ]
+          },
+          {
+            "Name": "EnvProbeGenExclude",
+            "Init": "f:EDIT;e:EDIT;c:Light;",
+            "DestinationFields": [
+              {
+                "Uuid": "8",
+                "Name": "EnvProbeGenExclude"
+              },
+              {
+                "Uuid": "7",
+                "Name": "EnvProbeGenExclude"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0459758, -0.3235985, 0.0004999, 0.670742, 0.3295012, 0.0455937]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Lamp Preset;Canteen_UV_lamp.msh;Flicker;Flicker_broken_uv_metro"],
+            "m_Rotate": [14, [-0.0, 0.0000016, -0.0]],
+            "m_Translate": [14, [0.0001218, 0.0, -0.0000379]]
+          },
+          "Fields": {
+            "UserData": "4286617856 128 4294901760 0",
+            "m_ExternalLights": "/~7;/~8;",
+            "m_LampEmissiveMaxValue": "1.000000",
+            "m_SoundEvent": "sfx_uv_lamp_working_loop"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 2.384185791015625e-7, 1.0, 1.0, 1.0]],
+            "m_Name": [12, "light omni fake UV"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Omni UV"],
+            "m_Rotate": [14, [-87.1560134, 1.3828705, -172.5081176]],
+            "m_Scale": [14, [3.8747591, 4.1044254, 5.2229638]],
+            "m_Translate": [14, [-0.0936278, -0.7791748, -0.1154479]]
+          },
+          "Fields": {
+            "Attenuation": "2.000000",
+            "Color": "0.596078 0.325490 1.000000",
+            "Intensity": "0.600000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0000057, 0.0, 1.0, 1.0000021, 1.0000002]],
+            "m_Name": [12, "light spot UV"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Spot shadow OPTIMIZED"],
+            "m_Rotate": [14, [-89.0174179, 6.5009021, 0.105208]],
+            "m_Scale": [14, [5.0998682, 4.5810484, 4.4345855]],
+            "m_Translate": [14, [0.0406492, -0.1259689, 0.0721587]]
+          },
+          "Fields": {
+            "Attenuation": "1.000000",
+            "Color": "0.490196 0.254902 1.000000",
+            "Intensity": "1.500000",
+            "Projector": "ph/source/data/textures/light_projectors/soft/soft_square_c_prj.png",
+            "Projector mip range": "0.000000 0.940000"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "2",
+          "Type": "1",
+          "X": "825.00",
+          "Y": "-45.00"
+        },
+        {
+          "Uuid": "3",
+          "Type": "1",
+          "X": "-270.00",
+          "Y": "-30.00"
+        },
+        {
+          "Uuid": "7",
+          "Type": "1",
+          "X": "60.00",
+          "Y": "690.00"
+        },
+        {
+          "Uuid": "8",
+          "Type": "1",
+          "X": "-165.00",
+          "Y": "345.00"
+        },
+        {
+          "Uuid": "9",
+          "Type": "4",
+          "X": "-30.00",
+          "Y": "-285.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "10",
+          "Type": "4",
+          "X": "-105.00",
+          "Y": "-240.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "11",
+          "Type": "4",
+          "X": "-675.00",
+          "Y": "540.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

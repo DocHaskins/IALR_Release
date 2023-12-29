@@ -1,0 +1,113 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "StaticAgenda"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Agenda_logic;HUB_Basic_Agenda;Replication;Turned On;Spawn;OW_Peacekeeper_One_Handed;Activation - distance;Exterior"],
+            "m_Rotate": [14, [-180.0, 0.0000049, -180.0]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~3;/~2;/~4;/~5;/~6;",
+            "m_WantedGroupID": "666"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple_Scenario"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999847, 0.0000067, 179.9999847]],
+            "m_Translate": [14, [-5.1270751, -0.0000038, -7.6813964]]
+          },
+          "Fields": {
+            "m_BehaviorName": "combat_idle_standing",
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple_Scenario"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999847, 8.0000066, 179.9999847]],
+            "m_Translate": [14, [0.1553954, -0.0000076, -7.4311523]]
+          },
+          "Fields": {
+            "m_BehaviorName": "combat_idle_standing",
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple_Scenario"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-0.001793, -89.0000457, -0.0018021]],
+            "m_Translate": [14, [-7.7126464, 0.0796127, -2.4362792]]
+          },
+          "Fields": {
+            "m_BehaviorName": "combat_idle_standing",
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple_Scenario"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999847, 0.0000067, 179.9999847]],
+            "m_Scale": [14, [0.9999998, 0.9999988, 0.9999998]],
+            "m_Translate": [14, [-2.2803955, 0.0796165, 1.8178709]]
+          },
+          "Fields": {
+            "m_BehaviorName": "combat_idle_standing",
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Simple_Scenario"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-0.0000017, 74.5, -0.0000777]],
+            "m_Scale": [14, [1.0, 0.9999988, 1.0]],
+            "m_Translate": [14, [1.7961424, 0.0796127, -1.453125]]
+          },
+          "Fields": {
+            "m_BehaviorName": "combat_idle_standing",
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

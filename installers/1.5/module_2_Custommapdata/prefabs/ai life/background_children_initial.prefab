@@ -1,0 +1,72 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "as_shopkeepers"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "as_shopkeepers"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [1.1109619, -0.0619544, -4.6831054]]
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "vendor_agenda_shopkeeper_surv_random"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "vendor_agenda_shopkeeper_surv_random"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [1.1109619, -0.0619544, -4.6831054]]
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "reg_05_watertower_b_shopkeepers_surv"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "reg_05_watertower_b_shopkeepers_surv"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [1.1109619, -0.0619544, -4.6831054]]
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "generic_shopkeepers"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "generic_shopkeepers"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [1.1109619, -0.0619544, -4.6831054]]
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "background_children_initial_upset"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "background_children_initial_upset"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [1.1109619, -0.0619544, -4.6831054]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "background_children_initial_happy"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "background_children_initial_happy"],
+            "m_Rotate": [14, [-0.0, -0.000007, -0.0]],
+            "m_Translate": [14, [0.8530272, -0.0942459, -3.6286621]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

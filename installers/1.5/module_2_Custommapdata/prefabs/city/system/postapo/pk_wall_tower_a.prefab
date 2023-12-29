@@ -1,0 +1,180 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "13",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.5489578, 2.530354, 0.8025908, 2.8044004, 7.8171906, 2.1528558]],
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pk_wall_tower_a"]
+          },
+          "Fields": {
+            "m_CollisionFlags": "8203",
+            "m_CollisionMask": "-17"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 5.0, 0.0, 2.5, 5.0, 2.5]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.7674418, 0.7674418, 0.7674418]],
+            "m_Translate": [14, [0.0146484, 8.0779724, 0.6556395]]
+          },
+          "Fields": {
+            "m_ClearOtherLayers": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1058959, 5.25, 1.6091918, 1.762634, 5.25, 0.781677]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "storey_outline"],
+            "m_Translate": [14, [0.0, -2.8799991, 0.2753905]]
+          },
+          "Fields": {
+            "m_AreaHeight": "10.500000",
+            "m_AreaPoints": "1.868530 0.000000 0.827515;1.868530 0.000000 2.390869;-1.656738 0.000000 2.390869;-1.656738 0.000000 0.827515;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.1156005, 0.5, 0.5197904, 1.6815185, 0.5, 1.8273465]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "storey_outline"],
+            "m_Translate": [14, [0.0, 7.5002918, 0.2753601]]
+          },
+          "Fields": {
+            "m_AreaHeight": "1.000000",
+            "m_AreaPoints": "1.797119 0.000000 -1.307526;1.797119 0.000000 2.347137;-1.565918 0.000000 2.347107;-1.565918 0.000000 -1.307556;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [3.7702631, 1.0, 3.8103022]],
+            "m_Translate": [14, [0.0692749, 7.5727081, 0.7889404]]
+          },
+          "Fields": {
+            "m_HelperNavmeshFlags": "128"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "UV_ON"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "pk_wall_tower_a_uv_lights_on"],
+            "m_Rotate": [14, [-0.0, 0.0000273, -0.0]],
+            "m_Translate": [14, [-0.0002436, -0.0004495, -0.0000609]]
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 12, 14],
+            "m_PcId": [6, 13]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "UV_OFF"],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0],
+            "m_Rotate": [14, [-0.0, 0.0000273, -0.0]],
+            "m_Translate": [14, [-0.0002436, -0.0004495, -0.0000609]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1999998, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [0.0424145, 6.9640011, 3.6425783]]
+          },
+          "Fields": {
+            "cbs::IDamageable::m_IsDead": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "ch_uv_lamp_trap_a"],
+            "m_Scale": [14, [1.5000003, 1.5000003, 1.5000002]],
+            "m_Translate": [14, [0.0434142, 7.341001, 3.001578]]
+          },
+          "Fields": {
+            "SkinName": "Default",
+            "UserData": "4286643968 128 4294901760 0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "ch_uv_lamp_trap_a"],
+            "m_Rotate": [14, [-0.0, -45.0000038, -0.0]],
+            "m_Translate": [14, [-2.6305851, 7.0399994, 1.9805771]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1999998, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [-3.0119061, 7.341001, 2.4622578]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [179.9999847, 60.0, 179.9999847]],
+            "m_Translate": [14, [2.1731021, 4.8328261, 1.0618958]]
+          },
+          "Fields": {
+            "UVLight": "1",
+            "UVLightRange": "4.000000",
+            "m_ExternalLights": ""
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

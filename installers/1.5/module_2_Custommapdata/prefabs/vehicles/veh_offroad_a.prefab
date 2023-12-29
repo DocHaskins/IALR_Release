@@ -1,0 +1,53 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Extents": {},
+      "SpawnType": {},
+      "DetailSpawnType": {},
+      "CustomExteriorsDistance": {},
+      "PrefabInterfaces": [],
+      "Interface": {},
+      "Bindings": {
+        "Properties": [],
+        "Pipes": []
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "mesh",
+            "m_PresetNames": "Meshes;veh_offroad_a",
+            "m_EntityComponentsExtents": "-0.001055 0.993593 -0.122873 1.085212 1.032696 2.053822",
+            "m_Translate": "0.000000 0.000000 0.000061",
+            "m_Rotate": "-0.000000 -3.999978 -0.000000",
+            "m_PcId": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "door_breakdown_scenario",
+            "m_EntityComponentsExtents": "0.000020 0.000005 0.177980 0.500020 0.500005 0.677982",
+            "m_Translate": "0.727356 0.000000 -2.770569",
+            "m_Rotate": "-0.000000 86.000023 -0.000000",
+            "m_PcId": "2"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "car_looting_scenario",
+            "m_EntityComponentsExtents": "0.000005 0.000005 0.177975 0.500005 0.500005 0.677978",
+            "m_Translate": "1.410141 0.000000 -4.534668",
+            "m_PcId": "3"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "Hooks": [],
+      "Nodes": []
+    }
+  }
+}

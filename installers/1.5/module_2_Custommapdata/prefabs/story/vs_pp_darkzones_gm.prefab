@@ -1,0 +1,86 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Extents": {},
+      "SpawnType": {},
+      "DetailSpawnType": {},
+      "PrefabInterfaces": [],
+      "Interface": {},
+      "Bindings": {
+        "Properties": [],
+        "Pipes": []
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "gameplay_modifier_area",
+            "m_EntityComponentsExtents": "1.060900 4.000000 -2.111311 16.274927 4.000000 11.737310",
+            "m_Translate": "1.956299 8.986748 -23.744827",
+            "m_PcId": "1"
+          },
+          "Fields": {
+            "m_Height": "8.000000",
+            "cbs::IEnable::m_State": "1",
+            "m_Points": "17.300591 -0.500000 -13.758465;17.432526 -0.500000 9.625999;-14.985390 -0.500000 9.535854;-15.117329 -0.500000 -13.848621;",
+            "m_ModifierFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "gameplay_modifier_area",
+            "m_EntityComponentsExtents": "1.060900 6.000000 -2.111311 16.274925 6.000000 11.737309",
+            "m_Translate": "-16.389793 5.231783 -0.515018",
+            "m_Rotate": "-180.000000 -89.980217 -180.000000",
+            "m_Scale": "1.000000 1.000000 0.943659",
+            "m_PcId": "2"
+          },
+          "Fields": {
+            "m_Height": "12.000000",
+            "cbs::IEnable::m_State": "1",
+            "m_Points": "17.300591 -0.500000 -13.758465;17.432526 -0.500000 9.625999;-14.985390 -0.500000 9.535854;-15.117329 -0.500000 -13.848621;",
+            "m_ModifierFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "gameplay_modifier_area",
+            "m_EntityComponentsExtents": "1.060904 12.000000 -2.111311 16.274927 12.000000 11.737310",
+            "m_Translate": "7.606865 -7.109266 23.962795",
+            "m_Rotate": "179.999985 0.000005 179.999985",
+            "m_PcId": "3"
+          },
+          "Fields": {
+            "m_Height": "24.000000",
+            "cbs::IEnable::m_State": "1",
+            "m_Points": "17.300591 -0.500000 -13.758465;17.432526 -0.500000 9.625999;-14.985390 -0.500000 9.535854;-15.117329 -0.500000 -13.848621;",
+            "m_ModifierFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "gameplay_modifier_area",
+            "m_EntityComponentsExtents": "-1.736759 2.999998 0.567580 13.477264 3.000002 14.472556",
+            "m_Translate": "7.606865 -7.109266 0.297058",
+            "m_Rotate": "179.999985 0.000005 179.999985",
+            "m_PcId": "4"
+          },
+          "Fields": {
+            "m_Height": "6.000000",
+            "cbs::IEnable::m_State": "1",
+            "m_Points": "11.127945 -0.500004 -13.904976;11.837200 -0.500001 14.983656;-14.408569 -0.500000 15.040136;-15.117329 -0.500000 -13.848621;",
+            "m_ModifierFlags": "4"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "Nodes": [],
+      "Hooks": []
+    }
+  }
+}

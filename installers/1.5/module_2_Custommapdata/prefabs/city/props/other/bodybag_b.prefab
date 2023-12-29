@@ -1,0 +1,23 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.000325 0.133142 0.038892 0.320763 0.131976 1.010800",
+            "m_PcId": "1",
+            "m_PrefabName": "container",
+            "m_PresetNames": "Type;Body_Bag_02;Loot Type;HumanRemains_BodyBag"
+          },
+          "Fields": {
+            "m_NavmeshFlags": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1"
+    }
+  }
+}

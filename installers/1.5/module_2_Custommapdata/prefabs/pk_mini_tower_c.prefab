@@ -1,0 +1,131 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1281476, 4.0526914, 0.9486575, 1.8324334, 4.3875141, 3.1960883]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pk_mini_tower_c"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [179.9999847, -29.999998, 179.9999847]],
+            "m_Scale": [14, [0.9374998, 0.9374995, 0.9374999]],
+            "m_Translate": [14, [-1.8344651, 3.7517421, -1.799076]]
+          },
+          "Fields": {
+            "UVLight": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.2, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [-1.9390228, 3.6814031, -1.9650497]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1999998, 0.0, 2.1570005, 2.1570005, 2.157001]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Scale": [14, [0.9999994, 0.9999994, 0.9999992]],
+            "m_Translate": [14, [1.6369886, 4.6553521, -1.808568]]
+          },
+          "Fields": {
+            "cbs::IDamageable::m_IsDead": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [-179.9999847, 45.0000076, -179.9999847]],
+            "m_Translate": [14, [1.5341529, 4.7940006, -1.6885328]]
+          },
+          "Fields": {
+            "UVLight": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1999998, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [1.3283002, 5.9842767, -1.850996]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [150.0, -15.0000066, 179.9999847]],
+            "m_Translate": [14, [1.3556009, 6.2509479, -1.7533419]]
+          },
+          "Fields": {
+            "UVLight": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.1999998, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [-1.9151798, 4.1205124, 1.0557566]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [39.2315254, -37.7612495, 26.5650501]],
+            "m_Translate": [14, [-1.8408473, 4.3410005, 1.0214679]]
+          },
+          "Fields": {
+            "UVLight": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.2, 0.0, 2.1570005, 2.1570005, 2.1570012]],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "ialr_uv_light_simple_logic"],
+            "m_Translate": [14, [1.6004062, 3.6407999, 1.1332192]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "lgt_halogen_lamp_uvl_wall_a_nolights"],
+            "m_Rotate": [14, [33.6900749, 25.6589126, -16.1021137]],
+            "m_Translate": [14, [1.5646421, 3.8672926, 1.0620839]]
+          },
+          "Fields": {
+            "UVLight": "0"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

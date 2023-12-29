@@ -1,0 +1,71 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "DetailSpawnType": {
+        "User": "1"
+      },
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.036356, 0.3507713, -0.9700223, 1.2704617, 0.3714646, 0.9700223]],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "mesh_no_collision"],
+            "m_PresetNames": [12, "Meshes;bld_ce_d_dormer_str_mid_deco_1x_a"],
+            "m_Translate": [14, [0.0, 3.9163129, 0.0]]
+          },
+          "Fields": {
+            "RenderFlags": "49"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "21",
+          "Type": "1",
+          "X": "0.00",
+          "Y": "0.00"
+        },
+        {
+          "Uuid": "22",
+          "Type": "4",
+          "X": "25.00",
+          "Y": "20.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "23",
+          "Type": "4",
+          "X": "50.00",
+          "Y": "40.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "24",
+          "Type": "4",
+          "X": "-525.00",
+          "Y": "270.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

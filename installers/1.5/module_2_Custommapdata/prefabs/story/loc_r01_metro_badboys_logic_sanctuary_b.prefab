@@ -1,0 +1,44 @@
+{
+  "__filename__": {
+    "Version": 2,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Sanctuary"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "sanctuary"],
+            "m_Translate": [14, [0.5654299, 0.0008318, 0.5865479]]
+          },
+          "Fields": {
+            "m_DialogTurnsOffFlashlight": "0",
+            "m_DisableClimbing": "0",
+            "m_DisableJumping": "0",
+            "m_EnableEnterNotifying": "0",
+            "m_HideWeapon": "0",
+            "m_MaxPlayerSpeed": "6.000000",
+            "m_ReduceAutostep": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [3.8381958, 2.4734697, 3.0531311, 5.7230834, 2.4734659, 3.8927917]],
+            "m_Name": [12, "Sanctuary_Area"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "area_marker"],
+            "m_Translate": [14, [-0.025146, -0.004631, 0.7218629]]
+          },
+          "Fields": {
+            "m_AreaHeight": "4.946930",
+            "m_AreaPoints": "9.561279 0.000006 -0.839661;9.561279 0.000004 6.945068;-1.884888 0.000004 6.945923;-1.884644 0.000006 -0.838806;"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

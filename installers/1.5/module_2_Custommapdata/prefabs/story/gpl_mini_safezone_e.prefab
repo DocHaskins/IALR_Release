@@ -1,0 +1,254 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000048, 0.7631699, -0.0005247, 1.140505, 0.6685996, 0.4011988]],
+            "m_Name": [12, "RestingPlace"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "restingplace"],
+            "m_Rotate": [14, [179.9999694, 32.8061256, -179.9999694]],
+            "m_Translate": [14, [0.0957641, 0.0499496, 0.4886474]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Sanctuary"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "sanctuary"],
+            "m_Rotate": [14, [179.9999847, 0.0000049, 179.9999847]],
+            "m_Translate": [14, [0.555679, 0.0, 1.438099]]
+          },
+          "Fields": {
+            "MapZoneName": "&MiniSafeZone&",
+            "m_DisplayEnterExitHudMessage": "1",
+            "m_EnableEnterNotifying": "1",
+            "m_DialogTurnsOffFlashlight": "0",
+            "m_DisableClimbing": "0",
+            "m_DisableJumping": "0",
+            "m_EnableEnterNotifying": "0",
+            "m_HideWeapon": "0",
+            "m_MaxPlayerSpeed": "6.000000",
+            "m_ReduceAutostep": "0",
+            "m_SelfActive": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_EntityComponentsExtents": [69, [-0.0003795, 1.4512833, 0.218868, 0.0679944, 1.495648, 0.262777]],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_Name": [12, "SP_RespawnPoint"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "spawnpoint"],
+            "m_Rotate": [14, [-179.9999694, -44.9999923, -179.9999542]],
+            "m_Translate": [14, [2.0333251, 0.0500027, 2.4380187]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_ForceEntityActivity": "1",
+            "m_Respawn": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0994265, 0.9258479, -0.1672779, 0.5994264, 0.9258509, 0.9588509]],
+            "m_Name": [12, "AreaSanctuary"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "area_marker"],
+            "m_Rotate": [14, [179.9999847, -15.9999828, 179.9999847]],
+            "m_Scale": [14, [18.0054779, 5.6398057, 11.4128189]],
+            "m_Translate": [14, [-0.2182617, -1.0816762, -1.4345083]]
+          },
+          "Fields": {
+            "m_AreaHeight": "1.851699",
+            "m_AreaPoints": "0.499992 -0.000003 -1.126114;0.500000 -0.000001 0.791573;-0.698853 -0.000002 0.791573;-0.698853 0.000000 -1.126129;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0763507, 0.4804978, -0.2083443, 0.3854691, 0.4854978, 0.7539334]],
+            "m_Name": [12, "small_safezone_generator"],
+            "m_NavmeshFlagsAllowed": [21, -4],
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "generator"],
+            "m_Rotate": [14, [-179.9999542, 41.9999771, 179.9999389]],
+            "m_Translate": [14, [2.883789, -0.0076217, 1.5268554]]
+          },
+          "Fields": {
+            "m_SaveEnable": "1",
+            "cbs::IEnable::m_State": "1",
+            "m_ControlledObjects": "/~3;/~4;/~5;/~9;/~13;/~47;",
+            "m_ControlledObjectsInverted": "/~8;",
+            "m_HoldTime": "2.000000",
+            "m_State": "_OFF"
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "DestinationField": "m_OffStateDescription",
+            "Fields": {
+              "m_StateName": "Broken",
+              "m_TriggerAction": "Use",
+              "m_TriggerDescription": "Repair"
+            }
+          },
+          "EmbeddedObject": {
+            "Class": "TriggerStateDescription",
+            "DestinationField": "m_OnStateDescription",
+            "Fields": {
+              "m_TriggerAction": "None"
+            }
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AlwaysSpawned": [11, true],
+            "m_MoveToDynamicRoot": [11, true],
+            "m_Name": [12, "detectable_small_safezone_loc_inactive"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "detectableobject"],
+            "m_Rotate": [14, [179.9998474, -77.9999923, 179.9998931]],
+            "m_Scale": [14, [8.1432514, 4.3999977, 9.125019]],
+            "m_Translate": [14, [1.1396484, -0.0650098, -1.8150633]]
+          },
+          "Fields": {
+            "m_DetectDistance": "Medium",
+            "m_RevealDistance": "50.000000",
+            "DetectableLocationTransform": "0.959850 -0.000000 -0.314328 0.388222 0.000000 1.000000 -0.000000 0.315669 0.250334 0.000000 0.959862 0.247620",
+            "DetetcableSkinName": "detectable",
+            "MeshTranform": "0.999999 -0.000000 -0.000000 0.251465 0.000000 0.999998 -0.000000 0.000000 0.000000 -0.000000 0.999999 0.000061",
+            "cbs::IEnable::m_State": "1",
+            "m_BinocularDetectionEnable": "1",
+            "m_DetectableAreaObject": "/~46",
+            "m_DetectionByEnterAreaEnable": "1",
+            "m_DifficultyKey": "ow_safe_zone",
+            "m_DiscoverableType": "Safe_Zone",
+            "m_LogicPreset": "Locations::Logic::DetectableLocationLogic,();",
+            "m_ObjectName": "&SafeZone_Inactive&",
+            "m_RegisterOnStart": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "Locations::Logic::DetectableLocationLogic",
+            "DestinationField": "m_LogicPreset",
+            "Fields": {
+              "m_ActivityName": "",
+              "m_AreaMode": "None",
+              "m_LocCategory": "Neutral",
+              "m_LocType": "SmallSafeZone_Inactive",
+              "m_MapDescription": ""
+            }
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-5.960464477539063e-8, 1.5195735, 0.230906, 0.0690794, 1.5195735, 0.270789]],
+            "m_Name": [12, "small_safezone_loc_active"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "location"],
+            "m_Rotate": [14, [179.9999847, 0.0000042, 179.9999847]],
+            "m_Translate": [14, [0.6755371, 0.0, 0.3680419]]
+          },
+          "Fields": {
+            "m_LogicPreset": "Locations::Logic::SafeZoneGroupingLogic,();",
+            "m_RegisterOnStart": "1",
+            "m_SelfActive": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "Locations::Logic::SafeZoneGroupingLogic",
+            "DestinationField": "m_LogicPreset",
+            "Fields": {
+              "m_ActivityName": "",
+              "m_AreaMode": "None",
+              "m_LocCategory": "Neutral",
+              "m_LocType": "SmallSafeZone_Active",
+              "m_MapDescription": "",
+              "m_Radius": "10.000000"
+            }
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.000005, 0.0624484, 0.000005, 0.5003359, 0.5627793, 0.5003359]],
+            "m_Name": [12, "AAZL_tent_safe_zone"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "audioambientzonelogic"],
+            "m_PresetNames": [12, "Variant;WithState"],
+            "m_Rotate": [14, [179.9999847, -45.0000076, 179.9999847]],
+            "m_Translate": [14, [1.4741208, 1.1160353, -1.2069089]]
+          },
+          "Fields": {
+            "m_AcousticInsulation": "0",
+            "m_AreaEntities": "/~6;",
+            "m_AudioStateName": "Structure_Type_Tent"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.5, 0.4999999, 0.5]],
+            "m_Name": [12, "GMA_BlockGenericSpawn"],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "gameplay_modifier_area"],
+            "m_Rotate": [14, [179.9999847, -0.0000015, 179.9999694]],
+            "m_Scale": [14, [31.9439926, 11.0499982, 35.1383934]],
+            "m_Translate": [14, [0.7933349, 0.024576, -1.5227191]]
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_ModifierFlags": "51"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3807525, 0.4999949, 0.2662545, 0.4916035, 0.500005, 0.5227315]],
+            "m_Name": [12, "DetectableArea"],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "area_marker"],
+            "m_Rotate": [14, [-179.9998321, -76.0000152, -179.9998626]],
+            "m_Scale": [14, [23.8072509, 10.3302621, 22.4242382]],
+            "m_Translate": [14, [8.4318847, -0.8470649, -3.5700683]]
+          },
+          "Fields": {
+            "m_AreaPoints": "0.872345 -0.000000 -0.256477;0.872356 0.000000 0.788986;-0.110851 -0.000009 0.788979;-0.110851 -0.000010 -0.256477;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "uv_location_minisafezone"],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "uv_location_minisafezone"],
+            "m_Rotate": [14, [179.9999847, -14.999998, -179.9999847]],
+            "m_Translate": [14, [1.5056152, -0.1096267, -1.5720825]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "gpl_mini_safezone_e_deco"],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "gpl_mini_safezone_e_deco"]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

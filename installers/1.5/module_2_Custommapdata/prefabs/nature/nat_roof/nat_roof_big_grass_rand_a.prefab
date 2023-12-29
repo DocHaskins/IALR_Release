@@ -1,0 +1,61 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "DetailSpawnType": {
+        "User": "1"
+      },
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT|CALLBACK;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "5",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "visible"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "nat_roof_big_grass_b_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_ground"]
+          },
+          "Fields": {
+            "SkinName": "grass_ground"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 4, 6],
+            "m_PcId": [6, 5]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "empty"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "ProductionState": {
+        "User": "2"
+      },
+      "DataVersion": "2"
+    }
+  }
+}

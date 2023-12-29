@@ -17,6 +17,14 @@
             "body": "Take the games difficulty and scavenging to a new level with a new optional in the Modules section that requires the player to eat and drink to properly regenerate health and stamina"
         },
         {
+            "header": "Human AI Refactor/Companion improvements",
+            "body": "A much needed update to the human AI. They should attack enemies with more aggression and they now use the buildings, cars, signs, and other parkour elements to traverse the city, making it easier for them to avoid running into piles of enemies and getting wiped out."
+        },
+        {
+            "header": "New Companion improvements",
+            "body": "The companions are now more aware of their surroundings and do a better job at protecting the player. They also now utilize the level tier system to improve their weapons, stamina, and health as you progress through the game. This system still needs a lot of love but it's a step in the right direction. Companions will also attempt to avoid using roads and will instead use Parkour to traverse the city, making it easier for them to avoid running into piles of enemies and getting wiped out. They will also use defensive measures to move through the city while trying to keep up with the player"
+        },
+        {
             "header": "New Infestation Module",
             "body": "The city no longer is safe during the day. The infected no longer suffer from the sunlight and will stop at nothing to kill you."
         },
@@ -81,24 +89,12 @@
             "body": "This fix should allow the custom traders to properly show items"
         },
         {
-            "header": "Fix for Hazmat Virals",
-            "body": "Fix for a hazmat virals not chasing the player or moving"
-        },
-        {
             "header": "Fix for Enemies Nearby Bug",
             "body": "This was occuring on some quests. This should be better balanced, but also try sleeping till daytime or use camouflage to help lose the scent of enemies"
         },
         {
             "header": "Fix for only Biter Camouflage spawning",
             "body": "Better balancing for all types of camouflage to spawn on special infected"
-        },
-        {
-            "header": "Fix for Volatile Hives spawning outdoors",
-            "body": "This fix should prevent as many hives showing up outdoors"
-        },
-        {
-            "header": "Reduction to Goons and Demolishers on Ultimate",
-            "body": "Reduced the amount of chaos agents that spawn goons and demolishers on Ultimate Difficulty"
         },
         {
             "header": "Reduction to chaos on Survivor",

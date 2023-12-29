@@ -1,0 +1,58 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [10.0793104, -0.5073747, 0.1042301, 10.1324262, 0.5823025, 1.1615574]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;dt_proto_rope_bridge_mid_a"]
+          },
+          "Fields": {
+            "m_CollisionFlags": "75"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.5, 0.0, 0.5, 0.5, 0.5]],
+            "m_Name": [12, "AAZ_rope_bridge_creaks"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "audioambientzone"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Scale": [14, [2.2642819, 2.9616742, 19.7434082]],
+            "m_Translate": [14, [10.2125129, -0.4826754, 0.1133422]]
+          },
+          "Fields": {
+            "m_AcousticInsulation": "0",
+            "m_EventName": "ambience_rope_bridge_creaks"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "dt_proto_rope_bridge_mid_a_holder"],
+            "m_Rotate": [14, [-179.9999847, 0.00049, -179.9999847]],
+            "m_Translate": [14, [20.3864994, 0.0288686, 0.0269556]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "dt_proto_rope_bridge_mid_a_ropes"],
+            "m_Rotate": [14, [-0.0, -0.0004866, 0.0]],
+            "m_Translate": [14, [0.2220267, -0.0161313, 0.0409059]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "3",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.011219, 0.7051369, -0.1983847, 1.4421809, 0.7157308, 2.9182212]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;veh_sedan_c_open"]
+          },
+          "Fields": {
+            "RenderFlags": "55"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.3084721, -0.0000305, -1.2011115, 2.9812011, 0.5000305, 1.7011111]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "overlay_mask_helper"],
+            "m_Rotate": [14, [-35.4820594, 83.484642, 32.4974708]],
+            "m_Translate": [14, [1.0351562, 0.4182808, 0.3000487]]
+          },
+          "Fields": {
+            "m_AreaPoints": "3.289673 -0.500061 -2.902100;3.160034 -0.500008 0.012268;1.937622 -0.500000 0.242981;-0.500000 -0.500000 0.500000;-2.440918 -0.500015 0.276367;-2.672729 -0.500008 -1.744385;-0.500122 -0.500046 -2.902222;",
+            "m_Value": "29"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "fuel_can"],
+            "m_Rotate": [14, [0.0, 90.0, -45.0]],
+            "m_Translate": [14, [-0.4509234, 0.2, -0.5186116]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "fuel_can"],
+            "m_Translate": [14, [-0.5649237, 0.15, -0.0146113]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "3",
+          "Type": "1",
+          "X": "435.00",
+          "Y": "-30.00"
+        },
+        {
+          "Uuid": "4",
+          "Type": "4",
+          "X": "25.00",
+          "Y": "20.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "5",
+          "Type": "4",
+          "X": "50.00",
+          "Y": "40.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "6",
+          "Type": "4",
+          "X": "-150.00",
+          "Y": "210.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

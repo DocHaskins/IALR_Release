@@ -1,0 +1,477 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS1_multiactivity_distance_citizen_m_crouch_screwdriver_ground_ow_01"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0002284, 77.5000457, -0.0002581]],
+            "m_Translate": [14, [13.852539, -0.1751631, 14.8643798]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_m_stand_angle_grinder_01",
+            "m_FarRange_Min": "6.000000",
+            "m_MedRange_Max": "5.000000",
+            "m_MedRange_Min": "3.500000",
+            "m_MinDistToActiveScenario": "1.000000",
+            "m_NearRange_Max": "2.000000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA1"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [4.8728027, 0.1399765, 4.4363403]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~2;/~4;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS1_single_static_m_stand_gas_welding_placeholder_01"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [179.9999847, 0.5002322, 179.9999694]],
+            "m_Translate": [14, [23.3966064, -0.1489868, 13.5170898]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_m_stand_gas_welding_placeholder_01",
+            "m_FarRange_Min": "6.000000",
+            "m_MedRange_Max": "5.000000",
+            "m_MedRange_Min": "3.500000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_NearRange_Max": "2.000000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_multiactivity_distance_citizen_m_collecting_woods_03"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000398, 22.5000305, -0.0000313]],
+            "m_Translate": [14, [-9.586914, 3.6157035, 3.1705932]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "multiactivity_distance_citizen_m_collecting_woods_03",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0397862, 0.2010587, -0.0494036, 0.832981, 0.2497225, 0.9673312]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_a"],
+            "m_Rotate": [14, [5.0528182, 27.2363185, 5.4707884]],
+            "m_Translate": [14, [-6.1483154, 3.8479194, 5.1607055]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0259157, 0.134136, -0.0494037, 1.1837669, 0.201278, 0.9673314]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_b"],
+            "m_Rotate": [14, [-0.0, 21.9999885, -0.0]],
+            "m_Scale": [14, [0.5999999, 0.6, 0.5999999]],
+            "m_Translate": [14, [-10.2293701, 3.6544151, 2.295227]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0258699, 0.134136, -0.0494036, 1.1837822, 0.2012781, 0.9673315]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_b"],
+            "m_Rotate": [14, [157.773529, -78.8030166, 146.8691253]],
+            "m_Scale": [14, [0.6999999, 0.6999999, 1.0]],
+            "m_Translate": [14, [-6.9589843, 3.9467964, 4.0462036]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0259157, 0.134136, -0.0494037, 1.1837669, 0.201278, 0.9673314]],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_b"],
+            "m_Rotate": [14, [-179.9999847, -49.9999923, -179.9999847]],
+            "m_Scale": [14, [0.9000002, 0.6999999, 0.9000002]],
+            "m_Translate": [14, [-11.1601562, 3.6644134, 4.1348876]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA2"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-0.3571777, 0.1399765, 2.2163085]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~5;/~18;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_multiactivity_distance_citizen_m_stand_collecting_woods_ow_01"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [-0.0000259, 73.5000534, -0.0000145]],
+            "m_Translate": [14, [-8.3262939, 3.7418556, -5.9540405]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "multiactivity_distance_citizen_m_stand_collecting_woods_ow_01",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_Rotate": [14, [5.7359404, 72.4023742, -6.4696493]],
+            "m_Scale": [14, [0.8999999, 0.8999999, 0.8999999]],
+            "m_Translate": [14, [-6.9222412, 3.8045349, -5.4082031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0397862, 0.2010701, -0.0494036, 0.832981, 0.2497187, 0.9673312]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_a"],
+            "m_Rotate": [14, [4.9899902, 6.0029869, 0.0870058]],
+            "m_Translate": [14, [-8.6013183, 3.8144149, -7.1967163]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0259157, 0.134136, -0.0494036, 1.1837669, 0.201278, 0.9673312]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_b"],
+            "m_Rotate": [14, [-0.0, 64.0, -0.0]],
+            "m_Translate": [14, [-7.5292968, 3.6544151, -7.7048339]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_Rotate": [14, [178.371109, 31.4720382, -177.7109375]],
+            "m_Scale": [14, [0.9000002, 0.8999999, 0.8999999]],
+            "m_Translate": [14, [-5.6898193, 3.8135261, -4.8394165]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_multiactivity_distance_citizen_m_collecting_woods_ow_02"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [-0.0000337, -9.4999475, 0.0000167]],
+            "m_Translate": [14, [-4.3433837, 4.4530487, -0.3036499]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "multiactivity_distance_citizen_m_kneeling_hammering_ow_01",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_ModelObjectEntities": "/~31;",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0259157, 0.134136, -0.0495868, 1.1837668, 0.201278, 0.9673925]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;urb_ground_trash_wooden_b"],
+            "m_Rotate": [14, [-179.9999389, -54.0, -179.9999694]],
+            "m_Scale": [14, [0.9999997, 0.6999995, 0.9999995]],
+            "m_Translate": [14, [-3.2537841, 4.3144187, 1.1957397]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_Rotate": [14, [178.371109, 31.472042, -177.7109375]],
+            "m_Scale": [14, [0.8999999, 0.8999999, 0.8999996]],
+            "m_Translate": [14, [-8.7220458, 3.633953, 5.3784179]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "urb_pallet_wood_a_sqr_a"],
+            "m_Rotate": [14, [-1.5825455, -30.472826, -2.2652156]],
+            "m_Scale": [14, [0.8999999, 0.8999999, 0.8999996]],
+            "m_Translate": [14, [-7.5478515, 3.6000022, 6.1815185]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS3_multiactivity_citizen_m_sitting_on_stairs_01"],
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000387, -27.0000419, 0.0000393]],
+            "m_Translate": [14, [19.7600097, -0.0718993, 2.8766479]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "multiactivity_citizen_m_sitting_on_stairs_01",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA3"],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [0.5328369, 0.1399765, 2.2163085]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~23;/~25;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS3_single_static_m_stand_weapon_sharpenin_table_grinder_01"],
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [-0.0000096, 40.9999542, 0.0000464]],
+            "m_Translate": [14, [16.6748046, -0.1715393, 19.5493774]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_m_stand_weapon_sharpenin_table_grinder_01",
+            "m_MinDistToActiveScenario": "1.700000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.032891, 0.1185629, 0.0213217, 0.2422502, 0.1385629, 0.1287492]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "skinned_mesh"],
+            "m_PresetNames": [12, "SkinnedMeshes;prp_bench_grinder_a"],
+            "m_Rotate": [14, [-180.0, -40.9999923, -180.0]],
+            "m_Translate": [14, [16.6671142, 0.7110555, 20.2545166]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS4_single_static_m_stand_leaning_on_wall_right_arm_01_idle"],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000287, 39.4997673, -0.0000545]],
+            "m_Translate": [14, [-19.0168457, -0.0591197, -1.9713133]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_m_stand_leaning_on_wall_right_arm_01_idle",
+            "m_FarRange_Min": "6.000000",
+            "m_MedRange_Max": "5.000000",
+            "m_MedRange_Min": "3.500000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_NearRange_Max": "2.000000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS4"],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [179.9999542, 2.4999465, 179.9999694]],
+            "m_Translate": [14, [9.3248291, -0.1284102, -1.3450317]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_m_stand_reading_clipboard_idle_01",
+            "m_FarRange_Min": "6.000000",
+            "m_MedRange_Max": "5.000000",
+            "m_MedRange_Min": "3.500000",
+            "m_MinDistToActiveScenario": "1.000000",
+            "m_NearRange_Max": "2.000000",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA4"],
+            "m_PcId": [6, 30],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-13.102539, -0.1579322, -0.0470581]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;/~28;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0759909, 0.0, 0.6399443, 0.075991, 0.66]],
+            "m_Name": [12, "pallet"],
+            "m_PcId": [6, 31],
+            "m_PrefabName": [12, "skinned_mesh"],
+            "m_Rotate": [14, [-0.0, 49.9999923, -0.0]],
+            "m_Translate": [14, [-4.4848632, 4.3010597, 0.1941528]]
+          },
+          "Fields": {
+            "MeshName": "urb_pallet_wood_a.msh",
+            "m_NavmeshFlags": "0"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA4"],
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-10.102539, -0.1579322, -0.0470581]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;/~28;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA4"],
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-7.102539, -0.1579322, -0.0470581]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;/~28;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA4"],
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-2.102539, -0.1579322, -0.0470581]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;/~28;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA4"],
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Spawn;Peace_Keeper_Worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-0.102539, -0.1579322, -0.0470581]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;/~28;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

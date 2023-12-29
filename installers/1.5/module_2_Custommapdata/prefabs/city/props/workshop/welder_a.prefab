@@ -1,0 +1,26 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-8.940696716308594e-8, 0.3950319, 4.470348358154297e-8, 0.4561179, 0.3991017, 0.2227295]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Welder;Loot Type;GenericElectricPlug"],
+            "m_Rotate": [14, [0.0000422, -0.0000256, -0.0000067]],
+            "m_Translate": [14, [-0.0001831, 0.000473, 0.0003051]]
+          },
+          "Fields": {
+            "RenderFlags": "51"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

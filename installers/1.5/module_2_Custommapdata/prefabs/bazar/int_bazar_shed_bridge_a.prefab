@@ -1,0 +1,88 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.8096557, 3.8120179, 0.4932459, 1.9619079, 1.2017397, 1.9520848]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_bazar_shed_bridge_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.0805971, 0.0005, 0.1505761, 0.0805972, 0.1204999]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;kitchen_pot_small_b"],
+            "m_Rotate": [14, [-9.999998, 8.960706736615975e-7, 179.9999847]],
+            "m_Translate": [14, [0.1473692, 4.5976686, 0.5015177]]
+          },
+          "Fields": {
+            "SkinName": "Default",
+            "UserData": "4286643968 128 4294901760 0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 0.1215878, 0.0005, 0.1208715, 0.1215879, 0.0904999]],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;kitchen_pot_small_a"],
+            "m_Rotate": [14, [-174.9999847, -2.6578904410712313e-8, -0.0]],
+            "m_Translate": [14, [-1.6636352, 4.7357373, 0.5530443]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, 0.0805971, 0.0005, 0.1505761, 0.0805972, 0.1204999]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;kitchen_pot_small_b"],
+            "m_Rotate": [14, [-9.999999, 8.960710715655296e-7, 179.9999847]],
+            "m_Translate": [14, [-1.3931274, 5.0077495, 1.8162331]]
+          },
+          "Fields": {
+            "SkinName": "Default",
+            "UserData": "4286643968 128 4294901760 0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.4999999, 0.4999999, 0.4999999]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Rotate": [14, [4.544148453078378e-7, -77.5284347, 7.999998]],
+            "m_Scale": [14, [3.5513522, 1.2149577, 0.2401123]],
+            "m_Translate": [14, [0.2702636, 3.4575843, 0.4223631]]
+          },
+          "Fields": {
+            "m_Height": "1.000000",
+            "m_HelperNavmeshFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "int_bazar_shed_bridge_a_barriers"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "int_bazar_shed_bridge_a_barriers"],
+            "m_Rotate": [14, [-0.0, -60.0284385, -0.0]],
+            "m_Scale": [14, [1.0000001, 1.0, 1.0000005]],
+            "m_Translate": [14, [-0.7202148, 4.5972862, 0.7165527]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

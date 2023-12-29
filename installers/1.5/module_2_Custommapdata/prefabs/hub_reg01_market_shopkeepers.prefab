@@ -1,0 +1,247 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "Weapon_Shop",
+            "m_PcId": "8",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "179.999954 -47.499989 179.999969",
+            "m_Translate": "35.151855 0.854862 10.638916"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_AssortmentName": "Shop_Region01_Weapons",
+            "m_SelfActive": "0",
+            "m_Seller": "./quests/Lawan"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570829 0.100005",
+            "m_Name": "Aitor_Shop",
+            "m_PcId": "9",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "-179.999939 77.999977 179.999924",
+            "m_Translate": "6.469604 0.879524 18.617432"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_AssortmentName": "Shop_Region01_Aitor",
+            "m_SelfActive": "0",
+            "m_Seller": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_AlwaysSpawned": "1",
+            "m_EntityComponentsExtents": "-0.000000 0.923097 -0.167366 1.140500 1.002134 0.378080",
+            "m_MoveToDynamicRoot": "1",
+            "m_Name": "shopkeeper_03",
+            "m_PcId": "13",
+            "m_PrefabName": "humanai",
+            "m_PresetNames": "Character;Bazarian_man_Hub",
+            "m_Rotate": "179.999985 34.499981 179.999969",
+            "m_Seed": "1800353510",
+            "m_Translate": "19.546387 -0.960648 6.644531"
+          },
+          "Fields": {
+            "m_BehaviorPlace": "/~24",
+            "m_ObjectName": "shopkeeper_03"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570829 0.100005",
+            "m_Name": "Aitor_Shop_QuestCompleted",
+            "m_PcId": "16",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "-179.999939 77.999977 179.999924",
+            "m_Translate": "6.015869 0.879520 18.452637"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_AssortmentName": "Shop_Region01_Aitor_QuestCompleted",
+            "m_SelfActive": "0",
+            "m_Seller": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "shoop_01",
+            "m_PcId": "17",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "179.999985 -11.999997 179.999985",
+            "m_Translate": "13.817017 0.896935 8.161011"
+          },
+          "Fields": {
+            "m_AssortmentName": "Shop_Region01_Bazaar_1",
+            "m_Seller": "/~10"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583154 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "shoop_02_disabled",
+            "m_PcId": "19",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "-0.000019 30.000004 0.000019",
+            "m_Translate": "0.764160 6.001091 12.989990"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_AssortmentName": "Shop_Region01_Bazaar_2",
+            "m_Seller": "/~25"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "shoop_03_disabled",
+            "m_PcId": "20",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "0.000087 -75.000023 0.000067",
+            "m_Translate": "19.652100 0.826347 6.413818"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_AssortmentName": "Shop_Region01_Bazaar_3",
+            "m_Seller": "/~13"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "Bartender_Shop",
+            "m_PcId": "22",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "0.000000 90.000000 -0.000000",
+            "m_Translate": "23.297119 0.896919 12.576050"
+          },
+          "Fields": {
+            "m_AssortmentName": "Shop_Region01_Bazaar_Bartender",
+            "m_Seller": "./~13/~11"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000000 0.150005 0.177981 0.500000 0.150005 0.677981",
+            "m_Name": "shopkeeper_03_BP",
+            "m_PcId": "24",
+            "m_PrefabName": "behaviorplace_npc",
+            "m_PresetNames": "Type;AI Life",
+            "m_Rotate": "179.999969 -16.500002 179.999954",
+            "m_Translate": "19.771606 -0.959606 6.420776"
+          },
+          "Fields": {
+            "m_BPPreset": "<no preset>",
+            "m_BehaviorName": "single_static_m_sitting_shopping_01_vendor_01",
+            "m_OwnerEntity": "/~13"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_AlwaysSpawned": "1",
+            "m_EntityComponentsExtents": "0.000061 0.854179 0.002297 1.140500 0.934618 0.243397",
+            "m_MoveToDynamicRoot": "1",
+            "m_Name": "shopkeeper_01",
+            "m_PcId": "25",
+            "m_PrefabName": "humanai",
+            "m_PresetNames": "Character;Bazarian_wmn_Hub_shopkeeper_01",
+            "m_Rotate": "179.999985 62.999992 -179.999985",
+            "m_Translate": "0.063721 4.259499 11.697754"
+          },
+          "Fields": {
+            "m_BehaviorPlace": "/~26",
+            "m_ObjectName": "shopkeeper_01",
+            "m_SelfActive": "1"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_AlwaysSpawned": "1",
+            "m_EntityComponentsExtents": "0.000061 0.854179 0.002297 1.140500 0.934618 0.243397",
+            "m_MoveToDynamicRoot": "1",
+            "m_Name": "shopkeeper_02",
+            "m_PcId": "26",
+            "m_PrefabName": "humanai",
+            "m_PresetNames": "Character;Bazarian_wmn_Hub_shopkeeper_01_IALR",
+            "m_Rotate": "179.999985 62.999992 -179.999985",
+            "m_Translate": "0.063721 4.259499 8.697754"
+          },
+          "Fields": {
+            "m_BehaviorPlace": "/~28",
+            "m_ObjectName": "shopkeeper_02",
+            "m_SelfActive": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000046 0.150005 0.177981 0.500016 0.150005 0.677981",
+            "m_Name": "shopkeeper_02_BP",
+            "m_PcId": "26",
+            "m_PrefabName": "behaviorplace_npc",
+            "m_PresetNames": "Type;AI Life",
+            "m_Rotate": "-179.999985 15.500051 179.999985",
+            "m_Translate": "0.253784 4.237785 13.451294"
+          },
+          "Fields": {
+            "m_BPPreset": "<no preset>",
+            "m_BehaviorName": "single_static_m_stand_shopping_01_vendor_01",
+            "m_OwnerEntity": "/~25"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000046 0.150005 0.177981 0.500016 0.150005 0.677981",
+            "m_Name": "shopkeeper_02_BP",
+            "m_PcId": "28",
+            "m_PrefabName": "behaviorplace_npc",
+            "m_PresetNames": "Type;AI Life",
+            "m_Rotate": "-179.999985 15.500051 179.999985",
+            "m_Translate": "0.253784 4.237785 11.697754"
+          },
+          "Fields": {
+            "m_BPPreset": "<no preset>",
+            "m_BehaviorName": "single_static_m_stand_shopping_01_vendor_01",
+            "m_OwnerEntity": "/~26"
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.003035 0.583153 0.000005 0.314215 0.570830 0.100005",
+            "m_Name": "Bartender_Shop",
+            "m_PcId": "29",
+            "m_PrefabName": "trading_shop",
+            "m_Rotate": "0.000000 90.000000 -0.000000",
+            "m_Translate": "0.063721 4.259499 8.697754"
+          },
+          "Fields": {
+            "m_AssortmentName": "Shop_Region01_Bazaar_IALR",
+            "m_Seller": "/~26"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1"
+    }
+  }
+}

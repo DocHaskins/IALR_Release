@@ -1,0 +1,102 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000152, 0.0000038, -0.0000038, 1.0, 1.0, 1.0]],
+            "m_Name": [12, "Uv_stairs_light"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Spot"],
+            "m_Rotate": [14, [-131.690277, -28.5912914, -150.4041595]],
+            "m_Scale": [14, [3.8488569, 7.6700034, 9.1273021]],
+            "m_Translate": [14, [0.620239, 0.0966299, 2.2363128]]
+          },
+          "Fields": {
+            "Attenuation": "1.000000",
+            "Color": "0.760784 0.203922 1.000000",
+            "Intensity": "1.300000",
+            "Projector": "ph/source/data/textures/light_projectors/soft/soft_multi_c_prj.png",
+            "cbs::IEnable::m_State": "0",
+            "m_ClippingXformEntity": "/~3",
+            "m_ClippingXformEntity_1": "/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, -0.0000038, 0.0, 1.0, 0.9999998, 1.0]],
+            "m_Name": [12, "Uv_stairs_light"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Spot"],
+            "m_Rotate": [14, [-149.9486541, -35.7631187, -160.2058715]],
+            "m_Scale": [14, [3.105252, 5.9464225, 5.254014]],
+            "m_Translate": [14, [-0.2946777, 0.2049711, -0.3542861]]
+          },
+          "Fields": {
+            "Attenuation": "1.000000",
+            "Color": "0.007843 0.992157 0.996078",
+            "Intensity": "2.000000",
+            "Projector": "ph/source/data/textures/light_projectors/soft/soft_multi_c_prj.png",
+            "cbs::IEnable::m_State": "0",
+            "m_ClippingXformEntity": "/~3",
+            "m_ClippingXformEntity_1": "/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 1.0, 1.0, 1.0]],
+            "m_Name": [12, "box"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "box"],
+            "m_Rotate": [14, [0.0, -57.5000152, 0.0]],
+            "m_Scale": [14, [4.3055534, 2.7434911, 1.4319827]],
+            "m_Translate": [14, [1.4941406, -0.9247589, 3.3128967]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999998, 1.0, 0.9999999]],
+            "m_Name": [12, "Uv_stairs_light"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "light"],
+            "m_PresetNames": [12, "Light;Spot"],
+            "m_Rotate": [14, [-135.9289245, -21.5703296, -152.2050628]],
+            "m_Scale": [14, [2.290986, 7.6700034, 8.8614606]],
+            "m_Translate": [14, [-0.3558349, 0.3152618, 0.1549911]]
+          },
+          "Fields": {
+            "Attenuation": "1.000000",
+            "Color": "0.000000 0.000000 1.000000",
+            "Intensity": "3.000000",
+            "Projector": "ph/source/data/textures/light_projectors/soft/soft_multi_c_prj.png",
+            "cbs::IEnable::m_State": "0",
+            "m_ClippingXformEntity": "/~3",
+            "m_ClippingXformEntity_1": "/~5"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 0.9999999, 0.9999999, 1.0000001]],
+            "m_Name": [12, "Box2"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "box"],
+            "m_Rotate": [14, [-0.0, -57.5000152, -0.0]],
+            "m_Scale": [14, [4.7664704, 2.7328617, 1.7817764]],
+            "m_Translate": [14, [-0.5555418, 0.7644577, 4.1163482]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

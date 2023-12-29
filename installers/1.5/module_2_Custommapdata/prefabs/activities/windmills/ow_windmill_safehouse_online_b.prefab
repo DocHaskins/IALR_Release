@@ -1,0 +1,177 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "pa_wood_path_mod_1x1_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000129]],
+            "m_Translate": [14, [4.124741, 0.0000023, -6.4561309]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "bdp_connector_wall_bracket_zipline_helper"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Seed": [6, 4099658937],
+            "m_Translate": [14, [1.9200439, 0.0, -0.0075678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "bdp_connector_wall_bracket_zipline_helper"],
+            "m_Rotate": [14, [-0.0, -0.0000199, -0.0]],
+            "m_Seed": [6, 4099658937],
+            "m_Translate": [14, [-3.839966, 0.0, 1.9124759]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "bdp_connector_wall_bracket_zipline_helper"],
+            "m_Rotate": [14, [-0.0, -0.0000199, -0.0]],
+            "m_Seed": [6, 4099658937],
+            "m_Translate": [14, [0.0, 0.0, 1.9124759]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "bdp_connector_wall_bracket_zipline_helper"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Seed": [6, 4099658937],
+            "m_Translate": [14, [-5.7600097, 0.0, -0.0075678]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.4999999, 0.4999999, 0.4999999]],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "playerfallamortizer"],
+            "m_PresetNames": [12, "PlayerFallAmortizer;garbage_bag_b.msh"],
+            "m_Rotate": [14, [179.9999847, -0.0000098, 179.9999847]],
+            "m_Scale": [14, [7.999999, 2.8426799, 4.8000001]],
+            "m_Translate": [14, [-1.8120119, 4.0, 0.160034]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "bdp_connector_wall_bracket_zipline_helper"],
+            "m_Rotate": [14, [179.9999694, 44.9999923, -179.9999847]],
+            "m_Seed": [6, 4099658937],
+            "m_Translate": [14, [1.9200439, 0.0, -1.9200439]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "kitchen_pot_small_a"],
+            "m_Rotate": [14, [-179.9999847, -0.3483071, 179.9999389]],
+            "m_Scale": [14, [0.9995148, 0.9995148, 0.9995151]],
+            "m_Translate": [14, [4.8766136, 0.8976743, -11.0930576]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "pa_table_a"],
+            "m_Rotate": [14, [0.0000216, 0.3483141, 0.0000435]],
+            "m_Scale": [14, [0.9995148, 0.9995148, 0.9995151]],
+            "m_Translate": [14, [4.6577463, -0.0167683, -10.7675933]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "prp_oilcloth_b"],
+            "m_Rotate": [14, [0.0108564, -89.6511306, 0.0108345]],
+            "m_Scale": [14, [1.1214554, 1.1214554, 1.1214555]],
+            "m_Translate": [14, [4.6577463, 0.8056008, -10.7675933]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "prp_bus_seat_a"],
+            "m_Rotate": [14, [-0.0000067, 33.3481864, 0.0000426]],
+            "m_Scale": [14, [0.9995148, 0.9995151, 0.9995151]],
+            "m_Translate": [14, [5.2400903, 0.1134933, -10.0922622]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "prp_bus_seat_a"],
+            "m_Rotate": [14, [-179.9999847, 19.1336231, 179.9999389]],
+            "m_Translate": [14, [5.4408993, -0.0106627, -7.7308959]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "lgt_lab_lamp_uvl_noshadow"],
+            "m_Rotate": [14, [179.9983673, -89.1069335, 179.9983673]],
+            "m_Scale": [14, [1.0000003, 1.0000003, 1.0000007]],
+            "m_Translate": [14, [6.0498237, 6.1704339, -11.1588497]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "lgt_lab_lamp_uvl_noshadow"],
+            "m_Rotate": [14, [-9.374033993481135e-7, 1.6318042, 0.0000304]],
+            "m_Translate": [14, [-0.7277095, 6.2911491, -12.9387178]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "lgt_lab_lamp_uvl_noshadow"],
+            "m_Rotate": [14, [0.0000027, -5.487699, 0.0000306]],
+            "m_Translate": [14, [-1.9529657, 3.3052525, -8.1046295]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "lgt_uvl_ceiling_uv_lamp_a_noshadow_a"],
+            "m_Rotate": [14, [-179.9999694, 53.2302436, 179.9999542]],
+            "m_Translate": [14, [-1.6320927, 7.6436481, -8.9225025]]
+          },
+          "Fields": {
+            "UVLight": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

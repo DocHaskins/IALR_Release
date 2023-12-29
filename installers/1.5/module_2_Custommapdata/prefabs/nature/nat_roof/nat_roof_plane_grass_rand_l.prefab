@@ -1,0 +1,89 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SELECTOR",
+            "Init": "f:EDIT;e:EDIT;m:-1;x:200;a:_IS_SELECTOR_;",
+            "DestinationFields": [
+              {
+                "Uuid": "2",
+                "Name": "SelectName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "visible"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "nat_roof_plane_grass_l_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_roof"]
+          },
+          "Fields": {
+            "SkinName": "grass_roof"
+          }
+        },
+        {
+          "Class": "CoRandomizer",
+          "PrefabFieldsNative": {
+            "m_ControlledPrefabIds": [44, 1, 3, 4],
+            "m_PcId": [6, 2]
+          },
+          "Presets": []
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "visible"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "empty"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.014425, 0.1548088, 0.2022549, 1.0582617, 0.8758689, 0.53421]],
+            "m_Name": [12, "empty"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "empty"],
+            "m_RandomizationWeight": [6, 0]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "reg01_market_church_exterior_tower_top_deco"],
+            "m_Translate": [14, [15.1633949, 2.384185791015625e-7, 3.0654423]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [179.911148, -89.972023, 179.9111938]],
+            "m_Scale": [14, [1.0, 1.0, 1.0000014]],
+            "m_Translate": [14, [18.682621, 0.0145798, 3.1772589]]
+          },
+          "Fields": {
+            "SELECTOR": "visible",
+            "SkinName": "grass_roof"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "ProductionState": {
+        "User": "2"
+      },
+      "DataVersion": "2"
+    }
+  }
+}

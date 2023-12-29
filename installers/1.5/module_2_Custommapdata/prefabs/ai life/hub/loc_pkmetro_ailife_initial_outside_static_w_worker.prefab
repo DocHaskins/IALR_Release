@@ -1,0 +1,138 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_static_w_stand_shopping_01_client_01"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-0.0, 68.0000381, -0.0]],
+            "m_Translate": [14, [8.6162109, 0.0117073, 2.9658203]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_shopping_01_client_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_stand_throwing_apple_01"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [0.000011, 59.9999504, -0.0000532]],
+            "m_Translate": [14, [-17.2869873, -0.0537757, -8.3640747]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_stand_throwing_apple_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_stand_throwing_apple_01"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-179.9999847, 7.5000557, -179.9999694]],
+            "m_Translate": [14, [-35.4102783, 0.0398674, -14.5145874]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_stand_throwing_apple_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_standing_cleaning_table_01"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [0.0000228, 13.4999465, -0.0000569]],
+            "m_Translate": [14, [-1.3776855, -0.0114364, 9.9633178]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_standing_cleaning_table_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_stand_throwing_apple_01"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999542, 33.0000457, -179.9999694]],
+            "m_Translate": [14, [-20.3343505, -0.0164145, -5.6075439]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_stand_throwing_apple_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_stand_right_leg_on_chair_01"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-179.9999847, -49.9999847, -179.9999847]],
+            "m_Translate": [14, [-8.3383789, 0.017456, -9.7567138]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_stand_right_leg_on_chair_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_stand_leaning_left_arm_on_wall_idle_01"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9998474, -66.4999771, 179.9998626]],
+            "m_Translate": [14, [-2.9448242, -0.0222702, -2.2902832]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_stand_leaning_left_arm_on_wall_idle_01",
+            "m_MaxExecutionTime": "20.000000",
+            "m_MinDistToActiveScenario": "0.500000",
+            "m_MinExecutionTime": "2.000000",
+            "m_ScenarioScr": "HubWorkerScenarioWoman"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

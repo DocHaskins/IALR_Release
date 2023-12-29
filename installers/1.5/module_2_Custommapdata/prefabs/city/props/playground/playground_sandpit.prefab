@@ -1,0 +1,94 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Playground_Sandpit_01;Loot Type;PlaygroundSandPit"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "decal_flat_side_e"],
+            "m_PresetNames": [12, "Decal_flat_skin;Road_mud_puddle_b"],
+            "m_Rotate": [14, [-0.0, -0.0000019, -0.0]],
+            "m_Scale": [14, [1.3803999, 1.3803999, 1.3803999]],
+            "m_Translate": [14, [0.8584594, -0.0146735, 0.2956236]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "decal_flat_side_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Mud_e"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [1.1399997, 1.1399997, 1.1399997]],
+            "m_Translate": [14, [0.232727, -0.0063458, 0.9020079]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "decal_flat_round"],
+            "m_PresetNames": [12, "Decal_flat_skin;Mud_e"],
+            "m_Rotate": [14, [-0.0, -0.0000017, -0.0]],
+            "m_Scale": [14, [1.1699999, 1.1699999, 1.1699999]],
+            "m_Translate": [14, [-0.0068969, 0.1671638, -0.0196532]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "nat_roof_small_grass_g_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_ground"],
+            "m_Rotate": [14, [-0.0, -0.0000019, -0.0]],
+            "m_Translate": [14, [1.2353514, -0.0055484, -0.497467]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "nat_roof_small_grass_g_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_ground"],
+            "m_Rotate": [14, [-180.0, -85.0000152, -180.0]],
+            "m_Translate": [14, [0.5907287, -0.0055484, -1.2608032]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "nat_roof_small_grass_c_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_ground"],
+            "m_Rotate": [14, [-0.0, -0.0000019, -0.0]],
+            "m_Translate": [14, [1.0369261, 0.0063737, -1.1951292]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "nat_roof_small_grass_g_a"],
+            "m_PresetNames": [12, "Grass_color;Grass_ground"],
+            "m_Rotate": [14, [179.9999847, -85.0000534, 179.9999847]],
+            "m_Scale": [14, [0.7194244, 0.7194244, 0.7194244]],
+            "m_Translate": [14, [-0.4908752, -0.0055484, -1.2715454]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

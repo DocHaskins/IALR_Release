@@ -1,0 +1,127 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "S",
+            "m_PcId": "147",
+            "m_PrefabName": "sanctuary",
+            "m_Rotate": "0.000000 60.000000 -0.000000",
+            "m_Scale": "10.622498 10.622496 10.622498",
+            "m_Translate": "-6.914917 3.979601 3.849548"
+          },
+          "Fields": {
+            "m_AreaHeight": "0.768582",
+            "m_AreaPoints": "2.614212 -0.488285 2.736881;0.811279 -0.492395 3.800968;-1.840225 -0.499994 -0.444889;0.093628 -0.499993 -1.473312;",
+            "cbs::IEnable::m_State": "0",
+            "m_AreaEntity": "/~157",
+            "m_EnableEnterNotifying": "0",
+            "m_IsSpawnBlocker": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "CB",
+            "m_PcId": "148",
+            "m_PrefabName": "crafting_bench_a",
+            "m_Rotate": "0.000000 90.000000 0.000019",
+            "m_Translate": "2.557617 -1.149924 1.720642"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "-0.068709 0.072808 0.008168 1.037285 0.087250 0.345690",
+            "m_Name": "RP",
+            "m_PcId": "149",
+            "m_PrefabName": "restingplace",
+            "m_Rotate": "-180.000000 0.000004 -180.000000",
+            "m_Translate": "1.069702 -1.149928 -0.481262"
+          },
+          "Fields": {
+            "ITriggerable::m_VertForwardDeviation": "1.000000",
+            "MeshName": "sleeping_bag_a.msh",
+            "cbs::IEnable::m_State": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PcId": "153",
+            "m_PrefabName": "subway_halogen_lamp_uv_a",
+            "m_Rotate": "0.000164 -75.000000 0.000159",
+            "m_Translate": "-5.375854 0.022430 -8.069214"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000000 0.000000 0.000000 1.000000 1.000000 1.000000",
+            "m_Name": "L1",
+            "m_PcId": "154",
+            "m_PrefabName": "light",
+            "m_PresetNames": "Light;Omni",
+            "m_Rotate": "0.000000 90.000000 -0.000000",
+            "m_Scale": "1.438538 1.438538 1.438538",
+            "m_Translate": "-9.080688 2.192554 -4.127686"
+          },
+          "Fields": {
+            "Color": "0.000000 0.000000 1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000000 0.000000 0.000000 1.000000 1.000000 1.000000",
+            "m_Name": "L2",
+            "m_PcId": "155",
+            "m_PrefabName": "light",
+            "m_PresetNames": "Light;Omni",
+            "m_Rotate": "0.000000 90.000000 -0.000000",
+            "m_Scale": "1.438538 1.438538 1.438538",
+            "m_Translate": "-9.054199 2.227089 -4.734589"
+          },
+          "Fields": {
+            "Color": "0.000000 0.000000 1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_AlwaysSpawned": "1",
+            "m_EntityComponentsExtents": "-0.000257 1.451283 0.218990 0.067994 1.495648 0.262777",
+            "m_MoveToDynamicRoot": "1",
+            "m_Name": "Respawn",
+            "m_PcId": "156",
+            "m_PrefabName": "spawnpoint",
+            "m_Rotate": "0.000112 76.037498 -0.000143",
+            "m_Scale": "1.000001 1.000000 1.000001",
+            "m_Translate": "-0.390564 -1.149931 4.116333"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_Respawn": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.000000 0.500000 0.000000 0.500000 0.500000 0.500000",
+            "m_Name": "sanctuary_area",
+            "m_PcId": "157",
+            "m_PrefabName": "area_marker",
+            "m_Rotate": "0.000010 31.178665 -0.000013",
+            "m_Scale": "1.000002 1.000000 1.000002",
+            "m_Translate": "0.924805 -1.257406 4.652008"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1"
+    }
+  }
+}

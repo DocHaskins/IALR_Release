@@ -1,0 +1,82 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Interface": {
+        "VirtualFields": [
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|CALLBACK;c:MESH;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0682225, 0.3956488, -0.09132, 3.7888786, 0.4185989, 1.2288206]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_roof_plane_grass_a"]
+          },
+          "Fields": {
+            "RenderFlags": "49",
+            "m_CollisionFlags": "64",
+            "m_NavmeshFlags": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0000309, 3.8599848, 0.4999999, 0.9800109]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "overlay_mask_helper"],
+            "m_Translate": [14, [0.0004875, 0.0004997, -0.1980589]]
+          },
+          "Fields": {
+            "m_AreaPoints": "3.859985 -0.500000 -0.979980;3.859985 -0.500000 0.980042;-3.859985 -0.500000 0.980042;-3.859985 -0.500000 -0.979980;",
+            "m_Value": "40"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Nodes": [
+        {
+          "Uuid": "1",
+          "Type": "1",
+          "X": "0.00",
+          "Y": "0.00"
+        },
+        {
+          "Uuid": "2",
+          "Type": "4",
+          "X": "25.00",
+          "Y": "20.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "3",
+          "Type": "4",
+          "X": "50.00",
+          "Y": "40.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "4",
+          "Type": "4",
+          "X": "-390.00",
+          "Y": "330.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}

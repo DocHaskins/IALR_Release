@@ -1,0 +1,775 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "PrefabInterfaces": [
+        "cbs::IEnable",
+        "ITriggerable",
+        "IGatherPlace",
+        "cbs::IDamageReceiver",
+        "ISyncActionActor"
+      ],
+      "Interface": {
+        "Properties": [
+          {
+            "Type": "PropertyOut",
+            "RTTIType": "RTTI_TYPE_BOOL",
+            "Name": "cbs::IEnable::m_CanBeBatched",
+            "Value": "0",
+            "Init": "e:EDIT;f:EDIT;"
+          },
+          {
+            "Type": "PropertyOut",
+            "RTTIType": "RTTI_TYPE_OBJPTR",
+            "Name": "IGatherPlace::m_GatherPlace",
+            "Value": "",
+            "Init": "e:ADVANCED;"
+          }
+        ],
+        "Pipes": [
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IEnable::m_Enable"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IEnable::m_Disable"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IDamageReceiver::m_PipeTakeDamage"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "ISyncActionActor::m_PipeStartSyncAction"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "ISyncActionActor::m_PipeInOnSyncActionStarted"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "ISyncActionActor::m_PipeInTransferOwnership"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "ISyncActionActor::m_PipeInGetISyncActionHelper"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "ISyncActionActor::m_PipeSyncActionDebug"
+          }
+        ],
+        "VirtualFields": [
+          {
+            "Name": "m_RelevanceRange",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;d:Range in which object is active and present;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_RelevanceRange"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IEnable::m_State",
+            "Init": "e:EDIT;f:EDIT|QUEST;l:Enabled;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_EnableState"
+              }
+            ]
+          },
+          {
+            "Name": "m_UsingDistance",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_UsingDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_UsingAngle",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;m:0.0;x:180.0;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_UsingAngle"
+              }
+            ]
+          },
+          {
+            "Name": "m_UsingDir",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;m:-180.0;x:180.0;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_UsingDir"
+              }
+            ]
+          },
+          {
+            "Name": "m_AutoExecuteDistance",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;d:Defines trigger distance to perform auto execution (if trigger provides one);",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_AutoExecuteDistance"
+              }
+            ]
+          },
+          {
+            "Name": "m_MultiplayerTrigger",
+            "Init": "f:EDIT;e:CHECKBOX;c:TRIGGER;d:Define wheteher the trigger should be considered as common progress trigger (so that progress is not reseted when we stop pressing trigger);",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_MultiplayerTrigger"
+              }
+            ]
+          },
+          {
+            "Name": "m_Underwater",
+            "Init": "f:EDIT;e:CHECKBOX;c:TRIGGER;d:If true player's position won't be validated;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_Underwater"
+              }
+            ]
+          },
+          {
+            "Name": "m_GatherPlayersRadius",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;d:If positive, all players must gather in specified radius from trigger object before it can be used;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_GatherPlayersRadius"
+              }
+            ]
+          },
+          {
+            "Name": "m_TriggerExecuteSound",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;d:Defines special sound that should play on execution;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_TriggerExecuteSound"
+              }
+            ]
+          },
+          {
+            "Name": "m_Static",
+            "Init": "f:EDIT;e:CHECKBOX;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_Static"
+              }
+            ]
+          },
+          {
+            "Name": "m_ObjectName",
+            "Init": "f:EDIT;e:EDIT;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_ObjectName"
+              }
+            ]
+          },
+          {
+            "Name": "m_StaminaCost",
+            "Init": "e:EDIT;f:EDIT;c:TRIGGER;l:Stamina Cost;n:m_StaminaCost;d:[!NINJA DESIGN] Stamina cost for 'hold-triggers'. Player needs given amout of stamina to execute the trigger. Base stamina level is 1.0;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_StaminaCost"
+              }
+            ]
+          },
+          {
+            "Name": "m_ForceHideIcon",
+            "Init": "f:EDIT;e:CHECKBOX|ADVANCED;c:TRIGGER;d:Setting true will block hud activation and the icon will be invisible;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_ForceHideIcon"
+              }
+            ]
+          },
+          {
+            "Name": "m_ContentBlocker",
+            "Init": "f:EDIT;e:BROWSE_OBJECT|CONTEXT|ADVANCED;c:TRIGGER;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_ContentBlocker"
+              }
+            ]
+          },
+          {
+            "Name": "m_CustomIconElementName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED;c:TRIGGER;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_CustomIconElementName"
+              }
+            ]
+          },
+          {
+            "Name": "m_ForwardingTriggerLogic",
+            "Init": "f:EDIT;e:CHECKBOX|ADVANCED;c:TRIGGER;d:Enable trigger logic chains.;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_ForwardingTriggerLogic"
+              }
+            ]
+          },
+          {
+            "Name": "m_CustomAnimName",
+            "Init": "f:EDIT;e:ADVANCED;c:TRIGGER;d:use it for custom anims;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_CustomAnimName"
+              }
+            ]
+          },
+          {
+            "Name": "m_UsePickupMechanism",
+            "Init": "f:EDIT;e:CHECKBOX|ADVANCED;c:TRIGGER;d: This will attach trigger to left holder;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_UsePickupMechanism"
+              }
+            ]
+          },
+          {
+            "Name": "SkinName",
+            "Init": "f:EDIT;e:EDIT|ADVANCED|OVERRIDE|BROWSE_SKIN|CALLBACK;c:MESH;l:Mesh skin;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "SkinName"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_Range",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;l:Range;d:Range from which Player starts to see a trigger icon. -1 denotes default range. Any range bigger than trigger search radius will be clamped.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_Range"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_SaveHoldProgress",
+            "Init": "e:EDIT|CHECKBOX|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_SaveHoldProgress;l:Save Hold Progress;d:Hold Progress will be saved after Player stops to hold trigger. This parameter is ignored in Interactive Triggers.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_SaveHoldProgress"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_HoldTime",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_HoldTime;l:Hold Time;n:m_UsingInterval;d:Defines the time that player needs to hold execute on trigger in order to activate it. 0 indicates it's not a hold trigger.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_HoldTime"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_NoLookToUse",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_NoLookToUse;l:No Look to Use;d:Player can't look to use the trigger.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_NoLookToUse"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_NoWalkToUse",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_NoWalkToUse;l:No Walk to Use;n:m_ForceNoWalkToUse;d:It true, Player won't make a step to trigger to use it.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_NoWalkToUse"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_CanDuck",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_CanDuck;l:Can Duck to Use;d:Player can duck to use the trigger.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_CanDuck"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_HorzUseAngle",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_HorzUseAngle;l:Trigger Use Angle (horizontal);d:Trigger use angle on horizontal plane [in degrees [0-360], relative to trigger forward vector];",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_TriggerUseAngleHorz"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_VertUseAngle",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_VertUseAngle;l:Trigger Use Angle (vertical);d:Trigger use angle on vertical plane [in degrees [0-360], relative to trigger forward vector];",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_TriggerUseAngleVert"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_HorzForwardDeviation",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_HorzForwardDeviation;l:Forward Deviation (horizontal);d:Deviates the trigger forward vector from Z-axis horizontally [applied before vertical deviation];",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_HorzForwardDeviation"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_VertForwardDeviation",
+            "Init": "e:EDIT|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_VertForwardDeviation;l:Forward Deviation (vertical);d:Deviates the trigger forward vector from Z-axis vertically [horizontal deviation applied first];",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_VertForwardDeviation"
+              }
+            ]
+          },
+          {
+            "Name": "IGatherPlace::m_GatherPlaceActive",
+            "Init": "f:EDIT|QUEST|SIMPLE;e:CHECKBOX;l:m_GatherPlaceActive;",
+            "DestinationFields": [
+              {
+                "Uuid": "17",
+                "Name": "m_SelfActive"
+              }
+            ]
+          },
+          {
+            "Name": "ITriggerable::m_BlockInCombat",
+            "Init": "e:EDIT|CHECKBOX|ADVANCED|OVERRIDE;f:EDIT;c:TRIGGER;n:m_BlockInCombat;l:Block in combat;d:Block in combat - quest related stuff.;",
+            "DestinationFields": [
+              {
+                "Uuid": "7",
+                "Name": "m_BlockInCombat"
+              }
+            ]
+          },
+          {
+            "Name": "m_GatherAreaEntity",
+            "Init": "e:EDIT|BROWSE_OBJECT;f:EDIT;",
+            "DestinationFields": [
+              {
+                "Uuid": "17",
+                "Name": "m_GatherAreaEntity"
+              }
+            ]
+          },
+          {
+            "Name": "m_IgnoreFrozenTime",
+            "Init": "e:EDIT;f:EDIT;d:By default Resting places are blocked when time is frozen by story.;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "m_IgnoreFrozenTime"
+              }
+            ]
+          },
+          {
+            "Name": "MeshName",
+            "Init": "f:EDIT|SIMPLE;e:BROWSE_MESH;c:MESH;l:Mesh file;",
+            "DestinationFields": [
+              {
+                "Uuid": "1",
+                "Name": "MeshName"
+              },
+              {
+                "Uuid": "26",
+                "Name": "m_MeshName"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [
+          {
+            "src_uuid": "5",
+            "src": "this",
+            "dest_uuid": "1",
+            "dest": "m_PhysicsComponent"
+          },
+          {
+            "src_uuid": "1",
+            "src": "m_This",
+            "dest_uuid": "7",
+            "dest": "m_Extents"
+          },
+          {
+            "src_uuid": "17",
+            "src": "this",
+            "dest_uuid": "0",
+            "dest": "IGatherPlace::m_GatherPlace"
+          }
+        ],
+        "Pipes": [
+          {
+            "src_uuid": "0",
+            "src": "cbs::IDamageReceiver::m_PipeTakeDamage",
+            "dest_uuid": "4",
+            "dest": "m_PipeTakeDamage"
+          },
+          {
+            "src_uuid": "4",
+            "src": "m_PipeOnTakeDamage",
+            "dest_uuid": "1",
+            "dest": "m_PipeTakeDamage"
+          },
+          {
+            "src_uuid": "5",
+            "src": "m_PipePhysicsStep",
+            "dest_uuid": "1",
+            "dest": "m_PipePhysicsStep"
+          },
+          {
+            "src_uuid": "5",
+            "src": "m_PipeCollision",
+            "dest_uuid": "1",
+            "dest": "m_PipeCollision"
+          },
+          {
+            "src_uuid": "5",
+            "src": "m_PipePhysicsEvent",
+            "dest_uuid": "1",
+            "dest": "m_PipePhysicsEvent"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IDamageReceiver::m_PipeTakeDamage",
+            "dest_uuid": "6",
+            "dest": "m_PipeDamage"
+          },
+          {
+            "src_uuid": "6",
+            "src": "m_PipePhysicsImpulse",
+            "dest_uuid": "5",
+            "dest": "m_PipePhysicsImpulse"
+          },
+          {
+            "src_uuid": "2",
+            "src": "m_PipeOnXformChanged",
+            "dest_uuid": "1",
+            "dest": "m_PipeXformChanged"
+          },
+          {
+            "src_uuid": "1",
+            "src": "m_PipeOnXformChanged",
+            "dest_uuid": "2",
+            "dest": "m_PipeXformChanged"
+          },
+          {
+            "src_uuid": "7",
+            "src": "m_PipeTriggerLogic",
+            "dest_uuid": "1",
+            "dest": "m_PipeTriggerLogicIn"
+          },
+          {
+            "src_uuid": "0",
+            "src": "ISyncActionActor::m_PipeStartSyncAction",
+            "dest_uuid": "21",
+            "dest": "m_PipeStartActionGroup"
+          },
+          {
+            "src_uuid": "0",
+            "src": "ISyncActionActor::m_PipeInTransferOwnership",
+            "dest_uuid": "21",
+            "dest": "m_PipeTransferOwnership"
+          },
+          {
+            "src_uuid": "0",
+            "src": "ISyncActionActor::m_PipeInOnSyncActionStarted",
+            "dest_uuid": "22",
+            "dest": "m_PipeInOnSyncActionStarted"
+          },
+          {
+            "src_uuid": "0",
+            "src": "ISyncActionActor::m_PipeInGetISyncActionHelper",
+            "dest_uuid": "22",
+            "dest": "m_PipeInGetISyncActionHelper"
+          },
+          {
+            "src_uuid": "0",
+            "src": "ISyncActionActor::m_PipeSyncActionDebug",
+            "dest_uuid": "22",
+            "dest": "m_PipeSyncActionDebug"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "RestingPlace",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1]
+          },
+          "Fields": {
+            "MeshName": "player_sleeping_bag_b.msh",
+            "m_FadeInTime": "5.000000",
+            "m_FadeOutTime": "3.000000",
+            "m_SleepFinishSyncActionName": "RestingPlaceSleepFinish",
+            "m_SleepStartSyncActionName": "RestingPlaceSleepStart"
+          }
+        },
+        {
+          "Class": "CoHierarchySync",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_RootXform": [11, true]
+          }
+        },
+        {
+          "Class": "CoDamageReceiver",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4]
+          }
+        },
+        {
+          "Class": "CoPhysics",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5]
+          }
+        },
+        {
+          "Class": "CoDamageToPhysicsImpulse",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6]
+          }
+        },
+        {
+          "Class": "CoTriggerable",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7]
+          },
+          "Fields": {
+            "m_SelfActive": "1"
+          }
+        },
+        {
+          "Class": "CoProxyRelevance",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8]
+          }
+        },
+        {
+          "Class": "CoLocation",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9]
+          },
+          "Fields": {
+            "m_LogicPreset": "Locations::Logic::QuestEnableLocationLogic,();"
+          },
+          "EmbeddedObject": {
+            "Class": "Locations::Logic::QuestEnableLocationLogic",
+            "DestinationField": "m_LogicPreset",
+            "Fields": {
+              "m_AreaMode": "None",
+              "m_LocCategory": "Neutral",
+              "m_LocType": "RestingPlace",
+              "m_MapDescription": ""
+            }
+          }
+        },
+		{
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-4.470348358154297e-8, 1.5195728, 0.2309059, 0.0690793, 1.5195728, 0.2707889]],
+            "m_Name": [12, "small_safezone_loc_active"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "location"]
+          },
+          "Fields": {
+            "m_LogicPreset": "Locations::Logic::SafeZoneGroupingLogic,();",
+            "m_RegisterOnStart": "1",
+            "m_SelfActive": "0"
+          },
+          "EmbeddedObject": {
+            "Class": "Locations::Logic::SafeZoneGroupingLogic",
+            "DestinationField": "m_LogicPreset",
+            "Fields": {
+              "m_ActivityName": "",
+              "m_AreaMode": "None",
+              "m_LocCategory": "Neutral",
+              "m_LocType": "SmallSafeZone_Active",
+              "m_MapDescription": "",
+              "m_Radius": "10.000000"
+            }
+          }
+        },
+        {
+          "Class": "CoReplicator",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13]
+          }
+        },
+        {
+          "Class": "CoGatherPlace",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17]
+          }
+        },
+        {
+          "Class": "CoSyncAction",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21]
+          }
+        },
+        {
+          "Class": "CoSyncActionTrigger",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22]
+          }
+        },
+        {
+          "Class": "CoMeshLogic",
+          "PrefabFieldsNative": {
+            "m_IsEditorOnly": [11, true],
+            "m_PcId": [6, 26],
+            "m_XformComponent": [6, 2]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2",
+      "Generated": "1",
+      "NotEditable": "1",
+      "AllowsNonUniformScaling": "1",
+      "Nodes": [
+        {
+          "Uuid": "1",
+          "Type": "0",
+          "X": "0.00",
+          "Y": "0.00"
+        },
+        {
+          "Uuid": "2",
+          "Type": "2",
+          "X": "-285.00",
+          "Y": "-345.00"
+        },
+        {
+          "Uuid": "4",
+          "Type": "0",
+          "X": "930.00",
+          "Y": "-225.00"
+        },
+        {
+          "Uuid": "5",
+          "Type": "0",
+          "X": "990.00",
+          "Y": "225.00"
+        },
+        {
+          "Uuid": "6",
+          "Type": "0",
+          "X": "645.00",
+          "Y": "405.00"
+        },
+        {
+          "Uuid": "7",
+          "Type": "0",
+          "X": "495.00",
+          "Y": "900.00"
+        },
+        {
+          "Uuid": "8",
+          "Type": "0",
+          "X": "615.00",
+          "Y": "-285.00"
+        },
+        {
+          "Uuid": "9",
+          "Type": "0",
+          "X": "690.00",
+          "Y": "60.00"
+        },
+        {
+          "Uuid": "13",
+          "Type": "0",
+          "X": "1005.00",
+          "Y": "855.00"
+        },
+        {
+          "Uuid": "17",
+          "Type": "0",
+          "X": "-1230.00",
+          "Y": "345.00"
+        },
+        {
+          "Uuid": "21",
+          "Type": "0",
+          "X": "-705.00",
+          "Y": "-165.00"
+        },
+        {
+          "Uuid": "22",
+          "Type": "0",
+          "X": "-705.00",
+          "Y": "15.00"
+        },
+        {
+          "Uuid": "10",
+          "Type": "4",
+          "X": "-1035.00",
+          "Y": "-165.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "11",
+          "Type": "4",
+          "X": "-945.00",
+          "Y": "345.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "12",
+          "Type": "4",
+          "X": "-690.00",
+          "Y": "390.00",
+          "Interface_Type": "2"
+        },
+        {
+          "Uuid": "26",
+          "Type": "2",
+          "X": "240.00",
+          "Y": "-555.00"
+        }
+      ]
+    }
+  }
+}

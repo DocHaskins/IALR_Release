@@ -1,0 +1,20 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_EntityComponentsExtents": "0.079561 0.021175 -0.221011 0.434785 0.023859 0.222011",
+            "m_PcId": "1",
+            "m_PrefabName": "container",
+            "m_PresetNames": "Type;TrashGroup_Bathroom_03;Loot Type;TrashBathroom"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

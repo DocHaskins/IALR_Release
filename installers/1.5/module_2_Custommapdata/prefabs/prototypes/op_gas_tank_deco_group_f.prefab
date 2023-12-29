@@ -1,0 +1,108 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "op_tank_explosive"],
+            "m_Rotate": [14, [179.9998626, -69.0000152, 179.9998931]],
+            "m_Translate": [14, [0.2143402, -0.0063555, 0.1926116]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "traffic_cone_a"],
+            "m_Rotate": [14, [-0.0, 17.0, -0.0]],
+            "m_Translate": [14, [1.5881346, -0.017291, -0.3476409]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "traffic_cone_a"],
+            "m_Rotate": [14, [-0.0, -14.0, -0.0]],
+            "m_Translate": [14, [-1.0031125, 0.0020508, -0.3255538]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "prp_workshop_toolbox_a.msh"],
+            "m_Rotate": [14, [179.9999847, -9.0000305, 179.9999847]],
+            "m_Translate": [14, [0.019226, 0.7900679, -0.2836608]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "trash_compressor_a"],
+            "m_Rotate": [14, [-0.0000076, -77.9999771, 8.836429969960591e-7]],
+            "m_Translate": [14, [0.8741149, -0.003774, -0.247406]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "welder_a"],
+            "m_Rotate": [14, [-0.0, 1.0000077, -0.0]],
+            "m_Translate": [14, [0.0377806, -0.003065, -0.2854843]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "cable_roller_a"],
+            "m_Rotate": [14, [179.9999847, -57.0000152, 179.9999847]],
+            "m_Translate": [14, [1.2938537, 0.0000356, -0.0102844]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.2359619, 5.0, -0.351469, 1.6956789, 5.0, 1.4326419]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_PresetNames": [12, "TinyObjectDensity;Off"],
+            "m_Rotate": [14, [-0.0, 30.0, -0.0]],
+            "m_Translate": [14, [0.3017578, -0.5067089, 0.2021483]]
+          },
+          "Fields": {
+            "m_AreaPoints": "1.931641 0.000000 0.074940;1.395142 0.000000 1.081173;0.072876 0.000000 0.675179;-1.459717 0.000000 -0.990932;-0.288818 0.000000 -1.784111;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Fuel_Can;Loot Type;Gasoline"],
+            "m_Rotate": [14, [-179.9999847, 75.0000076, 179.9999542]],
+            "m_Translate": [14, [0.8721313, -2.384185791015625e-7, 0.1266937]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "prp_workshop_toolbox_a.msh"],
+            "m_Rotate": [14, [0.0002622, -85.9999771, 0.0002756]],
+            "m_Translate": [14, [-0.5011901, 0.0099734, -0.3204345]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

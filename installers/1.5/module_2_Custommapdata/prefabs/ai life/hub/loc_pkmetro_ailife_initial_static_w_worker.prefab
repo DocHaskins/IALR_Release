@@ -1,0 +1,67 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_static_w_stand_list_checking_01"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [179.9999847, 21.0000934, 179.9999847]],
+            "m_Translate": [14, [3.2592773, 0.501667, -16.3905639]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_list_checking_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Spawn;Peace_Keeper_Worker_Woman_1"],
+            "m_Translate": [14, [3.5734863, 0.5006141, -16.4396972]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~2;/~8;/~9;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_citizen_w_standing_checking_plans_01"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [179.9999389, -58.9999122, 179.9999694]],
+            "m_Translate": [14, [2.1690673, 0.501667, -15.6777954]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_citizen_w_standing_checking_plans_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "single_static_w_stand_checking_inventory_03"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [179.9999542, 41.0000762, -179.9999542]],
+            "m_Translate": [14, [0.7445068, 0.501667, -15.3510131]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_checking_inventory_03"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

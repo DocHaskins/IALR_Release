@@ -1,0 +1,91 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "External Dialogue Background"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_static_external"],
+            "m_Rotate": [14, [-0.0, 0.0000032, -0.0]],
+            "m_Translate": [14, [8.5408935, 0.0566596, 3.3773803]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Background single"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_static_external_background"],
+            "m_Rotate": [14, [-0.0, -0.0000032, -0.0]],
+            "m_Translate": [14, [31.6557617, -0.0753784, 15.5203857]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Guards_on_wall"],
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_sa_guards_walls"],
+            "m_Rotate": [14, [-0.0, -0.0000064, -0.0]],
+            "m_Translate": [14, [12.1231689, 10.3697433, 3.7716064]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Guard"],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_dynamic_m_guard"],
+            "m_Rotate": [14, [-0.0, 0.0000032, -0.0]],
+            "m_Translate": [14, [19.0473632, 0.018215, 8.6634521]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "bld_pa_a_pillar_1h_c"],
+            "m_Rotate": [14, [-75.2480926, -1.5837631, 35.9147949]],
+            "m_Translate": [14, [32.2159423, -0.0348508, 15.4884643]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Walkers_M"],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_static_walker_m"],
+            "m_Rotate": [14, [0.0000256, -28.4999504, -0.0000091]],
+            "m_Translate": [14, [-5.9831542, 0.0625381, -1.2850952]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Walkers_W"],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_static_walker_w"],
+            "m_Rotate": [14, [179.9999542, 37.0000381, -179.9999694]],
+            "m_Translate": [14, [31.6114501, -0.0221976, 10.1718139]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Surv"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_outside_static_external_background_survivor"],
+            "m_Rotate": [14, [-0.0, -0.0000068, -0.0]],
+            "m_Translate": [14, [-2.6848144, 2.352848, 7.8078613]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

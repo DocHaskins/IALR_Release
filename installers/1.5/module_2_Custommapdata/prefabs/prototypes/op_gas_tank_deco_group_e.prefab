@@ -1,0 +1,126 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "urb_barrier_steel_fence_b"],
+            "m_Translate": [14, [0.2932738, 0.0020512, -0.5962827]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "op_tank_explosive"],
+            "m_Rotate": [14, [-179.9999694, 68.9999923, -179.9999847]],
+            "m_Translate": [14, [0.5045166, -0.0063562, 0.4048767]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "traffic_cone_a"],
+            "m_Rotate": [14, [-0.0000082, 2.999999, -0.0000052]],
+            "m_Translate": [14, [1.8201293, -0.017291, -0.3421936]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "traffic_cone_a"],
+            "m_Rotate": [14, [0.0000166, 11.0000009, 0.0000038]],
+            "m_Translate": [14, [-1.1749877, 0.0020503, -0.3800964]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "prp_workshop_toolbox_a.msh"],
+            "m_Rotate": [14, [179.9999847, 5.9999704, 179.9999847]],
+            "m_Translate": [14, [1.0701293, -9.5367431640625e-7, 0.1580505]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "trash_compressor_a"],
+            "m_Rotate": [14, [179.9999694, -0.0000341, -179.9999694]],
+            "m_Translate": [14, [-0.3487548, -0.0037736, 0.0091247]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "welder_a"],
+            "m_Rotate": [14, [-179.9999694, 0.9999887, -179.9999237]],
+            "m_Translate": [14, [1.0830078, -0.0030655, -0.1499328]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "cable_roller_a"],
+            "m_Rotate": [14, [179.9999847, -57.0000114, 179.9999847]],
+            "m_Translate": [14, [0.0451049, 0.0000362, 0.2631835]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "prp_plastic_can_b"],
+            "m_Rotate": [14, [90.0000152, -0.0000422, -79.0000228]],
+            "m_Translate": [14, [0.0916137, 1.1146302, -0.2698669]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.2359619, 5.0, -0.351469, 1.6956789, 5.0, 1.4326419]],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_PresetNames": [12, "TinyObjectDensity;Off"],
+            "m_Rotate": [14, [-0.0, 30.0, -0.0]],
+            "m_Translate": [14, [0.3017578, -0.5067089, 0.2021483]]
+          },
+          "Fields": {
+            "m_AreaPoints": "1.931641 0.000000 0.074940;1.395142 0.000000 1.081173;0.072876 0.000000 0.675179;-1.459717 0.000000 -0.990932;-0.288818 0.000000 -1.784111;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "barrel_a"],
+            "m_Rotate": [14, [0.0000305, 28.0000305, -0.0000305]],
+            "m_Scale": [14, [0.8000001, 0.8, 0.8000001]],
+            "m_Translate": [14, [0.2894287, -9.5367431640625e-7, -0.1903076]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;Fuel_Can;Loot Type;Gasoline"],
+            "m_Rotate": [14, [0.0000251, 12.0000257, -0.0000382]],
+            "m_Translate": [14, [-0.7874145, -4.76837158203125e-7, -0.1796569]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

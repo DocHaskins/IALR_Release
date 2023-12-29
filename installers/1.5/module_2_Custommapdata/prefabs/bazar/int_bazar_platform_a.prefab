@@ -1,0 +1,2654 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0306463, 6.8615412, -0.5046596, 7.4830789, 6.9364533, 3.8956842]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_bazar_platform_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9998474, 80.0000534, 179.9998474]],
+            "m_Scale": [14, [1.1400001, 1.1400001, 1.1399997]],
+            "m_Translate": [14, [-2.2911281, 3.7371478, 1.4667663]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 10.0000047, 179.9999847]],
+            "m_Scale": [14, [1.1399997, 1.1399996, 1.1400003]],
+            "m_Translate": [14, [-4.9753799, 3.7371468, 1.6697386]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9999847, 10.0000324, 179.9999847]],
+            "m_Scale": [14, [1.1399991, 1.1399996, 1.1400002]],
+            "m_Translate": [14, [-4.9428501, 3.7371468, -0.1485594]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, -24.999979, 179.9999847]],
+            "m_Scale": [14, [1.1400001, 1.1399996, 1.1399996]],
+            "m_Translate": [14, [1.3767124, 3.7371497, 1.2078552]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 10.0000047, 179.9999847]],
+            "m_Scale": [14, [1.1399997, 1.1399996, 1.1400003]],
+            "m_Translate": [14, [0.1169662, 3.7371487, 0.266815]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 10.0000047, 179.9999847]],
+            "m_Scale": [14, [1.1399997, 1.1399995, 1.1400003]],
+            "m_Translate": [14, [-2.3024635, 3.7371478, -1.2948608]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9999847, 10.0000324, 179.9999847]],
+            "m_Scale": [14, [1.1399991, 1.1399996, 1.1400002]],
+            "m_Translate": [14, [0.7636833, 3.7431106, 0.3537597]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000019, 44.9999847, 0.0000116]],
+            "m_Scale": [14, [1.1400003, 1.1399997, 1.1399991]],
+            "m_Translate": [14, [2.7795333, 3.7371501, 1.4747922]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 35.0000228, 179.9999847]],
+            "m_Scale": [14, [1.1399991, 1.1399995, 1.1400003]],
+            "m_Translate": [14, [5.542469, 3.7371511, 2.0699157]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9994659, -84.9999389, 179.9994659]],
+            "m_Scale": [14, [1.1400003, 1.1399997, 1.1399996]],
+            "m_Translate": [14, [5.6165962, 3.7371511, -0.9594724]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9999847, 25.0000228, 179.9999847]],
+            "m_Scale": [14, [1.1399991, 1.1399997, 1.1400003]],
+            "m_Translate": [14, [3.4964847, 3.7567496, -0.6762083]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000263]],
+            "m_Scale": [14, [1.0999999, 1.0999995, 1.0999993]],
+            "m_Translate": [14, [0.4571056, 3.7520647, -1.4733885]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000266]],
+            "m_Scale": [14, [1.1000001, 1.0999999, 1.0999995]],
+            "m_Translate": [14, [-1.6927204, 3.7520637, -1.4733885]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000266]],
+            "m_Scale": [14, [1.1000001, 1.1, 1.0999995]],
+            "m_Translate": [14, [-2.8600959, 3.7520632, -0.8934019]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-3.9163684, 3.741189, 0.4450072]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_c"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [1.1322344, 3.7420053, 0.6906738]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 25],
+            "m_PrefabName": [12, "barrel_toxic_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [0.8526666, 5.9838342, -0.2103271]]
+          },
+          "Fields": {
+            "SkinName": "blue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "barrel_toxic_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [1.5744419, 5.9838342, -0.1297912]]
+          },
+          "Fields": {
+            "SkinName": "blue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 27],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-3.6646747, 3.737956, -1.1993713]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [3.2663784, 3.747076, -1.1584167]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 32],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000249, -15.0000143, 0.0000304]],
+            "m_Scale": [14, [1.1399996, 1.139999, 1.1400002]],
+            "m_Translate": [14, [-5.3590812, 6.0280494, 0.1013488]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 34],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [0.9353218, 6.021306, -0.9743347]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-4.2059001, 6.032792, -0.7907409]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "urb_pk_barrier_cloth_a_random"],
+            "m_Rotate": [14, [-0.0000042, 0.0000083, 0.0000247]],
+            "m_Scale": [14, [0.5078718, 0.5078721, 0.5078721]],
+            "m_Translate": [14, [3.9885463, 4.163125, 1.203186]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000154, 5.0000085, 0.0000218]],
+            "m_Scale": [14, [1.1399997, 1.1399991, 1.1400002]],
+            "m_Translate": [14, [-2.4965648, 6.0280513, -0.1109312]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000154, 5.0000081, 0.0000218]],
+            "m_Scale": [14, [1.1399997, 1.1399991, 1.1400002]],
+            "m_Translate": [14, [0.1139106, 6.0280523, -0.1109312]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000354, -30.000019, 0.0000403]],
+            "m_Scale": [14, [1.1399996, 1.1399991, 1.1400003]],
+            "m_Translate": [14, [2.814495, 6.015726, 0.0548706]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "bdp_ce_a_chimney_ladder_1x_a1"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000043]],
+            "m_Translate": [14, [6.1379699, 4.1007261, 0.9327086]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "bdp_ce_a_chimney_ladder_1x_a1"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000043]],
+            "m_Translate": [14, [6.1379699, 3.7667803, 0.9327086]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000261]],
+            "m_Scale": [14, [1.0999999, 1.0999995, 1.0999993]],
+            "m_Translate": [14, [1.6466999, 3.7520651, -1.4733885]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000261]],
+            "m_Scale": [14, [1.0999999, 1.0999995, 1.0999993]],
+            "m_Translate": [14, [2.7814807, 3.7520656, -0.995239]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [179.9999694, -5.0000567, 179.9999542]],
+            "m_Scale": [14, [1.0999995, 1.0999995, 1.0999995]],
+            "m_Translate": [14, [4.6782951, 3.7520666, -0.3126831]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "chemical_container_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [6.2055511, 6.022212, -2.4255371]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 1],
+            "m_PcId": [6, 60],
+            "m_PrefabName": [12, "pa_side_roof_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Scale": [14, [0.8403363, 0.8403362, 0.840336]],
+            "m_Translate": [14, [3.4786586, 7.6058502, -0.1070251]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "bld_ce_a_balconyrail_cor_ex_1_3g_15s_a_a"],
+            "m_Rotate": [14, [179.9999847, -10.0000133, 179.9999847]],
+            "m_Translate": [14, [1.1544361, 5.9795484, 1.1942441]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "bld_ce_a_balconyrail_str_1x1a_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000015, 179.9999847]],
+            "m_Translate": [14, [2.526968, 5.9906969, 1.2480771]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "bld_ce_a_balconyrail_cor_ex_1_3g_15s_a_a"],
+            "m_Rotate": [14, [179.9999847, -10.0000133, 179.9999847]],
+            "m_Translate": [14, [4.6673011, 5.9795503, 1.1942441]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "hanging_clothes_b"],
+            "m_Rotate": [14, [-0.0000251, -9.9999704, 0.0000206]],
+            "m_Translate": [14, [-2.5002441, 8.0956335, -0.1365966]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0, -0.0000297, 90.0000076]],
+            "m_Translate": [14, [-6.1050148, 3.9668407, 2.5349426]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 67],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0, -0.0000297, 90.0000152]],
+            "m_Translate": [14, [-6.1458454, 3.9785041, 1.891998]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-89.9998626, 74.9999847, -0.0001359]],
+            "m_Translate": [14, [-6.2952728, 4.5337018, 2.8710327]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 69],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0000534, -45.0000343, -0.0000551]],
+            "m_Translate": [14, [-6.8874034, 4.5452384, 2.8710327]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 70],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [65.0, 0.0000189, 90.0000228]],
+            "m_Translate": [14, [-6.1050148, 5.0701189, 2.5349426]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "prp_bag_plastic_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000015, 179.9999847]],
+            "m_Scale": [14, [1.3699996, 1.3699996, 1.3699996]],
+            "m_Translate": [14, [-6.6567783, 5.8265571, 2.8705749]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 76],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [179.9999847, 0.0000013, 179.9999847]],
+            "m_Scale": [14, [1.5294996, 1.5294996, 1.5295002]],
+            "m_Translate": [14, [-6.1354045, 5.7873001, 2.9187011]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000058, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.7479995, 1.7480001]],
+            "m_Translate": [14, [-2.6706657, 5.7355766, 2.7943115]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "prp_wooden_box_b"],
+            "m_Rotate": [14, [179.9999084, -74.9999847, 179.9999084]],
+            "m_Translate": [14, [-5.4775505, 3.7651629, 0.4925231]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-6.3048381, 3.7537631, 0.3965758]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "prp_plastic_box_a"],
+            "m_Rotate": [14, [0.0000251, -50.0000305, 0.0000384]],
+            "m_Translate": [14, [-5.9028568, 3.7651643, -0.4351806]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-6.3048381, 4.2609376, 0.3965758]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 85],
+            "m_PrefabName": [12, "prp_wooden_box_b"],
+            "m_Rotate": [14, [-0.0000614, 64.9999923, 0.0000612]],
+            "m_Translate": [14, [2.0507812, 3.7651667, 0.8616027]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [-179.9999542, -1.9999896, 179.9999542]],
+            "m_Scale": [14, [0.9999985, 0.9999998, 1.0000013]],
+            "m_Translate": [14, [0.309082, 3.7537689, 0.2437133]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "prp_plastic_box_a"],
+            "m_Rotate": [14, [0.0000252, -50.0000419, 0.0000384]],
+            "m_Translate": [14, [1.2146128, 3.7651667, 0.1199951]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [-179.9999542, -1.9999896, 179.9999542]],
+            "m_Scale": [14, [0.9999985, 0.9999998, 1.0000013]],
+            "m_Translate": [14, [0.309082, 4.2609443, 0.2437133]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 89],
+            "m_PrefabName": [12, "pa_cloth_shreds_e"],
+            "m_Rotate": [14, [-0.0000064, 5.0000014, 0.0000249]],
+            "m_Scale": [14, [1.8870003, 1.8870003, 1.8870004]],
+            "m_Translate": [14, [-4.6918087, 5.9611902, 0.965393]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 90],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000057, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.7479995, 1.7480001]],
+            "m_Translate": [14, [1.9448242, 6.1150712, 1.2201538]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 91],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000057, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.748, 1.7480001]],
+            "m_Translate": [14, [2.8500652, 6.5894775, 1.2201538]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 100],
+            "m_PrefabName": [12, "prp_food_sack_c"],
+            "m_Rotate": [14, [-0.0000251, -9.9999713, 0.0000206]],
+            "m_Scale": [14, [0.9999994, 1.0, 1.0000003]],
+            "m_Translate": [14, [0.8832377, 7.187479, -0.2153013]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 101],
+            "m_PrefabName": [12, "prp_food_sack_c"],
+            "m_Rotate": [14, [-0.0001442, 70.0, 0.0001404]],
+            "m_Translate": [14, [1.4459476, 7.187479, -0.1576537]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 103],
+            "m_PrefabName": [12, "pa_cloth_shreds_c"],
+            "m_Rotate": [14, [-5.0000042, 0.0000061, 0.0000208]],
+            "m_Scale": [14, [2.8645222, 2.8645234, 2.8645238]],
+            "m_Translate": [14, [-0.1542222, 8.3253364, -0.0360412]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 107],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_mid_1h_a1"],
+            "m_Rotate": [14, [-0.000029, 45.0000038, 0.000035]],
+            "m_Translate": [14, [-5.6221866, 8.5332145, 1.348999]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 109],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_btm_1h_a1"],
+            "m_Rotate": [14, [112.7604751, -33.8258361, 127.0045089]],
+            "m_Scale": [14, [1.0000007, 0.9999998, 0.9999995]],
+            "m_Translate": [14, [-6.8604259, 9.6536741, 0.6311643]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 110],
+            "m_PrefabName": [12, "barrel_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Scale": [14, [0.7812501, 0.7812501, 0.7812498]],
+            "m_Translate": [14, [-5.4488925, 3.777842, 1.2355649]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 115],
+            "m_PrefabName": [12, "barrel_a"],
+            "m_Rotate": [14, [-179.9999847, -30.0000438, 179.9999847]],
+            "m_Scale": [14, [0.7812498, 0.7812498, 0.78125]],
+            "m_Translate": [14, [-2.8737316, 10.3871593, -1.589691]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 117],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_btm_1h_a1"],
+            "m_Rotate": [14, [129.5686798, -6.4086308, 172.3073883]],
+            "m_Translate": [14, [-3.1086826, 14.4469766, -3.1653137]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 118],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_mid_1h_a1"],
+            "m_Rotate": [14, [-0.000029, 45.0000038, 0.000035]],
+            "m_Translate": [14, [5.6958942, 13.5088672, -2.0477294]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 119],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_btm_1h_a1"],
+            "m_Rotate": [14, [102.7324142, -24.4044857, 147.2676239]],
+            "m_Translate": [14, [4.7660675, 14.1759462, -3.4528198]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 121],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-89.9999389, 54.9999847, -0.0000709]],
+            "m_Translate": [14, [-2.2482471, 6.9648265, -0.7089232]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Green-Flour"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 122],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9998855, 70.0000076, -179.9998626]],
+            "m_Translate": [14, [-1.6561162, 6.9584159, -0.7089232]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Blue-Potato"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 123],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [65.0, 0.0000189, 90.0000152]],
+            "m_Scale": [14, [1.1400001, 1.1399997, 1.1400001]],
+            "m_Translate": [14, [-1.4493618, 6.3438787, -1.0756225]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 124],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [84.9999771, 0.0000185, 90.0000152]],
+            "m_Translate": [14, [-1.425083, 7.9291391, -1.1587219]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 125],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [99.9999923, 0.0000187, 90.0]],
+            "m_Scale": [14, [1.0754717, 1.0754716, 1.0754715]],
+            "m_Translate": [14, [-1.4493618, 7.4616622, -1.0756225]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Green-Flour"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 126],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [64.9999923, 0.0000189, 90.0000152]],
+            "m_Scale": [14, [1.1400001, 1.1399997, 1.1400001]],
+            "m_Translate": [14, [-1.4493596, 6.4404077, -1.9147949]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 127],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9998779, 70.0000228, -179.9998474]],
+            "m_Translate": [14, [-1.6561162, 6.9584159, -1.9602353]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 128],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-89.9999313, 54.9999885, -0.0000709]],
+            "m_Translate": [14, [-2.2482471, 6.9648265, -1.9602353]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 129],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [99.9999847, 0.0000187, 90.0]],
+            "m_Scale": [14, [1.0754717, 1.0754716, 1.0754714]],
+            "m_Translate": [14, [-1.4493618, 7.4616622, -2.3269348]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 130],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [84.9999771, 0.0000185, 90.0000152]],
+            "m_Translate": [14, [-1.425083, 7.9291391, -2.4100341]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 131],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [64.9999923, 0.0000189, 90.0000152]],
+            "m_Scale": [14, [1.1400001, 1.1399997, 1.1400001]],
+            "m_Translate": [14, [-1.4493577, 6.4575748, -2.6644287]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 137],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0, -0.0000297, 90.0000152]],
+            "m_Translate": [14, [-6.1458454, 3.9785041, 1.1933592]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 138],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-89.999855, 75.0000076, -0.0001359]],
+            "m_Translate": [14, [-6.2952728, 4.5337018, 1.9094543]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 139],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0000457, -45.0000381, -0.000055]],
+            "m_Translate": [14, [-6.8874053, 4.5452384, 1.9094543]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 140],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-65.0000152, -0.0000259, 90.0000228]],
+            "m_Translate": [14, [-6.1050148, 5.1286821, 1.7090454]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 141],
+            "m_PrefabName": [12, "bdp_ce_a_chimney_ladder_1x_a1"],
+            "m_Rotate": [14, [179.9999694, -0.0000561, 179.9999847]],
+            "m_Translate": [14, [5.0954208, 6.077032, -0.9254453]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 142],
+            "m_PrefabName": [12, "bdp_ce_a_chimney_ladder_1x_a1"],
+            "m_Rotate": [14, [179.9999694, -0.0000561, 179.9999847]],
+            "m_Translate": [14, [5.0954208, 6.4109773, -0.9254453]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 144],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_btm_1h_a1"],
+            "m_Rotate": [14, [107.7306442, -79.3995971, 111.2808151]],
+            "m_Translate": [14, [-7.4352016, 12.8156585, -0.8460996]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 145],
+            "m_PrefabName": [12, "barrel_a"],
+            "m_Rotate": [14, [-0.0000349, -65.0000228, -0.0000311]],
+            "m_Scale": [14, [0.7812498, 0.78125, 0.78125]],
+            "m_Translate": [14, [-6.9827995, 8.1768131, -0.7155454]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 146],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-174.9999237, 70.0000381, 179.9999389]],
+            "m_Translate": [14, [-6.2902736, 8.2549867, 1.4415588]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 147],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-165.0, -0.0000147, 89.9999923]],
+            "m_Scale": [14, [1.0754714, 1.0754716, 1.0754716]],
+            "m_Translate": [14, [-6.0835208, 8.5764274, 2.0663146]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Blue-Grain"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 148],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [75.0000076, 0.0000197, 90.0000152]],
+            "m_Scale": [14, [1.1400002, 1.1399997, 1.1400001]],
+            "m_Translate": [14, [-6.0835189, 8.5338172, 0.7398986]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 149],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [4.999967, 54.9999961, 0.0000531]],
+            "m_Translate": [14, [-6.8824043, 8.2544374, 1.447937]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 150],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [179.9999847, -0.0000097, 89.9999923]],
+            "m_Translate": [14, [-6.0592403, 8.6184816, 2.6229248]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Blue-Grain"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 153],
+            "m_PrefabName": [12, "prp_painting_indian_e"],
+            "m_Rotate": [14, [-0.0000043, -0.0004783, 0.0000147]],
+            "m_Scale": [14, [1.1299997, 1.1300001, 1.1300003]],
+            "m_Translate": [14, [-4.498661, 7.3807926, -3.1882629]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 156],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_mid_0h_a1"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000266]],
+            "m_Translate": [14, [-7.1316032, 11.1078557, -0.7095642]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 158],
+            "m_PrefabName": [12, "pa_flower_stand_a"],
+            "m_Rotate": [14, [-0.0000043, 0.0000079, 0.0000247]],
+            "m_Translate": [14, [2.7160148, 8.2112169, -1.138977]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 162],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000266]],
+            "m_Scale": [14, [1.1000001, 1.1, 1.0999995]],
+            "m_Translate": [14, [-6.6613769, 6.016674, 1.2447812]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 163],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, -59.9999504, 179.9999847]],
+            "m_Scale": [14, [0.8863319, 0.8863313, 0.8863312]],
+            "m_Translate": [14, [-6.6233253, 6.0643749, 1.3213806]]
+          },
+          "Fields": {
+            "SkinName": "cloth_b"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 164],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [179.9999694, -0.000056, 179.9999847]],
+            "m_Scale": [14, [1.2209991, 1.2209998, 1.2210003]],
+            "m_Translate": [14, [3.7224655, 6.1702594, -1.3946228]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 165],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [179.9999694, -0.000056, 179.9999847]],
+            "m_Scale": [14, [1.2209991, 1.2209998, 1.2209999]],
+            "m_Translate": [14, [3.7224693, 6.1702594, -2.4585266]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 166],
+            "m_PrefabName": [12, "frn_shop_exclusive_shelf_str_mid_172_a"],
+            "m_Rotate": [14, [-0.0000043, 0.0000084, 0.0000247]],
+            "m_Translate": [14, [4.2381782, 7.0176753, -3.3947448]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 167],
+            "m_PrefabName": [12, "frn_shop_exclusive_shelf_str_mid_172_a"],
+            "m_Rotate": [14, [-0.0000043, 0.0000084, 0.0000247]],
+            "m_Translate": [14, [2.3470363, 7.0176744, -3.3947448]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 168],
+            "m_PrefabName": [12, "frn_shop_exclusive_shelf_str_mid_172_a"],
+            "m_Rotate": [14, [-0.0000043, 0.0000084, 0.0000247]],
+            "m_Translate": [14, [-0.1570663, 7.0176734, -3.3947448]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 169],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-6.6256237, 6.0693502, -1.5987854]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 170],
+            "m_PrefabName": [12, "pa_cloth_shreds_d"],
+            "m_Rotate": [14, [179.9999847, -15.0000123, 179.9999847]],
+            "m_Scale": [14, [2.9, 2.9000003, 2.9]],
+            "m_Translate": [14, [-6.32621, 8.1295661, -0.7540891]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 171],
+            "m_PrefabName": [12, "pa_cloth_shreds_g"],
+            "m_Rotate": [14, [-0.0000043, 0.0000084, 0.0000247]],
+            "m_Scale": [14, [1.5299998, 1.5300002, 1.5300004]],
+            "m_Translate": [14, [-3.9864025, 8.2761468, -0.0191955]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 172],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [0.0, -90.0, -19.999998]],
+            "m_Translate": [14, [-6.7841053, 6.7838993, -2.1148986]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 173],
+            "m_PrefabName": [12, "frn_carpet_classic_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000015, -90.0000381]],
+            "m_Translate": [14, [-7.203823, 7.3097667, 1.5288391]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 174],
+            "m_PrefabName": [12, "pa_cloth_shreds_h"],
+            "m_Rotate": [14, [-0.0000108, -45.000061, 0.000006]],
+            "m_Translate": [14, [5.6057853, 13.5427408, -2.0404052]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 175],
+            "m_PrefabName": [12, "hanging_clothes_e"],
+            "m_Rotate": [14, [-0.0000822, 65.0000305, 0.0000721]],
+            "m_Translate": [14, [-2.1196155, 8.0755043, -0.2480161]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 176],
+            "m_PrefabName": [12, "prp_mattress_folded_a"],
+            "m_PresetNames": [12, "Generic_prop_color;Brown_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [-5.6142501, 6.8123416, -1.4841308]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 178],
+            "m_PrefabName": [12, "gym_equ_mattress_a"],
+            "m_Rotate": [14, [179.9999847, 0.0000015, 179.9999847]],
+            "m_Translate": [14, [-0.180252, 6.0560693, -2.1504821]]
+          },
+          "Fields": {
+            "SkinName": "matteress_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 179],
+            "m_PrefabName": [12, "gym_equ_mattress_a"],
+            "m_Rotate": [14, [-0.0001481, 80.0000152, 0.0001284]],
+            "m_Translate": [14, [-4.6203899, 3.723658, -1.5930478]]
+          },
+          "Fields": {
+            "SkinName": "matteress_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 180],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9999923, 5.0000033, -179.9999389]],
+            "m_Translate": [14, [6.659233, 7.5135383, -1.6708984]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 181],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [84.8875274, -60.2814407, 170.1156921]],
+            "m_Translate": [14, [5.7469844, 8.5538358, -1.5918271]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 182],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9999923, 0.000035, -179.9999542]],
+            "m_Translate": [14, [5.7879524, 8.0039854, -1.7297363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 183],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0, -0.0000297, 90.0000152]],
+            "m_Translate": [14, [6.3214187, 7.4779357, -2.00708]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 184],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0000152, -25.00004, -0.0000379]],
+            "m_Translate": [14, [6.5181694, 8.0303859, -1.7297363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 185],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-179.9999847, 14.9999876, -180.0]],
+            "m_Scale": [14, [0.9999997, 0.9999997, 1.0000007]],
+            "m_Translate": [14, [6.4337577, 7.1921243, -2.866394]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 186],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9999313, 50.0000457, -179.9999237]],
+            "m_Translate": [14, [6.3193702, 8.4986925, -1.5995483]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 187],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-179.9999847, 14.9999876, 179.9999847]],
+            "m_Translate": [14, [5.8439674, 7.1921234, -2.866394]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 188],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [0.0000297, -60.0000114, 0.0000625]],
+            "m_Translate": [14, [6.627285, 6.0200691, -1.5077209]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 189],
+            "m_PrefabName": [12, "prp_mattress_dirty_a"],
+            "m_Rotate": [14, [179.9999847, 5.0000023, 179.9999847]],
+            "m_Translate": [14, [-0.5744342, 3.7881941, -1.3140256]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 190],
+            "m_PrefabName": [12, "prp_mattress_dirty_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000032]],
+            "m_Translate": [14, [-4.1964683, 6.6995544, -1.3140256]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 191],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [179.9999694, -0.0000561, 179.9999542]],
+            "m_Scale": [14, [1.0999995, 1.1, 1.1]],
+            "m_Translate": [14, [-4.391819, 6.693696, -2.5319213]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 192],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.000029, 0.0000461, 0.0000247]],
+            "m_Translate": [14, [-4.0231761, 4.7611989, -3.4628601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 193],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.000029, 0.0000461, 0.0000247]],
+            "m_Translate": [14, [-1.7115075, 5.0796804, -3.4628601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 194],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.000029, 0.0000461, 0.0000247]],
+            "m_Translate": [14, [0.3647327, 4.5986433, -3.4628601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 195],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.000029, 0.0000461, 0.0000247]],
+            "m_Translate": [14, [2.6550903, 4.3784379, -3.4628601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 196],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.000029, 0.0000461, 0.0000247]],
+            "m_Translate": [14, [3.6489658, 4.8099937, -3.4628601]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.0005695, 85.0000152, 0.0005683]],
+            "m_Translate": [14, [-5.9567451, 7.4469022, -1.969238]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 199],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000247]],
+            "m_Translate": [14, [-2.8046913, 9.3921833, -2.4266967]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 200],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000247]],
+            "m_Translate": [14, [-2.8046913, 9.8821544, -2.4266967]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 201],
+            "m_PrefabName": [12, "prp_mattress_dirty_a"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000032]],
+            "m_Translate": [14, [-4.0787792, 8.2809877, -2.2388305]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 202],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.0, 0.0000593, 0.0000247]],
+            "m_Translate": [14, [-4.3001899, 9.0215415, -3.6547851]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 203],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.0, 0.0000593, 0.0000247]],
+            "m_Translate": [14, [-4.7869224, 9.8821544, -3.6547851]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 204],
+            "m_PrefabName": [12, "prp_plastic_can_a"],
+            "m_Rotate": [14, [0.0000407, -65.0000457, 40.0000381]],
+            "m_Translate": [14, [-5.9898147, 7.8280897, 3.3095397]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 205],
+            "m_PrefabName": [12, "prp_plastic_can_b"],
+            "m_Rotate": [14, [179.9999847, -60.0, -125.0]],
+            "m_Translate": [14, [-6.5037021, 8.0683994, 3.2923278]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 206],
+            "m_PrefabName": [12, "prp_plastic_can_b"],
+            "m_Rotate": [14, [0.0000013, -14.9999752, 54.9999923]],
+            "m_Translate": [14, [-5.6259384, 8.1319875, 3.103424]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 207],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000042]],
+            "m_Translate": [14, [-4.5759277, 8.2081794, -2.0225219]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000153, 5.0000081, 0.0000218]],
+            "m_Scale": [14, [1.1399997, 1.1399991, 1.1400002]],
+            "m_Translate": [14, [-5.1635227, 8.1992425, -1.2939453]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 209],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 30.0000114, -179.9999694]],
+            "m_Scale": [14, [1.1399996, 1.1399991, 1.1400007]],
+            "m_Translate": [14, [-2.7598304, 8.1992425, -0.7890625]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 210],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [180.0, 4.9999599, 179.9999847]],
+            "m_Scale": [14, [1.0999995, 1.0999999, 1.1000001]],
+            "m_Translate": [14, [-1.3604145, 8.8950395, -1.7843321]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 211],
+            "m_PrefabName": [12, "sleeping_bag_a"],
+            "m_Rotate": [14, [-179.9999847, 4.9999599, 179.9999847]],
+            "m_Scale": [14, [1.0999995, 1.0999995, 1.1000001]],
+            "m_Translate": [14, [-0.6871507, 8.8950405, -2.7351074]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 214],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Pixels_squares"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000042]],
+            "m_Scale": [14, [0.6246876, 0.6246876, 0.6246876]],
+            "m_Translate": [14, [3.529541, 8.2155475, -1.9930725]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 215],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 30.0000076, -179.9999694]],
+            "m_Scale": [14, [1.1399991, 1.139999, 1.1400003]],
+            "m_Translate": [14, [-0.1685695, 8.1992435, -0.7890625]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 30.0, -179.9999694]],
+            "m_Scale": [14, [1.1399991, 1.1399989, 1.1400003]],
+            "m_Translate": [14, [2.6059646, 8.1992444, -0.7890625]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000199, -14.9999895, 0.0000299]],
+            "m_Scale": [14, [1.1399991, 1.1399985, 1.1400003]],
+            "m_Translate": [14, [3.6434688, 8.2138156, -1.1599426]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 218],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000252, -40.0000114, 0.0000408]],
+            "m_Scale": [14, [1.1399991, 1.1399985, 1.1400007]],
+            "m_Translate": [14, [3.6434688, 8.2138156, -2.5566711]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "furniture_style;Old;"],
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "frn_shelf_wall_complex"],
+            "m_PresetNames": [12, "Furniture_gameplay_type;hub"],
+            "m_Rotate": [14, [-0.0, 0.0000593, 0.0000247]],
+            "m_Translate": [14, [4.3360786, 9.5605335, -3.437561]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 220],
+            "m_PrefabName": [12, "urb_wall_drain_pipe_under_balcony_a"],
+            "m_Rotate": [14, [-179.9997253, -85.0000152, 0.0002879]],
+            "m_Translate": [14, [5.6817798, 9.0342302, -1.9273984]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 223],
+            "m_PrefabName": [12, "frn_modern_sofa_a"],
+            "m_Rotate": [14, [0.0000247, 0.0000084, 0.0000043]],
+            "m_Translate": [14, [3.2453098, 8.2418327, -2.8628845]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 224],
+            "m_PrefabName": [12, "frn_modern_sofa_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [6.5102996, 3.7286791, -1.9549255]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 226],
+            "m_PrefabName": [12, "hanging_clothes_b"],
+            "m_Rotate": [14, [-0.0000251, -9.9999694, 0.0000206]],
+            "m_Translate": [14, [-0.3587512, 9.7283344, -1.0125732]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 227],
+            "m_PrefabName": [12, "hanging_clothes_e"],
+            "m_Rotate": [14, [-0.0000109, 15.0000085, 0.0000256]],
+            "m_Translate": [14, [0.1809749, 9.8684282, -1.0232541]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 230],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-90.0000381, -25.00004, -0.0000375]],
+            "m_Translate": [14, [-0.185522, 10.6238603, -1.2950134]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 231],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9999618, 20.000019, -179.9999847]],
+            "m_Translate": [14, [0.4046877, 10.5791559, -1.2950134]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 233],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-80.0835418, -2.1109156, 85.466423]],
+            "m_Translate": [14, [0.7627562, 11.0992383, -1.6188354]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 235],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [179.9999847, 35.000061, -179.9999847]],
+            "m_Scale": [14, [0.886331, 0.8863312, 0.8863322]],
+            "m_Translate": [14, [-4.7316722, 10.3526678, -2.4487915]]
+          },
+          "Fields": {
+            "SkinName": "cloth_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 237],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-89.9999618, 19.9999961, -0.0000092]],
+            "m_Translate": [14, [-5.6839981, 12.3325185, -1.9999388]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Blue-Flour"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 238],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [90.0000305, 0.0000451, 179.9999847]],
+            "m_Translate": [14, [-6.4464397, 12.3439378, -1.9999388]]
+          },
+          "Fields": {
+            "SkinName": "Plastic_Blue-Flour"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 239],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [65.3343048, -4.2085261, 99.0794906]],
+            "m_Translate": [14, [-5.7539672, 12.8428258, -2.3225097]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 240],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-65.0000228, -0.0000259, 90.0000152]],
+            "m_Translate": [14, [-4.8298892, 12.8712415, -2.7589721]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 243],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [89.9999923, 0.0000359, 94.9999847]],
+            "m_Scale": [14, [1.0000003, 0.9999994, 1.0000002]],
+            "m_Translate": [14, [-4.3772659, 12.3325185, -2.3726501]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 245],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [-120.0000152, -0.0000259, 90.0000152]],
+            "m_Translate": [14, [-4.4652099, 12.3112039, -3.0966491]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 246],
+            "m_PrefabName": [12, "prp_food_sack_a"],
+            "m_Rotate": [14, [64.9999923, 0.0000189, 90.0000152]],
+            "m_Translate": [14, [-5.3892879, 12.3762826, -3.145935]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 247],
+            "m_PrefabName": [12, "prp_plastic_can_b"],
+            "m_Scale": [14, [1.2099999, 1.2099994, 1.2100006]],
+            "m_Translate": [14, [3.3595314, 12.0294036, -2.3214111]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 248],
+            "m_PrefabName": [12, "prp_plastic_can_a"],
+            "m_Scale": [14, [1.2100001, 1.2100001, 1.2100001]],
+            "m_Translate": [14, [3.8821887, 12.0649633, -2.4200744]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 249],
+            "m_PrefabName": [12, "prp_plastic_can_b"],
+            "m_Scale": [14, [1.21, 1.21, 1.21]],
+            "m_Translate": [14, [2.4688186, 12.0123863, -2.8997802]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 250],
+            "m_PrefabName": [12, "wooden_crate_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Scale": [14, [0.8064519, 0.8064516, 0.8064513]],
+            "m_Translate": [14, [4.8727149, 10.3345546, -2.6046142]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 251],
+            "m_PrefabName": [12, "prp_wooden_box_deco_a"],
+            "m_Rotate": [14, [0.0000585, -65.0000534, 0.0000575]],
+            "m_Translate": [14, [4.8780632, 11.1306638, -2.5766296]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 252],
+            "m_PrefabName": [12, "barrel_toxic_a"],
+            "m_Rotate": [14, [-0.0000422, -15.0000143, 89.9999923]],
+            "m_Scale": [14, [0.7633584, 0.7633587, 0.7633593]],
+            "m_Translate": [14, [3.7293491, 12.379054, -2.644226]]
+          },
+          "Fields": {
+            "SkinName": "blue"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 253],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000057, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.7479995, 1.7480001]],
+            "m_Translate": [14, [-3.2993927, 10.8595342, -1.0618286]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 254],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000057, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.7479995, 1.7480001]],
+            "m_Translate": [14, [-6.3434658, 10.9517717, -1.0217285]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 255],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [163.9903106, -24.5947589, 175.3706359]],
+            "m_Scale": [14, [1.7480001, 1.7479999, 1.7479995]],
+            "m_Translate": [14, [-2.9574928, 10.8595342, -1.0486145]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 256],
+            "m_PrefabName": [12, "prp_bag_plastic_b"],
+            "m_Rotate": [14, [169.9999847, 0.0000057, 179.9999847]],
+            "m_Scale": [14, [1.7479994, 1.7479995, 1.7480001]],
+            "m_Translate": [14, [5.3416023, 11.4637145, -1.9951782]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 257],
+            "m_PrefabName": [12, "pa_cloth_shreds_d"],
+            "m_Rotate": [14, [179.9999847, 0.0000015, 179.9999847]],
+            "m_Scale": [14, [1.6699998, 1.6699999, 1.6700005]],
+            "m_Translate": [14, [5.2982673, 10.3475742, -1.0519104]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 258],
+            "m_PrefabName": [12, "frn_bar_table_small_a"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000043]],
+            "m_Translate": [14, [2.6870517, 8.2304334, -1.7819211]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 260],
+            "m_PrefabName": [12, "pa_cloth_shreds_e"],
+            "m_Rotate": [14, [-0.0000021, -5.0000071, 0.0000249]],
+            "m_Scale": [14, [1.1699997, 1.1699999, 1.1700004]],
+            "m_Translate": [14, [4.509571, 10.3465576, -0.9799497]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 261],
+            "m_PrefabName": [12, "pa_cloth_shreds_d"],
+            "m_Rotate": [14, [3.627100753078594e-8, -10.0000066, 0.0000251]],
+            "m_Scale": [14, [2.8863992, 2.8864002, 2.8864011]],
+            "m_Translate": [14, [3.6364955, 10.3454236, -0.9647827]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 262],
+            "m_PrefabName": [12, "prp_power_switch_industrial_b"],
+            "m_Rotate": [14, [-0.0000043, 0.0000084, 0.0000247]],
+            "m_Translate": [14, [5.3771705, 7.6246299, -1.0544433]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 263],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [0.0000051, 34.9999923, 0.0000135]],
+            "m_Scale": [14, [1.1400003, 1.1399991, 1.1399995]],
+            "m_Translate": [14, [5.7556953, 6.015727, -0.1386718]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 265],
+            "m_PrefabName": [12, "bld_ce_a_balconyrail_cor_ex_1_3g_15s_a_a"],
+            "m_Rotate": [14, [179.9999847, -10.0000123, 179.9999847]],
+            "m_Translate": [14, [3.7946166, 5.9795494, 1.1942441]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 267],
+            "m_PrefabName": [12, "hanging_clothes_e"],
+            "m_Rotate": [14, [-9.9999914, -5.0000143, 0.0001091]],
+            "m_Translate": [14, [-3.9724864, 6.6337499, 1.200592]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 268],
+            "m_PrefabName": [12, "prp_carpet_oblong_big"],
+            "m_PresetNames": [12, "Carpet_Skin;Indian_carpet_b"],
+            "m_Rotate": [14, [-0.0000039, -61.5000305, -0.0]],
+            "m_Scale": [14, [0.7407404, 0.7407404, 0.7407407]],
+            "m_Translate": [14, [-4.1999511, 0.2180746, -0.0543209]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 269],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9999542, 35.0000495, 179.9999694]],
+            "m_Scale": [14, [0.8906245, 0.8906244, 0.8906245]],
+            "m_Translate": [14, [-5.3222656, 0.21228, 2.0289916]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 270],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-179.9999694, 26.5000495, 179.9999847]],
+            "m_Scale": [14, [0.735009, 0.735009, 0.735009]],
+            "m_Translate": [14, [-1.9401855, 0.2326315, 2.1625976]]
+          },
+          "Fields": {
+            "SkinName": "decal_flat_hay_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 271],
+            "m_PrefabName": [12, "frn_solid_state_case_cabinet_b"],
+            "m_Rotate": [14, [-0.0000209, 25.0004997, 0.0000346]],
+            "m_Translate": [14, [-6.0551853, 8.2272586, -3.0655822]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 272],
+            "m_PrefabName": [12, "prps_lantern_omni_a_lgt_deco"],
+            "m_Rotate": [14, [0.0000244, -34.9995346, 0.0000499]],
+            "m_Translate": [14, [-5.9837436, 9.5830793, -2.8736572]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 273],
+            "m_PrefabName": [12, "bdp_un_a_drain_pipe_str_btm_1h_a1"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000042]],
+            "m_Translate": [14, [-2.8728981, 12.3950233, -1.7554016]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 274],
+            "m_PrefabName": [12, "rope_b"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000042]],
+            "m_Translate": [14, [0.6929035, 10.4472465, -1.0455017]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 275],
+            "m_PrefabName": [12, "wd_bathroom_bathtub_a_base"],
+            "m_Rotate": [14, [179.9999694, -39.9720497, 179.9999542]],
+            "m_Translate": [14, [6.176691, 0.0584518, 1.6514282]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1903636, 0.8133273, 0.0608481, 2.2133848, 1.0111484, 1.7307449]],
+            "m_PcId": [6, 276],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_a"],
+            "m_Rotate": [14, [-0.000095, 64.9720153, 0.0001063]],
+            "m_Scale": [14, [1.0000008, 0.9999998, 1.0]],
+            "m_Translate": [14, [0.2990722, 0.0257491, -1.2878415]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1903636, 0.8133273, 0.0608481, 2.2133848, 1.0111484, 1.7307449]],
+            "m_PcId": [6, 277],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_a"],
+            "m_Rotate": [14, [179.9999847, 0.0279884, 179.9999694]],
+            "m_Scale": [14, [0.9999998, 0.9999998, 1.0000013]],
+            "m_Translate": [14, [-0.3981932, 0.0257491, -1.8094482]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1903636, 0.8133275, 0.0608481, 2.2133848, 1.0111486, 1.7307449]],
+            "m_PcId": [6, 279],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_a"],
+            "m_Rotate": [14, [179.9999847, -12.4720497, 179.9999542]],
+            "m_Scale": [14, [1.1699997, 1.1699999, 1.1700011]],
+            "m_Translate": [14, [1.4709471, 0.0883331, -2.3964233]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1903636, 0.8133275, 0.0608481, 2.2133853, 1.0111486, 1.7307456]],
+            "m_PcId": [6, 280],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_a"],
+            "m_Rotate": [14, [-179.9994659, 88.0281066, 179.9994354]],
+            "m_Scale": [14, [1.0000009, 0.9999998, 0.9999997]],
+            "m_Translate": [14, [6.340332, 0.0257491, -1.6390991]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1903636, 0.8133273, 0.0608481, 2.2133848, 1.0111484, 1.7307449]],
+            "m_PcId": [6, 281],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_a"],
+            "m_Rotate": [14, [0.0000165, 1.9719885, 0.0000268]],
+            "m_Scale": [14, [0.9999998, 1.0000001, 1.0000013]],
+            "m_Translate": [14, [5.1357421, 0.025753, -2.3284301]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0461688, 0.3847605, -0.0572686, 1.247466, 0.4343712, 0.9209165]],
+            "m_PcId": [6, 282],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_b"],
+            "m_Rotate": [14, [-0.0000551, 69.9720382, 0.0000321]],
+            "m_Scale": [14, [1.0000009, 1.0, 1.0]],
+            "m_Translate": [14, [-0.34375, 1.1040153, -1.7143553]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0461688, 0.3847604, -0.0572686, 1.247466, 0.4343712, 0.9209165]],
+            "m_PcId": [6, 283],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pile_of_hay_b"],
+            "m_Rotate": [14, [0.0000327, -20.0280189, 0.0000213]],
+            "m_Scale": [14, [1.0000001, 1.0000001, 1.0000009]],
+            "m_Translate": [14, [6.1369628, 1.4612541, -2.4117431]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0794837, 0.5782546, -0.1127939, 2.692651, 0.7736691, 2.5857079]],
+            "m_PcId": [6, 290],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;nat_field_dead_a"],
+            "m_Rotate": [14, [179.9160919, -89.972023, 179.9160919]],
+            "m_Scale": [14, [1.0000013, 1.0000001, 0.9999998]],
+            "m_Translate": [14, [5.3288574, 0.0476684, -1.5345455]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 291],
+            "m_PrefabName": [12, "anim_multi_mesh_activable"],
+            "m_PresetNames": [12, "Character;hen_placeholder_loop_03"],
+            "m_Rotate": [14, [0.0001537, -75.5280303, 0.0001632]],
+            "m_Scale": [14, [1.0000009, 1.0000001, 0.9999998]],
+            "m_Translate": [14, [3.6379394, 0.2201575, 1.213562]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0016442, 0.2099848, 0.1087073, 0.0932243, 0.2162856, 0.2167691]],
+            "m_PcId": [6, 292],
+            "m_PrefabName": [12, "anim_multi_mesh"],
+            "m_PresetNames": [12, "Character;hen_placeholder_loop_03"],
+            "m_Rotate": [14, [-179.9999694, 50.0280189, 179.9999389]],
+            "m_Scale": [14, [1.0000008, 1.0, 1.0000003]],
+            "m_Translate": [14, [4.0866699, 0.2188529, 2.185913]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0257094, 0.2451265, -0.0891601, 0.09359, 0.2462715, 0.1646931]],
+            "m_PcId": [6, 293],
+            "m_PrefabName": [12, "anim_multi_mesh"],
+            "m_PresetNames": [12, "Character;hen_placeholder_loop_02"],
+            "m_Rotate": [14, [-0.0000349, 40.4720573, 0.0000422]],
+            "m_Scale": [14, [1.0000003, 1.0000001, 1.0000008]],
+            "m_Translate": [14, [4.8884277, 0.2279472, 2.4021606]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 296],
+            "m_PrefabName": [12, "int_bazar_sleeping_box_a"],
+            "m_Rotate": [14, [-0.0000039, 2.9999995, -0.0]],
+            "m_Translate": [14, [-4.1220703, 0.2227437, -1.9619139]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 297],
+            "m_PrefabName": [12, "decal_flat_roundbig"],
+            "m_Rotate": [14, [-0.0001016, 55.0000114, 0.0001511]],
+            "m_Scale": [14, [1.042031, 1.0420303, 1.0420303]],
+            "m_Translate": [14, [-5.9470214, 0.2122724, 0.5308837]]
+          },
+          "Fields": {
+            "SkinName": "cloth_a"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 303],
+            "m_PrefabName": [12, "prp_food_jar_no_physics"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Translate": [14, [-5.1362304, 0.995777, -2.5722656]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 304],
+            "m_PrefabName": [12, "prp_food_jar_b"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Translate": [14, [-5.3322753, 0.995777, -2.4802856]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 305],
+            "m_PrefabName": [12, "prp_food_jar_a"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Translate": [14, [-5.1804199, 0.995777, -2.5802001]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 308],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [-179.9989318, 87.0198135, -178.5010528]],
+            "m_Scale": [14, [0.2374424, 0.2374421, 0.2374421]],
+            "m_Translate": [14, [-2.5832519, 1.0787198, -2.7316284]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 309],
+            "m_PrefabName": [12, "pa_shelves_hanging_a"],
+            "m_Rotate": [14, [179.9999847, -3.0000195, 179.9999847]],
+            "m_Scale": [14, [0.8474571, 0.8474575, 0.8474584]],
+            "m_Translate": [14, [-2.446289, 0.4848175, -1.7909543]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 310],
+            "m_PrefabName": [12, "pa_shelves_hanging_b"],
+            "m_Rotate": [14, [179.9999694, -3.0000088, 179.9999542]],
+            "m_Scale": [14, [0.9999998, 1.0, 1.0000009]],
+            "m_Translate": [14, [-2.4138183, 1.1300697, -1.2470091]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 311],
+            "m_PrefabName": [12, "pa_shelves_hanging_c"],
+            "m_Rotate": [14, [179.9999694, -3.00001, 179.9999542]],
+            "m_Scale": [14, [1.0, 1.0, 1.0000009]],
+            "m_Translate": [14, [-2.4138183, 1.6065442, -1.2470091]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 312],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [-179.9989318, 87.0197448, 175.9989318]],
+            "m_Scale": [14, [0.3086751, 0.3086748, 0.3086749]],
+            "m_Translate": [14, [-2.5895996, 0.6677703, -2.3302612]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 313],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [-179.9989318, 87.0198745, -175.0010375]],
+            "m_Scale": [14, [0.2374424, 0.2374421, 0.2374421]],
+            "m_Translate": [14, [-2.5832519, 0.7289351, -2.7063598]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 314],
+            "m_PrefabName": [12, "prp_wooden_box_a"],
+            "m_Rotate": [14, [-90.0000076, -0.0000518, -86.5197982]],
+            "m_Scale": [14, [1.0000009, 0.9999997, 1.0000002]],
+            "m_Translate": [14, [-5.5798711, 0.5819318, -2.6298747]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 315],
+            "m_PrefabName": [12, "prp_wooden_box_b_open"],
+            "m_Rotate": [14, [-90.0000076, -0.0000518, -88.0197982]],
+            "m_Scale": [14, [1.0000009, 0.9999998, 1.0000002]],
+            "m_Translate": [14, [-5.5798716, 1.0840679, -2.6298749]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 316],
+            "m_PrefabName": [12, "prp_wooden_box_a"],
+            "m_Rotate": [14, [-90.0, -0.0000389, -103.5198287]],
+            "m_Scale": [14, [1.0000008, 0.9999998, 1.0000001]],
+            "m_Translate": [14, [-5.4633789, 1.5963478, -2.6864624]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 319],
+            "m_PrefabName": [12, "prp_plastic_box_a"],
+            "m_Rotate": [14, [-179.9934844, 89.5198974, 179.9934692]],
+            "m_Scale": [14, [0.61444, 0.6144394, 0.614439]],
+            "m_Translate": [14, [-5.3051757, 0.845062, -2.6223144]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 330],
+            "m_PrefabName": [12, "pa_shelves_hanging_a"],
+            "m_Rotate": [14, [-0.0000413, 2.999881, 0.0000602]],
+            "m_Scale": [14, [0.9999995, 1.0000001, 1.0000009]],
+            "m_Translate": [14, [-5.7150878, 0.7592542, -1.0380859]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 331],
+            "m_PrefabName": [12, "pa_shelves_hanging_a"],
+            "m_Rotate": [14, [-0.0000413, 2.9998815, 0.0000602]],
+            "m_Scale": [14, [0.9999995, 1.0, 1.0000009]],
+            "m_Translate": [14, [-5.7548828, 0.7592505, -1.7990112]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 332],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [179.9996948, -79.9802246, 179.9996948]],
+            "m_Scale": [14, [0.6896557, 0.6896553, 0.689655]],
+            "m_Translate": [14, [-5.4250488, 1.1279182, -1.7957153]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 333],
+            "m_PrefabName": [12, "prp_plastic_box_a"],
+            "m_Rotate": [14, [179.9969329, -88.9802856, 179.9969329]],
+            "m_Scale": [14, [0.7142863, 0.7142859, 0.7142853]],
+            "m_Translate": [14, [-5.2814941, 1.4731674, -1.8209228]]
+          },
+          "Fields": {
+            "SkinName": "orange/black"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 337],
+            "m_PrefabName": [12, "trash_pile_0x1_g"],
+            "m_Rotate": [14, [-0.0003677, 81.4802017, 0.0003688]],
+            "m_Scale": [14, [0.8771938, 0.8771932, 0.8771926]],
+            "m_Translate": [14, [-5.0671386, 1.6476211, -1.866394]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 346],
+            "m_PrefabName": [12, "prp_bucket_a"],
+            "m_Rotate": [14, [179.9998931, -58.4802398, -0.0001093]],
+            "m_Translate": [14, [-4.5373535, 0.7900313, -1.3677368]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 347],
+            "m_PrefabName": [12, "decal_flat_round_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Dust_weak_a"],
+            "m_Rotate": [14, [90.3681869, 6.9904456, -3.0225071]],
+            "m_Scale": [14, [0.6597216, 0.6597219, 0.6597216]],
+            "m_Translate": [14, [-4.5876464, 1.1983412, -3.064392]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 348],
+            "m_PrefabName": [12, "decal_flat_round_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Dust_weak_a"],
+            "m_Rotate": [14, [90.0000152, -0.0000813, 87.0001296]],
+            "m_Scale": [14, [0.8642361, 0.8642345, 0.8642354]],
+            "m_Translate": [14, [-2.4663085, 1.1118965, -2.2506713]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 349],
+            "m_PrefabName": [12, "prp_food_cup_a"],
+            "m_Rotate": [14, [1.4580848, -29.5357303, -1.4354734]],
+            "m_Scale": [14, [1.0000001, 1.0000001, 1.0000008]],
+            "m_Translate": [14, [-2.7282714, 0.7955129, -1.5515135]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 350],
+            "m_PrefabName": [12, "prp_shoes_a"],
+            "m_Rotate": [14, [0.0000778, -56.0198326, 0.0000977]],
+            "m_Scale": [14, [1.0000008, 1.0, 1.0000001]],
+            "m_Translate": [14, [-4.0944824, 0.3290289, -1.3421628]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 354],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_c"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Scale": [14, [1.0, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [-2.1188964, 0.2239989, -0.198181]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 355],
+            "m_PrefabName": [12, "pa_wall_cloth_sheet_b"],
+            "m_Rotate": [14, [-0.0000043, 1.4801851, 0.0000446]],
+            "m_Scale": [14, [0.5359674, 0.5359674, 0.535968]],
+            "m_Translate": [14, [-5.7780761, 0.6131743, -1.7009277]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 5.0, 0.0, 2.5, 5.0, 2.5]],
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 358],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_Rotate": [14, [179.9999542, -35.9802703, 179.9999389]],
+            "m_Scale": [14, [0.558659, 0.558659, 0.5586596]],
+            "m_Translate": [14, [-3.9169921, 0.2225189, 0.5985106]]
+          },
+          "Fields": {
+            "m_ClearOtherLayers": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 359],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Office_floor_trash_a"],
+            "m_Rotate": [14, [0.0000465, -27.0198154, 0.0000833]],
+            "m_Scale": [14, [0.665592, 0.6655923, 0.6655929]],
+            "m_Translate": [14, [-3.3322277, 0.2160418, -0.669525]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 361],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Gravel_a"],
+            "m_Rotate": [14, [-179.9999389, 24.5197677, 179.9999694]],
+            "m_Scale": [14, [0.9599974, 0.9599974, 0.9599996]],
+            "m_Translate": [14, [-3.5693931, 0.224076, 1.5786434]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 362],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Gravel_a"],
+            "m_Rotate": [14, [179.9999694, -65.4802856, 179.9999237]],
+            "m_Scale": [14, [0.9599984, 0.9599977, 0.959999]],
+            "m_Translate": [14, [-5.1789131, 0.2240736, 0.5760803]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 363],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [179.9999847, -2.9802434, 175.9999542]],
+            "m_Scale": [14, [0.3086746, 0.3086746, 0.3086751]],
+            "m_Translate": [14, [-4.2675781, 0.6677665, -2.9579467]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 364],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [179.9999847, -2.9801225, -175.0000152]],
+            "m_Scale": [14, [0.237442, 0.237442, 0.2374424]],
+            "m_Translate": [14, [-4.6437988, 0.7289314, -2.9642333]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 365],
+            "m_PrefabName": [12, "urb_pc_wall_posters_c_def"],
+            "m_Rotate": [14, [179.9999847, -2.9801743, -178.5000305]],
+            "m_Scale": [14, [0.237442, 0.237442, 0.2374424]],
+            "m_Translate": [14, [-4.8154296, 0.6564483, -2.8798828]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 366],
+            "m_PrefabName": [12, "prp_hay_cube_a"],
+            "m_Rotate": [14, [-179.9997863, 76.5197753, 179.9997711]],
+            "m_Scale": [14, [0.7500004, 0.7499998, 0.7499998]],
+            "m_Translate": [14, [-3.6125488, 0.345066, -2.4362182]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 367],
+            "m_PrefabName": [12, "prp_hay_cube_a"],
+            "m_Rotate": [14, [179.9999847, -8.9802169, 179.9999389]],
+            "m_Scale": [14, [0.7616276, 0.7616276, 0.7616286]],
+            "m_Translate": [14, [-4.2668457, 0.345066, -2.1659545]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 368],
+            "m_PrefabName": [12, "cardboard_c"],
+            "m_Rotate": [14, [174.3886108, 74.4816207, -176.5926361]],
+            "m_Scale": [14, [1.2257014, 1.2256995, 1.2257]],
+            "m_Translate": [14, [-3.013916, 0.5148925, -2.559143]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 369],
+            "m_PrefabName": [12, "prp_hay_cube_a"],
+            "m_Rotate": [14, [179.9999847, -13.4802246, 179.9999542]],
+            "m_Scale": [14, [0.7616276, 0.7616276, 0.7616285]],
+            "m_Translate": [14, [-4.3500976, 0.345066, -2.5061035]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_IsolateConfigurations": [11, true],
+            "m_PcId": [6, 371],
+            "m_PrefabName": [12, "decal_flat_round_a"],
+            "m_PresetNames": [12, "Decal_flat_skin;Hay_a"],
+            "m_Rotate": [14, [-179.9998474, 63.0002555, 179.9998016]],
+            "m_Scale": [14, [0.8906248, 0.8906236, 0.8906239]],
+            "m_Translate": [14, [-4.2285156, 0.331642, -2.2608032]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 374],
+            "m_PrefabName": [12, "pa_sur_fence_1x_b"],
+            "m_Rotate": [14, [-98.7217636, 83.7839431, 100.089096]],
+            "m_Translate": [14, [-2.6360282, -0.1235093, 3.6779479]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 377],
+            "m_PrefabName": [12, "pa_sur_fence_1x_b"],
+            "m_Rotate": [14, [-0.1522842, -0.5358725, 0.9952198]],
+            "m_Translate": [14, [2.1606979, -0.0758707, 2.6463317]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 378],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-90.0824966, 83.9999771, 90.0829467]],
+            "m_Translate": [14, [-2.6553153, -0.084949, 6.6150207]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 380],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000035, 0.508678, 0.0000546]],
+            "m_Translate": [14, [5.0507106, -0.0925806, 2.6362304]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 381],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [-179.9990692, 88.0197906, 179.9990539]],
+            "m_Scale": [14, [0.6997457, 0.6997447, 0.6997448]],
+            "m_Translate": [14, [1.0626467, 0.2383053, 2.4006042]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 382],
+            "m_PrefabName": [12, "prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9940795, 89.5194854, 179.9940795]],
+            "m_Scale": [14, [1.1400008, 1.1400001, 1.1399991]],
+            "m_Translate": [14, [-1.9190634, 0.2217956, -1.7869261]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 383],
+            "m_PrefabName": [12, "prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9961547, 89.5194854, 179.9961242]],
+            "m_Scale": [14, [1.1400008, 1.1399997, 1.1399991]],
+            "m_Translate": [14, [-1.8924255, 0.7792909, -1.8603514]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.5, 0.4999999, 0.5000004]],
+            "m_PcId": [6, 384],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Rotate": [14, [179.9999847, 1.0197972, 179.9999542]],
+            "m_Scale": [14, [12.9418296, 1.293419, 0.5046529]],
+            "m_Translate": [14, [0.4975585, 3.7421379, 2.9668579]]
+          },
+          "Fields": {
+            "m_Height": "1.000000",
+            "m_HelperNavmeshFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.4999999, 0.0, 0.5, 0.4999999, 0.5000004]],
+            "m_PcId": [6, 385],
+            "m_PrefabName": [12, "navmesh_area"],
+            "m_Rotate": [14, [179.9999847, 0.5197904, 179.9999542]],
+            "m_Scale": [14, [10.7536735, 1.1884156, 0.4418596]],
+            "m_Translate": [14, [-0.3298338, 6.0407943, 1.3029785]]
+          },
+          "Fields": {
+            "m_Height": "1.000000",
+            "m_HelperNavmeshFlags": "32"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 386],
+            "m_PrefabName": [12, "cardboard_c"],
+            "m_Rotate": [14, [-177.4084014, -15.3977003, 179.1903839]],
+            "m_Scale": [14, [1.19, 1.1899992, 1.1900016]],
+            "m_Translate": [14, [-2.890625, 0.3975524, -2.5867919]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "int_bazar_platform_a_barriers"],
+            "m_PcId": [6, 415],
+            "m_PrefabName": [12, "int_bazar_platform_a_barriers"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Scale": [14, [1.0, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [-3.1442871, 1.4751013, 3.6345825]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0072238, 0.3166789, -0.0514947, 0.3523895, 0.3085487, 0.0289251]],
+            "m_Name": [12, "APE_bazaar_interior_animals"],
+            "m_PcId": [6, 416],
+            "m_PrefabName": [12, "audiopointemitter"],
+            "m_Rotate": [14, [179.9999694, -29.9802455, 179.9999389]],
+            "m_Scale": [14, [1.0, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [3.3000488, 0.2217977, 0.6647949]]
+          },
+          "Fields": {
+            "EventName": "sfx_farm_animals_loop"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 421],
+            "m_PrefabName": [12, "prp_plastic_box_b"],
+            "m_Rotate": [14, [179.9999847, -78.5000305, -180.0]],
+            "m_Translate": [14, [-6.8210449, 3.7537574, -0.5032348]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 422],
+            "m_PrefabName": [12, "anim_multi_mesh_goat_02_loop_01_collision"],
+            "m_Rotate": [14, [-179.9999847, 25.0277957, 179.9999389]],
+            "m_Scale": [14, [1.0, 1.0000002, 1.0000014]],
+            "m_Translate": [14, [2.1784667, 0.2147635, 0.1212768]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 423],
+            "m_PrefabName": [12, "anim_multi_mesh_goat_02_loop_01_collision"],
+            "m_Rotate": [14, [179.9999542, -29.9722862, 179.9999389]],
+            "m_Scale": [14, [1.0000004, 1.0000002, 1.0000007]],
+            "m_Translate": [14, [4.6171875, 0.2147673, 0.2602539]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "SpawnType": {
+        "User": "2"
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.634549, 0.5940559, 0.0, 0.6453401, 0.7070692, 1.3265002]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_prison_bed_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [1.2297358, 0.6362, -1.758728]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000049, -0.2390854, 0.0000965, 0.0685645, 0.2490301, 0.0654787]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;wind_bells_a"],
+            "m_Rotate": [14, [0.0000249, 30.1865139, 9.999999974752428e-7]],
+            "m_Scale": [14, [1.33, 1.33, 1.33]],
+            "m_Translate": [14, [0.7515869, 0.6362, -0.067261]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "frn_old_cabinet_a_hub"],
+            "m_Rotate": [14, [179.9209899, 63.8133354, -179.4302978]],
+            "m_Scale": [14, [0.925926, 0.925926, 0.925926]],
+            "m_Translate": [14, [-0.196777, -1.54567, 2.1436769]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "frn_wooden_box_shelf_a"],
+            "m_Rotate": [14, [90.0000305, -0.0000019, -30.1865158]],
+            "m_Translate": [14, [-1.242676, -0.6700059, 0.014832]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000269, 0.0106382, -0.0000526, 0.0294694, 1.0734097, 0.0294694]],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;chain_a"],
+            "m_Rotate": [14, [0.000027, -59.8134841, 0.0000019]],
+            "m_Scale": [14, [0.892857, 0.892857, 0.892857]],
+            "m_Translate": [14, [-0.5418698, 0.943283, -0.3324579]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.3991928, 0.7457466, -0.9584921, 1.5759899, 0.7537219, 1.0254623]],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_fence_2x_b_cor"],
+            "m_Rotate": [14, [0.000024, 63.1864967, 0.0000016]],
+            "m_Scale": [14, [0.5882353, 0.588235, 0.5882353]],
+            "m_Translate": [14, [0.4614256, -1.5501172, 0.9370725]]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0118744, 0.1837214, 0.0209359, 0.0811888, 0.186545, 0.1024241]],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;electric_wench_rope_hook"],
+            "m_Rotate": [14, [0.0000242, 59.6865196, 0.0000016]],
+            "m_Translate": [14, [0.7490233, -0.7525863, -1.5458984]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0644184, -0.0025743, 0.0064859, 0.2763274, 0.7589284, 0.0411546]],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;chain_b"],
+            "m_Rotate": [14, [0.0000252, 30.1865177, 9.712443898024504e-7]],
+            "m_Translate": [14, [0.9372556, 0.3871001, -1.6131589]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.3333691, 0.0, 0.05, 0.34, 0.05]],
+            "m_Name": [12, "light_portable_hanging_lamp"],
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Lamp Preset;prp_hand_lamp_a"],
+            "m_Rotate": [14, [0.0000187, 83.1865234, 0.000007]],
+            "m_Translate": [14, [-0.5437011, -0.6578598, -0.3356322]]
+          },
+          "Fields": {
+            "UserData": "4294925055 4160749696 0 0",
+            "m_ExternalLights": "",
+            "m_SoundEvent": "sfx_uv_lamp_small_working_loop"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004999, -0.3901306, 0.016777, 0.3605, 0.4606243, 0.0167771]],
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_canteen_photo_memorial_a"],
+            "m_Rotate": [14, [0.0000252, 30.1865139, 9.71244503489288e-7]],
+            "m_Scale": [14, [1.07, 1.07, 1.07]],
+            "m_Translate": [14, [2.0915527, 0.1731033, -2.3643798]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0335319, -0.0259962, -0.0028563, 0.8048992, 0.5285681, 0.0345719]],
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;chain_c"],
+            "m_Rotate": [14, [0.0000254, 24.1865215, 9.203264426105307e-7]],
+            "m_Translate": [14, [1.5709228, 0.495384, -1.9088133]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0000269, 0.0106382, 0.0000388, 0.0294694, 1.07341, 0.0294999]],
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;chain_a"],
+            "m_Rotate": [14, [0.0000271, -59.8134918, 0.0000016]],
+            "m_Translate": [14, [0.7609863, 0.6403427, -1.5387573]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0809955, 0.7481293, 0.0144883, 1.0477428, 0.7507716, 0.0727328]],
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_fence_1x_b"],
+            "m_Rotate": [14, [0.0000252, 30.1864986, 9.712441624287749e-7]],
+            "m_Scale": [14, [0.588235, 0.588235, 0.588235]],
+            "m_Translate": [14, [-0.0659179, -1.5501172, 1.1883542]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0058361, 0.1108329, 0.0004999, 0.2325655, 0.1108329, 0.1566126]],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_plastic_crate_a"],
+            "m_Rotate": [14, [0.0000266, -49.8135223, 0.0000013]],
+            "m_Translate": [14, [0.2529295, -0.7099456, 2.1257934]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1105329, -0.498348, 0.0924058, 0.3569821, 0.576736, 0.3819268]],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;rope_d"],
+            "m_Rotate": [14, [0.0000266, -49.3134727, 0.0000012]],
+            "m_Scale": [14, [0.7030369, 0.7030368, 0.7030369]],
+            "m_Translate": [14, [0.2356567, -0.7018661, 1.7437744]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0010425, 0.025453, -0.0151713, 0.1293363, 0.0266117, 0.1630311]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bike_lock"],
+            "m_Rotate": [14, [-55.9769325, 11.4087209, 118.3953857]],
+            "m_Translate": [14, [0.5637207, -0.9468383, 2.1066284]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "prp_wooden_box_b_signs_a"],
+            "m_Rotate": [14, [0.0000283, -64.3134155, 0.0000027]],
+            "m_Translate": [14, [-0.6444091, -1.5501172, 0.9500731]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "prp_wooden_box_a"],
+            "m_Rotate": [14, [0.0000271, -58.8135375, 0.0000016]],
+            "m_Translate": [14, [-1.0432126, -1.5501172, 0.2930296]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.25063, 0.0028732, 0.6290123, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [0.0000266, 7.686532, 8.540357043784752e-7]],
+            "m_Translate": [14, [1.5057373, 1.2024841, -1.0821533]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069794, 0.2506301, 0.0028732, 0.6290125, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [4.4505615, 0.7881773, -2.8526]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0027816, 0.6290123, 0.2547079, 0.3549731]],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 64.8134613, 180.0]],
+            "m_Translate": [14, [3.7752685, 0.7881773, -2.5437622]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0027816, 0.6290123, 0.2547079, 0.3549731]],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 56.8134651, 179.0]],
+            "m_Translate": [14, [3.1833496, 0.7881773, -2.2454223]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.25063, 0.0027816, 0.6290123, 0.2547079, 0.3549731]],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 56.8134651, -180.0]],
+            "m_Translate": [14, [3.1833496, 1.2444076, -2.2454223]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0027816, 0.6290123, 0.2547079, 0.3549731]],
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 64.8134613, 180.0]],
+            "m_Translate": [14, [3.7752685, 1.2444076, -2.5437622]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0028732, 0.6290124, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 41],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [4.4505615, 1.2444076, -2.8526]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506272, 0.0027816, 0.6290123, 0.2547089, 0.3549731]],
+            "m_PcId": [6, 42],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [0.0000263, 36.186531, -0.999997]],
+            "m_Translate": [14, [0.631958, 0.7881851, -1.1260986]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0070717, 0.2506301, 0.0028732, 0.6290428, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 43],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 64.8134613, 180.0]],
+            "m_Translate": [14, [1.6621092, 0.7462539, -1.2127075]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0028732, 0.6290124, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 44],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [2.3374023, 1.2024841, -1.5214842]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0069801, 0.2506301, 0.0028732, 0.6290124, 0.2547079, 0.3549426]],
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;prp_bazar_hay_sheaf_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [2.3374023, 0.7462539, -1.5214842]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.6345489, 0.5940559, 0.0, 0.64534, 0.7070692, 1.3265]],
+            "m_PcId": [6, 48],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_prison_bed_a"],
+            "m_Rotate": [14, [-179.9999847, 59.8134803, 180.0]],
+            "m_Translate": [14, [3.5618896, 0.6361997, -3.1153564]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0386793, -0.3331758, -0.0006785, 0.7513278, 0.3429358, 0.0733606]],
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_cloth_shreds_e"],
+            "m_Rotate": [14, [0.0000252, 30.1865177, 9.712443898024504e-7]],
+            "m_Translate": [14, [3.1468505, 0.6961364, -1.4404294]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0321476, -0.3126898, -0.0059098, 0.884162, 0.3275799, 0.0681236]],
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;pa_cloth_shreds_g"],
+            "m_Rotate": [14, [0.0000252, 30.1865177, 9.712443898024504e-7]],
+            "m_Translate": [14, [4.4683837, 0.6597669, -2.1798706]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "nat_plantbox_hay_a_dead"],
+            "m_Rotate": [14, [0.0000271, -59.8134841, 0.0000016]],
+            "m_Scale": [14, [0.4255318, 0.4255318, 0.4255318]],
+            "m_Translate": [14, [-0.4348143, -1.5501172, 0.0839233]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "prp_bucket_a"],
+            "m_Rotate": [14, [0.0000252, 30.1865177, 9.712443898024504e-7]],
+            "m_Translate": [14, [-0.088867, -1.5501172, -0.6663817]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0050226, -0.1472754, -0.9325687, 0.7909259, 0.1482755, 0.9595329]],
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;canvas_sail_rectangle_a"],
+            "m_Rotate": [14, [145.1959228, -25.530899, 163.3219146]],
+            "m_Scale": [14, [1.2699997, 1.2700003, 1.2700003]],
+            "m_Translate": [14, [4.736206, 0.7571411, -2.34375]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0050225, -0.1472753, -0.9325687, 0.7909259, 0.1482755, 0.9595329]],
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;canvas_sail_rectangle_a"],
+            "m_Rotate": [14, [145.1959228, -25.5308952, 163.3219146]],
+            "m_Scale": [14, [0.5474135, 1.2700004, 1.2700004]],
+            "m_Translate": [14, [2.5793457, 0.7571411, -1.0891113]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0007338, 0.1313297, -0.0181649, 0.1168973, 0.1322301, 0.1006045]],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;frn_industrial_lamp_desk_b"],
+            "m_Rotate": [14, [179.9999694, -75.6865386, 179.9999237]],
+            "m_Translate": [14, [4.2973632, -0.640438, -1.5789184]]
+          },
+          "Fields": {
+            "SkinName": "ON_UV"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 0.0427894, 0.0005, 0.0409781, 0.0453589, 0.0283416]],
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;string_hook_a"],
+            "m_Rotate": [14, [-89.9999694, 0.0000035, 33.1865196]],
+            "m_Translate": [14, [3.6431884, 0.6351394, 0.6953125]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0005, 0.0427894, 0.0005, 0.0409781, 0.0453589, 0.0283416]],
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;string_hook_a"],
+            "m_Rotate": [14, [0.0000177, 45.1865196, 180.0]],
+            "m_Translate": [14, [-0.522827, 1.9399869, -0.333496]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0010786, 0.1702784, 0.0063301, 0.0953849, 0.170277, 0.0843217]],
+            "m_Name": [12, "light_lantern_omni"],
+            "m_PcId": [6, 60],
+            "m_PrefabName": [12, "lamp"],
+            "m_PresetNames": [12, "Lamp Preset;lamp_old_b;Flicker;Flicker_fire_barrel_a"],
+            "m_Rotate": [14, [1.4048924, -51.8807373, -1.8573919]],
+            "m_Translate": [14, [3.5954589, 0.3074263, 0.6168823]]
+          },
+          "Fields": {
+            "UserData": "4294939647 4160749696 0 0",
+            "m_ExternalLights": ""
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "crate_pallet_set_a"],
+            "m_Rotate": [14, [-7.526339373953306e-8, -60.0000991, 5.4337977672958007e-8]],
+            "m_Translate": [14, [4.4955434, -1.4232997, -2.5632669]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 62],
+            "m_PrefabName": [12, "crate_pallet_set_b"],
+            "m_Rotate": [14, [-7.526339373953306e-8, -60.0000991, 5.4337977672958007e-8]],
+            "m_Translate": [14, [5.0607805, -1.4232993, -1.3159382]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 63],
+            "m_PrefabName": [12, "prps_attic_pallets_deco_c"],
+            "m_Rotate": [14, [-7.526339373953306e-8, -60.0000991, 5.4337977672958007e-8]],
+            "m_Translate": [14, [2.0902557, -1.4690103, -1.6965892]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 64],
+            "m_PrefabName": [12, "urb_pallet_wood_a"],
+            "m_Rotate": [14, [-7.526339373953306e-8, -60.0000991, 5.4337977672958007e-8]],
+            "m_Translate": [14, [1.7873249, -1.4666213, -1.0912752]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "urb_pallet_wood_a"],
+            "m_Rotate": [14, [-2.0925050137066138e-8, -75.0001144, 1.0497328162273334e-7]],
+            "m_Translate": [14, [1.7272748, -1.3173871, -1.1396472]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 66],
+            "m_PrefabName": [12, "urb_pallet_wood_a"],
+            "m_Rotate": [14, [-7.526339373953306e-8, -60.0000991, 5.4337977672958007e-8]],
+            "m_Translate": [14, [1.9189281, -1.1828336, -1.178385]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

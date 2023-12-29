@@ -1,0 +1,67 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "loc_pkmetro_ailife_initial_static_m_guards_weapons_variant1"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_static_m_guards_weapons"],
+            "m_Rotate": [14, [179.9999847, -14.5000333, 179.9999847]],
+            "m_Translate": [14, [-7.7757568, 0.0020828, 6.7955322]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "loc_pkmetro_ailife_initial_static_m_guards_weapons_variant2"],
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_static_m_guards_weapons_variant2"],
+            "m_Rotate": [14, [-0.0, 60.5000038, -0.0]],
+            "m_Translate": [14, [0.2883298, 0.0020828, 10.2862548]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "loc_pkmetro_ailife_initial_static_m_guards_weapons_variant_Spawner"],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Spawn;PK_man_Hub_base_spear_2+1base"],
+            "m_Translate": [14, [-4.3662109, -0.0037879, 8.7800292]]
+          },
+          "Fields": {
+            "m_ActivityHourEnd": "14.000000",
+            "m_ActivityHourStart": "9.000000",
+            "m_SelfActive": "1",
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~9/~17;/~16/~2;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Spear_guard"],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_static_m_guard_spear_man"],
+            "m_Translate": [14, [-2.2763671, 0.0044057, -1.5061035]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Guard_1h"],
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "loc_pkmetro_ailife_initial_static_m_guard_1h"],
+            "m_Translate": [14, [-4.5128173, -0.0037879, 6.833496]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

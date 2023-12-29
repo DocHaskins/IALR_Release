@@ -1,0 +1,41 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Extents": {},
+      "SpawnType": {},
+      "DetailSpawnType": {},
+      "CustomExteriorsDistance": {},
+      "PrefabInterfaces": [],
+      "Interface": {},
+      "Bindings": {
+        "Properties": [],
+        "Pipes": []
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "mesh",
+            "m_PresetNames": "Meshes;veh_suv_b",
+            "m_EntityComponentsExtents": "0.002253 0.818268 -0.001194 0.969462 0.835494 2.345851",
+            "m_PcId": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "car_looting_scenario",
+            "m_EntityComponentsExtents": "0.000005 0.000005 0.177975 0.500005 0.500005 0.677978",
+            "m_Translate": "1.410141 0.000000 -4.534668",
+            "m_PcId": "4"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "Hooks": [],
+      "Nodes": []
+    }
+  }
+}

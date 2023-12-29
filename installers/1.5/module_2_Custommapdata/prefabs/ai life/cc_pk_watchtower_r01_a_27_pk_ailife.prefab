@@ -1,0 +1,156 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A_01_Scenario_02"],
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-179.9999084, 60.9997634, 179.9999542]],
+            "m_Translate": [14, [9.9125976, 0.0266075, -4.001892]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_distance_citizen_m_hmf_spear_guard_patrol_01_idle_01",
+            
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "StaticAgenda_01"],
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Agenda_logic;HUB_Basic_Agenda;Replication;Turned On;Spawn;OW_Peacekeeper_Spear;Activation - distance;Exterior"],
+            "m_Rotate": [14, [-0.0, 89.0002441, 0.0]],
+            "m_Translate": [14, [3.3679199, 0.1221121, -7.697998]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~26;/~22;/~37;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A_01_Scenario_01"],
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999694, 15.9997625, -179.9999847]],
+            "m_Translate": [14, [5.9089355, 0.0346755, -7.1386108]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_distance_citizen_m_hmf_spear_guard_patrol_01_idle_01",
+            
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "StaticAgenda_02"],
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Agenda_logic;HUB_Basic_Agenda;Replication;Turned On;Spawn;OW_Peacekeeper_Two_Handed;Activation - distance;Exterior"],
+            "m_Rotate": [14, [-0.0, 89.0002441, 0.0]],
+            "m_Translate": [14, [3.2341308, 0.0010719, -2.9071044]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~29;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A_02_Scenario_01"],
+            "m_PcId": [6, 29],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [179.9999847, -6.5001492, 179.9999847]],
+            "m_Translate": [14, [8.1113281, -0.0011978, -8.5909423]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_distance_citizen_m_pk_stand_combat_cleaning_1h_weapon_01",
+            
+            "m_MaxExecutionTime": "60.000000",
+            "m_MinExecutionTime": "25.000000",
+            "m_TrackingMode": "Eyes"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A_01_Scenario_03"],
+            "m_PcId": [6, 37],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-179.9999847, -29.0002403, -179.9999847]],
+            "m_Translate": [14, [-3.2329101, 0.033123, -6.3231201]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_distance_citizen_m_hmf_spear_guard_patrol_01_idle_01",
+            
+            "m_MaxExecutionTime": "1.000000",
+            "m_MinExecutionTime": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "A_04_Scenario_01"],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day"],
+            "m_Rotate": [14, [-0.0000163, -8.4998579, 0.0000223]],
+            "m_Translate": [14, [-8.1245117, 0.0128629, 2.9710083]]
+          },
+          "Fields": {
+            "m_BehaviorName": "multiactivity_distance_citizen_m_pk_stand_combat_cleaning_1h_weapon_01",
+            
+            "m_MaxExecutionTime": "60.000000",
+            "m_MinExecutionTime": "25.000000",
+            "m_TrackingMode": "Eyes"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "StaticAgenda_04"],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Not Night;Agenda_logic;HUB_Basic_Agenda;Replication;Turned On;Spawn;OW_Peacekeeper_One_Handed;Activation - distance;Exterior"],
+            "m_Rotate": [14, [-0.0, 89.0004425, 0.0]],
+            "m_Translate": [14, [-7.3347167, 0.0010793, 3.2933959]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~38;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

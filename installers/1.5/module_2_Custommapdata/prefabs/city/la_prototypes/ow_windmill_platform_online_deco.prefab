@@ -1,0 +1,278 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;city_roof;"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "ow_windmill_platform_offline_deco_common"],
+            "m_Translate": [14, [0.0, 0.0000079, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bridge_Start_01"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "ow_windmill_platform_bridge_start_on"],
+            "m_Rotate": [14, [0.0, -90.0, -0.000045]],
+            "m_Translate": [14, [-45.399414, 1.6137907, -34.6060485]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Bridge_Start_02"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "ow_windmill_platform_bridge_start_on"],
+            "m_Rotate": [14, [0.0000199, 0.0, -0.0000129]],
+            "m_Translate": [14, [-9.9618835, 1.6138087, -0.9960939]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "bld_pa_a_roof_str_mid_2x1"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-43.5200195, 0.13073, -30.8929748]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "bld_pa_a_roof_str_mid_2x1"],
+            "m_Rotate": [14, [-90.0, -0.0000049, 90.0]],
+            "m_Translate": [14, [-43.8816528, -0.6245368, -30.8929748]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "pa_bld_ce_d_roof_str_mid_2x_a_end_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000109]],
+            "m_Seed": [6, 1623675017],
+            "m_Translate": [14, [-45.2306518, -3.9928684, -32.2169189]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "pa_bld_ce_d_roof_str_mid_2x_a_end_a"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0000109]],
+            "m_Seed": [6, 1623675017],
+            "m_Translate": [14, [-45.2307128, -3.9928703, -29.4968261]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "bld_pa_b_roof_str_mid_2x"],
+            "m_Rotate": [14, [0.0, 90.0, -0.0000223]],
+            "m_Scale": [14, [0.8136383, 0.8136382, 0.8136385]],
+            "m_Translate": [14, [-29.5419311, 2.1497955, -23.300415]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "bld_pa_a_roof_str_mid_4x2"],
+            "m_Rotate": [14, [179.9999847, -0.0000941, 179.9999847]],
+            "m_Scale": [14, [0.8136383, 0.8136382, 0.8136382]],
+            "m_Translate": [14, [-34.2059631, 2.1497955, -23.300415]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "bld_pa_b_roof_str_mid_2x"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Scale": [14, [0.8136383, 0.8136382, 0.8136385]],
+            "m_Translate": [14, [-38.6783447, 2.1497955, -23.300415]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "bld_pa_a_roof_str_mid_4x4"],
+            "m_Rotate": [14, [179.9999847, 0.499904, 179.9999847]],
+            "m_Scale": [14, [0.9557523, 0.955752, 0.9557526]],
+            "m_Translate": [14, [-17.4524536, 0.0864638, -7.7297363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_Rotate": [14, [179.9999847, 59.999916, 179.9999847]],
+            "m_Scale": [14, [1.4699996, 1.47, 1.47]],
+            "m_Translate": [14, [-18.6003417, 0.3289566, -6.265747]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_Rotate": [14, [179.9999389, -68.0000915, 179.9999694]],
+            "m_Scale": [14, [1.4699999, 1.47, 1.4699999]],
+            "m_Translate": [14, [-19.0688781, 0.3775711, -10.5260009]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "decal_flat_roundbig_a"],
+            "m_Rotate": [14, [-0.0000388, 33.5000953, 0.0000161]],
+            "m_Scale": [14, [1.4699999, 1.4699999, 1.4699999]],
+            "m_Translate": [14, [-15.365509, 0.3775711, -6.927124]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "bld_pa_a_roof_str_mid_2x2"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0000223]],
+            "m_Scale": [14, [0.7974336, 0.7974333, 0.7974336]],
+            "m_Translate": [14, [-41.1705017, 0.220741, -37.6901855]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "bdp_modern_roof_lootenc_str_2x1_a"],
+            "m_PresetNames": [12, "Loot_Enc_Type;hideout_bushes"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-8.2754516, 0.3199996, -10.1081542]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "bdp_modern_roof_lootenc_str_2x1_a"],
+            "m_PresetNames": [12, "Loot_Enc_Type;hideout_bushes"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [-8.5954589, 0.3199996, -11.0681152]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "bdp_modern_roof_lootenc_str_2x1_a"],
+            "m_PresetNames": [12, "Loot_Enc_Type;hideout_bushes"],
+            "m_Translate": [14, [-7.9554443, 0.3199996, -10.1083984]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "bdp_modern_roof_lootenc_str_2x1_a"],
+            "m_PresetNames": [12, "Loot_Enc_Type;hideout_bushes"],
+            "m_Rotate": [14, [-180.0, 0.0000098, -180.0]],
+            "m_Translate": [14, [-8.2754516, 0.3199996, -11.0683593]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "bdp_modern_roof_lootenc_str_2x1_a"],
+            "m_PresetNames": [12, "Loot_Enc_Type;hideout_bushes"],
+            "m_Rotate": [14, [-180.0, 0.0000098, -180.0]],
+            "m_Translate": [14, [-31.0864868, 0.2682799, -25.229248]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 26],
+            "m_PrefabName": [12, "bdp_connector_zipline_start_chimney"],
+            "m_Rotate": [14, [-173.9504547, -23.9058685, -176.7119598]],
+            "m_Seed": [6, 4096458418],
+            "m_Translate": [14, [-17.366455, 3.779747, -4.8947753]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 28],
+            "m_PrefabName": [12, "bdp_connector_zipline_steel"],
+            "m_Rotate": [14, [40.3373565, 25.9574928, -20.3896522]],
+            "m_Seed": [6, 2284633805],
+            "m_Translate": [14, [-35.2089233, 27.618576, -32.8189697]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 33],
+            "m_PrefabName": [12, "bdp_connector_zipline_start_chimney"],
+            "m_Rotate": [14, [-0.0000079, -44.9999008, 0.0000042]],
+            "m_Seed": [6, 4096458418],
+            "m_Translate": [14, [-35.2089233, 27.618576, -32.8189697]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 35],
+            "m_PrefabName": [12, "bdp_connector_zipline_steel"],
+            "m_Rotate": [14, [-139.5302734, -24.8465709, -159.5142822]],
+            "m_Seed": [6, 2284633805],
+            "m_Translate": [14, [-17.3671875, 3.7665557, -4.895874]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 36],
+            "m_PrefabName": [12, "roofs_connector_zipline_10m_quests"],
+            "m_Rotate": [14, [40.5291748, 25.9645786, -20.5216732]],
+            "m_Scale": [14, [1.0000001, 1.0000001, 3.7100009]],
+            "m_Translate": [14, [-34.3830261, 26.5092468, -31.5256347]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000495, 1.0, -0.0051069, 5.0000495, 1.0, 5.0051069]],
+            "m_PcId": [6, 38],
+            "m_PrefabName": [12, "encounter_spawner_box"],
+            "m_PresetNames": [12, "Enable_Spawner;True;Size;10x10;Type;Road"],
+            "m_Translate": [14, [-4.0310449, 0.0, -10.8607568]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000495, 1.0, -0.0051069, 5.0000495, 1.0, 5.0051069]],
+            "m_PcId": [6, 39],
+            "m_PrefabName": [12, "encounter_spawner_box"],
+            "m_PresetNames": [12, "Size;10x10;Enable_Spawner;True;Type;Roof"],
+            "m_Translate": [14, [-34.9239654, 0.3612496, -34.5231781]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

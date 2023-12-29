@@ -1,0 +1,93 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Extents": {},
+      "SpawnType": {},
+      "DetailSpawnType": {},
+      "CustomExteriorsDistance": {},
+      "PrefabInterfaces": [],
+      "Interface": {},
+      "Bindings": {
+        "Properties": [],
+        "Pipes": []
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "RP",
+            "m_PrefabName": "restingplace",
+            "m_EntityComponentsExtents": "-0.068678 0.072808 0.008106 1.037284 0.087250 0.345690",
+            "m_Translate": "-4.060944 -0.105255 -4.063721",
+            "m_Rotate": "0.000005 75.000023 -0.000005",
+            "m_PcId": "149"
+          },
+          "Fields": {
+            "MeshName": "sleeping_bag_a.msh",
+            "cbs::IEnable::m_State": "0",
+            "m_VertForwardDeviation": "1.000000"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "S",
+            "m_PrefabName": "sanctuary",
+            "m_EntityComponentsExtents": "-0.161896 0.267669 -0.088854 1.047432 0.767662 0.995642",
+            "m_Translate": "1.443710 -7.227291 -1.592896",
+            "m_Rotate": "0.000000 60.000004 -0.000000",
+            "m_Scale": "10.622495 10.622496 10.622496",
+            "m_PcId": "147"
+          },
+          "Fields": {
+            "m_AreaPoints": "-1.209328 -0.499993 -0.375271;-0.755039 -0.490856 -0.912571;-0.043083 -0.489771 -1.084496;0.616802 -0.488296 -0.813034;0.885536 -0.488272 0.029503;0.381477 -0.488267 0.826839;-0.389397 -0.488277 0.906788;-1.085052 -0.488286 0.570797;",
+            "m_EnableEnterNotifying": "0",
+            "m_AreaHeight": "1.523598",
+            "cbs::IEnable::m_State": "0",
+            "m_IsSpawnBlocker": "1",
+            "m_DialogTurnsOffFlashlight": "0",
+            "m_DisableClimbing": "0",
+            "m_DisableJumping": "0",
+            "m_EnableEnterNotifying": "0",
+            "m_HideWeapon": "0",
+            "m_MaxPlayerSpeed": "6.000000",
+            "m_ReduceAutostep": "0"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "Respawnpoint",
+            "m_PrefabName": "spawnpoint",
+            "m_EntityComponentsExtents": "-0.000227 1.451283 0.218990 0.067994 1.495648 0.262777",
+            "m_MoveToDynamicRoot": "1",
+            "m_AlwaysSpawned": "1",
+            "m_Translate": "-4.620407 -0.105255 -1.636536",
+            "m_Rotate": "0.000000 90.000000 -0.000027",
+            "m_PcId": "156"
+          },
+          "Fields": {
+            "cbs::IEnable::m_State": "0",
+            "m_Respawn": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_Name": "CB",
+            "m_PrefabName": "crafting_bench_a",
+            "m_Translate": "-6.013596 -0.118561 0.321167",
+            "m_Rotate": "0.000129 -75.000023 0.000114",
+            "m_PcId": "148"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "ProductionState": {},
+      "Hooks": [],
+      "Nodes": []
+    }
+  }
+}

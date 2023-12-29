@@ -1,0 +1,28 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_PrefabName": [12, "ow_windmill_safehouse_online_b"],
+            "m_Rotate": [14, [0.0, -90.0, -0.0000085]],
+            "m_Translate": [14, [-10.5722808, 1.8259433, 14.7713613]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "ow_windmill_safehouse_default_online_deco"]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

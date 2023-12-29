@@ -1,0 +1,21 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Agenda"],
+            "m_PcId": [6, 52],
+            "m_PrefabName": [12, "cc_pk_watchtower_r01_a_04_pk_ailife_sa_01"],
+            "m_Translate": [14, [1.9999847, -1.043081283569336e-7, -6.1600036]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0083266, 0.4338608, -0.023251, 0.7485818, 0.7734665, 1.9630064]],
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;bld_pa_a_flowerbed_2x_b"]
+          },
+          "Fields": {
+            "m_NavmeshFlags": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_dead_square;"],
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "nat_ivy_roofblend_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-92.4129333, -67.4789505, -92.6118774]],
+            "m_Scale": [14, [1.1200007, 1.12, 1.1199997]],
+            "m_Translate": [14, [-0.1418457, 0.8984756, -0.1028442]]
+          },
+          "Fields": {
+            "SELECTOR": "visible",
+            "SkinName": "pumpkin_green"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_dead_square;"],
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "nat_ivy_roofblend_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-87.4628372, 68.4778747, 87.2729339]],
+            "m_Scale": [14, [1.1200007, 1.12, 1.1199998]],
+            "m_Translate": [14, [0.0625, 0.8887977, -0.0133666]]
+          },
+          "Fields": {
+            "SkinName": "pumpkin_green"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

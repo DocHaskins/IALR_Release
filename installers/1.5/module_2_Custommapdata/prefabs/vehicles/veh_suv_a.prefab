@@ -1,0 +1,57 @@
+{
+  "__filename__": {
+    "RuntimeData": {
+      "Extents": {},
+      "SpawnType": {},
+      "DetailSpawnType": {},
+      "CustomExteriorsDistance": {},
+      "PrefabInterfaces": [],
+      "Interface": {},
+      "Bindings": {
+        "Properties": [],
+        "Pipes": []
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "mesh",
+            "m_PresetNames": "Meshes;veh_suv_a",
+            "m_EntityComponentsExtents": "0.000005 0.778492 -0.015903 1.019988 0.782717 2.233460",
+            "m_PcId": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "car_looting_scenario",
+            "m_EntityComponentsExtents": "0.000005 0.000005 0.177975 0.500005 0.500005 0.677977",
+            "m_Translate": "1.321411 0.000000 -4.609009",
+            "m_PcId": "4"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFields": {
+            "m_PrefabName": "light",
+            "m_PresetNames": "Light;Dim box",
+            "m_EntityComponentsExtents": "0.000000 0.000000 0.000000 0.060606 0.056117 0.035651",
+            "m_Translate": "-0.058655 -0.041644 -0.199829",
+            "m_Rotate": "0.000014 0.000017 -0.000033",
+            "m_Scale": "1.650000 1.782000 2.805001",
+            "m_PcId": "5"
+          },
+          "Fields": {
+            "Color": "0.631373 0.631373 0.631373",
+            "Intensity": "0.600000"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "1",
+      "Hooks": [],
+      "Nodes": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0004997, 2.8798441, 0.1341806, 2.8805, 2.8811554, 0.0052499]],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;hub_pk_gate_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "ce_chamber_platform_3x_a"],
+            "m_Rotate": [14, [-0.0, -0.0000092, -0.0]],
+            "m_Scale": [14, [0.9000002, 0.9000002, 0.9000002]],
+            "m_Translate": [14, [0.3474588, 6.4829611, -0.621519]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

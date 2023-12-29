@@ -1,0 +1,151 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS1_single_static_w_stand_list_checking_01"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000418, 57.9999618, -0.0000864]],
+            "m_Translate": [14, [-4.0540771, -0.0476378, 3.5019531]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_list_checking_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS1_single_static_w_stand_smoking_loop_01"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.000013, -65.000061, -0.0000314]],
+            "m_Translate": [14, [7.3461914, -0.0335235, -7.5194702]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_smoking_loop_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS1single_static_w_stand_smoking_loop_01"],
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000223, -5.0000495, -0.0000495]],
+            "m_Translate": [14, [-6.5952148, -0.0946884, 4.736267]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_list_checking_01"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_single_static_w_stand_shopping_01_client_02"],
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [-0.0, 30.0000076, -0.0]],
+            "m_Translate": [14, [6.3020019, 0.034161, 4.1275629]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_shopping_01_client_02"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA1"],
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;PK_woman_Hub_worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-5.1882324, -0.0980338, -6.1972656]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~1;/~2;/~3;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_single_static_w_stand_list_checking_01"],
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.0000244, 1.0000344, -0.0000168]],
+            "m_Translate": [14, [-8.1939697, -0.2201271, -7.052185]]
+          },
+          "Fields": {
+            "Flags": "1",
+            "m_BehaviorName": "single_static_w_stand_list_checking_01",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_single_static_w_stand_list_checking_01"],
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [0.000024, -25.9999675, -0.0000211]],
+            "m_Translate": [14, [-42.6284179, -0.012821, -18.1623535]]
+          },
+          "Fields": {
+            "Flags": "0",
+            "m_BehaviorName": "single_static_w_stand_list_checking_01",
+            "m_TrackingMode": "Disabled"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SA2"],
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "static_agenda_with_spawner"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Spawn;PK_woman_Hub_worker_1;Activation - distance;Exterior"],
+            "m_Translate": [14, [-6.9882812, -0.0980338, -6.1972656]]
+          },
+          "Fields": {
+            "m_StaticScenarioChooseMode": "Random",
+            "m_StaticScenarios": "/~7;/~6;/~4;/~9;"
+          },
+          "EmbeddedObject": {
+            "Class": "ActivationStrategyExterior",
+            "DestinationField": "m_OverrideActivationDistanceStrategy"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "SS2_single_static_w_stand_shopping_01_client_01"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "simple_scenario"],
+            "m_PresetNames": [12, "Activation - daytime;Whole Day;Ending Policy;Endless"],
+            "m_Rotate": [14, [-0.0, 68.0000457, -0.0]],
+            "m_Translate": [14, [4.7375488, -0.0244941, -1.8084106]]
+          },
+          "Fields": {
+            "m_BehaviorName": "single_static_w_stand_shopping_01_client_01",
+            "m_MinDistToActiveScenario": "0.500000"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

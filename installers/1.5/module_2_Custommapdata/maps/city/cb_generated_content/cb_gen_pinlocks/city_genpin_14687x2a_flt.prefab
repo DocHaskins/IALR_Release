@@ -1,0 +1,98 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-3.4964628, -4.76837158203125e-7, 1.490489, 4.9017305, 0.5000004, 5.0292391]],
+            "m_Name": [12, "PinlockShape"],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "area"],
+            "m_Rotate": [14, [-0.0, -29.9999961, -0.0]],
+            "m_Scale": [14, [7.1600022, 7.1599998, 7.1600022]],
+            "m_Translate": [14, [6.0299072, -0.960075, -2.3528439]]
+          },
+          "Fields": {
+            "m_AreaPoints": "1.405267 -0.500000 -3.379306;1.404840 -0.500000 6.519728;-8.357941 -0.500000 6.466896;-8.398193 -0.500001 4.790710;-8.022308 -0.500001 4.794151;-7.971680 -0.500001 1.864929;-8.150085 -0.500001 1.828819;-8.157440 -0.500001 -0.451859;-7.138916 -0.500001 -0.465553;-6.897461 -0.500001 -3.538750;"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "fence_color;Park;generic_nature_color;biom_forest_deciduous;"],
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 187],
+            "m_PrefabName": [12, "reg01_market_church_place_fence"],
+            "m_Rotate": [14, [-0.0, 60.0284652, -0.0]],
+            "m_Seed": [6, 151486029]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_forest_deciduous;"],
+            "m_PcId": [6, 203],
+            "m_PrefabName": [12, "reg01_market_church_place_nature"],
+            "m_Rotate": [14, [-0.0, 60.0284652, -0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_forest_deciduous;"],
+            "m_PcId": [6, 213],
+            "m_PrefabName": [12, "reg01_market_church_place_geometry"],
+            "m_Rotate": [14, [-0.0, -0.0000019, -0.0]],
+            "m_Scale": [14, [1.0000089, 1.0, 1.0000089]],
+            "m_Translate": [14, [-21.7916259, -0.7851219, 29.0815429]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 232],
+            "m_PrefabName": [12, "lgt_lantern_hang_noshadow_fx_a"],
+            "m_Rotate": [14, [179.9999847, 13.0481233, -179.9999847]],
+            "m_Scale": [14, [1.0000089, 1.0, 1.0000089]],
+            "m_Translate": [14, [8.2651367, 1.709583, 7.7623291]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "Spawn_Free_zone"],
+            "m_PcId": [6, 238],
+            "m_PrefabName": [12, "reg01_market_church_zones_spawn_free"],
+            "m_Rotate": [14, [-0.0, 59.9803466, -0.0]],
+            "m_Scale": [14, [1.0000077, 1.0, 1.0000089]],
+            "m_Translate": [14, [0.0061038, 0.0, -0.01001]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_forest_deciduous;"],
+            "m_PcId": [6, 240],
+            "m_PrefabName": [12, "reg01_market_place_outside_deco_01"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "logic"],
+            "m_PcId": [6, 241],
+            "m_PrefabName": [12, "reg01_market_church_place_logic"],
+            "m_Rotate": [14, [-0.0, -0.0481259, -0.0]],
+            "m_Scale": [14, [1.0000089, 1.0, 1.0000089]],
+            "m_Translate": [14, [-23.6591796, -0.8466299, 5.0978393]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

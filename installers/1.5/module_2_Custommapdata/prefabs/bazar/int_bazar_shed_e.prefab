@@ -1,0 +1,58 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "int_bazar_shed_f"],
+            "m_Rotate": [14, [-0.0, 0.0284669, -0.0]],
+            "m_Scale": [14, [0.9999989, 1.0, 1.0]],
+            "m_Translate": [14, [0.0, 3.8798503, 0.0]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "int_bazar_shed_e_barriers"],
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "int_bazar_shed_e_barriers"],
+            "m_Rotate": [14, [-0.0, -60.0000038, -0.0]],
+            "m_Translate": [14, [-0.2543334, 4.9368934, -1.3547363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "int_bazar_shed_e_mesh"],
+            "m_Translate": [14, [0.0006103, -0.0000228, 0.000061]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "rope_d"],
+            "m_Rotate": [14, [-179.9999847, 67.5000076, -179.9999847]],
+            "m_Translate": [14, [-2.3903808, 3.8909759, -2.8329467]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "ialr_shopkeepers_survivor_bowmaster"],
+            "m_Rotate": [14, [-0.0, -75.0, -0.0]],
+            "m_Translate": [14, [-0.278737, 3.8794252, 0.4430059]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

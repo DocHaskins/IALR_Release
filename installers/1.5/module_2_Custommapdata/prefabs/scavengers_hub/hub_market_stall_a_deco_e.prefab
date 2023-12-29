@@ -1,0 +1,113 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "hub_market_stall_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "bld_pa_b_roof_str_mid_2x"],
+            "m_Rotate": [14, [4.9969692, 0.1742759, 1.992395]],
+            "m_Scale": [14, [0.8815429, 0.8815429, 0.8815429]],
+            "m_Translate": [14, [-0.046631, 2.281342, 0.9025499]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 46],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_2x"],
+            "m_Rotate": [14, [-170.9999389, -0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.634719, 0.634719, 0.634719]],
+            "m_Translate": [14, [-0.641846, 0.0010219, 0.5872799]]
+          },
+          "Fields": {
+            "SELECTOR": "f"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 47],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x"],
+            "m_Rotate": [14, [-170.9999389, -0.0000049, 179.9999847]],
+            "m_Scale": [14, [0.634719, 0.634719, 0.634719]],
+            "m_Translate": [14, [0.86377, 0.049988, 0.6247019]]
+          },
+          "Fields": {
+            "SELECTOR": "b"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 49],
+            "m_PrefabName": [12, "frn_scav_shelf_a_deco_tools"],
+            "m_Rotate": [14, [-180.0, -6.0000047, -180.0]],
+            "m_Translate": [14, [1.1331789, -0.284164, 0.732689]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 51],
+            "m_PrefabName": [12, "prp_wooden_box_b"],
+            "m_Rotate": [14, [-0.0, 13.5000019, -0.0]],
+            "m_Translate": [14, [0.734192, 0.0, 0.234215]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "prp_wooden_box_b"],
+            "m_Rotate": [14, [-180.0, -6.9999971, -180.0]],
+            "m_Translate": [14, [1.4454959, 0.0, 0.1013569]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 55],
+            "m_PrefabName": [12, "frn_wooden_box_wall_shelf_deco_a"],
+            "m_Rotate": [14, [-0.0, -88.5001449, -0.0]],
+            "m_Translate": [14, [-0.5768198, 0.9450002, 0.919942]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.1105329, -0.4983481, 0.0924058, 0.3569821, 0.576736, 0.3819268]],
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;rope_d"],
+            "m_Rotate": [14, [-164.9994506, -0.4829649, -179.8705902]],
+            "m_Translate": [14, [0.304688, 2.2117919, 0.779366]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.1205909, -0.3405632, 0.0031474, 1.1469997, 0.3968111, 0.0257897]],
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;rope_b"],
+            "m_Rotate": [14, [5.0001878, -0.4980939, 0.043579]],
+            "m_Translate": [14, [0.582458, 2.373764, 0.844528]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

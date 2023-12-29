@@ -1,0 +1,185 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Configurations": [12, "generic_nature_color;biom_forest_deciduous;unique_x13;Exterior;visual_roof;forest;"],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "reg01_market_church_exterior_entrance_main"],
+            "m_Rotate": [14, [-0.0, 60.0284729, -0.0]],
+            "m_Scale": [14, [0.9999989, 1.0, 1.0]],
+            "m_Translate": [14, [14.5457763, 0.6932749, -5.3132929]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "pa_guard_tower_cor_b"],
+            "m_Rotate": [14, [0.000009, 60.0481872, -0.0000389]],
+            "m_Scale": [14, [1.0, 0.9999989, 1.0]],
+            "m_Translate": [14, [-48.5952148, -0.2667309, 2.6018071]]
+          },
+          "Fields": {
+            "m_CollisionFlags": "11"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "pa_guard_tower_cor_a"],
+            "m_Rotate": [14, [180.0, 29.9715328, -179.9999847]],
+            "m_Scale": [14, [1.0, 0.9999989, 1.0]],
+            "m_Translate": [14, [0.2277829, -0.2996219, 30.5265502]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "pa_guard_tower_cor_a"],
+            "m_Rotate": [14, [-179.9999542, -60.0284729, -179.9999847]],
+            "m_Scale": [14, [0.9999989, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [33.821289, -0.126926, -27.8149414]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [-47.9932556, 3.5947265, -1.5495033]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [-52.6405143, 7.4155459, 3.7166395]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [33.5370941, 3.7325336, -24.0785064]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [37.8142204, 7.552267, -29.0141983]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 9],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier3"],
+            "m_Rotate": [14, [-0.0, 60.0, -0.0]],
+            "m_Translate": [14, [33.0092697, 3.7102217, -22.5051422]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 10],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier3"],
+            "m_Rotate": [14, [-180.0, 15.0000066, -180.0]],
+            "m_Translate": [14, [31.2348709, 3.5788733, -30.7146568]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier3"],
+            "m_Translate": [14, [-5.124752, 3.5375311, 29.6147651]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier1"],
+            "m_Translate": [14, [1.9007716, 7.4121623, 32.5263099]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier3"],
+            "m_Translate": [14, [-46.0501708, 3.4290995, 5.68968]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "ialr_uv_light_industrial_stand_tier2"],
+            "m_Rotate": [14, [179.9999847, 30.0000038, 179.9999847]],
+            "m_Translate": [14, [-48.8998336, 3.5704195, -0.7877569]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 15],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [1.3884104, 7.3806042, 34.5274124]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 16],
+            "m_PrefabName": [12, "ialr_survivor_guard_spawner"],
+            "m_Translate": [14, [-3.64102, 3.5604603, 30.1499404]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000493, 0.9999999, -0.0051069, 5.0000486, 0.9999999, 5.0051069]],
+            "m_PcId": [6, 17],
+            "m_PrefabName": [12, "encounter_spawner_box"],
+            "m_PresetNames": [12, "Enable_Spawner;True;Size;10x10;Type;Road"],
+            "m_Translate": [14, [17.6143531, -0.0249969, 23.4240245]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000495, 1.0, -0.0051069, 5.0000495, 1.0, 5.0051069]],
+            "m_PcId": [6, 18],
+            "m_PrefabName": [12, "encounter_spawner_box"],
+            "m_PresetNames": [12, "Enable_Spawner;True;Size;10x10;Type;Road"],
+            "m_Translate": [14, [44.4014701, 0.6461799, -26.2291889]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0000493, 0.9999999, -0.0051069, 5.0000486, 0.9999999, 5.0051069]],
+            "m_PcId": [6, 19],
+            "m_PrefabName": [12, "encounter_spawner_box"],
+            "m_PresetNames": [12, "Enable_Spawner;True;Size;10x10;Type;Road"],
+            "m_Translate": [14, [55.433712, -0.093078, 22.3217582]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

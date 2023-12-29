@@ -1,0 +1,62 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [1.3360671, 2.9640324, -0.1682231, 6.4436764, 3.0089914, 1.5954012]],
+            "m_PcId": [6, 165],
+            "m_PrefabName": [12, "mesh"],
+            "m_PresetNames": [12, "Meshes;int_bazar_bridge_a"],
+            "m_Translate": [14, [0.0503849, -0.0000049, 0.1164589]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 166],
+            "m_PrefabName": [12, "pa_cloth_shreds_e"],
+            "m_Rotate": [14, [-0.0, 0.0284646, -0.0]],
+            "m_Scale": [14, [1.6145981, 1.6145999, 1.6145998]],
+            "m_Translate": [14, [-0.2347411, 4.7608613, 0.2861098]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 167],
+            "m_PrefabName": [12, "pa_cloth_shreds_h"],
+            "m_Rotate": [14, [-0.0, 5.528469, -0.0]],
+            "m_Scale": [14, [1.1399989, 1.1399997, 1.1400001]],
+            "m_Translate": [14, [-1.9145201, 4.6160345, 0.333393]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 168],
+            "m_PrefabName": [12, "pa_cloth_shreds_d"],
+            "m_Rotate": [14, [-0.0, 0.0284643, -0.0]],
+            "m_Scale": [14, [1.8192981, 1.8193, 1.8193]],
+            "m_Translate": [14, [1.7913513, 4.5862836, -1.151329]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_Name": [12, "int_bazar_bridge_a_barriers"],
+            "m_PcId": [6, 182],
+            "m_PrefabName": [12, "int_bazar_bridge_a_barriers"],
+            "m_Rotate": [14, [-0.0, -60.0000038, -0.0]],
+            "m_Translate": [14, [0.5520019, 5.5788459, -0.211914]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

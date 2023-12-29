@@ -1,0 +1,24 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "DetailSpawnType": {
+        "User": "1"
+      },
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-0.0730379, 0.074885, 0.7602959, 1.5823019, 0.0780199, 0.601023]],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "container"],
+            "m_PresetNames": [12, "Type;TrashGroup_Bathroom_02;Loot Type;TrashBathroom"]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

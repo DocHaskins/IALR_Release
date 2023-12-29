@@ -1,0 +1,2871 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "pa_bench_core_a"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-0.0, 60.0, -0.0]],
+            "m_Scale": [14, [0.7524793, 0.7524793, 0.7524793]],
+            "m_Translate": [14, [-1.8762207, 0.0, 3.1416015]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 3],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [7.74886586896173e-7, -29.9999771, 0.0000027]],
+            "m_Scale": [14, [0.752479, 0.7524793, 0.752479]],
+            "m_Translate": [14, [-3.092163, 0.0, -1.8327635]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 4],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [0.7524793, 0.752479, 0.7524793]],
+            "m_Translate": [14, [1.7856445, 0.0, -3.2009887]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 5],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [179.9999847, 29.9999637, 179.9999847]],
+            "m_Scale": [14, [0.752479, 0.752479, 0.752479]],
+            "m_Translate": [14, [3.0465087, 0.0, 1.7113647]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 6],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -61.0000076, 179.9999694]],
+            "m_Scale": [14, [1.0033917, 1.0033911, 1.0033917]],
+            "m_Translate": [14, [7.3276367, 0.0000076, 4.4515991]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 7],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -63.0000457, 179.9999694]],
+            "m_Scale": [14, [0.8212571, 0.8212565, 0.8212568]],
+            "m_Translate": [14, [20.395996, 0.0000152, 11.5772705]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 8],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-0.0000165, -25.9999866, -1.4999736]],
+            "m_Scale": [14, [1.2241381, 1.2241375, 1.2241381]],
+            "m_Translate": [14, [24.102539, -0.0268668, 13.6019287]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [179.9999847, -57.0005111, -179.9999847]],
+            "m_Translate": [14, [-7.4210205, -0.0570067, 7.3886718]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 22],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [179.9999847, -57.0005073, -179.9999847]],
+            "m_Translate": [14, [-5.3295898, -0.0570067, 4.1681518]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 23],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor"],
+            "m_Rotate": [14, [179.9999847, -65.0000381, 179.9999847]],
+            "m_Translate": [14, [-4.8127441, -0.0993651, -0.6552124]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 24],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [0.0000046, -29.9994926, 0.0000046]],
+            "m_Translate": [14, [-6.951416, -0.0570067, -2.1740722]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 40],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [179.9999847, -60.0004882, 179.9999694]],
+            "m_Scale": [14, [0.9999991, 0.9999992, 0.9999998]],
+            "m_Translate": [14, [-11.2281494, -0.0570067, -18.3684082]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 45],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [179.9999847, -57.0005111, -179.9999847]],
+            "m_Translate": [14, [6.1535644, -0.0570143, -13.210083]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 50],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999847, 30.0, 179.9999847]],
+            "m_Scale": [14, [1.2241374, 1.2241374, 1.2241374]],
+            "m_Translate": [14, [5.4401855, 0.0, -8.0407714]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 52],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -58.5000114, -0.0]],
+            "m_Translate": [14, [-8.2889404, -0.0244443, 4.9496459]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 53],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Translate": [14, [-12.2462158, -0.0244443, 4.939392]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 54],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-8.8862304, -0.0244443, 2.1252441]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 56],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-8.2495117, -0.0244443, -0.4691162]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 57],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-11.1190185, -0.0244443, -1.7705078]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 58],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-12.3404541, -0.0244443, 1.0710449]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 59],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-180.0, 62.500019, -180.0]],
+            "m_Translate": [14, [-15.380249, -0.0244443, 2.2850341]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 61],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-13.6131591, -0.0244443, -3.5305175]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 65],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, 79.9999923, -0.0]],
+            "m_Scale": [14, [1.0000003, 1.0, 0.9999992]],
+            "m_Translate": [14, [-16.7471923, -0.0244443, -4.010559]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 67],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-18.1286621, -0.0244443, -0.7548217]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 68],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -43.0000152, -0.0]],
+            "m_Translate": [14, [-18.1286621, -0.0244443, 1.5793457]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 74],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -32.0000076, -0.0]],
+            "m_Scale": [14, [0.9090908, 0.9090908, 0.9090908]],
+            "m_Translate": [14, [-3.0979003, -0.0252263, 10.6264038]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 75],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0, -32.0000076, -0.0]],
+            "m_Scale": [14, [0.9090908, 0.9090908, 0.9090908]],
+            "m_Translate": [14, [-1.3171385, -0.0252263, 7.7764892]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 77],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [179.9999847, 31.9999961, 179.9999847]],
+            "m_Scale": [14, [0.9090905, 0.9090908, 0.9090905]],
+            "m_Translate": [14, [-0.6761474, -0.0252263, 12.2329711]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 78],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [179.9999847, 32.0000038, 179.9999847]],
+            "m_Scale": [14, [0.8826124, 0.8826125, 0.8826124]],
+            "m_Translate": [14, [1.1738281, -0.0252263, 9.2725219]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 79],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [179.9999847, 32.0000038, 179.9999847]],
+            "m_Scale": [14, [0.8826124, 0.8826125, 0.8826124]],
+            "m_Translate": [14, [2.9111328, -0.0252263, 6.4506835]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 80],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000048, -31.9999923, -0.0000046]],
+            "m_Scale": [14, [0.9090905, 0.9090908, 0.9090905]],
+            "m_Translate": [14, [5.5444335, -0.0252263, 7.8588256]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 81],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000048, -31.9999885, -0.0000048]],
+            "m_Scale": [14, [0.9090905, 0.9090908, 0.9090905]],
+            "m_Translate": [14, [3.69458, -0.0252263, 10.8192138]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 82],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000049, -31.9999885, -0.0000048]],
+            "m_Scale": [14, [0.8496174, 0.8496176, 0.8496174]],
+            "m_Translate": [14, [1.9110107, -0.0252263, 13.6818847]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 83],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000046, -33.4999961, -0.0000049]],
+            "m_Scale": [14, [0.8264461, 0.8264461, 0.8264461]],
+            "m_Translate": [14, [7.8699951, -0.0252263, 9.7914428]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 84],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000048, -30.4999847, -0.0000048]],
+            "m_Scale": [14, [0.7796661, 0.7796661, 0.7796661]],
+            "m_Translate": [14, [6.1883544, -0.0252263, 12.482727]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 85],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000046, -33.9999885, -0.0000048]],
+            "m_Scale": [14, [0.8677685, 0.8677684, 0.8677685]],
+            "m_Translate": [14, [4.4925537, -0.0252263, 15.0415649]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 86],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000049, -31.9999923, -0.0000049]],
+            "m_Scale": [14, [0.8264461, 0.8264461, 0.8264461]],
+            "m_Translate": [14, [10.3259277, -0.0252263, 11.1870117]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 87],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000049, -31.9999923, -0.0000049]],
+            "m_Scale": [14, [0.8264461, 0.8264461, 0.8264461]],
+            "m_Translate": [14, [8.6442871, -0.0252263, 13.8782958]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 88],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [0.0000049, -31.9999923, -0.0000049]],
+            "m_Scale": [14, [0.8264461, 0.8264461, 0.8264461]],
+            "m_Translate": [14, [6.9626464, -0.0252263, 16.5696411]]
+          },
+          "Fields": {
+            "SELECTOR": "generic_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 118],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999542, 65.5000076, 179.9999847]],
+            "m_Scale": [14, [0.9999989, 0.9999991, 0.9999992]],
+            "m_Translate": [14, [1.168457, -0.0078811, -9.1049804]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 120],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0000228, 34.0000419, 0.0000465]],
+            "m_Scale": [14, [0.9999995, 0.9999991, 0.9999986]],
+            "m_Translate": [14, [-0.4868164, -0.0078811, -6.9610595]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 124],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-0.0001442, 82.5000381, 0.0001778]],
+            "m_Scale": [14, [0.9999994, 0.9999991, 0.9999986]],
+            "m_Translate": [14, [0.3310545, -0.0078811, -12.8563842]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 125],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, 13.9999742, -179.9999694]],
+            "m_Scale": [14, [0.9999988, 0.9999989, 0.9999989]],
+            "m_Translate": [14, [-0.718994, -0.0078811, -11.5617675]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 126],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, 0.9999644, -179.9999694]],
+            "m_Scale": [14, [0.9999988, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [-2.8852539, -0.0078811, -10.3995361]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 129],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, -3.0000381, -179.9999694]],
+            "m_Scale": [14, [0.9999989, 0.9999988, 0.9999988]],
+            "m_Translate": [14, [-3.9377441, -0.0078811, -13.5333251]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 130],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, 31.9999923, -179.9999847]],
+            "m_Scale": [14, [0.9999982, 0.9999988, 0.9999989]],
+            "m_Translate": [14, [-6.4238281, -0.0078811, -10.4508666]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 133],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, 31.9999847, -179.9999847]],
+            "m_Scale": [14, [0.9999986, 0.9999988, 0.9999991]],
+            "m_Translate": [14, [-4.7252197, -0.0078849, -7.4732055]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 141],
+            "m_PrefabName": [12, "nat_plantbox_vegetation_1x"],
+            "m_Rotate": [14, [-0.0, -29.5000038, -0.0]],
+            "m_Translate": [14, [1.0435791, -0.0252263, 5.8839111]]
+          },
+          "Fields": {
+            "SELECTOR": "gen_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 142],
+            "m_PrefabName": [12, "nat_plantbox_vegetation_1x"],
+            "m_Rotate": [14, [179.9999847, 24.9999942, 179.9999847]],
+            "m_Scale": [14, [0.9523807, 0.952381, 0.9523807]],
+            "m_Translate": [14, [-0.2678222, -0.0252263, 5.9712524]]
+          },
+          "Fields": {
+            "SELECTOR": "gen_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 147],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -58.0000114, 179.9999847]],
+            "m_Translate": [14, [-2.0153808, 0.0, 6.2377929]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 148],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000223, 58.0000267, 0.0000223]],
+            "m_Scale": [14, [1.12, 1.1199996, 1.12]],
+            "m_Translate": [14, [-3.6347656, -0.073242, 8.5040283]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 149],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -58.0000267, 179.9999847]],
+            "m_Scale": [14, [1.119999, 1.1199994, 1.1199995]],
+            "m_Translate": [14, [-7.4161376, -0.073242, 7.0964355]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 150],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -48.5000381, 179.9999847]],
+            "m_Scale": [14, [1.1199995, 1.1199995, 1.1199995]],
+            "m_Translate": [14, [-5.6153564, 0.0, 4.63031]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 151],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-179.9999542, 76.4999542, 179.9999389]],
+            "m_Scale": [14, [1.1199996, 1.1199996, 1.12]],
+            "m_Translate": [14, [-5.1936035, 0.0, 1.1995239]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 152],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, 31.4999637, 179.9999847]],
+            "m_Scale": [14, [1.1199996, 1.1199996, 1.12]],
+            "m_Translate": [14, [-6.9144287, 0.0, -1.7175903]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 153],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, 29.4999656, 179.9999847]],
+            "m_Scale": [14, [1.1199996, 1.1199995, 1.12]],
+            "m_Translate": [14, [-12.6975097, -0.0000038, -5.310791]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 157],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, 32.4999427, 179.9999847]],
+            "m_Scale": [14, [1.119999, 1.1199989, 1.1200001]],
+            "m_Translate": [14, [-22.9509277, -0.0000152, -15.1192626]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 158],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999694, 1.4999425, 179.9999847]],
+            "m_Scale": [14, [1.119999, 1.1199989, 1.12]],
+            "m_Translate": [14, [-16.8668212, -0.0000114, -12.3109741]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 159],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999389, -60.5000457, 179.9999694]],
+            "m_Scale": [14, [1.119999, 1.1199989, 1.1200001]],
+            "m_Translate": [14, [-11.1069335, -0.0000114, -18.4924926]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 160],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999389, -60.5000381, 179.9999694]],
+            "m_Scale": [14, [1.1199989, 1.1199988, 1.1200001]],
+            "m_Translate": [14, [-4.5748291, -0.0000076, -14.6245727]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 161],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999389, -60.5000381, 179.9999694]],
+            "m_Scale": [14, [1.1199988, 1.1199984, 1.1200001]],
+            "m_Translate": [14, [-7.442749, -0.0000038, -9.7460327]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 162],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.000017, -39.9999389, 0.000023]],
+            "m_Scale": [14, [1.1199989, 1.1199984, 1.1200001]],
+            "m_Translate": [14, [-7.5461425, -0.0000038, -7.2866821]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 163],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000244, -22.999937, 0.0000192]],
+            "m_Scale": [14, [1.1199989, 1.1199984, 1.1200001]],
+            "m_Translate": [14, [-4.335205, -0.0000038, -5.7081298]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 164],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -61.0000076, 179.9999694]],
+            "m_Scale": [14, [1.2258378, 1.2258371, 1.2258379]],
+            "m_Translate": [14, [-8.0878906, -0.0000038, -5.2091674]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 166],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [0.0000039, -63.9996986, 0.0000172]],
+            "m_Scale": [14, [1.1599998, 1.1599998, 1.1599998]],
+            "m_Translate": [14, [-17.0717773, 0.0, -7.2103271]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 169],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [0.0000208, 6.5000319, -0.000033]],
+            "m_Scale": [14, [1.1199995, 1.119999, 1.12]],
+            "m_Translate": [14, [-15.4647216, -0.0000076, -6.2056274]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 170],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000354, 11.0000638, 0.000018]],
+            "m_Scale": [14, [0.772413, 0.7724127, 0.7724136]],
+            "m_Translate": [14, [-0.9541015, -0.0000038, -5.4351196]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 173],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -58.000019, 179.9999847]],
+            "m_Translate": [14, [7.098999, 0.0, -7.654663]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 174],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.000022, 58.0000381, 0.000022]],
+            "m_Scale": [14, [1.1199996, 1.1199996, 1.1199996]],
+            "m_Translate": [14, [5.5731201, 0.0, -4.961975]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 175],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -58.0000305, 179.9999847]],
+            "m_Translate": [14, [5.6796875, 0.0, -12.227478]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 176],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000223, 58.0000381, 0.0000223]],
+            "m_Scale": [14, [1.1199996, 1.1199996, 1.1199996]],
+            "m_Translate": [14, [2.3823242, 0.0, -7.4708251]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 178],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [-90.0, 0.0, -119.5000076]],
+            "m_Scale": [14, [0.9910715, 0.9910715, 0.9910714]],
+            "m_Translate": [14, [8.3601074, -0.0759048, 2.968872]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 179],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000049, -53.4999885]],
+            "m_Scale": [14, [0.8693611, 0.8693611, 0.8693608]],
+            "m_Translate": [14, [9.5686035, 0.1060333, 1.7819211]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 180],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000049, -59.4999847]],
+            "m_Scale": [14, [0.8096988, 0.8096987, 0.8096988]],
+            "m_Translate": [14, [7.1085205, 0.0730819, 6.5377197]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 181],
+            "m_PrefabName": [12, "pa_sur_deco_a"],
+            "m_Rotate": [14, [6.978533519941266e-7, -31.4997024, 3.566886164207972e-7]],
+            "m_Scale": [14, [0.9999991, 0.9999998, 0.9999997]],
+            "m_Translate": [14, [12.2008056, 1.5939941, 13.8693237]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 183],
+            "m_PrefabName": [12, "pa_sur_deco_b"],
+            "m_Rotate": [14, [179.9999847, 32.999958, 179.9999847]],
+            "m_Scale": [14, [1.0203732, 1.0203737, 1.0203737]],
+            "m_Translate": [14, [3.9017333, -0.080223, -10.0094604]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 185],
+            "m_PrefabName": [12, "is_pump_station_ext_pa_bench_a"],
+            "m_Rotate": [14, [-0.0, -36.5000495, -0.0]],
+            "m_Scale": [14, [1.0000002, 1.0, 0.9999992]],
+            "m_Translate": [14, [13.7675781, 0.0003464, 6.4036865]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 188],
+            "m_PrefabName": [12, "bld_roof_props_deco_b"],
+            "m_Rotate": [14, [-179.9999694, -57.0000915, -179.9999237]],
+            "m_Scale": [14, [0.9999992, 0.9999998, 1.0000002]],
+            "m_Translate": [14, [-12.2069091, 0.0556446, -20.3717041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 189],
+            "m_PrefabName": [12, "bld_roof_props_deco_c"],
+            "m_Rotate": [14, [179.9999694, 39.999916, -179.9999847]],
+            "m_Scale": [14, [1.0000001, 1.0, 0.9999994]],
+            "m_Translate": [14, [-14.2093505, 0.0014294, -20.3427124]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 192],
+            "m_PrefabName": [12, "pa_bld_pergola_a"],
+            "m_Rotate": [14, [-0.0, 65.0000762, -0.0]],
+            "m_Translate": [14, [-15.5648193, 0.0101584, -28.5610351]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 197],
+            "m_PrefabName": [12, "pa_side_roof_b"],
+            "m_Rotate": [14, [-0.0000308, 60.4999122, 0.0000523]],
+            "m_Translate": [14, [-7.1572265, 3.8277053, -7.1399536]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 198],
+            "m_PrefabName": [12, "pa_side_roof_b"],
+            "m_Rotate": [14, [179.9999694, -60.4999198, 179.9999389]],
+            "m_Translate": [14, [-7.3551025, 3.8277053, -7.2519531]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 199],
+            "m_PrefabName": [12, "prp_scarecrow_b"],
+            "m_Translate": [14, [-14.5444335, 0.3828544, -1.7417602]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 207],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000122, -23.999485, 0.0000116]],
+            "m_Scale": [14, [0.8130083, 0.8130081, 0.8130083]],
+            "m_Translate": [14, [21.0317382, -0.0203626, 14.6764526]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 208],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor"],
+            "m_Rotate": [14, [0.0000078, -7.9999475, 0.0000013]],
+            "m_Translate": [14, [-17.1195068, -0.0993651, -11.9207763]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 214],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-0.0000213, -30.999979, 0.0000201]],
+            "m_Scale": [14, [1.2258383, 1.2258371, 1.2258379]],
+            "m_Translate": [14, [-10.421997, -0.0000076, -13.5755615]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 216],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000287, 64.5005035, 0.0000417]],
+            "m_Scale": [14, [1.0699998, 1.0699994, 1.07]],
+            "m_Translate": [14, [-20.9790039, -0.2568129, -0.2110594]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 217],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [0.0000128, -29.9995098, -0.0000102]],
+            "m_Translate": [14, [-22.8913574, -0.0570105, -15.3055419]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 219],
+            "m_PrefabName": [12, "pa_sur_fence_1x_b"],
+            "m_Rotate": [14, [-179.9999847, 29.9995059, 179.9999847]],
+            "m_Translate": [14, [-17.9185791, -0.0570105, -12.3966064]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 222],
+            "m_PrefabName": [12, "pa_bld_2x2_b"],
+            "m_Rotate": [14, [179.9999847, 29.9999809, 179.9999847]],
+            "m_Translate": [14, [-21.1938476, 0.0, -11.8051757]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 223],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [-180.0, 23.9999885, -180.0]],
+            "m_Scale": [14, [0.9174311, 0.9174311, 0.9174311]],
+            "m_Translate": [14, [-13.4113769, 0.0, -5.9395751]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 224],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [0.0000394, 58.5000305, -0.0000644]],
+            "m_Scale": [14, [1.1199996, 1.119999, 1.1200002]],
+            "m_Translate": [14, [-20.6501464, -0.0000076, 0.086914]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 226],
+            "m_PrefabName": [12, "pa_bld_shed_a"],
+            "m_Rotate": [14, [-180.0, 29.999979, -180.0]],
+            "m_Translate": [14, [31.0241699, 0.0, -30.6332397]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 227],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-179.9999847, -9.0000286, -179.9999847]],
+            "m_Scale": [14, [0.970874, 0.9708737, 0.970874]],
+            "m_Translate": [14, [44.6994628, 0.0028762, -22.9517211]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 229],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-0.0000213, 25.50004, 0.0000297]],
+            "m_Scale": [14, [0.9433962, 0.9433959, 0.9433962]],
+            "m_Translate": [14, [40.677246, 0.0017166, -29.3685913]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 230],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-0.0001046, -77.9999389, -0.0000845]],
+            "m_Scale": [14, [0.9262909, 0.9262905, 0.9262909]],
+            "m_Translate": [14, [32.7365722, -0.0048751, -38.9342041]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 231],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-179.9999847, -31.0000839, -179.9999694]],
+            "m_Scale": [14, [0.8882759, 0.8882755, 0.8882759]],
+            "m_Translate": [14, [38.9689941, 0.0002694, -36.3121948]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 232],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -61.0000228, 179.9999694]],
+            "m_Scale": [14, [0.8187676, 0.818767, 0.8187676]],
+            "m_Translate": [14, [14.2126464, 0.0000114, 8.2698974]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_PcId": [6, 233],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [179.9999847, 38.4999961, 179.9999847]],
+            "m_Scale": [14, [0.898957, 0.898957, 0.898957]],
+            "m_Translate": [14, [35.4421386, -0.0201948, -37.007019]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_PcId": [6, 234],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [-0.0000147, 60.000019, 0.0000086]],
+            "m_Scale": [14, [0.9708737, 0.9708737, 0.9708737]],
+            "m_Translate": [14, [36.9829101, -0.0750961, -30.7945556]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_PcId": [6, 235],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [179.9999847, -60.0000381, 179.9999847]],
+            "m_Scale": [14, [0.9009007, 0.9009007, 0.9009009]],
+            "m_Translate": [14, [41.8422851, -0.0433731, -35.2231445]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 236],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-179.9999847, -60.0004882, -179.9999694]],
+            "m_Translate": [14, [36.0858154, 0.0, -29.142395]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 238],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000189, -29.9995079, -0.0000204]],
+            "m_Scale": [14, [0.9433962, 0.9433962, 0.9433962]],
+            "m_Translate": [14, [44.78125, -0.0433769, -28.5442504]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 240],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-179.9999847, -60.0004882, -179.9999694]],
+            "m_Scale": [14, [0.9433959, 0.9433959, 0.9433962]],
+            "m_Translate": [14, [44.8496093, -0.0000038, -40.4476318]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 243],
+            "m_PrefabName": [12, "postapo_baththub_deco_a"],
+            "m_Rotate": [14, [-0.0, -74.9999847, -0.0]],
+            "m_Translate": [14, [42.1595458, 0.0, -32.7248535]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 246],
+            "m_PrefabName": [12, "int_bazar_shed_e"],
+            "m_Rotate": [14, [-0.0000049, 60.0000457, 0.0000049]],
+            "m_Scale": [14, [0.8182634, 0.8182634, 0.8182634]],
+            "m_Translate": [14, [17.317871, 0.0, -55.6074829]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 247],
+            "m_PrefabName": [12, "int_bazar_shed_f"],
+            "m_Rotate": [14, [-180.0, -60.0, -180.0]],
+            "m_Translate": [14, [22.095581, -0.0039061, -53.1461791]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 249],
+            "m_PrefabName": [12, "prp_silo_a_3h"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [25.8518066, -0.0270041, -51.449707]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 250],
+            "m_PrefabName": [12, "pa_wooden_path_turn_a"],
+            "m_Rotate": [14, [-0.0000204, 6.00006, -0.000017]],
+            "m_Scale": [14, [1.1856526, 1.185652, 1.1856526]],
+            "m_Translate": [14, [27.4832763, -0.0048751, -42.0595703]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 252],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9998779, -76.0000152, 179.9998931]],
+            "m_Scale": [14, [1.2241381, 1.2241374, 1.2241381]],
+            "m_Translate": [14, [21.1467285, 0.0, -45.0870971]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 253],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [0.0000048, -44.9999656, 0.000034]],
+            "m_Scale": [14, [0.7419018, 0.7419015, 0.7419021]],
+            "m_Translate": [14, [27.1783447, 0.0000038, -35.1987304]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 254],
+            "m_PrefabName": [12, "pa_bld_pergola_a"],
+            "m_Rotate": [14, [-180.0, 29.9999904, -180.0]],
+            "m_Scale": [14, [0.840336, 0.840336, 0.840336]],
+            "m_Translate": [14, [23.5760498, 0.0, -33.6149291]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 256],
+            "m_PrefabName": [12, "pa_sur_set_s"],
+            "m_Rotate": [14, [-0.0, 60.0000305, -0.0]],
+            "m_Translate": [14, [34.2666015, -0.0039061, -45.1323242]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 257],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000158, 45.500492, 0.000028]],
+            "m_Translate": [14, [26.9552001, 0.0, -33.6722412]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 258],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-0.0000084, -28.9999904, 0.0000213]],
+            "m_Scale": [14, [1.224138, 1.2241373, 1.224138]],
+            "m_Translate": [14, [30.7062988, 0.0, -51.229187]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 259],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -59.5000152, 179.9999542]],
+            "m_Scale": [14, [1.2241381, 1.2241374, 1.2241386]],
+            "m_Translate": [14, [11.7478027, -0.0000038, -49.0908203]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 260],
+            "m_PrefabName": [12, "bld_roof_props_deco_b"],
+            "m_Rotate": [14, [-179.9999084, 69.4999923, 179.9999084]],
+            "m_Translate": [14, [12.366455, 0.0218848, -54.6970214]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 261],
+            "m_PrefabName": [12, "pa_booth_d"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Translate": [14, [42.9676513, -0.0045051, -43.4442749]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 262],
+            "m_PrefabName": [12, "pa_sur_set_s"],
+            "m_Rotate": [14, [-180.0, 29.9999694, -180.0]],
+            "m_Translate": [14, [32.2714843, -0.0039061, -43.6611328]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 263],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Translate": [14, [24.5246582, -0.000118, -41.7036743]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 265],
+            "m_PrefabName": [12, "nat_ivy_floor_f"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [23.4752197, 0.0, -42.6455688]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 266],
+            "m_PrefabName": [12, "nat_ivy_floor_h"],
+            "m_Rotate": [14, [-180.0, 75.5, -180.0]],
+            "m_Translate": [14, [25.7655029, -0.0004376, -40.2892456]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 267],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 84.5, -0.0]],
+            "m_Translate": [14, [28.8511962, -0.0499266, -43.5011596]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 268],
+            "m_PrefabName": [12, "nat_ivy_floor_h"],
+            "m_Rotate": [14, [-0.0000092, -20.999998, 0.0000013]],
+            "m_Translate": [14, [25.5437011, -0.0004376, -45.5807495]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 269],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-180.0, -73.0000305, -180.0]],
+            "m_Translate": [14, [29.9934082, -0.000118, -43.3775024]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 270],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [5.598065513368056e-7, -27.999958, 0.0000016]],
+            "m_Translate": [14, [36.3720703, -0.000118, -36.7073364]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 271],
+            "m_PrefabName": [12, "nat_ivy_floor_f"],
+            "m_Rotate": [14, [0.0, 90.0, 0.0]],
+            "m_Translate": [14, [34.484375, 0.0, -37.8086547]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 272],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 30.0, -0.0]],
+            "m_Translate": [14, [31.3181152, 0.0895116, -37.4639892]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 273],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 65.5, -0.0]],
+            "m_Translate": [14, [35.2331542, 0.0075758, -28.4119873]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 274],
+            "m_PrefabName": [12, "nat_ivy_floor_h"],
+            "m_Rotate": [14, [-0.0, 39.5, -0.0]],
+            "m_Translate": [14, [37.5610351, 0.0, -32.3328857]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 275],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Translate": [14, [33.8464355, 0.0, -30.1557006]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 276],
+            "m_PrefabName": [12, "nat_ivy_floor_h"],
+            "m_Rotate": [14, [-0.0, -36.0, -0.0]],
+            "m_Translate": [14, [28.4282226, 0.0, -32.7473754]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 277],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-180.0, 27.4999923, -180.0]],
+            "m_Translate": [14, [31.484497, 0.0, -33.3762817]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 278],
+            "m_PrefabName": [12, "nat_ivy_floor_h"],
+            "m_Rotate": [14, [-180.0, 28.4999904, -180.0]],
+            "m_Translate": [14, [34.1223144, 0.0104521, -42.9057006]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 279],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-180.0, 42.5, -180.0]],
+            "m_Translate": [14, [43.2333984, 0.0, -29.5484619]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 280],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 27.5, -0.0]],
+            "m_Scale": [14, [0.862069, 0.862069, 0.862069]],
+            "m_Translate": [14, [41.8863525, -0.1310957, -31.3973388]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 283],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000067, -24.9999904, 0.0000029]],
+            "m_Translate": [14, [17.4874267, 0.0, -47.5631713]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 284],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, 13.9999704, 179.9999847]],
+            "m_Translate": [14, [19.4886474, 0.0, -43.8765869]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 285],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, -11.0000076, -0.0]],
+            "m_Translate": [14, [15.5491943, 0.0, -48.9617309]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 286],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Translate": [14, [25.1330566, -0.0039061, -51.0882568]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 287],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-180.0, 31.4999904, -180.0]],
+            "m_Translate": [14, [26.3322753, -0.0039061, -52.3914184]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 288],
+            "m_PrefabName": [12, "nat_ivy_floor_f"],
+            "m_Translate": [14, [26.296875, 0.0326762, -49.5967407]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 289],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000158, 62.5000343, 0.0000096]],
+            "m_Scale": [14, [1.0000007, 1.0, 0.9999994]],
+            "m_Translate": [14, [19.6066894, -0.0012154, -54.2893066]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 290],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Translate": [14, [12.1267089, -0.0886192, -54.1672363]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 291],
+            "m_PrefabName": [12, "pa_cube_corner_expansion_a"],
+            "m_Rotate": [14, [-0.0, -29.9715442, -0.0000223]],
+            "m_Scale": [14, [0.9999992, 0.9999986, 1.0000001]],
+            "m_Translate": [14, [11.7510986, -0.0134276, -59.0172729]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 294],
+            "m_PrefabName": [12, "is_pump_station_ext_pa_bench_a"],
+            "m_Rotate": [14, [179.9999847, 32.5, 179.9999847]],
+            "m_Scale": [14, [0.9999986, 1.0, 1.0000008]],
+            "m_Translate": [14, [-18.6989746, 0.0089835, -16.2739868]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 295],
+            "m_PrefabName": [12, "pa_sur_set_m_smaller_fire"],
+            "m_Rotate": [14, [0.0000045, -39.0000076, 0.0000024]],
+            "m_Translate": [14, [-16.7711181, 0.0468024, -18.5281982]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 296],
+            "m_PrefabName": [12, "nat_plantbox_vegetation_1x"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-22.019165, 0.0, -17.7208862]]
+          },
+          "Fields": {
+            "SELECTOR": "tom_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 297],
+            "m_PrefabName": [12, "nat_plantbox_vegetation_1x"],
+            "m_Rotate": [14, [-0.0, -30.0, -0.0]],
+            "m_Translate": [14, [-22.8111572, 0.0, -16.34906]]
+          },
+          "Fields": {
+            "SELECTOR": "tom_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 298],
+            "m_PrefabName": [12, "nat_plantbox_vegetation_1x"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Translate": [14, [-21.3518066, 0.0, -18.876831]]
+          },
+          "Fields": {
+            "SELECTOR": "tom_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 304],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [0.0711107, -23.0008163, -1.4707795]],
+            "m_Scale": [14, [1.0000002, 1.0, 0.9999994]],
+            "m_Translate": [14, [33.1447753, -0.0519176, -0.9195556]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 305],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-0.3198525, -35.4962081, -1.6629512]],
+            "m_Scale": [14, [1.1877473, 1.1877473, 1.1877466]],
+            "m_Translate": [14, [28.9085693, -0.0262489, 5.6846313]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 306],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-0.0145616, -25.9999351, -1.5063265]],
+            "m_Scale": [14, [1.0000002, 0.9999998, 0.9999994]],
+            "m_Translate": [14, [42.0554199, -0.0741195, -15.305725]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsForced": [21, 4],
+            "m_PcId": [6, 307],
+            "m_PrefabName": [12, "pa_side_roof_b"],
+            "m_Rotate": [14, [-0.0, -29.9995231, -0.0]],
+            "m_Scale": [14, [0.9500001, 0.9499999, 0.9499992]],
+            "m_Translate": [14, [6.1657714, 3.0498046, -53.984375]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 312],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-179.9999694, -58.4999732, -179.9999847]],
+            "m_Scale": [14, [0.9999992, 0.9999998, 1.0000001]],
+            "m_Translate": [14, [6.0065917, -0.0639495, -52.2273559]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 313],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [0.0000163, -54.9999847, 0.000011]],
+            "m_Translate": [14, [5.4188232, -0.0610922, -48.843811]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 339],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [179.9999542, -26.0000171, 179.9999847]],
+            "m_Scale": [14, [2.2950007, 2.2949993, 2.2950003]],
+            "m_Translate": [14, [51.0662841, 0.0000038, -29.7164306]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 340],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [179.9999847, 64.0000305, 179.9999847]],
+            "m_Scale": [14, [1.4999996, 1.4999996, 1.5000003]],
+            "m_Translate": [14, [50.1799316, 0.0, -31.9561767]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 342],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [-0.0000345, -14.499979, 0.0000204]],
+            "m_Scale": [14, [1.0811069, 1.0811065, 1.0811078]],
+            "m_Translate": [14, [23.5681152, 0.0, -39.6610717]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 345],
+            "m_PrefabName": [12, "pa_sur_set_k"],
+            "m_Rotate": [14, [-0.0, 0.0000016, -0.0]],
+            "m_Scale": [14, [0.7575758, 0.7575758, 0.7575761]],
+            "m_Translate": [14, [24.0192871, -0.018154, -39.4352416]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 346],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 28.0000057, -0.0]],
+            "m_Scale": [14, [1.1300003, 1.1299997, 1.1299997]],
+            "m_Translate": [14, [22.5391845, -0.015766, -38.7200927]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 347],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, -24.4999942, -0.0]],
+            "m_Scale": [14, [1.1299997, 1.1299997, 1.1300007]],
+            "m_Translate": [14, [24.0697021, -0.0308912, -49.8914794]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 348],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, -24.4999923, -0.0]],
+            "m_Scale": [14, [1.1299997, 1.1299997, 1.1300007]],
+            "m_Translate": [14, [33.2803955, -0.0281677, -44.4106445]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 349],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 59.000019, -0.0]],
+            "m_Scale": [14, [0.9338849, 0.933884, 0.933884]],
+            "m_Translate": [14, [9.1014404, -0.022274, -55.029541]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 350],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, -52.0000114, -0.0]],
+            "m_Scale": [14, [0.7957742, 0.7957745, 0.7957748]],
+            "m_Translate": [14, [18.3325195, -0.0235481, -41.5117187]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 351],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 29.0000362, -0.0]],
+            "m_Scale": [14, [0.7957748, 0.7957745, 0.7957745]],
+            "m_Translate": [14, [42.5047607, -0.0180664, -37.0946655]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 352],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 41.0000305, -0.0]],
+            "m_Scale": [14, [0.7957751, 0.7957745, 0.7957744]],
+            "m_Translate": [14, [36.7635498, -0.0195959, -27.8208007]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 357],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 8.0000028, -0.0]],
+            "m_Scale": [14, [0.671141, 0.6711409, 0.671141]],
+            "m_Translate": [14, [-15.873291, 0.0, -11.4729614]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 358],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 60.0000114, -0.0]],
+            "m_Scale": [14, [0.6711413, 0.6711409, 0.6711409]],
+            "m_Translate": [14, [-8.5020751, 0.0, -9.4143066]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 360],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_8x8_a"],
+            "m_Rotate": [14, [179.9999237, -64.0000839, 179.9999542]],
+            "m_Scale": [14, [0.6293119, 0.6293115, 0.6293119]],
+            "m_Translate": [14, [17.3331298, -0.0159645, 15.4660034]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 361],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000327, 61.5000267, 0.0000308]],
+            "m_Scale": [14, [1.1199995, 1.1199995, 1.1199995]],
+            "m_Translate": [14, [35.859375, 0.0075035, -1.7947998]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 363],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-0.0, 84.0000457, -0.0]],
+            "m_Translate": [14, [43.416748, 0.0042953, -21.586853]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 364],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-180.0, 46.999958, -180.0]],
+            "m_Translate": [14, [42.5505371, 0.0042953, -25.008728]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 365],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [179.9999847, 46.999958, 179.9999847]],
+            "m_Translate": [14, [42.5541992, 0.0042953, -28.6257324]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 366],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-179.9999542, 79.5, 179.9999237]],
+            "m_Translate": [14, [38.0202636, 0.0, -34.7696533]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 367],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-179.9999847, 71.9999923, 179.9999542]],
+            "m_Translate": [14, [29.71875, 0.0, -40.3543701]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 368],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [6.339776632557914e-7, -58.9999809, 0.0000297]],
+            "m_Scale": [14, [1.1499996, 1.1499997, 1.1500002]],
+            "m_Translate": [14, [30.9064941, 0.0, -41.151123]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 369],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-0.0000373, 39.0000305, 0.0000197]],
+            "m_Scale": [14, [1.1500003, 1.1499997, 1.1499998]],
+            "m_Translate": [14, [26.4978027, 0.0, -36.7231445]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 370],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-0.0000373, 39.0000343, 0.0000197]],
+            "m_Scale": [14, [1.1500003, 1.1499997, 1.1499998]],
+            "m_Translate": [14, [23.2753906, 0.0237348, -49.5320434]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 372],
+            "m_PrefabName": [12, "nat_flowers_clump_b"],
+            "m_PresetNames": [12, "Nature_visibility_grass;visible"],
+            "m_Rotate": [14, [-0.0001385, 79.5000381, 0.0001084]],
+            "m_Scale": [14, [1.1500003, 1.1499996, 1.1499998]],
+            "m_Translate": [14, [36.1082763, -0.0077475, -27.3742675]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 373],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [179.9999389, -59.5000228, 179.9999542]],
+            "m_Scale": [14, [1.2241381, 1.2241374, 1.2241386]],
+            "m_Translate": [14, [18.7568359, -0.0000038, -54.8970336]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 374],
+            "m_PrefabName": [12, "pa_wooden_path_straight_a"],
+            "m_Rotate": [14, [-9.999999974752428e-7, -37.4999732, 0.0000317]],
+            "m_Scale": [14, [0.8136034, 0.8136035, 0.813605]],
+            "m_Translate": [14, [15.2818603, -0.0000038, -51.7236328]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 375],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0000108, 55.0, 0.0000147]],
+            "m_Scale": [14, [1.0000007, 1.0, 0.9999991]],
+            "m_Translate": [14, [14.496582, 0.0, -52.5147705]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 376],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 68.9999694, -0.0]],
+            "m_Scale": [14, [1.0000003, 1.0, 0.9999992]],
+            "m_Translate": [14, [12.7827148, 0.0, -50.8487548]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 377],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-179.9999847, -45.0000038, -179.9999847]],
+            "m_Scale": [14, [1.0000007, 1.0, 0.9999992]],
+            "m_Translate": [14, [18.1882324, 0.0, -53.1568603]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 379],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [142.0620727, -54.3455657, 147.6492309]],
+            "m_Scale": [14, [0.8615375, 0.8615378, 0.8615387]],
+            "m_Translate": [14, [-9.8142089, 0.2445793, -19.1293945]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 380],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 8.0000028, -0.0]],
+            "m_Scale": [14, [0.671141, 0.6711409, 0.671141]],
+            "m_Translate": [14, [-17.0117187, 0.0, -23.8425903]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 381],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0, 35.5000076, -0.0]],
+            "m_Scale": [14, [0.6711412, 0.6711409, 0.6711406]],
+            "m_Translate": [14, [-11.7108154, -0.0090025, -18.8132934]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 382],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [-179.9999847, 67.500061, -179.9999847]],
+            "m_Translate": [14, [-26.1055908, -0.0032424, -6.0188598]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 383],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [-0.0000128, 58.9999885, 0.0000035]],
+            "m_Translate": [14, [-26.5158691, -0.0005912, -12.7786865]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 384],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [0.0000032, 54.000019, -0.0000122]],
+            "m_Translate": [14, [15.9929199, -0.0046652, -52.2021484]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 387],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [-0.0000049, -41.5000381, 0.0000049]],
+            "m_Scale": [14, [1.2599997, 1.2599997, 1.2600003]],
+            "m_Translate": [14, [18.7305908, 0.0388602, -56.1028442]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 390],
+            "m_PrefabName": [12, "pa_sur_fence_2x_b"],
+            "m_Rotate": [14, [-0.0000317, 61.5004768, 0.0000411]],
+            "m_Translate": [14, [18.5301513, -0.144905, -52.4993896]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 391],
+            "m_PrefabName": [12, "pr_bench"],
+            "m_Rotate": [14, [-0.0, -32.5000228, -0.0]],
+            "m_Translate": [14, [18.5759277, -0.0002465, -51.7314453]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 392],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor"],
+            "m_Rotate": [14, [-180.0, 73.5000152, -180.0]],
+            "m_Translate": [14, [25.7698974, -0.1165885, -38.5626831]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 393],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [-90.0, -0.0, -118.5000152]],
+            "m_Scale": [14, [1.1446876, 1.1446876, 1.1446875]],
+            "m_Translate": [14, [36.0709228, -0.100376, -40.9177246]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 394],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [89.9999923, 0.0000016, -152.9999694]],
+            "m_Scale": [14, [0.8338341, 0.8338353, 0.8338341]],
+            "m_Translate": [14, [19.0817871, 0.0852354, -49.5476684]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 397],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [179.9999389, -57.5001068, 179.9999694]],
+            "m_Scale": [14, [1.0509512, 1.05095, 1.0509506]],
+            "m_Translate": [14, [7.1622314, -0.0085944, 10.9646606]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 398],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0000206, -32.499897, 0.0000228]],
+            "m_Scale": [14, [1.1140073, 1.1140071, 1.1140085]],
+            "m_Translate": [14, [0.4766845, -0.0085982, 9.9829101]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 400],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Scale": [14, [1.0000007, 1.0, 0.9999992]],
+            "m_Translate": [14, [13.178955, 0.0, 0.7991333]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 401],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 60.0, -0.0]],
+            "m_Scale": [14, [0.8000006, 0.8, 0.7999994]],
+            "m_Translate": [14, [14.4362792, 0.0, -1.37854]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 402],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Scale": [14, [1.0240006, 1.024, 1.0239993]],
+            "m_Translate": [14, [14.2788085, 0.0, -5.6571044]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 403],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Scale": [14, [1.024001, 1.024, 1.0239993]],
+            "m_Translate": [14, [9.5164794, 0.0, -1.699707]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 405],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Scale": [14, [1.024001, 1.024, 1.0239993]],
+            "m_Translate": [14, [6.3901367, 0.0, -1.4500122]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 406],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [-180.0, -60.0000114, -180.0]],
+            "m_Scale": [14, [1.024001, 1.024, 1.0239994]],
+            "m_Translate": [14, [7.7722167, 0.0, -3.9325561]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 407],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240005, 1.0239999, 1.0239994]],
+            "m_Translate": [14, [9.7675781, 0.0, -8.7276611]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 409],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239998, 1.0239994]],
+            "m_Translate": [14, [15.8989257, 0.0000038, 0.6912841]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 410],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239994, 1.0239994]],
+            "m_Translate": [14, [14.1190185, 0.0000038, 3.8020019]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 412],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239994, 1.0239994]],
+            "m_Translate": [14, [18.645874, 0.0000038, 0.3508298]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 413],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239994, 1.0239994]],
+            "m_Translate": [14, [18.3460693, 0.0000038, 5.8797607]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 414],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239994, 1.0239994]],
+            "m_Translate": [14, [20.1259765, 0.0000038, 2.7689819]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 416],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239994, 1.0239994]],
+            "m_Translate": [14, [22.5632324, 0.0000038, 3.0784301]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 417],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239992, 1.0239994]],
+            "m_Translate": [14, [22.5485839, 0.0000038, 8.2954101]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 418],
+            "m_PrefabName": [12, "nat_ivy_floor_g"],
+            "m_Rotate": [14, [179.9999847, -60.0, 179.9999847]],
+            "m_Scale": [14, [1.0240006, 1.0239993, 1.0239994]],
+            "m_Translate": [14, [24.3284912, 0.0000038, 5.1846313]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 419],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Scale": [14, [1.024001, 1.024, 1.0239994]],
+            "m_Translate": [14, [14.7324218, 0.0, -6.8058471]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 420],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 59.9999923, -0.0]],
+            "m_Scale": [14, [1.024001, 1.024, 1.0239994]],
+            "m_Translate": [14, [12.453247, 0.0, -1.4686279]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 422],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [179.9999847, -23.0000267, 179.9999847]],
+            "m_Scale": [14, [1.2083208, 1.2083199, 1.2083194]],
+            "m_Translate": [14, [8.7218017, -0.1216887, -6.5311279]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 423],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-179.9998931, 80.0000152, 179.9998779]],
+            "m_Scale": [14, [1.2083208, 1.2083199, 1.2083199]],
+            "m_Translate": [14, [11.6309814, -0.1216887, -7.4577026]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 424],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-179.9998931, 80.0000305, 179.9998779]],
+            "m_Scale": [14, [1.2083208, 1.2083199, 1.20832]],
+            "m_Translate": [14, [17.7536621, -0.1216849, 2.6033935]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 425],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-179.9998931, 80.0000534, 179.9998779]],
+            "m_Scale": [14, [1.2083208, 1.2083199, 1.2083199]],
+            "m_Translate": [14, [23.9599609, -0.1216811, 7.4803466]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 427],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [179.9999389, -57.5001068, 179.9999694]],
+            "m_Scale": [14, [1.2041356, 1.2041343, 1.2041349]],
+            "m_Translate": [14, [21.2966308, -0.008213, 4.9292602]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 428],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0000206, -32.4998931, 0.0000228]],
+            "m_Scale": [14, [1.2041348, 1.2041343, 1.204136]],
+            "m_Translate": [14, [8.7445068, -0.0082243, -6.0895996]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 429],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.0000326, -0.9998744, 0.0000192]],
+            "m_Scale": [14, [1.2041349, 1.2041343, 1.2041356]],
+            "m_Translate": [14, [11.9606933, -0.0082205, -1.50531]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 430],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.000075, 65.5001296, 0.0000461]],
+            "m_Scale": [14, [1.2041356, 1.2041343, 1.2041348]],
+            "m_Translate": [14, [-2.0059814, -0.041374, -10.0439453]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 431],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [-0.000075, 65.5001296, 0.0000461]],
+            "m_Scale": [14, [1.2041356, 1.2041343, 1.2041348]],
+            "m_Translate": [14, [-8.8283691, -0.0413702, 2.6489257]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 432],
+            "m_PrefabName": [12, "nat_roof_big_grass_clump_4x4_a"],
+            "m_Rotate": [14, [179.9999847, 24.4998645, 179.9999847]],
+            "m_Scale": [14, [1.2041348, 1.2041343, 1.2041356]],
+            "m_Translate": [14, [-15.0904541, -0.041374, -0.5700681]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 433],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [179.9999847, -66.5000228, 179.9999847]],
+            "m_Scale": [14, [1.0878944, 1.0878943, 1.0878944]],
+            "m_Translate": [14, [3.5377197, 0.0, 4.0684814]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 434],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Translate": [14, [13.6175537, 0.0, 9.8833007]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 435],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Scale": [14, [1.1699999, 1.1699999, 1.1699999]],
+            "m_Translate": [14, [22.9981689, 0.0, 10.3951416]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 436],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Scale": [14, [1.1699999, 1.1699999, 1.1699999]],
+            "m_Translate": [14, [26.2335205, 0.0, 5.390686]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 437],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Scale": [14, [1.1699999, 1.1699999, 1.1699999]],
+            "m_Translate": [14, [17.5211181, 0.0, 8.6731567]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 438],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Scale": [14, [1.0263154, 1.0263154, 1.0263154]],
+            "m_Translate": [14, [16.5292968, 0.0, 8.0026855]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 439],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [179.9999847, -66.5000228, 179.9999847]],
+            "m_Scale": [14, [1.0263159, 1.0263154, 1.0263158]],
+            "m_Translate": [14, [6.9794921, 0.0, 2.5824584]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 440],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [179.9999847, -66.5000076, 179.9999847]],
+            "m_Scale": [14, [1.0878945, 1.0878944, 1.0878945]],
+            "m_Translate": [14, [5.9813232, 0.0, 2.0477905]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 441],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0000223, 66.5000534, 0.0000223]],
+            "m_Scale": [14, [0.9065784, 0.9065784, 0.9065787]],
+            "m_Translate": [14, [-11.8923339, 0.0, -5.7003173]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 442],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [0.0000016, -23.499979, 0.0000097]],
+            "m_Scale": [14, [1.0878943, 1.0878942, 1.0878945]],
+            "m_Translate": [14, [-13.0709228, 0.0, -6.5560913]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 443],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0000223, 66.5000534, 0.0000223]],
+            "m_Scale": [14, [0.9065784, 0.9065784, 0.9065787]],
+            "m_Translate": [14, [-14.072998, 0.0, -6.8148803]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 444],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0000304, 66.5000686, 0.0000304]],
+            "m_Scale": [14, [1.1200001, 1.12, 1.1200001]],
+            "m_Translate": [14, [-9.783081, 0.0, -9.4669189]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 445],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0000304, 66.500061, 0.0000304]],
+            "m_Scale": [14, [1.2768001, 1.2768, 1.2768001]],
+            "m_Translate": [14, [-17.822998, 0.0, -11.3904418]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 446],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0000304, 66.5000686, 0.0000304]],
+            "m_Scale": [14, [1.1200001, 1.12, 1.1200001]],
+            "m_Translate": [14, [-11.5535888, 0.0, -16.6762695]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 447],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [-0.0, -29.0000133, -0.0]],
+            "m_Translate": [14, [-8.416748, 0.0614967, -11.9100341]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 448],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_1x_narrow_wall_low_b_dry"],
+            "m_Rotate": [14, [0.0000197, -28.4999885, 0.0000335]],
+            "m_Scale": [14, [0.9999982, 0.9999997, 1.0000007]],
+            "m_Translate": [14, [-9.3006591, -0.0710142, -7.0220336]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 449],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [-180.0, -59.5000305, -180.0]],
+            "m_Translate": [14, [6.0085449, 0.0014938, 5.3330688]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 450],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [179.9999847, 30.4999771, 179.9999847]],
+            "m_Scale": [14, [0.9999989, 0.9999998, 1.0000003]],
+            "m_Translate": [14, [10.1679687, 0.0614967, 13.8129882]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 451],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [179.9999847, 30.4999809, 179.9999847]],
+            "m_Translate": [14, [20.1492919, 0.0614967, 17.5451049]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 452],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [179.9999847, 30.4999847, 179.9999847]],
+            "m_Translate": [14, [24.385498, 0.0614967, 7.9325561]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 453],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_1x_narrow_wall_low_b_dry"],
+            "m_Rotate": [14, [179.9999542, -60.0000038, 179.9999389]],
+            "m_Scale": [14, [0.9999992, 0.9999998, 1.0000002]],
+            "m_Translate": [14, [5.8232421, -0.0710029, -51.8981323]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 454],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_1x_narrow_wall_low_b_dry"],
+            "m_Rotate": [14, [-0.0, 60.0000038, -0.0]],
+            "m_Translate": [14, [6.0970458, -0.0789642, -52.3724365]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 455],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 68.9999847, -0.0]],
+            "m_Scale": [14, [1.0000003, 1.0, 0.9999992]],
+            "m_Translate": [14, [20.855957, 0.0, -54.8259887]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 456],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-0.0, 11.499999, -0.0]],
+            "m_Translate": [14, [24.7559814, 0.0, -38.5439453]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 457],
+            "m_PrefabName": [12, "nat_ivy_floor_d"],
+            "m_Rotate": [14, [-180.0, 78.5000076, -180.0]],
+            "m_Translate": [14, [22.6241455, 0.0, -39.5770263]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 458],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [179.9999847, -66.5000076, 179.9999847]],
+            "m_Scale": [14, [1.0878938, 1.0878938, 1.0878945]],
+            "m_Translate": [14, [-6.2974853, 0.0, -5.3904418]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 459],
+            "m_PrefabName": [12, "bld_pa_wall_2x2_a_dry"],
+            "m_Rotate": [14, [179.9999694, -60.4999198, 179.9999389]],
+            "m_Translate": [14, [-7.3551025, -0.073242, -7.2519531]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 460],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [-0.0, 62.4999771, -0.0]],
+            "m_Scale": [14, [1.0700006, 1.07, 1.0699999]],
+            "m_Translate": [14, [26.364746, -0.0436206, 11.6325073]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 461],
+            "m_PrefabName": [12, "nat_roof_plane_grass_a"],
+            "m_Rotate": [14, [-180.0, -62.5000038, -180.0]],
+            "m_Scale": [14, [1.0700005, 1.07, 1.0699998]],
+            "m_Translate": [14, [25.4188232, 0.0100669, 9.2037963]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [-1.9200439, 0.4999924, -0.2334289, 4.3504638, 0.5000075, 2.2218322]],
+            "m_Name": [12, "tinyobject_eraser"],
+            "m_PcId": [6, 464],
+            "m_PrefabName": [12, "tiny_object_helper"],
+            "m_Rotate": [14, [-179.9999847, 30.0000038, 179.9999694]],
+            "m_Translate": [14, [37.7783203, -0.4845046, -44.4070434]]
+          },
+          "Fields": {
+            "m_AreaHeight": "1.000000",
+            "m_AreaPoints": "2.422852 -0.000008 -2.455261;2.430420 0.000000 1.985779;-6.262939 0.000000 1.988403;-6.270508 -0.000015 -2.452698;",
+            "m_ClearOtherLayers": "1"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 465],
+            "m_PrefabName": [12, "pa_muddy_path_turn_a"],
+            "m_Rotate": [14, [179.3488159, 39.9675979, -176.0815734]],
+            "m_Scale": [14, [0.847458, 0.8474581, 0.8474581]],
+            "m_Translate": [14, [31.0870361, -0.1518173, 6.7582397]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 466],
+            "m_PrefabName": [12, "pa_muddy_path_turn_a"],
+            "m_Rotate": [14, [0.0000092, -46.4999732, 0.0000057]],
+            "m_Scale": [14, [0.7407407, 0.7407407, 0.740741]],
+            "m_Translate": [14, [30.6691093, -0.2125511, 5.927577]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 467],
+            "m_PrefabName": [12, "prp_bucket_a"],
+            "m_Rotate": [14, [-0.0001251, 60.0000305, 0.0001442]],
+            "m_Translate": [14, [29.8638916, -0.1028899, 6.5675048]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_NavmeshFlagsAllowed": [21, -3],
+            "m_PcId": [6, 468],
+            "m_PrefabName": [12, "pa_bird_cage_a"],
+            "m_Rotate": [14, [-180.0, 32.9998054, -180.0]],
+            "m_Translate": [14, [31.3023548, -0.2056171, 7.1588897]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 470],
+            "m_PrefabName": [12, "nat_plantbox_vegetation"],
+            "m_Rotate": [14, [-179.9999847, 31.9999885, -179.9999847]],
+            "m_Scale": [14, [0.67114, 0.6711403, 0.6711403]],
+            "m_Translate": [14, [1.8962402, -0.0078811, -16.6070556]]
+          },
+          "Fields": {
+            "SELECTOR": "hay_dead"
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 472],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000048, -59.4999847]],
+            "m_Scale": [14, [0.8096988, 0.8096987, 0.8096988]],
+            "m_Translate": [14, [-4.4870605, 0.0967328, 3.401062]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 473],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000048, 116.5000076]],
+            "m_Scale": [14, [0.8096988, 0.8096988, 0.8096988]],
+            "m_Translate": [14, [-19.6069335, 0.0662155, -2.9246215]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 474],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000048, -59.4999847]],
+            "m_Scale": [14, [0.8096988, 0.8096987, 0.8096988]],
+            "m_Translate": [14, [-23.4488525, 0.0595013, -3.2470703]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 475],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [-90.0, -0.0000023, 63.4999961]],
+            "m_Scale": [14, [0.8096988, 0.8096988, 0.8096988]],
+            "m_Translate": [14, [-21.1561279, -0.0656204, -0.3713378]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 476],
+            "m_PrefabName": [12, "bld_pa_a_wall_str_1x_g"],
+            "m_Rotate": [14, [90.0, 0.0000048, -59.4999847]],
+            "m_Scale": [14, [0.8096988, 0.8096987, 0.8096988]],
+            "m_Translate": [14, [-24.764038, 0.0642623, -0.6745604]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 477],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_dry"],
+            "m_Rotate": [14, [-0.0, 59.9999771, -0.0]],
+            "m_Scale": [14, [1.0000007, 1.0, 0.9999997]],
+            "m_Translate": [14, [-6.4616699, -0.0132446, 9.8033447]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 479],
+            "m_PrefabName": [12, "bld_pa_a_flowerbed_2x_b_initial"],
+            "m_Rotate": [14, [-0.0, -33.0000038, -0.0]],
+            "m_Translate": [14, [-6.3256835, -0.0132446, 6.8931274]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 480],
+            "m_PrefabName": [12, "watering_can_a"],
+            "m_Rotate": [14, [179.9999389, 69.5000457, -179.9999694]],
+            "m_Translate": [14, [-5.5856933, 0.9067571, 5.8031616]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 481],
+            "m_PrefabName": [12, "prp_bucket"],
+            "m_Rotate": [14, [179.9996185, 87.5001678, -179.9996643]],
+            "m_Translate": [14, [-6.555664, -0.073242, 9.453125]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 482],
+            "m_PrefabName": [12, "prp_shovel_a"],
+            "m_Rotate": [14, [15.8980646, 1.2114026, -6.9857859]],
+            "m_Translate": [14, [-6.0256347, 0.9767568, 9.5031738]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 483],
+            "m_PrefabName": [12, "pa_muddy_path_straight_a"],
+            "m_Rotate": [14, [-0.0, -30.000019, -0.0]],
+            "m_Translate": [14, [-21.7072753, 0.0167577, -2.7349853]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 484],
+            "m_PrefabName": [12, "nat_field_dead_a"],
+            "m_Rotate": [14, [179.9999847, 51.0000114, 179.9999847]],
+            "m_Scale": [14, [0.8999989, 0.8999992, 0.8999999]],
+            "m_Translate": [14, [30.9543457, 0.4767569, -30.9868774]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 485],
+            "m_PrefabName": [12, "pile_of_hay_b"],
+            "m_Rotate": [14, [179.9999847, 60.0000534, 179.9999847]],
+            "m_Translate": [14, [29.4577636, 0.5067558, -30.6704711]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 486],
+            "m_PrefabName": [12, "prp_hay_cube_a"],
+            "m_Rotate": [14, [-0.0, 39.9999961, -0.0]],
+            "m_Translate": [14, [31.9743652, 0.5167579, -28.9968872]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 487],
+            "m_PrefabName": [12, "is_pump_station_ext_pa_bench_a"],
+            "m_Rotate": [14, [0.000009, 62.5000114, -0.0000156]],
+            "m_Scale": [14, [0.9999992, 1.0, 0.9999998]],
+            "m_Translate": [14, [-24.5413818, -0.0463786, -2.5543212]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 490],
+            "m_PrefabName": [12, "pa_fence_2x_b_cor_big"],
+            "m_Rotate": [14, [0.0000475, -68.5000152, 0.0000079]],
+            "m_Scale": [14, [0.898957, 0.8989567, 0.8989567]],
+            "m_Translate": [14, [17.9122314, -0.0201948, -48.6472167]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 491],
+            "m_PrefabName": [12, "nat_tree_decid_dead_med_a"],
+            "m_Rotate": [14, [-180.0, 54.0000305, -180.0]],
+            "m_Scale": [14, [0.8, 0.8, 0.8000004]],
+            "m_Translate": [14, [24.7523193, -0.3057402, -46.510559]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 492],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0, -7.4998788, -0.0]],
+            "m_Scale": [14, [1.1000001, 1.1, 1.1000007]],
+            "m_Translate": [14, [-5.756958, 0.9000015, -14.9767456]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 493],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [179.9999847, -73.5001373, 179.9999847]],
+            "m_Translate": [14, [-6.3175048, 0.9000015, -14.0371704]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 494],
+            "m_PrefabName": [12, "pa_survivor_pot_deco_a_dry"],
+            "m_Rotate": [14, [-0.0, 57.5000991, -0.0]],
+            "m_Scale": [14, [0.8500005, 0.85, 0.8499999]],
+            "m_Translate": [14, [-5.2976074, 0.9000015, -15.7971801]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "SpawnType": {
+        "User": "1"
+      },
+      "PrefabInterfaces": [
+        "cbs::IArea"
+      ],
+      "Interface": {
+        "Pipes": [
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeIsPointInside"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeIsPointInside2d"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeInsideAreaMultiPointsTest"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetWorldExtents"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetLocalExtentsAndWorldXForm"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeDistanceToNearestPoint"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetAreaData"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetRandomPointInside"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetBaseArea"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_SignalToggleRendering"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_SignalUnToggleRendering"
+          },
+          {
+            "Type": "PipeIn",
+            "Name": "cbs::IArea::m_PipeGetClosestPortal"
+          }
+        ],
+        "VirtualFields": [
+          {
+            "Name": "EnableState",
+            "Init": "e:EDIT;f:EDIT|QUEST;",
+            "DestinationFields": [
+              {
+                "Uuid": "21",
+                "Name": "m_Enabled"
+              }
+            ]
+          },
+          {
+            "Name": "VisibilityRange",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "VisibilityRange"
+              }
+            ]
+          },
+          {
+            "Name": "BlendingEnabled",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe/Blending;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "BlendingEnabled"
+              }
+            ]
+          },
+          {
+            "Name": "-X",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe/Blending;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "-X"
+              }
+            ]
+          },
+          {
+            "Name": "+X",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe/Blending;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "+X"
+              }
+            ]
+          },
+          {
+            "Name": "-Y",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe/Blending;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "-Y"
+              }
+            ]
+          },
+          {
+            "Name": "+Y",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe/Blending;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "+Y"
+              }
+            ]
+          },
+          {
+            "Name": "Scale",
+            "Init": "f:EDIT;e:EDIT|RTTI_EDIT_SLIDER;c:Envprobe;m:0.01;s:0.01;x:1.0;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "Scale"
+              }
+            ]
+          },
+          {
+            "Name": "Priority",
+            "Init": "f:EDIT;e:EDIT|RTTI_EDIT_SLIDER;c:Envprobe;m:0;s:1;x:1000;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "Priority"
+              }
+            ]
+          },
+          {
+            "Name": "m_ClippingXformEntity",
+            "Init": "f:EDIT;e:BROWSE_OBJECT;c:Envprobe;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "m_ClippingXformEntity"
+              },
+              {
+                "Uuid": "18",
+                "Name": "m_ClippingXformEntity"
+              }
+            ]
+          },
+          {
+            "Name": "m_SolidTrianglesVertices",
+            "Init": "f:EDIT;e:EDIT;",
+            "DestinationFields": [
+              {
+                "Uuid": "18",
+                "Name": "m_SolidTrianglesVertices"
+              }
+            ]
+          },
+          {
+            "Name": "Block cache usage",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "Block cache usage"
+              }
+            ]
+          },
+          {
+            "Name": "cbs::IArea::m_Inverted",
+            "Init": "e:EDIT|CHECKBOX|ADVANCED|OVERRIDE;f:EXPOSE;n:m_Inverted;l:Inverted;",
+            "DestinationFields": [
+              {
+                "Uuid": "18",
+                "Name": "m_Inverted"
+              }
+            ]
+          },
+          {
+            "Name": "CanUseDoors",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "CanUseDoors"
+              }
+            ]
+          },
+          {
+            "Name": "GenerateHQReflections",
+            "Init": "f:EDIT;e:EDIT;c:Envprobe;",
+            "DestinationFields": [
+              {
+                "Uuid": "19",
+                "Name": "GenerateHQReflections"
+              }
+            ]
+          }
+        ]
+      },
+      "Bindings": {
+        "Properties": [
+          {
+            "src_uuid": "20",
+            "src": "this",
+            "dest_uuid": "19",
+            "dest": "m_InMatrix"
+          }
+        ],
+        "Pipes": [
+          {
+            "src_uuid": "21",
+            "src": "m_PipeOnEnabled",
+            "dest_uuid": "19",
+            "dest": "m_PipeActivate"
+          },
+          {
+            "src_uuid": "21",
+            "src": "m_PipeOnDisabled",
+            "dest_uuid": "19",
+            "dest": "m_PipeDeactivate"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeIsPointInside",
+            "dest_uuid": "18",
+            "dest": "m_PipeIsPointInside"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeInsideAreaMultiPointsTest",
+            "dest_uuid": "18",
+            "dest": "m_PipeInsideAreaMultiPointsTest"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeGetWorldExtents",
+            "dest_uuid": "18",
+            "dest": "m_PipeGetWorldExtents"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeDistanceToNearestPoint",
+            "dest_uuid": "18",
+            "dest": "m_PipeDistanceToNearestPoint"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeGetRandomPointInside",
+            "dest_uuid": "18",
+            "dest": "m_PipeGetRandomPointInside"
+          },
+          {
+            "src_uuid": "0",
+            "src": "cbs::IArea::m_PipeGetBaseArea",
+            "dest_uuid": "18",
+            "dest": "m_PipeGetBaseArea"
+          }
+        ]
+      },
+      "Components": [
+        {
+          "Class": "CoBox",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 18],
+            "m_RenderOnlySelected": [11, true],
+            "m_XformComponent": [6, 20]
+          }
+        },
+        {
+          "Class": "CoEnvprobe",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 19]
+          }
+        },
+        {
+          "Class": "CoHierarchy",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 20],
+            "m_RootXform": [11, true],
+            "m_Visualization": [12, "light.msh"],
+            "m_VisualizationSkin": [12, "Envprobe"]
+          }
+        },
+        {
+          "Class": "CoEnable",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 21]
+          },
+          "Fields": {
+            "m_Enabled": "1",
+            "m_SelfActive": "1"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "ProductionState": {
+        "User": "2"
+      },
+      "DataVersion": "2",
+      "CreatedInEditor": "1",
+      "AllowsNonUniformScaling": "1",
+      "Nodes": [
+        {
+          "Uuid": "18",
+          "Type": "2",
+          "X": "225.00",
+          "Y": "-690.00"
+        },
+        {
+          "Uuid": "19",
+          "Type": "0",
+          "X": "750.00",
+          "Y": "-405.00"
+        },
+        {
+          "Uuid": "20",
+          "Type": "2",
+          "X": "-399.00",
+          "Y": "197.00"
+        },
+        {
+          "Uuid": "21",
+          "Type": "0",
+          "X": "-390.00",
+          "Y": "30.00"
+        },
+        {
+          "Uuid": "12",
+          "Type": "4",
+          "X": "-405.00",
+          "Y": "-285.00",
+          "Interface_Type": "0"
+        },
+        {
+          "Uuid": "13",
+          "Type": "4",
+          "X": "-360.00",
+          "Y": "-30.00",
+          "Interface_Type": "1"
+        },
+        {
+          "Uuid": "14",
+          "Type": "4",
+          "X": "-405.00",
+          "Y": "-630.00",
+          "Interface_Type": "2"
+        }
+      ]
+    }
+  }
+}
