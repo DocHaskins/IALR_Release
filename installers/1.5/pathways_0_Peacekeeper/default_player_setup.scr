@@ -356,6 +356,61 @@ sub Difficulty_7_Skills()
 	Skill("nagewaza");//14
 	Skill("air_takedown");//15
 }
+
+sub Difficulty_7_Skills_default()
+{
+		//Parkour
+		Skill("run_faster");
+		Skill("height_jump");
+		Skill("firm_grip");
+		Skill("sleek_runner");
+		Skill("active_land");
+		Skill("active_land2");
+		Skill("active_land_jump");
+		Skill("advanced_crouch");
+		Skill("fast_climb");
+		Skill("ledge_master");
+		Skill("slide_advanced");
+		Skill("dash");
+		Skill("dash_advanced");
+		Skill("after_boost");
+		Skill("ram");
+		Skill("slide_jump");
+		Skill("charge_tackle");
+		Skill("slide");
+		Skill("dart");
+		Skill("far_jump");
+		//Combat
+		Skill("parkour_combat");
+		Skill("perfect_dodge");
+		Skill("jump_attack");
+		Skill("power_attack");
+		Skill("nagewaza");
+		Skill("nagewaza_throw");
+		Skill("windmill");
+		Skill("ledge_takedown");
+		Skill("vault_kick_ragdoll");
+		Skill("power_shot");
+		Skill("block_projectiles");
+		Skill("silent_takedown_throw");
+		Skill("deflect_projectiles");
+		Skill("charge_grab"); 
+		Skill("silent_takedown");
+		Skill("ranged_mastery");
+		Skill("perfect_block");
+		//Tools
+		Skill("CubeKey"); 
+		Skill("Binoculars");
+		Skill("Backpack"); 
+		Skill("Paraglider");
+		Skill("Paraglider_2");
+		Skill("UV_Flashlight");
+		Skill("UV_Flashlight_2");
+		Skill("GrappleHook");
+		Skill("GrappleHook_2");
+		Skill("GRE_Keyfinder"); 
+}
+
 /// Blueprint Sets
 sub Blueprints_All_Base() 
 {
@@ -1609,7 +1664,7 @@ sub main()
 		Skill("AntizinCapacityUpgradeHealth");//20
 		Skill("AntizinCapacityUpgradeHealth");//21
 		
-		use Difficulty_7_Skills();
+		use Difficulty_7_Skills_default();
 		
 		/////////////////////////
 		//Player Level
@@ -3639,6 +3694,86 @@ sub main()
 		Level(33, "Experience", 1.0);
 		Level(37, "Inhibitors", 1.0);
     }
+	
+	Preset("Parkour_Example_DLC2")		// Difficulty
+    {
+		use Stamina_Lvl_7();
+		use Health_Lvl_7();
+
+		Skill("run_faster");//0
+		Skill("height_jump");//1
+		Skill("firm_grip");//3
+		Skill("sleek_runner");//4
+		Skill("active_land");//5
+		
+		Skill("parkour_combat");//1
+		Skill("perfect_dodge");//2
+		Skill("jump_attack");//3
+		Skill("power_attack");//5
+
+		Skill("CubeKey"); 
+		Skill("Binoculars"); // Tool
+		Skill("Backpack"); // Tool
+		Skill("Paraglider"); // Tool
+		Skill("GrappleHook"); // Tool	
+		Skill("UV_Flashlight"); // Tool
+		Skill("GRE_Keyfinder"); // Tool
+		Skill("GreInhibitorDetector"); // Tool
+
+		Skill("slide");//6
+		Skill("dart");//7
+		Skill("far_jump");//8
+	 
+		Skill("silent_takedown");//6
+		Skill("ranged_mastery");//7
+		Skill("perfect_block");//4
+
+		Skill("double_jump");//9
+		Skill("vertical_wall_run");//10
+		Skill("active_land2");//11
+		
+		Skill("ground_pound");//9
+		Skill("silent_takedown");//10
+		Skill("wrestle_kick");//12
+
+		Skill("horizontal_wall_run");//12
+		Skill("charge_tackle");//13
+		Skill("wall_run_jump");//14
+		Skill("wall_jump_sequence");//
+
+		Skill("windmill");//13
+		Skill("nagewaza");//14
+		Skill("air_takedown");//15
+
+		Item("LockpickItem", 20, "");
+		
+		Item("Craftplan_Medkit_Small_Upgrade3", 1, "");
+		Item("Craftplan_Lockpick_Upgrade4", 1, "");
+		Item("Craftplan_ThrowingKnives_Upgrade3", 1, "");
+		Item("Craftplan_Firecrackers_Upgrade4", 1, "");
+		Item("Craftplan_Molotov_Upgrade3", 1, "");
+		Item("Craftplan_Firearm_Shotgun_Upgrade4", 1, "");
+		Item("Craftplan_Grenade_Upgrade3", 1, "");
+		Item("Craftplan_Mine_Explosive_Upgrade4", 1, "");
+		Item("Craftplan_Potion_DamageReduction_Upgrade3", 1, "");
+		Item("Craftplan_Potion_StaminaUpgrade_Upgrade3", 1, "");
+		Item("Craftplan_Mod_Shock_SpecialAttack_Upgrade3", 1, "");
+		Item("Craftplan_Mod_Freeze_Random_Upgrade4_TIP", 1, "");
+		Item("Craftplan_Mod_Shock_Random_Upgrade3_TIP", 1, "");
+		Item("Craftplan_Mod_Heat_Random_Upgrade5_SHAFT", 1, "");
+		Item("Craftplan_Mod_Bleeding_Random_Upgrade5_SHAFT", 1, "");
+		Item("Craftplan_Mod_Heat_PowerAttack_Upgrade4", 1, "");
+		Item("Craftplan_Mod_Toxic_PowerAttack_Upgrade3", 1, "");
+		Item("Craftplan_Mod_Impact_Random_Upgrade4_TIP", 1, "");
+		Item("Craftplan_Mod_Freeze_PowerAttack_Upgrade2", 1, "");
+		Item("Craftplan_Mod_Freeze_SpecialAttack_Upgrade5", 1, "");
+		Item("Craftplan_Mod_Bleeding_SpecialAttack_Upgrade2", 1, "");
+
+
+		Level(21, "Traversal", 1.0);
+        Level(21, "Combat", 1.0);
+		Level(38, "Experience", 1.0);
+    }
 	Preset("Player_Difficulty_3_Ringout")		// Difficulty
     {
 		use Stamina_Lvl_3();
@@ -3913,6 +4048,134 @@ sub main()
         Level(9, "Combat", 1.0);
 		Level(14, "Experience", 1.0);
     }
+	Preset("Parkour_Playtest_DLC2")		// Difficulty
+    {
+		use Stamina_Lvl_7();
+		use Health_Lvl_7();
+
+		Skill("run_faster");//0
+		Skill("height_jump");//1
+		Skill("firm_grip");//3
+		Skill("sleek_runner");//4
+		Skill("active_land");//5
+		
+		Skill("parkour_combat");//1
+		Skill("perfect_dodge");//2
+		Skill("jump_attack");//3
+		Skill("power_attack");//5
+
+		Skill("CubeKey"); 
+		Skill("Binoculars"); // Tool
+		Skill("Backpack"); // Tool
+		Skill("Paraglider"); // Tool
+		//Skill("UV_Flashlight"); // Tool
+		Skill("GRE_Keyfinder"); // Tool
+		Skill("GreInhibitorDetector"); // Tool
+
+		Skill("slide");//6
+		Skill("dart");//7
+		Skill("far_jump");//8
+		
+		Skill("slide_advanced");//			
+		Skill("slide_jump");//	
+	 
+		Skill("silent_takedown");//6
+		Skill("ranged_mastery");//7
+		Skill("perfect_block");//4
+
+		Skill("double_jump");//9
+		//Skill("vertical_wall_run");//10
+		Skill("active_land2");//11
+		
+		Skill("ground_pound");//9
+		Skill("silent_takedown");//10
+		Skill("wrestle_kick");//12
+
+		Skill("horizontal_wall_run");//12
+		Skill("charge_tackle");//13
+		//Skill("wall_run_jump");//14
+		Skill("wall_jump_sequence");//
+
+		Skill("windmill");//13
+		Skill("nagewaza");//14
+		Skill("air_takedown");//15
+		
+		Skill("Paraglider_2"); // Tool		
+		Skill("Paraglider_3"); // Tool		
+		Skill("Paraglider_4"); // Tool	
+		
+		Skill("GrappleHook");  // Tool
+		Skill("GrappleHook_2");  // Tool
+		Skill("GrappleHook_3");  // Tool
+
+		Level(21, "Traversal", 1.0);
+        Level(21, "Combat", 1.0);
+		Level(38, "Experience", 1.0);
+    }
+	Preset("Parkour_Playtest_DLC2 - with tools")		// Difficulty
+    {
+		use Stamina_Lvl_7();
+		use Health_Lvl_7();
+
+		Skill("run_faster");//0
+		Skill("height_jump");//1
+		Skill("firm_grip");//3
+		Skill("sleek_runner");//4
+		Skill("active_land");//5
+		Skill("firm_grip");//3
+		Skill("sleek_runner");//4
+		Skill("active_land");//5
+		
+		Skill("parkour_combat");//1
+		Skill("perfect_dodge");//2
+		Skill("jump_attack");//3
+		Skill("power_attack");//5
+
+		Skill("CubeKey"); 
+		Skill("Binoculars"); // Tool
+		Skill("Backpack"); // Tool
+		Skill("Paraglider"); // Tool
+		Skill("UV_Flashlight"); // Tool
+		Skill("GRE_Keyfinder"); // Tool
+		Skill("GreInhibitorDetector"); // Tool
+
+		Skill("slide");//6
+		Skill("dart");//7
+		Skill("far_jump");//8
+	 
+		Skill("silent_takedown");//6
+		Skill("ranged_mastery");//7
+		Skill("perfect_block");//4
+
+		Skill("double_jump");//9
+		Skill("vertical_wall_run");//10
+		Skill("active_land2");//11
+		
+		Skill("ground_pound");//9
+		Skill("silent_takedown");//10
+		Skill("wrestle_kick");//12
+
+		Skill("horizontal_wall_run");//12
+		Skill("charge_tackle");//13
+		Skill("wall_run_jump");//14
+		Skill("wall_jump_sequence");//
+
+		Skill("windmill");//13
+		Skill("nagewaza");//14
+		Skill("air_takedown");//15
+		
+		Skill("Paraglider_2"); // Tool		
+		Skill("Paraglider_3"); // Tool		
+		Skill("Paraglider_4"); // Tool		
+		
+		Item("wpn_2hr_crossbow_b_fpp", 1, "");
+		Item("Ammo_Bolt", 99, "");
+		Item("Protype_GoldenHoverPlank", 1, "");
+
+		Level(21, "Traversal", 1.0);
+        Level(21, "Combat", 1.0);
+		Level(38, "Experience", 1.0);
+    }
 	
 	Preset("PrologueSkip_Player_Preset")		// Skipped Prologue feature - Preset
     {
@@ -4042,7 +4305,7 @@ sub main()
 		Skill("AntizinCapacityUpgradeHealth");//20
 		Skill("AntizinCapacityUpgradeHealth");//21
 		
-		use Difficulty_7_Skills();
+		use Difficulty_7_Skills_default();
 		
 		/////////////////////////
 		//Player Level
@@ -4149,5 +4412,500 @@ sub main()
 		//Unlocked Blueprints
 		
 		use Blueprints_All_Upgrade8();
+    }
+    
+    Preset("PM_Player_Difficulty_6")		// Difficulty 6 - PM playtests
+    {
+		/////////////////////////
+		//Health, Stamin and Skill imports
+		
+		use Stamina_Lvl_6();
+        Skill("AntizinCapacityUpgradeStamina");//7
+        Skill("AntizinCapacityUpgradeStamina");//8
+		use Health_Lvl_6();
+		Skill("AntizinCapacityUpgradeHealth");//7
+		Skill("AntizinCapacityUpgradeHealth");//8
+		
+		/////////////////////////
+		//Player Level
+
+		//Level(17, "Traversal", 1.0);
+        //Level(15, "Combat", 1.0);
+		//Level(43, "Experience", 1.0);
+
+		/////////////////////////
+		//4 Throwable Slot
+		Item("Throwable_ExplosiveGrenade_Upgrade4", 5, "");
+		Item("UV_Flare_Upgrade3", 4, "");
+		Item("Throwable_Decoy_Upgrade3", 4, "");
+        Item("Throwable_ThrowingKnifeAGen_Upgrade4", 20, "");
+        
+        //To set UV light and Grapple Hook not in Consumables slots
+        use Difficulty_6_Skills();
+		
+		/////////////////////////
+		//Additional Skills
+		
+		Skill("fast_climb");
+		Skill("ledge_master");
+		Skill("slide_advanced");
+		Skill("dash");
+		Skill("dash_advanced");
+		Skill("after_boost");
+        Skill("nagewaza_throw");
+		Skill("vault_kick_ragdoll");
+		Skill("block_projectiles");
+		Skill("charge_grab");
+		
+		/////////////////////////
+		//4 Weapon Slot
+		
+		Item("wpn_1hs_mach_a_fpp_r18", 1, "", "Platinum");
+		Item("wpn_2hp_bow_t6", 1, "", "Violet");
+        Item("wpn_1hb_ham_b_fpp_r18", 1, "", "Orange");
+		Item("wpn_2hs_i_fpp_r18", 1, "", "Orange");
+		
+		/////////////////////////
+		//Equiped Gear
+		Item("Outfitset_MeleeDPS_Head_Tier6_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_Tier6_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_Tier6_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_Tier6_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_Tier6_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_Tier6_Orange", 1, "");
+		
+		/////////////////////////
+		//4 Consumable Slot
+		
+		Item("Medkit_Large", 2, "");
+		Item("Medkit_Small_Upgrade6", 5, "");
+		Item("Potion_HealthRegeneration_Upgrade5", 2, "");
+		Item("Potion_Antizine_Upgrade5", 2, "");
+		
+		/////////////////////////
+		//Inventory - Weapons
+
+		/////////////////////////
+		//Inventory - Gear
+		Item("Outfitset_RangedDPS_TorsoAddon_Tier5_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Gloves_Tier5_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Torso_Tier5_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Legs_Tier5_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Shoes_Tier5_Violet", 1, "");
+		
+		/////////////////////////
+		//Inventory - Consumables
+		
+		/////////////////////////
+		//Inventory - Throwables
+		
+		/////////////////////////
+		//Inventory - Ammo
+		Item("Ammo_Arrow", 20, "");
+
+		/////////////////////////
+		//Inventory - Other
+		
+		Item("Cash_Cash", 5000, "");
+		Item("LockpickItem_Upgrade5", 5, "");
+		
+		/////////////////////////
+		//Unlocked Blueprints
+		use Blueprints_All_Upgrade5();
+    }
+	
+	Preset("PM_Player_Difficulty_7")		// Difficulty 7 - PM playtests
+    {
+		/////////////////////////
+		//Health, Stamin and Skill imports
+		
+		use Stamina_Lvl_7();
+		use Health_Lvl_7();
+		
+		/////////////////////////
+		//Player Level
+
+		//Level(17, "Traversal", 1.0);
+        //Level(15, "Combat", 1.0);
+		//Level(43, "Experience", 1.0);
+
+		/////////////////////////
+		//4 Throwable Slot
+
+		Item("Throwable_ExplosiveGrenade_Upgrade5", 5, "");
+		Item("UV_Flare_Upgrade5", 4, "");
+		Item("Throwable_Decoy_Upgrade5", 4, "");
+        Item("Throwable_ThrowingKnifeAGen_Upgrade6", 20, "");
+        
+        //To set UV light and Grapple Hook not in Consumables slots
+        use Difficulty_7_Skills_default();
+		
+		/////////////////////////
+		//Additional Skills
+		
+		Skill("wrestle_kick");
+		Skill("stomp");
+		Skill("air_takedown");
+		Skill("horizontal_wall_run");
+		Skill("vertical_wall_run");
+		
+		/////////////////////////
+		//4 Weapon Slot
+		
+		Item("wpn_1hs_mach_a_fpp_r20", 1, "", "Platinum");
+		Item("wpn_2hp_bow_t7", 1, "", "Violet");
+        Item("wpn_1hb_ham_b_fpp_r20", 1, "", "Orange");
+		Item("wpn_2hs_i_fpp_r21", 1, "", "Orange");
+		
+		/////////////////////////
+		//Equiped Gear
+		
+		Item("Outfitset_MeleeDPS_Head_Tier7_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_Tier7_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_Tier7_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_Tier7_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_Tier7_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_Tier7_Orange", 1, "");
+		
+		/////////////////////////
+		//4 Consumable Slot
+		
+		Item("Medkit_Large", 2, "");
+		Item("Medkit_Small_Upgrade6", 5, "");
+		Item("Potion_HealthRegeneration_Upgrade5", 2, "");
+		Item("Potion_Antizine_Upgrade5", 2, "");
+		
+		/////////////////////////
+		//Inventory - Weapons
+
+		/////////////////////////
+		//Inventory - Gear
+		Item("Outfitset_RangedDPS_TorsoAddon_Tier6_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Gloves_Tier6_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Torso_Tier6_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Legs_Tier6_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Shoes_Tier6_Violet", 1, "");
+		
+		/////////////////////////
+		//Inventory - Consumables
+		
+		/////////////////////////
+		//Inventory - Throwables
+		
+		/////////////////////////
+		//Inventory - Ammo
+		
+		Item("Ammo_Arrow", 20, "");
+
+		/////////////////////////
+		//Inventory - Other
+		
+		Item("Cash_Cash", 5000, "");
+		Item("LockpickItem_Upgrade5", 5, "");
+		
+		/////////////////////////
+		//Unlocked Blueprints
+		use Blueprints_All_Upgrade5();
+    }
+	
+	Preset("PM_Player_Difficulty_8")		// Difficulty 8  - PM playtests
+    {
+		/////////////////////////
+		//Health, Stamin and Skill imports
+		use Stamina_Lvl_7();
+		Skill("AntizinCapacityUpgradeStamina");//13
+		Skill("AntizinCapacityUpgradeStamina");//14
+		Skill("AntizinCapacityUpgradeStamina");//15
+		Skill("AntizinCapacityUpgradeStamina");//16
+		use Health_Lvl_7();
+		Skill("AntizinCapacityUpgradeHealth");//13
+		Skill("AntizinCapacityUpgradeHealth");//14
+		
+		/////////////////////////
+		//Player Level
+
+		//Level(17, "Traversal", 1.0);
+        //Level(15, "Combat", 1.0);
+		//Level(54, "Experience", 1.0);
+		
+		/////////////////////////
+		//4 Throwable Slot
+		Item("Throwable_ExplosiveGrenade_Upgrade6", 5, "");
+		Item("UV_Flare_Upgrade6", 4, "");
+		Item("Throwable_Decoy_Upgrade5", 4, "");
+        Item("Throwable_ThrowingKnifeAGen_Upgrade6", 15, "");
+        
+        //To set UV light and Grapple Hook not in Consumables slots
+        use Difficulty_7_Skills_default();
+		
+		/////////////////////////
+		//Additional Skills
+		Skill("wrestle_kick");
+		Skill("stomp");
+		Skill("air_takedown");
+		Skill("air_takedown_shockwave");
+		Skill("horizontal_wall_run");
+		Skill("vertical_wall_run");
+		Skill("wall_run_jump");
+		Skill("ground_pound");
+		Skill("double_jump");
+		Skill("enemy_jump");
+		Skill("GrappleHook_3");
+		
+		/////////////////////////
+		//4 Weapon Slot
+		Item("wpn_1hs_mach_a_fpp_r22", 1, "", "Platinum");
+		Item("wpn_2hp_bow_t8", 1, "", "Violet");
+        Item("wpn_1hb_ham_b_fpp_r22", 1, "", "Orange");
+		Item("wpn_2hs_i_fpp_r22", 1, "", "Orange");
+		
+		/////////////////////////
+		//Equiped Gear
+        Item("Outfitset_MeleeDPS_Head_Tier8_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_Tier8_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_Tier8_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_Tier8_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_Tier8_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_Tier8_Orange", 1, "");
+		
+		/////////////////////////
+		//4 Consumable Slot
+		Item("Medkit_Large", 2, "");
+		Item("Potion_DamageReduction_Upgrade6", 2, "");
+		Item("Potion_HealthRegeneration_Upgrade6", 2, "");
+		Item("Potion_Antizine_Upgrade6", 2, "");
+		
+		/////////////////////////
+		//Inventory - Weapons
+		Item("wpn_2hb_e_fpp_r23", 1, "", "Orange");
+			
+		/////////////////////////
+		//Inventory - Gear
+		Item("Outfitset_RangedDPS_TorsoAddon_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Gloves_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Torso_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Legs_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Shoes_Tier7_Violet", 1, "");
+		
+		/////////////////////////
+		//Inventory - Consumables
+		Item("Medkit_Small_Upgrade6", 3, "");
+		
+		/////////////////////////
+		//Inventory - Throwables
+		
+		/////////////////////////
+		//Inventory - Ammo
+		Item("Ammo_Arrow", 20, "");
+
+		/////////////////////////
+		//Inventory - Other
+		Item("Cash_Cash", 5000, "");
+		Item("LockpickItem_Upgrade6", 5, "");
+		
+		/////////////////////////
+		//Unlocked Blueprints
+		use Blueprints_All_Upgrade7();
+    }
+	
+	Preset("PM_Player_Difficulty_9")		// Difficulty 9 - PM playtests
+    {
+		/////////////////////////
+		//Health, Stamin and Skill imports
+		
+		use Stamina_Lvl_7();
+		Skill("AntizinCapacityUpgradeStamina");//13
+		Skill("AntizinCapacityUpgradeStamina");//14
+		Skill("AntizinCapacityUpgradeStamina");//15
+		Skill("AntizinCapacityUpgradeStamina");//16
+		Skill("AntizinCapacityUpgradeStamina");//17
+		Skill("AntizinCapacityUpgradeStamina");//18
+		use Health_Lvl_7();
+		Skill("AntizinCapacityUpgradeHealth");//13
+		Skill("AntizinCapacityUpgradeHealth");//14
+		Skill("AntizinCapacityUpgradeHealth");//15
+		Skill("AntizinCapacityUpgradeHealth");//16
+		
+		/////////////////////////
+		//Player Level
+
+		//Level(17, "Traversal", 1.0);
+        //Level(15, "Combat", 1.0);
+		//Level(48, "Experience", 1.0);
+
+		/////////////////////////
+		//4 Throwable Slot
+		Item("Throwable_ExplosiveGrenade_Upgrade7", 7, "");
+		Item("UV_Flare_Upgrade6", 10, "");
+		Item("Throwable_Molotov_Upgrade6", 6, "");
+        Item("Throwable_ThrowingKnifeAGen_Upgrade7", 25, "");
+        
+        //To set UV light and Grapple Hook not in Consumables slots
+        use Difficulty_7_Skills_default();
+
+		/////////////////////////
+		//Additional Skills
+		
+		Skill("wrestle_kick");
+		Skill("stomp");
+		Skill("air_takedown");
+		Skill("air_takedown_shockwave");
+		Skill("horizontal_wall_run");
+		Skill("vertical_wall_run");
+		Skill("wall_run_jump");
+		Skill("ground_pound");
+		Skill("double_jump");
+		Skill("enemy_jump");
+		Skill("multiple_shots");
+		Skill("rotate_jump");
+		Skill("wall_jump_sequence");
+		Skill("parkour_ranged");
+		Skill("Paraglider_3");
+		Skill("GrappleHook_3");
+		
+		/////////////////////////
+		//4 Weapon Slot
+		Item("wpn_1hs_mach_a_fpp_r24", 1, "", "Platinum");
+		Item("wpn_2hp_bow_t9", 1, "", "Violet");
+        Item("wpn_1hb_ham_b_fpp_r24", 1, "", "Orange");
+		Item("wpn_2hs_i_fpp_r24", 1, "", "Orange");
+		
+		/////////////////////////
+		//Equiped Gear
+		Item("Outfitset_MeleeDPS_TorsoAddon_Tier8_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_Tier8_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_Tier8_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_Tier8_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_Tier8_Violet", 1, "");
+		
+		/////////////////////////
+		//4 Consumable Slot
+		Item("Medkit_Large", 4, "");
+		Item("Potion_DamageReduction_Upgrade6", 3, "");
+		Item("Potion_HealthRegeneration_Upgrade6", 3, "");
+        Item("Medkit_Small_Upgrade6", 5, "");
+		
+		/////////////////////////
+		//Inventory - Weapons
+		
+		Item("wpn_15hs_b_fpp_redkatana", 1, "", "Platinum");
+
+		/////////////////////////
+		//Inventory - Gear
+		Item("Outfitset_RangedDPS_TorsoAddon_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Gloves_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Torso_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Legs_Tier7_Violet", 1, "");
+		Item("Outfitset_RangedDPS_Shoes_Tier7_Violet", 1, "");
+		
+		/////////////////////////
+		//Inventory - Consumables
+		Item("Potion_Antizine_Upgrade6", 3, "");
+		
+		/////////////////////////
+		//Inventory - Throwables
+		
+		/////////////////////////
+		//Inventory - Ammo
+		Item("Ammo_Arrow", 20, "");
+
+		/////////////////////////
+		//Inventory - Other
+		Item("Cash_Cash", 10000, "");
+		Item("LockpickItem_Upgrade8", 5, "");
+		
+		/////////////////////////
+		//Unlocked Blueprints
+		
+		use Blueprints_All_Upgrade7();
+    }
+
+	Preset("PM_Player_Difficulty_9_NoWeapons")		// Difficulty 9 - PM playtests
+    {
+		/////////////////////////
+		//Health, Stamin and Skill imports
+		
+		use Stamina_Lvl_7();
+		Skill("AntizinCapacityUpgradeStamina");//13
+		Skill("AntizinCapacityUpgradeStamina");//14
+		Skill("AntizinCapacityUpgradeStamina");//15
+		Skill("AntizinCapacityUpgradeStamina");//16
+		Skill("AntizinCapacityUpgradeStamina");//17
+		Skill("AntizinCapacityUpgradeStamina");//18
+		use Health_Lvl_7();
+		Skill("AntizinCapacityUpgradeHealth");//13
+		Skill("AntizinCapacityUpgradeHealth");//14
+		Skill("AntizinCapacityUpgradeHealth");//15
+		Skill("AntizinCapacityUpgradeHealth");//16
+		
+		/////////////////////////
+		//Player Level
+
+		//Level(17, "Traversal", 1.0);
+        //Level(15, "Combat", 1.0);
+		//Level(48, "Experience", 1.0);
+
+		/////////////////////////
+		//4 Throwable Slot
+        
+        //To set UV light and Grapple Hook not in Consumables slots
+        use Difficulty_7_Skills_default();
+
+		/////////////////////////
+		//Additional Skills
+		
+		Skill("wrestle_kick");
+		Skill("stomp");
+		Skill("air_takedown");
+		Skill("air_takedown_shockwave");
+		Skill("horizontal_wall_run");
+		Skill("vertical_wall_run");
+		Skill("wall_run_jump");
+		Skill("ground_pound");
+		Skill("double_jump");
+		Skill("enemy_jump");
+		Skill("multiple_shots");
+		Skill("rotate_jump");
+		Skill("wall_jump_sequence");
+		Skill("parkour_ranged");
+		Skill("Paraglider_3");
+		Skill("GrappleHook_3");
+		
+		/////////////////////////
+		//4 Weapon Slot
+		
+		/////////////////////////
+		//Equiped Gear
+		Item("Outfitset_MeleeDPS_Head_Tier9_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_Tier9_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_Tier9_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_Tier9_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_Tier9_Orange", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_Tier9_Orange", 1, "");
+		
+		/////////////////////////
+		//4 Consumable Slot
+		
+		/////////////////////////
+		//Inventory - Weapons
+
+		/////////////////////////
+		//Inventory - Gear
+		
+		/////////////////////////
+		//Inventory - Consumables
+		
+		/////////////////////////
+		//Inventory - Throwables
+		
+		/////////////////////////
+		//Inventory - Ammo
+
+		/////////////////////////
+		//Inventory - Other
+		Item("LockpickItem_Upgrade8", 10, "");
+		
+		/////////////////////////
+		//Unlocked Blueprints
     }
 }
