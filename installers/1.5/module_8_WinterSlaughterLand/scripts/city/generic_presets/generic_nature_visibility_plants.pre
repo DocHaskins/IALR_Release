@@ -1,0 +1,17 @@
+sub main()
+{
+	PresetDef("Plants_visibility")
+	{
+		Description("");
+		AddField("SELECTOR", "", false, true, false);
+		Preset("visible")
+		{
+			SetField("SELECTOR", "empty");
+		}
+
+		Preset("empty")
+		{
+			SetField("SELECTOR", "empty");
+		}
+	}
+}

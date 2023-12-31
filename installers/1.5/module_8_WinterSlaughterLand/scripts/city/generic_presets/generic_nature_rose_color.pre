@@ -1,0 +1,36 @@
+sub main()
+{
+	PresetDef("Rose_color")
+	{
+		Description("generic_nature_rose_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		//BEIGE
+		
+		Preset("Beige")
+		{
+			SetField("SkinName", "beige");
+		}
+		
+		//RED
+		
+		Preset("Red")
+		{
+			SetField("SkinName", "red");
+		}
+		
+		//PINK
+		
+		Preset("Pink")
+		{
+			SetField("SkinName", "pink");
+		}
+		
+		//YELLOW
+		
+		Preset("Yellow")
+		{
+			SetField("SkinName", "yellow");
+		}
+	}
+}

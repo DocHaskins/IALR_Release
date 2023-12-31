@@ -51,6 +51,13 @@
             "folder": "module_5_DeadlyHumans"
         },
         {
+            "name": "Winter SlaughterLand",
+            "description": "Villadoor is covered in snow with lite snows, snowfall, rain and snow, and blizzards added to the weather.",
+            "category": "Visuals",
+            "image": "button_modules_WinterSlaughterland.jpg",
+            "folder": "module_8_WinterSlaughterLand"
+        },
+        {
             "name": "Custom Map Data",
             "description": "CUSTOM MAP CHANGES: (!Work in Progress!) This module has several known bugs currently including a main quest block with the Sofi quest. You can enable and disable this at any time. May cause quest bugs/frame loss, adds new custom locations to the Bazaar Exterior.",
             "category": "Gameplay",

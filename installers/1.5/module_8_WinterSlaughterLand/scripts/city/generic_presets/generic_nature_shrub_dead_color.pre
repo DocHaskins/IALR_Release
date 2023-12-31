@@ -1,0 +1,30 @@
+sub main()
+{
+	PresetDef("Shrub_dead_color")
+	{
+		Description("generic_nature_shrub_dead_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		//STREETS
+		
+		Preset("Shrub_dead")
+		{
+			SetField("SkinName", "shrub_dead");
+		}
+		
+		//BACKYARD
+		
+		Preset("Shrub_dry")
+		{
+			SetField("SkinName", "shrub_dry");
+		}
+		
+		//CHEMICAL
+		
+		Preset("Shrub_chemical")
+		{
+			SetField("SkinName", "shrub_chemical");
+		}
+		
+	}
+}

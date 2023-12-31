@@ -1,0 +1,36 @@
+sub main()
+{
+	PresetDef("Ivy_wall_color")
+	{
+		Description("generic_nature_ivy_wall_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		//THORN_GREEN
+		
+		Preset("Ivy_wall_green")
+		{
+			SetField("SkinName", "ivy_wall_dry");
+		}
+		
+		//THORN_DRY
+		
+		Preset("Ivy_wall_dry")
+		{
+			SetField("SkinName", "ivy_wall_dry");
+		}
+		
+		//HANGING_VINSE
+		
+		Preset("Hanging_vines")
+		{
+			SetField("SkinName", "ivy_wall_dry");
+		}
+		
+		//GREEN ROSE
+		
+		Preset("Green_rose")
+		{
+			SetField("SkinName", "ivy_wall_dry");
+		}
+	}
+}

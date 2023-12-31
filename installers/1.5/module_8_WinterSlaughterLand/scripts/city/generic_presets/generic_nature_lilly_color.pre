@@ -1,0 +1,22 @@
+sub main()
+{
+	PresetDef("Lilly_color")
+	{
+		Description("generic_nature_lilly_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		//FERN_GREEN
+		
+		Preset("Lilly_green")
+		{
+			SetField("SkinName", "lilly_dry");
+		}
+		
+		//FERN_DRY
+		
+		Preset("Lilly_dry")
+		{
+			SetField("SkinName", "lilly_dry");
+		}
+	}
+}

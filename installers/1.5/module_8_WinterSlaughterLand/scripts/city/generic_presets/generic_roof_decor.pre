@@ -1,0 +1,29 @@
+sub main()
+{
+	Version(0);
+	PresetDef("Roof_decor")
+	{
+		Description("");
+		AddField("roof_grass", "", false, true, false);
+		AddField("roof_forest", "", false, true, false);
+		
+		Preset("generic")
+		{
+			SetField("roof_grass", "False");
+			SetField("roof_forest", "False");
+		}
+		
+		Preset("forest")
+		{
+			SetField("roof_grass", "False");
+			SetField("roof_forest", "False");			
+
+		}
+		
+		Preset("grass")
+		{
+			SetField("roof_grass", "False");
+			SetField("roof_forest", "False");
+		}
+	}
+}

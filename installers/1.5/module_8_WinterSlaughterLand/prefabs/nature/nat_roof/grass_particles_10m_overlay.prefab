@@ -1,0 +1,34 @@
+{
+  "__filename__": {
+    "Version": 4,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_AtlasApproved": [11, true],
+            "m_PcId": [6, 1],
+            "m_PrefabName": [12, "grass_particles_10m"]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_EntityComponentsExtents": [69, [0.0, 0.0, 0.0, 5.0000004, 0.5, 5.0000004]],
+            "m_PcId": [6, 2],
+            "m_PrefabName": [12, "overlay_mask_helper"],
+            "m_Scale": [14, [0.975, 0.975, 0.975]]
+          },
+          "Fields": {
+            "m_AreaPoints": "5.000000 -0.500000 -5.000000;5.000000 -0.500000 5.000000;-5.000000 -0.500000 5.000000;-5.000000 -0.500000 -5.000000;",
+            "m_Priority": "10",
+            "m_Value": "20"
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

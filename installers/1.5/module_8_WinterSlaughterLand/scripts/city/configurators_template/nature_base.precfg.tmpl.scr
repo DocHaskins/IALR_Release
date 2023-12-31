@@ -1,0 +1,110 @@
+sub main()
+
+{
+            select_preset_random("Bush_color", "Bush_needles", 5, false);
+            select_preset_random("Bush_color", "Bush_leaves", 5, false);
+            select_preset_random("Bush_color", "Bush_dry", 0, false);
+            //select_preset_random("Bush_color", "Bush_dead", 0, false);
+			//select_preset_random("Bush_color", "Bush_rotten", 0, false);
+			
+			select_preset_random("Shrub_color", "Shrub_dead", 5, false);		
+            select_preset_random("Shrub_color", "Shrub_rotten", 2, false);
+			
+            select_preset_random("Bush_type", "Bush_huge", 2, false);
+            select_preset_random("Bush_type", "Bush_big", 3, false);
+            select_preset_random("Bush_type", "Bush_medium", 4, false);
+            select_preset_random("Bush_type", "Bush_small", 5, false);
+			
+            select_preset_random("Cattail_color", "Cattail_green", 8, false);
+            select_preset_random("Cattail_color", "Cattail_dry", 8, false);
+			
+            select_preset_random("Fern_color", "Fern_dry", 2, false);
+            select_preset_random("Fern_color", "Fern_green", 0, false);
+			
+            select_preset_random("Flower_color", "Flower_yellow", 1, false);
+            select_preset_random("Flower_color", "Flower_blue", 1, false);
+            select_preset_random("Flower_color", "Flower_dry", 0, false);
+			
+            select_preset_random("Grass_color", "Grass_ground", 4, false);
+            select_preset_random("Grass_color", "Grass_roof", 0, false);
+			
+            select_preset_random("Ivy_floor_color", "Ivy_floor_dry", 5, false);
+            select_preset_random("Ivy_floor_color", "Ivy_floor_green", 5, false);
+			select_preset_random("Ivy_floor_color", "Pumpkin_green", 0, false);
+			
+            select_preset_random("Ivy_wall_color", "Ivy_wall_dry", 0, false);
+            select_preset_random("Ivy_wall_color", "Ivy_wall_green", 5, false);
+			select_preset_random("Ivy_wall_color", "Hanging_vines", 0, false);
+			
+            select_preset_random("Lilly_color", "Lilly_dry", 8, false);
+            select_preset_random("Lilly_color", "Lilly_green", 0, false);
+			
+            select_preset_random("Nature_color", "Nat_ground", 8, false);
+            select_preset_random("Nature_color", "Nat_roof", 0, false);
+			
+            select_preset_random("Thorn_color", "Thorn_dry", 8, false);
+            select_preset_random("Thorn_color", "Thorn_green", 0, false);
+			
+			select_preset_random("Field_color", "Field_wheat", 8, false);
+            select_preset_random("Field_color", "Field_grass", 0, false);
+			
+            select_preset_random("Grass_hideout_color", "Grass_hideout_roof", 0, false);
+            select_preset_random("Grass_hideout_color", "Grass_hideout_ground", 8, false);
+            
+			select_preset_random("Shrub_dead_color", "Shrub_dead", 8, false);
+            select_preset_random("Shrub_dead_color", "Shrub_dry", 0, false);
+            select_preset_random("Shrub_dead_color", "Shrub_chemical", 0, false);
+			
+			select_preset_random("Tree_broken_color", "Tree_broken_dead", 8, false);
+			select_preset_random("Tree_broken_color", "Tree_broken_chemical", 0, false);
+			
+			select_preset_random("Tree_branch_color", "Tree_branch_dead", 8, false);
+			select_preset_random("Tree_branch_color", "Tree_branch_chemical", 0, false);
+	
+			select_preset_random("Tree_decid_birch_color", "Birch_roof_green", 8, false);
+			select_preset_random("Tree_decid_birch_color", "Birch_roof_yellow", 0, false);
+			select_preset_random("Tree_decid_birch_color", "Birch_ground", 0, false);
+			
+			select_preset_random("Tree_decid_chestnut_color", "Chestnut_roof", 8, false);
+			select_preset_random("Tree_decid_chestnut_color", "Chestnut_ground", 0, false);
+			select_preset_random("Tree_decid_chestnut_color", "Chestnut_dead", 0, false);
+
+			select_preset_random("Tree_decid_elm_color", "Elm_roof", 8, false);
+			select_preset_random("Tree_decid_elm_color", "Elm_ground", 0, false);
+			select_preset_random("Tree_decid_elm_color", "Elm_dead", 0, false);
+
+			select_preset_random("Tree_decid_maple_color", "Maple_roof", 8, false);
+			select_preset_random("Tree_decid_maple_color", "Maple_ground", 0, false);
+			select_preset_random("Tree_decid_maple_color", "Maple_dead", 0, false);
+
+			select_preset_random("Tree_decid_linden_color", "Linden_roof", 8, false);
+			select_preset_random("Tree_decid_linden_color", "Linden_ground", 0, false);
+			select_preset_random("Tree_decid_linden_color", "Linden_dead", 0, false);	
+			
+			select_preset_random("Tree_decid_poplar_color", "Poplar_roof", 8, false);
+			select_preset_random("Tree_decid_poplar_color", "Poplar_ground", 0, false);
+			select_preset_random("Tree_decid_poplar_color", "Poplar_dead", 0, false);	
+			
+			select_preset_random("Tree_conif_spruce_color", "Spruce_roof", 8, false);
+			select_preset_random("Tree_conif_spruce_color", "Spruce_ground", 0, false);
+			select_preset_random("Tree_conif_spruce_color", "Spruce_dead", 0, false);
+			
+			select_preset_random("Tree_conif_pine_color", "Pine_roof", 8, false);
+			select_preset_random("Tree_conif_pine_color", "Pine_ground", 0, false);
+			select_preset_random("Tree_conif_pine_color", "Pine_dead", 0, false);
+			
+			/*
+				select_preset_random("Tree_color", "Tree_ground", 8, false);
+				select_preset_random("Tree_color", "Tree_dry", 0, false);
+				select_preset_random("Tree_color", "Tree_roof", 0, false);
+				select_preset_random("Tree_conif_type", "Spruce_ground", 8, false);
+				select_preset_random("Tree_conif_type", "Spruce_dry", 0, false);
+				select_preset_random("Tree_conif_type", "Spruce_roof", 0, false);
+				select_preset_random("Tree_decid_type", "Birch_ground", 8, false);
+				select_preset_random("Tree_decid_type", "Birch_dry", 8, false);
+				select_preset_random("Tree_decid_type", "Maple_ground", 8, false);
+				select_preset_random("Tree_decid_type", "Maple_dry", 8, false);
+				select_preset_random("Tree_decid_type", "Birch_roof", 8, false);
+				select_preset_random("Tree_decid_type", "Maple_roof", 8, false);
+			*/
+}

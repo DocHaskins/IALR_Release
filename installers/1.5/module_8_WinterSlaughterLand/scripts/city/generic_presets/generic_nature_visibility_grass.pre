@@ -1,0 +1,17 @@
+sub main()
+{
+	PresetDef("Nature_visibility_grass")
+	{
+		Description("");
+		AddField("SELECTOR", "", false, true, false);
+		Preset("visible")
+		{
+			SetField("SELECTOR", "empty");
+		}
+
+		Preset("empty")
+		{
+			SetField("SELECTOR", "empty");
+		}
+	}
+}

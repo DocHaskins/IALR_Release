@@ -1,0 +1,30 @@
+sub main()
+{
+	Version(0);
+
+	PresetDef("Bush_size")
+	{
+		Description("generic_nature_bush_size.pre");
+		AddField("SELECTOR", "", false, true, false);
+		
+		Preset("Bush_huge")
+		{
+			SetField("SELECTOR", "nat_bush_d");
+		}
+		
+		Preset("Bush_big")
+		{
+			SetField("SELECTOR", "nat_bush_d");
+		}
+		
+		Preset("Bush_medium")
+		{
+			SetField("SELECTOR", "nat_bush_c");
+		}
+		
+		Preset("Bush_small")
+		{
+			SetField("SELECTOR", "nat_bush_d");
+		}
+	}
+}

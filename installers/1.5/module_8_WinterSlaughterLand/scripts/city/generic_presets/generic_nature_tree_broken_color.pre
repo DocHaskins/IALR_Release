@@ -1,0 +1,20 @@
+sub main()
+{
+	PresetDef("Tree_broken_color")
+	{
+		Description("generic_nature_tree_broken_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		
+		Preset("Tree_broken_dead")
+		{
+			SetField("SkinName", "tree_broken_dead");
+		}	
+			
+		Preset("Tree_broken_chemical")
+		{
+			SetField("SkinName", "tree_broken_chemical");
+		}
+	
+	}
+}

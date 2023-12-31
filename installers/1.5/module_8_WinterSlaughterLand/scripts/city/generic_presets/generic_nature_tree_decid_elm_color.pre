@@ -1,0 +1,28 @@
+sub main()
+{
+	PresetDef("Tree_decid_elm_color")
+	{
+		Description("generic_nature_tree_decid_elm_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+				
+		Preset("Elm_roof")
+		{
+			SetField("SkinName", "tree_elm_dead");
+		}
+		
+				
+		Preset("Elm_ground")
+		{
+			SetField("SkinName", "tree_elm_dead");
+		}
+		
+				
+		Preset("Elm_dead")
+		{
+			SetField("SkinName", "tree_elm_dead");
+		}
+
+	}
+	
+}

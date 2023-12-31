@@ -1,0 +1,62 @@
+sub main()
+{
+	PresetDef("Nature_roof_subregion")
+	{
+		Description("");
+		AddField("SELECTOR", "", false, true, false);
+				
+		Preset("Default")
+		{
+			SetField("SELECTOR", "empty");
+		}
+				
+		Preset("R01a")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		
+		Preset("R01b")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		
+		Preset("R01c")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		
+		Preset("R01d")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		
+		Preset("R01e")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		Preset("r02_birch")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		Preset("r02_conif")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		Preset("r02_deci")
+		{
+			SetField("SELECTOR", "empty");
+		}	
+		Preset("r02_swamp")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		Preset("r02_grass")
+		{
+			SetField("SELECTOR", "empty");
+		}			
+		Preset("Empty")
+		{
+			SetField("SELECTOR", "empty");
+		}
+	}
+}

@@ -1,0 +1,28 @@
+sub main()
+{
+	PresetDef("Tree_decid_poplar_color")
+	{
+		Description("generic_nature_tree_decid_poplar_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+				
+		Preset("Poplar_roof")
+		{
+			SetField("SkinName", "tree_poplar_dead");
+		}
+		
+				
+		Preset("Poplar_ground")
+		{
+			SetField("SkinName", "tree_poplar_dead");
+		}
+		
+				
+		Preset("Poplar_dead")
+		{
+			SetField("SkinName", "tree_poplar_dead");
+		}
+
+	}
+	
+}

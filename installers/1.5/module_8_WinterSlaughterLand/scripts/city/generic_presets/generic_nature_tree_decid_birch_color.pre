@@ -1,0 +1,33 @@
+sub main()
+{
+	PresetDef("Tree_decid_birch_color")
+	{
+		Description("generic_nature_tree_decid_birch_color.pre");
+		AddField("SkinName", "", false, true, false);
+
+
+		Preset("Birch_roof_green")
+		{
+			SetField("SkinName", "tree_birch_ground");
+		}
+
+		Preset("Birch_roof_yellow")
+		{
+			SetField("SkinName", "tree_birch_ground");
+		}
+
+		/*		
+		Preset("Birch_ground")
+		{
+			SetField("SkinName", "tree_birch_ground");
+		}
+		*/
+	Preset("Default")
+		{
+			SetField("SkinName", "Default");
+		}
+
+
+	}
+	
+}

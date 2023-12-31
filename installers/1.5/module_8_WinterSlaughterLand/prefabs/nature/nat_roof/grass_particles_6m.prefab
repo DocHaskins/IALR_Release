@@ -1,0 +1,52 @@
+{
+  "__filename__": {
+    "Version": 3,
+    "RuntimeData": {
+      "Components": [
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 11],
+            "m_PrefabName": [12, "grass_particles_4m"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.8064516, 0.8064516, 0.8064516]],
+            "m_Translate": [14, [-1.7996826, -0.0218505, 1.5372314]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 12],
+            "m_PrefabName": [12, "grass_particles_4m"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.8064516, 0.8064516, 0.8064516]],
+            "m_Translate": [14, [-1.7996826, -0.0218505, -1.6885986]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 13],
+            "m_PrefabName": [12, "grass_particles_4m"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.8064516, 0.8064516, 0.8064516]],
+            "m_Translate": [14, [1.4261474, -0.0218505, -1.6885986]]
+          }
+        },
+        {
+          "Class": "CEntity",
+          "PrefabFieldsNative": {
+            "m_PcId": [6, 14],
+            "m_PrefabName": [12, "grass_particles_4m"],
+            "m_Rotate": [14, [0.0, -90.0, 0.0]],
+            "m_Scale": [14, [0.8064516, 0.8064516, 0.8064516]],
+            "m_Translate": [14, [1.4261474, -0.0218505, 1.5372314]]
+          }
+        }
+      ]
+    },
+    "PrefabEditorData": {
+      "DataVersion": "2"
+    }
+  }
+}

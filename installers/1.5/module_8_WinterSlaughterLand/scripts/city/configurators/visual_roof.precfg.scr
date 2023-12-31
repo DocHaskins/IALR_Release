@@ -1,0 +1,217 @@
+sub main()
+{
+    comment("[Default] Creator: 'mkubas' Modifier: 'pkostecki'");
+    configuration("forest")
+    {
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Default", 5, false);
+            select_preset_random("Field_place", "Roof", 5, true);
+            select_preset_random("Plants_visibility", "visible", 7, false);
+            select_preset_random("Roof_decor", "forest", 5, true);
+        }
+
+    }
+
+    configuration("generic")
+    {
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Default", 5, false);
+            select_preset_random("Field_place", "Roof", 5, true);
+            select_preset_random("Roof_decor", "generic", 5, false);
+        }
+		entry("tiny_objects_small")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+    }
+
+    configuration("grass")
+    {
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Default", 5, false);
+            select_preset_random("Field_place", "Roof", 5, true);
+            select_preset_random("Plants_visibility", "visible", 7, false);
+            select_preset_random("Roof_decor", "grass", 5, false);
+        }
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+
+    }
+
+    configuration("postapo")
+    {
+        entry("Postapo")
+        {
+            apply_to_children();
+            select_preset_random("Exterior_roof_addon", "Default", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray_no_moss", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Gravel_roof_a_gray_no_moss", 2, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray", 1, true);
+            select_preset_random("Exterior_roof_skin", "Metal_plates_blue", 5, true);
+            select_preset_random("Interior_stairs_skin", "Classic_a", 5, false);
+            select_preset_random("Pa_roofing_skin", "Felt", 5, false);
+            select_preset_random("Postapo_exterior_wall_skin", "Post_apo_wood", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Postapo", 5, true);
+            select_preset_random("Pa_roofing_skin", "Deadgrass", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+		
+		entry("tiny_objects_small")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+
+    }
+
+    configuration("postapo_pk")
+    {
+        entry("Postapo")
+        {
+            apply_to_children();
+            select_preset_random("Exterior_roof_addon", "Default", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray_no_moss", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Gravel_roof_a_gray_no_moss", 2, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray", 1, true);
+            select_preset_random("Exterior_roof_skin", "Metal_plates_blue", 5, true);
+            select_preset_random("Fractions_postapo", "Peacekeepers", 5, true);
+            select_preset_random("Interior_stairs_skin", "Classic_a", 5, false);
+            select_preset_random("Pa_roofing_skin", "Felt", 5, false);
+            select_preset_random("Postapo_exterior_wall_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Postapo", 5, true);
+            select_preset_random("Pa_roofing_skin", "Deadgrass", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+		
+		entry("tiny_objects_small")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+
+    }
+
+    configuration("postapo_scav")
+    {
+        entry("Postapo")
+        {
+            apply_to_children();
+            select_preset_random("Exterior_roof_addon", "Default", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray_no_moss", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Gravel_roof_a_gray_no_moss", 2, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray", 1, true);
+            select_preset_random("Exterior_roof_skin", "Metal_plates_blue", 5, true);
+            select_preset_random("Fractions_postapo", "Scavengers", 5, true);
+            select_preset_random("Interior_stairs_skin", "Classic_a", 5, false);
+            select_preset_random("Pa_roofing_skin", "Felt", 5, false);
+            select_preset_random("Postapo_exterior_wall_skin", "Post_apo_wood_painted_yellow", 5, true);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Postapo", 5, true);
+            select_preset_random("Pa_roofing_skin", "Deadgrass", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+		
+		entry("tiny_objects_small")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+
+    }
+
+    configuration("postapo_survivor")
+    {
+        entry("Postapo")
+        {
+            apply_to_children();
+            select_preset_random("Exterior_roof_addon", "Default", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray_no_moss", 5, true);
+            select_preset_random("Exterior_roof_flat_skin", "Gravel_roof_a_gray_no_moss", 2, true);
+            select_preset_random("Exterior_roof_flat_skin", "Felt_roof_a_gray", 1, true);
+            select_preset_random("Exterior_roof_skin", "Metal_plates_blue", 5, true);
+            select_preset_random("Fractions_postapo", "Survivors", 5, true);
+            select_preset_random("Interior_ceiling_skin", "Woodplanks_c_light", 5, true);
+            select_preset_random("Interior_floor_decor_decal_skin", "Wood_attic_a", 5, false);
+            select_preset_random("Interior_floor_skin", "Woodplanks_a_dark", 5, false);
+            select_preset_random("Interior_stairs_skin", "Classic_a", 5, false);
+            select_preset_random("Pa_roofing_skin", "Felt", 5, false);
+            select_preset_random("Postapo_exterior_wall_skin", "Post_apo_wood_painted_red", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+		
+		entry("tiny_objects_small")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+		entry("tiny_objects_bush")
+		{
+			apply_to_children();
+			select_preset_random("TinyObjectSelfActive", "Inactive", 5, false);
+		}
+
+        entry("_ANY_")
+        {
+            select_preset_random("Exterior_roof_addon", "Postapo", 5, true);
+            select_preset_random("Pa_roofing_skin", "Deadgrass", 5, false);
+            select_preset_random("Postapo_interior_wall_skin", "Post_apo_wood_wall_a", 5, true);
+            select_preset_random("Postapo_roof_skin", "Post_apo_metal", 5, false);
+            select_preset_random("Postapo_roof_skin", "Post_apo_plywood", 5, false);
+        }
+
+    }
+
+}

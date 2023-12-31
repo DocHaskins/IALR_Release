@@ -1,0 +1,22 @@
+sub main()
+{
+	PresetDef("Thorn_color")
+	{
+		Description("generic_nature_thorn_color.pre");
+		AddField("SkinName", "", false, true, false);
+		
+		//THORN_GREEN
+		
+		Preset("Thorn_green")
+		{
+			SetField("SkinName", "thorn_dry");
+		}
+		
+		//THORN_DRY
+		
+		Preset("Thorn_dry")
+		{
+			SetField("SkinName", "thorn_dry");
+		}
+	}
+}

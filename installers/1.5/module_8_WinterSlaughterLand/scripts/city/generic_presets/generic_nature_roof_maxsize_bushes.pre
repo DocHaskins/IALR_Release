@@ -1,0 +1,18 @@
+sub main()
+{
+	PresetDef("Nature_roof_maxsize_bushes")
+	{
+		Description("");
+		AddField("SELECTOR", "", false, true, false);
+					
+		Preset("Bushes")
+		{
+			SetField("SELECTOR", "empty");
+		}
+		
+		Preset("Empty")
+		{
+			SetField("SELECTOR", "empty");
+		}
+	}
+}
