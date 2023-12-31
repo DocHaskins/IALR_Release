@@ -1,0 +1,609 @@
+import "daytime.def"
+import "ial_settings.mth"
+
+// TimeScope (start_time)
+// Weather ("story_system_name", probability)
+// Weather ("story_system_name", probability, duration)
+// Version (order_number, "weather_script_name.scr", internal_probability, "envprobe lighting", "heightmap lighting")
+// Default() - sets default weather
+
+// LightingPresets() - used for envprobes and heightmaps
+// LIGHTING_PRESET_*** - defined in daytime.def
+// LIGHTING_TAG - defined in daytime.def (FDayTimeTag), optional
+// Preset("name", "varlist", LIGHTING_PRESET_***, LIGHTING_TAG);
+
+int Weather_ClearCloudy_Dawn_Day_Probability = IALR_Weather_ClearCloudy_Dawn_Day_Probability;
+int Weather_ClearCloudy_Dawn_Day_Duration = IALR_Weather_ClearCloudy_Dawn_Day_Duration;
+int Weather_ClearCloudy_Noon_Day_Probability = IALR_Weather_ClearCloudy_Noon_Day_Probability;
+int Weather_ClearCloudy_Noon_Day_Duration = IALR_Weather_ClearCloudy_Noon_Day_Duration;
+int Weather_ClearCloudy_Evening_Day_Probability = IALR_Weather_ClearCloudy_Evening_Day_Probability;
+int Weather_ClearCloudy_Evening_Day_Duration = IALR_Weather_ClearCloudy_Evening_Day_Duration;
+int Weather_ClearCloudy_Night_Probability = IALR_Weather_ClearCloudy_Night_Probability;
+int Weather_ClearCloudy_Night_Duration = IALR_Weather_ClearCloudy_Night_Duration;
+
+int Weather_OvercastFoggy_Dawn_Day_Probability = IALR_Weather_OvercastFoggy_Dawn_Day_Probability;
+int Weather_OvercastFoggy_Dawn_Day_Duration = IALR_Weather_OvercastFoggy_Dawn_Day_Duration;
+int Weather_OvercastFoggy_Noon_Day_Probability = IALR_Weather_OvercastFoggy_Noon_Day_Probability;
+int Weather_OvercastFoggy_Noon_Day_Duration = IALR_Weather_OvercastFoggy_Noon_Day_Duration;
+int Weather_OvercastFoggy_Evening_Day_Probability = IALR_Weather_OvercastFoggy_Evening_Day_Probability;
+int Weather_OvercastFoggy_Evening_Day_Duration = IALR_Weather_OvercastFoggy_Evening_Day_Duration;
+int Weather_OvercastFoggy_Night_Probability = IALR_Weather_OvercastFoggy_Night_Probability;
+int Weather_OvercastFoggy_Night_Duration = IALR_Weather_OvercastFoggy_Night_Duration;
+
+int Weather_RainyStormy_Dawn_Day_Probability = IALR_Weather_RainyStormy_Dawn_Day_Probability;
+int Weather_RainyStormy_Dawn_Day_Duration = IALR_Weather_RainyStormy_Dawn_Day_Duration;
+int Weather_RainyStormy_Noon_Day_Probability = IALR_Weather_RainyStormy_Noon_Day_Probability;
+int Weather_RainyStormy_Noon_Day_Duration = IALR_Weather_RainyStormy_Noon_Day_Duration;
+int Weather_RainyStormy_Evening_Day_Probability = IALR_Weather_RainyStormy_Evening_Day_Probability;
+int Weather_RainyStormy_Evening_Day_Duration = IALR_Weather_RainyStormy_Evening_Day_Duration;
+int Weather_RainyStormy_Night_Probability = IALR_Weather_RainyStormy_Night_Probability;
+int Weather_RainyStormy_Night_Duration = IALR_Weather_RainyStormy_Night_Duration;
+
+
+sub main()   //DL2 Weather script
+{
+	LightingPresets()
+	{
+		Preset("dawn_clear_a", "dawn_clear_a.scr", LIGHTING_PRESET_ALL, DAWN_TAG);
+		Preset("dawn_cloudy_a", "dawn_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dawn_foggy_a", "dawn_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dawn_foggy_b", "dawn_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dawn_rainy_a", "dawn_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dawn_stormy_a", "dawn_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dawn_overcast_a", "dawn_overcast_a.scr", LIGHTING_PRESET_ALL, DAWN_TAG);
+
+		Preset("sunrise_clear_a", "sunrise_clear_a.scr", LIGHTING_PRESET_ALL, SUNRISE_TAG);
+		Preset("sunrise_cloudy_a", "sunrise_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunrise_foggy_a", "sunrise_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunrise_foggy_b", "sunrise_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunrise_rainy_a", "sunrise_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunrise_stormy_a", "sunrise_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunrise_overcast_a", "sunrise_overcast_a.scr", LIGHTING_PRESET_ALL, SUNRISE_TAG);
+
+		Preset("morning_clear_a", "morning_clear_a.scr", LIGHTING_PRESET_ALL, MORNING_TAG);
+		Preset("morning_cloudy_a", "morning_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("morning_foggy_a", "morning_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("morning_foggy_b", "morning_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("morning_overcast_a", "morning_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+
+		Preset("forenoon_clear_a", "forenoon_clear_a.scr", LIGHTING_PRESET_ALL, FORENOON_TAG);
+		Preset("forenoon_cloudy_a", "forenoon_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("forenoon_foggy_a", "forenoon_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("forenoon_foggy_b", "forenoon_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+
+		Preset("noon_clear_a", "noon_clear_a.scr", LIGHTING_PRESET_ALL, NOON_TAG);
+		Preset("noon_cloudy_a", "noon_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("noon_foggy_a", "noon_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("noon_foggy_b", "noon_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("noon_rainy_a", "noon_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("noon_stormy_a", "noon_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("noon_overcast_a", "noon_overcast_a.scr", LIGHTING_PRESET_ALL, NOON_TAG);
+
+		Preset("afternoon_clear_a", "afternoon_clear_a.scr", LIGHTING_PRESET_ALL, AFTERNOON_TAG);
+		Preset("afternoon_cloudy_a", "afternoon_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("afternoon_foggy_a", "afternoon_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("afternoon_foggy_b", "afternoon_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+
+		Preset("evening_clear_a", "evening_clear_a.scr", LIGHTING_PRESET_ALL, EVENING_TAG);
+		Preset("evening_cloudy_a", "evening_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("evening_foggy_a", "evening_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("evening_foggy_b", "evening_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("evening_overcast_a", "evening_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+
+		Preset("sunset_clear_a", "sunset_clear_a.scr", LIGHTING_PRESET_ALL, SUNSET_TAG);
+		Preset("sunset_cloudy_a", "sunset_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunset_foggy_a", "sunset_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunset_foggy_b", "sunset_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunset_rainy_b", "sunset_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunset_stormy_a", "sunset_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("sunset_overcast_a", "sunset_overcast_a.scr", LIGHTING_PRESET_ALL, SUNSET_TAG);
+
+		Preset("dusk_clear_a", "dusk_clear_a.scr", LIGHTING_PRESET_ALL, DUSK_TAG);
+		Preset("dusk_cloudy_a", "dusk_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dusk_foggy_a", "dusk_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dusk_foggy_b", "dusk_foggy_b_heavyfog.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dusk_rainy_a", "dusk_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dusk_stormy_a", "dusk_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("dusk_overcast_a", "dusk_overcast_a.scr", LIGHTING_PRESET_ALL, DUSK_TAG);
+
+		Preset("night_clear_a", "night_clear_a.scr", LIGHTING_PRESET_ALL, NIGHT_TAG);
+		Preset("night_overcast_a", "night_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_cloudy_a", "night_cloudy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_foggy_a", "night_foggy_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_foggy_b", "night_foggy_b_heavyfog", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_rainy_a", "night_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_stormy_a", "night_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+		Preset("night_overcast_a", "night_overcast_a.scr", LIGHTING_PRESET_LIGHTMAP);
+	}
+
+	WeatherRules()
+	{
+		BlendTime(85);
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DAWN
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DAWN_START)
+	{
+		Weather("Clear", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "dawn_clear_a.scr", 1, "dawn_clear_a", "dawn_clear_a");
+			Version(1, "morning_snow.scr", 1, "dawn_clear_a", "dawn_clear_a");
+			Version(2, "dawn_snow_blizzard.scr", 1, "dawn_clear_a", "dawn_clear_a");
+			Version(3, "dawn_snow_lite.scr", 1, "dawn_clear_a", "dawn_clear_a");
+			Version(4, "dawn_snow_rainy_a.scr", 1, "dawn_clear_a", "dawn_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "dawn_cloudy_a.scr", 1, "dawn_cloudy_a", "dawn_cloudy_a");
+			Version(1, "morning_snow.scr", 1, "dawn_cloudy_a", "dawn_cloudy_a");
+			Version(2, "dawn_snow_blizzard.scr", 1, "dawn_cloudy_a", "dawn_cloudy_a");
+			Version(3, "dawn_snow_lite.scr", 1, "dawn_cloudy_a", "dawn_cloudy_a");
+			Version(4, "dawn_snow_rainy_a.scr", 1, "dawn_cloudy_a", "dawn_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow.scr", 1, "dawn_foggy_a", "dawn_foggy_a");
+			Version(1, "morning_snow.scr", 1, "dawn_foggy_b", "dawn_foggy_b");
+			Version(2, "dawn_snow_blizzard.scr", 1, "dawn_foggy_b", "dawn_foggy_b");
+			Version(3, "dawn_snow_lite.scr", 1, "dawn_foggy_b", "dawn_foggy_b");
+			Version(4, "dawn_snow_rainy_a.scr", 1, "dawn_foggy_b", "dawn_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "dawn_overcast_a.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+			Version(1, "morning_snow.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+			Version(2, "dawn_snow_blizzard.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+			Version(3, "dawn_snow_lite.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+			Version(4, "dawn_snow_rainy_a.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow_rainy_a.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+			Version(1, "dawn_snow_blizzard.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "dawn_snow_blizzard.scr", 1, "dawn_overcast_a", "dawn_overcast_a");
+		}
+	}
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//SUNRISE
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DAWN)
+	{
+		Weather("Clear", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "sunrise_clear_a.scr", 1, "sunrise_clear_a", "sunrise_clear_a");
+			Version(1, "morning_snow.scr", 1, "sunrise_clear_a", "sunrise_clear_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "sunrise_clear_a", "sunrise_clear_a");
+			Version(3, "morning_snow_lite.scr", 1, "sunrise_clear_a", "sunrise_clear_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "sunrise_clear_a", "sunrise_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "sunrise_cloudy_a.scr", 1, "sunrise_clear_a", "sunrise_cloudy_a");
+			Version(1, "morning_snow.scr", 1, "sunrise_cloudy_a", "sunrise_cloudy_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "sunrise_cloudy_a", "sunrise_cloudy_a");
+			Version(3, "morning_snow_lite.scr", 1, "sunrise_cloudy_a", "sunrise_cloudy_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "sunrise_cloudy_a", "sunrise_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "dawn_snow.scr", 1, "sunrise_clear_a", "sunrise_foggy_a");
+			Version(1, "dawn_snow.scr", 1, "sunrise_foggy_b", "sunrise_foggy_b");
+			Version(2, "morning_snow_blizzard.scr", 1, "sunrise_foggy_b", "sunrise_foggy_b");
+			Version(3, "morning_snow_lite.scr", 1, "sunrise_foggy_b", "sunrise_foggy_b");
+			Version(4, "morning_snow_rainy_a.scr", 1, "sunrise_foggy_b", "sunrise_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "sunrise_overcast_a.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+			Version(1, "morning_snow.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+			Version(3, "morning_snow_lite.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow_rainy_a.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+			Version(1, "morning_snow_blizzard.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow_blizzard.scr", 1, "sunrise_overcast_a", "sunrise_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//MORNING
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DAWN_END)
+	{
+		Weather("Clear", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_clear_a.scr", 1, "morning_clear_a", "morning_clear_a");
+			Version(1, "morning_snow.scr", 1, "morning_clear_a", "morning_clear_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "morning_clear_a", "morning_clear_a");
+			Version(3, "morning_snow_lite.scr", 1, "morning_clear_a", "morning_clear_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "morning_clear_a", "morning_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Dawn_Day_Probability, Weather_ClearCloudy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_cloudy_a.scr", 1, "morning_clear_a", "morning_cloudy_a");
+			Version(1, "morning_snow.scr", 1, "morning_cloudy_a", "morning_cloudy_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "morning_cloudy_a", "morning_cloudy_a");
+			Version(3, "morning_snow_lite.scr", 1, "morning_cloudy_a", "morning_cloudy_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "morning_cloudy_a", "morning_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow.scr", 1, "morning_clear_a", "morning_foggy_a");
+			Version(1, "morning_snow.scr", 1, "morning_foggy_b", "morning_foggy_b");
+			Version(2, "morning_snow_blizzard.scr", 1, "morning_foggy_a", "morning_foggy_a");
+			Version(3, "morning_snow_lite.scr", 1, "morning_foggy_a", "morning_foggy_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "morning_foggy_a", "morning_foggy_a");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Dawn_Day_Probability, Weather_OvercastFoggy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow.scr", 1, "noon_overcast_a", "morning_overcast_a");
+			Version(1, "morning_snow.scr", 1, "morning_overcast_a", "morning_overcast_a");
+			Version(2, "morning_snow_blizzard.scr", 1, "morning_overcast_a", "morning_overcast_a");
+			Version(3, "morning_snow_lite.scr", 1, "morning_overcast_a", "morning_overcast_a");
+			Version(4, "morning_snow_rainy_a.scr", 1, "morning_overcast_a", "morning_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow_rainy_a.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "morning_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Dawn_Day_Probability, Weather_RainyStormy_Dawn_Day_Duration)
+		{
+			Version(0, "morning_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//FORENOON
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DAY_START)
+	{
+		Weather("Clear", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "forenoon_clear_a.scr", 1, "forenoon_clear_a", "forenoon_clear_a");
+			Version(1, "forenoon_snow.scr", 1, "forenoon_clear_a", "forenoon_clear_a");
+			Version(2, "forenoon_snow_blizzard.scr", 1, "forenoon_clear_a", "forenoon_clear_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "forenoon_clear_a", "forenoon_clear_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "forenoon_clear_a", "forenoon_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "forenoon_cloudy_a.scr", 1, "forenoon_clear_a", "forenoon_cloudy_a");
+			Version(1, "forenoon_snow.scr", 1, "forenoon_clear_a", "forenoon_cloudy_a");
+			Version(2, "forenoon_snow_blizzard.scr", 1, "forenoon_cloudy_a", "forenoon_cloudy_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "forenoon_cloudy_a", "forenoon_cloudy_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "forenoon_cloudy_a", "forenoon_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "forenoon_snow.scr", 1, "forenoon_clear_a", "forenoon_foggy_a");
+			Version(1, "forenoon_snow.scr", 2, "forenoon_clear_a", "forenoon_foggy_b");
+			Version(2, "forenoon_snow_blizzard.scr", 1, "forenoon_foggy_b", "forenoon_foggy_b");
+			Version(3, "afternoon_snow_lite.scr", 1, "forenoon_foggy_b", "forenoon_foggy_b");
+			Version(4, "afternoon_snow_rainy.scr", 1, "forenoon_foggy_b", "forenoon_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "forenoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "forenoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(2, "forenoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "noon_snow_rainy_a.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "forenoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "forenoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//NOON
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_NOON)
+	{
+		Weather("Clear", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "noon_clear_a.scr", 1, "noon_clear_a", "noon_clear_a");
+			Version(1, "afternoon_snow.scr", 1, "noon_clear_a", "noon_clear_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_clear_a", "noon_clear_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_clear_a", "noon_clear_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_clear_a", "noon_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "noon_cloudy_a.scr", 1, "noon_clear_a", "noon_cloudy_a");
+			Version(1, "afternoon_snow.scr", 1, "noon_clear_a", "noon_cloudy_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_cloudy_a", "noon_cloudy_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_cloudy_a", "noon_cloudy_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_cloudy_a", "noon_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow.scr", 1, "noon_clear_a", "noon_foggy_a");
+			Version(1, "afternoon_snow.scr", 1, "noon_foggy_b", "noon_foggy_b");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_foggy_a", "noon_foggy_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_foggy_a", "noon_foggy_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_foggy_a", "noon_foggy_a");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "afternoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "noon_snow_rainy_a.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "noon_snow_rainy_a.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//AFTERNOON
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DAY_END)
+	{
+		Weather("Clear", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_clear_a.scr", 1, "afternoon_clear_a", "afternoon_clear_a");
+			Version(1, "afternoon_snow.scr", 1, "afternoon_clear_a", "afternoon_clear_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "afternoon_clear_a", "afternoon_clear_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "afternoon_clear_a", "afternoon_clear_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "afternoon_clear_a", "afternoon_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_cloudy_a.scr", 1, "afternoon_clear_a", "afternoon_cloudy_a");
+			Version(1, "afternoon_snow.scr", 1, "afternoon_clear_a", "afternoon_cloudy_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "afternoon_cloudy_a", "afternoon_cloudy_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "afternoon_cloudy_a", "afternoon_cloudy_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "afternoon_cloudy_a", "afternoon_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow.scr", 1, "afternoon_clear_a", "afternoon_foggy_a");
+			Version(1, "afternoon_snow.scr", 1, "afternoon_foggy_b", "afternoon_foggy_b");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "afternoon_foggy_a", "afternoon_foggy_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "afternoon_foggy_a", "afternoon_foggy_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "afternoon_foggy_a", "afternoon_foggy_a");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "afternoon_snow.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(3, "afternoon_snow_lite.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(4, "afternoon_snow_rainy.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow_rainy.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "afternoon_snow_rainy.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(2, "afternoon_snow_blizzard.scr", 1, "noon_overcast_a", "noon_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//EVENING
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_EVENING)
+	{
+		Weather("Clear", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "evening_clear_a.scr", 1, "evening_clear_a", "evening_clear_a");
+			Version(1, "evening_snow.scr", 1, "evening_clear_a", "evening_clear_a");
+			Version(2, "evening_snow_blizzard.scr", 1, "evening_clear_a", "evening_clear_a");
+			Version(3, "evening_snow_lite.scr", 1, "evening_clear_a", "evening_clear_a");
+			Version(4, "evening_snow_rainy_a.scr", 1, "evening_clear_a", "evening_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Noon_Day_Probability, Weather_ClearCloudy_Noon_Day_Duration)
+		{
+			Version(0, "evening_cloudy_a.scr", 1, "evening_clear_a", "evening_cloudy_a");
+			Version(1, "evening_snow.scr", 1, "evening_clear_a", "evening_cloudy_a");
+			Version(2, "evening_snow_blizzard.scr", 1, "evening_cloudy_a", "evening_cloudy_a");
+			Version(3, "evening_snow_lite.scr", 1, "evening_cloudy_a", "evening_cloudy_a");
+			Version(4, "evening_snow_rainy_a.scr", 1, "evening_cloudy_a", "evening_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "evening_snow.scr", 1, "evening_clear_a", "evening_foggy_a");
+			Version(1, "evening_snow.scr", 1, "evening_foggy_b", "evening_foggy_b");
+			Version(2, "evening_snow_blizzard.scr", 1, "evening_foggy_b", "evening_foggy_b");
+			Version(3, "evening_snow_lite.scr", 1, "evening_foggy_b", "evening_foggy_b");
+			Version(4, "evening_snow_rainy_a.scr", 1, "evening_foggy_b", "evening_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Noon_Day_Probability, Weather_OvercastFoggy_Noon_Day_Duration)
+		{
+			Version(0, "evening_snow.scr", 1, "evening_overcast_a", "evening_overcast_a");
+			Version(1, "evening_snow.scr", 1, "evening_foggy_b", "evening_foggy_b");
+			Version(2, "evening_snow_blizzard.scr", 1, "evening_overcast_a", "evening_overcast_a");
+			Version(3, "evening_snow_lite.scr", 1, "evening_overcast_a", "evening_overcast_a");
+			Version(4, "evening_snow_rainy_a.scr", 1, "evening_overcast_a", "evening_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "evening_snow_rainy_a.scr", 1, "noon_overcast_a", "noon_overcast_a");
+			Version(1, "evening_snow_blizzard.scr", 1, "evening_overcast_a", "evening_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Noon_Day_Probability, Weather_RainyStormy_Noon_Day_Duration)
+		{
+			Version(0, "evening_snow_blizzard.scr", 1, "evening_overcast_a", "evening_overcast_a");
+		}
+	}
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//SUNSET
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DUSK_START)
+	{
+		Weather("Clear", Weather_ClearCloudy_Evening_Day_Probability, Weather_ClearCloudy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_clear_a.scr", 1, "sunset_clear_a", "sunset_clear_a");
+			Version(1, "sunset_snow.scr", 0, "sunset_clear_a", "sunset_clear_a");
+			Version(2, "sunset_snow_blizzard.scr", 1, "sunset_clear_a", "sunset_clear_a");
+			Version(3, "sunset_snow_lite.scr", 1, "sunset_clear_a", "sunset_clear_a");
+			Version(4, "sunset_snow_rainy_a.scr", 1, "sunset_clear_a", "sunset_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Evening_Day_Probability, Weather_ClearCloudy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_cloudy_a.scr", 1, "sunset_clear_a", "sunset_cloudy_a");
+			Version(1, "sunset_snow.scr", 1, "sunset_clear_a", "sunset_cloudy_a");
+			Version(2, "sunset_snow_blizzard.scr", 1, "sunset_cloudy_a", "sunset_cloudy_a");
+			Version(3, "sunset_snow_lite.scr", 1, "sunset_cloudy_a", "sunset_cloudy_a");
+			Version(4, "sunset_snow_rainy_a.scr", 1, "sunset_cloudy_a", "sunset_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Evening_Day_Probability, Weather_OvercastFoggy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_snow.scr", 1, "sunset_clear_a", "sunset_foggy_a");
+			Version(1, "sunset_snow.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(2, "sunset_snow_blizzard.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(3, "sunset_snow_lite.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(4, "sunset_snow_rainy_a.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Evening_Day_Probability, Weather_OvercastFoggy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_snow.scr", 1, "sunset_overcast_a", "sunset_overcast_a");
+			Version(1, "sunset_snow.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(2, "sunset_snow_blizzard.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(3, "sunset_snow_lite.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+			Version(4, "sunset_snow_rainy_a.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+		}
+		Weather("Rainy", Weather_RainyStormy_Evening_Day_Probability, Weather_RainyStormy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_snow_rainy_a.scr", 1, "sunset_overcast_a", "sunset_overcast_a");
+			Version(1, "sunset_snow_blizzard.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+		}
+		Weather("Stormy", Weather_RainyStormy_Evening_Day_Probability, Weather_RainyStormy_Evening_Day_Duration)
+		{
+			Version(0, "sunset_snow_rainy_a.scr", 1, "sunset_overcast_a", "sunset_overcast_a");
+			Version(1, "sunset_snow_blizzard.scr", 1, "sunset_foggy_b", "sunset_foggy_b");
+		}
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DUSK 
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DUSK)
+	{
+		Weather("Clear", Weather_ClearCloudy_Evening_Day_Probability, Weather_ClearCloudy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_clear_a.scr", 1, "dusk_clear_a", "dusk_clear_a");
+			Version(1, "dusk_snow.scr", 1, "dusk_clear_a", "dusk_clear_a");
+			Version(2, "dusk_snow_blizzard.scr", 1, "dusk_clear_a", "dusk_clear_a");
+			Version(3, "dusk_snow_lite.scr", 1, "dusk_clear_a", "dusk_clear_a");
+			Version(4, "dusk_snow_rainy_a.scr", 1, "dusk_clear_a", "dusk_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Evening_Day_Probability, Weather_ClearCloudy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_cloudy_a.scr", 1, "dusk_clear_a", "dusk_cloudy_a");
+			Version(1, "dusk_snow.scr", 1, "dusk_clear_a", "dusk_cloudy_a");
+			Version(2, "dusk_snow_blizzard.scr", 1, "dusk_cloudy_a", "dusk_cloudy_a");
+			Version(3, "dusk_snow_lite.scr", 1, "dusk_cloudy_a", "dusk_cloudy_a");
+			Version(4, "dusk_snow_rainy_a.scr", 1, "dusk_cloudy_a", "dusk_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Evening_Day_Probability, Weather_OvercastFoggy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_snow.scr", 1, "dusk_clear_a", "dusk_foggy_a");
+			Version(1, "dusk_snow.scr", 1, "dusk_foggy_b", "dusk_foggy_b");
+			Version(2, "dusk_snow_blizzard.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+			Version(3, "dusk_snow_lite.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+			Version(4, "dusk_snow_rainy_a.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Evening_Day_Probability, Weather_OvercastFoggy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_snow.scr", 1, "dusk_overcast_a", "dusk_overcast_a");
+			Version(1, "dusk_snow.scr", 1, "dusk_foggy_b", "dusk_foggy_b");
+			Version(2, "dusk_snow_blizzard.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+			Version(3, "dusk_snow_lite.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+			Version(4, "dusk_snow_rainy_a.scr", 1, "dusk_foggy_a", "dusk_foggy_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Evening_Day_Probability, Weather_RainyStormy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_snow_rainy_a.scr", 1, "dusk_overcast_a", "dusk_overcast_a");
+			Version(1, "dusk_snow_blizzard.scr", 1, "dusk_overcast_a", "dusk_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Evening_Day_Probability, Weather_RainyStormy_Evening_Day_Duration)
+		{
+			Version(0, "dusk_snow_rainy_a.scr", 1, "dusk_overcast_a", "dusk_overcast_a");
+			Version(1, "dusk_snow_blizzard.scr", 1, "dusk_overcast_a", "dusk_overcast_a");
+		}
+	}
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	//NIGHT
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	TimeScope(DAYTIME_DUSK_END)
+	{
+		Weather("Clear", Weather_ClearCloudy_Night_Probability, Weather_ClearCloudy_Night_Duration)
+		{
+			Version(0, "night_clear_a.scr", 1, "night_clear_a", "night_clear_a");
+			Version(1, "night_snow.scr", 1, "night_clear_a", "night_clear_a");
+			Version(2, "night_snow_blizzard.scr", 1, "night_clear_a", "night_clear_a");
+			Version(3, "night_snow_lite.scr", 1, "night_clear_a", "night_clear_a");
+			Version(4, "night_snow_rainy_a.scr", 1, "night_clear_a", "night_clear_a");
+		}
+		Weather("Cloudy", Weather_ClearCloudy_Night_Probability, Weather_ClearCloudy_Night_Duration)
+		{
+			Version(0, "night_cloudy_a.scr", 1, "night_cloudy_a", "night_cloudy_a");
+			Version(1, "night_snow.scr", 1, "night_cloudy_a", "night_cloudy_a");
+			Version(2, "night_snow_blizzard.scr", 1, "night_cloudy_a", "night_cloudy_a");
+			Version(3, "night_snow_lite.scr", 1, "night_cloudy_a", "night_cloudy_a");
+			Version(4, "night_snow_rainy_a.scr", 1, "night_cloudy_a", "night_cloudy_a");
+		}
+		Weather("Foggy", Weather_OvercastFoggy_Night_Probability, Weather_OvercastFoggy_Night_Duration)
+		{
+			Version(0, "night_snow.scr", 1, "night_clear_a", "night_clear_a");
+			Version(1, "night_snow.scr", 1, "night_foggy_b", "night_foggy_b");
+			Version(2, "night_snow_blizzard.scr", 1, "night_foggy_b", "night_foggy_b");
+			Version(3, "night_snow_lite.scr", 1, "night_foggy_b", "night_foggy_b");
+			Version(4, "night_snow_rainy_a.scr", 1, "night_foggy_b", "night_foggy_b");
+		}
+		Weather("Overcast", Weather_OvercastFoggy_Night_Probability, Weather_OvercastFoggy_Night_Duration)
+		{
+			Version(0, "night_snow.scr", 1, "night_clear_a", "night_overcast_a");
+			Version(1, "night_snow.scr", 1, "night_foggy_b", "night_foggy_b");
+			Version(2, "night_snow_blizzard.scr", 1, "night_overcast_a", "night_overcast_a");
+			Version(3, "night_snow_lite.scr", 1, "night_overcast_a", "night_overcast_a");
+			Version(4, "night_snow_rainy_a.scr", 1, "night_overcast_a", "night_overcast_a");
+		}
+		Weather("Rainy", Weather_RainyStormy_Night_Probability, Weather_RainyStormy_Night_Duration)
+		{
+			Version(0, "night_snow_rainy_a.scr", 1, "night_clear_a", "night_overcast_a");
+			Version(1, "night_snow_blizzard.scr", 1, "night_overcast_a", "night_overcast_a");
+		}
+		Weather("Stormy", Weather_RainyStormy_Night_Probability, Weather_RainyStormy_Night_Duration)
+		{
+			Version(0, "night_snow_rainy_a.scr", 1, "night_clear_a", "night_overcast_a");
+			Version(1, "night_snow_blizzard.scr", 1, "night_overcast_a", "night_overcast_a");
+		}
+	}
+
+}

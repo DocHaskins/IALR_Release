@@ -1,0 +1,10 @@
+VarFloat("f_snow_on", 1.0)
+VarFloat("f_snow_strength", 0.9)
+VarFloat("f_snow_dynamic", 0.1) // Should snow follow weather slider. Without it snow will be falling all the time.
+VarFloat("f_snow_cover", 1.0)
+
+// Variables for dynamic snow
+VarFloat("f_snow_cover_time", 120.0) // Slow down snow gathering
+VarFloat("f_snow_cover_additional_max", 1.0) // Values from 0 to 1
+VarFloat("f_snow_cover_additional", 0.9)
+VarFloat("f_snow_cover_current", 0.9)
