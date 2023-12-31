@@ -17,6 +17,10 @@
             "body": "Take the games difficulty and scavenging to a new level with a new optional in the Modules section that requires the player to eat and drink to properly regenerate health and stamina"
         },
         {
+            "header": "New Winter Slaughter-Land Module",
+            "body": "Turns the map into Winter with new weather conditions: clear, lite snowy, snowy, snow with rain, and blizzard. More coming soon!"
+        },
+        {
             "header": "Human AI Refactor/Companion improvements",
             "body": "A much needed update to the human AI. They should attack enemies with more aggression and they now use the buildings, cars, signs, and other parkour elements to traverse the city, making it easier for them to avoid running into piles of enemies and getting wiped out."
         },
