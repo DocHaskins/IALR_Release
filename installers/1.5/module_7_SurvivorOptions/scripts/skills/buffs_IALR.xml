@@ -23,7 +23,7 @@
 </buff>
 
 <!-- Consumables -->
-<buff id="IALR_FoodSmall" duration="120" max_stacks="10" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="IALR_FoodSmall" duration="1820" max_stacks="10" apply_behaviour="ResetDuration" serialize_on_save="true">
 	<hud_icon val="healing_sweets_small"/>
 	<property name="StaminaRegeneration" value_mul="-0.01"/>
 	<property name="StaminaUsageReduction" value_add="0.01"/>
@@ -41,7 +41,7 @@
 	<property name="HealthPerSecond" value="ialr_FoodSmall"/>
 </buff>
 
-<buff id="IALR_FoodNormal" duration="480" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="IALR_FoodNormal" duration="2880" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
 	<hud_icon val="valuables_canned_food"/>
 	<property name="StaminaRegeneration" value_mul="-0.01"/>
 	<property name="StaminaUsageReduction" value_add="0.01"/>
@@ -59,7 +59,7 @@
     <property name="HealthPerSecond" value="ialr_FoodNormal"/>
 </buff>
 
-<buff id="IALR_FoodLarge" duration="960" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="IALR_FoodLarge" duration="2880" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
 	<hud_icon val="valuables_canned_food"/>
 	<property name="StaminaRegeneration" value_mul="-0.01"/>
 	<property name="StaminaUsageReduction" value_add="0.01"/>
@@ -83,7 +83,7 @@
     </OnGain>
 </buff>
 
-<buff id="Water_tablets" duration="480" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="Water_tablets" duration="3840" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
     <hud_icon val="water_reward_icon"/>
     <property name="StaminaRegeneration" value_mul="-0.01"/>
 	<property name="StaminaUsageReduction" value_add="0.01"/>
@@ -100,7 +100,7 @@
 	<property name="StaminaTimeToRegenerateAfterParkour" value_add="-1.0"/>
 </buff>
 
-<buff id="Water_filtered" duration="480" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="Water_filtered" duration="3840" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
     <hud_icon val="water_reward_icon"/>
     <property name="StaminaRegeneration" value_mul="-0.05"/>
 	<property name="StaminaUsageReduction" value_add="0.05"/>
@@ -117,7 +117,7 @@
 	<property name="StaminaTimeToRegenerateAfterParkour" value_add="-1.0"/>
 </buff>
 
-<buff id="Water_bottled" duration="1280" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="Water_bottled" duration="3840" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
     <hud_icon val="water_reward_icon"/>
     <property name="StaminaRegeneration" value_mul="-0.1"/>
 	<property name="StaminaUsageReduction" value_add="0.1"/>
