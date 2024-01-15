@@ -14287,13 +14287,19 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02"); 
 			Pool("BS_D04");
-			Pool("CH_D02");   
+			 
+            Pool("CH_D02");   
+            Pool("CH_D02");   
             //Pool("SUI_D03");
             //Pool("SPT_D03");
         }
         
         Difficulty("Difficulty_08")
         {
+            Pool("G_D01");
+            Pool("GC_D01"); //50% possibilities among goons
+
+			Pool("BS_D04");
 			Pool("G_D01");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
@@ -14304,13 +14310,19 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
 			Pool("BS_D04");
-			Pool("CH_D02");   
+			
+            Pool("CH_D02");   
+            Pool("CH_D02");   
             //Pool("SUI_D03");
             //Pool("SPT_D03");
         }
         
         Difficulty("Difficulty_09")
         {
+            Pool("G_D01");
+            Pool("GC_D01"); //50% possibilities among goons
+
+			Pool("BS_D04");
 			Pool("G_D01");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
@@ -14321,13 +14333,19 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
 			Pool("BS_D04");
-			Pool("CH_D02");   
+			
+            Pool("CH_D02");   
+            Pool("CH_D02");   
             //Pool("SUI_D03");
             //Pool("SPT_D03");
         }
 
         Difficulty("NewGamePlus")
         {
+            Pool("G_D01");
+            Pool("GC_D01"); //50% possibilities among goons
+
+			Pool("BS_D04");
 			Pool("G_D01");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
@@ -14338,6 +14356,8 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
 			Pool("BS_D04");
+
+			Pool("CH_D02");   
 			Pool("CH_D02");   
             //Pool("SUI_D03");
             //Pool("SPT_D03");
@@ -14384,6 +14404,9 @@ sub main()
         Difficulty("Hard")
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //33% possibilities among goons
+            
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14393,9 +14416,16 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
             Pool("BS_D04_15x15");
         }
 
@@ -14446,6 +14476,12 @@ sub main()
         Difficulty("Difficulty_03") 
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //25% possibilities among goons
+            
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14455,15 +14491,26 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+			Pool("BS_D04_15x15");
+			Pool("BS_D04_15x15");
+			Pool("BS_D04_15x15");
 			Pool("BS_D04_15x15");
         }       
 
         Difficulty("Difficulty_04") 
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //25% possibilities among goons
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14473,15 +14520,31 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
             Pool("BS_D04_15x15");
         }
         
         Difficulty("Difficulty_R04") 
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //25% possibilities among goons
+
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14491,15 +14554,27 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
             Pool("BS_D04_15x15");
         }       
 
         Difficulty("Difficulty_05")
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //33% possibilities among goons
+            
+            Pool("DEM_D02_15x15");
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14509,15 +14584,23 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
             Pool("BS_D04_15x15");
         }   
 
         Difficulty("Difficulty_06")
         {
             Pool("G_D01_15x15");
+            Pool("G_D01_15x15");
+            Pool("GC_D01_15x15"); //33% possibilities among goons
             Pool("IALR_Halloween2023_Vampires_01");
             Pool("IALR_Halloween2023_Vampires_02");
             Pool("IALR_Halloween2023_Vampires_Mix_01");
@@ -14527,9 +14610,16 @@ sub main()
             Pool("IALR_Halloween2023_Clowns_Mix_01");
             Pool("IALR_Halloween2023_Clowns_Mix_02");
             Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            Pool("DEM_D02_15x15");
+            
+            Pool("CH_D02_15x15");   
+            Pool("CH_D02_15x15");   
             Pool("CH_D02_15x15");   
             //Pool("SUI_D03_15x15");
             //Pool("SPT_D03_15x15");
+            Pool("BS_D04_15x15");
+            Pool("BS_D04_15x15");
             Pool("BS_D04_15x15");
         }               
 
