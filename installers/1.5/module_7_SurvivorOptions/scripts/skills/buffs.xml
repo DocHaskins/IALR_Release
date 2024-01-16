@@ -946,7 +946,9 @@
 </buff>
 
 <buff id="Refreshment" duration="3840" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
+    <property name="MaxStaminaMultiplier" value_add="0.1"/>
     <OnGain>
+        <AddStaminaPercent value="0.3"/>
         <AddHealth value="RefreshmentOnGain"/>
     </OnGain>
     <hud_icon val="water_reward_icon"/>
@@ -1099,7 +1101,10 @@
     <property name="StaminaTimeToRegenerateOnEmptyAfterParokur" value_add="-1.0"/>
     <property name="StaminaTimeToRegenerate" value_add="-1.0"/>
     <property name="StaminaTimeToRegenerateAfterParkour" value_add="-1.0"/>
+    <property name="MaxStaminaMultiplier" value_add="0.1"/>
     <OnGain>
+        <AddStaminaPercent value="0.1"/>
+        <AddStaminaDropResistance value="1"/>
         <AddHealth value="InstantHeal_Small"/>
     </OnGain>
 </buff>
@@ -1119,7 +1124,10 @@
     <property name="StaminaTimeToRegenerateOnEmptyAfterParokur" value_add="-2.0"/>
     <property name="StaminaTimeToRegenerate" value_add="-2.0"/>
     <property name="StaminaTimeToRegenerateAfterParkour" value_add="-2.0"/>
+    <property name="MaxStaminaMultiplier" value_add="0.1"/>
     <OnGain>
+        <AddStaminaPercent value="0.2"/>
+        <AddStaminaDropResistance value="2"/>
         <AddHealth value="InstantHeal_Medium"/>
     </OnGain>
 </buff>
@@ -1139,7 +1147,10 @@
     <property name="StaminaTimeToRegenerateOnEmptyAfterParokur" value_add="-5.0"/>
     <property name="StaminaTimeToRegenerate" value_add="-5.0"/>
     <property name="StaminaTimeToRegenerateAfterParkour" value_add="-5.0"/>
+    <property name="MaxStaminaMultiplier" value_add="0.1"/>
     <OnGain>
+        <AddStaminaPercent value="0.3"/>
+        <AddStaminaDropResistance value="3"/>
         <AddHealth value="InstantHeal_Big"/>
     </OnGain>
 </buff>
