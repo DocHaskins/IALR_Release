@@ -9,7 +9,7 @@
         },
         {
             "name": "Veteran",
-            "description": "The Veteran: Tier 1 Military Armor Set, 1 Handed Club, Renegade 2 Handed Axe, 5 tier 1 Molotovs, 2 Basic Bandages",
+            "description": "The Veteran: Starts out with a Tier 1 Military Armor Set, a Pistol, 48 rounds of ammo, 1 Handed Club, Renegade 2 Handed Axe, 5 tier 1 Molotovs, 2 Basic Bandages",
             "category": "Basic",
             "image": "button_pathways_veteran.jpg",
             "folder": "pathways_1_Veteran"
@@ -23,7 +23,7 @@
         },
         {
             "name": "DoomsDayPrepper",
-            "description": "The DoomsDay Prepper: This version is for those of you who want to get to the good stuff already, 6 starting weapons including a Bow and Crossbow, A custom paraglider that can be equiped to boost your current paraglider, $5000 starting cash, several potions, crafting items, grenades and other explosives, and crafting mods.",
+            "description": "The DoomsDay Prepper: This version is for those of you who want to get to the good stuff already, 6 starting weapons including a Rifle, Pistol, Bow, and Crossbow, A custom paraglider that can be equiped to boost your current paraglider, $5000 starting cash, several potions, crafting items, grenades and other explosives, and crafting mods.",
             "category": "Basic",
             "image": "button_pathways_doomsday.jpg",
             "folder": "pathways_3_DoomsDayPrepper"
