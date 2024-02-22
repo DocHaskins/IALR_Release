@@ -198,7 +198,6 @@ VarVec3( "v_pp_shading_sun_color", [1.0, 1.0, 1.0])
 
 
 VarInt("i_sun_shadows_mode", 0)
-VarInt("i_sun_shading_mode", 0)
 VarInt("i_id_outdoor_mode", 0)
 VarInt("i_indirect_game_type", 0)
 
@@ -348,8 +347,14 @@ VarFloat("f_lod_generation_on", 0.0)
 VarFloat("f_gradient_maps_world_offset_on", 1.0)
 
 VarFloat("f_fpp_scale", 1.0)
+VarFloat("f_fpp_scale_prv", 1.0)
+VarFloat("f_pp_fpp_scale_prv", 1.0)
 VarFloat("f_fpp_scale_2", 1.0)
+VarFloat("f_fpp_scale_2_prv", 1.0)
+VarFloat("f_pp_fpp_scale_2_prv", 1.0)
 VarFloat("f_antifov_scale", 1.0)
+VarFloat("f_antifov_scale_prv", 1.0)
+VarFloat("f_pp_antifov_scale_prv", 1.0)
 
 VarFloat("f_m3d_on", 0.0)
 VarFloat("f_m3d_on_prv", 0.0)
@@ -370,7 +375,6 @@ VarFloat("f_flashlight_pp_offset_source_x", 0.2)
 VarFloat("f_flashlight_pp_offset_source_y", 0.05)
 VarFloat("f_flashlight_pp_offset_target_x", 0.0)
 VarFloat("f_flashlight_pp_offset_target_y", 0.0)
-VarFloat("f_flashlight_pp_indirect", 0.0)
 VarFloat("f_flashlight_pp_shadow_scale", 0.2)
 VarFloat("f_flashlight_pp_shadow_offset", 0.25)
 VarFloat("f_flashlight_pp_shadow_offset_range", 0.01)
@@ -381,7 +385,6 @@ VarFloat("f_flashlight_pp_uv", 0.0)
 VarVec3("v_flashlight_pp_uv_color", [0.36470589041709899902, 0.15686275064945220947, 1.00000000000000000000])
 VarFloat("f_pp_flashlight_pp_particles", 0.0)
 VarFloat("f_pp_flashlight_pp", 0.0)
-VarFloat("f_pp_flashlight_pp_indirect", 0.0)
 
 
 

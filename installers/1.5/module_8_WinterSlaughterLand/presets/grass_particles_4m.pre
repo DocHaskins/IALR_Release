@@ -1,0 +1,4 @@
+sub main()
+{
+	Import("generic_nature_roof_subregion.pre");
+}

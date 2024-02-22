@@ -47,7 +47,11 @@ float AI_Nighttime_Dmg_Multiplier = IAL_AI_Nighttime_Dmg_Multiplier;
 
 sub main()
 {
-	
+	Param("AnimGraph_BankName", "player");
+	Param("AnimGraph_GraphName", "player_main");
+	Param("AnimGraph_PresetName", "");
+	Param("AnimGraph_BindNamespace", "Human");
+
 	Param("ManualSloMoEnabled", "false");
 	Param("ManualSloMoCooldown", "5.0");  
 	
@@ -118,6 +122,8 @@ sub main()
 	Param("FirearmsCrossbowAccuracyFactor", "0.1");
 	// how much the bow is swaying when shotinglower value - lower sway
     Param("BowAccuracyFactor", "0.1");
+
+    Param("FirearmsHarpoonAccuracyFactor", "0.1");
 	
     Param("MinTimeToGiveCollisionDamage", "0.27");
     Param("CanMeleeInAir", "1");
@@ -147,7 +153,7 @@ sub main()
 	Param("BowMaxThrowFactor", "0.65");	
 	Param("BowAutoReleaseTime", "-1.0");	
 	Param("BowMultiShotMinTimeToActivate", "-1.0");
-    Param("BowEnableDamageScalingByForce", "false");
+    Param("BowEnableDamageScalingByForce", "true");
 
     Param("ArrowsCanBePickedUp", "true");
 
@@ -280,6 +286,13 @@ sub main()
 	Param("GREDetectorRangeNearby", "15.0");
     Param("GREDetectorRange3DIndication", "10.0");
     Param("GREDetectorRangeFoundTollerance", "2.0");
+
+    // Firearms decoder detection
+    Param("FirearmsDecoderDetector", "true");
+    Param("FirearmsDecoderDetectorRange", "50.0");
+    Param("FirearmsDecoderDetectorRangeNearby", "15.0");
+    Param("FirearmsDecoderDetector3DIndication", "10.0");
+    Param("FirearmsDecoderDetectorRangeTolerance", "2.0");
 
 	// UV Flashlight
 	Param("UVFlashlightLevel", "0");
@@ -949,6 +962,7 @@ sub main()
 	Param("FirearmsPowerShotTime", "0.0");
 	Param("FirearmsMultiShotMinTimeToActivate", "-1.0");
 	Param("FirearmEnableSlowMoShootWhileParkouring", "0");
+    Param("FirearmsParkourSlomoAutomaticFireMaxShots", "3");
 	
 
     // OTHER
@@ -1460,13 +1474,13 @@ sub main()
 	
     Param("AccuracyLoseSpeed", "1.5");
 	
-	Param("AccuracyAngleInSprint", "3.0");
+	Param("AccuracyAngleInSprint", "3.5"); //hip fire
 	Param("AccuracyBlendTimInSprint", "1.0");
 	
-	Param("AccuracyAngleInAir", "2.0");
+	Param("AccuracyAngleInAir", "1.2"); //hip fire
 	Param("AccuracyBlendTimInAir", "1.0");
 	
-	Param("AccuracyAngleInWalk", "1.0");
+	Param("AccuracyAngleInWalk", "1.0"); //hip fire
 	Param("AccuracyBlendTimInWalk", "1.0");
 	
     Param("CrouchAccuracyGainFactor", "1.0");
@@ -1594,9 +1608,11 @@ sub main()
     Param("CraftAdditionalRepairSlotEnabled", "false");
     Param("CanUseSenseWhenMoving", "true");
     Param("CanBeRevived", "true");
-	Param("ReviveLimit", "3.0");	
+	Param("ReviveLimitEliteSurvivorMission", "1.0");
+    Param("ReviveLimit", "3.0");		
 	Param("ReviveLimitResetTime", "300.0");
 	Param("TotalReviveTime", "40.0");
+    Param("TotalReviveTimePilgrimMission", "40.0");
     Param("TotalBlockedRespawnReviveTime", "30.0");
     Param("BuggyRemoteEnabled", "false");
     Param("PushActionEnabled", "false");
@@ -1812,9 +1828,11 @@ sub main()
 	Param("StatsConfig", "default");
 	
 	Param("OutfitStaminaMeleeUsageMul", "1.0");
+	Param("OutfitStaminaMeleeUsageMulCoop", "1.0");
 	Param("OutfitStaminaRangedUsageMul", "1.0");
 	Param("OutfitStaminaRegenMul", "1.0");
 	Param("OutfitCombatProgressionMul", "1.0");
+	Param("OutfitCombatProgressionMulCoop", "1.0");
 	Param("OutfitAgilityProgressionMul", "1.0");
 	Param("OutfitParkourStaminaUsageMul", "1.0");
 	Param("OutfitAIRecognitionTimeMul", "1.0");
@@ -1840,6 +1858,7 @@ sub main()
     Param("OutfitTwoHandedDamageBoostFactor", "0.0");
     Param("OutfitKnuckleDusterDamageBoostFactor", "0.0");
     Param("OutfitParkourDamageBoostFactor", "0.0");
+    Param("OutfitParkourDamageBoostFactorCoop", "0.0");
 
 	Param("OutfitArmorResistanceFactorMul", "1.0");
 	Param("ArmorResistanceMulPhysical", "1.0");
@@ -1856,6 +1875,7 @@ sub main()
     Param("ArmorResistanceMulArmour", "0.0");
     Param("ArmorResistanceMulFreeze", "0.0");
     Param("ArmorResistanceMulRam", "1.0");
+    Param("ArmorResistanceMulFirearms", "1.0");
     Param("ArmorResistanceMulElemental", "0.0");
 
     Param("FallDamageResistance", "0.0");
@@ -1897,22 +1917,31 @@ sub main()
     Param("LockpickBreakLevel", "0");
 
     Param("StaminaRegenerationFactorOnHit", "0.0");
+    Param("StaminaRegenerationFactorOnHitCoop", "0.0");
     Param("StaminaRegenerationFactorOnPowerAttack", "0.0");
+    Param("StaminaRegenerationFactorOnPowerAttackCoop", "0.0");
 
     Param("FuryChargeMultiplier", "1.0");
 
     Param("HumanDamageMulFactor", "0.0");
+    Param("HumanDamageMulFactorCoop", "0.0");
     Param("ZombieDamageMulFactor", "0.0");
+    Param("ZombieDamageMulFactorCoop", "0.0");
 
     Param("DayDamageMulFactor", "AI_Daytime_Dmg_Multiplier");
+    Param("DayDamageMulFactorCoop", "AI_Daytime_Dmg_Multiplier");
     Param("NightDamageMulFactor", "AI_Nighttime_Dmg_Multiplier");
+    Param("NightDamageMulFactorCoop", "AI_Nighttime_Dmg_Multiplier");
 
     Param("ItemStaminaDamageMul", "1.0");
+    Param("ItemStaminaDamageMulCoop", "1.0");
 
     Param("ChargeAttackAdditionalMul", "0.0");
+    Param("ChargeAttackAdditionalMulCoop", "0.0");
     Param("ChargeAttackAdditionalMulNight", "0.0");
 
     Param("PerfectBlockHealingFactor", "0.0");
+    Param("PerfectBlockHealingFactorCoop", "0.0");
 	
 	Param("RadarAdditionalFOV", "20.0");
 
@@ -2056,12 +2085,17 @@ sub main()
 	Param("LP1HBluntDmgBoostFactor", "0.0");
 	Param("LP2HSlashDmgBoostFactor", "0.0");
 	Param("LP2HBluntDmgBoostFactor", "0.0");
-	Param("LPXBowDmgBoostFactor", "0.0");
-	Param("LPBowDmgBoostFactor", "0.0");
+	Param("LPBowAndCrossbowDmgBoostFactor", "0.0");
+	Param("LPFirearmsDmgBoostFactor", "0.0");
 	Param("LPHtHDmgBoostFactor", "0.0");
 	Param("LPThrowablesDmgBoostFactor", "0.0");
 	Param("LPExplThrowablesDmgBoostFactor", "0.0");
-	Param("LPFasterPassiveLandingRecoveryFactor", "1.0");
+	Param("LPStaminaDamageBoostFactor", "1.0");
+    Param("LPReduceStaminaCostOfAttack", "0.0");
+    Param("LPHealOnDamageDoneMelee", "0.0");
+    Param("LPIncreaseDamageDoneWithSkills", "0.0");
+    Param("LPReduceDamageTaken", "0.0");
+    Param("LPCriticalHitChance", "0.0");
 
     Param("WaterMovementSpeedMulLevel1", "0.85");
     Param("WaterMovementSpeedMulLevel2", "0.75");
@@ -2073,6 +2107,8 @@ sub main()
     Param("XRaySlomoWorldSpeed", "0.075");
     Param("XRaySlomoActivePlayerSpeed", "0.3");
     Param("XRaySlomoInactivePlayerSpeed", "0.02");
+
+    Param("StaminaDamageLowHealth", "1.0");
 
 	Param("InAirAttackSlomoActivePlayerSpeed", "0.2");
     Param("InAirAttackSlomoInactivePlayerSpeed", "0.2");
@@ -2126,12 +2162,14 @@ sub main()
 
     Param("AntiWallHandsScale", "0.34");
     Param("AntiWallAimHandsScale", "0.5");
+    Param("AntiFovScale", "0.02");
 
     Param("ThrownMeleeWeaponPierceChance", "0.25");
     Param("ThrownMeleeWeaponPhysicsForceMul", "1.8");
     Param("ThrownMeleeWeaponMaxPhysicsForce", "130");
     Param("ThrownMeleeWeaponRagdollProb", "0.5");
     Param("WeaponDamageWeaponThrowMul", "0");
+    Param("WeaponDamageWeaponThrowMulCoop", "0");
     Param("ThrownMeleeWeaponDurabilityLoss", "1");
 
     Param("ThrowMeleeWeaponMinHoldTime", "0.3");
@@ -2145,6 +2183,7 @@ sub main()
     Param("EvolvingItemCombatXpToItemXpMultiplier", "1.0");
 
     Param("BackstabDamage", "0.0");
+    Param("BackstabDamageCoop", "0.0");
     Param("BackstabDamageAngle", "60.0");
 
     Param("SprintHeadCorrectionFactor", "0.55");
@@ -2218,6 +2257,39 @@ sub main()
     Param("XRayAdditionalStaminaDamage", "10000");
     Param("XRayAdditionalStaminaDamageChance", "1.0");
     Param("XRayAdditionalStaminaDamageMaxEnemyHealthFactor", "0.5");
+
+    Param("EventDamageMultiplier", "");
+    Param("EventResistanceMultiplier", "");
+
+    Param("OutfitArmorFactorWhenDamageResistanceActive", "0.65");
+    Param("UvLightImmunitiyRegenerationFactor", "1.0");
+    Param("UvFlashlightEnergyDrainFactor", "1.0");
+
+    Param("RifleMinLookAngle", "-75.0");
+    Param("ShotgunMinLookAngle", "-75.0");
+    Param("HarpoonMinLookAngle", "-75.0");
+
+    Param("FirearmsNoiseName", "periodic_firearms_spawn");
+    Param("FirearmsNoiseTriggerValue", "60.0");
+    Param("FirearmsNoiseTimeMultiplier", "1.0");
+    Param("FirearmsNoiseSingleFireShotIncrease", "0.0");
+    Param("FirearmsNoiseAutomaticFireShotIncrease", "0.0");
+
+    Param("AnomalyGearEffectEnabled", "false");
     
-    Param("ReturningWeaponGripAudioEventDistance", "8");
+    Param("PilgrimMissionEliteStaminaDamageBoostFactor", "0.6");
+	
+	Param("FlashlightDimmingTime", "-1.0");
+	Param("FlashlightAutomaticTurnOffTime", "-1.0");
+	Param("FlashlightFlickeringStartTimeFactor", "-1");
+	Param("FlashlightFlickeringBeginProbability", "0.0");
+	Param("FlashlightFlickeringEndProbability", "0.0");
+	Param("FlashlightFlickeringProbabilityInCombatFactor", "0.0");
+
+    Param("FirearmsAimingDepthOfFieldPower", "0.0");
+    Param("FirearmsAimingDepthOfFieldDefaultNear", "0.08");
+
+    Param("SurvivorMissionsEquipmentSlotsCount", "4");
+    Param("SurvivorMissionsConsumableSlotsCount", "4");
+    Param("SurvivorMissionsInventorySlotsCount", "4");
 }

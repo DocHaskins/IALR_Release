@@ -26,6 +26,10 @@
     <property name="OutfitParkourDamageBoostFactor" value_add ="0.001"/>
 </buff>
 
+<buff id="Affix_Outfit_BaseHealer_ParkourDamageBoostFactor_Coop" duration="-1" max_stacks="1000" serialize_on_save="false">
+    <property name="OutfitParkourDamageBoostFactorCoop" value_add ="0.001"/>
+</buff>
+
 <buff id="Affix_Outfit_BaseDPS_OneHandedDamageBoostFactor" duration="-1" max_stacks="1000" serialize_on_save="false">
     <property name="OutfitOneHandedDamageBoostFactor" value_add ="0.001"/>
 </buff>
@@ -53,12 +57,20 @@
     <property name="OutfitStaminaMeleeUsageMul" value_add ="-0.001"/>
 </buff>
 
+<buff id="Affix_Outfit_RandomMelee_StaminaReduceMelee_Coop" duration="-1" max_stacks="1000" serialize_on_save="false">
+    <property name="OutfitStaminaMeleeUsageMulCoop" value_add ="-0.001"/>
+</buff>
+
 <buff id="Affix_Outfit_RandomMeleeRanged_StaminaRegen" duration="-1" max_stacks="1000" serialize_on_save="false">
     <property name="OutfitStaminaRegenMul" value_add ="0.001"/>
 </buff>
 
 <buff id="Affix_Outfit_RandomMeleeTank_CombatProg" duration="-1" max_stacks="1000" serialize_on_save="false">
     <property name="OutfitCombatProgressionMul" value_add ="0.001"/>
+</buff>
+
+<buff id="Affix_Outfit_RandomMeleeTank_CombatProg_Coop" duration="-1" max_stacks="1000" serialize_on_save="false">
+    <property name="OutfitCombatProgressionMulCoop" value_add ="0.001"/>
 </buff>
 
 <buff id="Affix_Outfit_RandomRanged_StaminaReduceRanged" duration="-1" max_stacks="1000" serialize_on_save="false">
@@ -683,16 +695,32 @@
 	<property name="HumanDamageMulFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Damage_vs_Humans_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="HumanDamageMulFactorCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Weapon_Damage_vs_Infected" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="ZombieDamageMulFactor" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Damage_vs_Infected_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="ZombieDamageMulFactorCoop" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_at_Day" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="DayDamageMulFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Damage_at_Day_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="DayDamageMulFactorCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Weapon_Damage_at_Night" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="NightDamageMulFactor" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Damage_at_Night_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="NightDamageMulFactorCoop" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_Enemy_Affected_By_Conditions" duration="-1" max_stacks="100" serialize_on_save="false" >
@@ -707,8 +735,16 @@
 	<property name="StaminaRegenerationFactorOnHit" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Stamina_Regen_on_Hit_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="StaminaRegenerationFactorOnHitCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Stamina_Regen_on_Charge" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="StaminaRegenerationFactorOnPowerAttack" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Stamina_Regen_on_Charge_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="StaminaRegenerationFactorOnPowerAttackCoop" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_on_Charge" duration="-1" max_stacks="100" serialize_on_save="false" >
@@ -719,12 +755,28 @@
 	<property name="ChargeAttackAdditionalMulNight" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Damage_on_Charge_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="ChargeAttackAdditionalMulCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Health_Regen_on_Perfect_Block" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="PerfectBlockHealingFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Health_Regen_on_Perfect_Block_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="PerfectBlockHealingFactorCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Stamina_Damage_on_Hit" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="ItemStaminaDamageMul" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Stamina_Damage_on_Hit_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="ItemStaminaDamageMulCoop" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Stamina_Damage_LowHealth" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="StaminaDamageLowHealth" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Fury_Charge_on_Hit" duration="-1" max_stacks="100" serialize_on_save="false" >
@@ -735,8 +787,16 @@
 	<property name="WeaponDamageWeaponThrowMul" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Damage_Weapon_Throw_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="WeaponDamageWeaponThrowMulCoop" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Weapon_Damage_Backstab" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="BackstabDamage" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Damage_Backstab_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="BackstabDamageCoop" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_Head" duration="-1" max_stacks="100" serialize_on_save="false" >

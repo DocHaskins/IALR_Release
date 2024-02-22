@@ -1,6 +1,6 @@
 sub main()
 {
-	PresetDef("Nature_visibility_grass")
+	PresetDef("")
 	{
 		Description("");
 		AddField("SELECTOR", "", false, true, false);

@@ -2,156 +2,23 @@
  RayRanges(-100.00, 1000.00)
  Layer("to_nature_ground_grass_small_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_grass_small_a")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_a.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_ground_grass_small_b")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_grass_small_b")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_forest_green_a.mat")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_a.msh", "nat_grass_forest_green_a.mat")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_forest_green_a.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_ground_grass_tall_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_grass_tall_a")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(15)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(15)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.70, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_a.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(5)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_ground_grass_tall_b")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_grass_tall_b")
-    InstancesPerMeter(1.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "")
-        Priority(15)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.70, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_a.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(5)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_ground_grass_tall_c")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_grass_tall_c")
-    InstancesPerMeter(1.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "")
-        Priority(100)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_stones_small_a")
  {
@@ -167,7 +34,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -185,7 +52,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -203,7 +70,7 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -212,198 +79,35 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_small_b.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_small_a.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }
  Layer("grass_rotten_low_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_grass_rotten_low_a")
-    InstancesPerMeter(10.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.50)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(40)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("grass_rotten_high_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_grass_rotten_high_a")
-    InstancesPerMeter(5.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_b.mat")
-        Priority(6)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "nat_grass_tall_c.mat")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_tall_e.mat")
-        Priority(2)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("trash_a")
  {
@@ -419,16 +123,16 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }
@@ -451,674 +155,57 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(2)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }
  Layer("roof_precise_nature")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_precise_nature")
-    InstancesPerMeter(10.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(90)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a.msh", "")
-        Priority(1)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_small_nature")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_small_nature")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a.msh", "")
-        Priority(11)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_palace_a.msh", "")
-        Priority(21)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_funkia_a.msh", "")
-        Priority(3)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_large_nature")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_large_nature")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_a.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(50)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.70, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_ivy_floor_i_to.msh", "nat_ivy_floor_roof_to.mat")
-        Priority(3)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.70, 1.00)
-        Shadows(0, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_b.msh", "")
-        Priority(6)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_nettle_a.msh", "")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_nettle_b.msh", "")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_bush_dead_small_a.msh", "")
-        Priority(5)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_bush_dead_small_b.msh", "")
-        Priority(5)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_ivy_floor_small_a_to.msh", "nat_ivy_floor_roof_to.mat")
-        Priority(5)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.10)
-        Shadows(0, 0)
-    }
+    
  }
  Layer("roof_bush_nature")
  {
-    RenderRangesLod(20.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-	BlendRangesLod(0, 3.00, 5.00)
-    DensityMap("city_foliage_roof_bush_nature")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_shrub_b.msh", "")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.90, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_a.msh", "")
-        Priority(30)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_b.msh", "")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(1.00, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(40)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_shrub_c.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 1.10)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_small_nature_r01a")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_roof_small_nature_r01a")
-    InstancesPerMeter(5.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(75)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(0.90, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(55)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_a.msh", "")
-        Priority(15)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_b.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(50)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_nettle_b.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_bush_nature_r01b")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_roof_bush_nature_r01b")
-    InstancesPerMeter(3.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_fern_a_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_a_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(3)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(3)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 1.00)
-        Shadows(1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_b.msh", "foliage_plant_b_to.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 1.00)
-        Shadows(1, 0)
-    }
+    
  }
  Layer("roof_small_nature_r01b")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_small_nature_r01b")
-    InstancesPerMeter(3.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_lilly_a.msh", "nat_lilly_roof_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_lilly_b.msh", "nat_lilly_roof_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a.msh", "")
-        Priority(11)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_palace_a.msh", "")
-        Priority(21)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_funkia_a.msh", "")
-        Priority(3)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_bush_nature_r01c")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_roof_bush_nature_r01c")
-    InstancesPerMeter(2.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_fern_a_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_a_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(12)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_a_to.mat")
-        Priority(12)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_small_nature_r01c")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_small_nature_r01c")
-    InstancesPerMeter(4.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a_to.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_b.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_large_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.90, 0.95)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_small_nature_r01d")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_roof_small_nature_r01d")
-    InstancesPerMeter(7.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_a.msh", "")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_b.msh", "")
-        Priority(15)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_nettle_b.msh", "")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(35)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(0.90, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(35)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "")
-        Priority(35)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(77)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(77)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(140)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_b.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(140)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_large_a.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(77)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_c.mat")
-        Priority(77)
-        AlignToNormal(1)
-        NormalCutoff(200)
-        Scale(1.00, 1.10)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("roof_small_nature_r01e")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_roof_small_nature_r01e")
-    InstancesPerMeter(3.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_palace_a.msh", "")
-        Priority(60)
-        AlignToNormal(1)
-        NormalCutoff(80)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b_to.msh", "nat_fern_ground_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_ground_a_to.mat")
-        Priority(160)
-        AlignToNormal(1)
-        NormalCutoff(80)
-        Scale(0.70, 0.90)
-        Shadows(0, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_a_to.msh", "nat_fern_ground_a_to.mat")
-        MeshLod(1, "nat_fern_a_to_lod1.msh", "nat_fern_ground_a_to.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(80)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_acacia_bush_a.msh", "")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(80)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("street_trash")
  {
@@ -1134,7 +221,7 @@
         Priority(5)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1143,7 +230,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1152,7 +239,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1161,7 +248,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1170,7 +257,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1179,25 +266,25 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1206,7 +293,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1215,7 +302,7 @@
         Priority(6)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1242,7 +329,7 @@
         Priority(4)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1251,7 +338,7 @@
         Priority(6)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1260,54 +347,13 @@
         Priority(8)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
  }
  Layer("Backyard_nature_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_Backyard_nature_a")
-    InstancesPerMeter(10.00)
-    ExpensiveTraces(1)
-    TerrainOnly(1)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(23)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.70, 2.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(7)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("Backyard_trash_a")
  {
@@ -1323,7 +369,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1332,7 +378,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1341,7 +387,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1350,25 +396,25 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -1377,7 +423,7 @@
         Priority(40)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1386,7 +432,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1410,120 +456,55 @@
  }
  Layer("ground_leafs")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_ground_leafs")
-    InstancesPerMeter(1.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(25)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.50)
-        Shadows(1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(25)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.50)
-        Shadows(1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_large_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(25)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.50)
-        Shadows(1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.50)
-        Shadows(1, 0)
-    }
+    
  }
  Layer("nettle")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
+    RenderRangesLod(4.00, 24.00, 0.00)
     BlendRangesLod(0, 2.00, 4.00)
+    BlendRangesLod(1, 3.00, 5.00)
     DensityMap("city_foliage_nettle")
     InstancesPerMeter(2.00)
     ExpensiveTraces(1)
     TerrainOnly(0)
     Type()
     {
-        MeshLod(0, "nat_nettle_a.msh", "")
+        MeshLod(0, "nat_nettle_a.msh", "nat_nettle_a_to.mat")
+        MeshLod(1, "nat_nettle_a_lod1.msh", "nat_nettle_a_to.mat")
         Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_nettle_b.msh", "")
-        Priority(15)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a.msh", "")
-        Priority(13)
-        AlignToNormal(0)
+        AlignToNormal(1)
         NormalCutoff(0)
         Scale(1.00, 1.00)
+        Shadows(-1, 0)
+    }
+    Type()
+    {
+        MeshLod(0, "nat_nettle_b.msh", "nat_nettle_a_to.mat")
+        MeshLod(1, "nat_nettle_b_lod1.msh", "nat_nettle_a_to.mat")
+        Priority(15)
+        AlignToNormal(1)
+        NormalCutoff(0)
+        Scale(1.00, 2.10)
+        Shadows(-1, 0)
+    }
+    Type()
+    {
+        MeshLod(0, "foliage_plant_a.msh", "foliage_plant_a_to.mat")
+        MeshLod(1, "foliage_plant_a_lod1.msh", "foliage_plant_a_to.mat")
+        Priority(13)
+        AlignToNormal(1)
+        NormalCutoff(0)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
  }
  Layer("foliage_plant_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_foliage_plant_a")
-    InstancesPerMeter(3.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_plant_a.msh", "")
-        Priority(100)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 1.10)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("to_nature_ground_leaves_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_to_nature_ground_leaves_a")
-    InstancesPerMeter(0.10)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(1, 0)
-    }
+    
  }
  Layer("cattail")
  {
@@ -1548,162 +529,21 @@
         Priority(80)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.00)
+        Scale(1.00, 1.00)
         Shadows(-1, 0)
     }
  }
  Layer("biom_coniferous_forest_grass_low")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_biom_coniferous_forest_grass_low")
-    InstancesPerMeter(30.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_b.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.30, 0.40)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_b.mat")
-        Priority(12)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.30, 0.40)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_b.mat")
-        Priority(4)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.30, 0.40)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_coniferous_forest_grass_high")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_biom_coniferous_forest_grass_high")
-    InstancesPerMeter(7.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(10)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 0.90)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_b.mat")
-        Priority(6)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.70, 0.90)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_coniferous_forest_undergrowth_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_biom_coniferous_forest_undergrowth_a")
-    InstancesPerMeter(9.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(3)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(12)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(30)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.70, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(70)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_b.mat")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.70, 1.20)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_coniferous_forest_undergrowth_b")
  {
@@ -1737,7 +577,7 @@
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.70, 1.00)
+        Scale(0.70, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1746,7 +586,7 @@
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.70, 1.00)
+        Scale(0.70, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1755,7 +595,7 @@
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.70, 1.00)
+        Scale(0.70, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -1764,7 +604,7 @@
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.70, 1.00)
+        Scale(0.70, 2.00)
         Shadows(-1, 0)
     }
  }
@@ -1815,277 +655,19 @@
  }
  Layer("biom_park_grass_low_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_biom_park_grass_low_a")
-    InstancesPerMeter(10.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(12)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(4)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.50)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(40)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_sticks_a.mat")
-        Priority(3)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.00)
-        Shadows(1, 0)
-    }
+    
  }
  Layer("biom_park_grass_high_a")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_biom_park_grass_high_a")
-    InstancesPerMeter(5.00)
-    ExpensiveTraces(0)
-    TerrainOnly(1)
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_c.msh", "foliage_small_grass_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_grass_a.msh", "foliage_grass_b.mat")
-        Priority(6)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.60)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(2)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(2)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_tall_e.mat")
-        Priority(2)
-        AlignToNormal(0)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_park_undergrowth_a")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_biom_park_undergrowth_a")
-    InstancesPerMeter(1.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_ivy_floor_i_to.msh", "nat_ivy_floor_ground_to.mat")
-        Priority(2)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.10)
-        Shadows(0, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_fern_b.msh", "nat_fern_ground_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_ground_a_to.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(1.00, 1.20)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 1.00)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_park_undergrowth_b")
  {
-    RenderRangesLod(24.00, 40.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    BlendRangesLod(1, 3.00, 5.00)
-    DensityMap("city_foliage_biom_park_undergrowth_b")
-    InstancesPerMeter(7.00)
-    ExpensiveTraces(0)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_fern_b.msh", "nat_fern_ground_a_to.mat")
-        MeshLod(1, "nat_fern_b_to_lod1.msh", "nat_fern_ground_a_to.mat")
-        Priority(4)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.88, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "")
-        Priority(2)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(0, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(2)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.60, 0.80)
-        Shadows(0, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.40, 0.60)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(80)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.40, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(5)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.70)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(5)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.50, 0.80)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_park_swamp_a")
  {
@@ -2101,7 +683,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2110,7 +692,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2119,7 +701,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2128,7 +710,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2137,7 +719,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2146,7 +728,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2191,7 +773,7 @@
         Priority(5)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(0, 0)
     }
  }
@@ -2205,7 +787,7 @@
     TerrainOnly(1)
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_small_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2214,11 +796,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_small_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2227,7 +809,7 @@
         Priority(4)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2236,12 +818,12 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_small_b.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2250,11 +832,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_small_b.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2263,7 +845,7 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2272,12 +854,12 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2286,11 +868,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2299,7 +881,7 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2308,12 +890,12 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_b.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_medium_b.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2322,11 +904,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_b.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_b.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2335,7 +917,7 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2344,12 +926,12 @@
         Priority(4)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_large_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_large_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2358,11 +940,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_large_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_large_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2371,7 +953,7 @@
         Priority(4)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2380,12 +962,12 @@
         Priority(4)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
@@ -2394,11 +976,11 @@
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(1)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2407,97 +989,17 @@
         Priority(3)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
  }
  Layer("bandit_precise")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_bandit_precise")
-    InstancesPerMeter(10.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_a_lod2.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(20)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_ground_a.mat")
-        Priority(50)
-        AlignToNormal(1)
-        NormalCutoff(150)
-        Scale(0.70, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_a.msh", "")
-        Priority(1)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.60, 0.80)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "foliage_small_grass_b.msh", "")
-        Priority(2)
-        AlignToNormal(1)
-        NormalCutoff(191)
-        Scale(0.60, 1.00)
-        Shadows(-1, 0)
-    }
-    Type()
-    {
-        MeshLod(0, "nat_grass_small_clump_blend_b.msh", "nat_grass_small_city_roof_a.mat")
-        Priority(15)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.70, 0.70)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("wheat_field")
  {
-    RenderRangesLod(24.00, 0.00, 0.00)
-    BlendRangesLod(0, 2.00, 4.00)
-    DensityMap("city_foliage_wheat_field")
-    InstancesPerMeter(5.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        MeshLod(0, "nat_wheat_a.msh", "")
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
- }
- Layer("wheat_field_cut")
- {
-    RenderRangesLod(0.00, 0.00, 0.00)
-    DensityMap("city_foliage_wheat_field_cut")
-    InstancesPerMeter(8.00)
-    ExpensiveTraces(1)
-    TerrainOnly(0)
-    Type()
-    {
-        Priority(10)
-        AlignToNormal(1)
-        NormalCutoff(0)
-        Scale(0.80, 1.10)
-        Shadows(-1, 0)
-    }
+    
  }
  Layer("biom_swamp_trashes")
  {
@@ -2513,7 +1015,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2522,7 +1024,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2531,7 +1033,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2540,7 +1042,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2549,7 +1051,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2558,7 +1060,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2621,7 +1123,7 @@
         Priority(2)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.00)
+        Scale(1.00, 1.00)
         Shadows(0, 0)
     }
     Type()
@@ -2630,7 +1132,7 @@
         Priority(5)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(0, 0)
     }
  }
@@ -2648,7 +1150,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -2657,7 +1159,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -2666,7 +1168,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -2675,7 +1177,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -2684,7 +1186,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -2693,25 +1195,25 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }
@@ -2725,65 +1227,65 @@
     TerrainOnly(1)
     Type()
     {
-        MeshLod(0, "nat_seaweed_c_a.msh", "nat_seaweed_c_to.mat")
+        MeshLod(0, "nat_seaweed_c_a.msh", "")
         Priority(67)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_b_a.msh", "nat_seaweed_b_to.mat")
+        MeshLod(0, "nat_seaweed_b_a.msh", "nat_seaweed_b.mat")
         Priority(9)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_a_b.msh", "nat_seaweed_a_to.mat")
+        MeshLod(0, "nat_seaweed_a_b.msh", "")
         Priority(9)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_a_a.msh", "nat_seaweed_a_to.mat")
+        MeshLod(0, "nat_seaweed_a_a.msh", "")
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_d_a.msh", "nat_seaweed_d_to.mat")
+        MeshLod(0, "nat_seaweed_d_a.msh", "")
         Priority(5)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_c_b.msh", "nat_seaweed_c_to.mat")
+        MeshLod(0, "nat_seaweed_c_b.msh", "")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "nat_seaweed_d_b.msh", "nat_seaweed_d_to.mat")
+        MeshLod(0, "nat_seaweed_d_b.msh", "")
         Priority(25)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2792,7 +1294,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -2801,7 +1303,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -2810,7 +1312,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -2819,7 +1321,7 @@
         Priority(8)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
  }
@@ -2837,7 +1339,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2846,7 +1348,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2855,7 +1357,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2864,7 +1366,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2873,7 +1375,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2882,7 +1384,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -2945,7 +1447,7 @@
         Priority(2)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.00)
+        Scale(1.00, 1.00)
         Shadows(0, 0)
     }
     Type()
@@ -2954,7 +1456,7 @@
         Priority(5)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(0, 0)
     }
  }
@@ -2972,7 +1474,7 @@
         Priority(25)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -2990,7 +1492,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -3008,7 +1510,7 @@
         Priority(100)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.30)
+        Scale(1.00, 2.30)
         Shadows(1, 0)
     }
     Type()
@@ -3017,25 +1519,25 @@
         Priority(100)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.30)
+        Scale(1.00, 2.30)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_b.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_small_b.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.30)
+        Scale(1.00, 2.30)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_small_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_small_a.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.30)
+        Scale(1.00, 2.30)
         Shadows(1, 0)
     }
     Type()
@@ -3044,16 +1546,16 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(-1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_a.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -3062,7 +1564,7 @@
         Priority(5)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3071,7 +1573,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3080,7 +1582,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3089,7 +1591,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3098,7 +1600,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3107,25 +1609,25 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3134,7 +1636,7 @@
         Priority(40)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -3143,7 +1645,7 @@
         Priority(30)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -3152,7 +1654,7 @@
         Priority(20)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(0.80, 1.20)
+        Scale(1.00, 1.20)
         Shadows(1, 0)
     }
     Type()
@@ -3161,7 +1663,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
     Type()
@@ -3170,7 +1672,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(-1, 0)
     }
  }
@@ -3188,7 +1690,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(191)
-        Scale(0.70, 1.10)
+        Scale(0.70, 2.10)
         Shadows(1, 0)
     }
     Type()
@@ -3206,7 +1708,7 @@
         Priority(15)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3215,7 +1717,7 @@
         Priority(100)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3224,7 +1726,7 @@
         Priority(100)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3251,7 +1753,7 @@
         Priority(10)
         AlignToNormal(1)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }
@@ -3287,7 +1789,7 @@
         Priority(50)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(0.80, 1.30)
+        Scale(1.00, 1.30)
         Shadows(1, 0)
     }
     Type()
@@ -3296,7 +1798,7 @@
         Priority(50)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3314,7 +1816,7 @@
         Priority(50)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3323,7 +1825,7 @@
         Priority(50)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3332,7 +1834,7 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3341,7 +1843,7 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3350,7 +1852,7 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3359,7 +1861,7 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
@@ -3368,25 +1870,25 @@
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_medium_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_medium_a.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
     Type()
     {
-        MeshLod(0, "tiny_object_flat_huge_a.msh", "tiny_object_flat_leaves_b.mat")
+        MeshLod(0, "tiny_object_flat_huge_a.msh", "null.mat")
         Priority(100)
         AlignToNormal(0)
         NormalCutoff(0)
-        Scale(1.00, 1.00)
+        Scale(1.00, 2.00)
         Shadows(1, 0)
     }
  }

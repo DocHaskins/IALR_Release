@@ -1,0 +1,16 @@
+sub main()
+{
+	PresetDef("nat_bush_small_type")
+	{
+		Description("");
+		AddField("SELECTOR", "", false, true, false);
+		Preset("A")
+		{
+			SetField("SELECTOR", "A");
+		}
+		Preset("B")
+		{
+			SetField("SELECTOR", "B");
+		}
+	}
+}

@@ -289,6 +289,42 @@ sub BiterDifficultyPresets()
     Preset("Biter_Armored_Level_9", "Biter_XL_Level_9")
     {
     }
+	Preset("Biter_FirearmChallenge_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_1");
+    }
+    Preset("Biter_FirearmChallenge_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_2");
+    }
+    Preset("Biter_FirearmChallenge_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_3");
+    }
+    Preset("Biter_FirearmChallenge_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_4");
+    }
+    Preset("Biter_FirearmChallenge_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_5");
+    }
+    Preset("Biter_FirearmChallenge_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_6");
+    }
+    Preset("Biter_FirearmChallenge_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_7");
+    }
+    Preset("Biter_FirearmChallenge_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_8");
+    }
+    Preset("Biter_FirearmChallenge_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_FirearmChallenge_RGD_9");
+    }	
     Preset("Biter_Backpack_Level_1", "Biter_Level_1")
     {
         SetField("m_HealthPreset", "Biter_Backpack_RGD_1");
@@ -370,42 +406,90 @@ sub BiterDifficultyPresets()
     {
         SetField("m_XpForKill", "15");
     }
+
     Preset("Biter_Gas_Tank_Level_1", "Biter_Level_1")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_1");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_1");
     }
     Preset("Biter_Gas_Tank_Level_2", "Biter_Level_2")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_2");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_2");
     }
     Preset("Biter_Gas_Tank_Level_3", "Biter_Level_3")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_3");
     }
     Preset("Biter_Gas_Tank_Level_4", "Biter_Level_4")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_4");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_4");
     }
     Preset("Biter_Gas_Tank_Level_5", "Biter_Level_5")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_5");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_5");
     }
     Preset("Biter_Gas_Tank_Level_6", "Biter_Level_6")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_6");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_6");
     }
     Preset("Biter_Gas_Tank_Level_7", "Biter_Level_7")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_7");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_7");
     }
     Preset("Biter_Gas_Tank_Level_8", "Biter_Level_8")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_8");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_8");
     }
     Preset("Biter_Gas_Tank_Level_9", "Biter_Level_9")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_9");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_9");
     }
+
+    Preset("DLC_Opera_Gas_Tank_Level_1", "Biter_Level_1")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_1");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_2", "Biter_Level_2")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_2");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_3", "Biter_Level_3")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_3");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_4", "Biter_Level_4")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_4");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_5", "Biter_Level_5")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_5");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_6", "Biter_Level_6")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_6");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_7", "Biter_Level_7")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_7");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_8", "Biter_Level_8")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_8");
+    }
+    Preset("DLC_Opera_Gas_Tank_Level_9", "Biter_Level_9")
+    {
+        SetField("m_WeaponSetName", "Biter_Gas_Tank_Opera_RGD_9");
+    }
+
     Preset("Biter_Toxic_Level_1", "Biter_Level_1")
     {
         SetField("m_AttachmentPreset", "toxic_attachment_tier_1");
@@ -478,6 +562,846 @@ sub BiterDifficultyPresets()
     {
         SetField("m_AttachmentPreset", "chem_attachment_tier_9");
     }
+
+
+
+    ////////////////////////IALR\\\\\\\\\\\\\\\\\\\
+    Preset("Biter_Thug_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_1");
+    }
+
+    Preset("Biter_Thug_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_2");
+    }
+
+    Preset("Biter_Thug_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_3");
+    }
+
+    Preset("Biter_Thug_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_4");
+    }
+
+    Preset("Biter_Thug_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_5");
+    }
+
+    Preset("Biter_Thug_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_6");
+    }
+
+    Preset("Biter_Thug_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_7");
+    }
+
+    Preset("Biter_Thug_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_8");
+    }
+
+    Preset("Biter_Thug_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Thug_RGD_9");
+    }
+
+    Preset("Biter_Fresh_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Fresh_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Fresh_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Fresh_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Fresh_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Fresh_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Fresh_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Fresh_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Fresh_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Woman_Fresh_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Child_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_1");
+    }
+
+    Preset("Biter_Child_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_2");
+    }
+
+    Preset("Biter_Child_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_3");
+    }
+
+    Preset("Biter_Child_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_4");
+    }
+
+    Preset("Biter_Child_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_5");
+    }
+
+    Preset("Biter_Child_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_6");
+    }
+
+    Preset("Biter_Child_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_7");
+    }
+
+    Preset("Biter_Child_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_8");
+    }
+
+    Preset("Biter_Child_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Child_RGD_9");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Woman_Backpack_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_1");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_2");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_4");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_5");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_6");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_7");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_8");
+    }
+
+    Preset("Biter_Gas_Tank_Female_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_9");
+    }
+
+    Preset("Infected_Peacekeeper_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Infected_Peacekeeper_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Infected_Peacekeeper_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Infected_Peacekeeper_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Infected_Peacekeeper_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Infected_Peacekeeper_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Infected_Peacekeeper_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Infected_Peacekeeper_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Infected_Peacekeeper_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Infected_Peacekeeper_Woman_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Infected_Bandits_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Infected_Bandits_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Infected_Bandits_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Infected_Bandits_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Infected_Bandits_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Infected_Bandits_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Infected_Bandits_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Infected_Bandits_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Infected_Bandits_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Infected_Colonels_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Infected_Colonels_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Infected_Colonels_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Infected_Colonels_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Infected_Colonels_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Infected_Colonels_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Infected_Colonels_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Infected_Colonels_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Infected_Colonels_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Infected_Colonels_Woman_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Military_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Military_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Military_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Military_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Military_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Military_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Military_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Military_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Military_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Military_Gasmask_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_1");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_2");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_3");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_4");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_5");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_6");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_7");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_8");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Swamp_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_9");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_1");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_2");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_3");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_4");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_5");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_6");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_7");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_8");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Weak_Woman_Swamp_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_RGD_9");
+        SetField("m_XpForKill", "5");
+    }
+
+    Preset("Biter_Swamp_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Swamp_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Swamp_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Swamp_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Swamp_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Swamp_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Swamp_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Swamp_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Swamp_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_1");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_2");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_3");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_4");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_5");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_6");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_7");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_8");
+    }
+
+    Preset("Biter_Woman_Swamp_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_RGD_9");
+    }
+
+    Preset("Biter_XL_Swamp_Level_1", "Biter_Level_1")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_1");
+    }
+
+    Preset("Biter_XL_Swamp_Level_2", "Biter_Level_2")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_2");
+    }
+
+    Preset("Biter_XL_Swamp_Level_3", "Biter_Level_3")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_3");
+    }
+
+    Preset("Biter_XL_Swamp_Level_4", "Biter_Level_4")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_4");
+    }
+
+    Preset("Biter_XL_Swamp_Level_5", "Biter_Level_5")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_5");
+    }
+
+    Preset("Biter_XL_Swamp_Level_6", "Biter_Level_6")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_6");
+    }
+
+    Preset("Biter_XL_Swamp_Level_7", "Biter_Level_7")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_7");
+    }
+
+    Preset("Biter_XL_Swamp_Level_8", "Biter_Level_8")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_8");
+    }
+
+    Preset("Biter_XL_Swamp_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_XL_RGD_9");
+    }
 }
 sub ViralDifficultyPresets()
 {
@@ -501,7 +1425,7 @@ sub ViralDifficultyPresets()
         SetField("m_PerceptionProfile", "viral_level_2_RGD");
         SetField("m_WeaponSetName", "Viral_RGD_2");
         SetField("m_CustomLootTypeString", "T2_ViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD2");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         use Viral_Model_Tier_01();
     }
@@ -728,40 +1652,420 @@ sub ViralDifficultyPresets()
 
     Preset("Viral_Gas_Tank_Level_1", "Viral_Level_1")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_1");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_1");
     }
     Preset("Viral_Gas_Tank_Level_2", "Viral_Level_2")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_2");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_2");
     }
     Preset("Viral_Gas_Tank_Level_3", "Viral_Level_3")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_3");
     }
     Preset("Viral_Gas_Tank_Level_4", "Viral_Level_4")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_4");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_4");
     }
     Preset("Viral_Gas_Tank_Level_5", "Viral_Level_5")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_5");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_5");
     }
     Preset("Viral_Gas_Tank_Level_6", "Viral_Level_6")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_6");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_6");
     }
     Preset("Viral_Gas_Tank_Level_7", "Viral_Level_7")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_7");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_7");
     }
     Preset("Viral_Gas_Tank_Level_8", "Viral_Level_8")
     {
-        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_8");
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_8");
     }
     Preset("Viral_Gas_Tank_Level_9", "Viral_Level_9")
     {
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+
+    //////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\
+    Preset("Viral_Fresh_Level_1", "Viral_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Fresh_Level_2", "Viral_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Fresh_Level_3", "Viral_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Fresh_Level_4", "Viral_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Fresh_Level_5", "Viral_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Fresh_Level_6", "Viral_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Fresh_Level_7", "Viral_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Fresh_Level_8", "Viral_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Fresh_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_1", "Viral_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_2", "Viral_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_3", "Viral_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_4", "Viral_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_5", "Viral_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_6", "Viral_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_7", "Viral_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_8", "Viral_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Fresh_Woman_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
+    Preset("Viral_Gastank_Level_1", "Viral_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_1");
+    }
+
+    Preset("Viral_Gastank_Level_2", "Viral_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_2");
+    }
+
+    Preset("Viral_Gastank_Level_3", "Viral_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+    }
+
+    Preset("Viral_Gastank_Level_4", "Viral_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_4");
+    }
+
+    Preset("Viral_Gastank_Level_5", "Viral_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_5");
+    }
+
+    Preset("Viral_Gastank_Level_6", "Viral_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_6");
+    }
+
+    Preset("Viral_Gastank_Level_7", "Viral_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_7");
+    }
+
+    Preset("Viral_Gastank_Level_8", "Viral_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_8");
+    }
+
+    Preset("Viral_Gastank_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
         SetField("m_AttachmentPreset", "gas_tank_attachment_tier_9");
     }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_1", "Viral_Fresh_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_2", "Viral_Fresh_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_3", "Viral_Fresh_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_4", "Viral_Fresh_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_5", "Viral_Fresh_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_6", "Viral_Fresh_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_7", "Viral_Fresh_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_8", "Viral_Fresh_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Fresh_PeaceKeeper_Level_9", "Viral_Fresh_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_1", "Viral_Fresh_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_2", "Viral_Fresh_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_3", "Viral_Fresh_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_4", "Viral_Fresh_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_5", "Viral_Fresh_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_6", "Viral_Fresh_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_7", "Viral_Fresh_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_8", "Viral_Fresh_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Fresh_Bandit_Level_9", "Viral_Fresh_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_1", "Viral_Fresh_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_2", "Viral_Fresh_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_3", "Viral_Fresh_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_4", "Viral_Fresh_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_5", "Viral_Fresh_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_6", "Viral_Fresh_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_7", "Viral_Fresh_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_8", "Viral_Fresh_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Fresh_Renegade_Level_9", "Viral_Fresh_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
+    Preset("Viral_WorldBurner_Level_1", "Viral_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_1");
+    }
+
+    Preset("Viral_WorldBurner_Level_2", "Viral_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_2");
+    }
+
+    Preset("Viral_WorldBurner_Level_3", "Viral_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
+    }
+
+    Preset("Viral_WorldBurner_Level_4", "Viral_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_4");
+    }
+
+    Preset("Viral_WorldBurner_Level_5", "Viral_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_5");
+    }
+
+    Preset("Viral_WorldBurner_Level_6", "Viral_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_6");
+    }
+
+    Preset("Viral_WorldBurner_Level_7", "Viral_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_7");
+    }
+
+    Preset("Viral_WorldBurner_Level_8", "Viral_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_8");
+    }
+
+    Preset("Viral_WorldBurner_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+        SetField("m_AttachmentPreset", "gas_tank_attachment_tier_9");
+    }
+
+    Preset("Viral_Swamp_Level_1", "Viral_Level_1")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_1");
+    }
+
+    Preset("Viral_Swamp_Level_2", "Viral_Level_2")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_2");
+    }
+
+    Preset("Viral_Swamp_Level_3", "Viral_Level_3")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_3");
+    }
+
+    Preset("Viral_Swamp_Level_4", "Viral_Level_4")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_4");
+    }
+
+    Preset("Viral_Swamp_Level_5", "Viral_Level_5")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_5");
+    }
+
+    Preset("Viral_Swamp_Level_6", "Viral_Level_6")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_6");
+    }
+
+    Preset("Viral_Swamp_Level_7", "Viral_Level_7")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_7");
+    }
+
+    Preset("Viral_Swamp_Level_8", "Viral_Level_8")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_8");
+    }
+
+    Preset("Viral_Swamp_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_RGD_9");
+    }
+
 }
 sub InfectedSpecialDifficultyPresets()
 {
@@ -2093,7 +3397,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_1_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_1");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD1");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_2")
@@ -2102,7 +3406,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_2_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_2");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD2");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_3")
@@ -2111,7 +3415,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_3_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_3");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD3");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_4")
@@ -2120,7 +3424,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_4_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_4");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD4");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_5")
@@ -2129,7 +3433,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_5_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_5");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD5");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_6")
@@ -2138,7 +3442,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_6_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_6");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD6");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_7")
@@ -2147,7 +3451,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_7_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_7");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD7");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_8")
@@ -2156,7 +3460,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_8_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_8");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD8");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_9")
@@ -2168,16 +3472,568 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
+
+
+
+
+
+
+
+    //////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\
+    Preset("Screamer_Child_Level_1", "Screamer_Level_1")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_1");
+    }
+
+    Preset("Screamer_Child_Level_2", "Screamer_Level_2")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_2");
+    }
+
+    Preset("Screamer_Child_Level_3", "Screamer_Level_3")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_3");
+    }
+
+    Preset("Screamer_Child_Level_4", "Screamer_Level_4")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_4");
+    }
+
+    Preset("Screamer_Child_Level_5", "Screamer_Level_5")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_5");
+    }
+
+    Preset("Screamer_Child_Level_6", "Screamer_Level_6")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_6");
+    }
+
+    Preset("Screamer_Child_Level_7", "Screamer_Level_7")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_7");
+    }
+
+    Preset("Screamer_Child_Level_8", "Screamer_Level_8")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_8");
+    }
+
+    Preset("Screamer_Child_Level_9", "Screamer_Level_9")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_9");
+    }
+
+    Preset("Screamer_Weak_Level_1", "Screamer_Level_1")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_1");
+    }
+
+    Preset("Screamer_Weak_Level_2", "Screamer_Level_2")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_2");
+    }
+
+    Preset("Screamer_Weak_Level_3", "Screamer_Level_3")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_3");
+    }
+
+    Preset("Screamer_Weak_Level_4", "Screamer_Level_4")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_4");
+    }
+
+    Preset("Screamer_Weak_Level_5", "Screamer_Level_5")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_5");
+    }
+
+    Preset("Screamer_Weak_Level_6", "Screamer_Level_6")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_6");
+    }
+
+    Preset("Screamer_Weak_Level_7", "Screamer_Level_7")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_7");
+    }
+
+    Preset("Screamer_Weak_Level_8", "Screamer_Level_8")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_8");
+    }
+
+    Preset("Screamer_Weak_Level_9", "Screamer_Level_9")
+    {
+        SetField("m_HealthPreset", "Screamer_RGD_9");
+    }
+
+    Preset("Spitter_Enraged_Level_1", "Spitter_Level_1")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_1");
+    }
+
+    Preset("Spitter_Enraged_Level_2", "Spitter_Level_2")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_2");
+    }
+
+    Preset("Spitter_Enraged_Level_3", "Spitter_Level_3")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_3");
+    }
+
+    Preset("Spitter_Enraged_Level_4", "Spitter_Level_4")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_4");
+    }
+
+    Preset("Spitter_Enraged_Level_5", "Spitter_Level_5")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_5");
+    }
+
+    Preset("Spitter_Enraged_Level_6", "Spitter_Level_6")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_6");
+    }
+
+    Preset("Spitter_Enraged_Level_7", "Spitter_Level_7")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_7");
+    }
+
+    Preset("Spitter_Enraged_Level_8", "Spitter_Level_8")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_8");
+    }
+
+    Preset("Spitter_Enraged_Level_9", "Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_9");
+    }
+
+    Preset("Spitter_Vomit_Level_1", "Spitter_Level_1")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_1");
+    }
+
+    Preset("Spitter_Vomit_Level_2", "Spitter_Level_2")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_2");
+    }
+
+    Preset("Spitter_Vomit_Level_3", "Spitter_Level_3")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_3");
+    }
+
+    Preset("Spitter_Vomit_Level_4", "Spitter_Level_4")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_4");
+    }
+
+    Preset("Spitter_Vomit_Level_5", "Spitter_Level_5")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_5");
+    }
+
+    Preset("Spitter_Vomit_Level_6", "Spitter_Level_6")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_6");
+    }
+
+    Preset("Spitter_Vomit_Level_7", "Spitter_Level_7")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_7");
+    }
+
+    Preset("Spitter_Vomit_Level_8", "Spitter_Level_8")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_8");
+    }
+
+    Preset("Spitter_Vomit_Level_9", "Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_9");
+    }
+
+    Preset("Bile_Bloater_Level_1", "Spitter_Level_1")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_1");
+    }
+
+    Preset("Bile_Bloater_Level_2", "Spitter_Level_2")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_2");
+    }
+
+    Preset("Bile_Bloater_Level_3", "Spitter_Level_3")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_3");
+    }
+
+    Preset("Bile_Bloater_Level_4", "Spitter_Level_4")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_4");
+    }
+
+    Preset("Bile_Bloater_Level_5", "Spitter_Level_5")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_5");
+    }
+
+    Preset("Bile_Bloater_Level_6", "Spitter_Level_6")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_6");
+    }
+
+    Preset("Bile_Bloater_Level_7", "Spitter_Level_7")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_7");
+    }
+
+    Preset("Bile_Bloater_Level_8", "Spitter_Level_8")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_8");
+    }
+
+    Preset("Bile_Bloater_Level_9", "Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_RGD_9");
+    }
+
+    Preset("Banshee_Stalker_Level_1", "Banshee_Level_1")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_1");
+    }
+
+    Preset("Banshee_Stalker_Level_2", "Banshee_Level_2")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_2");
+    }
+
+    Preset("Banshee_Stalker_Level_3", "Banshee_Level_3")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_3");
+    }
+
+    Preset("Banshee_Stalker_Level_4", "Banshee_Level_4")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_4");
+    }
+
+    Preset("Banshee_Stalker_Level_5", "Banshee_Level_5")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_5");
+    }
+
+    Preset("Banshee_Stalker_Level_6", "Banshee_Level_6")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_6");
+    }
+
+    Preset("Banshee_Stalker_Level_7", "Banshee_Level_7")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_7");
+    }
+
+    Preset("Banshee_Stalker_Level_8", "Banshee_Level_8")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_8");
+    }
+
+    Preset("Banshee_Stalker_Level_9", "Banshee_Level_9")
+    {
+        SetField("m_HealthPreset", "Banshee_RGD_9");
+    }
+
+    Preset("Goon_Swamp_Level_1", "Goon_Level_1")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_1");
+    }
+
+    Preset("Goon_Swamp_Level_2", "Goon_Level_2")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_2");
+    }
+
+    Preset("Goon_Swamp_Level_3", "Goon_Level_3")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_3");
+    }
+
+    Preset("Goon_Swamp_Level_4", "Goon_Level_4")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_4");
+    }
+
+    Preset("Goon_Swamp_Level_5", "Goon_Level_5")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_5");
+    }
+
+    Preset("Goon_Swamp_Level_6", "Goon_Level_6")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_6");
+    }
+
+    Preset("Goon_Swamp_Level_7", "Goon_Level_7")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_7");
+    }
+
+    Preset("Goon_Swamp_Level_8", "Goon_Level_8")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_8");
+    }
+
+    Preset("Goon_Swamp_Level_9", "Goon_Level_9")
+    {
+        SetField("m_HealthPreset", "Goon_RGD_9");
+    }
+
+    Preset("Volatile_Bloody_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_1");
+    }
+
+    Preset("Volatile_Bloody_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_2");
+    }
+
+    Preset("Volatile_Bloody_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_3");
+    }
+
+    Preset("Volatile_Bloody_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_4");
+    }
+
+    Preset("Volatile_Bloody_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_5");
+    }
+
+    Preset("Volatile_Bloody_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_6");
+    }
+
+    Preset("Volatile_Bloody_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_7");
+    }
+
+    Preset("Volatile_Bloody_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_8");
+    }
+
+    Preset("Volatile_Bloody_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_9");
+    }
+
+    Preset("Volatile_Chemical_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_1");
+    }
+
+    Preset("Volatile_Chemical_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_2");
+    }
+
+    Preset("Volatile_Chemical_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_3");
+    }
+
+    Preset("Volatile_Chemical_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_4");
+    }
+
+    Preset("Volatile_Chemical_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_5");
+    }
+
+    Preset("Volatile_Chemical_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_6");
+    }
+
+    Preset("Volatile_Chemical_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_7");
+    }
+
+    Preset("Volatile_Chemical_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_8");
+    }
+
+    Preset("Volatile_Chemical_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_9");
+    }
+
+    Preset("Volatile_Venom_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_1");
+    }
+
+    Preset("Volatile_Venom_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_2");
+    }
+
+    Preset("Volatile_Venom_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_3");
+    }
+
+    Preset("Volatile_Venom_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_4");
+    }
+
+    Preset("Volatile_Venom_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_5");
+    }
+
+    Preset("Volatile_Venom_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_6");
+    }
+
+    Preset("Volatile_Venom_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_7");
+    }
+
+    Preset("Volatile_Venom_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_8");
+    }
+
+    Preset("Volatile_Venom_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_RGD_9");
+    }
+
+    Preset("GRE_Volatile_Level_1", "Corruptor_Level_1")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_1");
+    }
+
+    Preset("GRE_Volatile_Level_2", "Corruptor_Level_2")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_2");
+    }
+
+    Preset("GRE_Volatile_Level_3", "Corruptor_Level_3")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_3");
+    }
+
+    Preset("GRE_Volatile_Level_4", "Corruptor_Level_4")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_4");
+    }
+
+    Preset("GRE_Volatile_Level_5", "Corruptor_Level_5")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_5");
+    }
+
+    Preset("GRE_Volatile_Level_6", "Corruptor_Level_6")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_6");
+    }
+
+    Preset("GRE_Volatile_Level_7", "Corruptor_Level_7")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_7");
+    }
+
+    Preset("GRE_Volatile_Level_8", "Corruptor_Level_8")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_8");
+    }
+
+    Preset("GRE_Volatile_Level_9", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_9");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_1", "Corruptor_Level_1")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_1");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_2", "Corruptor_Level_2")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_2");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_3", "Corruptor_Level_3")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_3");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_4", "Corruptor_Level_4")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_4");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_5", "Corruptor_Level_5")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_5");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_6", "Corruptor_Level_6")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_6");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_7", "Corruptor_Level_7")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_7");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_8", "Corruptor_Level_8")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_8");
+    }
+
+    Preset("GRE_Volatile_Swamp_Level_9", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_RGD_9");
+    }
+
+
+
+
+
 }
 sub HumanGenericDifficultyPresets()
 {
     Preset("Generic_One_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
         SetField("m_HealthPreset", "OneHanded_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD1");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2185,11 +4041,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
         SetField("m_HealthPreset", "OneHanded_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD2");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2197,11 +4053,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
         SetField("m_HealthPreset", "OneHanded_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD3");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2209,11 +4065,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
         SetField("m_HealthPreset", "OneHanded_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD4");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2221,11 +4077,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
         SetField("m_HealthPreset", "OneHanded_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD5");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2233,11 +4089,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
         SetField("m_HealthPreset", "OneHanded_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD6");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");		
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2245,11 +4101,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
         SetField("m_HealthPreset", "OneHanded_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD7");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2257,11 +4113,11 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_One_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
         SetField("m_HealthPreset", "OneHanded_RGD_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
-        SetField("m_StaminaPreset", "OneHanded_RGD8");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "OneHanded_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2281,10 +4137,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_1");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_DamageResistance", "50_percent_physical_damage");
@@ -2292,10 +4148,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_2");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2304,10 +4160,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_3");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2316,10 +4172,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_4");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2327,10 +4183,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_5");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Heavy_RGD5");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
@@ -2339,10 +4195,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_6");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Heavy_RGD6");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
@@ -2351,10 +4207,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_7");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Heavy_RGD7");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
@@ -2363,10 +4219,10 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Two_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_WeaponSetName", "Bandit_TwoHanded_RGD_8");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_9");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
@@ -2387,88 +4243,88 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Bow_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_1");
         SetField("m_WeaponSetName", "Bow_RGD_1");
-        SetField("m_StaminaPreset", "Regular_RGD1");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier1");
     }
     Preset("Generic_Bow_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_2");
         SetField("m_WeaponSetName", "Bow_RGD_2");
-        SetField("m_StaminaPreset", "Regular_RGD2");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier2");
     }
     Preset("Generic_Bow_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_3");
         SetField("m_WeaponSetName", "Bow_RGD_3");
-        SetField("m_StaminaPreset", "Regular_RGD3");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier3");
     }
     Preset("Generic_Bow_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_4");
         SetField("m_WeaponSetName", "Bow_RGD_4");
-        SetField("m_StaminaPreset", "Regular_RGD4");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier4");
     }
     Preset("Generic_Bow_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_5");
         SetField("m_WeaponSetName", "Bow_RGD_5");
-        SetField("m_StaminaPreset", "Regular_RGD5");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier5");
     }
     Preset("Generic_Bow_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_6");
         SetField("m_WeaponSetName", "Bow_RGD_6");
-        SetField("m_StaminaPreset", "Regular_RGD6");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier6");
     }
     Preset("Generic_Bow_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_7");
         SetField("m_WeaponSetName", "Bow_RGD_7");
-        SetField("m_StaminaPreset", "Regular_RGD7");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier7");
     }
     Preset("Generic_Bow_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_bow_tier_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
+        SetField("m_ConstFilename", "human_profile_generic_bow_tier_9");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_HealthPreset", "Archer_RGD_8");
         SetField("m_WeaponSetName", "Bow_RGD_8");
-        SetField("m_StaminaPreset", "Regular_RGD8");
+        SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditBowLoot");
 		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier8");
@@ -2486,73 +4342,73 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Spear_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_1");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_1");
         SetField("m_HealthPreset", "Spearman_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_2");
         SetField("m_HealthPreset", "Spearman_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_3");
         SetField("m_HealthPreset", "Spearman_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_4");
         SetField("m_HealthPreset", "Spearman_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_5");
         SetField("m_HealthPreset", "Spearman_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_6");
         SetField("m_HealthPreset", "Spearman_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_7");
         SetField("m_HealthPreset", "Spearman_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
     Preset("Generic_Spear_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_spear_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_spear_tier_9");
         SetField("m_WeaponSetName", "Spear_RGD_8");
         SetField("m_HealthPreset", "Spearman_RGD_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
     }
@@ -2570,7 +4426,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_1");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD1");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2581,7 +4437,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_2");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD2");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2592,7 +4448,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_3");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD3");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2603,7 +4459,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_4");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD4");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2614,7 +4470,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_5");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD5");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2625,7 +4481,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_6");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD6");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2636,7 +4492,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_7");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD7");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2647,7 +4503,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_ConstFilename", "human_profile_generic_grenadier");
         SetField("m_WeaponSetName", "Molotov_RGD_8");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD8");
         SetField("m_XpForKill", "50");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
@@ -2666,42 +4522,42 @@ sub HumanGenericDifficultyPresets()
     }
     Preset("Generic_Summoner_Level_1", "Generic_One_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_1");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_1");
     }
     Preset("Generic_Summoner_Level_2", "Generic_One_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_2");
     }
     Preset("Generic_Summoner_Level_3", "Generic_One_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_3");
     }
     Preset("Generic_Summoner_Level_4", "Generic_One_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_4");
     }
     Preset("Generic_Summoner_Level_5", "Generic_One_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_5");
     }
     Preset("Generic_Summoner_Level_6", "Generic_One_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_6");
     }
     Preset("Generic_Summoner_Level_7", "Generic_One_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_7");
     }
     Preset("Generic_Summoner_Level_8", "Generic_One_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_summoner_tier_9");
         SetField("m_WeaponSetName", "Summoner_RGD_8");
     }
     Preset("Generic_Summoner_Level_9", "Generic_One_Handed_Level_9")
@@ -2750,67 +4606,59 @@ sub RenegadesDifficultyPresets()
 {
     Preset("Renegade_One_Handed_Level_1", "Generic_One_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_1");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_2", "Generic_One_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_2");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_3", "Generic_One_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_3");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_4", "Generic_One_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_4");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_5", "Generic_One_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_5");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_6", "Generic_One_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_6");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_7", "Generic_One_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_7");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_8", "Generic_One_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_renegade_one_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_8");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_One_Handed_Level_9", "Generic_One_Handed_Level_9")
     {
@@ -2818,109 +4666,99 @@ sub RenegadesDifficultyPresets()
         SetField("m_WeaponSetName", "Renegades_OneHanded_RGD_9");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_1", "Generic_Two_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_1");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_2", "Generic_Two_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_2");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_3", "Generic_Two_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_3");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_4", "Generic_Two_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_4");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_5", "Generic_Two_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_5");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_6", "Generic_Two_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_6");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_7", "Generic_Two_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_7");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_8", "Generic_Two_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_8");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Two_Handed_Level_9", "Generic_Two_Handed_Level_9")
     {
         SetField("m_ConstFilename", "human_profile_renegade_two_handed_tier_9");
         SetField("m_WeaponSetName", "Renegades_TwoHanded_RGD_9");
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Bow_Level_1", "Generic_Bow_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_1");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Bow_Level_2", "Generic_Bow_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_2");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Bow_Level_3", "Generic_Bow_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_3");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Bow_Level_4", "Generic_Bow_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_4");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Bow_Level_5", "Generic_Bow_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_5");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Bow_Level_6", "Generic_Bow_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_6");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Bow_Level_7", "Generic_Bow_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_7");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Bow_Level_8", "Generic_Bow_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_8");
+        SetField("m_ConstFilename", "human_profile_renegade_bow_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Bow_Level_9", "Generic_Bow_Level_9")
@@ -2930,308 +4768,309 @@ sub RenegadesDifficultyPresets()
     }
     Preset("Renegade_Spear_Level_1", "Generic_Spear_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_1");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Spear_Level_2", "Generic_Spear_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_2");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Spear_Level_3", "Generic_Spear_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_3");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_01();
     }
     Preset("Renegade_Spear_Level_4", "Generic_Spear_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_4");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Spear_Level_5", "Generic_Spear_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_5");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Spear_Level_6", "Generic_Spear_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_6");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Spear_Level_7", "Generic_Spear_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_7");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Spear_Level_8", "Generic_Spear_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_8");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+        SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Spear_Level_9", "Generic_Spear_Level_9")
     {
         SetField("m_ConstFilename", "human_profile_renegade_spear_tier_9");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
         use Renegades_Model_Tier_02();
     }
     Preset("Renegade_Halberd_Level_1", "Renegade_Spear_Level_1")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_1");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_2", "Renegade_Spear_Level_2")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_2");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_3", "Renegade_Spear_Level_3")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_3");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_4", "Renegade_Spear_Level_4")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_4");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_5", "Renegade_Spear_Level_5")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_5");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_6", "Renegade_Spear_Level_6")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_6");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_7", "Renegade_Spear_Level_7")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_7");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_8", "Renegade_Spear_Level_8")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_8");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Halberd_Level_9", "Renegade_Spear_Level_9")
     {
         SetField("m_WeaponSetName", "Halberd_RGD_9");
         SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_1", "Generic_Grenadier_Level_1")
     {
         use Renegades_Model_Tier_01();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_2", "Generic_Grenadier_Level_2")
     {
         use Renegades_Model_Tier_01();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_3", "Generic_Grenadier_Level_3")
     {
         use Renegades_Model_Tier_01();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_4", "Generic_Grenadier_Level_4")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_5", "Generic_Grenadier_Level_5")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_6", "Generic_Grenadier_Level_6")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_7", "Generic_Grenadier_Level_7")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_8", "Generic_Grenadier_Level_8")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Grenadier_Level_9", "Generic_Grenadier_Level_9")
     {
         use Renegades_Model_Tier_02();
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_1", "Generic_Summoner_Level_1")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_1");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_2", "Generic_Summoner_Level_2")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_2");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_3", "Generic_Summoner_Level_3")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_3");
         use Renegades_Model_Tier_01();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_4", "Generic_Summoner_Level_4")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_4");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_5", "Generic_Summoner_Level_5")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_5");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_6", "Generic_Summoner_Level_6")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_6");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_7", "Generic_Summoner_Level_7")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_7");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_8", "Generic_Summoner_Level_8")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_8");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Renegade_Summoner_Level_9", "Generic_Summoner_Level_9")
     {
         SetField("m_ConstFilename", "human_profile_renegade_summoner_tier_9");
         use Renegades_Model_Tier_02();
 		SetField("m_WeaponsColorSetName", "weapons_renegade");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+    }
+
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_1", "Generic_Two_Handed_Level_1")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_1");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_2", "Generic_Two_Handed_Level_2")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_2");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_3", "Generic_Two_Handed_Level_3")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_3");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_4", "Generic_Two_Handed_Level_4")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_4");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_5", "Generic_Two_Handed_Level_5")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_5");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_6", "Generic_Two_Handed_Level_6")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_6");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_7", "Generic_Two_Handed_Level_7")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_7");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_8", "Generic_Two_Handed_Level_8")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_8");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive_Level_9", "Generic_Two_Handed_Level_9")
+    {
+        SetField("m_WeaponSetName", "Renegade_Two_Handed_Thrower_Explosive_RGD_9");
     }
 }
 sub BanditFoddersDifficultyPresets()
 {
     Preset("Bandit_Fodder_One_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_1");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD1");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_2");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD2");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_3");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD3");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");		
     }
     Preset("Bandit_Fodder_One_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_4");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD4");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_5");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD5");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_6");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD6");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_7");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD7");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Bandit_Fodder_One_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_bandit_fodder_one_handed_tier_9");
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_8");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD8");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3252,8 +5091,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_1");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_1");
-        SetField("m_PerceptionProfile", "human_level_1_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD1");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3263,8 +5102,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_2");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_2");
-        SetField("m_PerceptionProfile", "human_level_2_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD2");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3274,8 +5113,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_3");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_3");
-        SetField("m_PerceptionProfile", "human_level_3_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD3");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3285,8 +5124,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_4");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_4");
-        SetField("m_PerceptionProfile", "human_level_4_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD4");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3296,8 +5135,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_5");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_5");
-        SetField("m_PerceptionProfile", "human_level_5_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD5");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3307,8 +5146,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_6");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_6");
-        SetField("m_PerceptionProfile", "human_level_6_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD6");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3318,8 +5157,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_7");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_7");
-        SetField("m_PerceptionProfile", "human_level_7_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD7");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3329,8 +5168,8 @@ sub BanditFoddersDifficultyPresets()
         SetField("m_WeaponSetName", "Shoddy_Weapon_pool_RGD_8");
         SetField("m_WeaponsColorSetName", "weapons_fodder");
         SetField("m_HealthPreset", "OneHanded_Fodder_RGD_8");
-        SetField("m_PerceptionProfile", "human_level_8_RGD");
-        SetField("m_StaminaPreset", "Weak_RGD8");
+        SetField("m_PerceptionProfile", "human_level_9_RGD");
+        SetField("m_StaminaPreset", "Weak_RGD9");
         SetField("m_XpForKill", "15");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
@@ -3352,148 +5191,121 @@ sub PeacekeepersDifficultyPresets()
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_1");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_2", "Generic_One_Handed_Level_2")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_2");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_3", "Generic_One_Handed_Level_3")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_3");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_4", "Generic_One_Handed_Level_4")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_4");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_5", "Generic_One_Handed_Level_5")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_5");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_6", "Generic_One_Handed_Level_6")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_6");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_7", "Generic_One_Handed_Level_7")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_7");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_8", "Generic_One_Handed_Level_8")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_8");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_One_Handed_Level_9", "Generic_One_Handed_Level_9")
     {
         SetField("m_WeaponSetName", "PK_OneHanded_RGD_9");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_1", "Generic_Two_Handed_Level_1")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_1");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_2", "Generic_Two_Handed_Level_2")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_2");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_3", "Generic_Two_Handed_Level_3")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_3");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_4", "Generic_Two_Handed_Level_4")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_4");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_5", "Generic_Two_Handed_Level_5")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_5");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_6", "Generic_Two_Handed_Level_6")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_6");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_7", "Generic_Two_Handed_Level_7")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_7");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_8", "Generic_Two_Handed_Level_8")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_8");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Peacekeeper_Two_Handed_Level_9", "Generic_Two_Handed_Level_9")
     {
         SetField("m_WeaponSetName", "PK_TwoHanded_RGD_9");
 		SetField("m_WeaponsColorSetName", "weapons_PK");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
 }
 sub SurvivorEncounterDifficultyPresets()
 {
     Preset("Survivor_Encounter_Level_1", "Bandit_Fodder_One_Handed_Level_1")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_2", "Bandit_Fodder_One_Handed_Level_2")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_3", "Bandit_Fodder_One_Handed_Level_3")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_4", "Bandit_Fodder_One_Handed_Level_4")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_5", "Bandit_Fodder_One_Handed_Level_5")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_6", "Bandit_Fodder_One_Handed_Level_6")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_7", "Bandit_Fodder_One_Handed_Level_7")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_8", "Bandit_Fodder_One_Handed_Level_8")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Survivor_Encounter_Level_9", "Bandit_Fodder_One_Handed_Level_9")
     {
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
 }
 sub ScriptedFightsGenericDifficultyPresets()
@@ -3501,101 +5313,83 @@ sub ScriptedFightsGenericDifficultyPresets()
     Preset("Generic_One_Handed_Servant_Level_1", "Generic_One_Handed_Level_1")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_1");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_2", "Generic_One_Handed_Level_2")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_2");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_3", "Generic_One_Handed_Level_3")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_3");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_4", "Generic_One_Handed_Level_4")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_4");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_5", "Generic_One_Handed_Level_5")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_5");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_6", "Generic_One_Handed_Level_6")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_6");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_7", "Generic_One_Handed_Level_7")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_7");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_8", "Generic_One_Handed_Level_8")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_8");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Servant_Level_9", "Generic_One_Handed_Level_9")
     {
         SetField("m_HealthPreset", "OneHanded_RGD_9");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_1", "Generic_Two_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_2");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_2", "Generic_Two_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_3");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_3", "Generic_Two_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_4");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_4", "Generic_Two_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_5");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_5", "Generic_Two_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_6");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_6", "Generic_Two_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_7");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_7", "Generic_Two_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_8");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_8", "Generic_Two_Handed_Level_8")
     {
         SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_9");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_Two_Handed_Leader_Level_9", "Generic_Two_Handed_Level_9")
     {
         SetField("m_ConstFilename", "human_profile_generic_two_handed_tier_9");
         SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_9");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Hermann_Mission_Level_1", "Generic_Two_Handed_Level_1")
     {
@@ -3638,96 +5432,87 @@ sub RumbleFightsGenericDifficultyPresets()
 {
 	Preset("Generic_One_Handed_Blunt_Level_1", "Generic_One_Handed_Level_1")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_1");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_1");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_2", "Generic_One_Handed_Level_2")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_2");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_2");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_3", "Generic_One_Handed_Level_3")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_3");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_3");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_4", "Generic_One_Handed_Level_4")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_4");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_4");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_5", "Generic_One_Handed_Level_5")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_5");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_5");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_6", "Generic_One_Handed_Level_6")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_6");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_6");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_7", "Generic_One_Handed_Level_7")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_7");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_7");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_8", "Generic_One_Handed_Level_8")
     {
-        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_8");
+        SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_8");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
     Preset("Generic_One_Handed_Blunt_Level_9", "Generic_One_Handed_Level_9")
     {
         SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_9");
-        SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }
 }
 sub ForHonorDifficultyPresets()
 {
     Preset("For_Honor_Samurai_Level_1", "Renegade_Two_Handed_Level_1")
     {
-        SetField("m_HealthPreset", " RGD_1");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_1");
     }
     Preset("For_Honor_Samurai_Level_2", "Renegade_Two_Handed_Level_2")
     {
-        SetField("m_HealthPreset", " RGD_2");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_2");
     }
     Preset("For_Honor_Samurai_Level_3", "Renegade_Two_Handed_Level_3")
     {
-        SetField("m_HealthPreset", " RGD_3");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_3");
     }
     Preset("For_Honor_Samurai_Level_4", "Renegade_Two_Handed_Level_4")
     {
-        SetField("m_HealthPreset", " RGD_4");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_4");
     }
     Preset("For_Honor_Samurai_Level_5", "Renegade_Two_Handed_Level_5")
     {
-        SetField("m_HealthPreset", " RGD_5");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_5");
     }
     Preset("For_Honor_Samurai_Level_6", "Renegade_Two_Handed_Level_6")
     {
-        SetField("m_HealthPreset", " RGD_6");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_6");
     }
     Preset("For_Honor_Samurai_Level_7", "Renegade_Two_Handed_Level_7")
     {
-        SetField("m_HealthPreset", " RGD_7");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_7");
     }
     Preset("For_Honor_Samurai_Level_8", "Renegade_Two_Handed_Level_8")
     {
-        SetField("m_HealthPreset", " RGD_8");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_8");
     }
     Preset("For_Honor_Samurai_Level_9", "Renegade_Two_Handed_Level_9")
     {
-        SetField("m_HealthPreset", " RGD_9");
+        SetField("m_HealthPreset", "FH_Samurai_RGD_9");
     }
 
     Preset("For_Honor_Knight_Level_1", "Renegade_Two_Handed_Level_1")
@@ -3805,3 +5590,774 @@ sub ForHonorDifficultyPresets()
     }
 }
 
+sub IALRCompanions_difficulty()
+{
+    /////////////////////////////////////////////////////////
+    // Companion
+    /////////////////////////////////////////////////////////
+    Preset("Companion_Hakon_Level_1", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Hakon_Level_2", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Hakon_Level_3", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Hakon_Level_4", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Hakon_Level_5", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Hakon_Level_6", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Hakon_Level_7", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Hakon_Level_8", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Hakon_Level_9", "Companion_Hakon")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Brecken_Level_1", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Brecken_Level_2", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Brecken_Level_3", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Brecken_Level_4", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Brecken_Level_5", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Brecken_Level_6", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Brecken_Level_7", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Brecken_Level_8", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Brecken_Level_9", "Companion_Brecken")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Rahim_Level_1", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Rahim_Level_2", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Rahim_Level_3", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Rahim_Level_4", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Rahim_Level_5", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Rahim_Level_6", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Rahim_Level_7", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Rahim_Level_8", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Rahim_Level_9", "Companion_Rahim")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Crane_Level_1", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Crane_Level_2", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Crane_Level_3", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Crane_Level_4", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Crane_Level_5", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Crane_Level_6", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Crane_Level_7", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Crane_Level_8", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Crane_Level_9", "Companion_Crane")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Aitor_Level_1", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_1");
+    }
+    Preset("Companion_Aitor_Level_2", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_2");
+    }
+    Preset("Companion_Aitor_Level_3", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_3");
+    }
+    Preset("Companion_Aitor_Level_4", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_4");
+    }
+    Preset("Companion_Aitor_Level_5", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_5");
+    }
+    Preset("Companion_Aitor_Level_6", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_6");
+    }
+    Preset("Companion_Aitor_Level_7", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_7");
+    }
+    Preset("Companion_Aitor_Level_8", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_8");
+    }
+    Preset("Companion_Aitor_Level_9", "Companion_Aitor")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_9");
+    }
+    Preset("Companion_Frank_Level_1", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_1");
+    }
+    Preset("Companion_Frank_Level_2", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_2");
+    }
+    Preset("Companion_Frank_Level_3", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_3");
+    }
+    Preset("Companion_Frank_Level_4", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_4");
+    }
+    Preset("Companion_Frank_Level_5", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_5");
+    }
+    Preset("Companion_Frank_Level_6", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_6");
+    }
+    Preset("Companion_Frank_Level_7", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_7");
+    }
+    Preset("Companion_Frank_Level_8", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_8");
+    }
+    Preset("Companion_Frank_Level_9", "Companion_Frank")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "PK_OneHanded_RGD_9");
+    }
+    Preset("Companion_Barney_Level_1", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Barney_Level_2", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Barney_Level_3", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Barney_Level_4", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Barney_Level_5", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Barney_Level_6", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Barney_Level_7", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Barney_Level_8", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Barney_Level_9", "Companion_Barney")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Spike_Level_1", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Bow_RGD_1");
+    }
+    Preset("Companion_Spike_Level_2", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Bow_RGD_2");
+    }
+    Preset("Companion_Spike_Level_3", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Bow_RGD_3");
+    }
+    Preset("Companion_Spike_Level_4", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Bow_RGD_4");
+    }
+    Preset("Companion_Spike_Level_5", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Bow_RGD_5");
+    }
+    Preset("Companion_Spike_Level_6", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Bow_RGD_6");
+    }
+    Preset("Companion_Spike_Level_7", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Bow_RGD_7");
+    }
+    Preset("Companion_Spike_Level_8", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Bow_RGD_8");
+    }
+    Preset("Companion_Spike_Level_9", "Companion_Spike")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Bow_RGD_9");
+    }
+    Preset("Companion_Lawan_Level_1", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Bow_RGD_1");
+    }
+    Preset("Companion_Lawan_Level_2", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Bow_RGD_2");
+    }
+    Preset("Companion_Lawan_Level_3", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Bow_RGD_3");
+    }
+    Preset("Companion_Lawan_Level_4", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Bow_RGD_4");
+    }
+    Preset("Companion_Lawan_Level_5", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Bow_RGD_5");
+    }
+    Preset("Companion_Lawan_Level_6", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Bow_RGD_6");
+    }
+    Preset("Companion_Lawan_Level_7", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Bow_RGD_7");
+    }
+    Preset("Companion_Lawan_Level_8", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Bow_RGD_8");
+    }
+    Preset("Companion_Lawan_Level_9", "Companion_Lawan")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Bow_RGD_9");
+    }
+    Preset("Companion_Scavenger_Level_1", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Scavenger_Level_2", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Scavenger_Level_3", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Scavenger_Level_4", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Scavenger_Level_5", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Scavenger_Level_6", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Scavenger_Level_7", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Scavenger_Level_8", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Scavenger_Level_9", "Companion_Scavenger")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Colonel_1H_Level_1", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Colonel_1H_Level_2", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Colonel_1H_Level_3", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Colonel_1H_Level_4", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Colonel_1H_Level_5", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Colonel_1H_Level_6", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Colonel_1H_Level_7", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Colonel_1H_Level_8", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Colonel_1H_Level_9", "Companion_Colonel_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_Scavenger_Bow_Level_1", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Bow_RGD_1");
+    }
+    Preset("Companion_Scavenger_Bow_Level_2", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Bow_RGD_2");
+    }
+    Preset("Companion_Scavenger_Bow_Level_3", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Bow_RGD_3");
+    }
+    Preset("Companion_Scavenger_Bow_Level_4", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Bow_RGD_4");
+    }
+    Preset("Companion_Scavenger_Bow_Level_5", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Bow_RGD_5");
+    }
+    Preset("Companion_Scavenger_Bow_Level_6", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Bow_RGD_6");
+    }
+    Preset("Companion_Scavenger_Bow_Level_7", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Bow_RGD_7");
+    }
+    Preset("Companion_Scavenger_Bow_Level_8", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Bow_RGD_8");
+    }
+    Preset("Companion_Scavenger_Bow_Level_9", "Companion_Scavenger_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Bow_RGD_9");
+    }
+    Preset("Companion_PK_Commando_1H_Level_1", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_PK_Commando_1H_Level_2", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_PK_Commando_1H_Level_3", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_PK_Commando_1H_Level_4", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_PK_Commando_1H_Level_5", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_PK_Commando_1H_Level_6", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_PK_Commando_1H_Level_7", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_PK_Commando_1H_Level_8", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_PK_Commando_1H_Level_9", "Companion_PK_Commando_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_1", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Bow_RGD_1");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_2", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Bow_RGD_2");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_3", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Bow_RGD_3");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_4", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Bow_RGD_4");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_5", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Bow_RGD_5");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_6", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Bow_RGD_6");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_7", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Bow_RGD_7");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_8", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Bow_RGD_8");
+    }
+    Preset("Companion_PK_Commando_Bow_Level_9", "Companion_PK_Commando_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Bow_RGD_9");
+    }
+    Preset("Companion_Wolf_Level_1", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Companion_Wolf_Level_2", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Companion_Wolf_Level_3", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Companion_Wolf_Level_4", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Companion_Wolf_Level_5", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Companion_Wolf_Level_6", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Companion_Wolf_Level_7", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Companion_Wolf_Level_8", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Companion_Wolf_Level_9", "Companion_Wolf")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Random_Hero_1H_Level_1", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_1");
+    }
+    Preset("Random_Hero_1H_Level_2", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_2");
+    }
+    Preset("Random_Hero_1H_Level_3", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_3");
+    }
+    Preset("Random_Hero_1H_Level_4", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_4");
+    }
+    Preset("Random_Hero_1H_Level_5", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_5");
+    }
+    Preset("Random_Hero_1H_Level_6", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_6");
+    }
+    Preset("Random_Hero_1H_Level_7", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_7");
+    }
+    Preset("Random_Hero_1H_Level_8", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_8");
+    }
+    Preset("Random_Hero_1H_Level_9", "Random_Hero_1H")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Weapon_pool_RGD_9");
+    }
+    Preset("Random_Hero_Bow_Level_1", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_1");
+        SetField("m_WeaponSetName", "Bow_RGD_1");
+    }
+    Preset("Random_Hero_Bow_Level_2", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_2");
+        SetField("m_WeaponSetName", "Bow_RGD_2");
+    }
+    Preset("Random_Hero_Bow_Level_3", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_3");
+        SetField("m_WeaponSetName", "Bow_RGD_3");
+    }
+    Preset("Random_Hero_Bow_Level_4", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_4");
+        SetField("m_WeaponSetName", "Bow_RGD_4");
+    }
+    Preset("Random_Hero_Bow_Level_5", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_5");
+        SetField("m_WeaponSetName", "Bow_RGD_5");
+    }
+    Preset("Random_Hero_Bow_Level_6", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_6");
+        SetField("m_WeaponSetName", "Bow_RGD_6");
+    }
+    Preset("Random_Hero_Bow_Level_7", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_7");
+        SetField("m_WeaponSetName", "Bow_RGD_7");
+    }
+    Preset("Random_Hero_Bow_Level_8", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_8");
+        SetField("m_WeaponSetName", "Bow_RGD_8");
+    }
+    Preset("Random_Hero_Bow_Level_9", "Random_Hero_Bow")
+    {
+        SetField("m_HealthPreset", "Companion_RGD_9");
+        SetField("m_WeaponSetName", "Bow_RGD_9");
+    }
+}

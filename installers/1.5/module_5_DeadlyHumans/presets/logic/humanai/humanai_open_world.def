@@ -135,6 +135,10 @@ sub OpenWorldPresets()
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier1");
 	}
+    Preset("Generic_Two_Handed_Thrower_Explosive", "Generic_Two_Handed")
+    {
+        SetField("m_ConstFilename", "human_profile_two_handed_thrower_explosive");
+    }
 
     /////////////////////////////////////////////////////////
     // RENEGADES
@@ -151,7 +155,7 @@ sub OpenWorldPresets()
 		SetField("m_BarkPresetNames", "ren_m_a;ren_m_b;ren_m_c;ren_m_d;ren_m_e");
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
 		SetField("m_ConflictSide", "renegade");
-		SetField("m_DamageResistance", "25_percent_damage");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_DropWeaponsAfterDeath", IAL_Humans_Drop_Weapons_Renegade_1handed);
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Renegade_1handed);
     }
@@ -170,7 +174,7 @@ sub OpenWorldPresets()
 		SetField("m_ConflictSide", "renegade");
 		SetField("m_ScreamPresetNames", "bdt_m_c"); 
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
-		SetField("m_DamageRulesPreset", "renegade_protection");
+		SetField("m_DamageResistance", "Renegade_Two_Handed_Resistance_Firearms_Update");
 		SetField("m_DropWeaponsAfterDeath", IAL_Humans_Drop_Weapons_Renegade_2handed);
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Renegade_2handed);
     }
@@ -222,6 +226,7 @@ sub OpenWorldPresets()
 		SetField("m_MainBehaviorTree", "HUMAN_RENEGADE_BT");
 		SetField("m_BarkPresetNames", "ren_m_a;ren_m_b;ren_m_c;ren_m_d;ren_m_e");
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_CustomLootTypeString", "Renegades1hOutfits");
     }
     Preset("Renegade_Halberd", "Renegade_Spear")
@@ -240,6 +245,7 @@ sub OpenWorldPresets()
 		SetField("m_NavigationPreset", "renegade_1h");
 		SetField("m_ScreamPresetNames", "bdt_m_b;bdt_m_c"); 
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     Preset("Renegade_Summoner", "Generic_Summoner")
     {
@@ -253,12 +259,26 @@ sub OpenWorldPresets()
 		SetField("m_ConflictSide", "renegade");
 		SetField("m_NavigationPreset", "renegade_1h");
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_CustomLootTypeString", "Renegades1hOutfits");
     }
     Preset("Renegade_One_Handed_Ambush", "Renegade_One_Handed")
     {
 		SetField("m_BinocularIconType", "None");
     }		
+	Preset("Katana_Renegade", "Renegade_One_Handed")
+    {
+		SetField("m_ConstFilename", "human_dev_scripted_anderson");
+        SetField("m_AllowLootingOfDroppedWeapons", "0");
+        SetField("m_WeaponSetName", "Anderson_hostile_mission");
+        SetField("m_WeaponsColorSetName", "orange_only");
+    }
+    Preset("Renegade_Two_Handed_Thrower_Explosive", "Generic_Two_Handed_Thrower_Explosive")
+    {
+	    SetField("m_AIModelName", "ren_man_heavy_gren_throw_01_a.model;ren_man_heavy_gren_throw_02_a.model");
+        SetField("m_DamageResistance", "Renegade_Two_Handed_Resistance_Firearms_Update");
+    }
+
     /////////////////////////////////////////////////////////
     // DUKES
     /////////////////////////////////////////////////////////
@@ -270,6 +290,7 @@ sub OpenWorldPresets()
         SetField("m_SurvivorSensePreset", "Preset_red_strong");
         SetField("m_CustomLootTypeString", "Dukes1hOutfits");
 		SetField("m_MusicPreset", "Human");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     Preset("Duke_Summoner", "Renegade_Summoner")
     {
@@ -279,22 +300,26 @@ sub OpenWorldPresets()
         SetField("m_SurvivorSensePreset", "Preset_red_strong");
         SetField("m_CustomLootTypeString", "Dukes1hOutfits");
 		SetField("m_MusicPreset", "Human");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     Preset("Duke_One_Handed_Ambush", "Duke_One_Handed")
     {
 		SetField("m_BinocularIconType", "None");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     Preset("Duke_One_Handed_Plaguebearer", "Duke_One_Handed_Ambush")
     {
         SetField("m_ModulesPreset", "modules_human_plaguebearer");
         SetField("m_SurvivorSensePreset", "Preset_plaguebearer");
         SetField("m_CustomLootTypeString", "Plaguebearer");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }	
     Preset("Duke_Summoner_Plaguebearer", "Duke_Summoner")
     {
         SetField("m_ModulesPreset", "modules_human_plaguebearer");
         SetField("m_SurvivorSensePreset", "Preset_plaguebearer");
         SetField("m_CustomLootTypeString", "Plaguebearer");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     /////////////////////////////////////////////////////////
     // COLONELS
@@ -310,6 +335,7 @@ sub OpenWorldPresets()
 		SetField("m_DropWeaponsAfterDeath", IAL_Humans_Drop_Weapons_Colonel_1handed);
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Colonel_1handed);
 		SetField("m_MusicPreset", "Renegade");
+		SetField("m_DamageResistance", "30_percent_firearms");
     }
     Preset("Colonel_Two_Handed", "Generic_Two_Handed")
     {
@@ -332,6 +358,7 @@ sub OpenWorldPresets()
 		SetField("m_MainBehaviorTree", "HUMAN_COLONEL_BT");
 		SetField("m_ConstFilename", "human_profile_colonel_bow");
 		SetField("m_MusicPreset", "Renegade");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_DropWeaponsAfterDeath", IAL_Humans_Drop_Weapons_Colonel_Bow);
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Colonel_Bow);
 		SetField("m_ConflictSide", "colonel");
@@ -343,6 +370,7 @@ sub OpenWorldPresets()
 		SetField("m_BinocularIconType", "BinocularAI_Renegade");
 		SetField("m_MainBehaviorTree", "HUMAN_COLONEL_BT");
 		SetField("m_MusicPreset", "Renegade");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_ConflictSide", "colonel");
 		SetField("m_CustomLootTypeString", "Colonel1hOutfits");
     }
@@ -364,6 +392,7 @@ sub OpenWorldPresets()
 		SetField("m_MainBehaviorTree", "HUMAN_COLONEL_BT");
 		SetField("m_ConstFilename", "human_profile_colonel_grenadier");
 		SetField("m_MusicPreset", "Renegade");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_DropWeaponsAfterDeath", "0");
 		SetField("m_AllowLootingOfDroppedWeapons", "0");
 		SetField("m_ConflictSide", "colonel");
@@ -376,6 +405,7 @@ sub OpenWorldPresets()
 		SetField("m_BinocularIconType", "BinocularAI_Renegade");
 		SetField("m_MusicPreset", "Renegade");
 		SetField("m_ConflictSide", "colonel");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_DropWeaponsAfterDeath", IAL_Humans_Drop_Weapons_Colonel_1handed);
 		SetField("m_AllowLootingOfDroppedWeapons", IAL_Humans_Drop_Weapons_Colonel_1handed);
 		SetField("m_CustomLootTypeString", "Colonel1hOutfits");
@@ -388,6 +418,7 @@ sub OpenWorldPresets()
 		SetField("m_MusicPreset", "Renegade");
 		SetField("m_ConflictSide", "colonel");
 		SetField("m_ScreamPresetNames", "bdt_w_a");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_CustomLootTypeString", "Colonel1hOutfits");
     }	
     Preset("Colonel_Basic_Summoner", "Generic_Summoner")
@@ -396,6 +427,7 @@ sub OpenWorldPresets()
 		SetField("m_BinocularIconType", "BinocularAI_Renegade_Summoner");
 		SetField("m_MusicPreset", "Renegade");
 		SetField("m_ConflictSide", "colonel");
+		SetField("m_DamageResistance", "30_percent_firearms");
 		SetField("m_CustomLootTypeString", "Colonel1hOutfits");
     }		
 	
@@ -438,7 +470,7 @@ sub OpenWorldPresets()
         SetField("m_SurvivorSensePreset", "Preset_red_strong");
         SetField("m_WeaponSetName", "Duke_Boss");
         //SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_1"); // tsmektala: to verify!
-        SetField("m_DamageResistance", "50_percent_damage");
+        SetField("m_DamageResistance", "Bandit_Camp_Boss");
 		SetField("m_MusicPreset", "Renegade");
 		SetField("m_BarkPresetNames", "bdt_m_a;bdt_m_b;bdt_m_c;bdt_m_d");
 		SetField("m_BarkPresetNamesAfAm", "bdt_m_e");
@@ -579,7 +611,7 @@ sub OpenWorldPresets()
         SetField("m_CombatMusicRelevanceValue", "2");
         SetField("m_SurvivorSensePreset", "Preset_red_strong");
         //SetField("m_HealthPreset", "TwoHanded_Bandit_RGD_4"); // tsmektala: to verify!
-        SetField("m_DamageResistance", "200_percent_damage");
+        SetField("m_DamageResistance", "20_percent_damage");
 		SetField("m_MusicPreset", "Renegade");
 		SetField("m_BarkPresetNames", "ren_m_a;ren_m_b;ren_m_c;ren_m_d;ren_m_e");
 		SetField("m_BarkPresetNamesAfAm", "ren_m_f");
@@ -1070,7 +1102,6 @@ sub OpenWorldPresets()
         SetField("m_MainBehaviorTree", "HUMAN_SURVIVOR_BT");
 		SetField("m_BarkPresetNames", "sur_m_vendor");
         SetField("m_NavigationPreset", "ow_survivor_shop");
-        SetField("m_TradeAssortment", "Shop_EARLY_Wanderer");
         SetField("m_CustomLootTypeString", "DefaultAILoot");
         SetField("m_SurvivorSensePreset", "");
         SetField("m_CombatMusicRelevanceValue", "0");
@@ -1135,7 +1166,7 @@ sub OpenWorldPresets()
 	Preset("Renegade_Two_Handed_Elemental", "Renegade_Two_Handed")
     {
         SetField("m_WeaponSetName", "Bandit_Elemental_2h");
-        SetField("m_DamageResistance", "50_percent_physical_damage");
+        SetField("m_DamageResistance", "Renegade_Two_Handed_Resistance_Firearms_Update");
 		SetField("m_ForcedBodyScaleMin", "1.15");
         SetField("m_ForcedBodyScaleMax", "1.25");
     }

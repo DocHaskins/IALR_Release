@@ -22949,5 +22949,739 @@ sub main()
 		{
 		}
 	}
+
+
+
+//////////////////////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+	Assortment("Shop_IALR_PK")
+    {
+        Buy()
+        {
+			Set("ialr_outfits", "white_only", 1, 4)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_pk_outfits", "white_only", 1, 4)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.6); 
+            }
+			Set("ialr_extra", "white_only", 1, 8)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "green_only", 1, 3)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_pk_outfits", "green_only", 1, 3)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.6); 
+            }
+			Set("ialr_extra", "green_only", 1, 5)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "blue_only", 1, 3)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_pk_outfits", "blue_only", 1, 3)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.6); 
+            }
+			Set("ialr_extra", "blue_only", 1, 4)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "violet_only", 1, 3)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(45);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			
+			Set("ialr_pk_outfits", "violet_only", 1, 3)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(45);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.45);
+            }
+			Set("ialr_extra", "violet_only", 1, 4)
+			{
+                MinStatusLevel(12);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.4); 
+            }
+			Set("ialr_outfits", "orange_only", 1, 3)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			
+			Set("ialr_pk_outfits", "orange_only", 1, 3)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "orange_only", 1, 4)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2); 
+            }
+			Set("ialr_outfits", "platinum_only", 1, 3)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			
+			Set("ialr_pk_outfits", "platinum_only", 1, 3)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "platinum_only", 1, 2)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2); 
+            }
+            Set("IALR_Armors", "white_only", 1, 5)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "green_only", 1, 2)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "blue_only", 1, 2)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "violet_only", 1, 1)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Orange", "orange_only", 1, 1)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Platinum", "platinum_only", 1, 1)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+        }
+		Sell()
+		{
+		}
+    }
+	
+	Assortment("Shop_IALR_Survivors")
+    {
+        Buy()
+        {
+			Set("ialr_outfits", "white_only", 1, 4)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.3); 
+            }
+			Set("ialr_pk_outfits", "white_only", 1, 4)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "white_only", 1, 8)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "green_only", 1, 3)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.3); 
+            }
+			Set("ialr_pk_outfits", "green_only", 1, 3)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "green_only", 1, 5)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "blue_only", 1, 3)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.3); 
+            }
+			Set("ialr_pk_outfits", "blue_only", 1, 3)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "blue_only", 1, 4)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.9); 
+            }
+			Set("ialr_outfits", "violet_only", 1, 3)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(45);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.15);
+            }
+			
+			Set("ialr_pk_outfits", "violet_only", 1, 3)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(45);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "violet_only", 1, 4)
+			{
+                MinStatusLevel(12);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.4); 
+            }
+			Set("ialr_outfits", "orange_only", 1, 3)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			
+			Set("ialr_pk_outfits", "orange_only", 1, 3)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "orange_only", 1, 4)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2); 
+            }
+			Set("ialr_outfits", "platinum_only", 1, 3)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			
+			Set("ialr_pk_outfits", "platinum_only", 1, 3)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("ialr_extra", "platinum_only", 1, 2)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2); 
+            }
+            Set("IALR_Armors", "white_only", 1, 5)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "green_only", 1, 2)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "blue_only", 1, 2)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+        }
+		Sell()
+		{
+		}
+    }
+	
+	Assortment("Shop_FallenHero")
+    {
+        Buy()
+        {
+			Set("FallenHero_Weapons", "white_only", 1, 25)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.5); 
+            }
+			Set("FallenHero_Weapons", "green_only", 1, 25)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(35);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.4); 
+            }
+			Set("FallenHero_Weapons", "blue_only", 1, 25)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.3); 
+            }
+			Set("FallenHero_Weapons", "violet_only", 1, 25)
+			{
+                MinStatusLevel(25);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2);
+            }
+			Set("FallenHero_Weapons", "orange_only", 1, 25)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("FallenHero_Weapons", "platinum_only", 1, 25)
+			{
+                MinStatusLevel(35);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+            Set("IALR_Armors", "white_only", 1, 5)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "green_only", 1, 2)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "blue_only", 1, 2)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "violet_only", 1, 1)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Orange", "orange_only", 1, 1)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Platinum", "platinum_only", 1, 1)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+        }
+		Sell()
+		{
+		}
+    }
+    Assortment("Shop_Weapons")
+    {
+        Buy()
+        {
+			Set("ialr_weapons", "white_only", 1, 25)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(30);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.5); 
+            }
+			Set("ialr_weapons", "green_only", 1, 25)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(35);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.4); 
+            }
+			Set("ialr_weapons", "blue_only", 1, 25)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.3); 
+            }
+			Set("ialr_weapons", "violet_only", 1, 25)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(3);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2);
+            }
+			Set("ialr_weapons", "orange_only", 1, 25)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.2);
+            }
+			Set("ialr_weapons", "platinum_only", 1, 25)
+			{
+                MinStatusLevel(35);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+            Set("IALR_Armors", "white_only", 1, 5)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "green_only", 1, 2)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "blue_only", 1, 2)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors", "violet_only", 1, 1)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Orange", "orange_only", 1, 1)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+			Set("IALR_Armors_Platinum", "platinum_only", 1, 1)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.1);
+            }
+        }
+		Sell()
+		{
+		}
+    }
+
+    Assortment("Shop_IALR_Armor")
+    {
+        Buy()
+        {
+			Set("IALR_Armors", "white_only", 5, 25)
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(25);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(1.0);
+            }
+			Set("IALR_Armors", "green_only", 5, 25)
+			{
+                MinStatusLevel(5);
+                MaxStatusLevel(40);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.7);
+            }
+			Set("IALR_Armors", "blue_only", 5, 20)
+			{
+                MinStatusLevel(10);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.6);
+            }
+			Set("IALR_Armors", "violet_only", 2, 10)
+			{
+                MinStatusLevel(15);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+				Probability(0.5);
+            }
+			Set("IALR_Armors_Orange", "orange_only", 1, 2)
+			{
+                MinStatusLevel(20);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.3);
+            }
+			Set("IALR_Armors_Platinum", "platinum_only", 1, 1)
+			{
+                MinStatusLevel(30);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited(1, 1);
+				Probability(0.2);
+            }
+        }
+		Sell()
+		{
+		}
+    }
 	
 }
