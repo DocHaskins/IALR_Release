@@ -42,7 +42,9 @@ sub IALViralPresets()
 	Preset("Viral_Gastank", "Viral_Fresh") //OPEN WORLD
     {
        SetField("m_AIModelName", "zmb_gastank_a.model;zmb_gastank_b.model;zmb_gastank_c.model;ialr_zmb_gastank_a.model;ialr_zmb_gastank_a_1.model;ialr_zmb_gastank_b.model;ialr_zmb_gastank_b_1.model;ialr_zmb_gastank_c.model;ialr_zmb_gastank_c_1.model;ialr_zmb_gastank_d.model;ialr_zmb_gastank_e.model;ialr_zmb_gastank_f.model");
-	   SetField("m_ConstFilename", "viral_profile_gastank");
+	   SetField("m_ModulesPreset", "modules_viral_gas_tank");
+       SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+       SetField("m_ConstFilename", "viral_profile_gastank");
        SetField("m_DamageActorTagName", "viral_sun_immune");
        SetField("m_AudioEventsScript", "biter_audio_events.scr");
        SetField("m_ScreamPresetNames", "biter_gas_tank_m_a");
@@ -50,7 +52,6 @@ sub IALViralPresets()
        SetField("m_StepPreset", "gas_tank");
        SetField("m_AutoAimItemPolicy", "ExcludeThrowables");
        SetField("m_CustomLootTypeString", "IALR_Biter_Gastank");
-	   SetField("m_AttachmentPreset", "gas_tank_attachment_tier_3");
 	   SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Gas_Tank);
 	}
     
@@ -100,6 +101,8 @@ sub IALViralPresets()
 		SetField("m_DamageActorTagName", "viral_sun_immune");
 		SetField("m_CustomLootTypeString", "WorldBurner");
 		SetField("m_ConstFilename", "viral_profile_gastank");
+        SetField("m_ModulesPreset", "modules_viral_gas_tank");
+        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
 		SetField("m_DamageRulesPreset", "fire_resistant");
 		SetField("m_ScreamPresetNames", "biter_gas_tank");
 		SetField("m_BarkPresetNames", "");
@@ -121,5 +124,79 @@ sub IALViralPresets()
 		SetField("m_ForcedBodyScaleMin", "0.95");
         SetField("m_ForcedBodyScaleMax", "1.05");
         SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Swamp);
+    }
+
+
+
+/////////////////////////////////////HALLOWEEN2023
+
+    Preset("Vampire_LowTier", "Viral")
+    {
+        SetField("m_AIModelName", "bdt_man_01_e_vampire.model;bdt_man_02_e_vampire.model;bdt_pk_man_02_a_vampire.model;bdt_pk_man_06_b_vampire.model;bzr_man_01_a_vampire.model;bzr_wmn_01_a_vampire.model;colonel_man_basic_05_b_vampire.model;colonel_man_basic_08_b_vampire.model;colonel_man_medium_01_f_vampire.model;colonel_man_medium_05_b_vampire.model;npc_abandon_pk_boon_vampire.model;npc_abandon_pk_gerhard_vampire.model;npc_abandon_pk_sam_vampire.model;npc_abandon_srv_maria_vampire.model;npc_mc_dispatcher_vampire.model;npc_mc_men_01_a_vampire.model;npc_mq_ron_vampire.model;npc_outpost_gladiator_01_a_vampire.model;npc_outpost_guard_01_a_vampire.model;npc_outpost_man_02_a_vampire.model;npc_outpost_wmn_02_a_vampire.model;npc_pianist_vampire.model;npc_rowe_vampire.model;npc_story_chaos_teller_vampire.model;npc_story_redpool_vampire.model;pk_basic_man_01_a_vampire.model;pk_light_man_01_b_vampire.model;pk_worker_man_01_e_vampire.model;ren_man_heavy_03_b_vampire.model;ren_wmn_01_d_vampire.model;sc_runner_wmn_04_a_vampire.model;srv_man_04_a_vampire.model;srv_man_14_d_vampire.model;srv_man_17_c_vampire.model;srv_wmn_20_b_vampire.model;srv_wmn_26_f_vampire.model;srv_worker_man_02_e_vampire.model;srv_worker_wmn_03_a_vampire.model;wmn_sc_worker_01_vampire.model;wmn_srv_shopkeeper_01_a_vampire.model");
+        SetField("m_MainBehaviorTree", "VIRAL_VAMPIRE_BT");
+        SetField("m_ConstFilename", "viral_vampire_profile_base");
+        SetField("m_ForcedBodyScaleMax", "1.1");
+        SetField("m_ForcedBodyScaleMin", "0.8");
+        SetField("m_HealthPreset", "OneHanded_RGD_6");
+        SetField("m_BarkPresetNames", "");
+		SetField("m_BarkPresetNamesAfAm", "");
+		SetField("m_ConflictSide", "vampire");
+        SetField("m_NavigationPreset", "companion_1h");
+        SetField("m_PerceptionPreset", "infected");
+        SetField("m_DamageResistance", "BiterImmunity");
+        SetField("m_EnemyIndicators", "NoHPGauge");
+        SetField("m_AttackUnarmedDamageMul", "AI_Vampire");
+        SetField("m_AttackOtherAIDamageMul", "Vampire_Mul_VS_AI");
+        SetField("m_SyncActionPreset", "Viral");
+		SetField("m_DeathHintType", "Viral");
+		SetField("m_ModulesPreset", "modules_vampire");
+    }
+
+    Preset("Vampire_LowTier_Resting", "Vampire_LowTier")
+    {
+        SetField("m_InitBehaviorTree", "viral_init_tree_resting");
+    }
+
+    Preset("Vampire_HighTier", "Viral")
+    {
+        SetField("m_AIModelName", "bdt_man_01_e_vampire.model;bdt_man_02_e_vampire.model;bdt_pk_man_02_a_vampire.model;bdt_pk_man_06_b_vampire.model;bzr_man_01_a_vampire.model;bzr_wmn_01_a_vampire.model;colonel_man_basic_05_b_vampire.model;colonel_man_basic_08_b_vampire.model;colonel_man_medium_01_f_vampire.model;colonel_man_medium_05_b_vampire.model;npc_abandon_pk_boon_vampire.model;npc_abandon_pk_gerhard_vampire.model;npc_abandon_pk_sam_vampire.model;npc_abandon_srv_maria_vampire.model;npc_mc_dispatcher_vampire.model;npc_mc_men_01_a_vampire.model;npc_mq_ron_vampire.model;npc_outpost_gladiator_01_a_vampire.model;npc_outpost_guard_01_a_vampire.model;npc_outpost_man_02_a_vampire.model;npc_outpost_wmn_02_a_vampire.model;npc_pianist_vampire.model;npc_rowe_vampire.model;npc_story_chaos_teller_vampire.model;npc_story_redpool_vampire.model;pk_basic_man_01_a_vampire.model;pk_light_man_01_b_vampire.model;pk_worker_man_01_e_vampire.model;ren_man_heavy_03_b_vampire.model;ren_wmn_01_d_vampire.model;sc_runner_wmn_04_a_vampire.model;srv_man_04_a_vampire.model;srv_man_14_d_vampire.model;srv_man_17_c_vampire.model;srv_wmn_20_b_vampire.model;srv_wmn_26_f_vampire.model;srv_worker_man_02_e_vampire.model;srv_worker_wmn_03_a_vampire.model;wmn_sc_worker_01_vampire.model;wmn_srv_shopkeeper_01_a_vampire.model");
+        SetField("m_MainBehaviorTree", "VIRAL_VAMPIRE_BT");
+        SetField("m_ConstFilename", "viral_vampire_hightier_profile_base");
+        SetField("m_ForcedBodyScaleMax", "1.1");
+        SetField("m_ForcedBodyScaleMin", "1.0");
+        SetField("m_HealthPreset", "OneHanded_RGD_9");
+        SetField("m_BarkPresetNames", "");
+		SetField("m_BarkPresetNamesAfAm", "");
+		SetField("m_ConflictSide", "vampire");
+        SetField("m_NavigationPreset", "companion_1h");
+        SetField("m_PerceptionPreset", "infected");
+        SetField("m_DamageResistance", "BiterImmunity");
+        SetField("m_EnemyIndicators", "NoHPGauge");
+        SetField("m_AttackUnarmedDamageMul", "AI_Vampire");
+        SetField("m_AttackOtherAIDamageMul", "Vampire_Mul_VS_AI");
+        SetField("m_SyncActionPreset", "Viral");
+		SetField("m_DeathHintType", "Viral");
+		SetField("m_ModulesPreset", "modules_vampire");
+    }
+
+    Preset("Vampire_HighTier_Resting", "Vampire_HighTier")
+    {
+        SetField("m_InitBehaviorTree", "viral_init_tree_resting");
+    }
+
+    Preset("Evil_Vampire_Child_01", "Vampire_LowTier")
+    {
+        SetField("m_AIModelName", "npc_prologue_boy_02_vampire.model;npc_prologue_boy_07_vampire.model;npc_prologue_boy_11_vampire.model;child_boy_03_a_vampire.model;npc_prologue_girl_04_vampire.model;npc_prologue_girl_07_vampire.model;child_girl_01_b_vampire.model;child_girl_02_c_vampire.model");
+        SetField("m_MainBehaviorTree", "VIRAL_VAMPIRE_BT");
+        SetField("m_ConstFilename", "viral_vampire_profile_base");
+        SetField("m_ForcedBodyScaleMax", "0.9");
+        SetField("m_ForcedBodyScaleMin", "0.75");
+        SetField("m_BarkPresetNames", "");
+		SetField("m_BarkPresetNamesAfAm", "");
+    }
+
+    Preset("Evil_Vampire_Child_01_Resting", "Evil_Vampire_Child_01")
+    {
+        SetField("m_InitBehaviorTree", "viral_init_tree_resting");
     }
 }
