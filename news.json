@@ -5,6 +5,10 @@
             "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
+            "header": "Known Bugs",
+            "body": "Currently there are a large number of crashes in the Vanilla DL2 game and all spawn modules are currently causing crashes: Infestion, Warzones, seem to be causing random crashes. Please play only the base mod for now"
+        },
+        {
             "header": "New Survivor Options: Hunger and Thirst Optional",
             "body": "Take the games difficulty and scavenging to a new level with a new optional in the Modules section that requires the player to eat and drink to properly regenerate health and stamina"
         },

@@ -2161,7 +2161,7 @@ sub main()
 
     Param("AntiWallHandsScale", "0.34");
     Param("AntiWallAimHandsScale", "0.5");
-    Param("AntiFovScale", "0.02");
+    Param("AntiFovScale", "0.00");
 
     Param("ThrownMeleeWeaponPierceChance", "0.25");
     Param("ThrownMeleeWeaponPhysicsForceMul", "1.8");
