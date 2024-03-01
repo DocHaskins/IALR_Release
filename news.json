@@ -5,6 +5,10 @@
             "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
+            "header": "Known Bugs:",
+            "body": "Currently there is a random crash that occurs for some players after 15-20 minutes of play, I am waiting for Techland to fix a lot of the bugs they caused with the 1.15 update before fixing. If you have a savegame that instant crashes on a specific mission please provide the savegame and bug report on the Discord."
+        },
+        {
             "header": "New Survivor Options: Hunger and Thirst Optional",
             "body": "Take the games difficulty and scavenging to a new level with a new optional in the Modules section that requires the player to eat and drink to properly regenerate health and stamina"
         },
