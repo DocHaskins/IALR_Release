@@ -1,12 +1,16 @@
 {
     "news": [
         {
-            "header": "Updated to 1.15.2",
+            "header": "Updated to 1.15.3",
             "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
             "header": "Known Bugs:",
-            "body": "Currently there is a random crash that occurs for some players after 15-20 minutes of play, I am waiting for Techland to fix a lot of the bugs they caused with the 1.15 update before fixing. If you have a savegame that instant crashes on a specific mission please provide the savegame and bug report on the Discord."
+            "body": "Currently the Flamethrowers break the audio due to the 1.15 update, I have to recreate them for them to work properly"
+        },
+        {
+            "header": "Difficulty: Rebalanced!",
+            "body": "All difficulties and spawns have been rebalanced with Insanity being a way more intense experience, all enemies can smell you and will constantly be hunting you. Store and use Camouflage for missions"
         },
         {
             "header": "New Survivor Options: Hunger and Thirst Optional",
