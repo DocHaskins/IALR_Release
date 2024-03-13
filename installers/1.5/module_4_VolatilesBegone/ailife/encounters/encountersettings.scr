@@ -369,7 +369,8 @@ sub main()
             Pool("Military_Infected_03");
             Pool("Hazmat_Infected");
             //Pool("V_SPT_SC");               
-        }   
+        }  
+
         Difficulty("NewGamePlus")
         {
             Pool("V_V_V");
@@ -382,7 +383,7 @@ sub main()
             Pool("Military_Infected_03");
             Pool("Hazmat_Infected");
             //Pool("V_SPT_SC");               
-        }   
+        }   		
         
         CooldownTime(540.0);
         TimeOfDay(19.5, 7.5);
@@ -575,8 +576,8 @@ sub main()
             Pool("Military_Infected_03");
             Pool("Hazmat_Infected");
             //Pool("V_SPT_SC");               
-        }   
-        
+        }
+		
         Difficulty("NewGamePlus")
         {
             Pool("V_V_V");
@@ -782,7 +783,8 @@ sub main()
             Pool("Military_Infected_03");
             Pool("Hazmat_Infected");
             //Pool("V_SPT_SC");               
-        }   
+        }  
+
         Difficulty("NewGamePlus")
         {
             Pool("V_V_V");
@@ -795,7 +797,7 @@ sub main()
             Pool("Military_Infected_03");
             Pool("Hazmat_Infected");
             //Pool("V_SPT_SC");               
-        }   
+        }   		
         
         CooldownTime(540.0);
         TimeOfDay(19.5, 7.5);
@@ -2129,6 +2131,7 @@ sub main()
         GeneralDifficulty()
         {
             //Pool("Infected_Prisoner_Rescue_Night_Screamer");
+            Pool("Infected_Prisoner_Rescue_Night_Volatile");
         }
 
         CooldownTime(360.0);
@@ -8543,6 +8546,7 @@ sub main()
             Pool("1H_SP_S_M_M");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -8626,6 +8630,7 @@ sub main()
             Pool("1H_SP_S_M_M");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -8709,6 +8714,7 @@ sub main()
             Pool("1H_SP_S_M_M");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -8790,6 +8796,7 @@ sub main()
             Pool("1H_SP_S_M_M");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -10525,6 +10532,7 @@ sub main()
             Pool("Prisoner_Infected");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -10549,6 +10557,7 @@ sub main()
             Pool("Ambush_Infected");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -10857,7 +10866,7 @@ sub main()
     
         Encounter("Infected_Patrol_Screamer")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Screamer");     
@@ -10869,22 +10878,27 @@ sub main()
     
 	Encounter("Infected_Patrol_Volatile")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
+            Pool("Infected_Patrol_Volatile");
             //Pool("Infected_Patrol_Volatile_Double");
         }
         Difficulty("Difficulty_R01")
         {
+            Pool("Infected_Patrol_Volatile");   
         }   
         Difficulty("Difficulty_01")
         {
+            Pool("Infected_Patrol_Volatile");   
         }   
         Difficulty("Difficulty_02")
         {
+            Pool("Infected_Patrol_Volatile");		
         }   
         Difficulty("Difficulty_03")
         {
+            Pool("Infected_Patrol_Volatile"); 
         }       
 
         MaxActiveInstances(1);
@@ -10896,7 +10910,7 @@ sub main()
 	
 	Encounter("Infected_Patrol_Volatile_Chemical")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Volatile_Chemical");
@@ -10926,7 +10940,7 @@ sub main()
 	
 	Encounter("Infected_Patrol_Volatile_Venom")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Volatile_Venom");
@@ -10956,15 +10970,17 @@ sub main()
     
         Encounter("Infected_Patrol_Spitter")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Spitter");
+			Pool("Infected_Patrol_Volatile");    			
             //Pool("Infected_Patrol_Spitter_Double");
         }
         Difficulty("NewGamePlus")
         {
             Pool("Infected_Patrol_Spitter");
+			Pool("Infected_Patrol_Volatile");           
         }       		
         MaxActiveInstances(3);
         CooldownTime(1.0);
@@ -10973,7 +10989,7 @@ sub main()
         
         Encounter("Infected_Nest_Screamer")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Nest_01");
@@ -10981,11 +10997,13 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+			Pool("Infected_Nest_01_Volatile");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Worldburner_Infected");
             Pool("Military_Infected_01");
@@ -11000,7 +11018,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");
             Pool("Worldburner_Infected");
             Pool("Military_Infected_01");
             Pool("Military_Infected_02");
@@ -11014,7 +11034,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");  
             Pool("Worldburner_Infected");
             Pool("Hazmat_Infected");    
         } 
@@ -11025,7 +11047,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");    
             Pool("Worldburner_Infected");
             Pool("Hazmat_Infected");
         } 
@@ -11036,9 +11060,11 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
 			Pool("Infected_Nest_01_Banshee");
             Pool("Infected_Nest_01_Charger");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01");
             Pool("Infected_Nest_02");
             Pool("Infected_Nest_03");
@@ -11058,7 +11084,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");   
             Pool("Worldburner_Infected");
             Pool("Hazmat_Infected");     
         } 	
@@ -11069,7 +11097,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");  
             Pool("Worldburner_Infected");
             Pool("Hazmat_Infected"); 
         } 			
@@ -11080,7 +11110,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");
+			Pool("Infected_Nest_01_Volatile");	
             Pool("Worldburner_Infected");
             Pool("Military_Infected_01");
             Pool("Military_Infected_02");
@@ -11094,7 +11126,7 @@ sub main()
 	
         Encounter("Infected_Nest_Big_Screamer")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Nest_01");
@@ -11102,7 +11134,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");	
+            Pool("Infected_Nest_02_Volatile");			
             Pool("Infected_Nest_02");	
         }
         Difficulty("NewGamePlus")
@@ -11112,7 +11146,9 @@ sub main()
             Pool("Infected_Nest_03");
             Pool("Infected_Nest_04");
             Pool("Infected_Nest_05");
+            Pool("Infected_Nest_01_Volatile");
             Pool("Infected_Nest_01_Banshee");	
+            Pool("Infected_Nest_02_Volatile");			
             Pool("Infected_Nest_02");	
         }	
         MaxActiveInstances(5);
@@ -14766,8 +14802,6 @@ sub main()
         GeneralDifficulty()
         {
             Pool("Storytellers");
-			Pool("Banshee_Day");
-			Pool("Day_Exterior_D05");
         }
         WeatherEncounterCondition("Foggy","Clear","Overcast","Cloudy", "Rainy"); // No Stormy weather 
 		TimeOfDay(8.0, 19.0);
@@ -14781,8 +14815,6 @@ sub main()
         GeneralDifficulty()
         {
             Pool("Storyteller_1S");
-			Pool("Banshee_Day");
-			Pool("Day_Exterior_D05");
         }
         WeatherEncounterCondition("Foggy","Clear","Overcast","Cloudy", "Rainy"); // No Stormy weather 
 		TimeOfDay(8.1, 19.0);
@@ -14798,19 +14830,16 @@ sub main()
         Difficulty("Easy")
         {
             Pool("AS_V_B_B_B_B_B");
-			Pool("Children");
         }
         
         Difficulty("Medium")
         {
             Pool("AS_V_B_B_B_B_B");
-			Pool("Children");
         }
         
         Difficulty("Hard")
         {
             Pool("AS_V_B_B_B_B_B");
-			Pool("Children");
         }
 
         Difficulty("Difficulty_R01")
@@ -14818,8 +14847,7 @@ sub main()
             Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); Pool("AS_SPT_V_B_B_B");
-            Pool("Children"); 			
+            Pool("AS_SPT_V_B_B_B");   			
         }
 
         Difficulty("Difficulty_01")
@@ -14827,8 +14855,7 @@ sub main()
 			Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); Pool("AS_SPT_V_B_B_B");
-			Pool("Children");
+            Pool("AS_SPT_V_B_B_B"); 
         }
 
         Difficulty("Difficulty_02")
@@ -14836,8 +14863,7 @@ sub main()
 			Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); Pool("AS_SPT_V_B_B_B");
-			Pool("Children");
+            Pool("AS_SPT_V_B_B_B");      
         }           
 
         Difficulty("Difficulty_03")
@@ -14845,8 +14871,7 @@ sub main()
 			Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B");
-			Pool("Children");
+            Pool("AS_SPT_V_B_B_B");    
         }   
 
         Difficulty("Difficulty_04")
@@ -14854,8 +14879,7 @@ sub main()
 			Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); Pool("AS_SPT_V_B_B_B");
-			Pool("Children");
+            Pool("AS_SPT_V_B_B_B");             
         }   
 
         Difficulty("Difficulty_R04")
@@ -14863,16 +14887,14 @@ sub main()
 			Pool("AS_V_B_B_B_B_B");
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); Pool("AS_SPT_V_B_B_B");
-			Pool("Children");            
+            Pool("AS_SPT_V_B_B_B");             
         }   
 
         Difficulty("Difficulty_05")
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B");
-			Pool("Children");  
+            Pool("AS_SPT_V_B_B_B");   
             Pool("AS_VOL_B_B_B_B");           
         }   
 
@@ -14880,8 +14902,7 @@ sub main()
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B");
-			Pool("Children");  
+            Pool("AS_SPT_V_B_B_B");   
             Pool("AS_VOL_B_B_B_B");           
         }   
         
@@ -14889,8 +14910,7 @@ sub main()
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); 
-			Pool("Children");  
+            Pool("AS_SPT_V_B_B_B");   
             Pool("AS_VOL_B_B_B_B");            
         }   
 
@@ -14898,8 +14918,7 @@ sub main()
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); 
-			Pool("Children");  
+            Pool("AS_SPT_V_B_B_B");   
             Pool("AS_VOL_B_B_B_B");            
         }   
 
@@ -14907,20 +14926,18 @@ sub main()
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
-            Pool("AS_SPT_V_B_B_B"); 
-			Pool("Children");  
+            Pool("AS_SPT_V_B_B_B");   
             Pool("AS_VOL_B_B_B_B");             
         }   
-        
-		Difficulty("NewGamePlus")
+
+        Difficulty("NewGamePlus")
         {
             Pool("AS_V_V_B_B_B");   
             //Pool("AS_SC_V_B_B_B");   
             Pool("AS_SPT_V_B_B_B");   
-							
             Pool("AS_VOL_B_B_B_B");             
         }  
-		
+ 
         CooldownTime(1.0);
         TimeOfDay(19.5, 7.5);
         MaxActiveInstances(5);
@@ -14933,19 +14950,16 @@ sub main()
         GeneralDifficulty()
         {
             Pool("V_V");
-			Pool("Children");
         }
         
         Difficulty("Medium")
         {
             Pool("V_V");
-			Pool("Children");
         }
         
         Difficulty("Hard")
         {
             Pool("V_V");
-			Pool("Children");
         }
 
         Difficulty("NewGamePlus")
@@ -16810,7 +16824,7 @@ sub main()
     
     Encounter("Infected_Patrol_Volatile_Daytime")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Volatile_Daytime");

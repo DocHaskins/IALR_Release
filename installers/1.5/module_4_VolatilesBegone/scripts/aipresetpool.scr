@@ -915,6 +915,10 @@ Pool("GRE_Night_Exterior")
     {
         PresetWeighted("Character;Screamer", 80)
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 80)
+    }
 }
 
 //////////// Infected Population ////////////
@@ -1068,6 +1072,10 @@ Pool("Night_Exterior_D01")
     {
         PresetWeighted("Character;Screamer", 125)
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 125)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -1081,9 +1089,6 @@ Pool("Night_Exterior_D01")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -1320,6 +1325,10 @@ Pool("Night_Exterior_D02")
     {
         PresetWeighted("Character;Screamer", 20)
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 130)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -1333,9 +1342,6 @@ Pool("Night_Exterior_D02")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -1569,6 +1575,10 @@ Pool("Night_Exterior_D03")
     {
         PresetWeighted("Character;Screamer", 35) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 135)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -1582,9 +1592,6 @@ Pool("Night_Exterior_D03")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -1818,6 +1825,10 @@ Pool("Night_Exterior_D04")
     {
         PresetWeighted("Character;Screamer", 140) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 140)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -1831,9 +1842,6 @@ Pool("Night_Exterior_D04")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2082,6 +2090,10 @@ Pool("Night_Exterior_D05")
     {
         PresetWeighted("Character;Screamer", 145) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 145)
+    }	
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -2095,9 +2107,6 @@ Pool("Night_Exterior_D05")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2346,6 +2355,10 @@ Pool("Night_Exterior_D06")
     {
         PresetWeighted("Character;Screamer", 150) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 150)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -2359,9 +2372,6 @@ Pool("Night_Exterior_D06")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2599,6 +2609,10 @@ Pool("Night_Exterior_D07")
     {
         PresetWeighted("Character;Screamer", 150) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 150)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -2612,9 +2626,6 @@ Pool("Night_Exterior_D07")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2851,6 +2862,10 @@ Pool("Night_Exterior_D08")
     {
         PresetWeighted("Character;Screamer", 150) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 20)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -2864,9 +2879,6 @@ Pool("Night_Exterior_D08")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3105,6 +3117,10 @@ Pool("Night_Exterior_D09")
     {
         PresetWeighted("Character;Screamer", 150) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 150)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -3118,9 +3134,6 @@ Pool("Night_Exterior_D09")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3358,6 +3371,10 @@ Pool("Night_Exterior_End")
     {
         PresetWeighted("Character;Screamer", 150) 
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 220)
+    }
 	Tag("rooftop")
     {
 		PresetWeighted("Character;Biter", 100)
@@ -3371,9 +3388,6 @@ Pool("Night_Exterior_End")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3903,9 +3917,6 @@ Pool("Night_Exterior_R01")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Viral", 10)
     }	
-	
-
-	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3939,6 +3950,10 @@ Pool("Night_Exterior_R01")
 	Tag("Special")
     {
         PresetWeighted("Character;Screamer", 60)
+    }
+	Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 60)
     }
 	//PresetWeighted("Character;Corruptor", 20)
 }
@@ -5824,7 +5839,7 @@ Pool("4iV")
 
 Pool("1iVol")
 {
-	Preset("Character;Viral_Patrol;Scenario;General")
+	Preset("Character;Viral;Scenario;General")
 }
 
 Pool("1iBs5iB")
@@ -6368,7 +6383,7 @@ Pool("Infected_Nest_01_Volatile")
 {
     Tag("Special")
 	{
-		Preset("Character;Viral_Patrol;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
 	}   
     Tag("Generic")
     {		
@@ -6427,7 +6442,7 @@ Pool("Infected_Nest_02_Volatile")
 {
     Tag("Special")
 	{
-		Preset("Character;Viral_Patrol;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
 	}   
     Tag("Generic")
     {		
@@ -7829,6 +7844,10 @@ Pool("Ambushed_Bandits_Roof")
         {
             PresetWeighted("Character;Screamer", 125)
         }
+        Tag("VolatileSpecial")
+        {
+            PresetWeighted("Character;Viral", 125)
+        }
 	}
 
 // QUEST ENCOUNTERS
@@ -8015,6 +8034,10 @@ Pool("Night_Exterior_R01_playtest_no_virals")
     {
         PresetWeighted("Character;Screamer", 100)
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 100)
+    }
 	PresetWeighted("Character;Banshee", 10)
 	PresetWeighted("Character;Biter_Backpack", 50)
 }
@@ -8027,6 +8050,10 @@ Pool("Night_Exterior_R01_playtest_medium")
     {
         PresetWeighted("Character;Screamer", 100)
     }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 100)
+    }
 	PresetWeighted("Character;Banshee", 10)
 	PresetWeighted("Character;Biter_Backpack", 50)
 }
@@ -8038,6 +8065,10 @@ Pool("Night_Exterior_R01_playtest_hard")
 	Tag("Special")
     {
         PresetWeighted("Character;Screamer", 100)
+    }
+    Tag("VolatileSpecial")
+    {
+        PresetWeighted("Character;Viral", 100)
     }
 	PresetWeighted("Character;Banshee", 10)
 	PresetWeighted("Character;Biter_Backpack", 50)
@@ -12491,7 +12522,7 @@ Pool("Volatile_Special_EndGame_Boss")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_EndGame_Boss;Scenario;Special_Infected")	
+	Preset("Character;Volatile_EndGame_Boss;Scenario;Special_Infected")	
 	}    
 	Tag("Generic")
     {
@@ -17021,13 +17052,13 @@ Pool("GAAS_GRE_VolHive_3VHiveG")
 {
     Tag("Special")
     {
-		Preset("Character;Viral_Hive;Scenario;Special_Infected")
+		Preset("Character;Volatile_Hive;Scenario;Special_Infected")
 	}   
     Tag("Guard")
     {		
-		Preset("Character;Viral_Hive_Guard;Scenario;General")
-		Preset("Character;Viral_Hive_Guard;Scenario;General")
-		Preset("Character;Viral_Hive_Guard;Scenario;General")	
+		Preset("Character;Volatile_Hive_Guard;Scenario;General")
+		Preset("Character;Volatile_Hive_Guard;Scenario;General")
+		Preset("Character;Volatile_Hive_Guard;Scenario;General")	
 	}
 }
 
@@ -17035,12 +17066,12 @@ Pool("GAAS_GRE_VolHive_2VHiveG")
 {
     Tag("Special")
     {
-		Preset("Character;Viral_Hive;Scenario;Special_Infected")
+		Preset("Character;Volatile_Hive;Scenario;Special_Infected")
 	}   
     Tag("Guard")
     {		
-		Preset("Character;Viral_Hive_Guard;Scenario;General")
-		Preset("Character;Viral_Hive_Guard;Scenario;General")	
+		Preset("Character;Volatile_Hive_Guard;Scenario;General")
+		Preset("Character;Volatile_Hive_Guard;Scenario;General")	
 	}
 }
 
@@ -17049,7 +17080,7 @@ Pool("GAAS_Tyrant")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Tyrant;Scenario;General")
+	Preset("Character;Volatile_Tyrant;Scenario;General")
 	}   
     //Tag("Generic")
     //{		
@@ -17076,7 +17107,7 @@ Pool("GAAS_C1_Chall_01_01_Boss")
 
 Pool("GAAS_C1_Chall_01_02_Boss")
 {
-	PresetWeighted("Character;Viral_Tyrant_Boss", 50)
+	PresetWeighted("Character;Volatile_Tyrant_Boss", 50)
 }
 
 Pool("GAAS_C1_Chall_01_01_Boss_Guard")
@@ -17190,7 +17221,7 @@ Pool("GAAS_C1_Charger_Scr")
 
 Pool("GAAS_C1_VHiv_Vol")
 {
-	PresetWeighted("Character;Viral_Hive", 25)
+	PresetWeighted("Character;Volatile_Hive", 25)
 }
 
 Pool("GAAS_C1_B_V_Elite")
@@ -17204,7 +17235,7 @@ Pool("GAAS_C1_B_V_Elite")
 
 Pool("GAAS_C1_Vol")
 {
-	PresetWeighted("Character;Viral_Hive_Guard", 10)
+	PresetWeighted("Character;Volatile_Hive_Guard", 10)
 }
 
 Pool("GAAS_C1_Virals_Elite")
@@ -17264,7 +17295,7 @@ Pool("DLC2_Volatile_Summoner")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Summoner;Scenario;General")
+	Preset("Character;Volatile_Summoner;Scenario;General")
 	}   
 }
 
@@ -17505,7 +17536,7 @@ Pool("GAAS_C2_E_Metro_Crowd_Special")
 	PresetWeighted("Character;Suicider_Flooded_Area", 50)
 	PresetWeighted("Character;Screamer", 40)
 	PresetWeighted("Character;Banshee", 5)
-	PresetWeighted("Character;Viral_Hive", 1)
+	PresetWeighted("Character;Volatile_Hive", 1)
 }
 
 // Mission 2 - Chamber Infecteds
@@ -17534,7 +17565,7 @@ Pool("GAAS_C2_E_Chamber_Crowd_Base") // Ground
 	PresetWeighted("Character;Viral_Woman", 20)
 	PresetWeighted("Character;Viral", 20)	
 	PresetWeighted("Character;Banshee", 1)
-	PresetWeighted("Character;Viral_Hive", 1)
+	PresetWeighted("Character;Volatile_Hive", 1)
 }
 
 
@@ -18073,7 +18104,7 @@ Pool("AD_Winter_Default_Hard_C") // Hard Encounter with Goon Caller, Screamer an
 // EE
 Pool("EE_Infected_Patrol_Roaming")
 {
-	PresetWeighted("Character;Viral_Patrol;Scenario;General", 1)
+	PresetWeighted("Character;Viral;Scenario;General", 1)
 }
 
 // EE
@@ -18433,8 +18464,8 @@ Pool("Infected_Sets_Hard")
 	Tag("Special")
 	{
 		PresetWeighted("Character;Viral;Scenario;General", 50)
-		PresetWeighted("Character;Viral_Tyrant;Scenario;General", 50)
-		PresetWeighted("Character;Viral_Hive;Scenario;General", 50)
+		PresetWeighted("Character;Volatile_Tyrant;Scenario;General", 50)
+		PresetWeighted("Character;Volatile_Hive;Scenario;General", 50)
 	}
 	Tag("Boss")
 	{
@@ -18741,11 +18772,11 @@ Pool("PM_Volatile_Special_EndGame_Boss")
 {
     Tag("Boss")
     {
-	Preset("Character;Viral_EndGame_Boss;Scenario;General")	
+	Preset("Character;Volatile_EndGame_Boss;Scenario;General")	
 	}    
     Tag("Heavy")
     {
-	Preset("Character;Viral_EndGame_Boss;Scenario;General")	
+	Preset("Character;Volatile_EndGame_Boss;Scenario;General")	
 	}    
 	Tag("Generic")
     {
@@ -20112,7 +20143,7 @@ Pool("Infected_Patrol_Volatile_Daytime")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_DayStalker;Scenario;General")
+	Preset("Character;Volatile_DayStalker;Scenario;General")
 	}   
     //Tag("Generic")
     //{		
@@ -20126,11 +20157,11 @@ Pool("Infected_Nest_01_Volatile_Chemical")
 {
     Tag("Special")
 	{
-		Preset("Character;Viral_Chemical;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
 	}   
     Tag("Generic")
     {		
-		Preset("Character;Viral_Chemical;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
 	}
 }
 
@@ -20138,7 +20169,7 @@ Pool("Infected_Nest_01_Volatile_Venom")
 {
     Tag("Special")
 	{
-		Preset("Character;Viral_Venom;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
 	}   
 }
 
@@ -20146,11 +20177,11 @@ Pool("Infected_Patrol_Volatile_Chemical")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Chemical;Scenario;General")
+	Preset("Character;Viral;Scenario;General")
 	}   
     Tag("Generic")
     {		
-	Preset("Character;Viral_Chemical;Scenario;General")
+	Preset("Character;Viral;Scenario;General")
 	}
 }
 
@@ -20158,7 +20189,7 @@ Pool("Infected_Patrol_Volatile_Venom")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Venom;Scenario;General")
+	Preset("Character;Viral;Scenario;General")
 	}   
 }
 
@@ -20166,7 +20197,7 @@ Pool("Volatile_Special_EndGame_Boss_Chemical")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Chemical;Scenario;Special_Infected")	
+	Preset("Character;Viral;Scenario;Special_Infected")	
 	}    
 	Tag("Generic")
     {
@@ -20178,7 +20209,7 @@ Pool("Volatile_Special_EndGame_Boss_Venom")
 {
     Tag("Special")
     {
-	Preset("Character;Viral_Venom;Scenario;Special_Infected")	
+	Preset("Character;Viral;Scenario;Special_Infected")	
 	}    
 	Tag("Generic")
     {

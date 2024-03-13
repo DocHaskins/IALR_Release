@@ -905,6 +905,15 @@ sub main()
 		Item("Craftplan_Throwable_InfectingKnifeAGen_Upgrade6");
 		Item("Craftplan_Throwable_InfectingKnifeAGen_Upgrade7");
 		Item("Craftplan_Throwable_InfectingKnifeAGen_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -2392,7 +2401,7 @@ sub main()
 		
 		Item("Craftplan_UV_Flare");
 		Item("Craftplan_Grenade");
-		Item("Craftplan_Throwable_InfectingKnifeAGen");
+		//Item("Craftplan_Throwable_InfectingKnifeAGen");
 		
 		// CONSUMABLES
 		
@@ -3455,7 +3464,7 @@ sub main()
 		
 		Item("Craftplan_UV_Flare");
 		Item("Craftplan_Grenade");
-		Item("Craftplan_Throwable_InfectingKnifeAGen");
+		//Item("Craftplan_Throwable_InfectingKnifeAGen");
 		
 		// CONSUMABLES
 		
@@ -4530,6 +4539,12 @@ sub main()
 		Item("wpn_1hs_axe_l_fpp_r1");
 		Item("wpn_1hs_axe_n_fpp_r1");
 		Item("wpn_1hs_axe_p_fpp_r1");
+		
+		Item("wpn_15hs_a_fpp_r1");
+		Item("wpn_15hs_c_fpp_r1");
+		Item("wpn_15hs_f_fpp_r1");
+		Item("wpn_15hs_h_fpp_r1");
+		Item("wpn_15hs_k_fpp_r1");
 		
 		Item("wpn_15hs_a_fpp_r1");
 		Item("wpn_15hs_c_fpp_r1");
@@ -12434,7 +12449,7 @@ sub main()
 	//Weapons
 	ItemSet("Docket_Weapon_TechlandGG")
 	{
-		Item("wpn_1hs_mach_c_hussar");
+		Item("TGGReg_WeaponBundle");
     }
 	ItemSet("Docket_Weapon_Extinguisher")
 	{
@@ -13150,6 +13165,18 @@ sub main()
 	{
 		Item("Hunters_Token_Bundle_5");
     }
+	ItemSet("Docket_Resources_LegendToken_Small")
+	{
+		Item("LegendToken_3k_Bundle");
+    }
+	ItemSet("Docket_Resources_LegendToken_Medium")
+	{
+		Item("LegendToken_5k_Bundle");
+    }
+	ItemSet("Docket_Resources_LegendToken_Large")
+	{
+		Item("LegendToken_9k_Bundle");
+    }
 	ItemSet("Docket_Resources_MutationSamples")
 	{
 		Item("MutationSamples_Bundle");
@@ -13527,6 +13554,11 @@ sub main()
     ItemSet("Docket_TwitchDrop_Outfit")
 	{
 		Item("Collectable_Outfit_Brecken_DL1_C");
+    }
+	
+    ItemSet("Docket_Pilgrimpo_Outfit")
+	{
+		Item("Collectable_Outfit_pilgrimpo");
     }
     
 	ItemSet("Docket_TGGPolearm")

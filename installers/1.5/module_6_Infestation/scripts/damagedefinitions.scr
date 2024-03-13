@@ -2460,25 +2460,25 @@ use ialr_damagedefinitions();
 
 	//Pistol
 
-	Damage("firearm_pistol_sweetspot_tier_damages_1")	{	Firearms("20 - 25");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_2")	{	Firearms("29 - 36");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_3")	{	Firearms("44 - 55");	} 
-	Damage("firearm_pistol_sweetspot_tier_damages_4")	{	Firearms("72 - 90");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_5")	{	Firearms("100 - 125");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_6")	{	Firearms("160 - 200");	} 
-	Damage("firearm_pistol_sweetspot_tier_damages_7")	{	Firearms("216 - 270");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_8")	{	Firearms("344 - 430");	}
-    Damage("firearm_pistol_sweetspot_tier_damages_9")	{	Firearms("520 - 650");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_1")	{	Firearms("80 - 125");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_2")	{	Firearms("129 - 166");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_3")	{	Firearms("144 - 185");	} 
+	Damage("firearm_pistol_sweetspot_tier_damages_4")	{	Firearms("172 - 190");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_5")	{	Firearms("200 - 325");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_6")	{	Firearms("260 - 500");	} 
+	Damage("firearm_pistol_sweetspot_tier_damages_7")	{	Firearms("316 - 670");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_8")	{	Firearms("444 - 530");	}
+    Damage("firearm_pistol_sweetspot_tier_damages_9")	{	Firearms("620 - 750");	}
 	
-	Damage("firearm_pistol_normal_tier_damages_1")	{	Firearms("15 - 19");	}
-	Damage("firearm_pistol_normal_tier_damages_2")	{	Firearms("22 - 27");	}
-	Damage("firearm_pistol_normal_tier_damages_3")	{	Firearms("35 - 44");	} 
-	Damage("firearm_pistol_normal_tier_damages_4")	{	Firearms("54 - 68");	} 
-	Damage("firearm_pistol_normal_tier_damages_5")	{	Firearms("75 - 94");	} 
-	Damage("firearm_pistol_normal_tier_damages_6")	{	Firearms("128 - 160");	} 
-	Damage("firearm_pistol_normal_tier_damages_7")	{	Firearms("162 - 203");	}
-	Damage("firearm_pistol_normal_tier_damages_8")	{	Firearms("258 - 323");	}
-	Damage("firearm_pistol_normal_tier_damages_9")	{	Firearms("416 - 520");	}
+	Damage("firearm_pistol_normal_tier_damages_1")	{	Firearms("35 - 69");	}
+	Damage("firearm_pistol_normal_tier_damages_2")	{	Firearms("42 - 87");	}
+	Damage("firearm_pistol_normal_tier_damages_3")	{	Firearms("55 - 94");	} 
+	Damage("firearm_pistol_normal_tier_damages_4")	{	Firearms("124 - 168");	} 
+	Damage("firearm_pistol_normal_tier_damages_5")	{	Firearms("145 - 194");	} 
+	Damage("firearm_pistol_normal_tier_damages_6")	{	Firearms("188 - 260");	} 
+	Damage("firearm_pistol_normal_tier_damages_7")	{	Firearms("262 - 403");	}
+	Damage("firearm_pistol_normal_tier_damages_8")	{	Firearms("358 - 523");	}
+	Damage("firearm_pistol_normal_tier_damages_9")	{	Firearms("516 - 820");	}
 	
 	Damage("firearm_pistol_fade_tier_damages_1")	{	Firearms("11 - 14");	}
 	Damage("firearm_pistol_fade_tier_damages_2")	{	Firearms("15 - 19");	}
@@ -2523,25 +2523,25 @@ use ialr_damagedefinitions();
     Damage("firearm_smg_fade_tier_damages_9")	{	Firearms("101 - 135");	}
 	
 	//Rifle
-	Damage("firearm_rifle_sweetspot_tier_damages_1")	{	Firearms("26 - 30");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_2")	{	Firearms("37 - 43");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_3")	{	Firearms("51 - 60");	} 
-	Damage("firearm_rifle_sweetspot_tier_damages_4")	{	Firearms("74 - 87");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_5")	{	Firearms("106 - 125");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_6")	{	Firearms("157 - 185");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_7")	{	Firearms("242 - 285");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_8")	{	Firearms("391 - 460");	}
-	Damage("firearm_rifle_sweetspot_tier_damages_9")	{	Firearms("493 - 580");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_1")	{	Firearms("66 - 90");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_2")	{	Firearms("67 - 143");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_3")	{	Firearms("151 - 180");	} 
+	Damage("firearm_rifle_sweetspot_tier_damages_4")	{	Firearms("174 - 187");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_5")	{	Firearms("206 - 225");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_6")	{	Firearms("257 - 385");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_7")	{	Firearms("342 - 485");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_8")	{	Firearms("491 - 560");	}
+	Damage("firearm_rifle_sweetspot_tier_damages_9")	{	Firearms("593 - 880");	}
 	
-	Damage("firearm_rifle_normal_tier_damages_1")	{	Firearms("20 - 24");	}
-	Damage("firearm_rifle_normal_tier_damages_2")	{	Firearms("29 - 34");	}
-	Damage("firearm_rifle_normal_tier_damages_3")	{	Firearms("41 - 48");	} 
-	Damage("firearm_rifle_normal_tier_damages_4")	{	Firearms("59 - 70");	}
-	Damage("firearm_rifle_normal_tier_damages_5")	{	Firearms("85 - 100");	}
-	Damage("firearm_rifle_normal_tier_damages_6")	{	Firearms("126 - 148");	}
-	Damage("firearm_rifle_normal_tier_damages_7")	{	Firearms("194 - 228");	}
-	Damage("firearm_rifle_normal_tier_damages_8")	{	Firearms("313 - 368");	}
-	Damage("firearm_rifle_normal_tier_damages_9")	{	Firearms("394 - 464");	}
+	Damage("firearm_rifle_normal_tier_damages_1")	{	Firearms("80 - 124");	}
+	Damage("firearm_rifle_normal_tier_damages_2")	{	Firearms("99 - 134");	}
+	Damage("firearm_rifle_normal_tier_damages_3")	{	Firearms("141 - 188");	} 
+	Damage("firearm_rifle_normal_tier_damages_4")	{	Firearms("159 - 210");	}
+	Damage("firearm_rifle_normal_tier_damages_5")	{	Firearms("185 - 250");	}
+	Damage("firearm_rifle_normal_tier_damages_6")	{	Firearms("226 - 348");	}
+	Damage("firearm_rifle_normal_tier_damages_7")	{	Firearms("294 - 428");	}
+	Damage("firearm_rifle_normal_tier_damages_8")	{	Firearms("413 - 568");	}
+	Damage("firearm_rifle_normal_tier_damages_9")	{	Firearms("494 - 664");	}
 	
 	Damage("firearm_rifle_fade_tier_damages_1")	{	Firearms("16 - 19");	}
 	Damage("firearm_rifle_fade_tier_damages_2")	{	Firearms("23 - 28");	}
@@ -2554,25 +2554,25 @@ use ialr_damagedefinitions();
 	Damage("firearm_rifle_fade_tier_damages_9")	{	Firearms("316 - 371");	}
 	
 	//Shotgun
-	Damage("firearm_shotgun_sweetspot_tier_damages_1")	{	Firearms("10 - 11");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_2")	{	Firearms("14 - 15");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_3")	{	Firearms("22 - 23");	} 
-	Damage("firearm_shotgun_sweetspot_tier_damages_4")	{	Firearms("36 - 38");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_5")	{	Firearms("58 - 61");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_6")	{	Firearms("74 - 78");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_7")	{	Firearms("119 - 125");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_8")	{	Firearms("190 - 200");	}
-	Damage("firearm_shotgun_sweetspot_tier_damages_9")	{	Firearms("238 - 250");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_1")	{	Firearms("110 - 191");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_2")	{	Firearms("224 - 255");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_3")	{	Firearms("252 - 283");	} 
+	Damage("firearm_shotgun_sweetspot_tier_damages_4")	{	Firearms("336 - 438");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_5")	{	Firearms("358 - 461");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_6")	{	Firearms("374 - 578");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_7")	{	Firearms("419 - 625");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_8")	{	Firearms("490 - 650");	}
+	Damage("firearm_shotgun_sweetspot_tier_damages_9")	{	Firearms("538 - 750");	}
 
-    Damage("firearm_shotgun_normal_tier_damages_1")	{	Firearms("10 - 11");	}
-	Damage("firearm_shotgun_normal_tier_damages_2")	{	Firearms("14 - 15");	}
-	Damage("firearm_shotgun_normal_tier_damages_3")	{	Firearms("22 - 23");	} 
-	Damage("firearm_shotgun_normal_tier_damages_4")	{	Firearms("36 - 38");	}
-	Damage("firearm_shotgun_normal_tier_damages_5")	{	Firearms("58 - 61");	}
-	Damage("firearm_shotgun_normal_tier_damages_6")	{	Firearms("74 - 78");	}
-	Damage("firearm_shotgun_normal_tier_damages_7")	{	Firearms("119 - 125");	}
-	Damage("firearm_shotgun_normal_tier_damages_8")	{	Firearms("190 - 200");	}
-	Damage("firearm_shotgun_normal_tier_damages_9")	{	Firearms("238 - 250");	}
+    Damage("firearm_shotgun_normal_tier_damages_1")	{	Firearms("110 - 111");	}
+	Damage("firearm_shotgun_normal_tier_damages_2")	{	Firearms("114 - 115");	}
+	Damage("firearm_shotgun_normal_tier_damages_3")	{	Firearms("122 - 123");	} 
+	Damage("firearm_shotgun_normal_tier_damages_4")	{	Firearms("236 - 268");	}
+	Damage("firearm_shotgun_normal_tier_damages_5")	{	Firearms("258 - 361");	}
+	Damage("firearm_shotgun_normal_tier_damages_6")	{	Firearms("274 - 378");	}
+	Damage("firearm_shotgun_normal_tier_damages_7")	{	Firearms("319 - 425");	}
+	Damage("firearm_shotgun_normal_tier_damages_8")	{	Firearms("390 - 450");	}
+	Damage("firearm_shotgun_normal_tier_damages_9")	{	Firearms("438 - 650");	}
 
     Damage("firearm_shotgun_fade_tier_damages_1")	{	Firearms("10 - 11");	}
 	Damage("firearm_shotgun_fade_tier_damages_2")	{	Firearms("14 - 15");	}
@@ -2585,15 +2585,15 @@ use ialr_damagedefinitions();
 	Damage("firearm_shotgun_fade_tier_damages_9")	{	Firearms("238 - 250");	}
 	
     //DamageTiers UI
-    Damage("firearm_shotgun_UI_panel_tier_damages_1")	{	Firearms("100 - 110");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_2")	{	Firearms("140 - 150");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_3")	{	Firearms("220 - 230");	    }
-	Damage("firearm_shotgun_UI_panel_tier_damages_4")	{	Firearms("360 - 380");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_5")	{	Firearms("580 - 610");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_6")	{	Firearms("740 - 780");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_7")	{	Firearms("1190 - 1250");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_8")	{	Firearms("1900 - 2000");	}
-	Damage("firearm_shotgun_UI_panel_tier_damages_9")	{	Firearms("2380 - 2500");	}
+    Damage("firearm_shotgun_UI_panel_tier_damages_1")	{	Firearms("200 - 410");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_2")	{	Firearms("240 - 450");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_3")	{	Firearms("320 - 530");	    }
+	Damage("firearm_shotgun_UI_panel_tier_damages_4")	{	Firearms("360 - 580");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_5")	{	Firearms("580 - 810");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_6")	{	Firearms("840 - 980");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_7")	{	Firearms("1390 - 1650");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_8")	{	Firearms("2100 - 2500");	}
+	Damage("firearm_shotgun_UI_panel_tier_damages_9")	{	Firearms("2580 - 2800");	}
 	
 	//////////////END
 
@@ -6477,6 +6477,15 @@ use ialr_damagedefinitions();
     }
 	DamageTotalMul("AI_LowDamageMul_Tier1")
     {
+        Physical("0.8");
+		Cut("0.8");
+		Blunt("0.8");
+    }
+	DamageTotalMul("AI_LowDamageMul_Tier2")
+    {
+        Physical("0.8");
+        Cut("0.8");
+        Blunt("0.8");
         Physical("0.75");
 		Cut("0.75");
 		Blunt("0.75");
@@ -6517,20 +6526,83 @@ use ialr_damagedefinitions();
 		Cut("0.4");
 		Blunt("0.4");
     }
-	DamageTotalMul("AI_LowDamageMul_Tier8")
+	DamageTotalMul("AI_LowDamageMul_Tier3")
     {
         Physical("0.4");
 		Cut("0.4");
 		Blunt("0.4");
     }
-	DamageTotalMul("AI_LowDamageMul_Tier9")
+	DamageTotalMul("AI_LowDamageMul_Tier4")
     {
         Physical("0.5");
 		Cut("0.5");
 		Blunt("0.5");
     }
+	DamageTotalMul("AI_LowDamageMul_Tier5")
+    {
+        Physical("0.95");
+        Cut("0.95");
+        Blunt("0.95");
+    }
+	DamageTotalMul("AI_LowDamageMul_Tier6")
+    {
+        Physical("1.0");
+        Cut("1.0");
+        Blunt("1.0");
+    }
+	DamageTotalMul("AI_LowDamageMul_Tier7")
+    {
+        Physical("1.1");
+        Cut("1.1");
+        Blunt("1.1");
+    }
+	DamageTotalMul("AI_LowDamageMul_Tier8")
+    {
+        Physical("1.2");
+        Cut("1.2");
+        Blunt("1.2");
+    }
+	DamageTotalMul("AI_LowDamageMul_Tier9")
+    {
+        Physical("1.5");
+        Cut("1.5");
+        Blunt("1.5");
+    }
 	DamageTotalMul("AI_LowDamageMul_Ranged_Tier1")
     {
+        Ranged("0.9");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier2")
+    {
+        Ranged("0.9");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier3")
+    {
+        Ranged("0.9");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier4")
+    {
+        Ranged("0.95");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier5")
+    {
+        Ranged("1.0");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier6")
+    {
+        Ranged("1.0");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier7")
+    {
+        Ranged("1.0");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier8")
+    {
+        Ranged("1.05");
+    }
+	DamageTotalMul("AI_LowDamageMul_Ranged_Tier9")
+    {
+        Ranged("1.1");
         Ranged("0.7");
         Firearms("0.7");
     }

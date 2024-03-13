@@ -4,7 +4,6 @@ float Night_XP_Actions_Reward = IAL_Night_XP_Actions_Reward;
 float Night_XP_Looted_Reward = IAL_Night_XP_Looted_Reward;
 float Night_XP_Unspotted_Reward = IAL_Night_XP_Unspotted_Reward;
 int Night_XP_Combat_Reward = IAL_Night_XP_Combat_Reward;
-float Camera_FOV = IAL_Camera_FOV;
 string SurvivorSense_Cooldown = IAL_SurvivorSense_Cooldown;
 string SurvivorSense_Range = IAL_SurvivorSense_Range;
 string SurvivorSense_Opacity = IAL_SurvivorSense_Opacity;
@@ -47,7 +46,11 @@ float AI_Nighttime_Dmg_Multiplier = IAL_AI_Nighttime_Dmg_Multiplier;
 
 sub main()
 {
-	
+	Param("AnimGraph_BankName", "player");
+	Param("AnimGraph_GraphName", "player_main");
+	Param("AnimGraph_PresetName", "");
+	Param("AnimGraph_BindNamespace", "Human");
+
 	Param("ManualSloMoEnabled", "false");
 	Param("ManualSloMoCooldown", "5.0");  
 	
@@ -144,12 +147,12 @@ sub main()
 	Param("BowAutoZoomTime", "-1.0");
     Param("BowZoomEnabled", "0");
 	Param("BowSlowMoTimeMul", "5.0");	
-	Param("BowSlowMoAccuracyMul", "0.25");	
+	Param("BowSlowMoAccuracyMul", "0.25");
 	Param("SlowMoDurationToCancel", "0.35");
 	Param("BowMaxThrowFactor", "0.65");	
 	Param("BowAutoReleaseTime", "-1.0");	
 	Param("BowMultiShotMinTimeToActivate", "-1.0");
-    Param("BowEnableDamageScalingByForce", "false");
+    Param("BowEnableDamageScalingByForce", "true");
 
     Param("ArrowsCanBePickedUp", "true");
 
@@ -624,17 +627,17 @@ sub main()
     Param("AfterDeathHealthFactor", "Player_AfterDeathHealth");   // Part of MaxHealth restored after respawn
     Param("BulletAccuracyFactor", "1.0");
 	Param("UnlockedLoadoutsCount", "1.0");
-    Param("EquipmentSlotsCount", IAL_Inventory_Equipment_Slots);          //total inventory slots for equipment
+    Param("EquipmentSlotsCount", "16");          //total inventory slots for equipment
     Param("VisibleEquipmentSlotsCount", "4");   //how many "quick slots" player has in hud wheels (must be < EquipmentSlotsCount)
-    Param("ConsumableSlotsCount", IAL_Inventory_Consumables_Slots);         //total inventory slots for consumables
+    Param("ConsumableSlotsCount", "16");         //total inventory slots for consumables
     Param("VisibleConsumableSlotsCount", "4");  //how many "quick slots" player has in hud wheels (must be < ConsumableSlotsCount)
     Param("RestrictedEquipmentSlotsCount", "0"); // UV Flashlight, Binoculars, RopeHook. Value is increased from skills that grants thoes equipments
-	Param("QuickSlotsCount", IAL_Inventory_Weapon_Slots);              //total inventory slots for weapons
+	Param("QuickSlotsCount", "24");              //total inventory slots for weapons
     Param("VisibleQuickSlotsCount", "4");       //how many "quick slots" player have on hud wheels (must be < QuickSlotsCount)
     Param("InventorySize", "0");
     Param("ItemsInventorySize", "441");
     Param("MaxInventorySize", "8");
-    Param("AmmoSlotsCount", IAL_Inventory_Ammo_Slots); // limited max is 100
+    Param("AmmoSlotsCount", "12"); // limited max is 100
     Param("StorageAmmoSlotsCount", IAL_Storage_Size_Ammo);
     Param("SwimMoveSpeed", "2.5");
     Param("SwimSprintSpeed", "4.0");
@@ -1474,13 +1477,13 @@ sub main()
     Param("AccuracyLoseSpeed", "1.5");
 	
 	Param("AccuracyAngleInSprint", "3.5"); //hip fire
-	Param("AccuracyBlendTimInSprint", "1.0");
+	Param("AccuracyBlendTimInSprint", "0.5");
 	
-	Param("AccuracyAngleInAir", "1.2"); //hip fire
-	Param("AccuracyBlendTimInAir", "1.0");
+	Param("AccuracyAngleInAir", "1.12"); //hip fire
+	Param("AccuracyBlendTimInAir", "0.25");
 	
 	Param("AccuracyAngleInWalk", "1.0"); //hip fire
-	Param("AccuracyBlendTimInWalk", "1.0");
+	Param("AccuracyBlendTimInWalk", "0.5");
 	
     Param("CrouchAccuracyGainFactor", "1.0");
     Param("BestTargetMeleeRange", "4.0"); 
