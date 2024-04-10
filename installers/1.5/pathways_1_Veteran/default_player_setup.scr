@@ -2029,10 +2029,6 @@ sub main()
 	
 		
 		Item("Outfitset_IAL_Helmet_Military_01_White", 1, "");
-		Item("Outfitset_IAL_Torso_Military_01_White", 1, "");
-		Item("Outfitset_IAL_Gloves_Brawler_01_White", 1, "");
-		Item("Outfitset_IAL_TorsoAddon_Military_02_White", 1, "");
-		Item("Outfitset_IAL_Pants_Military_01_White", 1, "");
 		Item("Weapon_Firearm_Pistol", 1, "");
 		Item("Ammo_Firearm_Pistol", 48, "");
 		Item("wpn_1hb_stk_a_fpp_r0_dukes", 1, "");
@@ -4235,10 +4231,6 @@ sub main()
 		/////////////////////////
 		//Equiped Gear
 		Item("Outfitset_IAL_Helmet_Military_01_White", 1, "");
-		Item("Outfitset_IAL_Torso_Military_01_White", 1, "");
-		Item("Outfitset_IAL_Gloves_Brawler_01_White", 1, "");
-		Item("Outfitset_IAL_TorsoAddon_Military_02_White", 1, "");
-		Item("Outfitset_IAL_Pants_Military_01_White", 1, "");
 		
 		/////////////////////////
 		//4 Consumable Slot
