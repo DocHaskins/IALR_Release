@@ -6,7 +6,7 @@
         },
         {
             "header": "Known Bugs:",
-            "body": "Currently the Flamethrowers break the audio due to the 1.15 update, I have to recreate them for them to work properly"
+            "body": "Currently the Flamethrowers break the audio due to the 1.15 update, I have to recreate them for them to work properly. Armor clipping is still an issue with all custom armors (still no fix in sight). Custom Maps Optional still has the Sofia bug when trying to continue the quest, I'll return to using the Techland Mod tools eventually but for now there's too much to do in other areas. I noticed that some savegames seem to have the wrong flashlight settings baked into the savegame, so if your flashlight is super weak it may be due to that."
         },
         {
             "header": "Updated to support Nightmare Difficulty",
