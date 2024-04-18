@@ -4061,6 +4061,18 @@ sub main()
             Pool("SP_1H_1H");
             Pool("SP_1H_S");
             Pool("SP_SP_A");
+            Pool("HA_1H_A");
+            Pool("HA_1H_S");
+            Pool("SP_HA_1H");
+            Pool("HA_1H_A");
+            Pool("HA_1H_S");
+            Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -4088,7 +4100,9 @@ sub main()
             Pool("1H_SP_A_S");
             Pool("S_A_A_A");    
             Pool("SP_A_A_A");
+            Pool("2HE_A_A_A");
             Pool("2H_A_A_A");
+            Pool("2HE_2H_A_A");
             Pool("2H_SP_S_S");
             Pool("SP_SP_1H_1H");
             Pool("SP_SP_1H_A");
@@ -4101,6 +4115,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -4115,7 +4135,9 @@ sub main()
             Pool("1H_SP_A_S");
             Pool("S_A_A_A");    
             Pool("SP_A_A_A");
+            Pool("2HE_A_A_A");
             Pool("2H_A_A_A");
+            Pool("2HE_2H_A_A");
             Pool("2H_SP_S_S");
             Pool("SP_SP_1H_1H");
             Pool("SP_SP_1H_A");
@@ -4125,7 +4147,9 @@ sub main()
             Pool("1H_1H_S_M");
             Pool("1H_1H_A_M");
             Pool("1H_S_SP_M");
+            Pool("1H_S_2HE_M");
             Pool("1H_S_2H_M");
+            Pool("2HE_1H_M_M");
             Pool("2H_1H_M_M");
             Pool("SP_1H_M_M");
             Pool("2H_M_M_M");
@@ -4141,6 +4165,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
         }
         
         Difficulty("Difficulty_07")
@@ -4199,6 +4237,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -4257,6 +4313,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -4315,6 +4389,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 		Difficulty("NewGamePlus")
         {
@@ -4372,6 +4464,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         
         CooldownTime(1.0);
@@ -4609,13 +4719,19 @@ sub main()
             Pool("2H_A_A"); 
             Pool("SP_1H_1H");
             Pool("SP_1H_S");
-            Pool("SP_SP_A");    
+            Pool("SP_SP_A");
             Pool("HA_1H_A");
             Pool("HA_1H_S");
             Pool("SP_HA_1H");
             Pool("HA_1H_A");
             Pool("HA_1H_S");
-            Pool("SP_HA_1H");             
+            Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");             
         }
 
         Difficulty("Difficulty_R04")
@@ -4656,6 +4772,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -4702,6 +4824,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
         }
         
         Difficulty("Difficulty_07")
@@ -4763,6 +4899,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -4824,6 +4978,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -4885,6 +5057,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 		
         Difficulty("NewGamePlus")
@@ -4947,6 +5137,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         
         CooldownTime(1800.0);
@@ -4990,6 +5198,24 @@ sub main()
             Pool("2HE_1H_M_M");
             Pool("1H_2HE_S_M_M");
             Pool("2HE_2HE_A_A_S");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }       
         
         CooldownTime(360.0);
@@ -5235,6 +5461,12 @@ sub main()
             Pool("HA_1H_A");
             Pool("HA_1H_S");
             Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -5275,6 +5507,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -5317,6 +5555,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
         }
         
         Difficulty("Difficulty_07")
@@ -5375,6 +5627,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -5433,6 +5703,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -5491,6 +5779,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 		
         Difficulty("NewGamePlus")
@@ -5549,6 +5855,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         
         CooldownTime(1800.0);
@@ -5592,6 +5916,24 @@ sub main()
             Pool("2HE_1H_M_M");
             Pool("1H_2HE_S_M_M");
             Pool("2HE_2HE_A_A_S");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }       
         
         CooldownTime(360.0);
@@ -6410,6 +6752,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -6475,6 +6823,17 @@ sub main()
             Pool("2H_1H_M_M");
             Pool("SP_1H_M_M");
             Pool("2H_M_M_M");
+            Pool("Companion_Brecken");
+            Pool("Companion_Hakon");
+            Pool("Companion_Rahim");
+            Pool("Companion_Crane");
+            Pool("Companion_Aitor");
+            Pool("Companion_Spike");
+            Pool("Companion_Lawan");
+            Pool("Companion_Scavenger_1H");
+            Pool("Companion_Scavenger_Bow");
+            Pool("Random_Hero_1H");
+            Pool("Random_Hero_Bow");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -6489,6 +6848,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
         }
         
         Difficulty("Difficulty_07")
@@ -6572,6 +6945,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -6655,6 +7046,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -6738,6 +7147,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 		
         Difficulty("NewGamePlus")
@@ -7239,6 +7666,12 @@ sub main()
             Pool("Hangman_PK_HA_1H_A");
             Pool("Hangman_PK_HA_1H_S");
             Pool("Hangman_PK_SP_HA_1H");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -7263,6 +7696,12 @@ sub main()
             Pool("Hangman_PK_HA_1H_A");
             Pool("Hangman_PK_HA_1H_S");
             Pool("Hangman_PK_SP_HA_1H");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
         }
         
         Difficulty("Difficulty_05")
@@ -7292,6 +7731,12 @@ sub main()
             Pool("Hangman_PK_HA_S_A");
             Pool("Hangman_PK_HA_1H_M");
             Pool("Hangman_PK_SP_HA_A");
+            Pool("Hangman_PK_HA_S_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
+            Pool("Hangman_PK_HA_S_G");
+            Pool("Hangman_PK_HA_1H_G");
+            Pool("Hangman_PK_SP_HA_G");
         }   
 
         Difficulty("Difficulty_06")
@@ -7324,7 +7769,21 @@ sub main()
             Pool("Hangman_PK_2HE_1H_M_M");
             Pool("Hangman_PK_HA_HA_S_S");
             Pool("Hangman_PK_HA_S_1H_M");
-            Pool("Hangman_PK_SP_HA_M_A");             
+            Pool("Hangman_PK_SP_HA_M_A");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");                        
         }           
 
         Difficulty("Difficulty_07")
@@ -7358,6 +7817,20 @@ sub main()
             Pool("Hangman_PK_HA_HA_S_S");
             Pool("Hangman_PK_HA_S_1H_M");
             Pool("Hangman_PK_SP_HA_M_A");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
         }
 
         Difficulty("Difficulty_08")
@@ -7391,6 +7864,20 @@ sub main()
             Pool("Hangman_PK_HA_HA_S_S");
             Pool("Hangman_PK_HA_S_1H_M");
             Pool("Hangman_PK_SP_HA_M_A");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -7424,6 +7911,20 @@ sub main()
             Pool("Hangman_PK_HA_HA_S_S");
             Pool("Hangman_PK_HA_S_1H_M");
             Pool("Hangman_PK_SP_HA_M_A");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
         }     
 
         Difficulty("NewGamePlus")
@@ -7457,6 +7958,20 @@ sub main()
             Pool("Hangman_PK_HA_HA_S_S");
             Pool("Hangman_PK_HA_S_1H_M");
             Pool("Hangman_PK_SP_HA_M_A");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
+            Pool("Hangman_PK_2HE_A_A_G");
+            Pool("Hangman_PK_2HE_2H_A_G");
+            Pool("Hangman_PK_1H_S_2HE_G");
+            Pool("Hangman_PK_2HE_1H_M_G");
+            Pool("Hangman_PK_HA_HA_S_G");
+            Pool("Hangman_PK_HA_S_1H_G");
+            Pool("Hangman_PK_SP_HA_M_G");
         }   		
         
         CooldownTime(2700.0);
@@ -7652,6 +8167,12 @@ sub main()
             Pool("Hostage_SUR_HA_1H_A");
             Pool("Hostage_SUR_HA_1H_S");
             Pool("Hostage_SUR_SP_HA_1H");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -7675,6 +8196,12 @@ sub main()
             Pool("Hostage_SUR_HA_1H_A");
             Pool("Hostage_SUR_HA_1H_S");
             Pool("Hostage_SUR_SP_HA_1H");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
         }
         
         Difficulty("Difficulty_05")
@@ -7704,6 +8231,12 @@ sub main()
             Pool("Hostage_SUR_HA_S_A");
             Pool("Hostage_SUR_HA_1H_M");
             Pool("Hostage_SUR_SP_HA_A");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_HA_1H_G");
+            Pool("Hostage_SUR_SP_HA_G");
         }   
 
         Difficulty("Difficulty_06")
@@ -7737,6 +8270,20 @@ sub main()
             Pool("Hostage_SUR_HA_HA_S_S");
             Pool("Hostage_SUR_HA_S_1H_M");
             Pool("Hostage_SUR_SP_HA_M_A");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
         }           
 
         Difficulty("Difficulty_07")
@@ -7770,6 +8317,20 @@ sub main()
             Pool("Hostage_SUR_HA_HA_S_S");
             Pool("Hostage_SUR_HA_S_1H_M");
             Pool("Hostage_SUR_SP_HA_M_A");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
         }
 
         Difficulty("Difficulty_08")
@@ -7803,6 +8364,20 @@ sub main()
             Pool("Hostage_SUR_HA_HA_S_S");
             Pool("Hostage_SUR_HA_S_1H_M");
             Pool("Hostage_SUR_SP_HA_M_A");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -7836,6 +8411,20 @@ sub main()
             Pool("Hostage_SUR_HA_HA_S_S");
             Pool("Hostage_SUR_HA_S_1H_M");
             Pool("Hostage_SUR_SP_HA_M_A");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
         }
 		
         Difficulty("NewGamePlus")
@@ -7869,6 +8458,20 @@ sub main()
             Pool("Hostage_SUR_HA_HA_S_S");
             Pool("Hostage_SUR_HA_S_1H_M");
             Pool("Hostage_SUR_SP_HA_M_A");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
+            Pool("Hostage_SUR_2HE_A_A_G");
+            Pool("Hostage_SUR_2HE_2H_A_G");
+            Pool("Hostage_SUR_1H_S_2HE_G");
+            Pool("Hostage_SUR_2HE_1H_M_G");
+            Pool("Hostage_SUR_HA_HA_S_G");
+            Pool("Hostage_SUR_HA_S_1H_G");
+            Pool("Hostage_SUR_SP_HA_M_G");
         }		
         
         CooldownTime(1800.0);
@@ -7972,6 +8575,12 @@ sub main()
             Pool("Hostage_PK_HA_1H_A");
             Pool("Hostage_PK_HA_1H_S");
             Pool("Hostage_PK_SP_HA_1H");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }
         
         Difficulty("Difficulty_R04")
@@ -7995,6 +8604,12 @@ sub main()
             Pool("Hostage_PK_HA_1H_A");
             Pool("Hostage_PK_HA_1H_S");
             Pool("Hostage_PK_SP_HA_1H");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }
         
         Difficulty("Difficulty_05")
@@ -8024,6 +8639,12 @@ sub main()
             Pool("Hostage_PK_HA_S_A");
             Pool("Hostage_PK_HA_1H_M");
             Pool("Hostage_PK_SP_HA_A");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }   
 
         Difficulty("Difficulty_06")
@@ -8057,6 +8678,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }       
 		
 		Difficulty("Difficulty_07")
@@ -8090,6 +8725,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
 		
 		Difficulty("Difficulty_08")
@@ -8123,6 +8772,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
 		
 		Difficulty("Difficulty_09")
@@ -8156,6 +8819,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
         
 
@@ -8190,6 +8867,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }        
         CooldownTime(2700.0);
         TimeOfDay(8.1, 19.0);
@@ -8303,6 +8994,12 @@ sub main()
             Pool("Hostage_PK_HA_1H_A");
             Pool("Hostage_PK_HA_1H_S");
             Pool("Hostage_PK_SP_HA_1H");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }
         
         Difficulty("Difficulty_R04")
@@ -8326,6 +9023,12 @@ sub main()
             Pool("Hostage_PK_HA_1H_A");
             Pool("Hostage_PK_HA_1H_S");
             Pool("Hostage_PK_SP_HA_1H");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }
         
         Difficulty("Difficulty_05")
@@ -8355,6 +9058,12 @@ sub main()
             Pool("Hostage_PK_HA_S_A");
             Pool("Hostage_PK_HA_1H_M");
             Pool("Hostage_PK_SP_HA_A");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_HA_1H_G");
+            Pool("Hostage_PK_SP_HA_G");
         }   
 
         Difficulty("Difficulty_06")
@@ -8388,6 +9097,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }       
 		
 		Difficulty("Difficulty_07")
@@ -8421,6 +9144,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
 		
 		Difficulty("Difficulty_08")
@@ -8454,6 +9191,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
 		
 		Difficulty("Difficulty_09")
@@ -8487,6 +9238,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  
 		
 		Difficulty("NewGamePlus")
@@ -8520,6 +9285,20 @@ sub main()
             Pool("Hostage_PK_HA_HA_S_S");
             Pool("Hostage_PK_HA_S_1H_M");
             Pool("Hostage_PK_SP_HA_M_A");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
+            Pool("Hostage_PK_2HE_A_A_G");
+            Pool("Hostage_PK_2HE_2H_A_G");
+            Pool("Hostage_PK_1H_S_2HE_G");
+            Pool("Hostage_PK_2HE_1H_M_G");
+            Pool("Hostage_PK_HA_HA_S_G");
+            Pool("Hostage_PK_HA_S_1H_G");
+            Pool("Hostage_PK_SP_HA_M_G");
         }  		
         CooldownTime(2700.0);
         TimeOfDay(8.1, 19.0);
@@ -11128,6 +11907,12 @@ sub main()
             Pool("HA_1H_A");
             Pool("HA_1H_S");
             Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -11169,6 +11954,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -11197,6 +11988,7 @@ sub main()
             Pool("2H_1H_M_M");
             Pool("SP_1H_M_M");
             Pool("2H_M_M_M");
+			Pool("Infected_Nest_01_Banshee");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -11211,6 +12003,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
 
         }
         
@@ -11252,6 +12058,7 @@ sub main()
             Pool("SP_SP_1H_1H_S");
             Pool("1H_2H_S_M_M");
             Pool("1H_SP_S_M_M");
+			Pool("Infected_Nest_01_Banshee");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -11270,6 +12077,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -11310,6 +12135,7 @@ sub main()
             Pool("SP_SP_1H_1H_S");
             Pool("1H_2H_S_M_M");
             Pool("1H_SP_S_M_M");
+			Pool("Infected_Nest_01_Banshee");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -11328,6 +12154,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -11368,6 +12212,7 @@ sub main()
             Pool("SP_SP_1H_1H_S");
             Pool("1H_2H_S_M_M");
             Pool("1H_SP_S_M_M");
+			Pool("Infected_Nest_01_Banshee");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -11386,6 +12231,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
         Difficulty("NewGamePlus")
         {
@@ -11425,6 +12288,7 @@ sub main()
             Pool("SP_SP_1H_1H_S");
             Pool("1H_2H_S_M_M");
             Pool("1H_SP_S_M_M");
+			Pool("Infected_Nest_01_Banshee");
             Pool("2HE_A_A_A");
             Pool("2HE_2H_A_A");
             Pool("1H_S_2HE_M");
@@ -11443,6 +12307,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         CooldownTime(1.0);
         TimeOfDay(8.1, 19.0);
@@ -11703,6 +12585,12 @@ sub main()
             Pool("HA_1H_A");
             Pool("HA_1H_S");
             Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -11743,6 +12631,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -11783,6 +12677,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
 
         }
         
@@ -11842,6 +12750,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -11900,6 +12826,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -11958,6 +12902,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
         Difficulty("NewGamePlus")
         {
@@ -12015,6 +12977,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         CooldownTime(1.0);
         TimeOfDay(8.1, 19.0);
@@ -12261,6 +13241,12 @@ sub main()
             Pool("HA_1H_A");
             Pool("HA_1H_S");
             Pool("SP_HA_1H");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
 
         Difficulty("Difficulty_R04")
@@ -12301,6 +13287,12 @@ sub main()
             Pool("HA_S_A");
             Pool("HA_1H_M");
             Pool("SP_HA_A");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
+            Pool("2HE_S_G");
+            Pool("HA_1H_G");
+            Pool("1H_A_G");
         }
         
         Difficulty("Difficulty_06")
@@ -12341,6 +13333,20 @@ sub main()
             Pool("HA_HA_S_S");
             Pool("HA_S_1H_M");
             Pool("SP_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("HA_HA_S_G");
+            Pool("HA_S_1H_G");
+            Pool("SP_HA_M_G");
         }
         
         Difficulty("Difficulty_07")
@@ -12399,6 +13405,24 @@ sub main()
             Pool("HA_HA_1H_M");
             Pool("HA_HA_A_A");
             Pool("HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_G");
+            Pool("HA_HA_A_G");
+            Pool("HA_HA_M_G");
         }
         
         Difficulty("Difficulty_08")
@@ -12457,6 +13481,24 @@ sub main()
             Pool("HA_HA_1H_M_A");
             Pool("HA_HA_2HE_A_A");
             Pool("2HE_HA_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
 
         Difficulty("Difficulty_09")
@@ -12515,6 +13557,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }
         Difficulty("NewGamePlus")
         {
@@ -12572,6 +13632,24 @@ sub main()
             Pool("1HL_HA_1H_M_A");
             Pool("1HL_HA_2HE_A_A");
             Pool("2HE_1HL_HA_M_A");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
+            Pool("2HE_A_A_G");
+            Pool("2HE_2H_A_G");
+            Pool("1H_S_2HE_G");
+            Pool("2HE_1H_M_G");
+            Pool("1H_2HE_S_M_G");
+            Pool("2HE_2HE_A_A_G");
+            Pool("HA_HA_1H_M_G");
+            Pool("HA_HA_2HE_A_G");
+            Pool("2HE_HA_HA_M_G");
         }		
         CooldownTime(1.0);
         TimeOfDay(8.1, 19.0);
@@ -18162,7 +19240,6 @@ sub main()
 		SaveCooldownTime(true);
     }
 	
-	
     // INFECTED AMBUSH
     
     Encounter("GAAS_Ch2_Bearers_Base")
@@ -18247,9 +19324,7 @@ sub main()
 		MaxActiveInstances(1);
 		SaveCooldownTime(true);
     }
-	
-	
-	
+
 	Encounter("DLC_Opera_Garden")
     {
         EncounterGroup("Master_Modules");
@@ -18832,6 +19907,67 @@ sub main()
         SaveCooldownTime(true); 
     }
         
+
+    //DLO
+    
+    Encounter("DLO_Monster_Set_All")
+    {
+        EncounterGroup("Special_Day");
+        GeneralDifficulty()
+        {
+            Pool("EE_Monster_Set_42");
+            Pool("EE_Monster_Set_39");
+            Pool("EE_Monster_Set_33");
+            Pool("EE_Monster_Set_20");
+            Pool("EE_Monster_Set_19");
+            Pool("EE_Monster_Set_11");
+            Pool("EE_Monster_Set_08");
+            Pool("EE_Monster_Set_05");            
+        }
+        MaxActiveInstances(1);
+        CooldownTime(1.0);
+		TimeOfDay(8.0, 19.5);
+        SaveCooldownTime(true); 
+    }
+    
+    Encounter("DLO_Monster_Set_Unique_01")
+    {
+        EncounterGroup("Special_Day");
+        GeneralDifficulty()
+        {
+            Pool("EE_Monster_Set_Unique_01");           
+        }
+        MaxActiveInstances(1);
+        CooldownTime(1.0);
+		TimeOfDay(8.0, 19.5);
+        SaveCooldownTime(true);
+    }
+    
+    Encounter("DLO_Monster_Set_Starter_01")
+    {
+        EncounterGroup("Special_Day");
+        GeneralDifficulty()
+        {
+            Pool("DLO_Monster_Set_Starter_01");           
+        }
+        MaxActiveInstances(1);
+        CooldownTime(1.0);
+		TimeOfDay(8.0, 19.5);
+        SaveCooldownTime(true);
+    }
+    
+	
+    Encounter("Camp_Infected_Sets")
+    {
+        EncounterGroup("Master_Modules");
+        GeneralDifficulty()
+        {
+            Pool("Infected_Sets_Hard");
+        }
+    
+        CooldownTime(1800.0);
+        TimeOfDay(-1, -1);
+    }
 
     //Pilgrim Mission
     Encounter("PM_Random_Warmup")
@@ -19838,7 +20974,7 @@ sub main()
     
     Encounter("Infected_Patrol_Volatile_Daytime")
     {
-        EncounterGroup("Patrol");
+        EncounterGroup("EE_Patrol");
         GeneralDifficulty()
         {
             Pool("Infected_Patrol_Volatile_Daytime");

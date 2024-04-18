@@ -1,12 +1,16 @@
 {
     "news": [
         {
-            "header": "Updated to 1.15.4",
+            "header": "Updated to 1.16.0",
             "body": "Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
             "header": "Known Bugs:",
             "body": "Currently the Flamethrowers break the audio due to the 1.15 update, I have to recreate them for them to work properly"
+        },
+        {
+            "header": "Updated to support Nightmare Difficulty",
+            "body": "Welcome back! The mod has been updated to support Nightmare difficulty, please let me know any specific issues you spot on the Discord IALR-Feedback channel or ialr-dl2-bug-reporting"
         },
         {
             "header": "New Veteran Skin released",

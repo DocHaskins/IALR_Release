@@ -60,7 +60,6 @@ sub IALViralPresets()
 	Preset("Viral_Fresh_PeaceKeeper", "Viral") //OPEN WORLD
     {
         // Model override
-        SetField("m_AIModelName", "npc_x13_viral_pk_a.model;npc_x13_viral_pk_b.model;npc_x13_viral_pk_c.model;ialr_viral_man_tier_1_pk_01.model;ialr_viral_man_tier_1_pk_02.model;ialr_viral_man_tier_1_pk_03.model;ialr_viral_man_tier_1_pk_04.model;ialr_viral_man_tier_1_pk_05.model;ialr_viral_man_tier_1_pk_06.model;ialr_viral_man_tier_1_pk_07.model;ialr_viral_man_tier_1_pk_08.model;ialr_viral_man_tier_1_pk_09.model;ialr_viral_man_tier_1_pk_10.model;ialr_viral_man_tier_1_pk_11.model;ialr_viral_man_tier_1_pk_12.model;ialr_viral_man_tier_1_pk_13.model;ialr_viral_man_tier_1_pk_14.model;ialr_viral_man_tier_1_pk_15.model;ialr_viral_man_tier_1_pk_16.model;ialr_viral_man_tier_1_pk_17.model;ialr_viral_man_tier_1_pk_18.model;ialr_viral_man_tier_1_pk_19.model;ialr_viral_man_tier_1_pk_20.model;ialr_viral_man_tier_1_pk_21.model;ialr_viral_man_tier_1_pk_22.model;ialr_viral_man_tier_1_pk_23.model;ialr_viral_man_tier_1_pk_24.model;ialr_viral_man_tier_1_pk_25.model;ialr_viral_man_tier_1_pk_26.model;ialr_viral_man_tier_1_pk_27.model");
         SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Peacekeeper);
     }
 	
@@ -72,8 +71,7 @@ sub IALViralPresets()
 	
 	Preset("Viral_Fresh_Bandit", "Viral") //OPEN WORLD
     {
-        // Model override
-        SetField("m_AIModelName", "ialr_viral_man_tier_1_bandit_01.model;ialr_viral_man_tier_1_bandit_02.model;ialr_viral_man_tier_1_bandit_03.model;ialr_viral_man_tier_1_bandit_04.model;ialr_viral_man_tier_1_bandit_05.model;ialr_viral_man_tier_1_bandit_06.model;ialr_viral_man_tier_1_bandit_07.model;ialr_viral_man_tier_1_bandit_08.model;ialr_viral_man_tier_1_bandit_09.model;ialr_viral_man_tier_1_bandit_10.model;ialr_viral_man_tier_1_bandit_11.model;ialr_viral_man_tier_1_bandit_12.model;ialr_viral_man_tier_1_bandit_13.model;ialr_viral_man_tier_1_bandit_14.model;ialr_viral_man_tier_1_bandit_15.model;ialr_viral_man_tier_1_bandit_16.model;ialr_viral_man_tier_1_bandit_17.model;ialr_viral_man_tier_1_bandit_18.model;ialr_viral_man_tier_2_bandit_01.model;ialr_viral_man_tier_3_bandit_01.model");
+        // Logic override
     }
 	
 	Preset("Viral_Fresh_Bandit_Resting", "Viral_Fresh_Bandit") //OPEN WORLD
@@ -85,8 +83,6 @@ sub IALViralPresets()
 	Preset("Viral_Fresh_Renegade", "Viral") //OPEN WORLD
     {
         // Model override
-        SetField("m_AIModelName", "ialr_viral_man_tier_3_renegade_01.model;ialr_viral_man_tier_2_renegade_01.model;ialr_viral_man_tier_1_renegade_01.model;ialr_viral_man_tier_1_renegade_02.model;ialr_viral_man_tier_1_renegade_03.model;ialr_viral_man_tier_1_renegade_04.model;ialr_viral_man_tier_1_renegade_05.model;ialr_viral_man_tier_1_renegade_06.model;ialr_viral_man_tier_1_renegade_07.model;ialr_viral_man_tier_1_renegade_08.model;ialr_viral_man_tier_1_renegade_09.model;ialr_viral_man_tier_1_renegade_10.model;ialr_viral_man_tier_1_renegade_11.model;ialr_viral_man_tier_2_renegade_01.model;ialr_viral_man_tier_3_renegade_01.model");
-        SetField("m_SurvivorSensePreset", IAL_SurvivorSense_Outline_AI_Viral_Renegade);
     }
 	
 	Preset("Viral_Fresh_Renegade_Resting", "Viral_Fresh_Renegade") //OPEN WORLD
@@ -186,7 +182,6 @@ sub IALViralPresets()
 
     Preset("Evil_Vampire_Child_01", "Vampire_LowTier")
     {
-        SetField("m_AIModelName", "npc_prologue_boy_02_vampire.model;npc_prologue_boy_07_vampire.model;npc_prologue_boy_11_vampire.model;child_boy_03_a_vampire.model;npc_prologue_girl_04_vampire.model;npc_prologue_girl_07_vampire.model;child_girl_01_b_vampire.model;child_girl_02_c_vampire.model");
         SetField("m_MainBehaviorTree", "VIRAL_VAMPIRE_BT");
         SetField("m_ConstFilename", "viral_vampire_profile_base");
         SetField("m_ForcedBodyScaleMax", "0.9");

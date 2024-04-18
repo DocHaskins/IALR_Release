@@ -63,7 +63,6 @@ sub main()
     Param("WallRunFrontMinYVelToAscend", "1.0");    
     
     // WallRun Side
-    // WallRun Side
     Param("WallRunSideEnabled", "false");
 	Param("WallRunSideMinAngleToStart", "-90.0");
     Param("WallRunSideMaxAngleToStart", "-14.5");
@@ -153,6 +152,25 @@ sub main()
 	Param("BowAutoReleaseTime", "-1.0");	
 	Param("BowMultiShotMinTimeToActivate", "-1.0");
     Param("BowEnableDamageScalingByForce", "true");
+
+    Param("BowPowerShotEnabled", "false");
+    Param("BowPowerShotPrepareDuration", "0.3");
+    Param("BowPowerShotPrepareDmgMultiplier", "0.0");
+    Param("BowPowerShotChargeStartDuration", "1.5"); // Duration between no charge and perfect shot. 
+    Param("BowPowerShotChargeStartDmgMultiplier", "0.0"); // Dmg mul for above.
+    Param("BowPowerShotPerfectChargeStartDuration", "1.0"); // Duration of perfect charge. (Reticule flashing)
+    Param("BowPowerShotPerfectChargeStartDmgMultiplier", "1.25"); // Dmg mul for perfect charge.
+    Param("BowPowerShotPerfectChargeDuration", "0.7"); // Perfect charge sustained for this duration.
+    Param("BowPowerShotPerfectChargeDmgMultiplier", "1.0"); // Dmg Mul - 2nd part of perfect shot. 
+    Param("BowPowerShotOverchargeStartDuration", "0.5"); // Overcharge duration - Perfect charge has passed. The circle starts animating from the center & loses opacity over time.
+    Param("BowPowerShotOverchargeStartDmgMultiplier", "0.0"); // Dmg mul for overcharge. 
+    Param("BowPowerShotOverchargeDuration", "0.1"); 
+    Param("BowPowerShotOverchargeDmgMultiplier", "0.0");
+    Param("BowPowerShotAbortDuration", "0.5");
+    Param("BowPowerShotAbortDmgMultiplier", "0.0");
+    Param("BowPowerShotChargeStartBlurValue", "0.5");
+    Param("BowPowerShotPerfectChargeBlurValue", "1.0");
+
 
     Param("ArrowsCanBePickedUp", "true");
 
@@ -393,7 +411,8 @@ sub main()
 	
 	
 	Param("GlideStaminaCost", "0.1");
-    Param("HoverGliderStaminaCost", "0.4");
+    Param("GlideStaminaCostAtNight", "0.1");
+    Param("HoverGliderStaminaCost", "0.8");
 	
 	Param("StaminaHeavyBreathLevelStartBow", "0.25");
 	Param("StaminaHeavyBreathLevelMaxBow", "0.0");
@@ -406,10 +425,13 @@ sub main()
     Param("MaxStaminaTimeToRegenerate", "24.0");
     Param("MaxStaminaDrainFactor", "1.0");
     Param("MaxStaminaDrainEnabled", "true");
+    Param("StaminaMovementDrainFactor", "1.0");
     Param("MinStaminaLevelFromHit", "0.0");
     Param("StaminaTimeToRegenerateOnEmpty", "11.5");
+    Param("AdvancedStaminaTimeToRegenerateOnEmpty", "0.0");
     Param("StaminaTimeToRegenerateOnEmptyAfterParokur", "11.2");          // NOT WORKING IN COMBAT  -time needed to fully restore stamina when completely depleted
     Param("StaminaTimeToRegenerate", "10.6");                 // time after which stamina starts to regenerate if player still has some stamina left
+    Param("AdvancedStaminaTimeToRegenerate", "3.0");
     Param("StaminaTimeToRegenerateAfterParkour", "10.85");     // time after which stamina starts to regenerate if player still has some stamina left
     Param("StaminaRegeneration", "1.5");                    // WARNING CHANGED SO EVERY THING IS IN SECONDS rate at which stamina regenerates in seconds to full bar!!
 	Param("StaminaRegenerationOutsideDanger", "1.5");
@@ -420,7 +442,16 @@ sub main()
     Param("StaminaRegenerationFactorSlow", "0.33");               // factor when running or being on ladder
 	Param("StaminaRegenerationFactorStand", "0.25");               // factor when standing still
 	Param("StaminaRegenerationFactorStandDalay", "1.0");               // factor when standing still
+    
+    Param("AdvancedStamina", "false");
+    Param("AdvancedStaminaRegenerationRelative", "0.25");
+    Param("AdvancedStaminaRegenerationRelativeOutsideDanger", "0.25");
+    Param("StaminaRegenerationExhaustedRelative", "5.0");
+    Param("StaminaRegenerationExhaustedRelativeOutsideDanger", "5.0");
+    Param("AdvancedStaminaEmptyHitStaminaFactor", "0.6");
 	
+    Param("ExtraJumpsInAir", "0");
+
     Param("HealthRegenerationOnHit", "0.0");
     Param("HealthRegenerationFactorOnHit", "0.0");
 
@@ -617,7 +648,9 @@ sub main()
 	Param("HealthCriticalMaxLevel", "1");
 
     Param("MaxHealth", "DefaultPlayerHealth");                  // Amount of player health
+    Param("MaxHealthTotalMul", "1.0");
     
+    Param("HealthFullRegenerationEnabled", "true");
     Param("HealthRegenerationEnabled", "false");
     Param("HealthRegenerationMaxLevel", "HealthRegenerationMaxLevel");               // Regenerates health up to this value. Post process depends on LowHealthEffectThreshold 
     Param("LowHealthEffectThreshold", "0.95");                // Defines the value of health when critical health post process is working, based on HealthCriticalLevel
@@ -626,7 +659,7 @@ sub main()
     Param("AfterDeathHealthRegenTime", "240");               // Time it takes to regenerate full health after respawn
     Param("AfterDeathHealthFactor", "Player_AfterDeathHealth");   // Part of MaxHealth restored after respawn
     Param("BulletAccuracyFactor", "1.0");
-	Param("UnlockedLoadoutsCount", "1.0");
+	Param("UnlockedLoadoutsCount", "4.0");
     Param("EquipmentSlotsCount", "16");          //total inventory slots for equipment
     Param("VisibleEquipmentSlotsCount", "4");   //how many "quick slots" player has in hud wheels (must be < EquipmentSlotsCount)
     Param("ConsumableSlotsCount", "16");         //total inventory slots for consumables
@@ -657,6 +690,7 @@ sub main()
     Param("MoveForwardMaxSpeed", "3.5");                // DL: 3.5, PREPROD: 3.0
     Param("MoveBackwardMinSpeed", "0.5");
     Param("MoveBackwardMaxSpeed", "2.5");             // DL: 2.5, PREPROD: 2.0
+    Param("ImmortalityBuff", "false");
 	Param("StorageEquipmentSlotsCount", IAL_Storage_Size_Equipment);
     Param("StorageConsumamblesSlotsCount", IAL_Storage_Size_Consumables);
     Param("StorageOtherSlotsCount", IAL_Storage_Size);
@@ -1355,6 +1389,7 @@ sub main()
     Param("InfectionChangePerSecond", "0.0");
     Param("InfectionPercentageChangePerSecond", "0.0");
     Param("PlayersAntizinCapacity", "0.8");
+    Param("PlayersAntizinCapacityNightmare", "0.8");
     Param("PlayersAntizinCapacityCombatBoost", "0.0");
     Param("PlayersAntizinCapacityParkourBoost", "0.0");
     Param("AntizineValueToShoUVLightsLocations", "0.4"); //when antizin lvl is <= this value uv light locations show up on radar (value is the same units as PlayersAntizinCapacity)
@@ -1597,8 +1632,10 @@ sub main()
     Param("SprintBlocked", "false");
     Param("JudoMasterEnabled", "false");
     Param("LowStaminaAttackEnabled", "false");
+    Param("LowStaminaAttackResetsRegeneration", "false");
 	Param("ExhaustedAttackIsPush", "true");	
 	Param("PushAttackStaminaCost", "0.1");
+    Param("PushAttackAdvancedStaminaCost", "0.0");
 	Param("PushLookTimeMul", "0.5");
     Param("TackleUnlocksDoors", "false");
     Param("KickBlockStaminaRecovery", "true");
@@ -1612,9 +1649,12 @@ sub main()
     Param("CanBeRevived", "true");
 	Param("ReviveLimitEliteSurvivorMission", "1.0");
     Param("ReviveLimit", "3.0");		
+    Param("ReviveLimitTowerRaid", "3.0");
+    Param("ReviveLimitTowerRaidElite", "1.0");
 	Param("ReviveLimitResetTime", "300.0");
 	Param("TotalReviveTime", "40.0");
     Param("TotalReviveTimePilgrimMission", "40.0");
+    Param("TotalReviveTimeTowerRaid", "40.0");
     Param("TotalBlockedRespawnReviveTime", "30.0");
     Param("BuggyRemoteEnabled", "false");
     Param("PushActionEnabled", "false");
@@ -2008,7 +2048,7 @@ sub main()
     Param("StaminaRegenerationMul", "1.0");
 
     Param("InjectorDescSuffix", "");
-
+    Param("ThrowableDescSuffix", "");
     Param("InfiniteArrows", "false");
 
     Param("CrouchRollEnabled", "false");
@@ -2173,6 +2213,8 @@ sub main()
     Param("WeaponDamageWeaponThrowMul", "0");
     Param("WeaponDamageWeaponThrowMulCoop", "0");
     Param("ThrownMeleeWeaponDurabilityLoss", "1");
+    Param("ThrownMeleeWeaponHitSeverity", "Heavy"); // Light, Medium, Heavy
+    Param("ThrownMeleeWeaponMoveSeverity", "Heavy"); // Light, Medium, Heavy
 
     Param("ThrowMeleeWeaponMinHoldTime", "0.3");
 	
@@ -2282,11 +2324,16 @@ sub main()
     Param("PilgrimMissionEliteStaminaDamageBoostFactor", "0.6");
 	
 	Param("FlashlightDimmingTime", "-1.0");
+    Param("FlashlightDimmingAudioEventTime", "30.0");
 	Param("FlashlightAutomaticTurnOffTime", "-1.0");
 	Param("FlashlightFlickeringStartTimeFactor", "-1");
 	Param("FlashlightFlickeringBeginProbability", "0.0");
 	Param("FlashlightFlickeringEndProbability", "0.0");
 	Param("FlashlightFlickeringProbabilityInCombatFactor", "0.0");
+    Param("FlashlightMinTimeBetweenFlickering", "-1.0");
+    Param("FlashlightMaxTimeBetweenFlickering", "-1.0");
+    Param("FlashlightTimeBetweenFlickeringEnergyFactor", "1.0");
+    Param("FlashlightUnusableTimeFactor", "-1.0");
 
     Param("FirearmsAimingDepthOfFieldPower", "0.0");
     Param("FirearmsAimingDepthOfFieldDefaultNear", "0.08");
@@ -2294,4 +2341,29 @@ sub main()
     Param("SurvivorMissionsEquipmentSlotsCount", "4");
     Param("SurvivorMissionsConsumableSlotsCount", "4");
     Param("SurvivorMissionsInventorySlotsCount", "4");
+
+    Param("FuryMaxPoints", "100");
+    Param("FuryPointsPerKill", "17");
+    Param("FuryPointsPerHitTaken", "5");
+    Param("FuryPointsPerAmountOfDamgeTaken", "0");
+    Param("FuryPointsPerTimeSpentInDarkness", "0.5");
+    Param("FuryPointsPerTimeSpentInChemicals", "2.0");
+    Param("FuryPointsPerAIHit", "1");
+    Param("FuryPointsPerAmountOfDamageDoneToAI", "0.01");
+    Param("FuryEffectValue", "0.75");
+    Param("FuryActiveTime", "20"); //time in seconds
+    Param("FuryAdditionalFOV", "20");
+    Param("FuryAIHighlightRange", "30");
+
+    Param("ExhaustedEyesClosureEffectStrength", "0.5");
+    Param("ExhaustedEyesClosureEffectStartFactor", "0.3");
+    Param("ExhaustedEyesClosureEffectFadeOut", "0.3");
+    Param("ExhaustedEyesClosureEffectAdvancedStaminaFadeOut", "1.0");
+    Param("ExhaustedEyesClosureEffectAddOnAdvancedStaminaDrained", "0.5");
+
+    Param("FirearmsPistolInfiniteAmmo", "false");
+    Param("FirearmsRevolverInfiniteAmmo", "false");
+    Param("FirearmsRifleInfiniteAmmo", "false");
+    Param("FirearmsShotgunInfiniteAmmo", "false");
+    Param("FirearmsSMGInfiniteAmmo", "false");
 }

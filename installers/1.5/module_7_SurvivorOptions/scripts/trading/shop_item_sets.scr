@@ -968,6 +968,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		Item("Craftplan_Basic_Bow");
 		
 		// CONSUMABLES
@@ -1544,6 +1548,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -2052,6 +2060,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -2582,6 +2594,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -3116,6 +3132,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -3640,6 +3660,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -4188,6 +4212,10 @@ sub main()
 		Item("Craftplan_Grenade_Upgrade6");
 		Item("Craftplan_Grenade_Upgrade7");
 		Item("Craftplan_Grenade_Upgrade8");
+		Item("Craftplan_erlangshen_grenade_Upgrade1");
+		Item("Craftplan_erlangshen_grenade_Upgrade2");
+		Item("Craftplan_Foodbar_Gameover_Upgrade1");
+		Item("Craftplan_Foodbar_Gameover_Upgrade2");
 		
 		// CONSUMABLES
 		
@@ -13659,6 +13687,21 @@ sub main()
 	ItemSet("Docket_SkollAxe")
 	{
 		Item("wpn_15hs_g_fpp_winter_axefrost");
+    }
+
+	ItemSet("Docket_HalloweenKnife")
+	{
+		Item("wpn_1hs_knife_a_HalloweenKnife");
+    }
+
+	ItemSet("Docket_HarranPistol")
+	{
+		Item("Weapon_Firearm_Pistol_Blue");
+    }
+
+	ItemSet("Docket_RopeHook_Pilgrimpo")
+	{
+		Item("ToolSkin_RopeHook_pilgrimpo");
     }
 
 	// ItemSet("Docket_EvilElf_Head")

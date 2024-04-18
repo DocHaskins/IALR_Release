@@ -65,6 +65,28 @@ sub Stamina_Lvl_7() // 600/600
 	Skill("AntizinCapacityUpgradeStamina");//12
 }
 
+sub Stamina_Lvl_9()
+{
+	Skill("AntizinCapacityUpgradeStamina");//1
+	Skill("AntizinCapacityUpgradeStamina");//2
+	Skill("AntizinCapacityUpgradeStamina");//3
+	Skill("AntizinCapacityUpgradeStamina");//4
+	Skill("AntizinCapacityUpgradeStamina");//5
+	Skill("AntizinCapacityUpgradeStamina");//6
+	Skill("AntizinCapacityUpgradeStamina");//7
+	Skill("AntizinCapacityUpgradeStamina");//8
+	Skill("AntizinCapacityUpgradeStamina");//9
+	Skill("AntizinCapacityUpgradeStamina");//10
+	Skill("AntizinCapacityUpgradeStamina");//11
+	Skill("AntizinCapacityUpgradeStamina");//12
+	Skill("AntizinCapacityUpgradeStamina");//13
+	Skill("AntizinCapacityUpgradeStamina");//14
+	Skill("AntizinCapacityUpgradeStamina");//15
+	Skill("AntizinCapacityUpgradeStamina");//16
+	Skill("AntizinCapacityUpgradeStamina");//17
+	Skill("AntizinCapacityUpgradeStamina");//18
+}
+
 sub Health_Lvl_1() // 100/600
 {
 	Skill("AntizinCapacityUpgradeHealth");//1
@@ -124,6 +146,26 @@ sub Health_Lvl_7() // 600/600
 	Skill("AntizinCapacityUpgradeHealth");//10
 	Skill("AntizinCapacityUpgradeHealth");//11
 	Skill("AntizinCapacityUpgradeHealth");//12
+}
+
+sub Health_Lvl_9()
+{
+	Skill("AntizinCapacityUpgradeHealth");//1
+	Skill("AntizinCapacityUpgradeHealth");//2
+	Skill("AntizinCapacityUpgradeHealth");//3
+	Skill("AntizinCapacityUpgradeHealth");//4
+	Skill("AntizinCapacityUpgradeHealth");//5
+	Skill("AntizinCapacityUpgradeHealth");//6
+	Skill("AntizinCapacityUpgradeHealth");//7
+	Skill("AntizinCapacityUpgradeHealth");//8
+	Skill("AntizinCapacityUpgradeHealth");//9
+	Skill("AntizinCapacityUpgradeHealth");//10
+	Skill("AntizinCapacityUpgradeHealth");//11
+	Skill("AntizinCapacityUpgradeHealth");//12
+	Skill("AntizinCapacityUpgradeHealth");//13
+	Skill("AntizinCapacityUpgradeHealth");//14
+	Skill("AntizinCapacityUpgradeHealth");//15
+	Skill("AntizinCapacityUpgradeHealth");//16
 }
 
 /// Correct Player Rank/Game Difficulty Subs
@@ -411,6 +453,170 @@ sub Difficulty_7_Skills_default()
 		Skill("GRE_Keyfinder"); 
 }
 
+sub Difficulty_8_Skills()
+{
+	Skill("run_faster");
+	
+	//Parkour - Fulltree
+	Skill("height_jump");
+	
+	Skill("active_land");
+	Skill("active_land2");
+	Skill("active_land_jump");
+	
+	Skill("firm_grip");
+	Skill("fast_climb");
+	Skill("ledge_master");
+	
+	Skill("far_jump");
+	Skill("double_jump");
+	Skill("rotate_jump");
+	
+	Skill("sleek_runner");
+	Skill("slide_advanced");
+	Skill("slide_jump");
+	Skill("advanced_crouch");
+	Skill("charge_tackle");
+	
+	Skill("dash");
+	Skill("dash_advanced");
+	Skill("after_boost");
+	Skill("ram");
+	Skill("enemy_jump");
+	
+	Skill("horizontal_wall_run");
+	Skill("vertical_wall_run");
+	Skill("wall_run_jump");
+	Skill("wall_jump_sequence");
+	
+	//Combat - Fulltree
+	Skill("parkour_combat");
+	
+	Skill("jump_attack");
+	Skill("vault_kick_ragdoll");
+	Skill("stomp");
+	Skill("wrestle_kick");
+	
+	Skill("perfect_dodge");
+	Skill("nagewaza");
+	Skill("nagewaza_throw");
+	
+	Skill("power_attack");
+	Skill("windmill");
+	Skill("ground_pound");
+	
+	Skill("perfect_block");
+	Skill("block_projectiles");
+	Skill("deflect_projectiles");
+	Skill("charge_grab");
+	
+	Skill("silent_takedown");
+	Skill("silent_takedown_throw");
+	Skill("ledge_takedown");
+	
+	Skill("ranged_mastery");
+	Skill("power_shot");
+	//Skill("multiple_shots");
+	Skill("parkour_ranged");
+	
+	Skill("air_takedown");
+	Skill("air_takedown_shockwave");
+}
+
+sub Tools_All()
+{
+		//Tools
+		Skill("CubeKey"); 
+		Skill("Binoculars");
+		Skill("Backpack"); 
+		Skill("Paraglider");
+		Skill("Paraglider_2");
+		Skill("UV_Flashlight");
+		Skill("UV_Flashlight_2");
+		Skill("GrappleHook");
+		Skill("GrappleHook_2");
+		Skill("GRE_Keyfinder"); 
+}
+
+sub Skills_ALL() 
+{
+	Skill("run_faster");
+	
+	//Parkour - Fulltree
+	Skill("height_jump");
+	
+	Skill("active_land");
+	Skill("active_land2");
+	Skill("active_land_jump");
+	
+	Skill("firm_grip");
+	Skill("fast_climb");
+	Skill("ledge_master");
+	
+	Skill("far_jump");
+	Skill("double_jump");
+	Skill("rotate_jump");
+	
+	Skill("sleek_runner");
+	Skill("slide_advanced");
+	Skill("slide_jump");
+	Skill("advanced_crouch");
+	Skill("charge_tackle");
+	
+	Skill("dash");
+	Skill("dash_advanced");
+	Skill("after_boost");
+	Skill("ram");
+	Skill("enemy_jump");
+	
+	Skill("horizontal_wall_run");
+	Skill("vertical_wall_run");
+	Skill("wall_run_jump");
+	Skill("wall_jump_sequence");
+	
+	//Combat - Fulltree
+	Skill("parkour_combat");
+	
+	Skill("jump_attack");
+	Skill("vault_kick_ragdoll");
+	Skill("stomp");
+	Skill("wrestle_kick");
+	
+	Skill("perfect_dodge");
+	Skill("nagewaza");
+	Skill("nagewaza_throw");
+	
+	Skill("power_attack");
+	Skill("windmill");
+	Skill("ground_pound");
+	
+	Skill("perfect_block");
+	Skill("block_projectiles");
+	Skill("deflect_projectiles");
+	Skill("charge_grab");
+	
+	Skill("silent_takedown");
+	Skill("silent_takedown_throw");
+	Skill("ledge_takedown");
+	
+	Skill("ranged_mastery");
+	Skill("power_shot");
+	Skill("multiple_shots");
+	Skill("parkour_ranged");
+	
+	Skill("air_takedown");
+	Skill("air_takedown_shockwave");
+	
+	Skill("CubeKey"); 
+	Skill("Binoculars"); // Tool
+	Skill("Backpack"); // Tool
+	Skill("Paraglider"); // Tool
+	Skill("GrappleHook"); // Tool	
+	Skill("UV_Flashlight"); // Tool
+	Skill("GRE_Keyfinder"); // Tool
+	Skill("GreInhibitorDetector"); // Tool
+}
+
 sub LL_Level_25()
 {
 	//1h slash
@@ -448,6 +654,426 @@ sub LL_Level_25()
 	Skill("LP_faster_pass_land_recov");
 	Skill("LP_faster_pass_land_recov");
 	Skill("LP_faster_pass_land_recov");
+}
+
+sub LL_MAX()
+{
+	//1h slash
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	Skill("LP_1h_slash_dmg");
+	
+	
+	//1h blunt
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	Skill("LP_1h_blunt_dmg");
+	
+	
+	//2h slash
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	Skill("LP_2h_slash_dmg");
+	
+	
+	//2h blunt
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	Skill("LP_2h_blunt_dmg");
+	
+	
+	//xbow
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	Skill("LP_xbow_dmg");
+	
+	
+	//bow
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	Skill("LP_bow_dmg");
+	
+	//punches and knuckledusters
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	Skill("LP_hth_dmg");
+	
+	//throwables
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	Skill("LP_throwables_dmg");
+	
+	
+	//explosive throwables
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	Skill("LP_expl_throwables_dmg");
+	
+	
+	//landing recovery
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	Skill("LP_faster_pass_land_recov");
+	
+	
+	//Master (Reduce Stamina Cost)
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	Skill("LP_reduce_stamina_cost_of_attack");
+	
+	
+	//Immortal (Melee Heal On DMG)
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	Skill("LP_heal_on_damage_done_melee");
+	
+	
+	//Expert (DMG Done With Skills)
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	Skill("LP_increase_damage_done_with_skills");
+	
+	
+	//Tank (Reduce Damage Taken)
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	Skill("LP_reduce_damage_taken");
+	
+	
+	//Hero (Critical Chance)
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
+	Skill("LP_critical_hit_chance");
 }
 
 /// Blueprint Sets
@@ -1677,140 +2303,7 @@ sub main()
 		Level(50, "Experience", 1.0);
     }
 	
-	Preset("DLO_Player_Difficulty_9")		// Difficulty 9 Frontier
-    {
-		/////////////////////////
-		//Health, Stamin and Skill imports
-		
-		use Stamina_Lvl_7();
-		Skill("AntizinCapacityUpgradeStamina");//13
-		Skill("AntizinCapacityUpgradeStamina");//14
-		Skill("AntizinCapacityUpgradeStamina");//15
-		Skill("AntizinCapacityUpgradeStamina");//16
-		Skill("AntizinCapacityUpgradeStamina");//17
-		Skill("AntizinCapacityUpgradeStamina");//18
-		Skill("AntizinCapacityUpgradeStamina");//19
-		Skill("AntizinCapacityUpgradeStamina");//20
-		Skill("AntizinCapacityUpgradeStamina");//21
-		use Health_Lvl_7();
-		Skill("AntizinCapacityUpgradeHealth");//13
-		Skill("AntizinCapacityUpgradeHealth");//14
-		Skill("AntizinCapacityUpgradeHealth");//15
-		Skill("AntizinCapacityUpgradeHealth");//16
-		Skill("AntizinCapacityUpgradeHealth");//17
-		Skill("AntizinCapacityUpgradeHealth");//18
-		Skill("AntizinCapacityUpgradeHealth");//19
-		Skill("AntizinCapacityUpgradeHealth");//20
-		Skill("AntizinCapacityUpgradeHealth");//21
-		
-		use Difficulty_7_Skills_default();
-		
-		/////////////////////////
-		//Player Level
-
-		//Level(17, "Traversal", 1.0);
-        //Level(15, "Combat", 1.0);
-		//Level(48, "Experience", 1.0);
-		
-		/////////////////////////
-		//Additional Skills
-		
-		Skill("wrestle_kick");
-		Skill("stomp");
-		Skill("air_takedown");
-		Skill("air_takedown_shockwave");
-		Skill("horizontal_wall_run");
-		Skill("vertical_wall_run");
-		Skill("wall_run_jump");
-		Skill("ground_pound");
-		Skill("double_jump");
-		Skill("enemy_jump");
-		Skill("multiple_shots");
-		Skill("rotate_jump");
-		Skill("wall_jump_sequence");
-		Skill("parkour_ranged");
-		Skill("Paraglider_3");
-		Skill("GrappleHook_3");
-		
-		/////////////////////////
-		//4 Weapon Slot
-		
-		Item("wpn_1hs_mach_a_fpp_r24", 1, "", "Orange");
-		Item("wpn_2hp_bow_t9", 1, "", "Orange");
-		Item("wpn_2hs_i_fpp_r24", 1, "", "Violet");
-		
-		
-		/////////////////////////
-		//Equiped Gear
-		
-		Item("Outfitset_MeleeDPS_TorsoAddon_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Gloves_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Torso_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Legs_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Shoes_Tier8_Violet", 1, "");
-		
-		/////////////////////////
-		//4 Consumable Slot
-		
-		Item("Medkit_Large", 4, "");
-		Item("Potion_DamageReduction_Upgrade6", 3, "");
-		Item("Potion_HealthRegeneration_Upgrade6", 3, "");
-		Item("Potion_Antizine_Upgrade6", 3, "");
-		
-		/////////////////////////
-		//4 Throwable Slot
-
-		Item("Throwable_ThrowingKnifeAGen_Upgrade8", 30, "");
-		Item("UV_Flare_Upgrade6", 10, "");
-		Item("Throwable_Decoy_Upgrade6", 10, "");
-		Item("Throwable_Molotov_Upgrade6", 6, "");
-		
-		/////////////////////////
-		//Inventory - Weapons
-		
-		//Item("wpn_15hs_b_fpp_redkatana", 1, "", "Platinum");
-		Item("wpn_1hb_ham_b_fpp_r22", 2, "", "Violet");
-		Item("wpn_2hs_i_fpp_r22", 2, "", "Violet");
-		Item("wpn_2hb_e_fpp_r22", 2, "", "Violet");
-		
-		
-		/////////////////////////
-		//Inventory - Gear
-		
-		Item("Outfitset_RangedDPS_TorsoAddon_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Gloves_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Torso_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Legs_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Shoes_Tier7_Violet", 1, "");
-		
-		/////////////////////////
-		//Inventory - Consumables
-		
-		Item("Medkit_Small_Upgrade6", 10, "");
-		
-		/////////////////////////
-		//Inventory - Throwables
-		
-		Item("Throwable_Coin", 69, "");
-		Item("Throwable_ExplosiveGrenade_Upgrade6", 5, "");
-		
-		/////////////////////////
-		//Inventory - Ammo
-		
-		Item("Ammo_Arrow", 50, "");
-		
-
-		/////////////////////////
-		//Inventory - Other
-		
-		Item("Cash_Cash", 10000, "");
-		Item("LockpickItem_Upgrade8", 5, "");
-		
-		/////////////////////////
-		//Unlocked Blueprints
-		
-		use Blueprints_All_Upgrade7();
-    }
+	
 
 	/// OWA Presets
 	
@@ -5412,7 +5905,7 @@ sub main()
 		use Blueprints_All_Upgrade4();
     }
 
-	Preset("Firearms_Demo_Preset")
+	Preset("Firearms_Testing_Tier9_LL25") 
     {
 		/////////////////////////
 		//Health, Stamin and Skill imports
@@ -5439,17 +5932,20 @@ sub main()
 
 		/////////////////////////
 		//4 Throwable Slot
-		Item("Throwable_ExplosiveGrenade_Upgrade7", 7, "");
-		Item("UV_Flare_Upgrade6", 10, "");
-		Item("Throwable_Molotov_Upgrade6", 6, "");
-        Item("Throwable_ThrowingKnifeAGen_Upgrade7", 25, "");
         
         //To set UV light and Grapple Hook not in Consumables slots
         use Difficulty_7_Skills_default();
 
 		/////////////////////////
-		//Additional Skills
+		//4 Throwable Slot
+		Item("Throwable_ExplosiveGrenade_Upgrade7", 7, "");
+		Item("UV_Flare_Upgrade7", 10, "");
+		Item("Throwable_Molotov_Upgrade7", 6, "");
+        Item("Throwable_ThrowingKnifeAGen_Upgrade7", 25, "");
 		
+
+		/////////////////////////
+		//Additional Skills
 		Skill("wrestle_kick");
 		Skill("stomp");
 		Skill("air_takedown");
@@ -5466,6 +5962,32 @@ sub main()
 		Skill("parkour_ranged");
 		Skill("Paraglider_3");
 		Skill("GrappleHook_3");
+
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
+		Skill("LP_xbow_dmg");
 		
 		/////////////////////////
 		//4 Weapon Slot
@@ -5476,62 +5998,78 @@ sub main()
 		
 		/////////////////////////
 		//Equiped Gear
-		Item("Outfitset_MeleeDPS_TorsoAddon_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Gloves_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Torso_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Legs_Tier8_Violet", 1, "");
-		Item("Outfitset_MeleeDPS_Shoes_Tier8_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_TorsoAddon_tier9_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Gloves_tier9_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Torso_tier9_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Legs_tier9_Violet", 1, "");
+		Item("Outfitset_MeleeDPS_Shoes_tier9_Violet", 1, "");
 		
 		/////////////////////////
 		//4 Consumable Slot
 		Item("Medkit_Large", 4, "");
-		Item("Potion_DamageReduction_Upgrade6", 3, "");
-		Item("Potion_HealthRegeneration_Upgrade6", 3, "");
-        Item("Medkit_Small_Upgrade6", 5, "");
+		Item("Potion_DamageReduction_Upgrade7", 3, "");
+		Item("Potion_HealthRegeneration_Upgrade7", 3, "");
+        Item("Medkit_Small_Upgrade7", 5, "");
 		
 		/////////////////////////
 		//Inventory - Weapons
-		Item("wpn_1hs_mach_a_fpp_r24", 1, "", "Platinum");
-		Item("wpn_2hp_bow_t9", 1, "", "Orange");
+		Item("wpn_1hs_mach_a_fpp_r24", 1, "", "");
+		Item("wpn_2hp_bow_t9", 1, "", "");
 		Item("Weapon_Firearm_Pistol_Golden", 1, "", "");
 		Item("Weapon_Firearm_Submachinegun_Golden", 1, "", "");
 		Item("Weapon_Firearm_Rifle_Golden", 1, "", "");
         Item("Weapon_Firearm_Shotgun_Golden", 1, "", "");
         Item("Weapon_Firearm_Rifle_NightVibes", 1, "", "");
+        Item("wpn_2hr_crossbow_b_fpp", 1, "", "");
+		Item("Weapon_Firearm_Pistol_Blue", 1, "", "");
 
 		/////////////////////////
 		//Inventory - Gear
-		Item("Outfitset_RangedDPS_TorsoAddon_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Gloves_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Torso_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Legs_Tier7_Violet", 1, "");
-		Item("Outfitset_RangedDPS_Shoes_Tier7_Violet", 1, "");
 		
 		/////////////////////////
 		//Inventory - Consumables
-		Item("Potion_Antizine_Upgrade6", 3, "");
+		Item("Potion_Antizine_Upgrade7", 3, "");
 		
 		/////////////////////////
 		//Inventory - Throwables
 		
 		/////////////////////////
 		//Inventory - Ammo
-		Item("Ammo_Arrow", 20, "");
-		Item("Bullet_Firearm_Pistol", 24, "");
-		Item("Bullet_Firearm_SMG", 105, "");
-		Item("Bullet_Firearm_Rifle", 59, "");
-		Item("Bullet_Firearm_Shotgun", 18, "");
+		Item("Ammo_Arrow", 50, "");
+		Item("Ammo_Bolt", 50, "");
+		Item("Bullet_Firearm_Pistol", 1000, "");
+		Item("Bullet_Firearm_SMG", 1000, "");
+		Item("Bullet_Firearm_Rifle", 1000, "");
+		Item("Bullet_Firearm_Shotgun", 1000, "");
 
 		/////////////////////////
 		//Inventory - Other
 		Item("Cash_Cash", 10000, "");
-		Item("LockpickItem_Upgrade8", 5, "");
+		Item("LockpickItem_Upgrade4", 50, "");
 		
 		/////////////////////////
 		//Unlocked Blueprints
 		
 		//use Blueprints_All_Upgrade7();
 		use Blueprints_All_Upgrade4();
+    }
+	
+	
+	Preset("Player_MAX")
+    {
+		use Stamina_Lvl_9();
+		use Health_Lvl_9();
+		
+		use Skills_ALL();
+		use LL_MAX();
+
+		Item("wpn_1hs_axe_k_fpp_r24", 1, "", "Orange");
+		
+		use Blueprints_All_Upgrade8();
+
+		Level(25, "Traversal", 1.0);
+        Level(25, "Combat", 1.0);
+		Level(50, "Experience", 1.0);
     }
 
 }

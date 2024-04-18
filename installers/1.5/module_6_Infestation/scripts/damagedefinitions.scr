@@ -135,6 +135,23 @@ use ialr_damagedefinitions();
 		Poison("75%");
 		Electricity("75%");
 		Ranged("75%");
+		Firearms("80%");
+		Freeze("75%");
+    }
+	DamageResistance("Waltz_Resistance_Veronika")
+    {
+        Poison("100%");
+		Chemical("100%");
+        Physical("75%");
+        Ram("75%");
+		Blast("95%");
+		Bleeding("75%");
+		Fire("95%");
+		Poison("75%");
+		Electricity("75%");
+		Ranged("75%");
+		Firearms("83%");
+		Freeze("75%");
     }
 	DamageResistance("Skullface_Resistance_Pool")
     {
@@ -356,61 +373,65 @@ use ialr_damagedefinitions();
     
     DamageTotalMul("1_AI_DamageTakenMul_Nightmare")
     {
-		Cut("0.65");
-		Blunt("0.65");
-		Ranged("0.45");
-		Firearms("0.45");
-		Blast("0.45");
-		Bleeding("0.45");
-		Fire("0.45");
-		Poison("0.45");
-		Electricity("0.45");
-		Chemical("0.45");
-		Drowning("0.45");
+		Cut("0.85");
+		Blunt("0.85");
+		Ranged("0.85");
+		Firearms("0.85");
+		Blast("0.85");
+		Bleeding("0.65");
+		Fire("0.65");
+		Poison("0.65");
+		Electricity("0.65");
+		Chemical("0.65");
+		Drowning("0.65");
+        Freeze("0.65");
     }
-  
-     DamageTotalMul("2_Player_Coop_AI_DamageTakenMul_Nightmare")
+
+    DamageTotalMul("2_Player_Coop_AI_DamageTakenMul_Nightmare")
     {
 		Cut("0.65");
 		Blunt("0.65");
-		Ranged("0.45");
-		Firearms("0.45");
-		Blast("0.45");
+		Ranged("0.65");
+		Firearms("0.65");
+		Blast("0.65");
 		Bleeding("0.45");
 		Fire("0.45");
 		Poison("0.45");
 		Electricity("0.45");
 		Chemical("0.45");
 		Drowning("0.45");
+        Freeze("0.45");
     }
     DamageTotalMul("3_Player_Coop_AI_DamageTakenMul_Nightmare")
     {
 		Cut("0.55");
 		Blunt("0.55");
-		Ranged("0.40");
-		Firearms("0.40");
-		Blast("0.40");
+		Ranged("0.55");
+		Firearms("0.55");
+		Blast("0.55");
 		Bleeding("0.40");
 		Fire("0.40");
 		Poison("0.40");
 		Electricity("0.40");
 		Chemical("0.40");
 		Drowning("0.40");
+        Freeze("0.40");
     }
     
     DamageTotalMul("4_Player_Coop_AI_DamageTakenMul_Nightmare")
     {
 		Cut("0.50");
 		Blunt("0.50");
-		Ranged("0.35");
-		Firearms("0.35");
-		Blast("0.35");
+		Ranged("0.50");
+		Firearms("0.50");
+		Blast("0.50");
 		Bleeding("0.35");
 		Fire("0.35");
 		Poison("0.35");
 		Electricity("0.35");
 		Chemical("0.35");
 		Drowning("0.35");
+        Freeze("0.35");
     }
     
     
@@ -2460,15 +2481,15 @@ use ialr_damagedefinitions();
 
 	//Pistol
 
-	Damage("firearm_pistol_sweetspot_tier_damages_1")	{	Firearms("80 - 125");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_2")	{	Firearms("129 - 166");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_3")	{	Firearms("144 - 185");	} 
-	Damage("firearm_pistol_sweetspot_tier_damages_4")	{	Firearms("172 - 190");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_5")	{	Firearms("200 - 325");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_6")	{	Firearms("260 - 500");	} 
-	Damage("firearm_pistol_sweetspot_tier_damages_7")	{	Firearms("316 - 670");	}
-	Damage("firearm_pistol_sweetspot_tier_damages_8")	{	Firearms("444 - 530");	}
-    Damage("firearm_pistol_sweetspot_tier_damages_9")	{	Firearms("620 - 750");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_1")	{	Firearms("27 - 31");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_2")	{	Firearms("38 - 45");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_3")	{	Firearms("58 - 69");	} 
+	Damage("firearm_pistol_sweetspot_tier_damages_4")	{	Firearms("96 - 113");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_5")	{	Firearms("133 - 156");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_6")	{	Firearms("213 - 250");	} 
+	Damage("firearm_pistol_sweetspot_tier_damages_7")	{	Firearms("287 - 338");	}
+	Damage("firearm_pistol_sweetspot_tier_damages_8")	{	Firearms("457 - 538");	}
+    Damage("firearm_pistol_sweetspot_tier_damages_9")	{	Firearms("691 - 813");	}
 	
 	Damage("firearm_pistol_normal_tier_damages_1")	{	Firearms("35 - 69");	}
 	Damage("firearm_pistol_normal_tier_damages_2")	{	Firearms("42 - 87");	}
@@ -2480,47 +2501,46 @@ use ialr_damagedefinitions();
 	Damage("firearm_pistol_normal_tier_damages_8")	{	Firearms("358 - 523");	}
 	Damage("firearm_pistol_normal_tier_damages_9")	{	Firearms("516 - 820");	}
 	
-	Damage("firearm_pistol_fade_tier_damages_1")	{	Firearms("11 - 14");	}
-	Damage("firearm_pistol_fade_tier_damages_2")	{	Firearms("15 - 19");	}
-	Damage("firearm_pistol_fade_tier_damages_3")	{	Firearms("25 - 31");	} 
-	Damage("firearm_pistol_fade_tier_damages_4")	{	Firearms("41 - 51");	} 
-	Damage("firearm_pistol_fade_tier_damages_5")	{	Firearms("53 - 66");	} 
-	Damage("firearm_pistol_fade_tier_damages_6")	{	Firearms("90 - 112");	} 
-	Damage("firearm_pistol_fade_tier_damages_7")	{	Firearms("122 - 152");	}
-	Damage("firearm_pistol_fade_tier_damages_8")	{	Firearms("181 - 226");	}
-	Damage("firearm_pistol_fade_tier_damages_9")	{	Firearms("291 - 364");	}
+	Damage("firearm_pistol_fade_tier_damages_1")	{	Firearms("15 - 18");	}
+	Damage("firearm_pistol_fade_tier_damages_2")	{	Firearms("20 - 24");	}
+	Damage("firearm_pistol_fade_tier_damages_3")	{	Firearms("33 - 39");	} 
+	Damage("firearm_pistol_fade_tier_damages_4")	{	Firearms("54 - 63");	} 
+	Damage("firearm_pistol_fade_tier_damages_5")	{	Firearms("70 - 82");	} 
+	Damage("firearm_pistol_fade_tier_damages_6")	{	Firearms("119 - 140");	} 
+	Damage("firearm_pistol_fade_tier_damages_7")	{	Firearms("161 - 190");	}
+	Damage("firearm_pistol_fade_tier_damages_8")	{	Firearms("240 - 282");	}
+	Damage("firearm_pistol_fade_tier_damages_9")	{	Firearms("387 - 455");	}
 	
 	//SMG
-	Damage("firearm_smg_sweetspot_tier_damages_1")	{	Firearms("17 - 23");	}
-	Damage("firearm_smg_sweetspot_tier_damages_2")	{	Firearms("24 - 32");	}
-	Damage("firearm_smg_sweetspot_tier_damages_3")	{	Firearms("36 - 48");	} 
-	Damage("firearm_smg_sweetspot_tier_damages_4")	{	Firearms("56 - 75");	}
-	Damage("firearm_smg_sweetspot_tier_damages_5")	{	Firearms("75 - 100");	}
-	Damage("firearm_smg_sweetspot_tier_damages_6")	{	Firearms("101 - 135");	}
-	Damage("firearm_smg_sweetspot_tier_damages_7")	{	Firearms("188 - 250");	}
-	Damage("firearm_smg_sweetspot_tier_damages_8")	{	Firearms("263 - 350");	}
-	Damage("firearm_smg_sweetspot_tier_damages_9")	{	Firearms("338 - 450");	}
+	Damage("firearm_smg_sweetspot_tier_damages_1")	{	Firearms("22 - 29");	}
+	Damage("firearm_smg_sweetspot_tier_damages_2")	{	Firearms("30 - 40");	}
+	Damage("firearm_smg_sweetspot_tier_damages_3")	{	Firearms("45 - 60");	} 
+	Damage("firearm_smg_sweetspot_tier_damages_4")	{	Firearms("70 - 94");	}
+	Damage("firearm_smg_sweetspot_tier_damages_5")	{	Firearms("94 - 125");	}
+	Damage("firearm_smg_sweetspot_tier_damages_6")	{	Firearms("127 - 169");	}
+	Damage("firearm_smg_sweetspot_tier_damages_7")	{	Firearms("234 - 313");	}
+	Damage("firearm_smg_sweetspot_tier_damages_8")	{	Firearms("328 - 438");	}
+	Damage("firearm_smg_sweetspot_tier_damages_9")	{	Firearms("422 - 563");	}
 	
-	Damage("firearm_smg_normal_tier_damages_1")	{	Firearms("10 - 14");	}
-	Damage("firearm_smg_normal_tier_damages_2")	{	Firearms("14 - 19");	}
-	Damage("firearm_smg_normal_tier_damages_3")	{	Firearms("22 - 29");	} 
-	Damage("firearm_smg_normal_tier_damages_4")	{	Firearms("34 - 45");	}
-	Damage("firearm_smg_normal_tier_damages_5")	{	Firearms("45 - 60");	}
-	Damage("firearm_smg_normal_tier_damages_6")	{	Firearms("61 - 81");	}
-	Damage("firearm_smg_normal_tier_damages_7")	{	Firearms("113 - 150");	}
-	Damage("firearm_smg_normal_tier_damages_8")	{	Firearms("158 - 210");	}
-	Damage("firearm_smg_normal_tier_damages_9")	{	Firearms("203 - 270");	}
+	Damage("firearm_smg_normal_tier_damages_1")	{	Firearms("13 - 17");	}
+	Damage("firearm_smg_normal_tier_damages_2")	{	Firearms("18 - 24");	}
+	Damage("firearm_smg_normal_tier_damages_3")	{	Firearms("27 - 36");	} 
+	Damage("firearm_smg_normal_tier_damages_4")	{	Firearms("42 - 56");	}
+	Damage("firearm_smg_normal_tier_damages_5")	{	Firearms("56 - 75");	}
+	Damage("firearm_smg_normal_tier_damages_6")	{	Firearms("76 - 101");	}
+	Damage("firearm_smg_normal_tier_damages_7")	{	Firearms("141 - 188");	}
+	Damage("firearm_smg_normal_tier_damages_8")	{	Firearms("197 - 263");	}
+	Damage("firearm_smg_normal_tier_damages_9")	{	Firearms("253 - 338");	}
 	
-	Damage("firearm_smg_fade_tier_damages_1")	{	Firearms("5 - 7");	    }
-	Damage("firearm_smg_fade_tier_damages_2")	{	Firearms("7 - 10");	    }  
-	Damage("firearm_smg_fade_tier_damages_3")	{	Firearms("11 - 14");	} 
-	Damage("firearm_smg_fade_tier_damages_4")	{	Firearms("17 - 23");	}
-	Damage("firearm_smg_fade_tier_damages_5")	{	Firearms("23 - 30");	}
-	Damage("firearm_smg_fade_tier_damages_6")	{	Firearms("30 - 41");	}
-	Damage("firearm_smg_fade_tier_damages_7")	{	Firearms("53 - 75");	}
-	Damage("firearm_smg_fade_tier_damages_8")	{	Firearms("56 - 75");	}
-	Damage("firearm_smg_fade_tier_damages_9")	{	Firearms("79 - 105");	}
-    Damage("firearm_smg_fade_tier_damages_9")	{	Firearms("101 - 135");	}
+	Damage("firearm_smg_fade_tier_damages_1")	{	Firearms("6 - 9");	    }
+	Damage("firearm_smg_fade_tier_damages_2")	{	Firearms("9 - 12");	    }  
+	Damage("firearm_smg_fade_tier_damages_3")	{	Firearms("14 - 18");	} 
+	Damage("firearm_smg_fade_tier_damages_4")	{	Firearms("21 - 28");	}
+	Damage("firearm_smg_fade_tier_damages_5")	{	Firearms("28 - 38");	}
+	Damage("firearm_smg_fade_tier_damages_6")	{	Firearms("38 - 51");	}
+	Damage("firearm_smg_fade_tier_damages_7")	{	Firearms("70 - 94");	}
+	Damage("firearm_smg_fade_tier_damages_8")	{	Firearms("98 - 131");	}
+	Damage("firearm_smg_fade_tier_damages_9")	{	Firearms("127 - 169");	}
 	
 	//Rifle
 	Damage("firearm_rifle_sweetspot_tier_damages_1")	{	Firearms("66 - 90");	}
@@ -2543,15 +2563,15 @@ use ialr_damagedefinitions();
 	Damage("firearm_rifle_normal_tier_damages_8")	{	Firearms("413 - 568");	}
 	Damage("firearm_rifle_normal_tier_damages_9")	{	Firearms("494 - 664");	}
 	
-	Damage("firearm_rifle_fade_tier_damages_1")	{	Firearms("16 - 19");	}
-	Damage("firearm_rifle_fade_tier_damages_2")	{	Firearms("23 - 28");	}
-	Damage("firearm_rifle_fade_tier_damages_3")	{	Firearms("33 - 38");	} 
-	Damage("firearm_rifle_fade_tier_damages_4")	{	Firearms("47 - 56");	}
-	Damage("firearm_rifle_fade_tier_damages_5")	{	Firearms("68 - 80");	}
-	Damage("firearm_rifle_fade_tier_damages_6")	{	Firearms("101 - 118");	}
-	Damage("firearm_rifle_fade_tier_damages_7")	{	Firearms("155 - 182");	}
-	Damage("firearm_rifle_fade_tier_damages_8")	{	Firearms("250 - 294");	}
-	Damage("firearm_rifle_fade_tier_damages_9")	{	Firearms("316 - 371");	}
+	Damage("firearm_rifle_fade_tier_damages_1")	{	Firearms("20 - 24");	}
+	Damage("firearm_rifle_fade_tier_damages_2")	{	Firearms("29 - 34");	}
+	Damage("firearm_rifle_fade_tier_damages_3")	{	Firearms("41 - 48");	} 
+	Damage("firearm_rifle_fade_tier_damages_4")	{	Firearms("59 - 70");	}
+	Damage("firearm_rifle_fade_tier_damages_5")	{	Firearms("85 - 100");	}
+	Damage("firearm_rifle_fade_tier_damages_6")	{	Firearms("126 - 148");	}
+	Damage("firearm_rifle_fade_tier_damages_7")	{	Firearms("194 - 228");	}
+	Damage("firearm_rifle_fade_tier_damages_8")	{	Firearms("313 - 368");	}
+	Damage("firearm_rifle_fade_tier_damages_9")	{	Firearms("394 - 464");	}
 	
 	//Shotgun
 	Damage("firearm_shotgun_sweetspot_tier_damages_1")	{	Firearms("110 - 191");	}
@@ -4445,6 +4465,21 @@ use ialr_damagedefinitions();
 		Firearms("?");
     }
 
+    DamageMul("FirearmHeadshootsDmgBoostFactor")
+    {
+		Firearms("?");
+    }
+
+    DamageMul("FirearmGroupHeadshootsDmgBoostFactor")
+    {
+		Firearms("?");
+    }
+
+    DamageMul("FirearmItemHeadshootTaggedEnemiesDmgBoostFactor")
+    {
+        Firearms("?");
+    }
+
     DamageMul("LPBowAndCrossbowDmgBoostFactor")
     {
 		All("?");
@@ -4587,6 +4622,20 @@ use ialr_damagedefinitions();
 	Damage("bow_plaguewitch")
     {
         Ranged("50");
+    }
+	
+	
+	Damage("bow_t8_showcase")
+    {
+        Ranged("430");
+    }
+	Damage("bow_t8_showcase_low")
+    {
+        Ranged("405");
+    }
+	Damage("bow_t8_showcase_mid")
+    {
+        Ranged("415");
     }
 
 
@@ -5036,6 +5085,23 @@ use ialr_damagedefinitions();
 		Physical("50%");
 		Blast("50%");
 		Bleeding("75%");
+    }
+    DamageResistance("Demolisher_Caller")
+    {
+		Physical("75%");
+        Blunt("75%");
+        Cut("75%");
+		Ranged("75%");
+		Blast("75%");
+		Bleeding("75%");
+        Fire("75%");
+        Electricity("75%");
+        Poison("75%");
+        Chemical("75%");
+		Drowning("100%");
+        Freeze("75%");
+		Ram("75%");
+		Firearms("75%");
     }
     Damage("Banshee_Jump_On_Biter")
 	{
@@ -6237,6 +6303,14 @@ use ialr_damagedefinitions();
     Damage("AI_HeavyObjectHit")
     {
         Physical("3% of MaxHealth");
+    }
+    Damage("AI_SlowVehicleHit")
+    {
+        Physical("10% of MaxHealth");
+    }
+    Damage("AI_FastVehicleHit")
+    {
+        Physical("100% of MaxHealth");
     }
     Damage("AI_WallHit")
     {
@@ -7723,6 +7797,11 @@ use ialr_damagedefinitions();
     {
         Ram("100% of MaxHealth");
     }
+
+    Damage("KillVictimNuclearGrenade")
+    {
+        Fire("10000% of MaxHealth");
+    }
     
 	Damage("block_charge")
     {
@@ -8791,6 +8870,11 @@ use ialr_damagedefinitions();
     {
         Ram("55");
     }
+	
+	Damage("Fury_Groundpound")
+    {
+        Drowning("7000");
+    }
 
 
 
@@ -8849,6 +8933,11 @@ use ialr_damagedefinitions();
     }
 
     DamageMul("Player_BowChargeMul")
+    {
+        Ranged("?");
+    }
+
+    DamageMul("Player_PowerShotMul")
     {
         Ranged("?");
     }
@@ -9234,6 +9323,16 @@ use ialr_damagedefinitions();
 	Damage("Throwable_ExplosiveGrenade_Upgrade8")
     {
         Blast("795-2385");
+    }
+
+    Damage("Throwable_ErlangShen")
+    {
+        Blast("1% of MaxHealth");
+    }
+
+    Damage("Throwable_ErlangShen_Small")
+    {
+        Blast("0.5% of MaxHealth");
     }
 
     Damage("Throwable_ExplosiveGrenade_AI")
@@ -9988,6 +10087,16 @@ use ialr_damagedefinitions();
     {
         Blast("70");
     }
+	
+	Damage("Fury_Exploading_Barrel")
+    {
+        Blast("4000");
+    }
+	
+	Damage("Fury_Concrete_Block")
+    {
+        Blast("4000");
+    }
 
     Damage("portable_tank_explosive_opera")   //25%-50% OneHanded
     {
@@ -10604,21 +10713,21 @@ use ialr_damagedefinitions();
         Blunt("+0.4"); 
         Cut("+0.4"); 
         Ranged("+0.4");
-        Firearms("+0.15"); //firearms starts from Violet rarity (+0.0)
+        Firearms("+0.2"); //firearms starts from Violet rarity (+0.0)
     }
     DamageMul("WeaponDamageMod_Platinum")
     { 
         Blunt("+0.6"); 
         Cut("+0.6"); 
         Ranged("+0.6"); 
-        Firearms("+0.25"); 
+        Firearms("+0.4"); 
     }
 	DamageMul("WeaponDamageMod_Exotic")
     { 
         Blunt("+0.75"); 
         Cut("+0.75"); 
         Ranged("+0.75"); 
-        Firearms("+0.35");
+        Firearms("+0.55");
     }
 
     DamageResistance("Player_FallDamageResistance")
@@ -14310,6 +14419,47 @@ use ialr_damagedefinitions();
         Cut("482");
     }
 
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_0")
+    {
+        Cut("43");
+    }
+	Damage("scaling_2h_slashing_tier_damages_Erlangshen_1")
+    {
+        Cut("64");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_2")
+    {
+        Cut("83");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_3")
+    {
+        Cut("100");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_4")
+    {
+        Cut("137");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_5")
+    {
+        Cut("172");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_6")
+    {
+        Cut("230");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_7")
+    {
+        Cut("310");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_8")
+    {
+        Cut("408");
+    }
+    Damage("scaling_2h_slashing_tier_damages_Erlangshen_9")
+    {
+        Cut("482");
+    }
+
     // pilgrimpo
 
     Damage("scaling_blunt_tier_damages_pilgrimpo_0")
@@ -14471,6 +14621,7 @@ use ialr_damagedefinitions();
     {
 		All("?");
     }
+	
 	
 	//Knives
 	Damage("scaling_slashing_tier_damages_Knives_0")
@@ -15720,5 +15871,47 @@ use ialr_damagedefinitions();
     Damage("scaling_slashing_tier_damages_NightVibes_9")
     {
         Cut("294");
+    }
+
+// Gameplay modifiers
+    DamageTotalMul("IncomingDamageMul")
+    {
+        All("?");
+    }
+
+    DamageTotalMul("DamageMulAll")
+    {
+        All("?");
+    }
+
+    DamageTotalMul("BluntDamageMul")
+    {
+        Blunt("?");
+    }
+
+    DamageTotalMul("SlashDamageMul")
+    {
+        Cut("?");
+    }
+
+    DamageTotalMul("BowAndCrossbowDamageMul")
+    {
+        Ranged("?");
+    }
+
+    DamageTotalMul("ThrowableDamageMul")
+    {
+        Ranged("?");
+    }
+
+    DamageTotalMul("FirearmDamageMul")
+    {
+        Firearms("?");
+    }
+
+    DamageTotalMul("KnuckledusterDamageMul")
+    {
+        Blunt("?");
+        Cut("?");
     }
 }

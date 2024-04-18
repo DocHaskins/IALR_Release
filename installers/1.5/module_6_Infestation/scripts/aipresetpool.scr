@@ -1379,6 +1379,11 @@ Pool("Night_Exterior_D01")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -1826,6 +1831,11 @@ Pool("Night_Exterior_D02")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2266,6 +2276,11 @@ Pool("Night_Exterior_D03")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -2703,6 +2718,11 @@ Pool("Night_Exterior_D04")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3155,6 +3175,11 @@ Pool("Night_Exterior_D05")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -3607,6 +3632,11 @@ Pool("Night_Exterior_D06")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -4048,6 +4078,11 @@ Pool("Night_Exterior_D07")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -4488,6 +4523,11 @@ Pool("Night_Exterior_D08")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -4928,6 +4968,11 @@ Pool("Night_Exterior_D09")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -5369,6 +5414,11 @@ Pool("Night_Exterior_End")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -5898,6 +5948,11 @@ Pool("Night_Exterior_R01")
     	PresetWeighted("Character;Biter_Woman_Crawler", 15)
     	PresetWeighted("Character;Volatile", 10)
     }	
+	//SpecialInfected Spawn
+	PresetWeighted("Character;Volatile", 10)
+	
+
+	//NormalSpawns
 	PresetWeighted("Character;Biter_Weak", 80)
 	PresetWeighted("Character;Biter_Weak_Woman", 80)		
 	PresetWeighted("Character;Biter", 150)
@@ -20408,6 +20463,30 @@ Pool("EE_Monster_Set_Unique_01")
 	}
 }
 
+//////////// MONSTER SETS - DL ONLINE //////////
+
+Pool("DLO_Monster_Set_Starter_01")
+{
+    Tag("Generic")
+    {
+		Preset("Character;Biter_Explosive_Tank;Scenario;General")
+        Preset("Character;Biter_Explosive_Tank;Scenario;General")
+        Preset("Character;Biter_Armored;Scenario;General")
+        Preset("Character;Biter_Berserker;Scenario;General")
+        Preset("Character;Biter;Scenario;General")
+		Preset("Character;Biter_Berserker;Scenario;General")
+        Preset("Character;Biter;Scenario;General")
+		Preset("Character;Biter_XL;Scenario;General")
+		Preset("Character;Viral;Scenario;General")
+        Preset("Character;Viral;Scenario;General")
+	}    
+	Tag("Range")
+    {
+		Preset("Character;Spitter;Scenario;General")
+        Preset("Character;Spitter;Scenario;General")
+        Preset("Character;Spitter;Scenario;General")
+	}
+}
 
 ///////////// ENEMIES ///////////////
 
@@ -20458,6 +20537,164 @@ Pool("Infected_Sets_Hard")
 		PresetWeighted("Character;Demolisher;Scenario;General", 10)
 		PresetWeighted("Character;Biter_Woman;Scenario;General", 40)
 	}
+}
+
+// Tower Raid 
+
+Pool("Tower_Raid_Roof_Base_Hive_One_Left")
+{
+	PresetWeighted("Character;Biter", 200)
+	PresetWeighted("Character;Biter_Weak", 50)
+    PresetWeighted("Character;Biter_Woman", 200)
+    PresetWeighted("Character;Biter_Weak_Woman", 50)
+	PresetWeighted("Character;Biter_XL", 10)
+	PresetWeighted("Character;Biter_Berserker", 40)
+	PresetWeighted("Character;Biter_Armored", 40)
+	PresetWeighted("Character;Biter_Backpack", 40)
+	PresetWeighted("Character;Biter_Gas_Tank", 30)
+	PresetWeighted("Character;Biter_Toxic", 10)
+	PresetWeighted("Character;Biter_Helmet", 10)
+	PresetWeighted("Character;Viral", 150)	
+    PresetWeighted("Character;Viral", 150)
+}
+
+Pool("Tower_Raid_Roof_Base_Hive_Two_Left")
+{
+	PresetWeighted("Character;Biter", 200)
+	PresetWeighted("Character;Biter_Weak", 50)
+    PresetWeighted("Character;Biter_Woman", 200)
+    PresetWeighted("Character;Biter_Weak_Woman", 50)
+	PresetWeighted("Character;Biter_XL", 10)
+	PresetWeighted("Character;Biter_Berserker", 40)
+	PresetWeighted("Character;Biter_Armored", 40)
+	PresetWeighted("Character;Biter_Backpack", 40)
+	PresetWeighted("Character;Biter_Gas_Tank", 30)
+	PresetWeighted("Character;Biter_Toxic", 10)
+	PresetWeighted("Character;Biter_Helmet", 10)
+	PresetWeighted("Character;Viral", 150)	
+    PresetWeighted("Character;Viral", 150)
+}
+
+Pool("Tower_Raid_Roof_Base_Hive_Three_Left")
+{
+	PresetWeighted("Character;Biter", 200)
+	PresetWeighted("Character;Biter_Weak", 50)
+    PresetWeighted("Character;Biter_Woman", 200)
+    PresetWeighted("Character;Biter_Weak_Woman", 50)
+	PresetWeighted("Character;Biter_XL", 10)
+	PresetWeighted("Character;Biter_Berserker", 40)
+	PresetWeighted("Character;Biter_Armored", 40)
+	PresetWeighted("Character;Biter_Backpack", 40)
+	PresetWeighted("Character;Biter_Gas_Tank", 30)
+	PresetWeighted("Character;Biter_Toxic", 10)
+	PresetWeighted("Character;Biter_Helmet", 10)
+	PresetWeighted("Character;Viral", 150)	
+    PresetWeighted("Character;Viral", 150)
+}
+
+Pool("Tower_Raid_Roof_Special_Hive_One_Left")
+{
+	PresetWeighted("Character;Suicider", 40)
+	PresetWeighted("Character;Volatile", 10)
+}
+
+Pool("Tower_Raid_Roof_Special_Hive_Two_Left")
+{
+	PresetWeighted("Character;Suicider", 40)
+	PresetWeighted("Character;Volatile", 10)
+}
+
+Pool("Tower_Raid_Roof_Special_Hive_Three_Left")
+{
+	PresetWeighted("Character;Suicider", 40)
+	PresetWeighted("Character;Volatile", 10)
+}
+
+Pool("Tower_Raid_Floor_12_Mix")
+{
+	PresetWeighted("Character;Viral", 25)
+    PresetWeighted("Character;Viral_Woman", 25)
+	PresetWeighted("Character;Biter_Gas_Tank", 40)
+	PresetWeighted("Character;Biter_Toxic", 40)
+	PresetWeighted("Character;Biter_Helmet", 25)
+}
+
+Pool("Tower_Raid_Floor_24_Hive_Protectors")
+{
+	PresetWeighted("Character;Viral", 25)
+    PresetWeighted("Character;Viral_Woman", 25)
+	PresetWeighted("Character;Biter", 40)
+    PresetWeighted("Character;Biter_Woman", 40)
+}
+
+Pool("Tower_Raid_Alarm_Pool_level_01")
+{
+	PresetWeighted("Character;Biter_Gas_Tank", 40)
+	PresetWeighted("Character;Biter_Toxic", 40)
+	PresetWeighted("Character;Biter_Helmet", 25)
+	PresetWeighted("Character;Viral", 25)
+}
+
+Pool("Tower_Raid_Alarm_Pool_level_02")
+{
+	PresetWeighted("Character;Viral", 25)
+    PresetWeighted("Character;Viral_Woman", 25)
+}
+
+Pool("Tower_Raid_Alarm_Pool_level_03")
+{
+	PresetWeighted("Character;Suicider", 25)
+    PresetWeighted("Character;Banshee", 25)
+	PresetWeighted("Character;Viral", 25)
+}
+
+Pool("Tower_Raid_Alarm_Pool_level_04") 
+{
+	PresetWeighted("Character;Volatile", 25)
+}
+
+Pool("Tower_Raid_Alarm_Pool_level_04")
+{
+	PresetWeighted("Character;Volatile", 25)
+}
+
+Pool("Tower_Raid_Floor_02_Mix") 
+{
+    PresetWeighted("Character;Viral_PK", 15)
+	PresetWeighted("Character;Infected_Peacekeeper", 80)
+	PresetWeighted("Character;Biter_Armored", 40)
+}
+
+Pool("Tower_Raid_Floor_03_Sleeping_Mix") 
+{
+    PresetWeighted("Character;Biter_GRE_Resting", 15)
+}
+
+Pool("Tower_Raid_Floor_03_Mix")
+{
+    PresetWeighted("Character;Biter_GRE_Resting", 15)
+}
+
+Pool("Tower_Raid_Floor_GRE_Sleeping_Mix") 
+{
+    PresetWeighted("Character;Biter_GRE_Resting", 15)
+}
+
+Pool("Tower_Raid_Floor_GRE_Mix")
+{
+    PresetWeighted("Character;Biter_GRE_Resting", 15)
+}
+
+Pool("Tower_Raid_Floor_07_Mix") 
+{
+	PresetWeighted("Character;Biter_Resting", 40)
+}
+
+Pool("Tower_Raid_Floor_02_Chase")
+{
+	PresetWeighted("Character;Viral", 25)
+    PresetWeighted("Character;Viral_PK", 25)
+	PresetWeighted("Character;Infected_Peacekeeper", 10)
 }
 
     //Pilgrim Mission
@@ -21284,7 +21521,7 @@ Pool("PM_Unique_24")
 	}
 	Tag("Special")
 	{
-		Preset("Character;PM_Biter_Toxic_Gas_Tank;;Scenario;General")
+		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
 		Preset("Character;PM_Biter_Toxic_Gas_Tank;Scenario;General")
 	}
 	Tag("Range")
@@ -21809,7 +22046,7 @@ Pool("GAAS_FH_Friendly_ENC")
 		PresetWeighted("Character;For_Honor_Samurai;Scenario;General", 50)		
 }
 
-	//Halloween Event
+//Halloween Event
 
 Pool("Halloween_Test")
 {
@@ -21861,6 +22098,29 @@ Pool("Virals_JumpScare_Reinforcement_Pool")
 	PresetWeighted("Character;Viral_Armored", 5)
 	PresetWeighted("Character;Viral_Electrobox", 5)
 	PresetWeighted("Character;Viral_Spit", 5)
+}
+
+Pool("Viral_Rush_Reinforcement_Pool")
+{
+	PresetWeighted("Character;Viral_Sun_Immune", 54)
+	PresetWeighted("Character;Suicider", 18)
+	PresetWeighted("Character;Banshee_Weak", 4)
+	PresetWeighted("Character;Viral_Armored_Sun_Immune", 4)
+	PresetWeighted("Character;Viral_Electrobox_Sun_Immune", 4)
+	PresetWeighted("Character;Viral_Spit", 8)
+	PresetWeighted("Character;Viral_Gas_Tank_Sun_Immune", 4)
+	PresetWeighted("Character;Charger_Sun_Immune", 1)
+}
+
+Pool("Renegade_Rush")
+{
+	PresetWeighted("Character;Renegade_One_Handed", 60)
+	PresetWeighted("Character;Renegade_Two_Handed", 7)
+	PresetWeighted("Character;Renegade_Two_Handed_Elemental", 6)
+	PresetWeighted("Renegade_Two_Handed_Thrower_Explosive", 6)
+	PresetWeighted("Character;Renegade_Halberd", 7)
+	PresetWeighted("Character;Renegade_Grenadier", 7)
+	PresetWeighted("Character;Renegade_Bow", 7)
 }
 
 ///////////////////////////////////////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

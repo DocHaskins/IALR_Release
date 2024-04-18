@@ -2621,7 +2621,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_1");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_1");
         SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_1_Nightmare", "Volatile_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_2")
     {
@@ -2629,7 +2634,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_2");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_2");
         SetField("m_CustomLootTypeString", "T2_VolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_2_Nightmare", "Volatile_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_3")
     {
@@ -2637,7 +2647,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_3");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_3");
         SetField("m_CustomLootTypeString", "T3_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_3_Nightmare", "Volatile_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_4")
     {
@@ -2645,7 +2660,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_4");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_4");
         SetField("m_CustomLootTypeString", "T4_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_4_Nightmare", "Volatile_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_5")
     {
@@ -2653,7 +2673,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_5");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_5");
         SetField("m_CustomLootTypeString", "T5_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_5_Nightmare", "Volatile_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_6")
     {
@@ -2661,7 +2686,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_6");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_6");
         SetField("m_CustomLootTypeString", "T6_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_6_Nightmare", "Volatile_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_7")
     {
@@ -2669,7 +2699,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_7");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_7");
         SetField("m_CustomLootTypeString", "T7_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_7_Nightmare", "Volatile_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_8")
     {
@@ -2677,7 +2712,12 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_8");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_8");
         SetField("m_CustomLootTypeString", "T8_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
+    }
+    Preset("Volatile_Level_8_Nightmare", "Volatile_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
     }
     Preset("Volatile_Level_9")
     {
@@ -2685,61 +2725,323 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_HealthPreset", "Volatile_RGD_9");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_9");
         SetField("m_CustomLootTypeString", "T9_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
-	Preset("Volatile_Hive_Level_1")
+    Preset("Volatile_Level_9_Nightmare", "Volatile_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_nightmare");
+    }
+	Preset("Volatile_Chase_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_1_Nightmare", "Volatile_Chase_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_2_Nightmare", "Volatile_Chase_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_3_Nightmare", "Volatile_Chase_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_4_Nightmare", "Volatile_Chase_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_5_Nightmare", "Volatile_Chase_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_6_Nightmare", "Volatile_Chase_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_7_Nightmare", "Volatile_Chase_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_8_Nightmare", "Volatile_Chase_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+	Preset("Volatile_Chase_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase");
+    }
+	Preset("Volatile_Chase_Level_9_Nightmare", "Volatile_Chase_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_chase_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_1_Nightmare","Volatile_Patrol_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_2_Nightmare","Volatile_Patrol_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_3_Nightmare","Volatile_Patrol_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_4_Nightmare","Volatile_Patrol_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_5_Nightmare","Volatile_Patrol_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_6_Nightmare","Volatile_Patrol_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_7_Nightmare","Volatile_Patrol_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_8_Nightmare","Volatile_Patrol_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Patrol_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol");
+    }
+	Preset("Volatile_Patrol_Level_9_Nightmare","Volatile_Patrol_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_patrol_nightmare");
+    }
+    Preset("Volatile_Hive_Level_1", "Volatile_Level_1")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_1");
 		SetField("m_CustomLootTypeString", "T1_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
     	SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_2")
+    Preset("Volatile_Hive_Level_1_Nightmare", "Volatile_Hive_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_2", "Volatile_Level_2")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_2");
 		SetField("m_CustomLootTypeString", "T2_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
 		SetField("m_XpForKill", "50");
+	}
+    Preset("Volatile_Hive_Level_2_Nightmare", "Volatile_Hive_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
     }
-    Preset("Volatile_Hive_Level_3")
+    Preset("Volatile_Hive_Level_3", "Volatile_Level_3")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_3");
 		SetField("m_CustomLootTypeString", "T3_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_4")
+    Preset("Volatile_Hive_Level_3_Nightmare", "Volatile_Hive_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_4", "Volatile_Level_4")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_4");
 		SetField("m_CustomLootTypeString", "T4_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_5")
+    Preset("Volatile_Hive_Level_4_Nightmare", "Volatile_Hive_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_5", "Volatile_Level_5")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_5");
 		SetField("m_CustomLootTypeString", "T5_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_6")
+    Preset("Volatile_Hive_Level_5_Nightmare", "Volatile_Hive_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_6", "Volatile_Level_6")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_6");
 		SetField("m_CustomLootTypeString", "T6_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_7")
+    Preset("Volatile_Hive_Level_6_Nightmare", "Volatile_Hive_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_7", "Volatile_Level_7")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_7");
 		SetField("m_CustomLootTypeString", "T7_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_8")
+    Preset("Volatile_Hive_Level_7_Nightmare", "Volatile_Hive_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+    Preset("Volatile_Hive_Level_8", "Volatile_Level_8")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_8");
 		SetField("m_CustomLootTypeString", "T8_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
     }
-    Preset("Volatile_Hive_Level_9")
+    Preset("Volatile_Hive_Level_9", "Volatile_Level_9")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_9");
 		SetField("m_CustomLootTypeString", "T9_VolatileLoot");
+		SetField("m_PerceptionProfile", "volatile_hive_default");
         SetField("m_XpForKill", "50");
+    }
+    Preset("Volatile_Hive_Level_9_Nightmare", "Volatile_Hive_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_1", "Volatile_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_1_Nightmare", "Volatile_Summoner_Level_1")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_2", "Volatile_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_2_Nightmare", "Volatile_Summoner_Level_2")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_3", "Volatile_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_3_Nightmare", "Volatile_Summoner_Level_3")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_4", "Volatile_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_4_Nightmare", "Volatile_Summoner_Level_4")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_5", "Volatile_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_5_Nightmare", "Volatile_Summoner_Level_5")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_6", "Volatile_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_6_Nightmare", "Volatile_Summoner_Level_6")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_7", "Volatile_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_7_Nightmare", "Volatile_Summoner_Level_7")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_8", "Volatile_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_8_Nightmare", "Volatile_Summoner_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
+    }
+	Preset("Volatile_Summoner_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_default");
+    }
+	Preset("Volatile_Summoner_Level_9_Nightmare", "Volatile_Summoner_Level_9")
+    {
+        SetField("m_PerceptionProfile", "volatile_summoner_nightmare");
     }
     Preset("Alpha_Zombie_Level_1", "Volatile_Level_1")
     {
@@ -4180,6 +4482,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
 		SetField("m_DamageResistance", "50_percent_physical_damage");
+		SetField("m_WeaponsColorSetName", "weapons_generic");
     }
     Preset("Generic_Two_Handed_Level_5")
     {
@@ -4192,6 +4495,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
 		SetField("m_DamageResistance", "50_percent_physical_damage");
+		SetField("m_WeaponsColorSetName", "weapons_generic");
     }
     Preset("Generic_Two_Handed_Level_6")
     {
@@ -4204,6 +4508,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
 		SetField("m_DamageResistance", "50_percent_physical_damage");
+		SetField("m_WeaponsColorSetName", "weapons_generic");
     }
     Preset("Generic_Two_Handed_Level_7")
     {
@@ -4216,6 +4521,7 @@ sub HumanGenericDifficultyPresets()
         SetField("m_CustomLootTypeString", "DefaultBanditLoot_2h");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
 		SetField("m_DamageResistance", "50_percent_physical_damage");
+		SetField("m_WeaponsColorSetName", "weapons_generic");
     }
     Preset("Generic_Two_Handed_Level_8")
     {
@@ -4517,6 +4823,96 @@ sub HumanGenericDifficultyPresets()
         SetField("m_PerceptionProfile", "human_level_9_RGD");
         SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "50");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+    }
+    Preset("Generic_Rifle_Level_1")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_1");
+        SetField("m_PerceptionProfile", "human_rifleman_level_1_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier1");
+    }
+    Preset("Generic_Rifle_Level_2")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_2");
+        SetField("m_PerceptionProfile", "human_rifleman_level_2_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier2");
+    }
+    Preset("Generic_Rifle_Level_3")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_3");
+        SetField("m_PerceptionProfile", "human_rifleman_level_3_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier3");
+    }
+    Preset("Generic_Rifle_Level_4")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_4");
+        SetField("m_PerceptionProfile", "human_rifleman_level_4_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier4");
+    }
+    Preset("Generic_Rifle_Level_5")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_5");
+        SetField("m_PerceptionProfile", "human_rifleman_level_5_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier5");
+    }
+    Preset("Generic_Rifle_Level_6")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_6");
+        SetField("m_PerceptionProfile", "human_rifleman_level_6_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier6");
+    }
+    Preset("Generic_Rifle_Level_7")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_7");
+        SetField("m_PerceptionProfile", "human_rifleman_level_7_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier7");
+    }
+    Preset("Generic_Rifle_Level_8")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_8");
+        SetField("m_PerceptionProfile", "human_rifleman_level_8_RGD");
+        SetField("m_XpForKill", "25");
+        SetField("m_CustomLootTypeString", "DefaultBanditLoot");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier8");
+    }
+    Preset("Generic_Rifle_Level_9")
+    {
+        SetField("m_ConstFilename", "human_profile_generic_rifle_tier_1");
+        SetField("m_WeaponSetName", "Rifle_RGD_1");
+        SetField("m_HealthPreset", "OneHanded_RGD_9");
+        SetField("m_PerceptionProfile", "human_rifleman_level_9_RGD");
+        SetField("m_XpForKill", "25");
         SetField("m_CustomLootTypeString", "DefaultBanditLoot");
 		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
     }

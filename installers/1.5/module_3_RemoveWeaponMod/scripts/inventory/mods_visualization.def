@@ -262,5 +262,9 @@ import "mods_visualization_prototypes.def"
         Holder("2hs_polearm_e", "mod_charm_mount_2hs_polearm_e_fpp.prefab");
         Holder("2hs_polearm_creepy_santa", "mod_charm_mount_2hs_polearm_creepy_santa_fpp.prefab");
         Holder("15hs_w", "mod_charm_mount_15hs_w_fpp.prefab");
+        Holder("ham_r", "mod_charm_mount_ham_r_fpp.prefab");
+        Holder("15hb_x", "mod_charm_mount_15hb_x_fpp.prefab");
+        Holder("mach_08", "mod_charm_mount_mach_08_fpp.prefab");
+        Holder("15hs_z", "mod_charm_mount_15hs_z_fpp.prefab");
     }
 

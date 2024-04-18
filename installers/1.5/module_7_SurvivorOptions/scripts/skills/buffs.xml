@@ -238,6 +238,48 @@
    <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade7"/>
    <hud_icon val="buff_health"/>
 </buff>
+<buff id="Potion_HealthRegeneration_Upgrade8" max_stacks="1" duration="180" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade8"/>
+   <hud_icon val="buff_health"/>
+</buff>
+</buff_group>
+
+<buff_group>
+<buff id="Potion_HealthRegeneration_Nightrunner" max_stacks="1" duration="60" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade1_Nightrunner" max_stacks="1" duration="60" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade1_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade2_Nightrunner" max_stacks="1" duration="120" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade1_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade4_Nightrunner" max_stacks="1" duration="120" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade4_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade5_Nightrunner" max_stacks="1" duration="180" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade4_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade7_Nightrunner" max_stacks="1" duration="180" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade7_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
+<buff id="Potion_HealthRegeneration_Upgrade8_Nightrunner" max_stacks="1" duration="180" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_Upgrade8_Nightrunner"/>
+   <hud_icon val="buff_health"/>
+</buff>
+
 </buff_group>
 
 <buff_group>
@@ -613,6 +655,11 @@
 	<property name="GlideRiseRotationSpeed" value_add ="50.0"/>	
 	
     <hud_icon val="paraglider_tool"/>
+</buff>
+
+<buff id="Immortality" max_stacks="1" duration="60" apply_behaviour="ExtendDuration" serialize_on_save="false">
+   <property name="ImmortalityBuff" set="true"/>
+   <hud_icon val="buff_health"/>
 </buff>
 
 <!-- ---------------------------------------------------------------------------- -->
@@ -1036,7 +1083,7 @@
     </OnGain>
 </buff>
 
-<buff id="Revive_Invisibility" duration="10" serialize_on_save="false">
+<buff id="Revive_Invisibility" duration="15" serialize_on_save="false">
     <property name="PostReviveInvisibility" set="true"/>
 </buff>
 
@@ -1778,6 +1825,7 @@
 	<property name="NormalJumpHeight" value_add="5"/>
 	
 	<property name="GlideStaminaCost" value_mul ="1000.0"/>
+    <property name="GlideStaminaCostAtNight" value_mul ="1000.0"/>
 	<property name="HoverGliderStaminaCost" value_mul ="1000.0"/>
 	<property name="MoveBackwardMaxSpeed" value_mul ="0.0"/>
 	<property name="MoveStrafeMaxSpeed" value_mul ="0.0"/>
@@ -2427,6 +2475,38 @@
 		<RemoveBuff id="NightVisionLv8" />
 		<RemoveBuff id="NightVisionLv9" />
 	</OnGain>
+</buff>
+
+<buff id="DoubleJump_GameOver" duration="30" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">
+
+	<property name="ExtraJumpsInAir" value_add="1.0"/>
+    <hud_icon val="buff_doublejump"/>
+</buff>
+
+<buff id="DoubleJump_GameOver_Upgrade1" duration="60" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">
+	<property name="ExtraJumpsInAir" value_add="1.0"/>
+    <hud_icon val="buff_doublejump"/>
+	<OnGain>
+		<RemoveBuff id="DoubleJump_GameOver"/>
+	</OnGain>
+</buff>
+
+<buff id="DoubleJump_GameOver_Upgrade2" duration="90" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">
+	<property name="ExtraJumpsInAir" value_add="1.0"/>
+    <hud_icon val="buff_doublejump"/>
+	<OnGain>
+		<RemoveBuff id="DoubleJump_GameOver"/>
+	</OnGain>
+</buff>
+
+
+<!-- ---------------------------------------------------------------------------- -->
+<!-- -------------------------        FURY         ------------------------------ -->
+<!-- ---------------------------------------------------------------------------- -->
+
+<buff id="Fury_KnocbackResistance" duration="180" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <property name="ReduceReactionsSeverity" set="true"/>
+	<property name="BlockHitReactionKnockdown" set="true"/>
 </buff>
 
 
