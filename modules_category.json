@@ -72,6 +72,14 @@
             "image": "button_modules_MapChanges.jpg",
             "folder": "module_2_Custommapdata",
             "incompatible": []
+        },
+        {
+            "name": "Stash Unlock",
+            "description": "Unlocks the stash items for IALR, not recommended for new players",
+            "category": "Gameplay",
+            "image": "button_modules_stash.jpg",
+            "folder": "module_9_stash",
+            "incompatible": []
         }
     ]
 }

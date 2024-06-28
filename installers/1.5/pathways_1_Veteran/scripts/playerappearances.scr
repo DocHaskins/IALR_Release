@@ -990,7 +990,8 @@ sub appearances()
             OverridesOutfit(true);
 			Color("Violet");
             Image("outfit_brecken_dl1_a");
-			StoreID(13);
+			//StoreID(13);
+            HasCustomUnlockRequirements();
 			Category(0);
             ID(86);
         }
@@ -1154,13 +1155,13 @@ sub appearances()
             ID(100);
         }
         Appearance("Rowe")
-         { 
+        { 
             ModelFpp("player_outfit_rowe_fpp.model");
             ModelTpp("player_outfit_rowe_tpp.model");
             OverridesOutfit(true);
             HideParagliderAddon(true);
 			Color("Platinum");
-            Image("outfit_rowe");
+            Image("Outfit_Rowe");
 			Category(0);
             HasCustomUnlockRequirements();
             ID(101);
@@ -1207,7 +1208,7 @@ sub appearances()
             ModelTpp("player_outfit_aitor_tpp.model");
             OverridesOutfit(true);
 			Color("Platinum");
-            Image("outfit_aitor");
+            Image("Outfit_Aitor");
 			Category(0);
             HasCustomUnlockRequirements();
             ID(105);
@@ -1218,7 +1219,7 @@ sub appearances()
             ModelTpp("player_outfit_wierzbowski_tpp.model");
             OverridesOutfit(true);
 			Color("Platinum");
-            Image("outfit_wierzbowski");
+            Image("Outfit_Wierzbowski");
 			Category(0);
             HasCustomUnlockRequirements();
             ID(106);
@@ -1293,6 +1294,7 @@ sub appearances()
 			Color("Platinum");
             Image("Outfit_Waltz");
             HasCustomUnlockRequirements();
+            CrossSaveUnlock("CSOU_Waltz");
 			Category(0);
             ID(112);
         }
@@ -1367,6 +1369,66 @@ sub appearances()
 			Category(0);
             StoreID(241);
             ID(118);
+        }
+        Appearance("Perun")
+        { 
+            ModelFpp("player_outfit_perun_fpp.model");
+            ModelTpp("player_outfit_perun_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("Outfit_Perun");
+			Category(0);
+            StoreID(255);
+            ID(120);
+        }
+
+        Appearance("Anubis")
+        { 
+            ModelFpp("player_outfit_anubis_fpp.model");
+            ModelTpp("player_outfit_anubis_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_anubis");
+			Category(0);
+            StoreID(263);
+            ID(121);
+        }
+
+        Appearance("Peacekeeper")
+        { 
+            ModelFpp("player_outfit_pk_a_fpp.model");
+            ModelTpp("player_outfit_pk_a_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("Outfit_Peacekeeper");
+			Category(0);
+            StoreID(270);
+            ID(122);
+        }
+
+        Appearance("BreckenDark_B")
+        { 
+            ModelFpp("player_outfit_brecken_a_dark_b_fpp.model");
+            ModelTpp("player_outfit_brecken_a_dark_b_tpp.model");
+            OverridesOutfit(true);
+			Color("Orange");
+            Image("Outfit_BreckenDark_B");
+			Category(0);
+            StoreID(323);
+            ID(124);
+        }
+
+        Appearance("BreckenDark_B_docket")
+        { 
+            ModelFpp("player_outfit_brecken_a_dark_b_fpp.model");
+            ModelTpp("player_outfit_brecken_a_dark_b_tpp.model");
+            OverridesOutfit(true);
+			Color("Orange");
+            Image("Outfit_BreckenDark_B");
+            BlockedByAppearance("BreckenDark_B");
+			Category(0);
+            HasCustomUnlockRequirements();
+            ID(125);
         }
         
         Appearance("Halloween_Clown_Under")
@@ -2971,6 +3033,94 @@ sub appearances()
 			}
         }
 
+        Variant("Parachute_Backpack_Perun")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_perun.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_perun.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_perun.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
+        Variant("Parachute_Backpack_Anubis")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_anubis.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_anubis.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_anubis.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_anubis.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_anubis.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_anubis.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
+        Variant("Parachute_Backpack_Peacekeeper")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_pk_b.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_pk_b.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_pk_b.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_pk_b.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_pk_b.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_pk_b.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
+        Variant("Parachute_Backpack_Seniority")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_dl1_a.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_dl1_a.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_dl1_a.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_dl1_a.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_dl1_a.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_dl1_a.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
 	}
 
     OutfitAddon("ShieldHolder")
@@ -3134,7 +3284,6 @@ sub unlock()
 	Item("Collectable_Outfit_fh_Berserker_docket", "PlayerMan1", "fh_Berserker_docket");
 	Item("Collectable_Outfit_Nutcracker", "PlayerMan1", "Nutcracker_a");
 	Item("Collectable_Outfit_DyingLaugh", "PlayerMan1", "Halloween_Clown_VCS");
-	
 	Item("Collectable_Outfit_Carrier", "PlayerMan1", "Carrier");
 	Item("Collectable_Outfit_Carrier_Leader", "PlayerMan1", "CarrierLeader");
 	Item("Collectable_Outfit_DragonWarrior_modern", "PlayerMan1", "Lubu_modern");
@@ -3146,4 +3295,6 @@ sub unlock()
     Item("Collectable_Outfit_TolgaFatin", "PlayerMan1", "TolgaFatin");
     Item("Collectable_Outfit_EvilAiden", "PlayerMan1", "EvilAiden");
     Item("Collectable_Outfit_pilgrimpo", "PlayerMan1", "pilgrimpo");
+    Item("Collectable_Outfit_Brecken_DL1_A_seniority", "PlayerMan1", "Brecken_DL1_A");
+    Item("Collectable_Outfit_BreckenDark_B", "PlayerMan1", "BreckenDark_B_docket");
 }

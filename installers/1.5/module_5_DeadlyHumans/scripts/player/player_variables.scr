@@ -146,7 +146,7 @@ sub main()
 	Param("BowAutoZoomTime", "-1.0");
     Param("BowZoomEnabled", "0");
 	Param("BowSlowMoTimeMul", "5.0");	
-	Param("BowSlowMoAccuracyMul", "0.25");	
+	Param("BowSlowMoAccuracyMul", "0.25");
 	Param("SlowMoDurationToCancel", "0.35");
 	Param("BowMaxThrowFactor", "0.65");	
 	Param("BowAutoReleaseTime", "-1.0");	
@@ -2078,6 +2078,7 @@ sub main()
     Param("OpenWorldNightXPModifier", "1.0");
 
     Param("PostReviveInvisibility", "false");
+    Param("PostReviveInvincibility", "false");
 
     Param("NightVisionPower", "0.5");
 	
@@ -2206,6 +2207,8 @@ sub main()
     Param("AntiWallHandsScale", "0.34");
     Param("AntiWallAimHandsScale", "0.5");
     Param("AntiFovScale", "0.00");
+	Param("AntiWallAIRangeDetection", "3.0");
+    Param("AntiWallHandScaleLerpDuration", "1.0");
 
     Param("ThrownMeleeWeaponPierceChance", "0.25");
     Param("ThrownMeleeWeaponPhysicsForceMul", "1.8");
@@ -2247,6 +2250,7 @@ sub main()
     
     Param("WeaponDamageHeadMul", "0.0"); //keep at 0 in order to work properly, is defined in curve_di.xml
     Param("WeaponDamageHeadMulNight", "0.0"); //keep at 0 in order to work properly, is defined in curve_di.xml
+    Param("WeaponDamageBodyMul", "0.0");
     Param("WeaponCriticalHitChance", "0.0"); //keep at 0 in order to work properly, is defined in curve_di.xml
     Param("WeaponCriticalHitChanceNight", "0.0"); //keep at 0 in order to work properly, is defined in curve_di.xml
     Param("WeaponCriticalHitPowerAttackChance", "0.0"); //keep at 0 in order to work properly, is defined in curve_di.xml
@@ -2289,8 +2293,9 @@ sub main()
     Param("WeaponAntizineDrainOnPlayerHit", "0"); //Affix variable
     Param("WeaponAntizineDrainOnDamageReviced", "0"); //Affix variable
 
-    Param("KorekCharmCrfEffDurabilityThreshold", "0.25");
+    Param("ElectricModsDamageMulFactor", "0"); //Affix variable
 
+    Param("KorekCharmCrfEffDurabilityThreshold", "0.25");
     Param("PerfectBlockAdditionalStaminaDamage", "10000");
     Param("PerfectBlockAdditionalStaminaDamageChance", "0.33");
     Param("PerfectBlockAdditionalStaminaDamageMaxEnemyHealthFactor", "0.3");
@@ -2314,9 +2319,9 @@ sub main()
     Param("ShotgunMinLookAngle", "-75.0");
     Param("HarpoonMinLookAngle", "-75.0");
 
-    Param("FirearmsNoiseName", "periodic_firearms_spawn");
-    Param("FirearmsNoiseTriggerValue", "60.0");
-    Param("FirearmsNoiseTimeMultiplier", "1.0");
+    Param("FirearmsNoiseName", "");
+    Param("FirearmsNoiseTriggerValue", "0.0");
+    Param("FirearmsNoiseTimeMultiplier", "0.0");
     Param("FirearmsNoiseSingleFireShotIncrease", "0.0");
     Param("FirearmsNoiseAutomaticFireShotIncrease", "0.0");
 
@@ -2367,4 +2372,50 @@ sub main()
     Param("FirearmsRifleInfiniteAmmo", "false");
     Param("FirearmsShotgunInfiniteAmmo", "false");
     Param("FirearmsSMGInfiniteAmmo", "false");
+
+// Gameplay modifiers-related
+    Param("IncomingDamageMul", "0.0");
+    Param("DamageMulAll", "0.0");
+    Param("DamageMulLowHealth", "0.0");
+    Param("DamageMulLowHealthThreshold", "0.35");
+    Param("DamageMulFullHealth", "0.0");
+    Param("DamageMulEnemiesNearby", "0.0");
+    Param("DamageMulEnemiesNearbyRadius", "10.0");
+    Param("DamageMulEnemiesNearbyCount", "3.0");
+    Param("DamageMulPerTowerRaidFloor", "0.0");
+    Param("DamageMulPerTowerRaidKill", "0.0");
+    Param("DamageMulPerTowerRaidKillOnCurrentFloor", "0.0");
+    Param("BluntDamageMul", "0.0");
+    Param("OneHandedDamageMul", "0.0");
+    Param("TwoHandedCloseStickDamageMul", "0.0");
+    Param("SlashDamageMul", "0.0");
+    Param("BowAndCrossbowDamageMul", "0.0");
+    Param("ThrowableDamageMul", "0.0");
+    Param("FirearmDamageMul", "0.0");
+    Param("KnuckledusterDamageMul", "0.0");
+    Param("FistsDamageMul", "0.0");
+    Param("ApplyRagdollOnCrit", "false");
+    Param("ApplyRagdollOnChargeAttackWhenHealthIsFull", "false");
+    Param("ApplyStunOnCrit", "false");
+    Param("ApplyStunOnCrit_StunDuration", "2.0");
+    Param("InfiniteStaminaLowHealth", "false");
+    Param("InfiniteStaminaLowHealthThreshold", "0.4");
+    Param("InfiniteStaminaFullHealth", "false");
+    Param("TowerRaid_NoTimeToWaste", "false");
+    Param("TowerRaid_NoTimeToWaste_Timer", "420.0");
+    Param("TowerRaid_NoTimeToWaste_Damage", "0.05");
+    Param("TowerRaid_NoTimeToWaste_Interval", "20.0");
+    Param("TowerRaid_TimeIsRunningOut", "false");
+    Param("TowerRaid_TimeIsRunningOut_Timer", "420.0");
+    Param("TowerRaid_TimeIsRunningOut_Damage", "0.60");
+    Param("TowerRaid_WorthTheEffort", "false");
+    Param("TowerRaid_SelfSabotage", "false");
+    Param("TowerRaid_SelfSabotage_Damage", "3.0");
+    Param("TowerRaid_ElementalAggression", "false");
+    Param("TowerRaid_ElementalAggression_Chance", "0.20");
+    Param("TowerRaid_ElementalAggression_Duration", "3.0");
+    Param("TowerRaid_ElementalEndurance", "false");
+    Param("TowerRaid_ElementalResistance", "false");
+    Param("TowerRaid_FaultyProvisions", "false");
+    Param("TowerRaid_WarOnDrugs", "false");
 }

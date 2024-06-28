@@ -5017,7 +5017,11 @@ sub main()
 		
 		/////////////////////////
 		//Inventory - Weapons
-
+		Item("Weapon_Firearm_Pistol_TowerRaid", 1, "", "Blue");
+		Item("Weapon_Firearm_Submachinegun_TowerRaid", 1, "", "Blue");
+		Item("Weapon_Firearm_Rifle_TowerRaid", 1, "", "Blue");
+		Item("Weapon_Firearm_Shotgun_TowerRaid", 1, "", "Blue");
+		
 		/////////////////////////
 		//Inventory - Gear
 		Item("Outfitset_RangedDPS_TorsoAddon_Tier5_Violet", 1, "");
@@ -5029,12 +5033,17 @@ sub main()
 		/////////////////////////
 		//Inventory - Consumables
 		
+		
 		/////////////////////////
 		//Inventory - Throwables
 		
 		/////////////////////////
 		//Inventory - Ammo
 		Item("Ammo_Arrow", 20, "");
+		Item("Ammo_Firearm_Shotgun", 40, "");
+		Item("Ammo_Firearm_Rifle", 125, "");
+		Item("Ammo_Firearm_SMG", 175, "");
+		Item("Ammo_Firearm_Pistol", 60, "");
 
 		/////////////////////////
 		//Inventory - Other
@@ -5268,10 +5277,11 @@ sub main()
 
 		/////////////////////////
 		//4 Throwable Slot
-		Item("Throwable_ExplosiveGrenade_Upgrade7", 7, "");
-		Item("UV_Flare_Upgrade6", 10, "");
+		Item("Throwable_ExplosiveGrenade_Upgrade7", 25, "");
+		Item("UV_Flare_Upgrade6", 15, "");
 		Item("Throwable_Molotov_Upgrade6", 6, "");
         Item("Throwable_ThrowingKnifeAGen_Upgrade7", 25, "");
+		Item("Throwable_Decoy_Upgrade6", 10, "");
         
         //To set UV light and Grapple Hook not in Consumables slots
         use Difficulty_7_Skills_default();
@@ -5301,7 +5311,8 @@ sub main()
 		Item("wpn_1hs_mach_a_fpp_r24", 1, "", "Platinum");
 		Item("wpn_2hp_bow_t9", 1, "", "Violet");
         Item("wpn_1hb_ham_b_fpp_r24", 1, "", "Orange");
-		Item("wpn_2hs_i_fpp_r24", 1, "", "Orange");
+		Item("Weapon_Firearm_Rifle_Golden", 1, "", "Orange");
+		
 		
 		/////////////////////////
 		//Equiped Gear
@@ -5313,16 +5324,22 @@ sub main()
 		
 		/////////////////////////
 		//4 Consumable Slot
-		Item("Medkit_Large", 4, "");
+		Item("Medkit_Large", 10, "");
 		Item("Potion_DamageReduction_Upgrade6", 3, "");
 		Item("Potion_HealthRegeneration_Upgrade6", 3, "");
-        Item("Medkit_Small_Upgrade6", 5, "");
+        Item("Medkit_Small_Upgrade6", 15, "");
+		Item("Potion_DamageResistance_Fire_Upgrade6", 4, "");
 		
 		/////////////////////////
 		//Inventory - Weapons
 		
 		Item("wpn_15hs_b_fpp_redkatana", 1, "", "Platinum");
-
+		Item("wpn_2hb_d_fpp_ll", 1, "", "Platinum");
+		Item("Weapon_Firearm_Shotgun_Golden", 1, "", "Orange");
+		Item("wpn_2hs_i_fpp_r24", 1, "", "Orange");
+		Item("Weapon_Firearm_Pistol_Golden", 1, "", "Orange");
+		Item("Weapon_Firearm_Submachinegun_Golden", 1, "", "Orange");
+		
 		/////////////////////////
 		//Inventory - Gear
 		Item("Outfitset_RangedDPS_TorsoAddon_Tier7_Violet", 1, "");
@@ -5340,12 +5357,17 @@ sub main()
 		
 		/////////////////////////
 		//Inventory - Ammo
-		Item("Ammo_Arrow", 20, "");
+		Item("Ammo_Arrow", 70, "");
+		Item("Ammo_Firearm_Shotgun", 999, "");
+		Item("Ammo_Firearm_Rifle", 999, "");
+		Item("Ammo_Firearm_SMG", 999, "");
+		Item("Ammo_Firearm_Pistol", 999, "");
 
 		/////////////////////////
 		//Inventory - Other
 		Item("Cash_Cash", 10000, "");
-		Item("LockpickItem_Upgrade8", 5, "");
+		Item("LockpickItem_Upgrade8", 25, "");
+		Item("Token_CoopMission", 1000, "");
 		
 		/////////////////////////
 		//Unlocked Blueprints

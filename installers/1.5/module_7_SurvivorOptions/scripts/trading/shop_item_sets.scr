@@ -913,6 +913,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
@@ -2006,6 +2022,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -2540,6 +2572,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -3078,6 +3126,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -3606,6 +3670,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -4158,6 +4238,22 @@ sub main()
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade6");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade7");
 		Item("Craftplan_ThrowingKnives_Bleed_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Toxic_Upgrade8");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade1");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade2");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade3");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade4");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade5");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade6");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade7");
+		Item("Craftplan_ThrowingKnives_Shock_Upgrade8");
 		Item("Craftplan_Mine_Explosive_Upgrade1");
 		Item("Craftplan_Mine_Explosive_Upgrade2");
 		Item("Craftplan_Mine_Explosive_Upgrade3");
@@ -13702,6 +13798,41 @@ sub main()
 	ItemSet("Docket_RopeHook_Pilgrimpo")
 	{
 		Item("ToolSkin_RopeHook_pilgrimpo");
+    }
+
+	ItemSet("Docket_Charm_Volatoy")
+	{
+		Item("Craftplan_charm_volatoy");
+    }
+
+	ItemSet("Docket_Brecken_DL1_A_Seniority")
+	{
+		Item("Collectable_Outfit_Brecken_DL1_A_seniority");
+    }
+
+	ItemSet("Docket_Paraglider_Seniority")
+	{
+		Item("ToolSkin_Paraglider_Seniority");
+    }
+
+	ItemSet("Docket_PilgrimTwitch")
+	{
+		Item("wpn_1hs_mach_v_pilgrimtwitch");
+    }
+
+	ItemSet("Docket_PKTwitch")
+	{
+		Item("wpn_2hb_g_pktwitch");
+    }
+
+	ItemSet("Docket_BreckenSMG")
+	{
+		Item("Brecken_SMG_Bundle");
+    }
+
+	ItemSet("Docket_BreckenDark_B")
+	{
+		Item("Collectable_Outfit_BreckenDark_B");
     }
 
 	// ItemSet("Docket_EvilElf_Head")

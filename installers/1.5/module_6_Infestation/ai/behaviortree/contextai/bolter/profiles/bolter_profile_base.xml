@@ -8,7 +8,6 @@
     <Param m_Name="$avoid_regions_preset" m_Value="zombie"/>
     <Param m_Name="$enable_weapon_change" m_Value="false"/>
     <Param m_Name="$enable_weapon_set" m_Value="false"/>
-    <Param m_Name="$request_use_bp_default_move_style" m_Value="Walk"/>
 
     <Param m_Name="$enable_uv_reaction" m_Value="true"/>
 
@@ -25,6 +24,16 @@
     <Param m_Name="$hit_falling_edge_detection_radius" m_Value="3.0"/>
 
     <Param m_Name="$hit_snap_angle" m_Value="90"/>
+
+    <Param m_Name="$stun_lock_prevention_min_time_delta_between_damages" m_Value="0.4"/>
+    <Param m_Name="$stun_lock_prevention_consecutive_hits_avg" m_Value="3"/>
+    <Param m_Name="$stun_lock_prevention_consecutive_hits_dev" m_Value="1"/>
+    <Param m_Name="$stun_lock_prevention_vulnerable_body_part" m_Value="None"/>
+
+    <Param m_Name="$hit_reaction_additive_enabled" m_Value="true"/>
+    <Param m_Name="$hit_reaction_additive_cooldown" m_Value="0.5"/>
+
+    <Param m_Name="$hit_reaction_firearms_disabled" m_Value="false"/>
 
     <!-- locomotion region avoidance -->
     <Param m_Name="$const_avoid_regions_preset" m_Value="zombie"/>
@@ -44,7 +53,7 @@
     <Param m_Name="$super_movement_initial_cooldown" m_Value="5.0"/> <!-- time between spotting danger and activating -->
     <Param m_Name="$base_move_speed_multiplier" m_Value="1.0"/>
 
-    <Param m_Name="$base_movestyle" m_Value="Run"/> <!-- Run or RunFast for now -->
+    <Param m_Name="$base_movestyle" m_Value="RunFast"/> <!-- Run or RunFast for now -->
     <Param m_Name="$spawn_loot_on_hit" m_Value="false"/>
 
     <Param m_Name="$search_rooftop_retreat_pos" m_Value="true"/>

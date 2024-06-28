@@ -1,0 +1,528 @@
+//DLC_Set("DLC1", 120) - dlc_id ,  cooldown_time
+//Item(0, "Throwable_ThrowingKnifeAGen") - tier ,  item_name
+
+sub ialr_stash()
+{	
+/////////////////////IALR\\\\\\\\\\\\\\\\\\\\\	
+	DLC_Set_With_Cooldown("", 1250.0)
+    {
+        Item(1, "Restore_Paraglider_Bundle");
+        ID(1554);
+    }
+	DLC_Set("")
+    {
+        Item(1, "Craftplan_Bandages_Basic");
+        ID(1555);
+    }
+	DLC_Set("")
+    {
+        Item(1, "Flamethrower_Fuel_bundle");
+        ID(1557);
+    }
+	DLC_Set_With_Cooldown("", 9000.0)
+    {
+        Item(1, "Summon_Traveling_Trader_FallenHero");
+        ID(1562);
+    }
+	DLC_Set_With_Cooldown("", 1250.0)
+    {
+        Item(1, "Companion_Summon_Colonel_1H");
+        ID(1563);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Summon_Trader_01");
+        ID(1563);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Companion_Summon_Crane");
+        ID(1564);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Companion_Summon_Scavenger_1H");
+        ID(1564);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Companion_Summon_Scavenger_Bow");
+        ID(1565);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Restore_Paraglider_Bundle");
+        ID(1566);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Craftplan_Bandages_Basic");
+        ID(1567);
+    }
+	DLC_Set("", 1.0)
+    {
+        Item(1, "Flamethrower_Bundle");
+        ID(1568);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Flamethrower_Fuel_bundle");
+        ID(1569);
+    }
+	DLC_Set("")
+    {
+        Item(1, "Starter_Crossbow_Bundle");
+        ID(1570);
+    }
+	DLC_Set("")
+    {
+        Item(1, "Craftplan_Repair_Broken_Flamethrower");
+        ID(1571);
+    }
+	DLC_Set("")
+    {
+        Item(1, "Starter_Bow_Bundle");
+        ID(1572);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Medical_Bundle");
+        ID(1573);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Food_Bundle_01");
+        ID(1574);
+    }
+
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Water_Bundle");
+        ID(1575);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Alcohol_Bundle");
+        ID(1576);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Bundle");
+        ID(1578);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Glowsticks");
+        ID(1579);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Basebuild");
+        ID(1580);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_PK_Reinforcements");
+        ID(1581);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Forager_Backpacks");
+        ID(1582);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Forager_Armor");
+        ID(1583);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Forager_Armor_Rare");
+        ID(1584);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Skinner_Armor");
+        ID(1585);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Banshee_Bundle_Patreon");
+        ID(1586);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Volatile_Bundle_Patreon");
+        ID(1587);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Volatile_Tyrant_Bundle_Patreon");
+        ID(1588);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Goon_Bundle_Patreon");
+        ID(1589);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Brawler_Armor");
+        ID(1590);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Brawler_Armor_RARE");
+        ID(1591);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Story_Outfits");
+        ID(1592);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Legendary_Outfits");
+        ID(1593);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Runner_Armor");
+        ID(1594);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Runner_Armor_RARE");
+        ID(1595);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Bandit_Armor");
+        ID(1596);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Bandit_Armor_RARE");
+        ID(1597);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Leisure_Outfit");
+        ID(1598);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_PK_Armor");
+        ID(1599);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_PK_Armor_RARE");
+        ID(1600);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Rugged_Outfit");
+        ID(1601);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Worker_Outfit");
+        ID(1602);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Leather_Armor");
+        ID(1603);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Leather_Armor_RARE");
+        ID(1604);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Urban_Armor");
+        ID(1605);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Medical_Armor");
+        ID(1606);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Military_Armor");
+        ID(1607);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Military_Armor_RARE");
+        ID(1608);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Renegade_Armor");
+        ID(1609);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Renegade_Armor_RARE");
+        ID(1610);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Hazmat_Armor");
+        ID(1611);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Paragliders");
+        ID(1612);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Companion");
+        ID(1613);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_PK_Guards");
+        ID(1614);
+    }
+	DLC_Set("", 1.0)
+    {
+        Item(1, "Loot_Encounter_Bundle");
+        ID(1615);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Craftables_Bundle");
+        ID(1616);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "EasterEgg_Bundle");
+        ID(1617);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "EasterEgg_Outfits_Bundle");
+        ID(1618);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "EasterEgg_Weapons_Bundle");
+        ID(1619);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "WorldBurners_Bundle");
+        ID(1620);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Common_Craftables_Bundle");
+        ID(1621);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "CrossBow_Bundle");
+        ID(1622);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Bow_Bundle");
+        ID(1623);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Legendary_Bow_Bundle");
+        ID(1624);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Legendary_CrossBow_Bundle");
+        ID(1625);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "BigBundle_Firearm_Gunslinger_Upgrade8");
+        ID(1626);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Gunslinger_Dynamite");
+        ID(1627);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "RangedAmmo_Bundle");
+        ID(1628);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Explosives_Bundle");
+        ID(1629);
+    }
+	
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_Bow_Bundle");
+        ID(1630);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Undead_Items_Bundle");
+        ID(1631);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Traders");
+        ID(1632);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Throwables_Bundle");
+        ID(1639);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_WeaponMOD_Bundle");
+        ID(1640);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Fireworks_Bundle_01");
+        ID(1641);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Exchange_Bundle_01");
+        ID(1642);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Cash_Small_Bundle");
+        ID(1643);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Cash_Medium_Bundle");
+        ID(1644);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Cash_Large_Bundle");
+        ID(1645);
+    }
+	DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Cash_NeverWorkAgain_Bundle");
+        ID(1646);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Boost_Bundle");
+        ID(1647);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Trophies_NeverWorkAgain_T1_Bundle");
+        ID(1649);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Trophies_NeverWorkAgain_T2_Bundle");
+        ID(1650);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Trophies_NeverWorkAgain_T3_Bundle");
+        ID(1651);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Tech_NeverWorkAgain_Bundle");
+        ID(1652);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Valuables_NeverWorkAgain_Bundle");
+        ID(1653);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_Crystals_NeverWorkAgain_Bundle");
+        ID(1654);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Loot_XP_Bundle");
+        ID(1655);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Spawn_Companion_TF2");
+        ID(1655);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "Summon_Traveling_Trader_Armor");
+        ID(1566);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Light_MidTier");
+        ID(1567);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Medium_MidTier");
+        ID(1568);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Heavy_MidTier");
+        ID(1569);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Light_Orange");
+        ID(1570);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Medium_Orange");
+        ID(1571);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Heavy_Orange");
+        ID(1572);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Light_Platinum");
+        ID(1573);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Medium_Platinum");
+        ID(1574);
+    }
+    DLC_Set_With_Cooldown("", 1.0)
+    {
+        Item(1, "IALR_ArmorKit_Heavy_Platinum");
+        ID(1575);
+    }
+}

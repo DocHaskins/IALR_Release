@@ -778,6 +778,10 @@
 	<property name="EnemyAffectedByFreezeDamageMulFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Electric_Mods_Damage_Buff" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="ElectricModsDamageMulFactor" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Stamina_Regen_on_Hit" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="StaminaRegenerationFactorOnHit" value_add ="0.01"/>
 </buff>
@@ -1085,6 +1089,22 @@
 
 <buff id="Revive_Invisibility" duration="15" serialize_on_save="false">
     <property name="PostReviveInvisibility" set="true"/>
+</buff>
+
+<buff id="TowerRaid_Revive_Invisibility" duration="3" serialize_on_save="false">
+    <property name="PostReviveInvisibility" set="true"/>
+</buff>
+
+<buff id="Revive_Invincibility" duration="3" serialize_on_save="false">
+</buff>
+
+<buff id="TowerRaid_Revive_Invincibility" duration="3" serialize_on_save="false">
+    <property name="PostReviveInvincibility" set="true"/>
+</buff>
+
+<buff id="TowerRaidJoin" duration="8" serialize_on_save="false">
+    <property name="PostReviveInvisibility" set="true"/>
+    <property name="PostReviveInvincibility" set="true"/>
 </buff>
 
 <buff id="Medkit_Small_Old" duration="0">
@@ -2491,7 +2511,7 @@
 	</OnGain>
 </buff>
 
-<buff id="DoubleJump_GameOver_Upgrade2" duration="90" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="DoubleJump_GameOver_Upgrade2" duration="90" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
 	<property name="ExtraJumpsInAir" value_add="1.0"/>
     <hud_icon val="buff_doublejump"/>
 	<OnGain>
@@ -2499,16 +2519,48 @@
 	</OnGain>
 </buff>
 
+<buff id="Peacekeeper_Beer" duration="120" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
+    <hud_icon val="buff_beer"/>
 
-<!-- ---------------------------------------------------------------------------- -->
-<!-- -------------------------        FURY         ------------------------------ -->
-<!-- ---------------------------------------------------------------------------- -->
+	<varlist_timeline var="f_game_dialog_far">
+		<key t="0" val="0.2"/>
+		<key t="1" val="0.5"/>
+		<key t="5" val="1.0"/>
+		<key t="117" val="0.5"/>
+		<key t="120" val="0"/>
+	</varlist_timeline>
 
-<buff id="Fury_KnocbackResistance" duration="180" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
-    <property name="ReduceReactionsSeverity" set="true"/>
-	<property name="BlockHitReactionKnockdown" set="true"/>
+		<property name="DrunkEffect" set="true"/>
+		<property name="DrunkEffectPPFXPower" value_add="0.04"/>
+		<property name="DrunkEffectInputLagTime" value_add="0.16"/>
+		<property name="DrunkEffectMoveRollAngle" value_add="2.0"/>
+		<property name="DrunkEffectMoveRollAngleTime" value_add="0.2"/>
+		<property name="MoveDeceleration" value_add="85.0"/>
+		<property name="PeacekeeperBeerRamDamageMul" value_add="1.6"/>
+		<property name="MoveBackwardMaxSpeed" value_add="-0.08"/>
+		<property name="MoveForwardMaxSpeed" value_add="-0.08"/>
+		<property name="MoveStrafeMaxSpeed" value_add="-0.2"/>
+		<property name="MoveSprintSpeed" value_add="-0.2"/>
+		<property name="MoveAnimSpeedMul" value_add="-0.1"/>
+		<property name="MaxDodgesInSequence" value_add="-1"/>
+		<property name="ReduceReactionsSeverity" set="true"/>
+	    <property name="BlockHitReactionKnockdown" set="true"/>
+		<property name="DamageReduction" value="Potion_Peacekeeper"/>
+		<property name="PeacekeeperBeerRamDamageMul" value_add="1.8"/>
+		<property name="PhysicsDamageMul" value_add="0.13"/>
+		<property name="WrestlingKickStaminaUsage" value_add="0.12"/>
+		<property name="KickStaminaUsage" value_add="0.07"/>
+		<property name="StaminaRegenerationRelative" value_add="0.35"/>
+		<property name="MeeleBluntStaminaUsageMul" value_add="0.35"/>
+		<property name="MeeleCutStaminaUsageMul" value_add="0.35"/>
+		
+	<sound t="0.1" event="player_generic_buff_in"/>
+	<sound is_end_event="true" event="player_generic_buff_out"/>
+	<OnGain>
+		<UnequipWeapon/>
+		<RemoveBuff id="Potion_Rage"/>
+	</OnGain>
 </buff>
-
 
 <!-- ---------------------------------------------------------------------------- -->
 <!-- ------------------------- Adaptive Difficulty ------------------------------ -->
