@@ -1430,6 +1430,18 @@ sub appearances()
             HasCustomUnlockRequirements();
             ID(125);
         }
+        Appearance("Gridiron")
+        { 
+            ModelFpp("player_outfit_american_football_fpp.model");
+            ModelTpp("player_outfit_american_football_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_gridiron");
+			Category(0);
+            StoreID(326);
+            ID(126);
+        }
+        
         
         Appearance("Halloween_Clown_Under")
         { 
@@ -3117,6 +3129,28 @@ sub appearances()
 			{
 				ReplaceMaterial("player_backpack.mat", "player_backpack_dl1_a.mat");
                 ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_dl1_a.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
+        Variant("Parachute_Backpack_Gridiron")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_american_football.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_american_football.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_american_football.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
                 ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
 			}
         }

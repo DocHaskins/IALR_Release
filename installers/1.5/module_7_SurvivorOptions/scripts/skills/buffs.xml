@@ -1,3 +1,7 @@
+<!-- apply_behaviour="ResetDuration" - potion time will be reset. -->
+<!-- apply_behaviour="ExtendDuration" - potion time will be added to the current one. -->
+
+
 <!-- ---------------------------------------------------------------------------- -->
 <!-- ------------------------ Outfit Affixes START ------------------------------ -->
 <!-- ---------------------------------------------------------------------------- -->
@@ -834,8 +838,24 @@
 	<property name="FuryChargeMultiplier" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Dropkick_Damage_Increase_On_Stamina_Percentage_Missing" duration="-1" max_stacks="1000" serialize_on_save="false" >
+	<property name="DropkickDamageIncreaseOnStaminaPercentageMissing" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Dropkick_Physical_Damage_Boost" duration="-1" max_stacks="1000" serialize_on_save="false" >
+	<property name="DropkickPhysicalDamageBoost" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Weapon_Damage_Weapon_Throw" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="WeaponDamageWeaponThrowMul" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Throw_Power" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="WeaponThrowPower" value_add ="1.00"/>
+</buff>
+
+<buff id="Affix_Weapon_Throw_Bouncing_Dampening_Percentage" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="WeaponThrowBouncingDampeningPercentage" value_add ="0.01"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_Weapon_Throw_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
@@ -938,6 +958,10 @@
 
 <buff id="Affix_Outfits_HumanDamageResistance" duration="-1" max_stacks="100" serialize_on_save="false">
     <property name="OutfitHumanDamageResistanceFactor" value_add ="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Legend_Level_Gain_Multiplier" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="LegendLevelGainMultiplier" value_add="0.01"/>
 </buff>
 
 <!-- ---------------------------------------------------------------------------- -->
@@ -2521,10 +2545,12 @@
 
 <buff id="Peacekeeper_Beer" duration="120" max_stacks="5" apply_behaviour="ResetDuration" serialize_on_save="true">
     <hud_icon val="buff_beer"/>
+	
 
 	<varlist_timeline var="f_game_dialog_far">
-		<key t="0" val="0.2"/>
-		<key t="1" val="0.5"/>
+		<key t="0" val="0"/>
+		<key t="1" val="0.2"/>
+		<key t="2" val="0.5"/>
 		<key t="5" val="1.0"/>
 		<key t="117" val="0.5"/>
 		<key t="120" val="0"/>

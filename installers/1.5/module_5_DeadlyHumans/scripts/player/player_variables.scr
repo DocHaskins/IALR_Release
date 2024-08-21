@@ -2214,6 +2214,8 @@ sub main()
     Param("ThrownMeleeWeaponPhysicsForceMul", "1.8");
     Param("ThrownMeleeWeaponMaxPhysicsForce", "130");
     Param("ThrownMeleeWeaponRagdollProb", "0.5");
+    Param("WeaponThrowPower", "0");
+    Param("MinimalVelocityForThrownWeaponBounce", "5.0");
     Param("WeaponDamageWeaponThrowMul", "0");
     Param("WeaponDamageWeaponThrowMulCoop", "0");
     Param("ThrownMeleeWeaponDurabilityLoss", "1");
@@ -2373,6 +2375,9 @@ sub main()
     Param("FirearmsShotgunInfiniteAmmo", "false");
     Param("FirearmsSMGInfiniteAmmo", "false");
 
+    Param("SpeechAudioEventPrefix", "playerm1_speech_");
+    Param("TackleGraceTime", "3.0"); //time in seconds 
+
 // Gameplay modifiers-related
     Param("IncomingDamageMul", "0.0");
     Param("DamageMulAll", "0.0");
@@ -2418,4 +2423,14 @@ sub main()
     Param("TowerRaid_ElementalResistance", "false");
     Param("TowerRaid_FaultyProvisions", "false");
     Param("TowerRaid_WarOnDrugs", "false");
+
+    Param("WeaponAfterBoostDefaultInputWindow", "2.5");
+    Param("WeaponAfterBoostDefaultSpeed", "4.5");
+    Param("WeaponAfterBoostMaxSpeed", "7.5");
+    Param("WeaponAfterBoostSpeedDeceleration", "1.0");
+    Param("WeaponAfterBoostStaminaRegain", "0.25");
+    Param("DropkickDamageIncreaseOnStaminaPercentageMissing", "0");
+    Param("DropkickPhysicalDamageBoost", "0");
+
+    Param("LegendLevelGainMultiplier", "0.0");
 }

@@ -969,16 +969,7 @@ use ialr_damagedefinitions();
 		Firearms("75%");
     }
 
-    DamageResistance("Demolisher_Spike_Resistance")
-    {
-        Poison("100%");
-		Fire("90%");
-        Physical("66%");
-		Ram("66%");
-		Ranged("50%");
-		Firearms("75%");
-        Blast("75%");
-    }
+    
     DamageResistance("ScreamerResistance")
     {
         Ranged("50%");
@@ -4478,6 +4469,11 @@ use ialr_damagedefinitions();
 		Firearms("?");
     }
 
+    DamageMul("DropkickDamageDependingOnStaminaBoost")
+    {
+        Ram("?");
+    }
+
 	DamageMul("OutfitMeleeDamageBoost")
     {
 		Physical("?");
@@ -4615,7 +4611,7 @@ use ialr_damagedefinitions();
 
     DamageTotalMul("Player_PilgrimMissionEliteDamageVulnerability") //received from AI
     {
-		All("1.6");
+		All("2.6");
         Poison("1.0");
     }
 
@@ -13857,6 +13853,47 @@ use ialr_damagedefinitions();
     {
         Cut("302");
     }
+
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_0")
+    {
+        Cut("16");
+    }
+	Damage("scaling_slashing_tier_damages_expcalibur_seniority_1")
+    {
+        Cut("20");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_2")
+    {
+        Cut("32");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_3")
+    {
+        Cut("46");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_4")
+    {
+        Cut("70");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_5")
+    {
+        Cut("96");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_6")
+    {
+        Cut("139");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_7")
+    {
+        Cut("200");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_8")
+    {
+        Cut("283");
+    }
+    Damage("scaling_slashing_tier_damages_expcalibur_seniority_9")
+    {
+        Cut("302");
+    }
 	
 	Damage("scaling_2h_slashing_tier_damages_Reburn_0")
     {
@@ -14227,7 +14264,47 @@ use ialr_damagedefinitions();
     {
         Cut("356");
     }
-	
+
+    Damage("scaling_tier_damages_gridiron_0")
+    {
+        Blunt("19");
+    }
+	Damage("scaling_tier_damages_gridiron_1")
+    {
+        Blunt("23");
+    }
+    Damage("scaling_tier_damages_gridiron_2")
+    {
+        Blunt("37");
+    }
+    Damage("scaling_tier_damages_gridiron_3")
+    {
+        Blunt("53");
+    }
+    Damage("scaling_tier_damages_gridiron_4")
+    {
+        Blunt("82");
+    }
+    Damage("scaling_tier_damages_gridiron_5")
+    {
+        Blunt("113");
+    }
+    Damage("scaling_tier_damages_gridiron_6")
+    {
+        Blunt("165");
+    }
+    Damage("scaling_tier_damages_gridiron_7")
+    {
+        Blunt("236");
+    }
+    Damage("scaling_tier_damages_gridiron_8")
+    {
+        Blunt("335");
+    }
+    Damage("scaling_tier_damages_gridiron_9")
+    {
+        Blunt("357");
+    }
 	
 	// FH weapons
 	
@@ -14719,6 +14796,47 @@ use ialr_damagedefinitions();
         Cut("349");
     }
     Damage("scaling_slashing_tier_damages_Knives_9")
+    {
+        Cut("373");
+    }
+
+    Damage("scaling_slashing_tier_damages_Knives_seniority_0")
+    {
+        Cut("20");
+    }
+	Damage("scaling_slashing_tier_damages_Knives_seniority_1")
+    {
+        Cut("25");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_2")
+    {
+        Cut("39");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_3")
+    {
+        Cut("57");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_4")
+    {
+        Cut("87");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_5")
+    {
+        Cut("119");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_6")
+    {
+        Cut("172");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_7")
+    {
+        Cut("247");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_8")
+    {
+        Cut("349");
+    }
+    Damage("scaling_slashing_tier_damages_Knives_seniority_9")
     {
         Cut("373");
     }
@@ -16302,4 +16420,9 @@ use ialr_damagedefinitions();
 		Bleeding("75%");
 		Freeze("75%");
     }
+	
+	DamageMul("Weapon_PowerAttackDamageMul") 
+	{
+		All("?");
+	}
 }

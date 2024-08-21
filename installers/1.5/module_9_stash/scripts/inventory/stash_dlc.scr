@@ -236,11 +236,11 @@ sub main()
         //Item(1, "wpn_1hb_mace_d_FelineClaw");
         //ID(40);
     //}
-    DLC_Set("DLC_HalloweenClown")
-    {
-        Item(1, "wpn_15hb_o_halloween");
-        ID(41);
-    }
+    //DLC_Set_With_Cooldown("DLC_HalloweenClown", 18000.0)
+    //{
+        //Item(1, "wpn_15hb_o_halloween");
+        //ID(41);
+    //}
 	//Docket_Set_With_Cooldown("Weapon17", 18000.0)
     //{
         //Item(1, "wpn_2hb_o_fpp_Winter");
@@ -984,16 +984,6 @@ sub main()
 		Item(1, "wpn_1hs_axe_v_ninja");
 		ID(188);
 	}
-	// Store_Set(83)
-	// {
-	// 	Item(1, "Throwable_Nuclear_Grenade");
-	// 	ID(189);
-	// }
-	// Store_Set(84)
-	// {
-	// 	Item(1, "Craftplan_NuclearGrenade_ExoWeapon");
-	// 	ID(190);
-	// }
 	Store_Set(85)
 	{
 		Item(1, "wpn_15hs_s_walkingdead");
@@ -1475,11 +1465,23 @@ sub main()
 	Docket_Set("Weapon38")
     {
         Item(1, "Craftplan_DyingLaughBat_Common");
+		BlockedByItem("Craftplan_DyingLaughBat_Common");
+		BlockedByItem("Craftplan_DyingLaughBat_Uncommon");
+		BlockedByItem("Craftplan_DyingLaughBat_Rare");
+		BlockedByItem("Craftplan_DyingLaughBat_Unique");
+		BlockedByItem("Craftplan_DyingLaughBat_Artifact");
+		BlockedByItem("Craftplan_DyingLaughBat_Legendary");
         ID(285);
     }
 	Docket_Set("Weapon39")
     {
         Item(1, "Craftplan_NutcrackerSaber_Common");
+		BlockedByItem("Craftplan_NutcrackerSaber_Common");
+		BlockedByItem("Craftplan_NutcrackerSaber_Uncommon");
+		BlockedByItem("Craftplan_NutcrackerSaber_Rare");
+		BlockedByItem("Craftplan_NutcrackerSaber_Unique");
+		BlockedByItem("Craftplan_NutcrackerSaber_Artifact");
+		BlockedByItem("Craftplan_NutcrackerSaber_Legendary");
         ID(286);
     }
 	
@@ -1498,6 +1500,12 @@ sub main()
 	Docket_Set("Weapon37")
     {
         Item(1, "Craftplan_SkyPiercerJi_Common");
+		BlockedByItem("Craftplan_SkyPiercerJi_Common");
+		BlockedByItem("Craftplan_SkyPiercerJi_Uncommon");
+		BlockedByItem("Craftplan_SkyPiercerJi_Rare");
+		BlockedByItem("Craftplan_SkyPiercerJi_Unique");
+		BlockedByItem("Craftplan_SkyPiercerJi_Artifact");
+		BlockedByItem("Craftplan_SkyPiercerJi_Legendary");
         ID(288);
     }
 	
@@ -1546,6 +1554,8 @@ sub main()
 	Store_Set(227)
 	{
 		Item(1, "Craftplan_CreepySanta_Artifact");
+		BlockedByItem("Craftplan_CreepySanta_Artifact");
+		BlockedByItem("Craftplan_CreepySanta_Legendary");
 		ID(296);
 	}
 	
@@ -1558,6 +1568,12 @@ sub main()
 	Store_Set(233)
 	{
 		Item(1, "Craftplan_SkyPiercerJi_Common");
+		BlockedByItem("Craftplan_SkyPiercerJi_Common");
+		BlockedByItem("Craftplan_SkyPiercerJi_Uncommon");
+		BlockedByItem("Craftplan_SkyPiercerJi_Rare");
+		BlockedByItem("Craftplan_SkyPiercerJi_Unique");
+		BlockedByItem("Craftplan_SkyPiercerJi_Artifact");
+		BlockedByItem("Craftplan_SkyPiercerJi_Legendary");
 		ID(298);
 	}
 	Store_Set(232)
@@ -1565,294 +1581,29 @@ sub main()
 		Item(1, "Craftplan_charm_dragonwarrior");
 		ID(299);
 	}
-
 	Docket_Set("Weapon41")
     {
         Item(1, "Craftplan_PolearmD_Common");
+		BlockedByItem("Craftplan_PolearmD_Common");
+		BlockedByItem("Craftplan_PolearmD_Uncommon");
+		BlockedByItem("Craftplan_PolearmD_Rare");
+		BlockedByItem("Craftplan_PolearmD_Unique");
+		BlockedByItem("Craftplan_PolearmD_Artifact");
+		BlockedByItem("Craftplan_PolearmD_Legendary");
         ID(300);
     }
     
     Docket_Set("Weapon40")
     {
         Item(1, "Craftplan_Junkyard_Common");
+		BlockedByItem("Craftplan_Junkyard_Common");
+		BlockedByItem("Craftplan_Junkyard_Uncommon");
+		BlockedByItem("Craftplan_Junkyard_Rare");
+		BlockedByItem("Craftplan_Junkyard_Unique");
+		BlockedByItem("Craftplan_Junkyard_Artifact");
+		BlockedByItem("Craftplan_Junkyard_Legendary");
         ID(301);
     }
-
-	Docket_Set("Weapon35")
-    {
-        Item(1, "Craftplan_GlassCannon_Common");
-        ID(302);
-    }
-
-	Docket_Set("Weapon43")
-    {
-        Item(1, "Craftplan_pilgrimpo_Common");
-        ID(303);
-    }
-
-	Docket_Set_With_Cooldown("Weapon46", 1.0)
-    {
-        Item(1, "wpn_2hr_crossbow_c_pilgrimpo");
-		BlockedByItem("wpn_2hr_crossbow_c_pilgrimpo");
-        ID(306);
-    }
-
-	Docket_Set("Weapon46")
-    {
-        Item(1, "Craftplan_Bolt");
-		BlockedByItem("Craftplan_Bolt");
-        ID(307);
-    }
-	
-	Store_Set(236)
-	{
-		Item(1, "wpn_1hs_mach_08_NightVibes");
-		ID(308);
-	}
-	
-	Store_Set(237)
-	{
-		Item(1, "Craftplan_NightVibesMachete_Common");
-		ID(309);
-	}
-	
-	Store_Set(238)
-	{
-		Item(1, "wpn_1hs_mach_q_NightVibes");
-		ID(310);
-	}
-	
-	Store_Set(239)
-	{
-		Item(1, "Craftplan_NightVibesScythe_Common");
-		ID(311);
-	}
-
-	Store_Set(240)
-	{
-		Item(1, "Rifle_NightVibes_WeaponBundle");
-		BlockedByItem("Weapon_Firearm_Rifle_NightVibes");
-		ID(312);
-	}
-
-	Docket_Set("Weapon47")
-    {
-        Item(1, "Craftplan_AxeFrost_Artifact");
-		BlockedByItem("Craftplan_AxeFrost_Artifact");
-        ID(313);
-    }
-
-	//Server Sets
-	Server_Set(1)
-	{
-        Item(1, "Harran_FreeGun_Bundle");
-		BlockedByItem("Weapon_Firearm_Pistol_Blue");
-        ID(314);
-	}
-
-	Store_Set(243)
-	{
-		Item(1, "wpn_15hs_z_erlangshen");
-		ID(315);
-	}
-
-	Store_Set(244)
-	{
-		Item(1, "Craftplan_ErlangShen_Common");
-		ID(316);
-	}
-
-	Store_Set(245)
-	{
-		Item(1, "Craftplan_charm_erlangshen");
-		ID(317);
-	}
-
-	Store_Set(246)
-	{
-		Item(1, "erlangshen_grenade_Bundle");
-		ID(318);
-	}
-
-	Store_Set(247)
-	{
-		Item(1, "Craftplan_erlangshen_grenade");
-		ID(319);
-	}
-
-	Store_Set(248)
-	{
-		Item(1, "gameover_Foodbar_Bundle");
-		ID(320);
-	}
-
-	Store_Set(249)
-	{
-		Item(1, "Craftplan_Foodbar_Gameover");
-		ID(321);
-	}
-
-	Store_Set(252)
-	{
-		Item(1, "Welcome_Pistol_Bundle");
-		ID(322);
-	}
-
-	Store_Set(253)
-	{
-		Item(1, "Welcome_10MedkitLarge_Bundle");
-		ID(323);
-	}
-
-	Store_Set(254)
-	{
-		Item(1, "Welcome_Cash_Bundle");
-		ID(324);
-	}
-
-	Docket_Set("Weapon48")
-    {
-        Item(1, "Craftplan_HalloweenKnife_Common");
-        ID(325);
-    }
-
-	Store_Set(265)
-	{
-		Item(1, "wpn_1hs_mach_06_anubis");
-		ID(326);
-	}
-
-	Store_Set(266)
-	{
-		Item(1, "Craftplan_Anubis_Common");
-		ID(327);
-	}
-
-	Store_Set(267)
-	{
-		Item(1, "Craftplan_charm_anubis");
-		ID(328);
-	}
-
-	Store_Set(268)
-	{
-		Item(1, "Anubis_CrossbowBundle");
-		ID(329);
-	}
-
-	Store_Set(269)
-	{
-		Item(1, "Craftplan_Player_Shield_Anubis");
-		ID(330);
-	}
-
-	Store_Set(272)
-	{
-		Item(1, "Potion_Peacekeeper_Bundle");
-		ID(331);
-	}
-
-	Store_Set(273)
-	{
-		Item(1, "Craftplan_Potion_Peacekeeper");
-		ID(332);
-	}
-
-	Store_Set(274)
-	{
-		Item(1, "wpn_2hs_m_peacekeeper");
-		ID(333);
-	}
-
-	Store_Set(275)
-	{
-		Item(1, "Craftplan_Peacekeeper_Common");
-		ID(334);
-	}
-
-	Store_Set(277)
-	{
-		Item(1, "wpn_15hb_y_america");
-		ID(335);
-	}
-
-	Store_Set(278)
-	{
-		Item(1, "Craftplan_America_Common");
-		ID(336);
-	}
-
-	Store_Set(257)
-	{
-		Item(1, "wpn_1hs_axe_y_perun");
-		ID(337);
-	}
-
-	Store_Set(258)
-	{
-		Item(1, "Craftplan_Perun_Common");
-		ID(338);
-	}
-
-	Store_Set(260)
-	{
-		Item(1, "wpn_2hp_perun");
-		ID(339);
-	}
-
-	Store_Set(259)
-	{
-		Item(1, "Craftplan_charm_perun");
-		ID(340);
-	}
-
-	Docket_Set("Weapon50")
-    {
-        Item(1, "Craftplan_Pilgrimtwitch_Common");
-        ID(341);
-    }
-
-	Docket_Set("Weapon51")
-    {
-        Item(1, "Craftplan_PKtwitch_Common");
-        ID(342);
-    }
-
-	Store_Set(280)
-	{
-		Item(1, "wpn_1hs_mach_v_pilgrimtwitch");
-		ID(344);
-	}
-
-	Store_Set(281)
-	{
-		Item(1, "Craftplan_Pilgrimtwitch_Common");
-		ID(345);
-	}
-
-	Store_Set(282)
-	{
-		Item(1, "wpn_2hb_g_pktwitch");
-		ID(346);
-	}
-
-	Store_Set(283)
-	{
-		Item(1, "Craftplan_PKtwitch_Common");
-		ID(347);
-	}
-
-	Store_Set(324)
-	{
-		Item(1, "Brecken_SMG_Bundle");
-		ID(387);
-	}
-
-	Store_Set(325)
-	{
-		Item(1, "Craftplan_Bolts_Fire");
-		ID(388);
-	}
 	
 	////////////////////////////
     //BundledItem("itemID", "BundleID");
@@ -1860,8 +1611,6 @@ sub main()
 	// Flag the collectable items as DLC in their definitions as well as the bundle itself
 		
     BundledItem("wpn_2hr_crossbow_b_hakon_dlc", "BloodyNights_DLC");
-
-	BundledItem("Weapon_Firearm_Rifle_NightVibes", "Rifle_NightVibes_WeaponBundle");
 	
     BundledItem("wpn_1hs_mach_02_gunslinger", "Gunslinger_DLCBundle");
     BundledItem("Craftplan_Gunslinger_Common", "Gunslinger_DLCBundle");
@@ -1926,17 +1675,7 @@ sub main()
 	BundledItem("Craftplan_SkyPiercerJi_Artifact", "LuBu_weapon_Bundle");
 	BundledItem("Craftplan_SkyPiercerJi_Legendary", "LuBu_weapon_Bundle");
 
-	BundledItem("Weapon_Firearm_Pistol_Blue", "Harran_FreeGun_Bundle");
-	BundledItem("Throwable_erlangshenGrenade_Upgrade2", "erlangshen_grenade_Bundle");
-	BundledItem("Foodbar_Gameover_Upgrade2", "gameover_Foodbar_Bundle");
 
-	BundledItem("Weapon_Firearm_Pistol_welcome", "Welcome_Pistol_Bundle");
-	BundledItem("Medkit_Large", "Welcome_10MedkitLarge_Bundle");
-	BundledItem("Cash_Cash", "Welcome_Cash_Bundle");
-
-	BundledItem("Potion_Peacekeeper", "Potion_Peacekeeper_Bundle");
-	BundledItem("Weapon_Firearm_Submachinegun_Welcome", "Brecken_SMG_Bundle"); 
-	BundledItem("wpn_2hr_crossbow_d_anubis", "Anubis_CrossbowBundle");
     //NotifyWhenAvailable(iID,sLabel);
     // ie.: NotifyWhenAvailable(80, "hakon_crossbow_msg");
     NotifyWhenAvailable(81, "twd_agregator");

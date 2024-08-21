@@ -13835,6 +13835,21 @@ sub main()
 		Item("Collectable_Outfit_BreckenDark_B");
     }
 
+	ItemSet("Docket_AnubisCrossbow")
+	{
+		Item("Anubis_CrossbowBundle");
+    }
+
+	ItemSet("Docket_Seniority_Expcalibur")
+	{
+		Item("wpn_15hs_04_seniority");
+    }
+
+	ItemSet("Docket_SMG_DL1")
+	{
+		Item("SMG_DL1_WeaponBundle");
+    }
+
 	// ItemSet("Docket_EvilElf_Head")
 	// {
 	// 	Item("Outfitset_WinterEvent_Evil_Elf_Head");
