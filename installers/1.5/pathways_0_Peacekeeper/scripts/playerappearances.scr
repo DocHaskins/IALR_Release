@@ -1443,6 +1443,42 @@ sub appearances()
             ID(126);
         }
         
+        Appearance("Vampire")
+        { 
+            ModelFpp("player_outfit_vampire_a_fpp.model");
+            ModelTpp("player_outfit_vampire_a_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_vampire");
+			Category(0);
+            StoreID(338);
+            ID(127);
+        }
+
+        Appearance("Pirate")
+        { 
+            ModelFpp("player_outfit_pirate_fpp.model");
+            ModelTpp("player_outfit_pirate_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_pirate");
+			Category(0);
+            StoreID(352);
+            ID(128);
+        }
+
+        Appearance("VanAiden")
+        { 
+            ModelFpp("player_outfit_van_aiden_a_fpp.model");
+            ModelTpp("player_outfit_van_aiden_a_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_vanaiden");
+			Category(0);
+            HasCustomUnlockRequirements();
+            ID(129);
+        }
+        
         Appearance("Halloween_Clown_Under")
         { 
             ModelFpp("player_fpp_halloween_01_skeleton.model");
@@ -3155,6 +3191,47 @@ sub appearances()
 			}
         }
 
+        Variant("Parachute_Backpack_Vampire")
+        {
+            Mesh(1, "player_backpack_a_vampire.msh")
+			{
+			}
+	        Mesh(2, "player_backpack_a_vampire.msh")
+			{
+			}
+	        Mesh(3, "player_backpack_a_vampire.msh")
+			{
+			}
+        }
+
+        Variant("Parachute_Backpack_Pirate")
+        {
+            Mesh(1, "player_backpack_a_pirate.msh")
+			{
+			}
+	        Mesh(2, "player_backpack_a_pirate.msh")
+			{
+			}
+	        Mesh(3, "player_backpack_a_pirate.msh")
+			{
+			}
+        }
+
+        Variant("Parachute_Backpack_Vanaiden")
+        {
+            Mesh(1, "player_backpack_a_van_aiden.msh")
+			{
+
+			}
+	        Mesh(2, "player_backpack_a_van_aiden.msh")
+			{
+
+			}
+	        Mesh(3, "player_backpack_a_van_aiden.msh")
+			{
+			}
+        }
+
 	}
 
     OutfitAddon("ShieldHolder")
@@ -3331,4 +3408,5 @@ sub unlock()
     Item("Collectable_Outfit_pilgrimpo", "PlayerMan1", "pilgrimpo");
     Item("Collectable_Outfit_Brecken_DL1_A_seniority", "PlayerMan1", "Brecken_DL1_A");
     Item("Collectable_Outfit_BreckenDark_B", "PlayerMan1", "BreckenDark_B_docket");
+    Item("Collectable_Outfit_Vanaiden", "PlayerMan1", "VanAiden");
 }

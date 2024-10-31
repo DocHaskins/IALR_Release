@@ -8,6 +8,7 @@ sub PlayerVariables()
     Param("PlayerFallDamageVulnerability", "Player_FallDamageVulnerability_Hard");
 
     Param("WeaponStaminaUsageMul", "1.25");
+	Param("StaminaRegenerationMul", "0.575");
 
     Param("PerfectBlockTimingEnd", "0.15");
 
@@ -65,5 +66,12 @@ sub PlayerVariables()
     // detection ranges for AIs:
 	Param("SurvivorSenseAIRange", "0.0"); // range of detecting active AI
     Param("SurvivorSenseRestingAIRange", "0.0"); // range of detecting sleeping AI
-
+	
+    
+    Param("AdvancedStamina", "true");
+    Param("StaminaRegenerationMul", "1.0");
+    
+    Param("PushAttackAdvancedStaminaCost", "0.5");
+    Param("AdvancedStaminaRegenerationRelative", "0.75");
+    Param("AdvancedStaminaRegenerationRelativeOutsideDanger", "0.75");
 }

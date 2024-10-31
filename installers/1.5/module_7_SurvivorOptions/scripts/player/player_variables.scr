@@ -656,6 +656,7 @@ sub main()
     Param("HealthRegenerationMaxLevel", "HealthRegenerationMaxLevel");               // Regenerates health up to this value. Post process depends on LowHealthEffectThreshold 
     Param("LowHealthEffectThreshold", "0.95");                // Defines the value of health when critical health post process is working, based on HealthCriticalLevel
     Param("HealthRegenerationDelay", "5.0");                 // Time after which player starts to regenerate, measured from last hit
+	Param("FullHealthEffectThreshold", "0.9");
     Param("HealthPerSecond", "");                           // Amount of health being regenerated each second, to be used as auto heal skill
     Param("AfterDeathHealthRegenTime", "240");               // Time it takes to regenerate full health after respawn
     Param("AfterDeathHealthFactor", "Player_AfterDeathHealth");   // Part of MaxHealth restored after respawn
@@ -1025,6 +1026,7 @@ sub main()
 	// BLOCK RUN
 	Param("BlockRunMinTimeInSprint", "-1.0");
 	Param("BlockRunStaminaUsage", "0.20");
+	Param("BlockRunDamageResistanceFactor", "0.50");
 	
     // tackle prototype in PH
     Param("TackleHit", "0");
@@ -1499,6 +1501,8 @@ sub main()
     Param("MeeleFistStaminaUsageMul", "0.0");
     Param("StaminaRegenerationOnHalfHealth", "0.0");
     Param("StaminaUsageFactorOnMaxHealth", "1.0");
+    Param("StaminaUsageFactorOnLowHealth", "1.0");
+    Param("StaminaUsageFactorOnLowHealth_HealthThreshold", "0.4");
     Param("LookRollFactor", "0.7");
     Param("LookSpeedSprintMod", "1.0");
     Param("CarryLookTimeMul", "0.5");
@@ -1650,7 +1654,7 @@ sub main()
     Param("CanBeRevived", "true");
 	Param("ReviveLimitEliteSurvivorMission", "1.0");
     Param("ReviveLimit", "3.0");		
-    Param("ReviveLimitTowerRaid", "3.0");
+    Param("ReviveLimitTowerRaid", "1.0");
     Param("ReviveLimitTowerRaidElite", "1.0");
 	Param("ReviveLimitResetTime", "300.0");
 	Param("TotalReviveTime", "40.0");
@@ -1902,6 +1906,8 @@ sub main()
     Param("OutfitKnuckleDusterDamageBoostFactor", "0.0");
     Param("OutfitParkourDamageBoostFactor", "0.0");
     Param("OutfitParkourDamageBoostFactorCoop", "0.0");
+	Param("OutfitNoAmmoConsumptionChance", "0.0");
+	Param("OutfitInfectedDamageMul", "0.0");
 
 	Param("OutfitArmorResistanceFactorMul", "1.0");
 	Param("ArmorResistanceMulPhysical", "1.0");
@@ -2346,6 +2352,10 @@ sub main()
     Param("FirearmsAimingDepthOfFieldPower", "0.0");
     Param("FirearmsAimingDepthOfFieldDefaultNear", "0.08");
 
+    Param("TowerRaidQuickSlotsCount", "6"); //weapons slots during TowerRaid (not counting the quickslots)
+    Param("TowerRaidEquipmentSlotsCount", "8"); //accessories max slots during TowerRaid
+    Param("TowerRaidConsumableSlotsCount", "16"); // Consumables max slots during TowerRaid
+
     Param("SurvivorMissionsEquipmentSlotsCount", "4");
     Param("SurvivorMissionsConsumableSlotsCount", "4");
     Param("SurvivorMissionsInventorySlotsCount", "4");
@@ -2385,8 +2395,8 @@ sub main()
     Param("DamageMulLowHealthThreshold", "0.35");
     Param("DamageMulFullHealth", "0.0");
     Param("DamageMulEnemiesNearby", "0.0");
-    Param("DamageMulEnemiesNearbyRadius", "10.0");
-    Param("DamageMulEnemiesNearbyCount", "3.0");
+    Param("DamageMulEnemiesNearbyRadius", "8.0");
+    Param("DamageMulEnemiesNearbyCount", "4.0");
     Param("DamageMulPerTowerRaidFloor", "0.0");
     Param("DamageMulPerTowerRaidKill", "0.0");
     Param("DamageMulPerTowerRaidKillOnCurrentFloor", "0.0");
@@ -2399,30 +2409,69 @@ sub main()
     Param("FirearmDamageMul", "0.0");
     Param("KnuckledusterDamageMul", "0.0");
     Param("FistsDamageMul", "0.0");
+    Param("CommonCraftDroppedMul", "0.0");
+    Param("UncommonCraftDroppedMul", "0.0");
+    Param("AmmoDroppedMul", "0.0");
+    Param("FuelDroppedMul", "0.0");
     Param("ApplyRagdollOnCrit", "false");
     Param("ApplyRagdollOnChargeAttackWhenHealthIsFull", "false");
     Param("ApplyStunOnCrit", "false");
     Param("ApplyStunOnCrit_StunDuration", "2.0");
-    Param("InfiniteStaminaLowHealth", "false");
-    Param("InfiniteStaminaLowHealthThreshold", "0.4");
-    Param("InfiniteStaminaFullHealth", "false");
     Param("TowerRaid_NoTimeToWaste", "false");
-    Param("TowerRaid_NoTimeToWaste_Timer", "420.0");
-    Param("TowerRaid_NoTimeToWaste_Damage", "0.05");
-    Param("TowerRaid_NoTimeToWaste_Interval", "20.0");
+    Param("TowerRaid_NoTimeToWaste_Timer", "0.0");
+    Param("TowerRaid_NoTimeToWaste_Damage", "0.0");
+    Param("TowerRaid_NoTimeToWaste_Interval", "0.0");
     Param("TowerRaid_TimeIsRunningOut", "false");
-    Param("TowerRaid_TimeIsRunningOut_Timer", "420.0");
-    Param("TowerRaid_TimeIsRunningOut_Damage", "0.60");
+    Param("TowerRaid_TimeIsRunningOut_Timer", "0.0");
+    Param("TowerRaid_TimeIsRunningOut_Damage", "0.0");
     Param("TowerRaid_WorthTheEffort", "false");
     Param("TowerRaid_SelfSabotage", "false");
-    Param("TowerRaid_SelfSabotage_Damage", "3.0");
+    Param("TowerRaid_SelfSabotage_Damage", "0.0");
     Param("TowerRaid_ElementalAggression", "false");
-    Param("TowerRaid_ElementalAggression_Chance", "0.20");
+    Param("TowerRaid_ElementalAggression_Chance", "0.0");
     Param("TowerRaid_ElementalAggression_Duration", "3.0");
     Param("TowerRaid_ElementalEndurance", "false");
     Param("TowerRaid_ElementalResistance", "false");
     Param("TowerRaid_FaultyProvisions", "false");
     Param("TowerRaid_WarOnDrugs", "false");
+
+    // TowerRaid Perks related START
+    Param("TowerRaid_DamageResistanceFactor", "0.0");
+    Param("StaminaFreezeOnDecapitationDuration", "0.0");
+    Param("MaxHealthPercentHealOnDecapitation", "0.0");
+    Param("TowerRaid_NormalAdditionalRandomModifiers", "0.0");
+    Param("TowerRaid_EliteAdditionalRandomModifiers", "0.0");
+    Param("TowerRaid_NormalPositiveModifierAdditionalProbability", "0.0");
+    Param("TowerRaid_ElitePositiveModifierAdditionalProbability", "0.0");
+    Param("MeleeDamageSpecificHealthMulThreshold", "0.0");
+    Param("MeleeDamageSpecificHealthMul", "0.0");
+    Param("MeleeDamageEnemyCurrentHealthPoolPercentage", "0.0");
+    Param("TowerRaid_RangedElectricElemental_Chance", "0.0");
+    Param("TowerRaid_RangedElectricElemental_Duration", "0.0");
+    Param("TowerRaid_RangedElectricElemental_Level", "0.0");
+    Param("TowerRaid_RangedElectricElemental_Variant", "0.0");
+    Param("TowerRaid_MeleeElementalSpawn_Name", "");
+    Param("TowerRaid_MeleeElementalSpawn_Level", "0.0");
+    Param("TowerRaid_MeleeElementalSpawn_ForceChance", "0.0");
+    Param("NoBulletConsumptionChance", "0.0");
+    Param("NoArrowConsumptionChance", "0.0");
+    Param("NoBoltConsumptionChance", "0.0");
+    Param("NoThrowableConsumptionChance", "0.0");
+    Param("NoConditionDecreaseChance", "0.0");
+    Param("HealthItemUseTimeSpeedMul", "1.0");
+    Param("RangedReloadSpeedMul", "1.0");
+    Param("RangedWeaponHeadDamageMul", "0.0");
+    Param("HealthItemImmediateHpRestoreMul", "0.0");
+    Param("MaxHealthAdditionalAmount", "0.0");
+    Param("TowerRaid_AdvantagePusher_ActivationHealthPercentage", "0.0");
+    Param("TowerRaid_AdvantagePusher_DmgMul", "0.0");
+    Param("MaxHealthRegenThresholdMul", "1.0");
+    Param("MaxHealthPercentHealOnExecution", "0.0");
+    Param("TowerRaid_FriendlyThrowableDamageMul", "0.0");
+    Param("TowerRaid_CandyReceivedMul", "0.0");
+    Param("TowerRaid_ScrapsReceivedMul", "0.0");
+    Param("TowerRaid_DifficultyTierDamageScaling", "9.0");
+    // TowerRaid Perks related END
 
     Param("WeaponAfterBoostDefaultInputWindow", "2.5");
     Param("WeaponAfterBoostDefaultSpeed", "4.5");
@@ -2433,4 +2482,18 @@ sub main()
     Param("DropkickPhysicalDamageBoost", "0");
 
     Param("LegendLevelGainMultiplier", "0.0");
+	
+	Param("BleedingOnPowerAttackChance", "0.0");
+	Param("BleedingOnPowerAttackDuration", "10");
+	Param("BleedingOnPowerAttackLevel", "3");
+	
+	Param("NightStaminaUsageMul", "1.0");
+	Param("ChaseLevelDamageMul", "0.0");
+	Param("InfectedGrabBlocked", "false");
+	
+	Param("NoArrowConsumptionSoundEvent", "weapon_no_ammo_consumption_bow");
+	Param("NoBoltConsumptionSoundEvent", "weapon_no_ammo_consumption_crossbow");
+	Param("NoBulletConsumptionSoundEvent", "weapon_no_ammo_consumption_firearms");
+	
+	Param("FirearmsMaxHealthPoolPercentageBasedDamageFactor", "3.5");			
 }

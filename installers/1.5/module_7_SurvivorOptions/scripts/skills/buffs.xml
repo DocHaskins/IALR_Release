@@ -135,6 +135,14 @@
     <property name="OutfitArmorResistanceFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Outfit_No_Ammo_Consumption" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="OutfitNoAmmoConsumptionChance" value_add="0.01"/>
+</buff>
+
+<buff id="Affix_Outfit_Damage_To_Infected_Multiplier" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="OutfitInfectedDamageMul" value_add="0.01"/>
+</buff>
+
 
 <!-- ---------------------------------------------------------------------------- -->
 <!-- ------------------------ Outfit Affixes END ------------------------------ -->
@@ -150,10 +158,6 @@
     <hud_icon val="momentum"/>
 </buff>
 
-<buff id="Potion_DoubleHealthRegenerationMaxLevel" duration="180" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
-	<property name="HealthRegenerationMaxLevel" value_mul="2.0"/>
-    <hud_icon val="momentum"/>
-</buff>
 
 <buff id="Potion_StaminaUsageReduction" duration="180" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
 	<property name="StaminaUsageReduction" value_add="0.5"/>
@@ -212,6 +216,12 @@
 </buff>
 </buff_group>
 
+
+<buff id="Potion_StaminaRegen_TR" duration="30" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="StaminaRegenerationFactorOnHit" value_add ="0.12"/>   
+	<hud_icon val="buff_stamina"/>
+</buff>
+
 <buff_group>
 <buff id="Potion_HealthRegeneration" max_stacks="1" duration="60" apply_behaviour="ResetDuration" serialize_on_save="false">
    <property name="HealthPerSecond" value="HealthRegenerationPotion"/>
@@ -247,6 +257,11 @@
    <hud_icon val="buff_health"/>
 </buff>
 </buff_group>
+
+<buff id="Potion_HealthRegeneration_TR" max_stacks="1" duration="90" apply_behaviour="ResetDuration" serialize_on_save="false">
+   <property name="HealthPerSecond" value="HealthRegenerationPotion_TR"/>
+   <hud_icon val="buff_health"/>
+</buff>
 
 <buff_group>
 <buff id="Potion_HealthRegeneration_Nightrunner" max_stacks="1" duration="60" apply_behaviour="ResetDuration" serialize_on_save="false">
@@ -340,13 +355,14 @@
 	<property name="DrunkEffectInputLagTime" value_add="0.75"/>
 	<property name="DrunkEffectMoveRollAngle" value_add="10.0"/>
 	<property name="DrunkEffectMoveRollAngleTime" value_add="1.0"/>
-	<property name="NightRunnerRagdollProbability" value="1.0"/>
+	<property name="NightRunnerRagdollProbability" value_add="1.0"/>
 	<property name="LookVertAcc_Pad" value_add="-1900.0"/>
 	<property name="LookHorzAcc_Pad" value_add="-1900.0"/>
 	<property name="LookVertDec_Pad" value_add="-49500.0"/>
 	<property name="LookHorzDec_Pad" value_add="-49500.0"/>
 	<property name="MoveDeceleration" value_add="300.0"/>
 	<property name="MoveSprintSpeed" value_add="3.0"/>
+	<property name="StaminaRegenerationFactorOnHit" value_add ="0.12"/>
     <hud_icon val="buff_rage"/>
 </buff>
 
@@ -392,6 +408,25 @@
     <hud_icon val="buff_rage"/>
 </buff>
 </buff_group>
+
+<buff id="Potion_Rage_TR" duration="45" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <property name="DamageReduction" value="Potion_Rage_DamageReduction"/>
+    <property name="StrengthDamageMul" value="Potion_Rage_DamageBuff"/>
+    <property name="MeleeDamageMul" value="Potion_Rage_DamageBuff"/>
+	<property name="DrunkEffect" set="true"/>
+	<property name="DrunkEffectPPFXPower" value_add="0.4"/>
+	<property name="DrunkEffectInputLagTime" value_add="0.75"/>
+	<property name="DrunkEffectMoveRollAngle" value_add="10.0"/>
+	<property name="DrunkEffectMoveRollAngleTime" value_add="1.0"/>
+	<property name="NightRunnerRagdollProbability" value_add="1.0"/>
+	<property name="LookVertAcc_Pad" value_add="-1900.0"/>
+	<property name="LookHorzAcc_Pad" value_add="-1900.0"/>
+	<property name="LookVertDec_Pad" value_add="-49500.0"/>
+	<property name="LookHorzDec_Pad" value_add="-49500.0"/>
+	<property name="MoveDeceleration" value_add="300.0"/>
+	<property name="MoveSprintSpeed" value_add="3.0"/>
+    <hud_icon val="buff_rage"/>
+</buff>
 
 <buff_group>
 <buff id="Potion_DamageReduction_Fire" duration="90" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
@@ -556,6 +591,13 @@
 </buff>
 </buff_group>
 
+<buff id="Potion_DamageReduction_TR" duration="90" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <property name="DamageReduction" value="PotionDamageReduction_TR"/>
+    <property name="ReduceReactionsSeverity" set="true"/>
+	<property name="BlockHitReactionKnockdown" set="true"/>	
+    <hud_icon val="buff_resistance_damage"/>	
+</buff>
+
 <buff_group>
 <buff id="Potion_SwimStaminaUsage" duration="30" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
 	<property name="SwimStaminaUsage" value_add ="-0.0125"/>
@@ -719,7 +761,7 @@
 </buff>
 
 <buff id="Affix_Weapon_Damage" duration="-1" max_stacks="100" serialize_on_save="false" >
-	<property name="MeleeDamageMul" value_add ="0.01"/>
+	<property name="MeleeDamageMul" value ="Player_MeleeDamageMul"/>
 </buff>
 
 <buff id="Affix_Weapon_Damage_FullStamina" duration="-1" max_stacks="100" serialize_on_save="false" >
@@ -854,10 +896,6 @@
 	<property name="WeaponThrowPower" value_add ="1.00"/>
 </buff>
 
-<buff id="Affix_Weapon_Throw_Bouncing_Dampening_Percentage" duration="-1" max_stacks="100" serialize_on_save="false" >
-	<property name="WeaponThrowBouncingDampeningPercentage" value_add ="0.01"/>
-</buff>
-
 <buff id="Affix_Weapon_Damage_Weapon_Throw_Coop" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="WeaponDamageWeaponThrowMulCoop" value_add ="0.01"/>
 </buff>
@@ -964,6 +1002,19 @@
 	<property name="LegendLevelGainMultiplier" value_add="0.01"/>
 </buff>
 
+<buff id="Affix_Weapon_Bleeding_On_Power_Attack" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="BleedingOnPowerAttackChance" value_add="0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Night_Stamina_Reducer" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="NightStaminaUsageMul" value_add="-0.01"/>
+</buff>
+
+<buff id="Affix_Weapon_Chase_Level_Damage_Multiplier" duration="-1" max_stacks="100" serialize_on_save="false">
+	<property name="ChaseLevelDamageMul" value_add="0.01"/>
+</buff>
+
+
 <!-- ---------------------------------------------------------------------------- -->
 <!-- ------------------------ Weapon Affixes END -------------------------------- -->
 <!-- ---------------------------------------------------------------------------- -->
@@ -1016,22 +1067,6 @@
 	</varlist_timeline>
 </buff>
 
-<buff id="Painkillers" duration="25">
-	<property name="MaxHealth" value_add="120"/>
-	<!--property name="HealthRegeneration" value_add="5"/-->
-	<varlist_timeline var="f_game_player_injection_1">
-		<key t="0" val="0"/>
-		<key t="0.5" val="0.7"/>
-		<key t_e="-3.5" val="0.7"/>
-		<key t_e="-3" val="0.3"/>
-		<key t_e="-2.5" val="0.7"/>
-		<key t_e="-2" val="0.3"/>
-		<key t_e="-1.5" val="0.7"/>
-		<key t_e="-1" val="0.3"/>
-		<key t_e="-0.5" val="0.7"/> 
-		<key t_e="0" val="0"/>
-	</varlist_timeline>
-</buff>
 
 <buff id="Drunk" duration="20" serialize_on_save="false">
 	<OnGain>
@@ -1131,6 +1166,157 @@
     <property name="PostReviveInvincibility" set="true"/>
 </buff>
 
+<buff id="TowerRaidPerk_GeneralDamageResistance" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the addotional 30% damage reduction. -->
+    <property name="TowerRaid_DamageResistanceFactor" value_add="0.3"/>
+</buff>
+
+<buff id="TowerRaidPerk_StaminaFreezeOnDecapitationDuration" duration="-1" serialize_on_save="false">
+    <!-- Duration is specified in seconds. -->
+    <property name="StaminaFreezeOnDecapitationDuration" value_add ="5.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_PlayerMaxHealthPercentHealOnDecapitation" duration="-1" serialize_on_save="false">
+    <!-- 0.2 corresponds to the 20% players maximun health healing. -->
+    <property name="MaxHealthPercentHealOnDecapitation" value_add ="0.2"/>
+</buff>
+
+<buff id="TowerRaidPerk_LimbCutDestroyProbabilityIncrease" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% increased chance. -->
+    <property name="GeneralAttackLimbCutDestroyProbabilityMul" value_mul ="0.3"/>
+</buff>
+
+<buff id="TowerRaidPerk_StaminaUsageReduction" duration="-1" serialize_on_save="false">
+    <!-- 0.5 corresponds to 50% stamina usage reduction cost (decreased stamina consumption). -->
+    <property name="StaminaUsageReduction" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdditionalRevieves" duration="-1" serialize_on_save="false">
+    <!-- Additional revieves amount could be different for normal and elite modes. -->
+    <property name="ReviveLimitTowerRaid" value_add ="2.0"/>
+    <property name="ReviveLimitTowerRaidElite" value_add ="2.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_ThrowablesDamageIncrease" duration="-1" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="ThrowableDamageMul" value_add ="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdditionalPositiveModifiersProbabilityAndQuantity" duration="-1" serialize_on_save="false">
+    <!-- 0.25 corresponds to the additional 25% positive modifier probablitily (for ...ProbabilityMul variables. -->
+    <property name="TowerRaid_NormalPositiveModifierAdditionalProbability" value_add="0.25"/>
+    <property name="TowerRaid_ElitePositiveModifierAdditionalProbability" value_add="0.15"/>
+    <!-- Additional positive modifiers + values for modifiers quantity in tower_raid_manager.scr (positive+negative+random) MUST NOT be more than 4.
+         The additional modifiers amount should be the whole number. -->
+    <property name="TowerRaid_NormalAdditionalRandomModifiers" value_add="1.0"/>
+    <property name="TowerRaid_EliteAdditionalRandomModifiers" value_add="1.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_LowHealthIncreasedMeleeDamage" duration="-1" serialize_on_save="false">
+    <!-- For the threshold value 0.4 corresponds to 40% of players HP. For the Mul value 1.0 corresponds to the additional 100% melee damage. -->
+    <property name="MeleeDamageSpecificHealthMulThreshold" value_add="0.4"/>
+    <property name="MeleeDamageSpecificHealthMul" value_add="1.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdditionalMeleeDamageBasedOnEnemyHealth" duration="-1" serialize_on_save="false">
+    <!-- 0.15 corresponds to the additional physical damage that is equal to 15% of the enemys current health. -->
+    <property name="MeleeDamageEnemyCurrentHealthPoolPercentage" value_add="0.15"/>
+</buff>
+
+<buff id="TowerRaidPerk_RangedElectricElemental" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the 30% of the electric elemental spawn chance. -->
+    <property name="TowerRaid_RangedElectricElemental_Chance" value_add="0.3"/>
+    <property name="TowerRaid_RangedElectricElemental_Duration" value_add="2.0"/>
+    <property name="TowerRaid_RangedElectricElemental_Level" value_add="8.0"/>
+    <property name="TowerRaid_RangedElectricElemental_Variant" value_add="0.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_ChanceForNoAmmoConsumption" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the 30% chance of no ammo consumed. Default value is 0.0 -->
+    <property name="NoBulletConsumptionChance" value_add="0.3"/>
+    <property name="NoArrowConsumptionChance" value_add="0.3"/>
+    <property name="NoBoltConsumptionChance" value_add="0.3"/>
+    <property name="NoThrowableConsumptionChance" value_add="0.3"/>
+    <property name="NoConditionDecreaseChance" value_add="0.3"/>
+</buff>
+<buff id="TowerRaidPerk_FirstAidTraining_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- -0.3 corresponds to reducing the time required to apply the health immediate regen consumable by 30%. -->
+    <property name="HealthItemUseTimeSpeedMul" value_mul="-0.3" />
+</buff>
+<buff id="TowerRaidPerk_RangedReloadSpeedMul" duration="-1" serialize_on_save="false">
+    <!-- -0.3 corresponds to the reload time for firearms/crossbow to be 30% faster. -->
+    <property name="RangedReloadSpeedMul" value_mul="-0.3"/>
+</buff>
+
+<buff id="TowerRaidPerk_PlayerMaxHealthPercentHealOnFinishersTakedownsStomps" duration="-1" serialize_on_save="false">
+    <!-- 0.2 corresponds to the 20% players maximun health healing. -->
+    <property name="MaxHealthPercentHealOnExecution" value_add ="0.2"/>
+</buff>
+
+<buff id="TowerRaidPerk_RangedWeaponDamageIncrease" duration="-1" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="BowAndCrossbowDamageMul" value_add="0.5"/>
+    <property name="FirearmDamageMul" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_RapidRecovery" duration="-1" serialize_on_save="false">
+    <!-- 0.3 gives the effect to medkits to restore 30% more health as usual. -->
+    <property name="HealthItemImmediateHpRestoreMul" value_add="0.3"/>
+</buff>
+
+<buff id="TowerRaidPerk_HPRegenMaxLevelIncreased" duration="-1" serialize_on_save="false">
+    <!-- 0.5 corresponds to the health regeneration threshold increased by 50%, i.e. from the default 33% up to 49.5% of max HP (for the normal difficulty).
+         Default value is set by the MaxAutoRegenHealthPercent player variable and could be changed here as well if needed to make a flat change. -->
+    <property name="MaxHealthRegenThresholdMul" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdditionalMaxHealth" duration="-1" serialize_on_save="false">
+    <!-- 150 corresponds to the additional 150 flat max health added. -->
+    <property name="MaxHealthAdditionalAmount" value_add="150"/>
+</buff>
+
+<buff id="TowerRaid_AdvantagePusher_DmgIncreasedOnMaxHp" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% increased damage. -->
+    <property name="TowerRaid_AdvantagePusher_DmgMul" value_add="0.3"/>
+	<!-- 0.4 means player hp must be higher than 40% to gain dmg bonus. -->
+	<property name="TowerRaid_AdvantagePusher_ActivationHealthPercentage" value_add="0.4"/>
+</buff>
+
+<buff id="TowerRaidPerk_HeadshotDamageIncrease" duration="-1" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased headshot multiplier damage. 
+         There is also a player var WeaponDamageHeadMul, which could be used to increase the damage dealt to the head by all weapon types. -->
+	<property name="RangedWeaponHeadDamageMul" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_MeleeElemental" duration="-1" serialize_on_save="false">
+    <!-- The elemental name should be in the same format as defined in crafting_elementals.scr, but without "Elemental_" part.
+         I.e., for Elemental_Burning is should be just "Burning"; for Elemental_Bleeding should be just "Bleeding" and so on.
+         If not elemental is specified, the default one is Bleeding. -->
+    <property name="TowerRaid_MeleeElementalSpawn_Name" value=""/>
+    <!-- As for elemental level, if the value provided is bigger than the actual maximum level defined, the closest maximim value will be taken.
+         For example, if we prove level 7 fro the Bleeding elemental, the actual level 6 will be taken (as it is the closest to 7).
+         If the value provided matches the actual elemental level defined, it will be taken.  -->
+    <property name="TowerRaid_MeleeElementalSpawn_Level" value_add="7.0"/>
+    <!-- Elemental spawn probability as well as damage is defined in crafting_elementals.scr for a specific elemental level.
+         TowerRaid_MeleeElementalSpawn_ForceChance is used to override ProcProb and set the required spawn chance. If it set to 0, ProcProb is used. -->
+    <property name="TowerRaid_MeleeElementalSpawn_ForceChance" value_add="0.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_FriendlyThrowableDamageDecrease" duration="-1" serialize_on_save="false">
+    <!-- -0.8 corresponds to the throwable damage from the player and their allies being decreased by 80%. -->
+    <property name="TowerRaid_FriendlyThrowableDamageMul" value_add="-0.8"/>
+</buff>
+
+<buff id="TowerRaid_CandyLootAndRewardsIncrease" duration="-1" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% more candies received. -->
+	<property name="TowerRaid_CandyReceivedMul" value_add="0.3"/>
+</buff>
+
+<buff id="TowerRaid_ScrapsLootIncrease" duration="-1" serialize_on_save="false">
+    <!-- 1.0 corresponds to the additional 100% more scraps looted. -->
+    <property name="TowerRaid_ScrapsReceivedMul" value_add="1.0"/>
+</buff>
+
 <buff id="Medkit_Small_Old" duration="0">
     <OnGain>
         <AddHealth value="Medkit_Small"/>
@@ -1191,6 +1377,12 @@
     </OnGain>
 </buff>
 
+<buff id="Medkit_Small_TR" duration="0">
+    <OnGain>
+        <AddHealth value="Medkit_Small_TR"/>
+    </OnGain>
+</buff>
+
 <buff id="Medkit_Large" duration="0">
     <OnGain>
         <AddHealth value="MedKitStrong"/>
@@ -1233,7 +1425,7 @@
 
 <buff id="MedKitStrongHard" duration="20">
     <property name="HealthRegenerationDelay" value_add="-20.0"/>
-	<property name="HealthRegenerationMaxLevel" value_add="-1000.0"/>
+	<property name="MaxAutoRegenHealthPercent" value_add="100"/>
     <hud_icon val="equipment_medkit_a"/>
 </buff>
 
@@ -1664,7 +1856,7 @@
 </buff>
 
 <buff id="OnRespawnBuffs" duration="5" max_stacks="1" apply_behaviour="ResetDuration">
-	<!--<property name="DamageReduction" value_add="1.0"/> this is commented out as  DamageReduction is a string if You wan't it to work change it to vector of strings for now turned off-->
+	
 </buff>
 
 <buff id="AntizinSmallRegen" duration="5">    
@@ -1801,15 +1993,15 @@
 </buff>
 
 <buff id="ReviveNpcCooldownPlus1" duration="600" max_stacks="1">
-    <property name="CanBeRevivedByNPC" value="false"/>	
+    <property name="CanBeRevivedByNPC" set="false"/>	
 </buff>
 
 <buff id="ReviveNpcCooldownPlus2" duration="300" max_stacks="1">
-    <property name="CanBeRevivedByNPC" value="false"/>	
+    <property name="CanBeRevivedByNPC" set="false"/>	
 </buff>
 
 <buff id="ReviveNpcCooldownPlus3" duration="200" max_stacks="1">
-    <property name="CanBeRevivedByNPC" value="false"/>	
+    <property name="CanBeRevivedByNPC" set="false"/>	
 </buff>
 
 <buff id="StaminaRegain" duration="0">
@@ -1876,7 +2068,7 @@
 	<property name="MoveForwardMaxSpeed" value_mul ="0.0"/>
 	<property name="MoveSprintSpeed" value_mul ="0.0"/>
 	<property name="MoveDeceleration" value_mul ="1000.0"/>
-	<property name="ParachuteWindUpRegainsStamina" value_mul="0"/>
+	<property name="ParachuteWindUpRegainsStamina" set="false"/>
 	<property name="ParachuteWindSideRegainsStamina" set="false"/>
 	<property name="MaxStamina" value_mul="0"/>
 	<property name="ParkourStaminaHangCostPerSecond" value_mul="1000"/>
@@ -2423,8 +2615,8 @@
 		<key t="59" val="0.7"/>
 		<key t="60" val="0"/>
 	</varlist_timeline>
-	<property name="StrengthDamageMul" value_mul="1.5"/>
-    <property name="MeleeDamageMul" value_mul="1.5"/>
+	<property name="StrengthDamageMul" value="NightRunner_MeleeDamageMul"/>
+    <property name="MeleeDamageMul" value="NightRunner_MeleeDamageMul"/>
 	<property name="GeneralAttackLimbCutDestroyProbabilityMul" value_mul="2.0"/>
 	<property name="StaminaGainOnKill" value_add="1.0"/>
 	
@@ -2498,10 +2690,9 @@
 		<key t="30" val="0"/>
 	</varlist_timeline>
 	<property name="HealthPerSecond" value="HealthRegenerationPotion_WoD"/>
-    <property name="StaminaTimeToRegenerateAfterParkour" value_mult="0.0"/>
-	<property name="StaminaTimeToRegenerateOnEmptyAfterParokur" value_mult="0.0"/>
-	<property name="StaminaTimeToRegenerate" value_mult="0.0"/>
-	<property name="StaminaTimeToRegenerateOnEmpty" value_mult="0.0"/>
+    <property name="StaminaTimeToRegenerateAfterParkour" value_add="-0.85"/>
+	<property name="StaminaTimeToRegenerateOnEmptyAfterParokur" value_add="-1.2"/>
+	<property name="StaminaTimeToRegenerateOnEmpty" value_add="-1.5"/>
 	<property name="StaminaRegeneration" value_add="-0.8"/>
 	<property name="StaminaRegenerationOutsideDanger" value_add="-0.8"/>
 	<property name="StaminaRegenerationRelative" value_add="-1.2"/>
@@ -2535,7 +2726,7 @@
 	</OnGain>
 </buff>
 
-<buff id="DoubleJump_GameOver_Upgrade2" duration="90" max_stacks="3" apply_behaviour="ResetDuration" serialize_on_save="true">
+<buff id="DoubleJump_GameOver_Upgrade2" duration="90" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">
 	<property name="ExtraJumpsInAir" value_add="1.0"/>
     <hud_icon val="buff_doublejump"/>
 	<OnGain>
@@ -2588,6 +2779,46 @@
 	</OnGain>
 </buff>
 
+<buff id="Pirate_Rum" duration="20" max_stacks="4" apply_behaviour="ResetDuration" serialize_on_save="true">
+    <hud_icon val="buff_beer"/>
+	
+	<varlist_timeline var="f_game_dialog_far">
+		<key t="0" val="0"/>
+		<key t="1" val="0.2"/>
+		<key t="2" val="0.5"/>
+		<key t="5" val="1.0"/>
+		<key t="17" val="0.5"/>
+		<key t="20" val="0"/>
+	</varlist_timeline>
+
+		<property name="DrunkEffect" set="true"/>
+		<property name="DrunkEffectPPFXPower" value_add="0.3"/>
+		<property name="DrunkEffectInputLagTime" value_add="0.42"/>
+		<property name="DrunkEffectMoveRollAngle" value_add="2.0"/>
+		<property name="DrunkEffectMoveRollAngleTime" value_add="0.2"/>
+		<property name="MaxDodgesInSequence" value_add="-1"/>
+		<property name="DamageReduction" value="PotionPirateResistance"/>
+
+		
+	<OnGain>
+		<RemoveBuff id="Potion_Rage"/>
+		<RemoveBuff id="Peacekeeper_Beer"/>
+		<RemoveBuff id="Potion_DamageReduction"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade1"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade2"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade3"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade4"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade5"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade6"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade7"/>
+		<RemoveBuff id="Potion_DamageReduction_Upgrade8"/>
+		<AddHealth value="PirateRum"/>
+	</OnGain>
+	<OnStack>
+        <AddHealth value="PirateRum"/>
+    </OnStack>
+</buff>
+
 <!-- ---------------------------------------------------------------------------- -->
 <!-- ------------------------- Adaptive Difficulty ------------------------------ -->
 <!-- ---------------------------------------------------------------------------- -->
@@ -2629,5 +2860,576 @@
 </buff>
 
 <!-- ---------------------------------------------------------------------------- -->
-<!-- -------------------------------- Easter Eggs--------------------------------- -->
+<!-- ---------------------------------- Tower Raid ------------------------------ -->
 <!-- ---------------------------------------------------------------------------- -->
+
+<buff id="TowerRaid_Base_Skills" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<!-- height_jump -->
+	<property name="NormalHoldJumpTime" value_add="0.142"/>
+  	<property name="AdvancedParkourNormalHoldJumpTime" value_add="0.112"/>
+	
+	<!-- firm_grip -->
+	<property name="EdgeHeavyGrabFallHeight" value_add="5"/>
+  	<property name="EdgeFailedGrabFallHeight" value_add="5"/>
+  	<property name="AllowToJumpSoonerFromEdge" set ="true"/>
+
+	<!-- fast_climb -->
+	<property name="ShimmyFastAnims" set="true"/>
+
+	<!-- ledge_master -->
+	<property name="ShimmyUpRange" value_add="1.5"/>
+
+	<!-- slide_advanced -->
+	<property name="SlideAvailable" set="true"/>
+	<property name="SlideLoopMinDuration" value_add="0.25"/>
+	<property name="SlideLoopMaxDuration" value_add="0.65"/>
+	<property name="SlideAttackLoop" set="true"/>
+	<property name="SlideStaminaUsage" value_add="-0.25"/>
+
+
+	<!-- slide_jump -->
+	<property name="SlideJumpAvailable" set="true"/>
+
+	<!-- sleek_runner -->
+	<property name="BalanceSlowdownMinDev" value_add="31"/>
+	<property name="CustomMoveSlowVersionIfExist" set ="false"/>
+	<property name="LadderClimbSlow" set="false"/>
+	<property name="AllowSlopeStruggle" set="true"/>
+	<property name="MoveSlopeSpeed" value_add="0.35"/>
+
+	<!-- dash -->
+	<property name="SprintNitro" set ="true"/>
+
+	<!-- dash_advanced -->
+	<property name="SprintNitroDuration" value_add="999.0"/>
+	<property name="SprintNitroStaminaConsuption" value_add="-0.2"/>
+	<property name="SprintNitroStartStaminaConsuption" value_add="-0.4"/>
+
+	<!-- ram -->
+	<property name="DashAttackAvailable" set="true"/>
+
+	<!-- after_boost -->
+	<property name="AfterBoostEnabled" set="true"/>
+
+	<!-- vertical_wall_run -->
+	<property name="WallRunFrontEnabled" set="true"/>
+
+	<!-- horizontal_wall_run -->
+	<property name="WallRunSideEnabled" set="true"/>
+
+	<!-- wall_run_jump -->
+	<property name="WallJumpFrontEnabled" set="true"/>
+  	<property name="WallJumpFrontRotateEnabled" set="true"/>
+  	<property name="WallJumpFrontLookForwardEnabled" set="true"/>
+
+	<!-- wall_jump_sequence -->
+	<property name="WallRunMaxSequence" value_add="1"/>
+
+	<!-- active_land -->
+	<property name="EnableControlledActiveLanding" set="true"/>
+
+	<!-- active_land2 -->
+	<property name="HarmfulHeight" value_add="5"/>
+  	<property name="LethalHeight" value_add="5"/>
+  	<property name="AmortizedHarmfulHeight" value_add="5"/>
+  	<property name="AmortizedLethalHeight" value_add="5"/>
+ 	<property name="PassiveLandingLevel1Height" value_add="2.4"/>  
+ 	<property name="PassiveLandingLevel2Height" value_add="3.8"/>  
+  	<property name="PassiveLandingLevel3Height" value_add="4.0"/>
+
+	<!-- active_land_jump -->
+	<property name="ActiveLandingJumpEnabled" set="true"/>
+
+	<!-- advanced_crouch -->
+	<property name="CrouchForwardMinSpeed" value_add="0.2"/>
+  	<property name="CrouchForwardMaxSpeed" value_add="0.75"/>
+  	<property name="CrouchBackwardMaxSpeed" value_add="0.8"/>
+  	<property name="CrouchStrafeMinSpeed" value_add="0.2"/>
+  	<property name="CrouchStrafeMaxSpeed" value_add="0.75"/>    
+  	<property name="CrouchAcceleration" value_add="5.0"/>
+  	<property name="CrouchDeceleration" value_add="5.0"/>  
+  	<property name="CrouchMoveForwardDeceleration" value_add="4.1"/>  
+  	<property name="EnableMutedLanding" set="true"/>   
+  	<property name="AwakeFactorInCrouch" value_add="0.5"/>
+  	<property name="CrouchAIRecognitionTimeMul" value_add="1.0"/>
+
+	<!-- far_jump -->
+	<property name="FarJumpAvailable" set="true"/>
+
+	<!-- double_jump -->
+	<property name="DoubleJumpInOverAndOn" set="true"/>
+
+	<!-- rotate_jump -->
+	<property name="JumpRotateAvailable" set="true"/>
+
+	<!-- charge_tackle -->
+	<property name="BlockRunMinTimeInSprint" value_add="1.75"/>
+
+	<!-- rotate_jump -->
+	<property name="BounceOffHeadInDashAvailable" set="true"/>
+
+	<!-- parkour_combat -->
+	<property name="VaultKickEnabled" set="true"/>
+
+	<!-- perfect_block -->
+	<property name="PerfectBlockWithSlowMo" set="true"/>
+	<property name="PerfectBlockStaminaMul" value_add="-1.0"/>	
+	<property name="PerfectBlockStaggerDuration" value_add="1.0"/>
+
+	<!-- block_projectiles -->
+	<property name="CanBlockProjectiles" set="true"/>
+
+	<!-- charge_grab -->
+	<property name="TackleGrabEnabled" set="true"/>
+
+	<!-- deflect_projectiles -->
+	<property name="CanDeflectProjectiles" set="true"/>
+
+	<!-- jump_attack -->
+	<property name="DropAttackEnable" set="true"/>
+	<property name="DropAttackShockwaveEnabled" set="true"/>
+
+	<!-- vault_kick_ragdoll -->
+	<property name="VaultKickHoldEnabled" set="true"/>
+
+	<!-- wrestle_kick -->
+	<property name="WrestlingKick" set="true"/>
+
+	<!-- stomp -->
+	<property name="StompLevel" value_add="2"/>
+
+	<!-- power_attack -->
+	<property name="ChargeAttack" set="true"/>
+
+	<!-- windmill -->
+	<property name="WhirlwindCharge" set="true"/>
+
+	<!-- ground_pound -->
+	<property name="GroundPound" value_add="1"/>
+
+	<!-- ranged_mastery -->
+	<property name="ThrowParabolaEnabled" set="true"/>
+    <property name="BowZoomEnabled" set="true"/>
+  	<property name="ThrowablesSpeedFactor" value_add="0.30"/>
+  	<property name="BowMaxThrowFactor" value_add="0.15"/>  
+  	<property name="BowAutoReleaseTime" value_add="-2.0"/>
+  	<property name="FirearmsZoomEnabled" set="true"/>
+
+	<!-- parkour_ranged -->
+	<property name="EnableSlowMoThrowingWhileParkouring" set="true"/>
+    <property name="BowEnableSlowMoShootWhileParkouring" set="true"/>
+  	<property name="FirearmEnableSlowMoShootWhileParkouring" set="true"/> 
+
+	<!-- power_shot -->
+	<property name="BowSwayAmplitudeFactor" value_add="-0.5"/>
+    <property name="BowSwayPosTime" value_add="2"/>
+    <property name="BowPutArrowDuration" value_add="-0.233"/>
+    <property name="BowBeginDurationFactor" value_add="-1"/>
+    <property name="BowPenetrationEnabled" set="true"/>
+    <property name="BowEnableDamageScalingByForce" set="true"/>
+    <property name="BowPowerShotEnabled" set="true"/>
+  	<property name="BowMaxThrowFactor" value_add="0.2"/>
+  	<property name="FirearmsPowerShotEnablePenetration" set="true"/>  
+  	<property name="FirearmsPowerShotTime" value_add="0.75"/>
+
+	<!-- multiple_shots -->
+	<property name="ThrowingMultiAutoAimAngle" value_add="30"/>
+	<property name="ThrowingMultiSkillTargetVisConeAngle" value_add="25"/>
+	<property name="ThrowingMultiSkillMaxEnemies" value_add="2.0"/>  
+	<property name="BowMultiShotMinTimeToActivate" value_add="3.0"/>  
+	<property name="FirearmsMultiShotMinTimeToActivate" value_add="3.0"/>
+
+	<!-- perfect_dodge -->
+	<property name="PerfectDodgeStaggersDuration" value_add="2.0"/>
+    <property name="PerfectDodgeSlowmo" set="true"/>
+
+	<!-- nagewaza -->
+	<property name="NagewazaEnable" set="true"/>
+
+	<!-- nagewaza_throw -->
+	<property name="NagewazaThrowEnabled" set="true"/>
+
+	<!-- silent_takedown -->
+	<property name="FinisherBackWithItemEnabled" set="true"/>
+
+	<!-- ledge_takedown -->
+	<property name="FinisherBackLedgeEnabled" set="true"/>
+
+	<!-- air_takedown -->
+	<property name="AirTakedownEnabled" set="true"/>
+
+	<!-- air_takedown_shockwave -->
+	<property name="DeathFromAboveJumpAvailable" set="true"/>
+
+	<!-- silent_takedown_throw -->
+	<property name="FinisherItemThrowEnabled" set="true"/>
+
+	<!-- run faster -->
+	<property name="MoveSprintSpeed" value_add="1"/>
+	<property name="MoveAcceleration" value_add="20"/>
+
+
+	<!-- friendly throwables deal less damage -->
+	<property name="TowerRaid_FriendlyThrowableDamageMul" value_add="-0.80"/>
+
+</buff>
+
+
+<buff id="TowerRaid_TankParameters" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+	<property name="MaxHealth" value="TankHealth"/>
+	<property name="MaxStamina" value_add="3.7"/>
+	<property name="PlayersAntizinCapacity" value_add="1.9"/>
+	<property name="PlayersAntizinCapacityNightmare" value_add="1.9"/>
+	<property name="GeneralAttackLimbCutDestroyProbabilityMul" value_add="0.15"/>
+	<property name="ChargeSpinFullBodyCutProbability" value_mul="2"/>
+
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.45"/>
+
+</buff>
+
+<buff id="TowerRaid_BrawlerParameters" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+
+	<property name="MaxHealth" value="BrawlerHealth"/>
+	<property name="MaxStamina" value_add="6.2"/>
+	<property name="PlayersAntizinCapacity" value_add="1.9"/>
+	<property name="PlayersAntizinCapacityNightmare" value_add="1.9"/>
+
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.2"/>
+	<property name="OneHandedDamageMul" value_add="0.25"/>
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.2"/>
+
+</buff>
+
+<buff id="TowerRaid_RangedParameters" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+	<property name="MaxHealth" value="RangedHealth"/>
+	<property name="MaxStamina" value_add="2.8"/>
+	<property name="PlayersAntizinCapacity" value_add="1.9"/>
+	<property name="PlayersAntizinCapacityNightmare" value_add="1.9"/>
+	
+	<property name="BowAndCrossbowDamageMul" value_add="0.3"/>
+    <property name="FirearmDamageMul" value_add="0.3"/>
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.2"/>
+
+</buff>
+
+<buff id="TowerRaid_SpecialistParameters" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+	<property name="MaxHealth" value="SpecialistHealth"/>
+	<property name="MaxStamina" value_add="4.2"/>
+	<property name="PlayersAntizinCapacity" value_add="1.9"/>
+	<property name="PlayersAntizinCapacityNightmare" value_add="1.9"/>
+	<property name="OutfitParkourDamageBoostFactor" value_add="0.6"/>
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.2"/>
+
+</buff>
+
+<buff id="TowerRaid_UVflashlight" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+	<property name="UVFlashlightLevel" value_add="1"/>
+
+</buff>
+
+<buff id="TowerRaid_Grapplehook" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	
+	<property name="GrappleHookLevel" value_add="3"/>
+	<property name="GrappleSwingEnabled" set="true"/>
+	<property name="GrapplePullEnemyEnabled" set="true"/>
+	<property name="GrapplePullEnabled" set="true"/>
+
+</buff>
+
+
+<!-- ---------------------------------------------------------------------------- -->
+<!-- ---------------------------------- TRPerks --------------------------------- -->
+<!-- ---------------------------------------------------------------------------- -->
+
+
+<!-- ----------------------------- Survivability Tree --------------------------- -->
+
+<buff id="TowerRaidPerk_RapidRecovery_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 gives the effect to medkits to restore 30% more health as usual. -->
+    <property name="HealthItemImmediateHpRestoreMul" value_add="0.2"/>
+</buff>
+
+<buff id="TowerRaidPerk_RapidRecovery_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 gives the effect to medkits to restore 30% more health as usual. -->
+    <property name="HealthItemImmediateHpRestoreMul" value_add="0.4"/>
+</buff>
+
+
+
+<buff id="TowerRaidPerk_Fortress_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the addotional 30% damage reduction. -->
+    <property name="TowerRaid_DamageResistanceFactor" value_add="0.1"/>
+</buff>
+
+<buff id="TowerRaidPerk_Fortress_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the addotional 30% damage reduction. -->
+    <property name="TowerRaid_DamageResistanceFactor" value_add="0.1"/>
+</buff>
+
+<buff id="TowerRaidPerk_FirstAidTraining_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- -0.7 corresponds to reducing the time required to apply the health immediate regen consumable by 70%. -->
+    <property name="HealthItemUseTimeSpeedMul" value_mul="-0.2" />
+</buff>
+
+<buff id="TowerRaidPerk_FirstAidTraining_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- -0.7 corresponds to reducing the time required to apply the health immediate regen consumable by 70%. -->
+    <property name="HealthItemUseTimeSpeedMul" value_mul="-0.3" /> />
+</buff>
+
+
+
+<buff id="TowerRaidPerk_StrongBones_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <property name="MaxHealthAdditionalAmount" value_add="100"/>
+</buff>
+
+<buff id="TowerRaidPerk_StrongBones_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- Additional 100 health to the level 1 - i.e. +200 flat health. -->
+    <property name="MaxHealthAdditionalAmount" value_add="100"/>
+</buff>
+
+<buff id="TowerRaidPerk_HungryManiac_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <property name="MaxHealthPercentHealOnDecapitation" value_add= "0.03" />
+</buff>
+
+<buff id="TowerRaidPerk_HungryManiac_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!--<property name="MaxHealthPercentHealOnDecapitation" value_add= "0.02" />-->
+    <property name="GeneralAttackLimbCutDestroyProbabilityMul" value_add= "0.2" />
+</buff>
+
+
+
+
+<buff id="TowerRaidPerk_GeneticallyGifted_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the health regeneration threshold increased by 50%, i.e. from the default 33% up to 49.5% of max HP (for the normal difficulty).
+         Default value is set by the MaxAutoRegenHealthPercent player variable and could be changed here as well if needed to make a flat change. -->
+    <property name="MaxHealthRegenThresholdMul" value_add="1.42"/>
+</buff>
+
+
+<!-- -------------------------------- Brawler Tree ------------------------------ -->
+
+<buff id="TowerRaidPerk_BloodLetting_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- The elemental name should be in the same format as defined in crafting_elementals.scr, but without "Elemental_" part.
+         I.e., for Elemental_Burning is should be just "Burning"; for Elemental_Bleeding should be just "Bleeding" and so on.
+         If not elemental is specified, the default one is Bleeding. -->
+    <property name="TowerRaid_MeleeElementalSpawn_Name" value=""/>
+    <!-- As for elemental level, if the value provided is bigger than the actual maximum level defined, the closest maximim value will be taken.
+         For example, if we prove level 7 fro the Bleeding elemental, the actual level 6 will be taken (as it is the closest to 7).
+         If the value provided matches the actual elemental level defined, it will be taken.  -->
+    <property name="TowerRaid_MeleeElementalSpawn_Level" value_add="6.0"/>
+    <!-- Elemental spawn probability as well as damage is defined in crafting_elementals.scr for a specific elemental level.
+         TowerRaid_MeleeElementalSpawn_ForceChance is used to override ProcProb and set the required spawn chance. If it set to 0, ProcProb is used. -->
+    <property name="TowerRaid_MeleeElementalSpawn_ForceChance" value_add="0.2"/>
+</buff>
+
+
+<buff id="TowerRaidPerk_BloodLetting_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- The elemental name should be in the same format as defined in crafting_elementals.scr, but without "Elemental_" part.
+         I.e., for Elemental_Burning is should be just "Burning"; for Elemental_Bleeding should be just "Bleeding" and so on.
+         If not elemental is specified, the default one is Bleeding. -->
+     <!--<property name="TowerRaid_MeleeElementalSpawn_Name" value=""/>
+    <!-- As for elemental level, if the value provided is bigger than the actual maximum level defined, the closest maximim value will be taken.
+         For example, if we prove level 7 fro the Bleeding elemental, the actual level 6 will be taken (as it is the closest to 7).
+         If the value provided matches the actual elemental level defined, it will be taken.  -->
+     <!--<property name="TowerRaid_MeleeElementalSpawn_Level" value_add="6.0"/>
+    <!-- Elemental spawn probability as well as damage is defined in crafting_elementals.scr for a specific elemental level.
+         TowerRaid_MeleeElementalSpawn_ForceChance is used to override ProcProb and set the required spawn chance. If it set to 0, ProcProb is used. -->
+    <property name="TowerRaid_MeleeElementalSpawn_ForceChance" value_add="0.5"/>
+</buff>
+
+
+
+<buff id="TowerRaidPerk_ShatteringForce_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="ChargeAttackAdditionalMul" value_add ="0.4"/>
+</buff>
+
+<buff id="TowerRaidPerk_ShatteringForce_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="ChargeAttackAdditionalMul" value_add ="0.6"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdvantagePusher_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% increased damage. -->
+    <property name="TowerRaid_AdvantagePusher_DmgMul" value_add="0.5"/>
+	<!-- 0.4 means player hp must be higher than 40% to gain dmg bonus. -->
+	<property name="TowerRaid_AdvantagePusher_ActivationHealthPercentage" value_add="0.9"/>
+</buff>
+
+<buff id="TowerRaidPerk_AdvantagePusher_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% increased damage. -->
+    <property name="TowerRaid_AdvantagePusher_DmgMul" value_add="0.4"/>
+	<!-- 0.4 means player hp must be higher than 40% to gain dmg bonus. -->
+	<!---<property name="TowerRaid_AdvantagePusher_ActivationHealthPercentage" value_add="0.0"/> --->
+</buff>
+
+
+<buff id="TowerRaidPerk_Resilience_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to 50% stamina usage reduction cost (decreased stamina consumption). -->
+    <property name="StaminaUsageReduction" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_Resilience_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to 50% stamina usage reduction cost (decreased stamina consumption). -->
+    <!--<property name="StaminaUsageReduction" value_add="0.0"/>-->
+    <!-- Duration is specified in seconds. -->
+    <property name="StaminaFreezeOnDecapitationDuration" value_add ="2.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_Brutoholic_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.2 corresponds to the 20% players maximun health healing. -->
+    <property name="MaxHealthPercentHealOnExecution" value_add ="0.07"/>
+</buff>
+
+<buff id="TowerRaidPerk_Brutoholic_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.2 corresponds to the 20% players maximun health healing. -->
+    <property name="MaxHealthPercentHealOnExecution" value_add ="0.08"/>
+</buff>
+
+
+<buff id="TowerRaidPerk_TankBuster_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.15 corresponds to the additional physical damage that is equal to 15% of the enemys current health. -->
+    <!--<property name="MeleeDamageEnemyCurrentHealthPoolPercentage" value_add="0.10"/>-->
+	<property name="WeaponDamageVsDemolishers" value_add ="0.80"/>
+	<property name="WeaponDamageVsVolatiles" value_add ="0.80"/>
+	<property name="WeaponDamageVsCorruptors" value_add ="0.80"/>
+</buff>
+
+
+<!-- --------------------------------- Ranger Tree ------------------------------ -->
+
+
+<buff id="TowerRaidPerk_Scavenger_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 1.0 corresponds to the additional 100% more scraps looted. -->
+    <property name="TowerRaid_ScrapsReceivedMul" value_add="0.25"/>
+</buff>
+
+<buff id="TowerRaidPerk_Scavenger_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 1.0 corresponds to the additional 100% more scraps looted. -->
+    <property name="TowerRaid_ScrapsReceivedMul" value_add="0.35"/>
+</buff>
+
+
+
+<buff id="TowerRaidPerk_BallisticsExpertise_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="BowAndCrossbowDamageMul" value_add="0.4"/>
+    <property name="FirearmDamageMul" value_add="0.4"/>
+</buff>
+
+<buff id="TowerRaidPerk_BallisticsExpertise_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="BowAndCrossbowDamageMul" value_add="0.4"/>
+    <property name="FirearmDamageMul" value_add="0.4"/>
+</buff>
+
+<buff id="TowerRaidPerk_HeadshotAffinity_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased headshot multiplier damage. 
+         There is also a player var WeaponDamageHeadMul, which could be used to increase the damage dealt to the head by all weapon types. -->
+	<property name="RangedWeaponHeadDamageMul" value_add="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_HeadshotAffinity_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased headshot multiplier damage. 
+         There is also a player var WeaponDamageHeadMul, which could be used to increase the damage dealt to the head by all weapon types. -->
+	<property name="RangedWeaponHeadDamageMul" value_add="1.0"/>
+</buff>
+
+
+
+<buff id="TowerRaidPerk_Bomberman_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="ThrowableDamageMul" value_add ="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_Bomberman_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.5 corresponds to the additional 50% increased damage. -->
+    <property name="ThrowableDamageMul" value_add ="0.5"/>
+</buff>
+
+<buff id="TowerRaidPerk_PracticedReloads_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- -0.3 corresponds to the reload time for firearms/crossbow to be 30% faster. -->
+    <property name="RangedReloadSpeedMul" value_mul="-0.2"/>
+</buff>
+
+<buff id="TowerRaidPerk_PracticedReloads_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- -0.3 corresponds to the reload time for firearms/crossbow to be 30% faster. -->
+    <!--<property name="RangedReloadSpeedMul" value_mul="-0.0"/> -->
+	<!-- 0.3 corresponds to the 30% chance of no ammo consumed. Default value is 0.0 -->
+    <property name="NoBulletConsumptionChance" value_add="0.4"/>
+    <property name="NoArrowConsumptionChance" value_add="0.4"/>
+    <property name="NoBoltConsumptionChance" value_add="0.4"/>
+    <!-- <property name="NoThrowableConsumptionChance" value_add="0.3"/> -->
+    <!-- <property name="NoConditionDecreaseChance" value_add="0.3"/> -->
+</buff>
+
+
+<buff id="TowerRaidPerk_Shaman_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the 30% of the electric elemental spawn chance. -->
+    <property name="TowerRaid_RangedElectricElemental_Chance" value_add="1.0"/>
+    <property name="TowerRaid_RangedElectricElemental_Duration" value_add="0.8"/>
+    <property name="TowerRaid_RangedElectricElemental_Level" value_add="4.0"/>
+    <property name="TowerRaid_RangedElectricElemental_Variant" value_add="0.0"/>
+</buff>
+
+
+<!-- --------------------------------- End Of Character Perks  --------------------------- -->
+
+
+<!-- --------------------------------- Start Session Perks  ------------------------------ -->
+
+<buff id="TowerRaidPerk_Insatiable_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.25 corresponds to the additional 25% positive modifier probablitily (for ...ProbabilityMul variables. -->
+    <property name="TowerRaid_NormalPositiveModifierAdditionalProbability" value_add="0.25"/>
+    <property name="TowerRaid_ElitePositiveModifierAdditionalProbability" value_add="0.15"/>
+    <!-- Additional positive modifiers + values for modifiers quantity in tower_raid_manager.scr (positive+negative+random) MUST NOT be more than 4.
+         The additional modifiers amount should be the whole number. -->
+    <property name="TowerRaid_NormalAdditionalRandomModifiers" value_add="1.0"/>
+    <property name="TowerRaid_EliteAdditionalRandomModifiers" value_add="1.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_Reincarnation_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- Additional revieves amount could be different for normal and elite modes. -->
+    <property name="ReviveLimitTowerRaid" value_add ="1.0"/>
+    <property name="ReviveLimitTowerRaidElite" value_add ="1.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_Reincarnation_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- Additional revieves amount could be different for normal and elite modes. -->
+    <property name="ReviveLimitTowerRaid" value_add ="2.0"/>
+    <property name="ReviveLimitTowerRaidElite" value_add ="2.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_Reincarnation_3" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- Additional revieves amount could be different for normal and elite modes. -->
+    <property name="ReviveLimitTowerRaid" value_add ="3.0"/>
+    <property name="ReviveLimitTowerRaidElite" value_add ="3.0"/>
+</buff>
+
+<buff id="TowerRaidPerk_SweetTooth_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+    <!-- 0.3 corresponds to the additional 30% more candies received. -->
+	<property name="TowerRaid_CandyReceivedMul" value_add="0.3"/>
+</buff>
+
+<!-- ------------------------ RESERVE BUFFS FOR LIVE PATCHING ----------------------- -->
+
+<buff id="TowerRaid_Resistance_Buff_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.05"/>
+</buff>
+<buff id="TowerRaid_Resistance_Buff_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="TowerRaid_DamageResistanceFactor" value_add="0.10"/>
+</buff>
+<buff id="TowerRaid_FriendlyExplosions_Buff_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<!-- friendly throwables deal less damage -->
+	<property name="TowerRaid_FriendlyThrowableDamageMul" value_add="-0.05"/>
+</buff>
+<buff id="TowerRaid_FriendlyExplosions_Buff_2" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<!-- friendly throwables deal less damage -->
+	<property name="TowerRaid_FriendlyThrowableDamageMul" value_add="-0.1"/>
+</buff>
+<buff id="TowerRaid_CandyIncomeBuff_1" duration="-1" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="false">
+	<property name="TowerRaid_CandyReceivedMul" value_add="0.1"/>
+</buff>

@@ -782,6 +782,11 @@ use ialr_damagedefinitions();
         Ranged("50");
     }
 
+    Damage("Throwable_KnifeStickDamage_TR")
+    {
+        Ranged("500");
+    }
+
 
 	Damage("Damage_0")
     {
@@ -818,6 +823,11 @@ use ialr_damagedefinitions();
         All("25%");
     }
 
+    DamageResistance("PotionPirateResistance")
+    {
+        All("40%");
+    }
+
     DamageTotalMul("AIDifficultyDamageTotalMul")
     {
         All("?");
@@ -846,6 +856,11 @@ use ialr_damagedefinitions();
     DamageResistance("PotionDamageReduction_Upgrade8")
     {
         All("30%");
+    }
+
+    DamageResistance("PotionDamageReduction_TR")
+    {
+        All("25%");
     }
 
     DamageResistance("KnockdownResistance")
@@ -1653,6 +1668,11 @@ use ialr_damagedefinitions();
         Ranged("795");
     }
 
+    Damage("crossbow_TR_damages")  //25% One Handed Human (only used for UI)
+    {
+        Ranged("873");
+    }
+
 	Damage("crossbow_firepoint0_tier_damages_0")    //32%-36% One Handed Human
     {
         Ranged("33-37");
@@ -1692,6 +1712,11 @@ use ialr_damagedefinitions();
     Damage("crossbow_firepoint0_tier_damages_9")
     {
         Ranged("1017-1144");
+    }
+
+    Damage("crossbow_firepoint0_TR")
+    {
+        Ranged("635-943");
     }
 
 	Damage("crossbow_firepoint1_tier_damages_0")   //25%-30% One Handed Human
@@ -1734,6 +1759,11 @@ use ialr_damagedefinitions();
     {
         Ranged("795-954");
     }
+
+    Damage("crossbow_firepoint1_TR")
+    {
+        Ranged("405-873");
+    }
 	
 	Damage("crossbow_firepoint2_tier_damages_0")   //14%-18% One Handed Human
     {
@@ -1772,6 +1802,11 @@ use ialr_damagedefinitions();
         Ranged("282-363");
     }
     Damage("crossbow_firepoint2_tier_damages_9")
+    {
+        Ranged("445-572");
+    }
+
+    Damage("crossbow_firepoint2_TR")
     {
         Ranged("445-572");
     }
@@ -2644,6 +2679,28 @@ use ialr_damagedefinitions();
 	Damage("firearm_rifle_laser_tier_damages_7")	{	Firearms("230 - 256");	}
 	Damage("firearm_rifle_laser_tier_damages_8")	{	Firearms("324 - 360");	}
 	Damage("firearm_rifle_laser_tier_damages_9")	{	Firearms("432 - 480");	}
+	
+	//TowerRaid Firearms
+	//Pistol
+	Damage("firearm_pistol_towerraid_sweetspot_tier_damages_9")	{	Firearms("1036 - 1219");	}
+	Damage("firearm_pistol_towerraid_normal_tier_damages_9")	{	Firearms("829 - 975");	}
+	Damage("firearm_pistol_towerraid_fade_tier_damages_9")		{	Firearms("580 - 682");	}
+	
+	//SMG
+	Damage("firearm_smg_towerraid_sweetspot_tier_damages_9")	{	Firearms("735 - 957");	}
+	Damage("firearm_smg_towerraid_normal_tier_damages_9")		{	Firearms("298 - 622");	}
+	Damage("firearm_smg_towerraid_fade_tier_damages_9")			{	Firearms("249 - 310");	}
+	
+	//Rifle
+	Damage("firearm_rifle_towerraid_sweetspot_tier_damages_9")	{	Firearms("831 - 979");	}
+	Damage("firearm_rifle_towerraid_normal_tier_damages_9")		{	Firearms("665 - 783");	}
+	Damage("firearm_rifle_towerraid_fade_tier_damages_9")		{	Firearms("532 - 626");	}
+	
+	//Shotgun
+	Damage("firearm_shotgun_towerraid_sweetspot_tier_damages_9")	{	Firearms("289 - 303");	}
+	Damage("firearm_shotgun_towerraid_normal_tier_damages_9")		{	Firearms("289 - 303");	}
+	Damage("firearm_shotgun_towerraid_fade_tier_damages_9")			{	Firearms("216 - 228");	}
+	
 
 	/////////////Firearms Resistances and Vulnerabilities
 	
@@ -4513,6 +4570,11 @@ use ialr_damagedefinitions();
 		Blunt("?");
         Cut("?");
     }
+	
+	DamageMul("OutfitZombieDamageMul")
+	{
+		All("?");
+	}
 
 	DamageResistance("OutfitGeneralResistance")
 	{
@@ -4551,6 +4613,11 @@ use ialr_damagedefinitions();
 	{
 		Ranged("?%");
 		Firearms("?%");
+	}
+	
+	DamageResistance("BlockRunDamageResistance") 
+	{
+		Physical("?%");
 	}
 
 	//Legend Levels
@@ -4617,7 +4684,7 @@ use ialr_damagedefinitions();
 
     DamageTotalMul("Player_TowerRaidEliteDamageMul") //given by the player
     {
-        All("0.5"); 
+        All("0.55"); 
     }
 
     DamageResistance("Player_TowerRaidEliteDamageResistance")
@@ -4627,7 +4694,7 @@ use ialr_damagedefinitions();
 
     DamageTotalMul("Player_TowerRaidEliteDamageVulnerability") //received from AI
     {
-        All("2.1");
+        All("1.2");
         Poison("1.0");
     }
 
@@ -5213,35 +5280,51 @@ use ialr_damagedefinitions();
     }
 	DamageTotalMul("Demolisher_TowerRaid")
     {
-		Physical("0.65");
-        Blunt("0.65");
-        Cut("0.65");
-		Ranged("0.65");
-		Bleeding("0.65");
-        Fire("0.65");
-        Electricity("0.65");
-        Poison("0.65");
-        Chemical("0.65");
-        Freeze("0.65");
-		Ram("0.65");
+		Physical("0.05");
+        Blunt("0.5");
+        Cut("0.5");
+		Ranged("0.5");
+		Bleeding("0.5");
+        Fire("0.5");
+        Electricity("0.5");
+        Poison("0.5");
+        Chemical("0.5");
+        Freeze("0.5");
+		Ram("0.5");
 		Firearms("0.35");
-		Blast("2.5");
+		Blast("0.35");
+    }
+	DamageTotalMul("Goon_TowerRaid")
+    {
+		Physical("0.7");
+        Blunt("0.7");
+        Cut("0.7");
+		Ranged("0.7");
+		Bleeding("0.7");
+        Fire("0.7");
+        Electricity("0.7");
+        Poison("0.7");
+        Chemical("0.7");
+        Freeze("0.7");
+		Ram("0.7");
+		Firearms("0.45");
+		Blast("0.45");
     }
 	DamageTotalMul("Hive_TowerRaid")
     {
 		Physical("0.25");
-        Blunt("0.25");
-        Cut("0.25");
+        Blunt("0.35");
+        Cut("0.35");
 		Ranged("0.25");
 		Bleeding("0.25");
-        Fire("0.5");
-        Electricity("0.5");
+        Fire("0.35");
+        Electricity("0.35");
         Poison("0.25");
         Chemical("0.25");
         Freeze("0.25");
 		Ram("0.25");
-		Firearms("0.5");
-		Blast("1.0");
+		Firearms("0.35");
+		Blast("0.35");
     }
     DamageResistance("Demolisher_Caller")
     {
@@ -6878,7 +6961,50 @@ use ialr_damagedefinitions();
         Ranged("0.4");
         Firearms("0.4");
     }
-
+	DamageTotalMul("AI_TRDamageMul_Tier1")
+    {
+        Physical("1.0");
+		Cut("1.0");
+		Blunt("1.0");
+    }
+	DamageTotalMul("AI_TRDamageMul_Tier2")
+    {
+        Physical("1.15");
+		Cut("1.15");
+		Blunt("1.15");
+    }
+	DamageTotalMul("AI_TRDamageMul_Tier3")
+    {
+        Physical("1.3");
+		Cut("1.3");
+		Blunt("1.3");
+    }
+	DamageTotalMul("AI_TRDamageMul_Tier4")
+    {
+        Physical("1.45");
+		Cut("1.45");
+		Blunt("1.45");
+    }
+	DamageTotalMul("AI_TRDamageMul_Ranged_Tier1")
+    {
+        Ranged("0.7");
+        Firearms("0.7");
+    }
+	DamageTotalMul("AI_TRDamageMul_Ranged_Tier2")
+    {
+        Ranged("0.85");
+        Firearms("0.85");
+    }
+	DamageTotalMul("AI_TRDamageMul_Ranged_Tier3")
+    {
+        Ranged("1.0");
+        Firearms("1.0");
+    }
+	DamageTotalMul("AI_TRDamageMul_Ranged_Tier4")
+    {
+        Ranged("1.15");
+        Firearms("1.15");
+    }
 
 	DamageMul("AI_LowDamageMul_Armed_Waltz")
     {
@@ -7199,6 +7325,16 @@ use ialr_damagedefinitions();
         Blast("320");
     }
 
+    Damage("ElementalStunning_Critical_Level7")
+    {
+        Blast("320");
+    }
+
+    Damage("ElementalStunning_Blast_Level7")
+    {
+        Blast("320");
+    }
+
     Damage("ElementalStunning_StunTonfa")
     {
         Physical("10% of MaxHealth");
@@ -7377,6 +7513,16 @@ use ialr_damagedefinitions();
         Poison("6");
     }
 
+    DamageDps("ElementalThrowableAcid_Critical_TR")
+    {
+        Poison("60");
+    }
+
+    Damage("ElementalThrowableAcid_Blast_TR")
+    {
+        Poison("60");
+    }
+
     Damage("ElementalPoison_Level2")
     {
         Poison("8");
@@ -7435,6 +7581,16 @@ use ialr_damagedefinitions();
     Damage("ElementalPoison_Blast_Level5")
     {
         Poison("15");
+    }
+
+    DamageDps("ElementalPoison_Critical_Level7")
+    {
+        Poison("100");
+    }
+
+    Damage("ElementalPoison_Blast_Level7")
+    {
+        Poison("2300");
     }
 
     // Crafting Elemental_Burning
@@ -7515,6 +7671,16 @@ use ialr_damagedefinitions();
     Damage("ElementalBurning_Blast_Level5")
     {
         Fire("25");
+    }
+
+    DamageDps("ElementalBurning_Critical_Level7")
+    {
+        Fire("25");
+    }
+
+    Damage("ElementalBurning_Blast_Level7")
+    {
+        Fire("100");
     }
 
     Damage("ElementalBurning_BlastMace")
@@ -8384,6 +8550,7 @@ use ialr_damagedefinitions();
 		Blunt("+0.01");
 		Cut("+0.01");
     }
+    
 	DamageMul("Player_MeleeDamageShockMul")
     {
         Electricity("+0.01");
@@ -9490,6 +9657,11 @@ use ialr_damagedefinitions();
         Blast("25-76");   //25%-75% OneHanded
     }
 
+    Damage("Throwable_ExplosiveArrow_TR")
+    {
+        Blast("714-1300");
+    }
+
     Damage("Throwable_ExplosiveGrenade_DLC_Opera")    // Orange color
     {
         Bleeding("35%-50% of MaxHealth");
@@ -9588,6 +9760,11 @@ use ialr_damagedefinitions();
         Blast("353-1058");
     }
 	Damage("Throwable_ExplosiveExplodingKnife_Upgrade8")
+    {
+        Blast("557-1670");
+    }
+
+    Damage("Throwable_ExplosiveExplodingKnife_TR")
     {
         Blast("557-1670");
     }
@@ -10047,6 +10224,12 @@ use ialr_damagedefinitions();
     {
         Fire("318-504");
     }
+
+    Damage("MolotovCoctail_TR")
+    {
+        Fire("100-250");
+    }
+
 	Damage("throwable_molotov_DLC_Opera")
     {
         Fire("2%-5% of MaxHealth");
@@ -10075,6 +10258,12 @@ use ialr_damagedefinitions();
     {
         Fire("10");
     }
+
+    Damage("throwable_molotov_tr")
+    {
+        Fire("500");
+    }
+
 	Damage("MolotovCoctailSpit")
     {
         Fire("5% of MaxHealth");
@@ -10347,6 +10536,10 @@ use ialr_damagedefinitions();
     Damage("portable_tank_explosive_tier_9")
     {
         Blast("795-1590");
+    }
+	Damage("TR_portable_tank_explosive")
+    {
+        Blast("50-100");
     }
 	Damage("portable_tank_fixed_dmg")
     {
@@ -13004,6 +13197,119 @@ use ialr_damagedefinitions();
         Blast("199-529");
     }
 
+    Damage("Throwable_AnubisGrenade")
+    {
+        Blast("47-100");
+    }
+    Damage("Throwable_AnubisGrenade_Upgrade1")
+    {
+        Blast("75-160");
+    }
+    Damage("Throwable_AnubisGrenade_Upgrade2")
+    {
+        Blast("105-223");
+    }
+	Damage("Throwable_AnubisGrenade_Upgrade3")
+    {
+        Blast("153-325");
+    }
+	Damage("Throwable_AnubisGrenade_Upgrade4")
+    {
+        Blast("195-415");
+    }
+	Damage("Throwable_AnubisGrenade_Upgrade5")
+    {
+        Blast("254-540");
+    }
+	Damage("Throwable_AnubisGrenade_Upgrade6")
+    {
+        Blast("333-708");
+    }
+    Damage("Throwable_AnubisGrenade_Upgrade7")
+    {
+        Blast("415-883");
+    }
+	Damage("Throwable_AnubisGrenade_Upgrade8")
+    {
+        Blast("467-993");
+    }
+
+    Damage("Firearm_pirate_Point1")
+    {
+		Ranged("13-33");
+    }
+    Damage("Firearm_pirate_Point1_Upgrade1")
+    {
+        Ranged("21-53");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade2")
+    {
+        Ranged("29-74");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade3")
+    {
+        Ranged("43-108");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade4")
+    {
+        Ranged("55-128");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade5")
+    {
+        Ranged("71-180");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade6")
+    {
+        Ranged("93-236");
+    }
+    Damage("Firearm_pirate_Point1_Upgrade7")
+    {
+        Ranged("116-294");
+    }
+	Damage("Firearm_pirate_Point1_Upgrade8")
+    {
+        Ranged("131-331");
+    }
+
+
+	Damage("Firearm_pirate_UI")
+    {
+        Ranged("37");
+    }
+	Damage("Firearm_pirate_UI_Upgrade1")
+    {
+        Ranged("59");
+    }
+	Damage("Firearm_pirate_UI_Upgrade2")
+    {
+        Ranged("82");
+    }
+	Damage("Firearm_pirate_UI_Upgrade3")
+    {
+        Ranged("119");
+    }
+	Damage("Firearm_pirate_UI_Upgrade4")
+    {
+        Ranged("152");
+    }
+	Damage("Firearm_pirate_UI_Upgrade5")
+    {
+        Ranged("198");
+    }
+	Damage("Firearm_pirate_UI_Upgrade6")
+    {
+        Ranged("259");
+    }
+	Damage("Firearm_pirate_UI_Upgrade7")
+    {
+        Ranged("324");
+    }
+	Damage("Firearm_pirate_UI_Upgrade8")
+    {
+        Ranged("364");
+    }
+
+
 	//Gunslinger Shotgun
 
 	Damage("Firearm_gunslinger_Point1")
@@ -13111,6 +13417,12 @@ use ialr_damagedefinitions();
     {
         Blast("1590-2385");
     }
+
+    Damage("Dynamite_Explosive_TR")
+    {
+        Blast("1590-2385");
+    }
+
     // Infection
 
     DamageResistance("InfectionResistance")
@@ -14756,6 +15068,10 @@ use ialr_damagedefinitions();
     {
 		All("?");
     }
+	DamageMul("MulDamageOnHpFullEffect")
+	{
+		All("?");
+    }
 	
 	
 	//Knives
@@ -16078,6 +16394,88 @@ use ialr_damagedefinitions();
         Cut("357");
     }
 
+    Damage("scaling_slashing_tier_damages_pirate_0")
+    {
+        Cut("19");
+    }
+	Damage("scaling_slashing_tier_damages_pirate_1")
+    {
+        Cut("23");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_2")
+    {
+        Cut("37");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_3")
+    {
+        Cut("53");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_4")
+    {
+        Cut("82");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_5")
+    {
+        Cut("113");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_6")
+    {
+        Cut("165");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_7")
+    {
+        Cut("236");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_8")
+    {
+        Cut("335");
+    }
+    Damage("scaling_slashing_tier_damages_pirate_9")
+    {
+        Cut("357");
+    }
+
+    Damage("scaling_slashing_tier_damages_vampiresword_0")
+    {
+        Cut("19");
+    }
+	Damage("scaling_slashing_tier_damages_vampiresword_1")
+    {
+        Cut("23");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_2")
+    {
+        Cut("37");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_3")
+    {
+        Cut("53");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_4")
+    {
+        Cut("82");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_5")
+    {
+        Cut("113");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_6")
+    {
+        Cut("165");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_7")
+    {
+        Cut("236");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_8")
+    {
+        Cut("335");
+    }
+    Damage("scaling_slashing_tier_damages_vampiresword_9")
+    {
+        Cut("357");
+    }
+
     Damage("scaling_slashing_tier_damages_perun_0")
     {
         Cut("18");
@@ -16115,6 +16513,47 @@ use ialr_damagedefinitions();
         Cut("336");
     }
     Damage("scaling_slashing_tier_damages_perun_9")
+    {
+        Cut("356");
+    }
+
+    Damage("scaling_slashing_tier_damages_bones_0")
+    {
+        Cut("18");
+    }
+	Damage("scaling_slashing_tier_damages_bones_1")
+    {
+        Cut("24");
+    }
+    Damage("scaling_slashing_tier_damages_bones_2")
+    {
+        Cut("39");
+    }
+    Damage("scaling_slashing_tier_damages_bones_3")
+    {
+        Cut("53");
+    }
+    Damage("scaling_slashing_tier_damages_bones_4")
+    {
+        Cut("82");
+    }
+    Damage("scaling_slashing_tier_damages_bones_5")
+    {
+        Cut("113");
+    }
+    Damage("scaling_slashing_tier_damages_bones_6")
+    {
+        Cut("165");
+    }
+    Damage("scaling_slashing_tier_damages_bones_7")
+    {
+        Cut("238");
+    }
+    Damage("scaling_slashing_tier_damages_bones_8")
+    {
+        Cut("336");
+    }
+    Damage("scaling_slashing_tier_damages_bones_9")
     {
         Cut("356");
     }
@@ -16160,6 +16599,47 @@ use ialr_damagedefinitions();
         Cut("346");
     }
 
+    Damage("scaling_2h_slashing_tier_damages_gladius_0")
+    {
+        Cut("32");
+    }
+	Damage("scaling_2h_slashing_tier_damages_gladius_1")
+    {
+        Cut("46");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_2")
+    {
+        Cut("59");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_3")
+    {
+        Cut("72");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_4")
+    {
+        Cut("98");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_5")
+    {
+        Cut("123");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_6")
+    {
+        Cut("165");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_7")
+    {
+        Cut("222");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_8")
+    {
+        Cut("291");
+    }
+    Damage("scaling_2h_slashing_tier_damages_gladius_9")
+    {
+        Cut("346");
+    }
+
     Damage("scaling_blunt_tier_damages_america_0")
     {
         Blunt("11");
@@ -16199,6 +16679,47 @@ use ialr_damagedefinitions();
     Damage("scaling_blunt_tier_damages_america_9")
     {
         Blunt("226");
+    }
+
+    Damage("scaling_slashing_tier_damages_Vanaiden_0")
+    {
+        Cut("16");
+    }
+	Damage("scaling_slashing_tier_damages_Vanaiden_1")
+    {
+        Cut("20");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_2")
+    {
+        Cut("32");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_3")
+    {
+        Cut("46");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_4")
+    {
+        Cut("70");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_5")
+    {
+        Cut("96");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_6")
+    {
+        Cut("139");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_7")
+    {
+        Cut("200");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_8")
+    {
+        Cut("283");
+    }
+    Damage("scaling_slashing_tier_damages_Vanaiden_9")
+    {
+        Cut("302");
     }
 	
 	//Tower Raid
@@ -16324,6 +16845,106 @@ use ialr_damagedefinitions();
     {
         Cut("409");
     }
+
+    Damage("slashing_tr_tank_damages_24")
+    {
+        Cut("603-813");
+    }
+
+    Damage("slashing_tr_brawler_damages_24")
+    {
+        Cut("476-576");
+    }
+
+    Damage("slashing_tr_ranged_damages_24")
+    {
+        Cut("302-476");
+    }
+
+    Damage("slashing_tr_specialist_damages_24")
+    {
+        Cut("476-576");
+    }
+	
+	Damage("slashing_tr_LowDurability_2H_damages_24")
+    {
+        Cut("544");
+    }
+	
+	Damage("slashing_tr_LowDurability_2H_damages_25")
+    {
+        Cut("594");
+    }
+	
+	Damage("slashing_tr_LowDurability_2H_damages_26")
+    {
+        Cut("707");
+    }
+	
+	Damage("slashing_tr_LowDurability_2H_damages_27")
+    {
+        Cut("762");
+    }
+	
+	Damage("blunt_tr_LowDurability_2H_damages_24")
+    {
+        Blunt("458");
+    }
+	
+	Damage("blunt_tr_LowDurability_2H_damages_25")
+    {
+        Blunt("501");
+    }
+	
+	Damage("blunt_tr_LowDurability_2H_damages_26")
+    {
+        Blunt("596");
+    }
+	
+	Damage("blunt_tr_LowDurability_2H_damages_27")
+    {
+        Blunt("642");
+    }
+
+    Damage("slashing_tr_LowDurability_1H_damages_24")
+    {
+        Cut("418");
+    }
+	
+	Damage("slashing_tr_LowDurability_1H_damages_25")
+    {
+        Cut("457");
+    }
+	
+	Damage("slashing_tr_LowDurability_1H_damages_26")
+    {
+        Cut("494");
+    }
+	
+	Damage("slashing_tr_LowDurability_1H_damages_27")
+    {
+        Cut("532");
+    }
+	
+	Damage("blunt_tr_LowDurability_1H_damages_24")
+    {
+        Blunt("352");
+    }
+	
+	Damage("blunt_tr_LowDurability_1H_damages_25")
+    {
+        Blunt("385");
+    }
+	
+	Damage("blunt_tr_LowDurability_1H_damages_26")
+    {
+        Blunt("416");
+    }
+	
+	Damage("blunt_tr_LowDurability_1H_damages_27")
+    {
+        Blunt("449");
+    }
 	
 	
 
@@ -16365,7 +16986,7 @@ use ialr_damagedefinitions();
 
     DamageTotalMul("ThrowableDamageMul")
     {
-        Ranged("?");
+        All("?");
     }
 
     DamageTotalMul("FirearmDamageMul")
@@ -16385,6 +17006,20 @@ use ialr_damagedefinitions();
         Physical("?");
     }
 
+    DamageTotalMul("MeleeDamageSpecificHealthMul")
+    {
+        Ram("?");
+        Physical("?");
+        Blunt("?");
+        Cut("?");
+    }
+
+    DamageMul("RangedHeadDamageMul")
+    {
+        Ranged("?");
+        Firearms("?");
+    }
+
     Damage("TowerRaid_TimeIsRunningOut")
     {
         Physical("?%");
@@ -16398,6 +17033,16 @@ use ialr_damagedefinitions();
     Damage("TowerRaid_SelfSabotage")
     {
         Physical("?");
+    }
+
+    Damage("MeleeDamageEnemyHealthPercentage")
+    {
+        Physical("?");
+    }
+
+    DamageTotalMul("TowerRaid_AdvantagePusher_DmgMul")
+    {
+        All("?");
     }
 
     DamageResistance("TowerRaid_ElementalEndurance")
@@ -16420,9 +17065,40 @@ use ialr_damagedefinitions();
 		Bleeding("75%");
 		Freeze("75%");
     }
+
+    DamageResistance("TowerRaid_DamageResistance")
+    {
+        All("?%");
+    }
 	
 	DamageMul("Weapon_PowerAttackDamageMul") 
 	{
 		All("?");
 	}
+	
+	DamageMul("Weapon_ChaseLevelDamageMul")
+	{
+		All("?");
+	}
+	
+	DamageTotalMul("ExplGameplayDMGMod")
+	{
+		All("?");
+	}
+	
+	DamageTotalMul("PirateMeleeAgainstPirateBuffedDamageMul") 
+	{
+		All("1.4");
+	}
+	
+	DamageTotalMul("MeleeAgainstPirateBuffedDamageMul")
+	{
+		All("1.17");
+	}
+	
+	Damage("FirearmsMaxHealthPoolPercentageBasedDamage")
+    {
+        Physical("?");
+    }
+	
 }

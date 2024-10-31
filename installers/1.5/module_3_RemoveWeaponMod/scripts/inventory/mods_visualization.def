@@ -270,5 +270,11 @@ import "mods_visualization_prototypes.def"
         Holder("2hs_m", "mod_charm_mount_2hs_m_fpp.prefab");
         Holder("axe_y", "mod_charm_mount_axe_y_fpp.prefab");
         Holder("15hb_y", "mod_charm_mount_15hb_y_fpp.prefab");
+        Holder("15hs_04", "mod_charm_mount_15hs_04_fpp.prefab");
+        Holder("knife_i", "mod_charm_mount_knife_i_fpp.prefab");
+        Holder("mach_12", "mod_charm_mount_mach_12_fpp.prefab");
+        Holder("mach_09", "mod_charm_mount_mach_09_fpp.prefab");
+        Holder("mach_10", "mod_charm_mount_mach_10_fpp.prefab");
+        Holder("2hs_t", "mod_charm_mount_2hs_t_fpp.prefab");
     }
 

@@ -976,6 +976,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -1556,6 +1570,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -2084,6 +2112,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -2634,6 +2676,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -3188,6 +3244,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -3732,6 +3802,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -4300,6 +4384,20 @@ sub main()
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
 		Item("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade1");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade2");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade3");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade4");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade5");
+		Item("Craftplan_AnubisGrenade_Explosive_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade1");
+		Item("Craftplan_Boomstick_Pirate_Upgrade2");
+		Item("Craftplan_Boomstick_Pirate_Upgrade3");
+		Item("Craftplan_Boomstick_Pirate_Upgrade4");
+		Item("Craftplan_Boomstick_Pirate_Upgrade5");
+		Item("Craftplan_Boomstick_Pirate_Upgrade6");
+		Item("Craftplan_Boomstick_Pirate_Upgrade7");
+		Item("Craftplan_Boomstick_Pirate_Upgrade8");
 		Item("Craftplan_Grenade_Upgrade1");
 		Item("Craftplan_Grenade_Upgrade2");
 		Item("Craftplan_Grenade_Upgrade3");
@@ -13849,6 +13947,47 @@ sub main()
 	{
 		Item("SMG_DL1_WeaponBundle");
     }
+
+	ItemSet("Docket_Gladius")
+	{
+		Item("wpn_sword_gladius");
+    }
+
+	// ItemSet("Docket_Ranger_Torso")
+	// {
+	// 	Item("Outfitset_Ranger_Torso");
+    // }
+
+	// ItemSet("Docket_Ranger_Legs")
+	// {
+	// 	Item("Outfitset_Ranger_Legs");
+    // }
+	
+	// ItemSet("Docket_Ranger_Shoes")
+	// {
+	// 	Item("Outfitset_Ranger_Shoes");
+    // }
+
+	// ItemSet("Docket_Ranger_Head")
+	// {
+	// 	Item("Outfitset_Ranger_Head");
+    // }
+
+	// ItemSet("Docket_Ranger_Gloves")
+	// {
+	// 	Item("Outfitset_Ranger_Gloves");
+    // }
+
+	// ItemSet("Docket_Ranger_TorsoAddon")
+	// {
+	// 	Item("Outfitset_Ranger_TorsoAddon");
+    // }
+
+	// ItemSet("Docket_Ranger_Appearance")
+	// {
+	// 	Item("Collectable_Outfit_Ranger");
+    // }
+	
 
 	// ItemSet("Docket_EvilElf_Head")
 	// {

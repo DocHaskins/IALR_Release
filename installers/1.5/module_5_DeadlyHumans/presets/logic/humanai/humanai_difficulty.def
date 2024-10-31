@@ -562,6 +562,392 @@ sub BiterDifficultyPresets()
     {
         SetField("m_AttachmentPreset", "chem_attachment_tier_9");
     }
+	
+	//TowerRaid
+	Preset("TR_Biter_Level_9", "Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme1");
+        SetField("m_WeaponSetName", "Zombie_RGD_9");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+		SetField("m_PerceptionProfile", "biter_night_lvl_9_RGD");
+		SetField("m_StaminaPreset", "Biter_RGD9");
+		SetField("m_XpForKill", "10");
+    }
+	Preset("TR_Biter_Level_10", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Biter_Level_11", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Biter_Level_12", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Biter_Woman_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme1");
+        SetField("m_WeaponSetName", "Zombie_RGD_9");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+		SetField("m_PerceptionProfile", "biter_night_lvl_9_RGD");
+		SetField("m_StaminaPreset", "Biter_RGD9");
+		SetField("m_XpForKill", "10");
+    }
+	Preset("TR_Biter_Woman_Level_10", "TR_Biter_Woman_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+	}
+	Preset("TR_Biter_Woman_Level_11", "TR_Biter_Woman_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Biter_Woman_Level_12", "TR_Biter_Woman_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Biter_Toxic_Level_9", "TR_Biter_Level_9")
+    {
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_9");
+    }
+	Preset("TR_Biter_Toxic_Level_10", "TR_Biter_Level_10")
+    {
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_9");
+    }
+	Preset("TR_Biter_Toxic_Level_11", "TR_Biter_Level_11")
+    {
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_9");
+    }
+	Preset("TR_Biter_Toxic_Level_12", "TR_Biter_Level_12")
+    {
+		SetField("m_AttachmentPreset", "toxic_attachment_tier_9");
+    }
+	Preset("TR_Biter_Chem_Level_9", "TR_Biter_Level_9")
+    {
+		SetField("m_AttachmentPreset", "chem_attachment_tier_9");
+    }
+	Preset("TR_Biter_Chem_Level_10", "TR_Biter_Level_10")
+    {
+		SetField("m_AttachmentPreset", "chem_attachment_tier_9");
+    }
+	Preset("TR_Biter_Chem_Level_11", "TR_Biter_Level_11")
+    {
+		SetField("m_AttachmentPreset", "chem_attachment_tier_9");
+    }
+	Preset("TR_Biter_Chem_Level_12", "TR_Biter_Level_12")
+    {
+		SetField("m_AttachmentPreset", "chem_attachment_tier_9");
+    }
+	Preset("TR_Biter_Gas_Tank_Level_9", "TR_Biter_Level_9")
+    {
+		SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+		SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Biter_Gas_Tank_Level_10", "TR_Biter_Level_10")
+    {
+		SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+		SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Biter_Gas_Tank_Level_11", "TR_Biter_Level_11")
+    {
+		SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+		SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Biter_Gas_Tank_Level_12", "TR_Biter_Level_12")
+    {
+		SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
+		SetField("m_WeaponSetName", "Biter_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Biter_Berserker_Level_9", "TR_Biter_Level_9")
+    {
+		SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_Berserker_Level_10", "TR_Biter_Level_10")
+    {
+		SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_Berserker_Level_11", "TR_Biter_Level_11")
+    {
+		SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_Berserker_Level_12", "TR_Biter_Level_12")
+    {
+		SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_XL_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_XL_TowerRaid_Theme1");
+        SetField("m_StaminaPreset", "Biter_Medium_RGD9");
+        SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_XL_Level_10", "TR_Biter_Level_10")
+    {
+        SetField("m_HealthPreset", "Biter_XL_TowerRaid_Theme2");
+		SetField("m_StaminaPreset", "Biter_Medium_RGD9");
+        SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_XL_Level_11", "TR_Biter_Level_11")
+    {
+        SetField("m_HealthPreset", "Biter_XL_TowerRaid_Theme3");
+		SetField("m_StaminaPreset", "Biter_Medium_RGD9");
+        SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_XL_Level_12", "TR_Biter_Level_12")
+    {
+        SetField("m_HealthPreset", "Biter_XL_TowerRaid_Theme4");
+		SetField("m_StaminaPreset", "Biter_Medium_RGD9");
+        SetField("m_XpForKill", "15");
+    }
+	Preset("TR_Biter_Armored_Level_9", "TR_Biter_XL_Level_9")
+    {
+    }
+	Preset("TR_Biter_Armored_Level_10", "TR_Biter_XL_Level_10")
+    {
+    }
+	Preset("TR_Biter_Armored_Level_11", "TR_Biter_XL_Level_11")
+    {
+    }
+	Preset("TR_Biter_Armored_Level_12", "TR_Biter_XL_Level_12")
+    {
+    }
+	Preset("TR_Biter_Toxic_Gas_Tank_Level_9", "TR_Biter_Gas_Tank_Level_9")
+    {
+    }
+	Preset("TR_Biter_Toxic_Gas_Tank_Level_10", "TR_Biter_Gas_Tank_Level_10")
+    {
+    }
+	Preset("TR_Biter_Toxic_Gas_Tank_Level_11", "TR_Biter_Gas_Tank_Level_11")
+    {
+    }
+	Preset("TR_Biter_Toxic_Gas_Tank_Level_12", "TR_Biter_Gas_Tank_Level_12")
+    {
+    }
+	Preset("TR_Biter_Freeze_Gas_Tank_Level_9", "TR_Biter_Gas_Tank_Level_9")
+    {
+    }
+	Preset("TR_Biter_Freeze_Gas_Tank_Level_10", "TR_Biter_Gas_Tank_Level_10")
+    {
+    }
+	Preset("TR_Biter_Freeze_Gas_Tank_Level_11", "TR_Biter_Gas_Tank_Level_11")
+    {
+    }
+	Preset("TR_Biter_Freeze_Gas_Tank_Level_12", "TR_Biter_Gas_Tank_Level_12")
+    {
+    }
+	Preset("TR_Biter_Fire_Gas_Tank_Level_9", "TR_Biter_Gas_Tank_Level_9")
+    {
+    }
+	Preset("TR_Biter_Fire_Gas_Tank_Level_10", "TR_Biter_Gas_Tank_Level_10")
+    {
+    }
+	Preset("TR_Biter_Fire_Gas_Tank_Level_11", "TR_Biter_Gas_Tank_Level_11")
+    {
+    }
+	Preset("TR_Biter_Fire_Gas_Tank_Level_12", "TR_Biter_Gas_Tank_Level_12")
+    {
+    }
+	Preset("TR_Biter_GRE_Level_9", "TR_Biter_Level_9")
+    {
+    }
+	Preset("TR_Biter_GRE_Level_10", "TR_Biter_Level_10")
+    {
+    }
+	Preset("TR_Biter_GRE_Level_11", "TR_Biter_Level_11")
+    {
+    }
+	Preset("TR_Biter_GRE_Level_12", "TR_Biter_Level_12")
+    {
+    }
+	Preset("TR_Biter_GRE_Resting_Level_9", "TR_Biter_Level_9")
+    {
+    }
+	Preset("TR_Biter_GRE_Resting_Level_10", "TR_Biter_Level_10")
+    {
+    }
+	Preset("TR_Biter_GRE_Resting_Level_11", "TR_Biter_Level_11")
+    {
+    }
+	Preset("TR_Biter_GRE_Resting_Level_12", "TR_Biter_Level_12")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Level_9", "TR_Biter_Woman_Level_9")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Level_10", "TR_Biter_Woman_Level_10")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Level_11", "TR_Biter_Woman_Level_11")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Level_12", "TR_Biter_Woman_Level_12")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Resting_Level_9", "TR_Biter_Woman_Level_9")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Resting_Level_10", "TR_Biter_Woman_Level_10")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Resting_Level_11", "TR_Biter_Woman_Level_11")
+    {
+    }
+	Preset("TR_Biter_GRE_Woman_Resting_Level_12", "TR_Biter_Woman_Level_12")
+    {
+    }
+	Preset("TR_Biter_GRE_Weak_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme1");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Level_10", "TR_Biter_Level_10")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme2");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Level_11", "TR_Biter_Level_11")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme3");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Level_12", "TR_Biter_Level_12")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme4");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Resting_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme1");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Resting_Level_10", "TR_Biter_Level_10")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme2");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Resting_Level_11", "TR_Biter_Level_11")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme3");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Resting_Level_12", "TR_Biter_Level_12")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme4");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme1");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Level_10", "TR_Biter_Level_10")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme2");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Level_11", "TR_Biter_Level_11")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme3");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Level_12", "TR_Biter_Level_12")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme4");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Resting_Level_9", "TR_Biter_Level_9")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme1");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Resting_Level_10", "TR_Biter_Level_10")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme2");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Resting_Level_11", "TR_Biter_Level_11")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme3");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Weak_Woman_Resting_Level_12", "TR_Biter_Level_12")
+    {
+        SetField("m_HealthPreset", "Biter_Weak_TowerRaid_Theme4");
+		SetField("m_StaminaPreset", "Biter_Weak_RGD9");
+		SetField("m_XpForKill", "5");
+    }
+	Preset("TR_Biter_GRE_Gas_Tank_Level_9", "TR_Biter_Gas_Tank_Level_9")
+    {
+    }
+	Preset("TR_Biter_GRE_Gas_Tank_Level_10", "TR_Biter_Gas_Tank_Level_10")
+    {
+    }
+	Preset("TR_Biter_GRE_Gas_Tank_Level_11", "TR_Biter_Gas_Tank_Level_11")
+    {
+    }
+	Preset("TR_Biter_GRE_Gas_Tank_Level_12", "TR_Biter_Gas_Tank_Level_12")
+    {
+    }
+	Preset("TR_Biter_Helmet_Level_9", "TR_Biter_Level_9")
+    {
+    }
+	Preset("TR_Biter_Helmet_Level_10", "TR_Biter_Level_10")
+    {
+    }
+	Preset("TR_Biter_Helmet_Level_11", "TR_Biter_Level_11")
+    {
+    }
+	Preset("TR_Biter_Helmet_Level_12", "TR_Biter_Level_12")
+    {
+    }
+	Preset("TR_Biter_Resting_Level_9", "TR_Biter_Level_9")
+    {
+    }
+	Preset("TR_Biter_Resting_Level_10", "TR_Biter_Level_10")
+    {
+    }
+	Preset("TR_Biter_Resting_Level_11", "TR_Biter_Level_11")
+    {
+    }
+	Preset("TR_Biter_Resting_Level_12", "TR_Biter_Level_12")
+    {
+    }
 
 
 
@@ -1685,6 +2071,191 @@ sub ViralDifficultyPresets()
     Preset("Viral_Gas_Tank_Level_9", "Viral_Level_9")
     {
         SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+    //TowerRaid
+	Preset("TR_Viral_Level_9", "Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier8");
+		SetField("m_AttackUnarmedDamageMul", "AI_LowDamageMul_Tier8");
+		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier8");
+    }
+	Preset("TR_Viral_Level_10", "TR_Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier8");
+		SetField("m_AttackUnarmedDamageMul", "AI_LowDamageMul_Tier8");
+		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier6");
+    }
+	Preset("TR_Viral_Level_11", "TR_Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier9");
+		SetField("m_AttackUnarmedDamageMul", "AI_LowDamageMul_Tier9");
+		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier5");
+    }
+	Preset("TR_Viral_Level_12", "TR_Viral_Level_9")
+    {
+        SetField("m_HealthPreset", "Viral_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_LowDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_LowDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_LowDamageMul_Ranged_Tier5");
+    }
+   Preset("TR_Viral_Woman_Level_9", "TR_Viral_Level_9")
+    {
+		use Viral_Woman_Model_Tier_03();
+    }
+	Preset("TR_Viral_Woman_Level_10", "TR_Viral_Level_10")
+    {
+		use Viral_Woman_Model_Tier_03();
+    }
+	Preset("TR_Viral_Woman_Level_11", "TR_Viral_Level_11")
+    {
+		use Viral_Woman_Model_Tier_03();
+    }
+	Preset("TR_Viral_Woman_Level_12", "TR_Viral_Level_12")
+    {
+		use Viral_Woman_Model_Tier_03();
+    }
+   Preset("TR_Viral_Runner_Level_9", "TR_Viral_Level_9")
+    {
+    }
+	Preset("TR_Viral_Runner_Level_10", "TR_Viral_Level_10")
+    {
+    }
+	Preset("TR_Viral_Runner_Level_11", "TR_Viral_Level_11")
+    {
+    }
+	Preset("TR_Viral_Runner_Level_12", "TR_Viral_Level_12")
+    {
+    }
+   Preset("TR_Viral_Woman_Runner_Level_9", "TR_Viral_Woman_Level_9")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Level_10", "TR_Viral_Woman_Level_10")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Level_11", "TR_Viral_Woman_Level_11")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Level_12", "TR_Viral_Woman_Level_12")
+    {
+    }
+   Preset("TR_Viral_Survivor_Level_9", "TR_Viral_Level_9")
+    {
+    }
+	Preset("TR_Viral_Survivor_Level_10", "TR_Viral_Level_10")
+    {
+    }
+	Preset("TR_Viral_Survivor_Level_11", "TR_Viral_Level_11")
+    {
+    }
+	Preset("TR_Viral_Survivor_Level_12", "TR_Viral_Level_12")
+    {
+    }
+   Preset("TR_Viral_Armored_Level_9", "TR_Viral_Level_9")
+    {
+    }
+	Preset("TR_Viral_Armored_Level_10", "TR_Viral_Level_10")
+    {
+    }
+	Preset("TR_Viral_Armored_Level_11", "TR_Viral_Level_11")
+    {
+    }
+	Preset("TR_Viral_Armored_Level_12", "TR_Viral_Level_12")
+    {
+    }
+   Preset("TR_Viral_Electrobox_Level_9", "TR_Viral_Level_9")
+    {
+    }
+	Preset("TR_Viral_Electrobox_Level_10", "TR_Viral_Level_10")
+    {
+    }
+	Preset("TR_Viral_Electrobox_Level_11", "TR_Viral_Level_11")
+    {
+    }
+	Preset("TR_Viral_Electrobox_Level_12", "TR_Viral_Level_12")
+    {
+    }
+   Preset("TR_Viral_Gas_Tank_Level_9", "TR_Viral_Level_9")
+    {
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Viral_Gas_Tank_Level_10", "TR_Viral_Level_10")
+    {
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Viral_Gas_Tank_Level_11", "TR_Viral_Level_11")
+    {
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+	Preset("TR_Viral_Gas_Tank_Level_12", "TR_Viral_Level_12")
+    {
+        SetField("m_WeaponSetName", "Viral_Gas_Tank_RGD_9");
+    }
+    Preset("TR_Viral_Spit_Level_9", "TR_Viral_Level_9")
+    {
+		SetField("m_ModulesPreset", "modules_viral_spit_level_9");
+    }
+	Preset("TR_Viral_Spit_Level_10", "TR_Viral_Level_10")
+    {
+		SetField("m_ModulesPreset", "modules_viral_spit_level_9");
+    }
+	Preset("TR_Viral_Spit_Level_11", "TR_Viral_Level_11")
+    {
+		SetField("m_ModulesPreset", "modules_viral_spit_level_9");
+    }
+	Preset("TR_Viral_Spit_Level_12", "TR_Viral_Level_12")
+    {
+		SetField("m_ModulesPreset", "modules_viral_spit_level_9");
+    }
+    Preset("TR_Viral_Medical_Level_9", "TR_Viral_Level_9")
+    {
+    }
+	Preset("TR_Viral_Medical_Level_10", "TR_Viral_Level_10")
+    {
+    }
+	Preset("TR_Viral_Medical_Level_11", "TR_Viral_Level_11")
+    {
+    }
+	Preset("TR_Viral_Medical_Level_12", "TR_Viral_Level_12")
+    {
+    }
+    Preset("TR_Viral_Woman_Medical_Level_9", "TR_Viral_Woman_Level_9")
+    {
+    }
+	Preset("TR_Viral_Woman_Medical_Level_10", "TR_Viral_Woman_Level_10")
+    {
+    }
+	Preset("TR_Viral_Woman_Medical_Level_11", "TR_Viral_Woman_Level_11")
+    {
+    }
+	Preset("TR_Viral_Woman_Medical_Level_12", "TR_Viral_Woman_Level_12")
+    {
+    }
+    Preset("TR_Viral_Runner_Medical_Level_9", "TR_Viral_Runner_Level_9")
+    {
+    }
+	Preset("TR_Viral_Runner_Medical_Level_10", "TR_Viral_Runner_Level_10")
+    {
+    }
+	Preset("TR_Viral_Runner_Medical_Level_11", "TR_Viral_Runner_Level_11")
+    {
+    }
+	Preset("TR_Viral_Runner_Medical_Level_12", "TR_Viral_Runner_Level_12")
+    {
+    }
+    Preset("TR_Viral_Woman_Runner_Medical_Level_9", "TR_Viral_Woman_Runner_Level_9")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Medical_Level_10", "TR_Viral_Woman_Runner_Level_10")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Medical_Level_11", "TR_Viral_Woman_Runner_Level_11")
+    {
+    }
+	Preset("TR_Viral_Woman_Runner_Medical_Level_12", "TR_Viral_Woman_Runner_Level_12")
+    {
     }
 
     //////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -3699,7 +4270,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_1_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_1");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD1");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_2")
@@ -3708,7 +4279,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_2_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_2");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD2");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_3")
@@ -3717,7 +4288,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_3_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_3");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD3");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_4")
@@ -3726,7 +4297,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_4_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_4");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD4");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_5")
@@ -3735,7 +4306,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_5_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_5");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD5");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_6")
@@ -3744,7 +4315,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_6_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_6");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD6");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_7")
@@ -3753,7 +4324,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_7_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_7");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD7");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_8")
@@ -3762,7 +4333,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "viral_profile_level_8_RGD");
         SetField("m_WeaponSetName", "Hound_RGD_8");
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Regular_RGD8");
         SetField("m_XpForKill", "25");
     }
     Preset("Hound_Level_9")
@@ -3773,6 +4344,585 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_CustomLootTypeString", "DefaultViralLoot");
         SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
+    }
+
+	//TowerRaid
+	Preset("TR_Suicider_Level_9", "Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("TR_Suicider_Level_10", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Suicider_Level_11", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Suicider_Level_12", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Charger_Level_9", "Charger_Level_9")
+    {
+        SetField("m_HealthPreset", "Charger_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");	
+    }
+	Preset("TR_Charger_Level_10", "TR_Charger_Level_9")
+    {
+        SetField("m_HealthPreset", "Charger_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Charger_Level_11", "TR_Charger_Level_9")
+    {
+        SetField("m_HealthPreset", "Charger_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Charger_Level_12", "TR_Charger_Level_9")
+    {
+        SetField("m_HealthPreset", "Charger_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Charger_Keycard_Level_9", "TR_Charger_Level_9")
+    {
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_Charger");
+    }
+	Preset("TR_Charger_Keycard_Level_10", "TR_Charger_Level_10")
+    {
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_Charger");
+    }
+	Preset("TR_Charger_Keycard_Level_11", "TR_Charger_Level_11")
+    {
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_Charger");
+    }
+	Preset("TR_Charger_Keycard_Level_12", "TR_Charger_Level_12")
+    {
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_Charger");
+    }
+	Preset("TR_Banshee_Level_9", "Banshee_Level_9")
+    {
+        SetField("m_HealthPreset", "Banshee_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+		use Banshee_Model_Tier_02();
+    }
+	Preset("TR_Banshee_Level_10", "TR_Banshee_Level_9")
+    {
+        SetField("m_HealthPreset", "Banshee_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Banshee_Level_11", "TR_Banshee_Level_9")
+    {
+        SetField("m_HealthPreset", "Banshee_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Banshee_Level_12", "TR_Banshee_Level_9")
+    {
+        SetField("m_HealthPreset", "Banshee_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Spitter_Level_9", "Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("TR_Spitter_Level_10", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Spitter_Level_11", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Spitter_Level_12", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Stationary_Spitter_Level_9", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("TR_Stationary_Spitter_Level_10", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Stationary_Spitter_Level_11", "TR_Spitter_Level_9")
+    {
+        SetField("m_HealthPreset", "Spitter_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Stationary_Spitter_Level_12", "TR_Spitter_Level_9")
+    {
+		SetField("m_HealthPreset", "Spitter_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Suicider_Flooded_Area_Level_9", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("TR_Suicider_Flooded_Area_Level_10", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Suicider_Flooded_Area_Level_11", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Suicider_Flooded_Area_Level_12", "TR_Suicider_Level_9")
+    {
+        SetField("m_HealthPreset", "Suicider_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Goon_Level_9", "Goon_Level_9")
+    {
+        SetField("m_HealthPreset", "Goon_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("TR_Goon_Level_10", "TR_Goon_Level_9")
+    {
+        SetField("m_HealthPreset", "Goon_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Goon_Level_11", "TR_Goon_Level_9")
+    {
+        SetField("m_HealthPreset", "Goon_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Goon_Level_12", "TR_Goon_Level_9")
+    {
+        SetField("m_HealthPreset", "Goon_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Goon_Keycard_Level_9", "TR_Goon_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("TR_Goon_Keycard_Level_10", "TR_Goon_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("TR_Goon_Keycard_Level_11", "TR_Goon_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("TR_Goon_Keycard_Level_12", "TR_Goon_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Goon_Toxic_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Toxic_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Toxic_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Toxic_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Toxic_Keycard_Level_9", "TR_Goon_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("TR_Goon_Toxic_Keycard_Level_10", "TR_Goon_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("TR_Goon_Toxic_Keycard_Level_11", "TR_Goon_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("TR_Goon_Toxic_Keycard_Level_12", "TR_Goon_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Goon_Toxic_Roof_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Toxic_Roof_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Toxic_Roof_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Toxic_Roof_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Fire_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Fire_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Fire_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Fire_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Fire_Keycard_Level_9", "TR_Goon_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("TR_Goon_Fire_Keycard_Level_10", "TR_Goon_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("TR_Goon_Fire_Keycard_Level_11", "TR_Goon_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("TR_Goon_Fire_Keycard_Level_12", "TR_Goon_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Goon_Fire_Roof_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Fire_Roof_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Fire_Roof_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Fire_Roof_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Electric_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Electric_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Electric_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Electric_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Electric_Keycard_Level_9", "TR_Goon_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("TR_Goon_Electric_Keycard_Level_10", "TR_Goon_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("TR_Goon_Electric_Keycard_Level_11", "TR_Goon_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("TR_Goon_Electric_Keycard_Level_12", "TR_Goon_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Goon_Electric_Roof_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Electric_Roof_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Electric_Roof_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Electric_Roof_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("TR_Goon_Caller_Level_9", "TR_Goon_Level_9")
+    {
+    }
+	Preset("TR_Goon_Caller_Level_10", "TR_Goon_Level_10")
+    {
+    }
+	Preset("TR_Goon_Caller_Level_11", "TR_Goon_Level_11")
+    {
+    }
+	Preset("TR_Goon_Caller_Level_12", "TR_Goon_Level_12")
+    {
+    }
+	Preset("Demolisher_TowerRaid_Level_9", "Demolisher_Level_9")
+    {
+        SetField("m_HealthPreset", "Demolisher_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("Demolisher_TowerRaid_Level_10", "Demolisher_TowerRaid_Level_9")
+    {
+        SetField("m_HealthPreset", "Demolisher_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("Demolisher_TowerRaid_Level_11", "Demolisher_TowerRaid_Level_9")
+    {
+        SetField("m_HealthPreset", "Demolisher_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("Demolisher_TowerRaid_Level_12", "Demolisher_TowerRaid_Level_9")
+    {
+        SetField("m_HealthPreset", "Demolisher_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("Demolisher_TowerRaid_Keycard_Level_9", "Demolisher_TowerRaid_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("Demolisher_TowerRaid_Keycard_Level_10", "Demolisher_TowerRaid_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("Demolisher_TowerRaid_Keycard_Level_11", "Demolisher_TowerRaid_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("Demolisher_TowerRaid_Keycard_Level_12", "Demolisher_TowerRaid_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Demolisher_Gorilla_Level_9", "Demolisher_TowerRaid_Level_9")
+    {
+		use Demolisher_Model_Tier_03();
+    }
+	Preset("TR_Demolisher_Gorilla_Level_10", "Demolisher_TowerRaid_Level_10")
+    {
+		use Demolisher_Model_Tier_03();
+    }
+	Preset("TR_Demolisher_Gorilla_Level_11", "Demolisher_TowerRaid_Level_11")
+    {
+		use Demolisher_Model_Tier_03();
+    }
+	Preset("TR_Demolisher_Gorilla_Level_12", "Demolisher_TowerRaid_Level_12")
+    {
+		use Demolisher_Model_Tier_03();
+    }
+	Preset("TR_Demolisher_Gorilla_Keycard_Level_9", "Demolisher_TowerRaid_Level_9")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("TR_Demolisher_Gorilla_Keycard_Level_10", "Demolisher_TowerRaid_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("TR_Demolisher_Gorilla_Keycard_Level_11", "Demolisher_TowerRaid_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("TR_Demolisher_Gorilla_Keycard_Level_12", "Demolisher_TowerRaid_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+    }
+	Preset("TR_Volatile_Level_9", "Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");	    
+	}
+	Preset("TR_Volatile_Level_10", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("TR_Volatile_Level_11", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("TR_Volatile_Level_12", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("TR_Volatile_Hive_Level_9", "TR_Volatile_Level_9" )
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme1");
+    }
+	Preset("TR_Volatile_Hive_Level_10", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme2");
+    }
+	Preset("TR_Volatile_Hive_Level_11", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme3");
+    }
+	Preset("TR_Volatile_Hive_Level_12", "TR_Volatile_Level_9")
+    {
+        SetField("m_HealthPreset", "Volatile_Hive_TowerRaid_Theme4");
+    }
+	Preset("TR_Volatile_Tyrant_Level_9", "TR_Volatile_Level_9")
+    {
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme1");
+    }
+	Preset("TR_Volatile_Tyrant_Level_10", "TR_Volatile_Level_10")
+    {
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme2");
+    }
+	Preset("TR_Volatile_Tyrant_Level_11", "TR_Volatile_Level_11")
+    {
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme3");
+    }
+	Preset("TR_Volatile_Tyrant_Level_12", "TR_Volatile_Level_12")
+    {
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme4");
+    }
+	Preset("TR_Volatile_Tyrant_Keycard_Level_9", "TR_Volatile_Level_9")
+    {
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme1");
+    }
+	Preset("TR_Volatile_Tyrant_Keycard_Level_10", "TR_Volatile_Level_10")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme2");
+    }
+	Preset("TR_Volatile_Tyrant_Keycard_Level_11", "TR_Volatile_Level_11")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme3");
+    }
+	Preset("TR_Volatile_Tyrant_Keycard_Level_12", "TR_Volatile_Level_12")
+    {
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
+		SetField("m_HealthPreset", "Volatile_TowerRaid_Theme4");
+    }
+	Preset("Corruptor_TowerRaid_Floor06_Level_9", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+    }
+	Preset("Corruptor_TowerRaid_Floor06_Level_10", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+    }
+	Preset("Corruptor_TowerRaid_Floor06_Level_11", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+    }
+	Preset("Corruptor_TowerRaid_Floor06_Level_12", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+    }
+	Preset("Corruptor_TowerRaid_Floor18_Keycard_Level_9", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme1");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier1");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier1");
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard");
+    }
+	Preset("Corruptor_TowerRaid_Floor18_Keycard_Level_10", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme2");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier2");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier2");
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T2");
+    }
+	Preset("Corruptor_TowerRaid_Floor18_Keycard_Level_11", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme3");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier3");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier3");
+		SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T3");
+    }
+	Preset("Corruptor_TowerRaid_Floor18_Keycard_Level_12", "Corruptor_Level_9")
+    {
+        SetField("m_HealthPreset", "Corruptor_TowerRaid_Theme4");
+		SetField("m_AttackArmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackUnarmedDamageMul", "AI_TRDamageMul_Tier4");
+		SetField("m_AttackRangedDamageMul", "AI_TRDamageMul_Ranged_Tier4");
+        SetField("m_CustomLootTypeString", "TowerRaid_KeyCard_T4");
     }
 
 

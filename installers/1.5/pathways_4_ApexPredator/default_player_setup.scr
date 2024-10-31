@@ -617,6 +617,78 @@ sub Skills_ALL()
 	Skill("GreInhibitorDetector"); // Tool
 }
 
+sub Skills_ALL_TR() 
+{
+	Skill("run_faster");
+	
+	//Parkour - Fulltree
+	Skill("height_jump");
+	
+	Skill("active_land");
+	Skill("active_land2");
+	Skill("active_land_jump");
+	
+	Skill("firm_grip");
+	Skill("fast_climb");
+	Skill("ledge_master");
+	
+	Skill("far_jump");
+	Skill("double_jump");
+	Skill("rotate_jump");
+	
+	Skill("sleek_runner");
+	Skill("slide_advanced");
+	Skill("slide_jump");
+	Skill("advanced_crouch");
+	Skill("charge_tackle");
+	
+	Skill("dash");
+	Skill("dash_advanced");
+	Skill("after_boost");
+	Skill("ram");
+	Skill("enemy_jump");
+	
+	Skill("horizontal_wall_run");
+	Skill("vertical_wall_run");
+	Skill("wall_run_jump");
+	Skill("wall_jump_sequence");
+	
+	//Combat - Fulltree
+	Skill("parkour_combat");
+	
+	Skill("jump_attack");
+	Skill("vault_kick_ragdoll");
+	Skill("stomp");
+	Skill("wrestle_kick");
+	
+	Skill("perfect_dodge");
+	Skill("nagewaza");
+	Skill("nagewaza_throw");
+	
+	Skill("power_attack");
+	Skill("windmill");
+	Skill("ground_pound");
+	
+	Skill("perfect_block");
+	Skill("block_projectiles");
+	Skill("deflect_projectiles");
+	Skill("charge_grab");
+	
+	Skill("silent_takedown");
+	Skill("silent_takedown_throw");
+	Skill("ledge_takedown");
+	
+	Skill("ranged_mastery");
+	Skill("power_shot");
+	Skill("multiple_shots");
+	Skill("parkour_ranged");
+	
+	Skill("air_takedown");
+	Skill("air_takedown_shockwave");
+	
+	Skill("Backpack"); // Tool
+}
+
 sub LL_Level_25()
 {
 	//1h slash
@@ -6305,5 +6377,79 @@ sub main()
         Level(25, "Combat", 1.0);
 		Level(50, "Experience", 1.0);
     }
+	
+	Preset("Player_TowerRaid_TankClass")		// Difficulty
+    {
+		use Stamina_Lvl_5();
+		use Health_Lvl_9();
+		
+		use Skills_ALL_TR();
+				
+		Item("wpn_tank_TR", 1, "", "White");
+		
+		Item("Throwable_Molotov_Tank_TR", 24, "");
+		Item("Medkit_Small_TR", 20, "");
+		Item("LockpickItem_Upgrade4", 3, "");
+		Item("Throwable_Decoy_TR", 20, "");
 
+		Item("Potion_DamageReduction_TR", 8, "");
+		Item("Potion_HealthRegeneration_TR", 4, "");
+    }
+
+	Preset("Player_TowerRaid_BrawlerClass")		// Difficulty
+    {
+		use Stamina_Lvl_9();
+		use Health_Lvl_5();
+		
+		use Skills_ALL_TR();
+		
+		Item("wpn_brawler_TR", 1, "", "White");
+		
+		Item("Throwable_ThrowingKnifeToxic_TR", 30, "");
+		Item("LockpickItem_Upgrade4", 3, "");
+		Item("Medkit_Small_TR", 12, "");
+		
+		Item("Potion_StaminaRegen_TR", 12, "");
+		
+    }
+	
+	Preset("Player_TowerRaid_RangerClass")		// Difficulty
+    {
+		use Stamina_Lvl_4();
+		use Health_Lvl_4();
+
+		use Skills_ALL_TR();
+		
+		Skill("UV_Flashlight"); // Tool
+		
+		Item("wpn_ranged_TR", 1, "", "White");
+		Item("wpn_ranged_tr_crossbow", 1, "", "White");
+		
+		Item("Craft_Scrap", 1000, "");
+		Item("Ammo_Bolt", 300, "");
+		Item("LockpickItem_Upgrade4", 5, "");
+		Item("Medkit_Small_TR", 12, "");
+		
+    }
+	
+	Preset("Player_TowerRaid_SpecialistClass")		// Difficulty
+    {
+		use Stamina_Lvl_6();
+		use Health_Lvl_6();
+
+		use Skills_ALL_TR();
+		
+		
+		Item("wpn_specialist_TR", 1, "", "White");
+		
+		Item("Medkit_Large_TR", 20, "");
+				
+		Item("Throwable_ExplodingKnife_TR", 60, "");
+		
+		Item("Throwable_Dynamite_TR", 20, "");
+		Item("Mine_Electric_TR", 15, "");
+		Item("Boomstick_TR", 3, "Violet");
+		Skill("GrappleHook");
+		Item("LockpickItem_Upgrade8", 10, "");
+    }
 }
