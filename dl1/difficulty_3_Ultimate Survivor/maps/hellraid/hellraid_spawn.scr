@@ -1,0 +1,44 @@
+!include("common_spawn.scr")
+!include("hellraid_crowd.scr")
+
+///////////////////////////////////////////////////////////////////
+//CROWD
+///////////////////////////////////////////////////////////////////
+
+
+SetPatrolSightRangeMul(1.5)
+SetPatrolYRangeMul(2)
+SetUse360DegVehicleSight()//ustawia 360 stopni widocznosci kiedy gracz w pojezdzie
+SetPatrolConesAreAlwaysVis()//ustawia widocznosc stozkow nawet podczas poscigu
+
+
+
+SetDiffLevelDependentFormPlayerLevels(1)
+SetDiffLevelMod(-8)
+
+SetMaxHeightDiffForCrowdMove(0.2)
+
+CrowdDynamicPatternLength(100.)
+CrowdDynamicPatternFill(80)
+SetSpawnDistance(100.0)
+CrowdDynamicPatternPeriod(3000.)
+HighDefCrowd()
+SetForceTargetForCrowdOnPlayer()
+
+///////////////////////////////////////////////////////////////////
+//ERROR
+///////////////////////////////////////////////////////////////////
+	Pool("empty")
+    {
+        Type("empty")
+        Preset("Immposible, 10")
+    }
+
+	IntensityCurve("#ERROR")
+	{
+	    UseCondition("Day;Night")
+		PoolType("empty")
+		IntensityKey(100, 0)
+		Wait(300)
+	}
+

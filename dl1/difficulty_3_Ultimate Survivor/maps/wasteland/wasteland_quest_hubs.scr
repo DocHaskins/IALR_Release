@@ -1,0 +1,8512 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+MapLayerTransform(0, "0.000363 0.000000 2768.458008 -34.474426 0.000000 616.460327 0.000000 50.078068 -2768.458008 0.000000 0.000363 -357.913239")
+
+QuestHub("wl_safezone_lighthouse::wl_lighthouse_QH")
+{
+    Position(138.516281, 94.316383, -1406.354248)
+    Dir(1.000000, 0.000000, 0.000000)
+    SpawnerName("")
+    Description("&wl_lighthouse_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_sz_villa_logic::wl_villa_QH")
+{
+    Position(536.438904, 53.881176, -1219.755737)
+    Dir(1.000000, 0.000000, 0.000000)
+    SpawnerName("")
+    Description("&wl_villa_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_screamers_tower::wl_safezone_screamers_tower_geom::wl_screamers_tower_QH")
+{
+    Position(-236.369949, 82.674057, -922.329712)
+    Dir(-0.887011, 0.000000, 0.461749)
+    SpawnerName("")
+    Description("&wl_screamers_tower_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_gas_station_a::wl_gas_station_a_QH")
+{
+    Position(-482.282928, 48.104889, -878.566223)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_gas_station_a_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("revenge::wl_revenge_QH")
+{
+    Position(-658.588562, 42.870621, -680.236084)
+    Dir(1.000000, 0.000000, -0.000000)
+    SpawnerName("")
+    Description("&wl_revenge_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_bridge::wl_bridge_QH")
+{
+    Position(278.567291, 51.421722, -636.326843)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_bridge_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_bar01::wl_bar01_QH")
+{
+    Position(-977.394958, 51.394043, -596.371582)
+    Dir(0.000000, 0.000000, 1.000000)
+    SpawnerName("")
+    Description("&wl_bar01_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_antenna_QH")
+{
+    Position(-152.522217, 118.416862, -520.603088)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_antenna_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_highway::wl_highway_QH")
+{
+    Position(-510.436554, 70.795944, -507.470673)
+    Dir(0.216439, 0.000000, 0.976296)
+    SpawnerName("")
+    Description("&wl_highway_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wasteland_tablecleansing1_AFTER::wl_tablecleansing1_QH")
+{
+    Position(696.110229, 40.432255, -398.305115)
+    Dir(-1.000000, 0.000000, -0.000000)
+    SpawnerName("")
+    Description("&wl_tablecleansing1_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_river_house::wl_river_house_QH")
+{
+    Position(393.402283, 28.172325, -356.338318)
+    Dir(1.000000, 0.000000, 0.000000)
+    SpawnerName("")
+    Description("&wl_river_house_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_gas_station_b_QH")
+{
+    Position(962.933716, 39.023800, -252.708633)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_gas_station_b_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_oasis::wl_oasis_QH")
+{
+    Position(-957.124756, 51.901882, -220.684967)
+    Dir(1.000000, 0.000000, -0.000000)
+    SpawnerName("")
+    Description("&wl_oasis_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_jasir_farm::wl_jasirfarm_QH")
+{
+    Position(-640.304871, 52.816513, -168.197662)
+    Dir(0.000000, 0.000000, 1.000000)
+    SpawnerName("")
+    Description("&wl_jasirfarm_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_hunter_tower01::wl_hunter_tower01_QH")
+{
+    Position(488.286316, 24.204079, -103.664619)
+    Dir(-0.173648, 0.000000, -0.984808)
+    SpawnerName("")
+    Description("&wl_hunter_tower01_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("tablecleansing2::wl_tablecleansing2_QH")
+{
+    Position(-966.082275, 47.187553, 258.108826)
+    Dir(-0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_tablecleansing2_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("SafeZone_PumpStation::SafeZone_PumpStation_After::wl_pumpstation_QH")
+{
+    Position(-876.099426, 47.271801, 322.046143)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_pumpstation_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_horseshoe_drive::wl_horseshoe_drive_QH")
+{
+    Position(1148.868408, 32.601383, 346.519928)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_horseshoe_drive_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("SafeZone_Dam::SafeZone_Dam_After::wl_dam_QH")
+{
+    Position(1072.928467, 42.430038, 411.411804)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_dam_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+QuestHub("wl_safezone_pond_house::wl_pond_house_QH")
+{
+    Position(-934.578735, 47.786034, 674.641663)
+    Dir(0.000000, 0.000000, -1.000000)
+    SpawnerName("")
+    Description("&wl_pond_house_QH_Desc&")
+    Image("")
+
+    SaveGames()
+    FastTravel()
+}
+
+SpawnPoint("wl_twins_box_03_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_018::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testLichen3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_07_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_lighthouse::safezone::SafeZone_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_lighthouse::wl_lighthouse_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_lighthouse::safezone::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_ambush_escape")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_190")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_meeting_the_traitor_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Explosion_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_lighthouse_top")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_wl_stronghold_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_wl_stronghold_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_wl_stronghold_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_wl_stronghold_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ShockwaveSmoke_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Explosion_002_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_lighthouse")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_08_Lighthouse_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_trap_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_01_lighthouse")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_110")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_altar_b::wl_us_altar_b_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_rais_buggy")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_altar_b::wl_us_altar_b_sp_fake")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hillhouse_sp_cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_viral_jumpers_algae_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandAlgae_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_192")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_unfinished_story_quest_start_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_unfinished_story_quest_start_sp_talk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_epilogue::wl_unfinished_story_dead_atilla")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_epilogue::wl_unfinished_story_atilla_case_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hillhouse_secure_safezone")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_villa_logic::wl_villa_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Trap Electric")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hillhouse_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_villa_logic::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_villa_logic::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_box_04_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_186")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_210")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testLichen4")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandAlgae__03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandAlgae__02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_194")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_02_cemetery")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Craftplan_DevAirStrike_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nukeprincess_geiger_chest::wl_device_geiger_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_218")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_011::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandAlgae__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_7_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_7_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_villa_logic::wl_sz_villa_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_01::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_193")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_7::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_191")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testShrooms")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_6_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_22_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_1_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Challenge_WL_Car_Kill_04_sp_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Algae_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Algae_thief__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Algae_start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_7_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing12::sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hillhouse_radio_start_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_6_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_1_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_1_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_7_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_012::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_034")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_167")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_013::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing12::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_villa_debug_pos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_6_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_02::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("HarrisonMarker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_036")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_epilogue::wl_us_epilogue_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_1_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_109")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_1::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_187")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_6::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_screamers_faceless_body::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_hillhouse")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_6_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_02_Cemetry_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("CarHit_FX")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ibm_armored_buggy_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Bagi_crash_fx")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_214")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop_kiosk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_01::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_018")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_059")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_169")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_072")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_horizon_04_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_easter_egg_ufo_crashsite_starship_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_marker_start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_00_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_01")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_01_WilhelmsHouse")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_02_WilhelmsHouse")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_trap_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_screamers_tir_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_035")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_189")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_altar_c::wl_us_altar_c_sp_fake_goto")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_kill_01_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_015")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_212")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_grocery")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_05_house")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_02")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_01")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_09_detective_mode")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_058")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_098")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm4::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_071")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_009::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_altar_c::wl_us_altar_c_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("m_ULTRA_ENEMY_THUG")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing18::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_screamres_book_debugpose")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Office_GoTo_Spawnpoint")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_screamers_tower::SafeZone_DebugPos_1")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_screamers_tower::SafeZone_SP_1")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_screamers_tower::wl_safezone_screamers_tower_geom::wl_screamers_tower_QH")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_016")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("spawn_ULTRA_ENEMY_THUG")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_stunt_road_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_16_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_004::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_104")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_027::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_220")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("storywasteland_16_invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Office_Spawnpoint")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Office_Marker")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Office_Roof_Enter")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Office_Prime_Doors")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[dlc_house_post_office_room_a.eds]::ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[dlc_house_post_office_room_a.eds]::interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_08")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_013")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_03&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_017")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_GasStation")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_GasStation_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Cutscene_Bilala_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Cutscene_Bilala_SP_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Cutscene_Bilala_SP_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Cutscene_Bilala_SP_4")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_screamers_end_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Marker_Orleno_Finish")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Spawn_00")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Spawn_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Marker_Orleno_Start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_gas_station_a::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_gas_station_a::wl_gas_station_a_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_00_after_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_challenge_00_after_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableQuestBoard")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_orleno_01_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_orleno_01_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_orleno_01_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_orleno_01_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_orleno_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_raise.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_raise.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SuicideMarker_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping__02_RomeoSine")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_07")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_29_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_099")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_21_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm4::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_070")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_gas_station03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_01_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_screamers_town_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_102")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_10::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_parkour_coast_city_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_raise.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_raise.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_014")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_04")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_219")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_057")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_034::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_06_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_026::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_105")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Spawn_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::ot_interior_typ_23")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("[wl_house_historic_d_ba_raise_intr_double_a.eds]::interior_room")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ot_interior_typ_23")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_room")
+{
+    LocationName("&WL_Postman_Van_01&")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_171")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_062")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_04_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_challenge_01_sp_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_CleansingCamping_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_216")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_120")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_carnage_02_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping__03_Camping")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("storywasteland_23_invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_103")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_056")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_113")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_30_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_SP_Field")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_063")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_23_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing3_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_032::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_100")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_061")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("envstory_beach::sp_envstory")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("spawn_ULTRA_ENEMY_GOON")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_Field_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_118")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_042::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_26_SAFEZONE_DISABLED::human_sp_btz_26_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_069")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("m_ULTRA_ENEMY_GOON")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_196")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_217")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_206")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_31_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_device_geiger_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_115")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_camping_lena_radio_talk_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_box_05_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_03::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_010::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_031")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge_Hostage_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_117")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_028::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_060")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_kill_03_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_064")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_122")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_126")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Stronghold_granary")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_073")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_07::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping__04_Tunnel")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_1_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_213")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("revenge::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge_ercan")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("revenge::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RevengeExplodingCar::waterfacility_exploding_car_01_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge_bandit")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("revenge::wl_revenge_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_27_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_111")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_ee_ufo_kidnapping_connecting_field_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_135")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_after_oasis02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing17::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Cleansing3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RevengeBrother::sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_198")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testCommon2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_1_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_1_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_215")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Challenge_WL_Carnage_01_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_carnage_01_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_crossroads01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_deco_item_weapon_c::wl_deco_item_weapon_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_108")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_03::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("TrainRobbery_Start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("trainrobbery_fatin")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("trainrobbery_tolga")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("TrainRobbery_BrothersTalk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bridge::wl_bridge_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bridge::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bridge::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_067")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_10::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_refinery")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_refinery_prisoner")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_041::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_1_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Tunnel_1::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_11::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bar01::safezone::SafeZone_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("UnclesFarm")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cleansing_tunnel_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cleansing_tunnel_enemy_01_attractor_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_18::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_19::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_16::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_volatile_02::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_20::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_21::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_14::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_15::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_22::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_23::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cleansing_tunnel_enemy_03_04_attractor_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_12::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_volatile_04::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_24::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_volatile_01::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_02::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_178")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_176")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_03::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_highway01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_026")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_09::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_068")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_030")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bar01::wl_bar01_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_bar01::safezone::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_204")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_09::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_10::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_11::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_volatile_03::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_08::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_09::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_12")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cleansing_tunnel_enemy_04_attractor_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_05::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_06::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_027")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_180")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_174")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm5::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_000::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_038::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_097")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_10::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("spawn_ULTRA_ENEMY_ARMORED_B")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_037")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nukeprincess_geiger_chest_door::wl_device_geiger_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("m_ULTRA_ENEMY_ARMORED_B")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_019")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_021")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_020")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_kill_challenge_05_sp_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_05_Well_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_001::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing09::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_208")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_002::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_200")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_028")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_stunt_road_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_008::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tunnel_spawner_crawl_07::Dynamic_spawner_crawl_out")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_04::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("TrainRobbery_Invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_065")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_066")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Grain_Storage_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_05::sp_militaryplace")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_05::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_029")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_202")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm5::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_055")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_188")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_096")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_211")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_highway::safezone::SafeZone_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("slums_exploding_car_01_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Van_Suicide::se_van_suicider_a_initiation_range")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Van_02_Spawnpoint")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Van_Suicide::se_van_suicider_a_invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_185")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_114")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_119")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_007::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_map_areas_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_08_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Antenna_SpawnPoint_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_antenna_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_160")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_177")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_horizon_05_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_074")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_08::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_205")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_06::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_002::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_145")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_19_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_04::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nukeprincess_end_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_09_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_nuke_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nukeprincess_geiger_tir::wl_device_geiger_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_highway::wl_highway_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_highway::safezone::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_184")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_183")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_10_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_182")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_006::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_020::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_17_31::human_sp_btz_17_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_195")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_209")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_highway02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testUnderwater1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_075")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_207")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_18_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_32_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_095")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_123")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_after_oasis01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_033::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_004::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_130")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing1::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_box_02_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_08::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_TechnicalBuilding")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_TechnicalBuilding_Interior")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Movie_Shack")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_001::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_181")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cleansing1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("spawn_ULTRA_ENEMY_TOAD")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_lake_smallhouse01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wasteland_tablecleansing1_AFTER::wl_tablecleansing1_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing1::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("m_ULTRA_ENEMY_TOAD")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_storyteller5_debug")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_022::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Challenge_WL_Car_Kill_04_02_sp_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_201")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_4")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_15::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_16::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_17::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_18::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_19::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_20::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_kill_02_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_WaterFacility_Exit")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_21::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_143")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_25_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_054")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_3_SP_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_124")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Challenge_WL_Car_Kill_04_01_sp_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_BrokenPipe_5")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_5")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_148")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_14_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_TechnicalBuilding")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_16_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_5_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_riverhouse")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_11_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_river_house::wl_river_house_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_3_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_112")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_014::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("camping_woman::sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("camping_man::sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_203")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_14::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_5_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_river_house::safezone_river_house_logic::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Letter_06_Spawnpoint")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_river_house::safezone_river_house_logic::SafeZone_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_038")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_volkan_parachute_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_volkan_parachute_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_device_sfx_locating_sensor_airplane_01::wl_device_sfx_locating_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Racer_Spawn_15")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing04::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_094")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_175")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_3::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_15_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_13::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_141")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_146")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_5_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing04::wl_missing_person_04_cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_5_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("DoorMarker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("BarnWindow_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("OutOfBarnMarker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("BarnItems")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_121")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_127")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing19::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_11::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_12::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_near_oasis01b")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_000::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_5::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_19_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_172")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandHerbalMeditation__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandHerbalMeditation_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_3_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_03_Harmit_Cave_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wasteland_demo_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_After_Jasir_00")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_shooting_head_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_enemy_silos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Q_FindZumanCamp_start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_near_oasis00")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_13_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("storywasteland_07_invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_3_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_sz_gas_station_b_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_GasStation_B_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gas_station_b_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_076")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_altar_a::wl_us_altar_a_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_179")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_005::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_14_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_05_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_oasis::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_oasis::wl_oasis_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_oasis::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_near_oasis01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_gamescom_demo_inside_oasis01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_10_1::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wagon_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_144")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_stunt_road_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_170")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SP_EE_HauntedHouse_Start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RoofExit")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_GasStation_B_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_hive_01_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing06::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testCommon1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_stunt_road_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_SP_Jasir")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WastelandRevenge_Ezgi")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_Map")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_jasirsfarm_sp1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RoomMiddle")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_125")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ExitFromRoom")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Stairs_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_116")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_199")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_197")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_14")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_10::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_137")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_101")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_JasirsFarm_After")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_06_end_talk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_00")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_00")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableQuestBoard_Jasir")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing2__03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_jasirfarm_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Camping__05_Jasir")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_NpcSick")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_09_Jasir")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_volkan_body_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_ee_ElectricityMysterSpawnPoint")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_4_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Cave_4::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_18_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_plane_crash_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_132")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_128")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_129")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_06::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_06::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_106")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_140")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_jasir_farm::wl_sz_jasir_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_WaterFacility_Farm")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_jasirfarm_shopkeeper_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_jasir_farm::wl_jasirfarm_respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_jasir_farm::wl_jasirfarm_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Postman_Jasir_Spawnpoint")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_alberto_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_alberto_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_alberto_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_alberto_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_alberto_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("jasir_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Demo_Oasis_Start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_13::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_09::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_volkan_shoe_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_device_sfx_locating_sensor_airplane_02::wl_device_sfx_locating_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("jasir_inside_barn_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_jasirsfarm_quarrel_MovieCenter_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_jasirsfarm_quarrel_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_cult_altar_05_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_ee_ufo_kidnapping_cutscene")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_4_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_039::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_plane_crash_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_039")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_035::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_077")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_9::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_139")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Quatermaster_Barrel_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Oasis_Jasir_End")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_00_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_037::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Elec_Marker_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::wl_us_start_nm")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_168")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_03_hermit_cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_107")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_car_stunt_road_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::wl_us_under_mountain_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_airplane_crash")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_rocket_wagon::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_rocket_wagon::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RocketWagon_Start")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RocketWagon_2ndWagon_Tolga")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RocketWagon_2ndWagon_Fatin")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_06_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_173")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_142")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_4_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_052")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_twins_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_hunter_tower01::wl_hunter_tower01_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_hunter_tower01::safezone::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_166")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_04_Quarries_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_box_01_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_BrokenPipe_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_051")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_134")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("BusParking::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("BusParking::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_8::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_11_DISABLED_shrine_moved::human_sp_btz_11_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Cave_4_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::wl_us_mountain_marker_mask")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_040::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_048")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_gas_station01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_02_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_040")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_023::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_025::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_8::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::wl_us_sun_temple_reached")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_20_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MotocrossTrack_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testCommon5")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::wl_us_mid_way_mountain_marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_20_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_SP_DebugPos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_092")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_131")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_7::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Gather")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_12_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_start_cliff_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_us_sun_temple::Altar_unfinished_story_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_24_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_158")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_1410_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_unfinished_story_birds_02::wl_cin_birds02_m")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_047")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_CleansingHangar_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RocketWagon_Invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm3::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_157")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_163")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_6::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_kill_07_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_021::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_050")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_007::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_00_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_003::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_078")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_5::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_cin_birds01_m")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_start_cave_exit_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_053")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_164")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm3::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_SP_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_041")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_following_buggy_jump_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_16")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_map_walk_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("storywasteland_14_invoke")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_010::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_024")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_043")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_Marker_Warehouse")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_SP_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MadCarItems")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_161")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_BrokenPipe_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_BrokenPipe_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_cult_altar_02_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing07::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("RadioBoy_HangarGate_After::RadioBoy_Marker_Loot")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_025")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_042")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SmokeFX_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_136")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_23_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_138")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_4::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_06_Cult_Place")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_kill_06_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_091")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_following_buggy_crossbow_headshot_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_33_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapStart")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_049")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_15")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_10")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm2::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_3::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_150")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_07_bandits_farm_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_162")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_165")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_12_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_05::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_gas_station02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_155")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Tunnel_2::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_07_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nm_sp_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm2::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_01_20_21_24_27_29_33::human_sp_btz_21_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_031::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_044")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_22_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_07::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testCommon4")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_005::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_2::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_082")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_2_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_2_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_2_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_special_02::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_153")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing2__02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_151")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_PumpStation::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Pipe_Break_Small_1::Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_147")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_2_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_159")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_deco_item_weapon_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_deco_item_weapon_b::wl_deco_item_weapon_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Looting_Place_07::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tablecleansing2::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tablecleansing2::SafeZone_SP_tableCleansing2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tablecleansing2::wl_tablecleansing2_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("tableCleansing2__01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("m_ULTRA_ENEMY_ARMORED_H")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_032")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_033")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_09_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_08::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_093")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_156")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_08")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_07")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("spawn_ULTRA_ENEMY_ARMORED_H")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Cleansing2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_17")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_090")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_003::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_horseshoe_drive::SafeZone_DebugPos_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_080")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("human_sp_btz_10_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Gate")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_PumpStation_Before::waterfacility_exploding_car_01_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_WaterFacility_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_WaterFacility_Catwalk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Ladder")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_152")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_008::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_133")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_045")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_SP_WaterFacility_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Stash")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("door_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_PumpStation::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_PumpStation::SafeZone_PumpStation_After::WaterFacility_SP_WaterFacility_Buggy")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_PumpStation::SafeZone_PumpStation_After::wl_pumpstation_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_089")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_087")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testLichen2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_horseshoe_house01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_079")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_081")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WaterFacility_Marker_Pipe")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_154")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm1::LootingPlace_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_horseshoe_drive::SafeZone_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_horseshoe_drive::wl_horseshoe_drive_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_ee_ufo_kidnapping_connecting_place")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_12::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_149")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_ee_charlie")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_3_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_3_Marker_START")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_3_RESPAWN_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hive_Tunnel_3_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Farm1::Loot_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_088")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_086")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_14::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Hunting_Tower_Hive_Tunnel_3::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_046")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_03_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testUnderwater3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_05_and_08::human_sp_btz_05_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_nukeprincess_geiger_body::wl_device_geiger_sensor_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Substation")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_009::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_05")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Dam_RESPAWN_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Nest")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Nest_Dialog_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Substation_RESPAWN")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Container")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_Dam::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("SafeZone_Dam::SafeZone_Dam_After::wl_dam_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_13_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_030::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Nest_Dialog_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_box_06_poi::twins_box_pois_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WL_Missing05::wl_missing_person_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_083")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_036::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_085")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Dam_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Dam_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Nest_Dialog_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("hunter_sp_084")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Stronghold_dam")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testUnderwater2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Dam_RESPAWN_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Movie_Dam_SP_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Movie_Dam_SP_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Movie_Dam_SP_3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Movie_Dam_SP_4")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("fx")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_demolisher_dam_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Nest_Dialog_Toads")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_Marker_Dam_Dialog_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Dam_RESPAWN_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Electrician_SP_Dam_TransformSwitch")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_twins_last_talk_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_09")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testCommon3")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_Dam_Enemies")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_011::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Armored_006::human_armored")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_Cave_Marker_1")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("EnvStoryTelling_FalloutShelter_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("EnvStoryTelling_FalloutShelter_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_SP_Cave_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_SP_Cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("testLichen5")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_11")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_024::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("EnvStoryTelling_ForestGalde_Marker")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("EnvStoryTelling_ForestGalde_SP")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_12")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_pond_house::safezone_pond_house_logic::SafeZone_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_pond_house::safezone_pond_house_logic::wl_sz_pondhouse_marker_doors")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("Anomalies_Cave_Marker_2")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_07_bandits_farm_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_pond_house::wl_pond_house_QH")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_safezone_pond_house::safezone_pond_house_logic::SafeZone_debugpos")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("ToxicWaste")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_start_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("btz_wl_hive_group_03_and_04::human_sp_btz_hive_03_13")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_17_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("interior_shop_kiosk")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("sp_wl_viral_jumpers_holywater")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_slammer_00_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_following_clif_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_hunting_tower_019::Hunting_Tower_Respawn")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_Invoke_04_cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_challenge_car_horizon_06_end")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_military_place_normal_15::military::military_place_sp")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_holy_water_01_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_holy_water_01_sp_02")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_holy_water_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("WeaponsCollector_checkpoint_06")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_sp_01")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_holy_water_01_sp_03")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_holy_water_01_sp_04")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("cin_holy_water_MovieCenter")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("MapMarker_07_cave")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+SpawnPoint("wl_airplane_start_loc")
+{
+    LocationName("wasteland")
+    LocationPicture("save_picture_wasteland")
+}
+
+MapPortal("wl_safezone_lighthouse::lighthouse_map_portal::map_portal_trigger")
+{
+    Position(137.859955, 95.959396, -1407.315796)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_sz_villa_logic::villa_map_portal::map_portal_trigger")
+{
+    Position(533.582581, 55.468433, -1221.355225)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_screamers_tower::wl_safezone_screamers_tower_geom::screamers_tower_map_portal::map_portal_trigger")
+{
+    Position(-238.650253, 84.198433, -924.186279)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_gas_station_a::gas_station_a_map_portal::map_portal_trigger")
+{
+    Position(-482.254211, 49.917389, -876.528931)
+    TargetSpawnPoint("")
+}
+
+MapPortal("revenge::revenge_map_portal::map_portal_trigger")
+{
+    Position(-660.237549, 44.454601, -680.928223)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_bridge::bridge_map_portal::map_portal_trigger")
+{
+    Position(280.303650, 54.082943, -635.233398)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_bar01::bar01_map_portal::map_portal_trigger")
+{
+    Position(-979.639648, 53.281418, -596.901306)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_highway::highway_map_portal::map_portal_trigger")
+{
+    Position(-513.062195, 72.874336, -510.345001)
+    TargetSpawnPoint("")
+}
+
+MapPortal("antenna_map_portal::map_portal_trigger")
+{
+    Position(-150.643494, 120.106476, -519.047729)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wasteland_tablecleansing1_AFTER::tablecleansing1_map_portal::map_portal_trigger")
+{
+    Position(694.320374, 42.137489, -397.095032)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_river_house::river_house_map_portal::map_portal_trigger")
+{
+    Position(392.999695, 29.401831, -354.856201)
+    TargetSpawnPoint("")
+}
+
+MapPortal("gas_station_b_map_portal::map_portal_trigger")
+{
+    Position(962.017029, 40.582893, -256.816162)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_oasis::oasis_map_portal::map_portal_trigger")
+{
+    Position(-958.475342, 53.652294, -219.747940)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_jasir_farm::jasir_map_portal::map_portal_trigger")
+{
+    Position(-642.955444, 54.180149, -167.434830)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_hunter_tower01::wl_safezone_huntertower_after::hunter_tower01_map_portal::map_portal_trigger")
+{
+    Position(491.128601, 25.177961, -103.218872)
+    TargetSpawnPoint("")
+}
+
+MapPortal("tablecleansing2::tablecleansing2_map_portal::map_portal_trigger")
+{
+    Position(-967.242798, 48.737633, 258.839111)
+    TargetSpawnPoint("")
+}
+
+MapPortal("SafeZone_PumpStation::SafeZone_PumpStation_After::pumpstation_map_portal::map_portal_trigger")
+{
+    Position(-875.789429, 48.824738, 323.738525)
+    TargetSpawnPoint("")
+}
+
+MapPortal("wl_safezone_horseshoe_drive::horseshoe_drive_map_portal::map_portal_trigger")
+{
+    Position(1150.218384, 34.314789, 347.594574)
+    TargetSpawnPoint("")
+}
+
+MapPortal("SafeZone_Dam::SafeZone_Dam_After::dam_map_portal::map_portal_trigger")
+{
+    Position(1073.055786, 44.037502, 413.938354)
+    TargetSpawnPoint("")
+}
+
+MapPortal("Portal_Wasteland_To_WastelandFinal")
+{
+    Position(1090.092773, 90.165421, 494.538757)
+    TargetSpawnPoint("MapStart")
+}
+
+MapPortal("wl_safezone_pond_house::pond_house_map_portal::map_portal_trigger")
+{
+    Position(-934.706055, 49.393497, 671.279358)
+    TargetSpawnPoint("")
+}
+

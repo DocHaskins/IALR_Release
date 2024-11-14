@@ -1,0 +1,230 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("MapStart")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_ghosts_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_before_ghosts_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_mother_final_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_ghostsa_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_wl_end_sp_03")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_wl_end_sp_04")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("military_box_supplies_loc")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_eneter_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_first_dlg_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_wl_end_sp_02")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_wl_end_sp_01")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("spt_poisonfx_marker")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_mother_final_nuke_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_01_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_01_sp_01")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_01_sp_03")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_01_sp_04")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_01_sp_02")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_ghostsb_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_generator_03_dest_exp_loc")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_generator_03_dest_ele_loc")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_generator_03_dest_changes_loc")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_dam_generator_03_dest_exp_small_loc")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_mother_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_closing_part1_01_pos04")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_closing_part1_01_pos03")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_closing_part1_01_pos01")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_closing_part1_01_pos02")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_closing_part1_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_motherb_FXEmiter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_motherb_01_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("cin_motherb_MovieCenter")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+
+SpawnPoint("wl_mother_final_nuke_tirgger_sp")
+{
+    LocationName("wasteland_final")
+    LocationPicture("save_picture_wasteland_final")
+}
+

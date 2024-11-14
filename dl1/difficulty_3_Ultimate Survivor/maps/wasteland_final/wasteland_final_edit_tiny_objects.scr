@@ -1,0 +1,30 @@
+sub main()
+{
+    material(0)
+    {
+        layer(0, 255);
+        layer(1, 255);
+        layer(2, 255);
+    }
+    
+    material(7)
+    {
+        layer(3, 255);
+        layer(4, 255);
+        layer(5, 255);
+    }
+
+    material(5)
+    {
+        layer(6, 255);
+        layer(7, 255);
+        layer(8, 255);
+    }
+
+    material(6)
+    {
+        layer(9, 255);
+        layer(10, 255);
+        layer(11, 255);
+    }
+}

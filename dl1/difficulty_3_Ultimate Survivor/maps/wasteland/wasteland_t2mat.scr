@@ -1,0 +1,773 @@
+sub materials()
+{
+	material(0)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_ground_grass_a.dds");
+		nrm_tex(0, "dlc_ground_grass_a_nrm.dds");
+		shn_tex(0, "dlc_ground_grass_a_spec.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 7);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "horizon_ground_forest_c.dds");
+		nrm_tex(1, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(1, "horizon_ground_forest_c_spc.dds");
+		uv_scale(1, 0.007000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 0.000000);
+		surface_id(1, 7);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(1)
+	{
+		enabled(0);
+		clr_tex(0, "ground_rockwall_b.dds");
+		nrm_tex(0, "ground_rockwall_b_nrm.dds");
+		shn_tex(0, "ground_rockwall_b_shn.dds");
+		uv_scale(0, 0.040000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 13575);
+		weight(0.000000);
+	}
+	material(3)
+	{
+		enabled(0);
+		clr_tex(0, "ground_river_a.dds");
+		nrm_tex(0, "ground_river_a_nrm.dds");
+		shn_tex(0, "ground_river_a_shn.dds");
+		uv_scale(0, 0.250000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "horizon_ground_forest_c.dds");
+		nrm_tex(1, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(1, "horizon_ground_forest_c_spc.dds");
+		uv_scale(1, 0.007000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 1);
+		preset(1, 3334);
+		weight(0.000000);
+	}
+	material(4)
+	{
+		enabled(0);
+		clr_tex(0, "wl_ground_sand.dds");
+		nrm_tex(0, "wl_ground_sand_nrm.dds");
+		shn_tex(0, "wl_ground_sand_shn.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 5);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "horizon_ground_forest_c.dds");
+		nrm_tex(1, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(1, "horizon_ground_forest_c_spc.dds");
+		uv_scale(1, 0.007000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 5);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(5)
+	{
+		enabled(0);
+		clr_tex(0, "wl_ground_cerenal_a.dds");
+		nrm_tex(0, "dlc_wl_ground_cerenal_a_nrm.dds");
+		shn_tex(0, "wl_ground_cerenal_a_spec.dds");
+		uv_scale(0, 0.333000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 6);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "wl_ground_cerenal_a_lod.dds");
+		nrm_tex(1, "wl_ground_cerenal_a_lod_nrm.dds");
+		shn_tex(1, "wl_ground_cerenal_a_lod_spec.dds");
+		uv_scale(1, 0.010000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 6);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(6)
+	{
+		enabled(0);
+		clr_tex(0, "wl_ground_cerenal_b.dds");
+		nrm_tex(0, "wl_ground_cerenal_b_nrm.dds");
+		shn_tex(0, "wl_ground_cerenal_b_shn.dds");
+		uv_scale(0, 0.333000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 11);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "wl_ground_cerenal_b_lod.dds");
+		nrm_tex(1, "wl_ground_cerenal_b_lod_nrm.dds");
+		shn_tex(1, "wl_ground_cerenal_b_lod_spec.dds");
+		uv_scale(1, 0.008000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 11);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(7)
+	{
+		enabled(0);
+		clr_tex(0, "wl_ground_cerenal_c.dds");
+		nrm_tex(0, "wl_ground_cerenal_b_nrm.dds");
+		shn_tex(0, "wl_ground_cerenal_c_shn.dds");
+		uv_scale(0, 0.333000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 11);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "wl_ground_cerenal_c_lod.dds");
+		nrm_tex(1, "wl_ground_cerenal_c_lod_nrm.dds");
+		shn_tex(1, "wl_ground_cerenal_c_lod_spec.dds");
+		uv_scale(1, 0.008000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 11);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(8)
+	{
+		enabled(0);
+		clr_tex(0, "wl_cliff_wall_a_msk.dds");
+		nrm_tex(0, "wl_cliff_wall_a_nrm.dds");
+		shn_tex(0, "rock_cave_shn.dds");
+		uv_scale(0, 0.050000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "wl_cliff_wall_a_msk.dds");
+		nrm_tex(1, "wl_cliff_wall_a_nrm.dds");
+		shn_tex(1, "rock_cave_shn.dds");
+		uv_scale(1, 0.030000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 18);
+		preset(1, 2);
+		weight(0.000000);
+	}
+	material(2)
+	{
+		enabled(0);
+		clr_tex(0, "wl_cliff_wall_end_b.dds");
+		nrm_tex(0, "wl_cliff_wall_end_b_nrm.dds");
+		shn_tex(0, "wl_cliff_wall_end_b_spc.dds");
+		uv_scale(0, 0.018000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 4102);
+		weight(0.000000);
+	}
+	material(9)
+	{
+		enabled(0);
+		clr_tex(0, "ground_mud_a.dds");
+		nrm_tex(0, "ground_mud_a_nrm.dds");
+		shn_tex(0, "ground_mud_a_shn.dds");
+		uv_scale(0, 0.280000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 5);
+		preset(0, 2);
+
+		enabled(1);
+		clr_tex(1, "horizon_ground_forest_c.dds");
+		nrm_tex(1, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(1, "horizon_ground_forest_c_spc.dds");
+		uv_scale(1, 0.007000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 5);
+		preset(1, 3334);
+		weight(0.000000);
+	}
+	material(12)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_railway_embankment.dds");
+		nrm_tex(0, "railway_embankment_nrm.dds");
+		shn_tex(0, "railway_embankment_hgt.dds");
+		uv_scale(0, 0.300000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 9308);
+		weight(0.000000);
+	}
+	material(14)
+	{
+		enabled(0);
+		clr_tex(0, "ground_slums_c.dds");
+		nrm_tex(0, "ground_slums_c_nrm.dds");
+		shn_tex(0, "ground_slums_c_shn.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 10164);
+		weight(0.000000);
+	}
+	material(10)
+	{
+		enabled(0);
+		clr_tex(0, "beachsanda.dds");
+		nrm_tex(0, "beachsanda_nrm.dds");
+		shn_tex(0, "beachsanda_shn.dds");
+		uv_scale(0, 0.300000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 5);
+		preset(0, 2);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 6521);
+		weight(0.000000);
+	}
+	material(11)
+	{
+		enabled(0);
+		clr_tex(0, "ground_asphalt_a.dds");
+		nrm_tex(0, "ground_asphalt_a_nrm.dds");
+		shn_tex(0, "wl_asphalt_a_spc.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 14);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 7207);
+		weight(0.000000);
+	}
+	material(13)
+	{
+		enabled(0);
+		clr_tex(0, "ground_mud_b.dds");
+		nrm_tex(0, "ground_mud_b_nrm.dds");
+		shn_tex(0, "ground_mud_b_msk.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 9);
+		preset(0, 0);
+
+		enabled(1);
+		clr_tex(1, "horizon_ground_forest_c.dds");
+		nrm_tex(1, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(1, "horizon_ground_forest_c_spc.dds");
+		uv_scale(1, 0.007000);
+		nrm_scale(1, 0.989000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 9);
+		preset(1, 3334);
+		weight(0.000000);
+	}
+	material(15)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_wl_ground_rock_a.dds");
+		nrm_tex(0, "ground_rockwall_a_nrm.dds");
+		shn_tex(0, "ground_rockwall_a_shn.dds");
+		uv_scale(0, 0.030000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 11675);
+		weight(0.000000);
+	}
+	material(16)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_rock_cave_b.dds");
+		nrm_tex(0, "rock_cave_b_nrm.dds");
+		shn_tex(0, "rock_cave_a_shn.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 5300);
+		weight(0.000000);
+	}
+	material(17)
+	{
+		enabled(0);
+		clr_tex(0, "ground_rockwall_b_cave.dds");
+		nrm_tex(0, "ground_rockwall_b_nrm.dds");
+		shn_tex(0, "ground_rockwall_b_shn.dds");
+		uv_scale(0, 0.030000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 10092);
+		weight(0.000000);
+	}
+	material(18)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_wl_ground_scarp_dirt_b.dds");
+		nrm_tex(0, "dlc_wl_ground_scarp_dirt_b_nrm.dds");
+		shn_tex(0, "defaulttexture_0");
+		uv_scale(0, 0.400000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 6);
+		preset(0, 0);
+
+		enabled(1);
+		clr_tex(1, "wl_ground_sand_lod.dds");
+		nrm_tex(1, "wl_ground_sand_lod_nrm.dds");
+		shn_tex(1, "wl_ground_sand_shn.dds");
+		uv_scale(1, 0.010000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 5);
+		preset(1, 3334);
+		weight(0.000000);
+	}
+	material(19)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_wl_ground_rock_a.dds");
+		nrm_tex(0, "ground_rockwall_a_nrm.dds");
+		shn_tex(0, "ground_rockwall_a_shn.dds");
+		uv_scale(0, 0.100000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 9654);
+		weight(0.000000);
+	}
+	material(20)
+	{
+		enabled(0);
+		clr_tex(0, "grnd_ot_def_b.dds");
+		nrm_tex(0, "grnd_ot_def_b_nrm.dds");
+		shn_tex(0, "grnd_ot_def_b_spc.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 5195);
+		weight(0.000000);
+	}
+	material(21)
+	{
+		enabled(0);
+		clr_tex(0, "ground_concrete_b.dds");
+		nrm_tex(0, "ground_concrete_a_nrm.dds");
+		shn_tex(0, "ground_concrete_a_shn.dds");
+		uv_scale(0, 0.300000);
+		nrm_scale(0, 0.300000);
+		shn_factor(0, 0.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 1);
+		preset(1, 5195);
+		weight(0.000000);
+	}
+	material(22)
+	{
+		enabled(0);
+		clr_tex(0, "ground_rockwall_b_cave.dds");
+		nrm_tex(0, "ground_rockwall_b_nrm.dds");
+		shn_tex(0, "ground_rockwall_b_shn.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 10092);
+		weight(0.000000);
+	}
+	material(23)
+	{
+		enabled(0);
+		clr_tex(0, "ground_ocean_underwater_a.dds");
+		nrm_tex(0, "ground_ocean_underwater_a_nrm.dds");
+		shn_tex(0, "ground_ocean_underwater_a_shn.dds");
+		uv_scale(0, 0.200000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 8);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+	material(24)
+	{
+		enabled(0);
+		clr_tex(0, "dlc_wl_climb_rock_detail_a_terrain.dds");
+		nrm_tex(0, "dlc_wl_climb_rock_detail_a_nrm.dds");
+		shn_tex(0, "defaulttexture_0");
+		uv_scale(0, 0.250000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+		clr_tex(1, "defaulttexture_0");
+		nrm_tex(1, "defaulttexture_0");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 50.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+	material(25)
+	{
+		enabled(0);
+		clr_tex(0, "ground_river_a.dds");
+		nrm_tex(0, "ground_river_a_nrm.dds");
+		shn_tex(0, "ground_river_a_shn.dds");
+		uv_scale(0, 0.250000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 0);
+
+		enabled(1);
+		clr_tex(1, "wl_ground_sand_lod.dds");
+		nrm_tex(1, "wl_ground_sand_lod_nrm.dds");
+		shn_tex(1, "defaulttexture_0");
+		uv_scale(1, 0.010000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 5);
+		preset(1, 0);
+		weight(0.000000);
+	}
+}
+sub layers()
+{
+	layer(0)
+	{
+		name("grass_and_rock_midle");
+		mat_top(0);
+		mat_side(1);
+		param(0.487000);
+	}
+	layer(1)
+	{
+		name("asphalt");
+		mat_top(14);
+		mat_side(1);
+		param(0.518000);
+	}
+	layer(3)
+	{
+		name("river_stone_and_rock_hi");
+		mat_top(3);
+		mat_side(8);
+		param(0.500000);
+	}
+	layer(4)
+	{
+		name("sand_and_rock_hi");
+		mat_top(4);
+		mat_side(8);
+		param(0.518000);
+	}
+	layer(5)
+	{
+		name("cerenal1");
+		mat_top(5);
+		param(0.500000);
+	}
+	layer(6)
+	{
+		name("cerenal2");
+		mat_top(6);
+		param(0.500000);
+	}
+	layer(7)
+	{
+		name("cerenal3");
+		mat_top(7);
+		param(0.500000);
+	}
+	layer(8)
+	{
+		name("cliffs_hi");
+		mat_top(0);
+		mat_side(8);
+		param(0.499000);
+	}
+	layer(2)
+	{
+		name("cliffs_large");
+		mat_top(0);
+		mat_side(2);
+		param(0.524000);
+	}
+	layer(9)
+	{
+		name("mud");
+		mat_top(9);
+		mat_side(9);
+		param(0.500000);
+	}
+	layer(11)
+	{
+		name("cliff_sand_a");
+		mat_top(4);
+		mat_side(1);
+		param(0.394000);
+	}
+	layer(12)
+	{
+		name("railway");
+		mat_top(12);
+		param(0.500000);
+	}
+	layer(10)
+	{
+		name("grass_only");
+		mat_top(0);
+		mat_side(0);
+		param(0.500000);
+	}
+	layer(13)
+	{
+		name("grass_grass");
+		mat_top(0);
+		mat_side(0);
+		param(0.500000);
+	}
+	layer(14)
+	{
+		name("rock_and_rock");
+		mat_top(1);
+		mat_side(1);
+		param(0.500000);
+	}
+	layer(15)
+	{
+		name("concrete");
+		mat_top(11);
+		mat_side(11);
+		param(0.500000);
+	}
+	layer(16)
+	{
+		name("mud");
+		mat_top(13);
+		mat_side(13);
+		param(0.500000);
+	}
+	layer(17)
+	{
+		name("dlc_rock_large");
+		mat_top(0);
+		mat_side(15);
+		param(0.499000);
+	}
+	layer(18)
+	{
+		name("mud_and_mud");
+		mat_top(13);
+		mat_side(14);
+		param(0.500000);
+	}
+	layer(19)
+	{
+		name("cave_a");
+		mat_top(16);
+		mat_side(16);
+		param(0.500000);
+	}
+	layer(20)
+	{
+		name("cliff_cave");
+		mat_top(0);
+		mat_side(17);
+		param(0.500000);
+	}
+	layer(21)
+	{
+		name("scarp_dirt");
+		mat_top(18);
+		mat_side(18);
+		param(0.500000);
+	}
+	layer(22)
+	{
+		name("dlc_rocklarge_riverstone");
+		mat_top(0);
+		mat_side(19);
+		param(0.314000);
+	}
+	layer(23)
+	{
+		name("historic_pavement_a");
+		mat_top(20);
+		mat_side(20);
+		param(0.500000);
+	}
+	layer(24)
+	{
+		name("historic_pavement_b");
+		mat_top(21);
+		mat_side(19);
+		param(0.500000);
+	}
+	layer(25)
+	{
+		name("cliff_cave_hi");
+		mat_top(0);
+		mat_side(22);
+		param(0.500000);
+	}
+	layer(26)
+	{
+		name("ocean");
+		mat_top(23);
+		mat_side(23);
+		param(0.500000);
+	}
+	layer(27)
+	{
+		name("rock_climbing_a");
+		mat_top(24);
+		mat_side(24);
+		param(0.500000);
+	}
+	layer(28)
+	{
+		name("river_lake_lod");
+		mat_top(25);
+		mat_side(1);
+		param(0.500000);
+	}
+}

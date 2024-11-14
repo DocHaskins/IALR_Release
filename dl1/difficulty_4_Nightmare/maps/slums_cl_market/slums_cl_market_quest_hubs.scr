@@ -1,0 +1,50 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("MapStart")
+{
+    LocationName("slums_cl_market")
+    LocationPicture("save_picture_slums_cl_market")
+}
+
+SpawnPoint("SP_DeadZone_Market_02")
+{
+    LocationName("slums_cl_market")
+    LocationPicture("save_picture_slums_cl_market")
+}
+
+SpawnPoint("SP_DeadZone_Market_01")
+{
+    LocationName("slums_cl_market")
+    LocationPicture("save_picture_slums_cl_market")
+}
+
+SpawnPoint("slums_cl_market_bombers_activator")
+{
+    LocationName("slums_cl_market")
+    LocationPicture("save_picture_slums_cl_market")
+}
+
+MapPortal("map_portal_dz_market")
+{
+    Position(273.539307, 151.636719, 86.028664)
+    TargetSpawnPoint("sp_slums_cleansing_market_01")
+}
+

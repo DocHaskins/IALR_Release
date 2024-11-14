@@ -1,0 +1,398 @@
+!include("map_spawn.def")
+!include("night_spawn_presets.scr")
+!include("common_spawn_presets.scr")
+
+// ForceTargetType(i) can take 5 values
+// -1 - FForcedTarget::None
+//  0 - FForcedTarget::PlayerDoNotForceVisibility
+//  1 - FForcedTarget::PlayerOnce
+//  2 - FForcedTarget::Player
+//  3 - FForcedTarget::FakeTargetOnceNearContact
+//  4 - FForcedTarget::PlayerOnceNearContact
+
+
+
+///////////////////////////////////////////////////////////////////
+//PRESETS
+///////////////////////////////////////////////////////////////////
+
+//Warning: All presets moved to common_spawn.scr
+
+    PresetDef("Infected_Init_Wasteland")
+    {
+        Difficult(15)
+        AIPreset("Viral_Man;Viral_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("t_INIT, 0.7;z_INFECTED, 0.7")
+        MinDistBtwZombies(5)
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(2.)
+        RelativePresets("SuiciderBomber_Init_Wasteland")
+        SarcophagusTime(3)
+    }
+
+    PresetDef("SuiciderBomber_Init_Wasteland")
+    {
+        Difficult(15)
+        AIPreset("RunningBomber")
+        SpawnCondition("t_INIT, 0.7;z_SUICIDER_BOMBER, 0.7")
+        MinDistBtwZombies(5)
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(2.)
+        RelativePresets("Infected_Init_Wasteland")
+        SarcophagusTime(2)
+    }
+    
+	
+	PresetDef("Infected_Init_Wasteland_Oasis")
+    {
+        Difficult(15)
+        AIPreset("Viral_Man;Viral_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("t_INIT, 0.7;z_INFECTED, 0.7")
+        MinDistBtwZombies(5)
+        ForceTargetType(3)
+        TimeBtwSpawnZombies(1.)
+        SarcophagusTime(3)
+		UseCondition("Day")
+    }
+	
+	PresetDef("Night_Walker_Init_Oasis")
+	{
+		Difficult(15)
+		AIPreset("NightWalker_Man;NightWalker_Woman")
+		SpawnCondition("t_INIT, 0.7;z_INFECTED, 0.7")
+		MinDistBtwZombies(5)
+		ForceTargetType(3)
+		TimeBtwSpawnZombies(1.)
+		SarcophagusTime(2.0)
+		UseCondition("Night")
+	}
+
+
+///////////////////////////////////////////////////////////////////
+
+	PresetDef("Volatile_Wast_Pursuit")
+    {
+		UseCondition("Night;")
+        Difficult(30)
+        AIPreset("Volatile_Wast")
+        SpawnCondition("nav_mesh, 1")
+        ForceTargetType(-1)
+        TimeBtwSpawnZombies(5)
+		MinDistBtwZombies(45)
+		RelativePresets("Volatile_Wast_Patrol;Volatile_Wast_Pursuit_Hard;Volatile_Wast_Patrol_HiIntense")
+    }
+	
+
+	PresetDef("Volatile_Wast_Pursuit_Hard")
+    {
+		UseCondition("Night;")
+        Difficult(30)
+        AIPreset("Volatile_Super")
+        SpawnCondition("nav_mesh, 1")
+        ForceTargetType(-1)
+        TimeBtwSpawnZombies(5)
+		MinDistBtwZombies(45)
+		RelativePresets("Volatile_Wast_Patrol;Volatile_Wast_Pursuit;Volatile_Wast_Patrol_HiIntense")
+    }
+	
+	PresetDef("Volatile_Wast_Patrol")
+    {
+		UseCondition("Night;")
+        Difficult(30)
+        AIPreset("Volatile_Wast")
+        SpawnCondition("nav_mesh, 1")
+        ForceTargetType(-1)
+        TimeBtwSpawnZombies(2)
+		MinDistBtwZombies(65)
+		RelativePresets("Volatile_Wast_Pursuit;Volatile_Wast_Pursuit_Hard;Volatile_Wast_Patrol_HiIntense")
+    }
+
+	PresetDef("Volatile_Wast_Patrol_HiIntense")
+    {
+		UseCondition("Night;")
+		RequiredAreaAttribs("WL_HI_INTENSITY_NIGHT")
+        Difficult(30)
+        AIPreset("Volatile_Super")
+        SpawnCondition("nav_mesh, 1")
+        ForceTargetType(-1)
+        TimeBtwSpawnZombies(5)
+		MinDistBtwZombies(35)
+		RelativePresets("Volatile_Wast_Pursuit;Volatile_Wast_Pursuit_Hard;Volatile_Wast_Patrol")
+    }
+///////////////////////////////////////////////////////////////////
+	PresetDef("Bomber_Wasteland")
+    {
+		MinReputation(3)
+        Difficult(7)
+        AIPreset("Bomber_Wast")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(60)
+		TimeBtwSpawnZombies(30)
+		ForceTargetType(1)
+		RelativePresets("Bomber_Wasteland_Late")
+    }
+	PresetDef("Bomber_Wasteland_Late")
+    {
+		MinReputation(5)
+        Difficult(7)
+        AIPreset("Bomber_Wast")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(30)
+		TimeBtwSpawnZombies(10)
+		ForceTargetType(1)
+		RelativePresets("Bomber_Wasteland")
+    }
+
+	PresetDef("Bomber_Wasteland_Attack")
+    {
+        Difficult(7)
+        AIPreset("Bomber_Wast")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(12)
+		TimeBtwSpawnZombies(3)
+		ForceTargetType(1)
+
+		RelativePresets("Bomber_Wasteland_Nav")
+    }
+
+
+	PresetDef("Bomber_Wasteland_Nav")
+    {
+        Difficult(7)
+        AIPreset("Bomber_Wast")
+        SpawnCondition("nav_mesh, 1")
+        MinDistBtwZombies(12)
+		ForceTargetType(1)
+		TimeBtwSpawnZombies(3)
+		RelativePresets("Bomber_Wasteland_Attack")
+    }
+
+
+	PresetDef("Bomber_Wasteland_out")
+    {
+        Difficult(15)
+        AIPreset("Bomber")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(60)
+		ForceTargetType(1)
+		TimeBtwSpawnZombies(120)
+    }
+
+
+    PresetDef("Toad_Wasteland")
+    {
+		MinReputation(2)
+        Difficult(10)
+        AIPreset("Toad_OldTown")
+        SpawnCondition("nav_mesh, -1;z_SPITTER, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(25)
+        TimeBtwSpawnZombies(5)
+        ForceTargetType(1)
+    }
+
+	
+	PresetDef("Prime_Wasteland")
+    {
+        Difficult(10)
+        AIPreset("Prime")
+        SpawnCondition("z_PRIME, 1")
+        MinDistBtwZombies(10)
+		ForceTargetType(1)
+    }
+
+
+	PresetDef("Bitter_Agressive")
+    {
+        Difficult(15)
+		MinReputation(2)
+        AIPreset("Biter_Man;Biter_Woman")
+        DiffLvlTableName("Biter_Man_Wast;Biter_Woman_Wast")
+		CustomDataPreset("anim_set_waste")
+        ForceTargetType(3)
+        TimeBtwSpawnZombies(3)
+        CanSpawnIntoCrowd(1,"_AG")
+        DieProbality(50)
+        SarcophagusTime(2)
+    }
+
+	PresetDef("Bitter_Agressive_Pursuit")
+    {
+        Difficult(15)
+		MaxReputation(1)
+        AIPreset("Biter_Man;Biter_Woman")
+        DiffLvlTableName("Biter_Man_Wast;Biter_Woman_Wast")
+		CustomDataPreset("anim_set_waste")
+        ForceTargetType(3)
+        TimeBtwSpawnZombies(3)
+        CanSpawnIntoCrowd(1,"_AG")
+        DieProbality(50)
+        SarcophagusTime(2)
+    }
+
+    PresetDef("Vessel_Eating_Corpse")
+    {
+        Difficult(7)
+        AIPreset("Biter_Man;Biter_Woman")
+		DiffLvlTableName("Biter_Man_Wast;Biter_Woman_Wast")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1;z_SPITTER, -1")
+        AttractorToSpawnWithAI("virtual_corpse_a")
+        MeshToSpawnWithAI("dead_body_c.msh", [0.03, 0, 1.20])
+        SpawnOnFlatTerrain(1)
+        ForceTargetType(-1)
+		MinDistBtwZombies(20)
+		TimeBtwSpawnZombies(10)
+    }
+
+	PresetDef("Vessel_WithAToy")
+    {
+        Difficult(7)
+        AIPreset("BiterWeapon_Man;BiterWeapon_Woman")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        MinDistBtwZombies(20)
+        ForceTargetType(-1)
+        TimeBtwSpawnZombies(10)
+    }
+
+    PresetDef("Weak_Infected_HumanScream")
+    {
+        Difficult(25)
+        AIPreset("ViralHumanity_Man_OldTown;ViralHumanity_Woman_OldTown")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(2)
+    }
+
+	PresetDef("Vessel_GasTank")
+    {
+		MinReputation(2)
+        Difficult(10)
+        AIPreset("GasTank")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1;z_SPITTER, -1")
+        MinDistBtwZombies(20)
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(120)
+		RelativePresets("Vessel_GasTank_Late")
+    }
+	
+	PresetDef("Vessel_GasTank_Late")
+    {
+		MinReputation(3)
+        Difficult(10)
+        AIPreset("GasTank")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1;z_SPITTER, -1")
+        MinDistBtwZombies(20)
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(60)
+		RelativePresets("Vessel_GasTank")
+    }
+	
+	PresetDef("Demolisher_Wasteland_Dynamic")
+    {
+		MinReputation(4)
+        Difficult(40)
+        AIPreset("Demolisher_Wasteland_Dynamic")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1;z_SPITTER, -1")
+        MinDistBtwZombies(100)
+        //RemoveDistanceIfNotContact(55)
+        TimeBtwSpawnZombies(720)
+    }
+	
+	PresetDef("Goon_Wasteland_Dynamic")
+    {
+		MinReputation(3)
+        Difficult(15)
+        AIPreset("Goon_Wasteland_Dynamic")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1;z_SPITTER, -1")
+        MinDistBtwZombies(80)
+        //RemoveDistanceIfNotContact(45)
+        TimeBtwSpawnZombies(360)
+		DiffLvlTableName("Goon_Wast")
+        ForceTargetType(-1)
+    }
+
+
+//////////////////////////////////////////////////////////
+//VIRALS
+//////////////////////////////////////////////////////////
+
+	PresetDef("Viral_Wasteland_Target")
+    {
+        Difficult(15)
+		MinReputation(2)
+        AIPreset("ViralHumanity_Man;ViralHumanity_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("__any__, 1;nav_mesh, -1;t_INIT, -1;")
+        MinDistBtwZombies(6)
+        ForceTargetType(1)
+        SarcophagusTime(1)
+        TimeBtwSpawnZombies(1)
+		RelativePresets("Viral_Wasteland_Nav_Target")
+		OnSpawnSound("infected_spawn_open_area_00.wav")
+    }
+
+	PresetDef("Viral_Wasteland_Nav_Target")
+    {
+        Difficult(15)
+		MinReputation(2)
+        AIPreset("ViralHumanity_Man;ViralHumanity_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("nav_mesh, 1")
+        MinDistBtwZombies(6)
+        ForceTargetType(1)
+        SarcophagusTime(1)
+        TimeBtwSpawnZombies(1)
+		RelativePresets("Viral_Wasteland_Target")
+		OnSpawnSound("infected_spawn_open_area_00.wav")
+    }
+
+	PresetDef("Viral_Wasteland")
+    {
+        Difficult(15)
+		MinReputation(2)
+        AIPreset("ViralHumanity_Man;ViralHumanity_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("__any__, 1;nav_mesh, -1;t_INIT, -1;")
+        MinDistBtwZombies(6)
+        SarcophagusTime(1)
+        TimeBtwSpawnZombies(1)
+		RelativePresets("Viral_Wasteland_Nav")
+		OnSpawnSound("infected_spawn_open_area_00.wav")
+    }
+
+	PresetDef("Viral_Wasteland_Nav")
+    {
+        Difficult(15)
+		MinReputation(2)
+        AIPreset("ViralHumanity_Man;ViralHumanity_Woman")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("nav_mesh, 1")
+        MinDistBtwZombies(6)
+        SarcophagusTime(1)
+        TimeBtwSpawnZombies(1)
+		RelativePresets("Viral_Wasteland")
+		OnSpawnSound("infected_spawn_open_area_00.wav")
+    }
+
+    PresetDef("Viral_Without_Grab")
+    {
+        Difficult(25)
+		MaxReputation(1)
+		AIPreset("ViralHumanity_Man_BlockVehJump;ViralHumanity_Woman_BlockVehJump")
+		DiffLvlTableName("Viral_Man_Wast;Viral_Woman_Wast")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(2)
+		
+    }
+
+    PresetDef("Viral_Patrol")
+    {
+        Difficult(25)
+		MaxReputation(1)
+        AIPreset("ViralHumanity_Man_OldTown;ViralHumanity_Woman_OldTown")
+        SpawnCondition("nav_mesh, -1;__any__, 1;t_INIT, -1;p_ROOF, -1")
+        ForceTargetType(0)
+        TimeBtwSpawnZombies(2)
+    }

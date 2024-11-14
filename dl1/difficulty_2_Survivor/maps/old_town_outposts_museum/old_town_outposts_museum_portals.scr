@@ -1,0 +1,5 @@
+sub portals_old_town_outposts_museum()
+{
+    Portal("portal_FindAntio_Museum_TO_OldTown_Tunel", "old_town_outposts_museum", "old_town", "sp_portal_FindAntio_Museum_TO_OldTown_Tunel");
+    Portal("portal_FindAntio_Museum_TO_OldTown_Main", "old_town_outposts_museum", "old_town", "sp_portal_FindAntio_Museum_TO_OldTown_Main");
+}

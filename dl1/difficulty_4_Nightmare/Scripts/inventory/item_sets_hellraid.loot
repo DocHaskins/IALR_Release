@@ -1,0 +1,155 @@
+//This script is generated from Inventory.xlsm. Don't modify it!!!
+
+export int Consumables = 1;
+export int Ammo = 2;
+export int Valuables = 3;
+export int Weapon = 4;
+export int Dirty = 5;
+export int CraftPart = 6;
+export int Lockpick = 7;
+export int Mods = 8;
+export int Other = 9;
+	
+	
+	
+	////////////////HELLRAID ITEMS////////////////
+	
+	sub CoinPenny(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Valuables, weight, prob)
+        {
+            ItemCount("Cash_Hellraid_Coin", 2, 5, 1);
+        }
+    }
+	
+	sub CoinSmall(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Valuables, weight, prob)
+        {
+            ItemCount("Cash_Hellraid_Coin", 7, 15, 1);
+        }
+    }
+	
+	sub CoinMedium(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Valuables, weight, prob)
+        {
+            ItemCount("Cash_Hellraid_Coin", 20, 40, 1);
+        }
+    }
+	
+	sub CoinPremium(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Valuables, weight, prob)
+        {
+            ItemCount("Cash_Hellraid_Coin", 75, 100, 1);
+        }
+    }
+	
+	sub CoinChest(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Valuables, weight, prob)
+        {
+            ItemCount("Cash_Hellraid_Coin", 200, 300, 1);
+        }
+    }
+	
+	sub Healing_Items_Hellraid(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Consumables, weight, prob)
+        {
+            Item("Medkit_HealthPotion_HR", 1.0);
+        }
+    }
+	
+	sub Healing_Items_Stamina_Hellraid(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Consumables, weight, prob)
+        {
+            Item("Medkit_StaminaPotion_HR", 1.0);
+        }
+    }
+	
+	sub Healing_Items_Hellraid_Chest(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Medkit_ArmorPotion_HR", 1, 3, 1.0);
+			ItemCount("Medkit_SpeedPotion_HR", 1, 3, 1.0);
+			ItemCount("Medkit_StrengthPotion_HR", 1, 3, 1.0);
+        }
+    }
+	
+	sub Buff_Items_Hellraid_Chest(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Medkit_ArmorPotion_HR", 3, 5, 1.0);
+			ItemCount("Medkit_SpeedPotion_HR", 3, 5, 1.0);
+			ItemCount("Medkit_StrengthPotion_HR", 3, 5, 1.0);
+        }
+    }
+
+	//!!!DO NOT USE FOR BETA -- TO REVISE PRE-RELEASE!!!//
+	sub Throwable_Sharp_Hellraid(float weight = 1.0, float prob = 1.0)
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Throwable_HRThrowingKnife", 3, 5, 1.0);
+        }
+    }
+	
+	sub Throwable_Explosives_Hellraid(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Throwable_HRGrenade_Explosive", 3, 5, 1.0);
+			ItemCount("Throwable_HRGrenade_Poison", 3, 5, 1.0);
+			ItemCount("Throwable_HRGrenade_Electric", 3, 5, 1.0);
+        }
+    }
+	
+	sub Throwable_Fire_Hellraid(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Throwable_HRGrenade_Explosive", 1, 3, 1.0);
+        }
+    }
+	
+	sub Throwable_Poison_Hellraid(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Throwable_HRGrenade_Poison", 1, 3, 1.0);
+        }
+    }
+	
+	sub Throwable_Electric_Hellraid(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("Throwable_HRGrenade_Electric", 1, 3, 1.0);
+        }
+    }
+	
+	sub Ammo_HR_Bow_Arrows_Small(float weight = 1.0, float prob = 1.0) 
+    {
+        Set(Consumables, weight, prob)
+        {
+			ItemCount("ZZZZ_Bullet_Arrow_HR", 3, 3, 1.0);
+        }
+
+    }
+	
+	sub Ammo_HR_Bow_Arrows_Large(float weight = 1.0, float prob = 1.0) 
+    {
+		Set(Consumables, weight, prob)
+        {
+			ItemCount("ZZZZ_Bullet_Arrow_HR", 7, 7, 1.0);
+        }
+    }
+	
+	
+	
+	

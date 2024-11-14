@@ -1,0 +1,5 @@
+sub portals_slums_int_school()
+{
+    Portal("portal_School_Int_TO_Slums_03", "slums_int_school", "slums", "sp_portal_School_Int_TO_Slums_03");
+    Portal("portal_School_Int_TO_Slums_02", "slums_int_school", "slums", "sp_portal_School_Int_TO_Slums_02");
+}

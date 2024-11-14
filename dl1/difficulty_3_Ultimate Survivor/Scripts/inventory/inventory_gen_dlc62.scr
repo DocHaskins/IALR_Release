@@ -1,0 +1,471 @@
+//ASTRONAUT BUNDLE
+
+import "inventorystuff.scr" 
+sub main() 
+{		
+    ////////////////////////////////RIFLE////////////////////////////////
+	Item("Firearm_Rifle_Astronaut", CategoryType_Firearm)
+    {
+        Name("&Firearm_Rifle_Astronaut_N&");
+        GameVersion(44);
+        CategoryType(CategoryType_Firearm);
+        Visibility(true);
+        ItemType(ItemType_Rifle);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1);
+        DamageRangeMelee(110.0 *0.01);
+        HeadSmashProb(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        Mesh("wn_rifle_d_hq.msh");
+        CutTypesGroup(CutTypesGroup_Holes);
+        DamageType(DamageType_Bullet);
+        Skin("Default");
+        AnimPrefix("Railgun");
+        HudIcon("weapon_rifle_d");
+        ShotTime(0.14);
+        ShotSound("astro_rifle_shot_XX.wav");
+		BaseSoundPrefix("");
+        DefaultBulletId("Bullet_Rifle");		
+        AmmoCount(20);
+		NotInheritBaseAmmoCount();
+        ReloadTime(1.5);
+        EmptySound("astro_rifle_empty_00.wav");
+        TwoHanded(true);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,0.0,0.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,90.0,-90.0]);
+        HandOffsetSprint([0.0,-0.005,0.0]);
+        HandOffset(HandModification_Normal, [0.0,0.0,0.0]);
+        HandRot(HandModification_Normal, [0.0,0.0,0.0]);
+        HandOffset(HandModification_Custom, [0.0,0.0,0.0]);
+        use HitEffects_Firearm();
+        use PickupSounds_Default();
+        ClipReload(true);
+        FxNameShell("MGGunfireShell");
+        ShootFx("m16_muzzle_flash_space_sequence.fx"); 
+        AimBlurStart(25.0);
+        AimBlurEnd(500.0);
+        ShootStatAccuracy(90.0);
+        MoveAcurancyLoseFactor(0.1);
+        JumpInertiaFactor(0.2);
+        DuckInertiaFactor(0.3);
+        ShootMinAngle(0.027);
+        ShootMaxAngle(0.028);
+        ShootAngleVel(0.145);
+        ShootAngleCooldown(0.328);
+        ShootVertRecoil(0.005);
+        ShootVertRecoilSpread(0.01);
+        ShootHorzRecoil(0.005);
+        ShootHorzRecoilSpread(0.01);
+        ShootRecoilTime(0.15);
+        ShootMode(ShotMode_Automatic);
+        BulletsPerShot(1);
+        AimFov(1.8);
+        MaxReboundCount(1);
+        DamageSize(1.0);
+        AiHitSound("bullet");
+        StatsType(StatsType_Pistol);
+        Price(15526);
+        FF_EffectName("Shot_QuickRiffle");
+        FF_Left(0.3);
+        FF_Right(0.4);
+        FF_Duration(0.1);
+        FF_FadeOut(0.0);
+        CriticalProb(0.2); 
+        CriticalDamage(1.0);
+        DamageHeadMult(8.0);
+        DamageToPhysicsObjects(17.5);
+		FirePointRange(0,500.0 *0.01);
+        FirePointDamage(0,225.0); 
+        FirePointForce(0,25.0);
+        FirePointRange(1,1000.0 *0.01);
+        FirePointDamage(1,225.0); 
+        FirePointForce(1,25.0);
+        FirePointRange(2,4000.0 *0.01);
+        FirePointDamage(2,112.5); 
+        FirePointForce(2,12.5);
+        FirePointRange(3,10000.0 *0.01);
+        FirePointDamage(3,56.0);
+        FirePointForce(3,6.25);
+        Color(Color_Blue);
+        GenType(GenType_Firearm);
+        ShotTailDelay(0.9);
+        AchType(AchType_Pistol);
+        NameGender(0);
+        PriceMult(1.1);
+        ShootAnimFactor(1.0);
+        HandInertiaFactor(0.0);
+        HandInertiaRotFactor([0.0,0.0,2.0]);
+        BulletSpeed(75.0);
+		NoiseType("LIGHT_SHOT");
+		BulletTrailMesh("bullet_trail_laser.msh");
+		BulletTrailSkin("Default");
+		IsGunShellSoundDisabled(true);
+		ForceSpawnBulletTrailsDuringAiming(true);
+    }
+
+    Item("Firearm_Rifle_Astronaut", CategoryType_Firearm)
+    {
+        GameVersion(44);
+        CategoryType(CategoryType_Firearm);
+        UsageType(UsageType_Aim);
+        UpgradeLevel(0);
+        HandOffset(HandModification_Normal, [-0.001,-0.003,0.0]);
+        HandRot(HandModification_Normal, [0.0,0.0,0.0]);
+        HandOffset(HandModification_Custom, [0.0,0.0,0.0]);
+        ShootMinAngle(0.0);
+        ShootMaxAngle(0.1);
+        ShootAngleVel(0.19);
+        ShootAngleCooldown(0.4);
+        ShootVertRecoil(0.029);
+        ShootVertRecoilSpread(0.018);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.012);
+        HandInertiaFactor(0.0);
+    }
+
+    ////////////////////////////////PISTOL////////////////////////////////
+	Item("Firearm_Pistol_Astronaut", CategoryType_Firearm)
+    {
+        Name("&Firearm_Pistol_Astronaut_N&");
+        GameVersion(44);
+        CategoryType(CategoryType_Firearm);
+        Visibility(true);
+        ItemType(ItemType_Pistol);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1);
+        DamageRangeMelee(110.0 *0.01);
+        HeadSmashProb(1.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        CutTypesGroup(CutTypesGroup_Holes);
+        DamageType(DamageType_Bullet);
+        Mesh("wn_pistol_d_hq.msh");
+        Skin("Default_ON");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Beretta");
+        HudIcon("weapon_pistol_d");
+        ShotTime(0.3);
+        ShotSound("astro_pistol_shot_XX.wav");
+        BaseSoundPrefix("glock");
+        DefaultBulletId("Bullet_Pistol");
+        AmmoCount(5);
+		NotInheritBaseAmmoCount();
+        ReloadTime(1.5);
+        EmptySound("astro_pistol_empty_00.wav");
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,0.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,90.0,-90.0]);
+        HandOffset(HandModification_Normal, [-0.03,-0.03,0.0]);
+        HandOffset(HandModification_Custom, [-0.03,-0.03,0.0]);
+        use HitEffects_Firearm();
+        use PickupSounds_Default();
+        ClipReload(true);
+        FxNameShell("BerettaGunfireShell");
+        ShootFx("PistolGunfireSingle_sequence.fx");
+        AimBlurStart(0.25);
+        AimBlurEnd(0.35);
+        ShootStatAccuracy(95.0);
+        MoveAcurancyLoseFactor(0.2);
+        DuckInertiaFactor(0.3);
+        ShootMinAngle(0.009);
+        ShootMaxAngle(0.1);
+        ShootAngleVel(0.07);
+        ShootAngleCooldown(0.2);
+        ShootVertRecoil(0.04);
+        ShootVertRecoilSpread(0.012);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.09);
+        ShootMode(ShotMode_Single);
+        BulletsPerShot(1);
+        AimFov(1.6);
+        MaxReboundCount(3);
+        DamageSize(1.0);
+        AiHitSound("bullet");
+        StatsType(StatsType_Pistol);
+        Price(11602);
+        FF_EffectName("Shot_StrongPistol");
+        FF_Left(0.3);
+        FF_Right(0.4);
+        FF_Duration(0.1);
+        FF_FadeOut(0.0);
+        CriticalProb(0.0);
+        CriticalDamage(1.0);
+        DamageHeadMult(10.0);
+        DamageToPhysicsObjects(10.0);
+        FirePointRange(0,250.0 *0.01);
+        FirePointDamage(0,100.0);
+        FirePointForce(0,35.0);
+        FirePointRange(1,500.0 *0.01);
+        FirePointDamage(1,100.0);
+        FirePointForce(1,35.0);
+        FirePointRange(2,1750.0 *0.01);
+        FirePointDamage(2,50.0);
+        FirePointForce(2,17.5);
+        FirePointRange(3,5000.0 *0.01);
+        FirePointDamage(3,25.0);
+        FirePointForce(3,8.75);
+        Color(Color_Blue);
+        GenType(GenType_Firearm);
+        ShotTailDelay(0.5);
+        AchType(AchType_Pistol);
+        NameGender(0);
+        PriceMult(1.1);
+    }
+
+    Item("Firearm_Pistol_Astronaut", CategoryType_Firearm)
+    {
+        GameVersion(44);
+        CategoryType(CategoryType_Firearm);
+        UsageType(UsageType_Aim);
+        UpgradeLevel(0);
+        HandOffset(HandModification_Normal, [-0.0009,-0.0051,0.2]);
+        HandRot(HandModification_Normal, [0.7237,-0.1293,0.0]);
+        HandOffset(HandModification_Custom, [-0.0003,-0.0003,0.0]);
+        ShootMinAngle(0.005);
+        ShootMaxAngle(0.13);
+        ShootAngleVel(0.13);
+        ShootAngleCooldown(0.189);
+        ShootVertRecoil(0.0);
+        ShootVertRecoilSpread(0.0);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.16);
+    }
+
+    Item("Bullet_Astronaut_Pistol", CategoryType_Ammo)
+    {
+        GameVersion(44);
+        Mesh("loot_ok_ammo_short.msh");
+        HudIcon("ammo_pistol");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_Pistol);
+        DamageType(DamageType_Blast);
+        SpawnThrowableOnHit("Throwable_Astronaut_Pistol_Effect");
+        MaxAmmoCount(90);
+    }
+
+    Item("Throwable_Astronaut_Pistol_Effect", CategoryType_Throwable)
+    {
+        GameVersion(44);
+        Name("&Throwable_DevCraft1_N&");
+        Description("&Throwable_DevCraft1_D&");
+        DeveloperEffect("StasisField");
+        ItemType(ItemType_DeveloperGrenade);
+        Visibility(true);
+        AmmoCount(3);
+        MaxStackCount(15);
+        Price(500);
+        Mesh("wn_grenade_b.msh");
+        Skin("default");
+        AnimPrefix("Grenade");
+        PhysicsScript("single_dropped_inventory.phx");
+        HudIcon("weapon_frag_grenade");
+        Damage(1.0);
+        DamageRange(6.0);
+        PhysicsDamageMul(1.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        DamageType(DamageType_StasisBlast);
+        DamageDuration(5.0);
+        ThrowImpulseLook(13.0);
+        ThrowImpulseUp(2.0);
+        ExplosionBuildUpSound("astro_pistol_stasis.wav");
+        ExplodeDelay(0.0);
+        ThrowEndSound("throwing.wav");
+        StatsType(StatsType_Explosive);
+        NoiseType("EXPLOSION");
+        Color(Color_Orange);
+        EquipmentSlot(0);
+        AchType(AchType_Grenade);
+        SoundsCauseAggression(false);
+    }
+	
+    ////////////////////////////////MACHETE////////////////////////////////
+	Item("Melee_Machete_Astronaut", CategoryType_Melee)
+    {			
+		Visibility(true);
+        ItemType(ItemType_Stick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(50);
+        CriticalCondition(12);
+        Damage(300.0);
+        Force(20.0);
+        CriticalProb(0.05);
+        CriticalDamage(2.0);
+        DamageRange(150.0 *0.01);
+        DamageToPhysicsObjects(50.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.16);
+        ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Universal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpBodyCutsOnCharge);
+        Flags(11);
+        InventoryMeshHq("wn_machete_g.msh");
+        InventoryMesh("wn_machete_g.msh");
+        Mesh("wn_machete_g.msh");
+		Skin("Default");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick");
+        HudIcon("weapon_machete_g");
+        MinHitSeverity(HitSeverity_Light);
+        MaxHitSeverity(HitSeverity_Medium);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("spine2");
+        HolderOffset([-25.0,-10.0,15.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([90.0,200.0,90.0]);
+        ThrustAngle(30.0);
+        DestroySound("damaged_sharp_weapon_XX.wav");
+        AiHitSound("MacheteAstronaut");
+        use HitEffects_Sharp();
+        use PickupSounds_Default();
+        DamageSize(3.0);
+        StatsType(StatsType_Cut);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("weapon_light_throw.wav");
+        Color(Color_Blue);
+        AchType(AchType_Machete);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(3);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("machete_g");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("StickSharp");
+        HandInertiaFactor(1.8);
+		GenLevelMin(1);
+        GenLevelMax(1);
+        Price(13540);
+        GenType(GenType_MeleeWeapon);
+		GameVersion(44);
+    }
+
+	Item("Melee_Machete_Astronaut", CategoryType_Melee)
+    {
+        UpgradeLevel(0);
+        Condition(16);
+        CriticalProb(0.0);
+        CutTypesGroup(CutTypesGroup_SharpBodyCutsOnCharge);
+        InventoryMeshHq("wn_machete_g_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut", CategoryType_Melee)
+    {
+        UpgradeLevel(0);
+        Condition(8);
+        CriticalProb(0.0);
+        CutTypesGroup(CutTypesGroup_SharpBodyCutsOnCharge);
+        InventoryMeshHq("wn_machete_g_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+        GameVersion(44);	
+	}
+
+    ////////////////TO GATHER////////////////
+	Item("Melee_Machete_Astronaut2", CategoryType_Melee)
+    {			
+		Visibility(true);
+        ItemType(ItemType_Stick);
+        Condition(3);
+        InventoryMeshHq("wn_machete_g.msh");
+        InventoryMesh("wn_machete_g.msh");
+        Mesh("wn_machete_g.msh");
+		Skin("default_green");
+        SkinTag("Weapon_Craft0");
+		GameVersion(44);
+    }
+
+	Item("Melee_Machete_Astronaut2", CategoryType_Melee)
+    {
+        Condition(2);
+        InventoryMeshHq("wn_machete_g_dm_a.msh");
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut2", CategoryType_Melee)
+    {
+        Condition(1);
+        InventoryMeshHq("wn_machete_g_dm_b.msh");
+        GameVersion(44);
+    }
+
+    ////////////////TO GATHER////////////////
+    Item("Melee_Machete_Astronaut3", CategoryType_Melee)
+    {
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        Condition(3);
+        InventoryMeshHq("wn_machete_g.msh");
+        InventoryMesh("wn_machete_g.msh");
+        Mesh("wn_machete_g.msh");
+        Skin("default_red");
+        SkinTag("Weapon_Craft0");
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut3", CategoryType_Melee)
+    {
+        Condition(2);
+        InventoryMeshHq("wn_machete_g_dm_a.msh");
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut3", CategoryType_Melee)
+    {
+        Condition(1);
+        InventoryMeshHq("wn_machete_g_dm_b.msh");
+        GameVersion(44);
+    }
+
+    ////////////////TO GATHER////////////////
+    Item("Melee_Machete_Astronaut4", CategoryType_Melee)
+    {
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        Condition(3);
+        InventoryMeshHq("wn_machete_g.msh");
+        InventoryMesh("wn_machete_g.msh");
+        Mesh("wn_machete_g.msh");
+        Skin("default_blue");
+        SkinTag("Weapon_Craft0");
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut4", CategoryType_Melee)
+    {
+        Condition(2);
+        InventoryMeshHq("wn_machete_g_dm_a.msh");
+        GameVersion(44);
+    }
+
+    Item("Melee_Machete_Astronaut4", CategoryType_Melee)
+    {
+        Condition(1);
+        InventoryMeshHq("wn_machete_g_dm_b.msh");
+        GameVersion(44);
+    }
+}

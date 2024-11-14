@@ -1,0 +1,4 @@
+sub portals_slums_cl_sidetrack()
+{
+    Portal("portal_exit_slums_cleansing_02_tunnel", "slums_cl_sidetrack", "slums", "slums_cleansing_sidetrack_deco::sp_slums_cleansing_02");
+}

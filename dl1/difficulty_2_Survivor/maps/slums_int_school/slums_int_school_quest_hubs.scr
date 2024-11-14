@@ -1,0 +1,238 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+MapLayerTransform(0, "66.631172 0.000000 0.000000 75.505890 0.000000 20.852856 0.000000 38.156761 0.000000 0.000000 86.217293 76.921104")
+
+SpawnPoint("explosives_rais_soldier_enemy_04_firend_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_rais_soldier_enemy_05_attr_deactiv")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_05")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_06")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_rais_soldier_enemy_03_firend_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_alarm_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_04")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_rais_soldier_enemy_02_firend_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_school_end_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_portal_Slums_TO_School_Int_03")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_rais_soldier_enemy_02_activ_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_03")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("Insulin_Marker_Roof_01")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("MapStart")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_08")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_portal_Slums_TO_School_Int_02")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("infected_knocking_door_01_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("infected_knocking_door_03_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("cin_jadeexplosives_MovieCenter")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("cin_jadeexplosives_01_pos_01")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("cin_jadeexplosives_01_pos_02")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("cin_jadeexplosives_01_pos_03")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("cin_jadeexplosives_01_pos_04")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("infected_knocking_door_02_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_bandit_speakers_dlg_01_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("infected_knocking_door_04_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_03_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_02_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_cin_dood_01_loc_01")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_01_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_02")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("explosives_rais_soldier_enemy_01_firend_loc")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_01")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+SpawnPoint("sp_07")
+{
+    LocationName("slums_int_school")
+    LocationPicture("save_picture_slums_int_school")
+}
+
+MapPortal("portal_School_Int_TO_Slums_03")
+{
+    Position(57.229614, 40.970905, 64.575439)
+    TargetSpawnPoint("sp_portal_School_Int_TO_Slums_03")
+}
+
+MapPortal("portal_School_Int_TO_Slums_02")
+{
+    Position(51.647587, 33.434719, 74.208855)
+    TargetSpawnPoint("sp_portal_School_Int_TO_Slums_02")
+}
+

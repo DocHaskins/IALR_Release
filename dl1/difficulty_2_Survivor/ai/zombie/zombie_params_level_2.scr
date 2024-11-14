@@ -1,0 +1,15 @@
+!include("ai_data.def")
+!include("ai_timing.def")
+!include("zombie_params_common.scr")
+
+// default biter - no params change
+
+ParamFloat("berserker_hit_prob", 100.0)
+ParamBool("berserker_hit_only_if_arm_destroyed", 1)
+
+ParamFloat("health_mul", 2.25)						
+ParamFloat("stamina_to_health_ratio", 0.22)
+ParamFloat("experience_award", 75.0)
+ParamFloat("health_mul_min_to_play_burn_reaction", 0.2)
+ParamFloat("health_mul_max_to_play_burn_reaction", 0.9)
+ParamBool("draw_on_radar_during_day", 0)

@@ -1,0 +1,102 @@
+sub materials()
+{
+	material(0)
+	{
+		enabled(0);
+		clr_tex(0, "horizon_ground_forest_c.dds");
+		nrm_tex(0, "horizon_ground_forest_c_nrm.dds");
+		shn_tex(0, "horizon_ground_forest_c_spc.dds");
+		uv_scale(0, 0.010000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 8);
+		preset(0, 2);
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+	material(1)
+	{
+		enabled(0);
+		clr_tex(0, "ground_rockwall_a.dds");
+		nrm_tex(0, "ground_rockwall_a_nrm.dds");
+		shn_tex(0, "ground_rockwall_a_shn.dds");
+		uv_scale(0, 0.010000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+	material(2)
+	{
+		enabled(0);
+		clr_tex(0, "ground_rockwall_a.dds");
+		nrm_tex(0, "ground_rockwall_a_nrm.dds");
+		shn_tex(0, "ground_rockwall_a_shn.dds");
+		uv_scale(0, 0.014000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 18);
+		preset(0, 2);
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+	material(3)
+	{
+		enabled(0);
+		clr_tex(0, "ground_wasteland_e.dds");
+		nrm_tex(0, "ground_gravel_a_nrm.dds");
+		shn_tex(0, "ground_gravel_a_shn.dds");
+		uv_scale(0, 0.010000);
+		nrm_scale(0, 1.000000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 8);
+		preset(0, 2);
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+}
+sub layers()
+{
+	layer(0)
+	{
+		name("New Layer");
+		mat_top(0);
+		param(0.500000);
+	}
+	layer(1)
+	{
+		name("New Layer");
+		mat_top(1);
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("New Layer");
+		mat_top(2);
+		param(0.500000);
+	}
+	layer(3)
+	{
+		name("New Layer");
+		mat_top(3);
+		param(0.500000);
+	}
+}

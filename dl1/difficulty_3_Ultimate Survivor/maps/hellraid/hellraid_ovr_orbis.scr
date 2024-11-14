@@ -1,0 +1,8 @@
+import "skip_gct_meshes.scr"
+import "hellraid_ovr_sml_orbis.scr"
+
+sub main()
+{
+    use skip_gct_meshes();
+    use skip_mip_levels();
+}

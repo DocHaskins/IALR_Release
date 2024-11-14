@@ -1,0 +1,124 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+MapLayerTransform(0, "758.851501 0.000000 0.000000 558.183533 0.000000 319.718384 0.000000 257.511841 0.000000 0.000000 758.851501 298.133362")
+
+SpawnPoint("MapStart")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("PerfectMurder_SP_Apartment")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("PerfectMurder_Marker_01")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("BringGalib_SP_Nazim")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("portal_slums_to_slums_interior_a_perfectmurder01_sp")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("PerfectMurder_SP_GroundFloor")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("BringGalib_SP_Slums_TO_SlumsInterior")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("BringGalib_SP_Vent_001")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("BringGalib_SP_Supply")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("DeathNote_SP_GroudFloor_01")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("DeathNote_SP_TopFloor_01")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+SpawnPoint("DeathNote_SP_Slums_TO_SlumsInterior_001")
+{
+    LocationName("slums_interior_a")
+    LocationPicture("save_picture_slums_interior_a")
+}
+
+MapPortal("BringGalib_MP_SlumsInterior_TO_Slums_02")
+{
+    Position(396.679138, 284.110809, 208.392303)
+    TargetSpawnPoint("BringGalib_SP_SlumsInterior_TO_Slums_02")
+}
+
+MapPortal("portal_slums_interior_a_to_slums_perfectmurder01")
+{
+    Position(428.422760, 282.132507, 208.445557)
+    TargetSpawnPoint("portal_slums_interior_a_to_slums_perfectmurder01_sp")
+}
+
+MapPortal("BringGalib_MP_SlumsInterior_TO_Slums")
+{
+    Position(386.609619, 284.106628, 214.578979)
+    TargetSpawnPoint("BringGalib_SP_SlumsInterior_TO_Slums")
+}
+
+MapPortal("DeathNote_MP_SlumsInterior_TO_Slums_002")
+{
+    Position(668.784973, 261.011780, 215.684509)
+    TargetSpawnPoint("DeathNote_SP_SlumsInterior_TO_Slums_002")
+}
+
+MapPortal("DeathNote_MP_SlumsInterior_TO_Slums_001")
+{
+    Position(644.891113, 243.506042, 247.659302)
+    TargetSpawnPoint("DeathNote_SP_SlumsInterior_TO_Slums_001")
+}
+

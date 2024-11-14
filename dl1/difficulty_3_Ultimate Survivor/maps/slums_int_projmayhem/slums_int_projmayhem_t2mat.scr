@@ -1,0 +1,126 @@
+sub materials()
+{
+	material(0)
+	{
+		clr_tex("rock_cave_b.dds");
+		nrm_tex("rock_cave_b_nrm.dds");
+		shn_tex("rock_cave_shn.dds");
+		uv_scale(0.200000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(18);
+		preset(2);
+		weight(0.000000);
+	}
+	material(1)
+	{
+		clr_tex("rock_cave_b.dds");
+		nrm_tex("rock_cave_b_nrm.dds");
+		shn_tex("rock_cave_shn.dds");
+		uv_scale(0.100000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(18);
+		preset(3);
+		weight(0.000000);
+	}
+	material(2)
+	{
+		clr_tex("rock_cave_a.dds");
+		nrm_tex("rock_cave_a_nrm.dds");
+		shn_tex("rock_cave_a_shn.dds");
+		uv_scale(0.100000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(18);
+		preset(3);
+		weight(0.000000);
+	}
+	material(4)
+	{
+		clr_tex("ground_rockwall_a.dds");
+		nrm_tex("ground_rockwall_a_nrm.dds");
+		shn_tex("ground_rockwall_a_shn.dds");
+		uv_scale(0.100000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(18);
+		preset(2);
+		weight(0.000000);
+	}
+	material(6)
+	{
+		clr_tex("rock_cave_a.dds");
+		nrm_tex("rock_cave_a_nrm.dds");
+		shn_tex("rock_cave_a_shn.dds");
+		uv_scale(0.200000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(18);
+		preset(3);
+		weight(0.000000);
+	}
+	material(7)
+	{
+		clr_tex("ground_mud_a.dds");
+		nrm_tex("ground_mud_a_nrm.dds");
+		shn_tex("ground_mud_a_shn.dds");
+		uv_scale(0.200000);
+		nrm_scale(1.000000);
+		shn_factor(1.000000);
+		surface_id(9);
+		preset(3);
+		weight(0.000000);
+	}
+}
+sub layers()
+{
+	layer(0)
+	{
+		name("New Layer");
+		mat_top(0);
+		param(0.500000);
+	}
+	layer(1)
+	{
+		name("New Layer");
+		mat_side(1);
+		param(0.500000);
+	}
+	layer(2)
+	{
+		name("New Layer");
+		mat_side(2);
+		param(0.500000);
+	}
+	layer(3)
+	{
+		name("New Layer");
+		mat_side(1);
+		param(0.500000);
+	}
+	layer(4)
+	{
+		name("New Layer");
+		mat_side(4);
+		param(0.500000);
+	}
+	layer(5)
+	{
+		name("New Layer");
+		mat_side(4);
+		param(0.500000);
+	}
+	layer(6)
+	{
+		name("New Layer");
+		mat_top(6);
+		param(0.500000);
+	}
+	layer(7)
+	{
+		name("New Layer");
+		mat_top(7);
+		param(0.500000);
+	}
+}

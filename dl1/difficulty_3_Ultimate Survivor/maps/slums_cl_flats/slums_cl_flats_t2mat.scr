@@ -1,0 +1,30 @@
+sub materials()
+{
+	material(0)
+	{
+		enabled(0);
+		clr_tex(0, "ground_mud_b.dds");
+		nrm_tex(0, "ground_mud_b_nrm.dds");
+		shn_tex(0, "defaulttexture_0");
+		uv_scale(0, 0.500000);
+		nrm_scale(0, 0.500000);
+		shn_factor(0, 1.000000);
+		surface_id(0, 0);
+		preset(0, 0);
+		uv_scale(1, 1.000000);
+		nrm_scale(1, 1.000000);
+		shn_factor(1, 1.000000);
+		surface_id(1, 0);
+		preset(1, 0);
+		weight(0.000000);
+	}
+}
+sub layers()
+{
+	layer(0)
+	{
+		name("New Layer");
+		mat_top(0);
+		param(0.500000);
+	}
+}

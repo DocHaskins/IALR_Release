@@ -1,0 +1,97 @@
+!include("AmbientSounds.def")
+!AmbientVolume(fMasterVolume, fTrack00Volume, fTrack01Volume, fTrack02Volume, fTrack03Volume)
+!AmbientSound(sId, sFileName, nTrack, nPriority, nLoops, fVolume, fFadeIn, fFadeOut) // note - you can use tracks numbers from 0 to 2, as default priority use 100
+!AmbientSoundTeam(sId, sFileName, nTrack, nPriority, nLoops, fVolume, fFadeIn, fFadeOut, sPlayerTeam) // note - you can use tracks numbers from 0 to 2, as default priority use 100
+
+//do not remove lines above
+
+AmbientVolume(1, 1, 1, 1, 1)
+
+// Align      |                                     |                                           |  |     |   |     |   |  |
+
+AmbientSound( "Global",                         	"ambience_wasteland_global",            	0, 0100, -1, 1.0,  03, 05 )
+AmbientSound( "Crickets",                           "ambience_wasteland_cricket",           	0, 0110, -1, 1.0,  05, 05 )
+AmbientSound( "Fields",                       		"ambience_wasteland_fields",     			0, 0140, -1, 0.5,  05, 05 )
+AmbientSound( "Mountains",                      	"ambience_wasteland_mountains",        		0, 0120, -1, 1.0,  05, 05 )
+AmbientSound( "Canyon",                      		"ambience_wasteland_canyon",        		0, 0130, -1, 1.0,  05, 05 )
+AmbientSound( "Coastline",                 			"ambience_wasteland_coastline",       	 	0, 0150, -1, 1.0,  05, 05 )
+AmbientSound( "Farmlands",                       	"ambience_wasteland_farmlands",            	0, 0180, -1, 1.0,  05, 05 )
+AmbientSound( "City",                      			"ambience_wasteland_city",         			0, 0300, -1, 1.0,  03, 05 )
+AmbientSound( "Tunnel",                             "ambience_wasteland_tunnel",           		0, 0400, -1, 1.0,  05, 05 )
+AmbientSound( "Flooded_Tunnel",                     "ambience_wasteland_flooded_tunnel",        0, 0400, -1, 1.0,  05, 05 )
+AmbientSound( "Tunnel_Sidetrack",                   "ambience_wasteland_tunnel_sidetrack",      0, 0400, -1, 1.0,  05, 05 )
+AmbientSound( "Cave",                               "ambience_wasteland_cave",              	0, 0400, -1, 1.0,  05, 05 )
+AmbientSound( "Cave_NoWater",                       "ambience_wasteland_cave_nowater",          0, 0400, -1, 1.0,  05, 05 )
+
+// ----- interiors -----
+
+AmbientSound( "Interior",                      		"ambience_wasteland_house",         		0, 0500, -1, 1.0,  03, 05 )
+AmbientSound( "Barn",                      			"ambience_wasteland_barn",         			0, 0510, -1, 1.0,  03, 05 )
+AmbientSound( "Shack",                      		"ambience_wasteland_shack",         		0, 0510, -1, 1.0,  03, 05 )
+AmbientSound( "Room",                      			"ambience_wasteland_room",        			0, 0510, -1, 1.0,  03, 05 )
+AmbientSound( "Basement",                      		"ambience_wasteland_basement",         		0, 0520, -1, 1.0,  03, 05 )
+AmbientSound( "Hangar",                      		"ambience_hangar_loop",         			0, 0500, -1, 1.0,  03, 05 )
+AmbientSound( "Sewers",                      		"ambience_sewers_global",         			0, 0500, -1, 1.0,  03, 05 ) 
+
+// ----- special -----
+
+AmbientSound( "HillHouse",                      	"ambience_s_dz_flats_room.ogg",         	0, 0500, -1, 0.7,  03, 05 )
+AmbientSound( "Temple",                      		"ambience_wasteland_temple",        		0, 0200, -1, 1.0,  05, 05 )
+AmbientSound( "Lighthouse",                 		"ambience_wasteland_lighthouse",       	 	0, 0200, -1, 1.0,  05, 05 )
+AmbientSound( "Bridge",                      		"ambience_wasteland_brige",         		0, 0200, -1, 1.0,  03, 05 )
+AmbientSound( "WaterLevelRise",                     "WaterLevelRise_00.wav",         			2, 0900, -1, 1.0,  03, 05 )
+
+// ----- enviro -----
+
+AmbientSound( "Birds",                              "ambience_wasteland_birds",           		1, 0110, -1, 0.5,  05, 05 )
+AmbientSound( "Birds_Crickets",                     "ambience_wasteland_birds_and_cricket",     1, 0200, -1, 0.5,  05, 05 )
+AmbientSound( "Cicada",                     		"ambience_wasteland_cicadas",     			1, 0200, -1, 0.5,  05, 05 )
+AmbientSound( "Frogs",                     			"ambience_wasteland_frogs",     			1, 0110, -1, 0.7,  05, 05 )
+AmbientSound( "Industrial",                       	"ambience_wasteland_industrial",     		1, 0500, -1, 1.0,  05, 05 )
+AmbientSound( "PowerStation",                       "ambience_wasteland_powerstation",     		1, 0500, -1, 1.0,  05, 05 )
+AmbientSound( "PowerStation_NoHum",                 "ambience_wasteland_powerstation_no_hum", 	1, 0500, -1, 1.0,  05, 05 )
+
+// ----- water -----
+
+AmbientSound( "Underwater",                         "ambience_slums_underwater_loop.ogg",       0, 9000, -1, 1.0,  01, 03 )
+AmbientSound( "Cave_Underwater",                    "ambience_slums_underwater_loop.ogg",       0, 9001, -1, 1.0,  01, 03 )
+
+AmbientSound( "Waves",                      		"sea_waves_around_player.ogg",     			1, 8000, -1, 0.9,  05, 05 )
+AmbientSound( "Global_Underwater",                  "ambience_slums_underwater_loop.ogg",       1, 9000, -1, 1.0,  01, 03 )
+
+AmbientSound( "Lake_Surface",                       "water_shallow_around_player_loop.ogg",     2, 0400, -1, 0.9,  05, 05 )
+
+// ----- weather -----
+
+AmbientSound( "Wind_Spooky",                       	"ambient_scary_wind_00.wav",     			2, 0300, -1, 1.5,  07, 05 )
+
+AmbientSound( "Wind",                       		"ambience_wind_hights_medium",     			2, 0200, -1, 1.0,  07, 05 )
+AmbientSound( "Wind_High",                       	"ambience_wind_hights_high",     			2, 0300, -1, 1.0,  05, 03 )
+AmbientSound( "Wind_Mountains",                     "ambience_wind_hights_mountains",     		2, 0400, -1, 1.0,  05, 03 )
+
+AmbientSound( "Rain_global",                        "ambience_wasteland_rain",             		3, 0100, -1, 1.0,  02, 02 )
+AmbientSound( "Rain_interior",                      "ambience_wasteland_rain_indoor",           3, 0200, -1, 1.0,  02, 02 )
+
+// ----- sensor -----
+
+AmbientSoundTeam( "Sensor_00",                      "sensor_beep_00.wav",     					4, 1000, -1, 1.0,  00, 00, "Default" )
+AmbientSoundTeam( "Sensor_01",                      "sensor_beep_01.wav",     					4, 0900, -1, 1.0,  00, 00, "Default" )
+AmbientSoundTeam( "Sensor_02",                      "sensor_beep_02.wav",     					4, 0800, -1, 1.0,  00, 00, "Default" )
+AmbientSoundTeam( "Sensor_03",                      "sensor_beep_03.wav",     					4, 0700, -1, 1.0,  00, 00, "Default" )
+AmbientSoundTeam( "Sensor_04",                      "sensor_beep_04.wav",     					4, 0600, -1, 1.0,  00, 00, "Default" )
+AmbientSoundTeam( "Sensor_05",                      "sensor_beep_05.wav",     					4, 0500, -1, 1.0,  00, 00, "Default" )
+
+AmbientSound( "Geiger_Counter_Low",                 "geiger_counter_low_loop.wav",     			4, 0100, -1, 1.0,  00, 00 )
+AmbientSound( "Geiger_Counter_Med",                 "geiger_counter_medium_loop.wav",     		4, 0200, -1, 1.0,  00, 00 )
+AmbientSound( "Geiger_Counter_High",                "geiger_counter_high_loop.wav",     		4, 0300, -1, 1.0,  00, 00 )
+
+
+
+
+AmbientSound( "T0_Excluder",                        "",                                         0, 9999, -1, 0.0,  03, 05 )
+AmbientSound( "T1_Excluder",                        "",                                         1, 9999, -1, 0.0,  03, 05 )
+AmbientSound( "T2_Excluder",                        "",                                         2, 9999, -1, 0.0,  03, 05 )
+AmbientSound( "T3_Excluder",                        "",                                         3, 9999, -1, 0.0,  03, 05 )
+
+
+AmbientSound( "ufo",                         	"ufo_ambience_noise_loop.wav",            		0, 9999, -1, 1.0,  03, 05 )

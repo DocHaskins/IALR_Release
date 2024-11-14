@@ -1,0 +1,27 @@
+!include("ai_data.def")
+!include("ai_timing.def")
+!include("zombie_params_common.scr")
+
+// biter with logical armor
+
+ParamFloat("berserker_hit_prob", 10.0)
+ParamBool("berserker_hit_only_if_arm_destroyed", 0)
+
+//HEALTH AND DAMAGE
+ParamFloat("health_mul", 22.0)						//Base health from curve 'zombie_health' is multiplied by this value.
+
+ParamFloat("stamina_to_health_ratio", 0.1)
+
+ParamFloat("experience_award", 300.0)
+
+ParamFloat("health_mul_min_to_play_burn_reaction", 0.2)
+ParamFloat("health_mul_max_to_play_burn_reaction", 0.9)
+
+//Increased head damage for compensation
+
+ParamFloat("head_damage_factor", 1.5)
+ParamFloat("head_health_influence", 1.5)  
+
+// a lot worse hearing
+ParamFloat("hearing_sensitivity_calm", 0.2)
+ParamFloat("hearing_sensitivity", 0.6)

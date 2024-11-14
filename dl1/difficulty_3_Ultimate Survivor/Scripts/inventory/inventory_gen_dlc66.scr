@@ -1,0 +1,332 @@
+//DIESELPUNK BUNDLE
+
+import "inventorystuff.scr" 
+import "ial_settings.mth"
+
+sub main() 
+{		
+    //////////////////////////CHAINSAW//////////////////////////
+	Item("Chainsaw", CategoryType_Firearm)
+    {
+        Name("&Chainsaw_N&");
+        GameVersion(49); 
+        CategoryType(CategoryType_Firearm);
+        Visibility(true);
+        ItemType(ItemType_Rifle);
+		IsChainsaw(true);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1);
+        DamageRangeMelee(100.0 *0.01);
+        HeadSmashProb(1.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        Mesh("wn_chainsaw_a.msh");
+        CutTypesGroup(CutTypesGroup_SharpBodyCutsOnCharge);
+        DamageType(DamageType_Cut);
+        Skin("Default");
+        AnimPrefix("Chainsaw"); 
+        HudIcon("weapon_chainsaw_a");
+        ShotTime(0.18);
+        ShotSound("Chainsaw_shot_XX.wav");
+		BaseSoundPrefix("");
+        DefaultBulletId("Chainsaw_Ammo");		
+        AmmoCount(100);
+		NotInheritBaseAmmoCount();
+        ReloadTime(1.0);
+        EmptySound("Chainsaw_empty_XX.wav");
+        TwoHanded(true);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,0.0,0.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,90.0,-90.0]);
+        HandOffsetSprint([0.0,-0.005,0.0]);
+        HandOffset(HandModification_Normal, [0.0,0.0,0.0]);
+        HandRot(HandModification_Normal, [0.0,0.0,0.0]);
+        HandOffset(HandModification_Custom, [0.0,0.0,0.0]);
+        use HitEffects_Sharp_Heavy();
+		use PickupSounds_Default();
+        ClipReload(true);
+        AimBlurStart(25.0);
+        AimBlurEnd(500.0);
+        ShootStatAccuracy(100.0);
+        MoveAcurancyLoseFactor(0.01);
+        JumpInertiaFactor(0.2);
+        DuckInertiaFactor(0.3);
+        ShootMinAngle(0.1);
+        ShootMaxAngle(0.5);
+        ShootAngleVel(0.145);
+        ShootAngleCooldown(0.328);
+        ShootVertRecoil(0.0);
+        ShootVertRecoilSpread(0.0);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.15);
+        ShootMode(ShotMode_Automatic);
+        BulletsPerShot(5);
+        AimFov(1.8);
+        MaxReboundCount(0);
+        DamageSize(150.0);
+        StatsType(StatsType_Pistol);
+        Price(15526);
+        FF_EffectName("Shot_QuickRiffle");
+        FF_Left(0.3);
+        FF_Right(0.4);
+        FF_Duration(0.1);
+        FF_FadeOut(0.0);
+        CriticalProb(0.9); 
+        CriticalDamage(5.0);
+        DamageHeadMult(8.0);
+        DamageToPhysicsObjects(17.5);
+		FirePointRange(0,1.75);
+        FirePointDamage(0,300.0 * IAL_Weapon_Cut_Damage_Mul); 
+        FirePointForce(0,250.0); 
+        Color(Color_Blue);
+        GenType(GenType_Firearm);
+        ShotTailDelay(0.0);
+        AchType(AchType_Pistol);
+        NameGender(0);
+        PriceMult(1.1);
+        ShootAnimFactor(0.5); 
+        HandInertiaFactor(0.0);
+        HandInertiaRotFactor([0.0,0.0,0.0]);
+        BulletSpeed(60.0); 
+		NoiseType("LIGHT_SHOT");
+		IsGunShellSoundDisabled(true);
+		AimingDisabled();
+		BulletTrailMesh("bullet_invisible.msh");
+		BulletTrailSkin("Default");
+    }
+	
+	 //////////////////////////SAW BLADE//////////////////////////
+	Item("Melee_Saw_Blade", CategoryType_Melee)
+    {
+        Name("&Melee_Saw_Blade_N&");
+        GameVersion(49);
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(70);
+        CriticalCondition(20);
+        Damage(230.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(50.0);
+        CriticalProb(0.2);
+        CriticalDamage(4.0);
+        DamageRange(200.0 *0.01); 
+        DamageToPhysicsObjects(50.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.19);
+		ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Metal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpBodyCutsOnCharge);
+        Flags(1);
+        InventoryMeshHq("wn_short_sword_d.msh");
+        InventoryMesh("wn_short_sword_d.msh");
+        Mesh("wn_short_sword_d.msh");
+        Skin("Default");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick");
+        HudIcon("weapon_short_sword_d");
+        MinHitSeverity(HitSeverity_Light);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,10.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,0.0,-90.0]);
+        DestroySound("damaged_sharp_weapon_XX.wav");
+        AiHitSound("swordheavy");
+        use HitEffects_Sharp();
+        use PickupSounds_Default();
+        DamageSize(4.0);
+        StatsType(StatsType_Cut);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true); 
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("machete_throw.wav");
+		Color(Color_Blue);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_Machete);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(1);
+        CraftingSlots(3,0);
+        UniqueFxNameBase("short_sword_d");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("StickSharp");
+        HandInertiaFactor(1.8);
+        Price(9666);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Melee_Saw_Blade", CategoryType_Melee)
+    {
+        GameVersion(49);
+        UpgradeLevel(0);
+        Condition(20);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_d_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Melee_Saw_Blade", CategoryType_Melee)
+    {
+        GameVersion(49);
+        UpgradeLevel(0);
+        Condition(10);
+        CriticalProb(1.0);
+		HeadSmashProb(1.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_d_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+	 //////////////////////////SMG//////////////////////////
+	Item("Dieselpunk_Submachine", CategoryType_Firearm)
+    {
+        Name("&Dieselpunk_Submachine_N&");
+        GameVersion(49);
+        CategoryType(CategoryType_Firearm);
+        Visibility(true);
+        ItemType(ItemType_Pistol);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1);
+        DamageRangeMelee(110.0 *0.01);
+        HeadSmashProb(0.5);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        CutTypesGroup(CutTypesGroup_Holes);
+        DamageType(DamageType_Bullet);
+        Mesh("wn_submachine_d.msh");
+        SkinTag("weapon_standard1");
+        AnimPrefix("Submachinegun_Alt");
+        HudIcon("weapon_submachine_d");
+        ShotTime(0.1);
+        ShotSound("Dieselpunk_smg_shot_XX.wav");
+        DefaultBulletId("Dieselpunk_Submachine_Ammo");
+        AmmoCount(30);
+        NotInheritBaseAmmoCount();
+		ReloadTime(1.5);
+        EmptySound("SubMachineA_empty.wav");
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderAngle([0.0,90.0,-90.0]);
+        HandOffset(HandModification_Normal, [-0.05,-0.05,0.06]);
+        HandOffset(HandModification_Custom, [-0.03,-0.03,0.0]);
+        use HitEffects_Firearm();
+        use PickupSounds_Default();
+        ClipReload(true);
+        FxNameShell("BerettaGunfireShell");
+        ShootFx("PistolGunfireSingle_sequence.fx");
+        AimBlurStart(0.05);
+        AimBlurEnd(0.08);
+        ShootStatAccuracy(70.0);
+        MoveAcurancyLoseFactor(0.15);
+        JumpInertiaFactor(0.2);
+        DuckInertiaFactor(0.3);
+        ShootMinAngle(0.047);
+        ShootMaxAngle(0.095);
+        ShootAngleVel(0.106);
+        ShootAngleCooldown(0.174);
+        ShootVertRecoil(0.0);
+        ShootVertRecoilSpread(0.0);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.15);
+        ShootMode(ShotMode_Automatic);
+        BulletsPerShot(1);
+        MaxReboundCount(3);
+        DamageSize(5.0);
+        AiHitSound("bullet");
+        StatsType(StatsType_Pistol);
+        Price(7553);
+        FF_EffectName("Shot_SMG");
+        CriticalProb(0.05);
+        CriticalDamage(2.0);
+        DamageHeadMult(2.0);
+        DamageToPhysicsObjects(30.0);
+        FirePointRange(0,1000.0 *0.01);
+        FirePointDamage(0,110.0 * IAL_Weapon_Firearm_Damage_Mul);
+        FirePointForce(0,100.0);
+        FirePointPhysicsDamage(0,1.0);
+        FirePointRange(1,6000.0 *0.01);
+        FirePointDamage(1,25.0 * IAL_Weapon_Firearm_Damage_Mul);
+        FirePointForce(1,20.0);
+        FirePointPhysicsDamage(1,0.5);
+        Color(Color_Blue);
+        GenType(GenType_Firearm);
+        ShotTailDelay(0.1);
+        AchType(AchType_Pistol);
+        NameGender(0);
+        PriceMult(1.1);
+        ShootAnimFactor(0.6);
+        BulletSpeed(350.0);
+        LootType(LootType_Firearm_Short);
+        RagdollBehavior(RagdollBehavior_None);
+    }
+
+    Item("Dieselpunk_Submachine", CategoryType_Firearm)
+    {
+        GameVersion(49);
+        CategoryType(CategoryType_Firearm);
+        UsageType(UsageType_Aim);
+        UpgradeLevel(0);
+		HandOffset(HandModification_Normal, [-0.0009,-0.045,0.07]);
+        HandRot(HandModification_Normal, [0.14,-0.16,0.0]);
+        SwayMaxAngle(0.0);
+        ShootMinAngle(0.0);
+        ShootMaxAngle(0.02);
+        ShootAngleVel(0.004);
+        ShootAngleCooldown(0.1);
+        ShootVertRecoil(0.0);
+        ShootVertRecoilSpread(0.0);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        HandInertiaFactor(0.5);
+    }
+
+    ////////////////////////AMMO/////////////////////////
+	Item("Chainsaw_Ammo", CategoryType_Ammo)
+    {
+        Mesh("loot_chainsaw_fuel.msh");
+        HudIcon("ammo_fuel_canister");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_Rifle);
+        MaxAmmoCount(300);
+		GameVersion(49);
+    }
+	
+	Item("Dieselpunk_Submachine_Ammo", CategoryType_Ammo)
+    {
+        GameVersion(49);
+        Name("&Dieselpunk_Submachine_Ammo_N&");
+        Description("&Dieselpunk_Submachine_Ammo_D&");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_SubMachine);
+        
+        MaxAmmoCount(270);
+        
+        Mesh("loot_ok_ammo_short.msh");
+        HudIcon("ammo_pistol");
+        Skin("Default");
+        PhysicsScript("single_dropped_inventory.phx");
+        Color(Color_White);
+    }
+}

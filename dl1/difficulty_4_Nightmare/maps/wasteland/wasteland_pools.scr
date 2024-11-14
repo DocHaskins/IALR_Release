@@ -1,0 +1,158 @@
+!include("map_spawn.def")
+!include("wasteland_presets.scr")
+
+
+///////////////////////////////////////////////////////////////////
+//POOLS
+///////////////////////////////////////////////////////////////////
+
+	Pool("bombers")
+	{
+		UseCondition("Day")
+		Type("bombers")
+		Preset("Bomber_Wasteland_Attack, 40;Bomber_Wasteland_Nav, 60;Viral_Wasteland, 10;Vessel_GasTank_Late, 20;")
+		
+	}
+
+	Pool("day_into_car")
+	{
+		UseCondition("Day")
+		Type("day_into_car")
+		Preset("Demolisher_Wasteland_Dynamic, 20;Goon_Wasteland_Dynamic, 25;Bomber_Wasteland, 10;Toad_Wasteland, 20;Vessel_Eating_Corpse, 30;Vessel_WithAToy, 30;Vessel_GasTank, 30;Bomber_Wasteland_Late, 10;Vessel_GasTank_Late, 30;")
+		
+	}
+
+	Pool("day_into_car_peak")
+	{
+		UseCondition("Day")
+		Type("day_into_car_peak")
+		Preset("Demolisher_Wasteland_Dynamic, 20;Goon_Wasteland_Dynamic, 25;Bomber_Wasteland, 40;Toad_Wasteland, 20;Vessel_Eating_Corpse, 30;Vessel_WithAToy, 30;Vessel_GasTank, 30;Bomber_Wasteland_Late, 40;Vessel_GasTank_Late, 40;")
+		
+	}
+
+	Pool("day_outside_car")
+	{
+		UseCondition("Day")
+		Type("day_outside_car")
+		Preset("Demolisher_Wasteland_Dynamic, 10;Goon_Wasteland_Dynamic, 20;Vessel_Eating_Corpse, 20;Toad_Wasteland, 20;Vessel_WithAToy, 20;Vessel_GasTank, 5;")
+	}
+
+	Pool("day_outside_car_peak")
+	{
+		UseCondition("Day")
+		Type("day_outside_car_peak")
+		Preset("Demolisher_Wasteland_Dynamic, 20;Goon_Wasteland_Dynamic, 20;Bitter_Agressive, 100;Toad_Wasteland, 30;")
+	}
+
+	Pool("day_pursuit")
+	{
+		UseCondition("Day")
+		Type("day_pursuit")
+		Preset("Bitter_Agressive_Pursuit, 100;")
+	}
+
+	Pool("day_virals_patrol")
+	{
+		UseCondition("Day")
+		Type("virals_patrol")
+		Preset("Viral_Patrol, 100;")
+	}
+
+	Pool("day_after_pursuit")
+    {
+        BalancedNumberOfZombies(1)
+        Type("day_after_pursuit")
+		NoZombiesByPresets("Bitter_Agressive_Pursuit, 100;", 0, 0)
+		MaxNoZombiesInPursuit(2)
+    }
+
+	Pool("noise_target")
+	{
+		UseCondition("Day;PlayerIsOutsideVehicle")
+		Type("noise_target")
+		Preset("Viral_Wasteland_Nav_Target, 30;Viral_Wasteland_Target, 70;Viral_Without_Grab, 10;")
+		
+	}
+
+	Pool("noise")
+	{
+		UseCondition("Day;PlayerIsOutsideVehicle")
+		Type("noise")
+		Preset("Viral_Wasteland_Nav, 30;Viral_Wasteland, 70;Viral_Without_Grab, 10;")
+		
+	}
+
+
+	Pool("noise_car")
+	{
+		UseCondition("Day;PlayerIsIntoVehicle")
+		Type("noise_target")
+		Preset("Viral_Wasteland_Nav_Target, 80;Viral_Wasteland_Target, 20;Viral_Without_Grab, 10;")
+		
+	}
+	        
+
+    Pool("night_aggresion_level_0")
+    {
+        UseCondition("Night;")
+        Type("night")
+		
+        Preset("Volatile_Wast_Patrol, 75;Volatile_Wast_Patrol_HiIntense, 25;")
+    }
+
+
+    Pool("night_aggresion_level_1")
+    {
+        UseCondition("Night;")
+        Type("night_chase")
+
+		Preset("Volatile_Wast_Pursuit, 50;Volatile_Wast_Pursuit_Hard, 50;")
+    }
+
+
+
+///////////////////////////////////////////////////////////////////
+//AREA POOLS
+///////////////////////////////////////////////////////////////////
+
+    AreaPool("RayOfHope_01")
+    {
+            Preset("Infected_Init_Wasteland, 6;SuiciderBomber_Init_Wasteland, 1")
+    }
+
+    AreaPool("RayOfHope_02")
+    {
+            Preset("Infected_Init_Wasteland, 6;SuiciderBomber_Init_Wasteland, 6")
+    }
+
+    AreaPool("RayOfHope_03")
+    {
+            Preset("Infected_Init_Wasteland, 2;SuiciderBomber_Init_Wasteland, 1")
+    }
+	
+	AreaPool("Challenge_Kill")
+    {
+            Preset("Vessel_In_Attractor, 1;Infected_Human, 3")
+    }
+
+
+	AreaPool("Oasis_01")
+    {
+            Preset("Infected_Init_Wasteland_Oasis, 1;Night_Walker_Init_Oasis, 1")
+    }
+
+	AreaPool("Car_Challange_Slammer")
+    {
+            Preset("Viral_Wasteland, 3;Viral_Wasteland_Nav, 1;Bomber_Wasteland, 2;Bomber_Wasteland_Nav, 1")
+    }	
+	
+	AreaPool("Vessel")
+    {
+            Preset("Vessel_WithAToy, 15;Vessel_GasTank, 10")
+    }
+
+
+    AreaPool("WeakInfectedsStorm")
+    {
+		Preset("Weak_Infected_HumanScream, 6")
+    }

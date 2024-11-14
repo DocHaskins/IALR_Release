@@ -1,0 +1,8 @@
+import "skip_gct_meshes.scr"
+import "wasteland_ovr_sml_pc10.scr"
+
+sub main()
+{
+    use skip_gct_meshes();
+    use skip_mip_levels();
+}

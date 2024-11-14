@@ -1,0 +1,62 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("MapStart")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+SpawnPoint("lockpick_test_invoke")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+SpawnPoint("spawnpoint_shake_first")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+SpawnPoint("sp_DZ_Hotel_blocade")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+SpawnPoint("sp_old_town_interior_cleansing_17")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+SpawnPoint("spawnpoint_shake")
+{
+    LocationName("ot_cl_hotel")
+    LocationPicture("save_picture_ot_cl_hotel")
+}
+
+MapPortal("Hotel_mapportal")
+{
+    Position(667.661072, 1.915595, 508.753265)
+    TargetSpawnPoint("sp_old_town_cleansing_Hotel")
+}
+

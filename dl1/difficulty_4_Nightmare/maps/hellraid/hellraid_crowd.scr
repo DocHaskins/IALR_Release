@@ -1,0 +1,23 @@
+CrowdPresetDef(0)
+{
+    AIPreset("HR_Slave_Crowd")
+	DiffLevelTab("Hellraid_Zombie_Crowd")
+	Meshes("zombie_man_a.msh", "zombie_man_a.msh", "zombie_man_a.msh")
+    Sounds("zombie_walker_00_walk_04.wav")
+    AttachedItem("Zombie_Blister")
+}
+
+CrowdPresetDef(1)
+{
+    AIPreset("HR_Slave_Crowd")
+	DiffLevelTab("Hellraid_Guard_Crowd")
+	Meshes("zombie_man_a.msh", "zombie_man_a.msh", "zombie_man_a.msh")
+    Sounds("zombie_walker_00_walk_04.wav")
+    AttachedItem("Zombie_Blister")
+}
+
+CrowdDynamicPatternLength(30.)
+CrowdDynamicPatternFill(10)
+CrowdDynamicPatternPeriod(500.)
+
+

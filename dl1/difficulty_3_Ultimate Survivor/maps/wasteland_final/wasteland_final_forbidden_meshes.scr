@@ -1,0 +1,9 @@
+sub main()
+{
+    mesh("zombie_a.msh");
+    mesh("zombie_man_a.msh");
+    mesh("zombie_woman.msh");
+    mesh("survivor_a.msh");
+    mesh("survivor_woman_a.msh");
+    mesh("survivor_kids.msh");
+}

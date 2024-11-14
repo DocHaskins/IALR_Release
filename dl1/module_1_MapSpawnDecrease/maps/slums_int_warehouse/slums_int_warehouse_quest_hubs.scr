@@ -1,0 +1,158 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("warehouse_karim_room_sp")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("courier_rais_end_loc")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("sp_portal_Slums_TO_Slums_Int_Warehouse")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("sp_portal_Slums_TO_Slums_Int_Warehouse_Neutral")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("MapStart")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("rais_soldiers_talk_01")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_first_floor_sp")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("sp_portal_Slums_TO_Slums_Int_Warehouse_B")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_spawn_point_first_floor")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_02_sp")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_first_floor_sp_C")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_parking_01_loc")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_parking_00_loc")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_01_pos02")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_01_pos03")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_01_pos01")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_01_pos04")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_parking_05_marker_optional_room")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_MovieCenter")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("warehouse_parking_04_marker")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("Info dla level art")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+SpawnPoint("cin_ambush_01_SP")
+{
+    LocationName("slums_int_warehouse")
+    LocationPicture("save_picture_slums_int_warehouse")
+}
+
+MapPortal("portal_Slums_Int_Warehouse_TO_Slums")
+{
+    Position(42.152863, 47.448200, 41.911587)
+    TargetSpawnPoint("sp_portal_Slums_Int_Warehouse_TO_Slums")
+}
+

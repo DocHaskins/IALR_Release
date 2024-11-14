@@ -1,0 +1,468 @@
+sub main()
+{
+	// DLC(steam_product_id, ps4_entitlement_label, xbo_product_id, epic_product_id, product_type, sales_type, is_featured)
+	//   steam_product_id		- integer
+	//   ps4_entitlement_label	- string, 16 characters
+	//   xbo_product_id			- guid string, format "00000000-0000-0000-0000-000000000000"
+    //   epic_product_id	    - string, 16 characters
+	//   product_type           - "Preorder", "Bundle", "Expansion"    
+	//	 sales_type             - "Preorder", "Paid", "OnSale", "Free"
+	//   is_featured            - bool
+
+	// Platforms(true, true, true, true, true); - (isOnSteam, isOnXone, isOnPs4, isOnGog, isOnEpic)
+
+	// SteamUrl("https://store.steampowered.com/app/239140/Dying_Light/");                                   - address of website on Steam if we want to open a browser, not shop
+	// XoneUrl("https://www.microsoft.com/pl-pl/p/dying-light/bxn9lb6r3zpg?activetab=pivot:overviewtab");    - address of website on Microsoft Store if we want to open a browser, not shop
+	// Ps4Url("https://store.playstation.com/pl-pl/product/EP1018-CUSA02010_00-DYINGLIGHTGAME00");           - address of website on PlayStatiion Store if we want to open a browser, not shop
+	// GogUrl("https://www.gog.com/game/dying_light_the_following_enhanced_edition");                        - address of website on GoG if we want to open a browser, not shop
+    // EpicUrl("https://www.epicgames.com/store/p/dying-light/");                                                    - address of website on Epic Games Store if we want to open a browser, not shop
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	// PREORDERS
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// DL2 ultimate
+	DLC(534380, "empty", "30355039-4233-3037-c054-39514e35fb00", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_DL2_ultimate");
+		Platforms(true, true, true, true, true);
+		Ps4Url("https://store.playstation.com/concept/232374");    
+        EpicUrl("https://www.epicgames.com/store/p/dying-light-2-stay-human");
+    }
+	
+	// DL2 delux
+	DLC(534380, "empty", "32355039-4b44-3046-c058-563236431e00", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_DL2_deluxe");
+		Platforms(true, true, true, true, true);
+		Ps4Url("https://store.playstation.com/concept/232374");     
+        EpicUrl("https://www.epicgames.com/store/p/dying-light-2-stay-human");
+    }
+
+	// DL2 standard
+	DLC(534380, "empty", "5a514e39-514b-3036-c035-423842332800", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_DL2_standard");
+		Platforms(true, true, true, true, true);
+		Ps4Url("https://store.playstation.com/concept/232374");   
+        EpicUrl("https://www.epicgames.com/store/p/dying-light-2-stay-human");
+    }
+	
+	// DL1 - DL2 Bundle
+	DLC(534380, "empty", "empty", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_bundle_dl1_dl2"); //Patch 1.49.6 PC only
+		//Platforms(true, false, false, false, true);
+        EpicUrl("https://store.epicgames.com/p/dying-light--dying-light-2-rais-brecken-bundle");
+		SteamUrl("https://store.steampowered.com/bundle/30624");
+    }	
+	
+	// DL1 - DL2 Bundle
+	DLC(534380, "empty", "empty", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_bundle_dl1_dl2_deluxe"); //Patch 1.49.6 PC only
+		//Platforms(true, false, false, false, true);
+        EpicUrl("https://store.epicgames.com/p/dying-light--dying-light-2-rais-brecken-bundle");
+		SteamUrl("https://store.steampowered.com/bundle/30624");
+    }	
+	
+	// DL1 - DL2 Bundle
+	DLC(534380, "empty", "empty", "empty", "Preorder", "Paid", false)
+    {
+        Image("dlc_new_section_bundle_dl1_dl2_ultimate"); //Patch 1.49.6 PC only
+		//Platforms(true, false, false, false, true);
+        EpicUrl("https://store.epicgames.com/p/dying-light--dying-light-2-rais-brecken-bundle");
+		SteamUrl("https://store.steampowered.com/bundle/30624");
+    }
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	// GATHER
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	DLC(0, "", "", "", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_lowgrav");
+
+    }
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	// FEATURED
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	//Dieselpunk
+	DLC(1935540, "DISELPUNK0000000", "37384e39-344b-3034-c042-355a424e0a00", "c5db31b8fab84e21b8a2062d987e8322", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_dieselpunk");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	//Snow Ops Bundle
+	DLC(1822810, "WINTERPACK000000", "54304e39-3054-3036-c058-533237310a00", "011b93254f494eabbec65bffbd49bb72", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_snow_ops");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//Van Crane
+	DLC(1762700, "VANCRANE00000000", "335a4d39-4a51-3048-c056-5252314b6c00", "948214825ae247dfaa2c9d7ddd494dce", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_van_crane");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//Astronaut
+	DLC(1702060, "ASTRONAUT0000000", "43335039-4d50-3054-c038-33354e4d2b00", "faa5143c9c6c4173b2228f91c0c3b13d", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_astronaut");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Savvy
+	DLC(1647900, "SAVVYGAMER000000", "474d4e39-5048-3033-c044-503434523400", "22708bd52e8c4faf8cc92c386086f1fd", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_savvy");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Ox
+	DLC(1524890, "OXWARRIORBUNDLE0", "464b4e39-4737-3048-c035-31334b531500", "be56d6617b0a43f4a9dd84fd7d47c5ce", "Bundle", "Free", true)
+    {
+        Image("dlc_new_section_ox");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	// Viking
+	DLC(1498210, "VIKING0000000000", "34574e39-4251-304d-c048-473552474f00", "1d4561fd4aa64846bdce4111232a69e2", "Bundle", "Paid", true)
+    {
+        Image("dlc_new_section_viking");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//5th anniversary
+    DLC(1241570, "ANNIVERSARY5TH00", "34445039-5143-3036-c04e-575448566200", "0cc60eaa48974f3585479f9f1e348b1c", "Bundle", "Paid", true)
+    {
+        Title("&dlc_5th_anniversary_name&");
+        Image("dlc_new_section_5th_anniversary_skin");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	// Hellraid
+	DLC(1300710, "HELLRAID00000000", "44374e39-3852-3051-c034-514b46574a00", "2d8caa6142174cccb0f1e628a20b2f2d", "Expansion", "Paid", true)
+	{
+		Title("&dlccontent_hellraid_h_1&");
+		Image("dlc_new_section_hellraid");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Shu Warrior
+    DLC(1184350, "SHUWARRIOR000000", "56394e39-5439-3042-c056-343053524400", "58608efff2a840c9917f88eb034c9339", "Bundle", "Paid", true)
+    {
+        Title("&dlc_Shu_Warrior_skin_name&");
+        Image("dlc_new_section_Shu_Warrior_skin");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	// EXPANSIONS
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// I Am Legion - Survivor
+	DLC(1, "IAMLEGION", "", "", "Expansion", "Paid", true)
+	{
+		Title("I Am Legion - Survivor");
+		Image("dlc_new_section_ultimate_survivor_bundle");
+		Platforms(true, true, true, true, true);
+		GogUrl("https://www.nexusmods.com/dyinglight/mods/128");      
+	}
+
+	// The Following
+	DLC(325724, "THEFOLLOWING0000", "6d72e244-4e22-44af-bc7b-35d15c698f9b", "00b11bc2a89544e4808291f30b767759", "Expansion", "Paid", false)
+	{
+		Title("&DLC17_DlcContent_Name&");
+		Image("dlc_new_section_the_following");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Hellraid
+	DLC(1300710, "HELLRAID00000000", "44374e39-3852-3051-c034-514b46574a00", "2d8caa6142174cccb0f1e628a20b2f2d", "Expansion", "Paid", false)
+	{
+		Title("&dlccontent_hellraid_h_1&");
+		Image("dlc_new_section_hellraid");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// The Bozak Horde
+	DLC(325723, "THEZOMBIEGAMES00", "3b3d70db-822d-4fab-9623-b74d044f1296", "40fd08e96c2b4fcc94de6bc6410a5e9c", "Expansion", "Paid", false)
+	{
+		Title("&DLC16_DlcContent_Name&");
+		Image("dlc_new_section_bozak_horde");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Cuisine & Cargo 
+	DLC(302101, "CUISINEANDCARGO0", "ddf0f478-8bc4-4f4c-9208-3d4a189c3ea3", "6f075724ee154c8f9038b9f35914e44d", "Expansion", "Free", false)
+    {
+        Title("&DLC_SeasonPass_Desc_Header_5&");
+        Image("dlc_new_section_cuisine_cargo");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+	// BUNDLE
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	//Dieselpunk
+	DLC(1935540, "DISELPUNK0000000", "37384e39-344b-3034-c042-355a424e0a00", "c5db31b8fab84e21b8a2062d987e8322", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_dieselpunk");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//Snow Ops Bundle
+	DLC(1822810, "WINTERPACK000000", "54304e39-3054-3036-c058-533237310a00", "011b93254f494eabbec65bffbd49bb72", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_snow_ops");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	//Van Crane
+	DLC(1762700, "VANCRANE00000000", "335a4d39-4a51-3048-c056-5252314b6c00", "948214825ae247dfaa2c9d7ddd494dce", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_van_crane");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	//Astronaut
+	DLC(1702060, "ASTRONAUT0000000", "43335039-4d50-3054-c038-33354e4d2b00", "faa5143c9c6c4173b2228f91c0c3b13d", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_astronaut");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Savvy
+	DLC(1647900, "SAVVYGAMER000000", "474d4e39-5048-3033-c044-503434523400", "22708bd52e8c4faf8cc92c386086f1fd", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_savvy");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Rust
+	DLC(1599030, "RUSTCROSS0000000", "48504e39-5a48-3042-c056-363042343500", "8044af23f1cb4550944090fb48473b66", "Bundle", "Free", false)
+    {
+        Image("dlc_new_section_rust");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Harran Tactical
+	DLC(1543420, "HARRANTACTICAL00", "5a474e39-3046-3036-c037-48344d431700", "7ce0f090816c405eacac5c58e0d0a238", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_tactical_unit");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Ox
+	DLC(1524890, "OXWARRIORBUNDLE0", "464b4e39-4737-3048-c035-31334b531500", "be56d6617b0a43f4a9dd84fd7d47c5ce", "Bundle", "Free", false)
+    {
+        Image("dlc_new_section_ox");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	// Viking
+	DLC(1498210, "VIKING0000000000", "34574e39-4251-304d-c048-473552474f00", "1d4561fd4aa64846bdce4111232a69e2", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_viking");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Special agent
+	DLC(1468290, "SPECIALAGENT2020", "44505039-5434-3054-c039-515436475400", "7f5cb91cb2ec4210b269a6207d1536d6", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_special_agent");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// L4D2
+	DLC(1454750, "L4DCROSS20000000", "52574e39-5350-3030-c047-57484b477b00", "562eec422ea04230a529bdc0f646fc23", "Bundle", "Free", false)
+    {
+        Image("dlc_new_section_left_4_dead_2");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Volkan
+	DLC(1354960, "COMMANDO00000000", "56395039-3233-3033-c035-424758470d00", "7b5c1a55dc7040b6999294bd2eff6d6f", "Bundle", "Paid", false)
+    {
+        Image("dlc_new_section_Volkan");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Left 4 Dead 2 Weapon Pack
+	DLC(1174581, "L4DCROSS00000000", "65e034bf-93b2-4444-8b15-f0da690e2c76", "2da26c664de342ae9abd725218969425", "Bundle", "Free", false)
+    {
+        Title("&&");
+        Image("dlc_new_section_left_4_dead");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	//5th anniversary
+    DLC(1241570, "ANNIVERSARY5TH00", "34445039-5143-3036-c04e-575448566200", "0cc60eaa48974f3585479f9f1e348b1c", "Bundle", "Paid", false)
+    {
+        Title("&dlc_5th_anniversary_name&");
+        Image("dlc_new_section_5th_anniversary_skin");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Shu Warrior
+    DLC(1184350, "SHUWARRIOR000000", "56394e39-5439-3042-c056-343053524400", "58608efff2a840c9917f88eb034c9339", "Bundle", "Paid", false)
+    {
+        Title("&dlc_Shu_Warrior_skin_name&");
+        Image("dlc_new_section_Shu_Warrior_skin");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// RETROWAVE SKIN PACK
+    DLC(1177880, "RETROWAVE0000000", "38534e39-5a53-304d-c04d-515143448200", "48b907006adb4758a503f2384c589c3c", "Bundle", "Paid", false)
+    {
+        Title("&dlc_retrowave_skin_name&");
+        Image("dlc_new_section_retrowave_skin");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+	
+	// Rise Elite pack
+    DLC(1112520, "RAISELITE0000000", "86e07434-17be-453f-934e-d9aa59d01951", "b8263fd9c74e4c11bf0f9c7d5a261c76", "Bundle", "Paid", false)
+    {
+        Title("&dlc_rais_elite_Name&");
+        Image("dlc_new_section_rais_elite");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// GodFather DLC PACK
+    DLC(1112521, "GODFATHER0000000", "a093671c-a252-4c61-829d-fe2404487474", "f38a585869f14e76a9995278d34d3aff", "Bundle", "Paid", false)
+    {
+        Title("&dlc_godfather_Name&");
+        Image("dlc_new_section_godfather");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Unturned 
+	DLC(1272090, "UNTURNEDCROSS000", "4d504e39-484e-3054-c043-4d4e42578500", "c64f5415d90a435a82eaf182b1f10d1c", "Bundle", "Free", false)
+    {
+        Title("&&");
+        Image("dlc_new_section_unturned");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// HARRAN INMATE PACK
+    DLC(1174580, "HARRANINMATE0000", "34564d39-4235-3056-c039-543831471a00", "198e2b7b3b3144028998ecc98e3aa899", "Bundle", "Paid", false)
+    {
+        Title("&dlc_harran_inmate_name&");
+        Image("dlc_new_section_harran_inmate");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// Harran Ranger Bundle
+	DLC(436080, "OUTFITANDLIVERY3", "0e5cfccd-6484-47b1-8e37-d09336cb6e05", "afcbbf5e8904439e9675079238c6c6f2", "Bundle", "Paid", false)
+	{
+		Title("&DLC30_DlcContent_Name&");
+		Image("dlc_new_section_harran_ranger_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Volatile Hunter Bundle
+	DLC(436082, "OUTFITANDLIVERY5", "c040958b-070f-49ac-a937-197e708e1395", "2e56128339ec416e9d150d13829eafb2", "Bundle", "Paid", false)
+	{
+		Title("&DLC32_DlcContent_Name&");
+		Image("dlc_new_section_volatile_hunter_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Chivalry
+	DLC(1184351, "CHIVALRYCROSS000", "53475039-3334-3030-c036-50344743fe00", "1a506d9f27f9448fa26cf6f9f058e4cf", "Bundle", "Free", false)
+    {
+        Title("&&");
+        Image("dlc_new_section_chivalry");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+    }
+
+	// White Death Bundle
+	DLC(748340, "WHITEDEATHBUNDLE", "71fdf9e1-9738-43a8-af5f-24b38440e55b", "0d223de8853541d69b7df1d7386f3f9c", "Bundle", "Paid", false)
+	{
+		Title("&DLC37_DlcContent_Name&");
+		Image("dlc_new_section_white_death_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+
+	// Vintage Gunslinger Bundle
+	DLC(748341, "VINTAGEBUNDLE000", "67df3b08-8943-45fc-9781-4d4c3986b763", "67ebb80df82b463fa21ab7307e47578d", "Bundle", "Paid", false)
+	{
+		Title("&DLC38_DlcContent_Name&");
+		Image("dlc_new_section_vintage_gunslinger_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+	
+	// Gun Psycho Bundle
+	DLC(436081, "OUTFITANDLIVERY4", "855f31a9-46b3-4ecb-af36-276e54e3851c", "c041bfb1c5544492b97379191c90c129", "Bundle", "Paid", false)
+	{
+		Title("&DLC31_DlcContent_Name&");
+		Image("dlc_new_section_gun_psycho_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+	
+	// Crash Test Skin Pack
+	DLC(435111, "OUTFITANDLIVERY2", "1c78f230-75ff-4480-9b43-5db0ef2e417e", "3c9e51c75c834a1c8b4e60d6b219095e", "Bundle", "Paid", false)
+	{
+		Title("&DLC29_DlcContent_Name&");
+		Image("dlc_new_section_crash_test_skin_pack");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+	
+	// Ultimate Survivor Bundle
+	DLC(347090, "ULTIMATESURVIVOR", "12fff3c1-356e-442b-8468-726bab622a6f", "e922b43e49034080937cb80169cd498b", "Bundle", "Paid", false)
+	{
+		Title("&DLC23_DlcContent_Name&");
+		Image("dlc_new_section_ultimate_survivor_bundle");
+		Platforms(true, true, true, true, true);
+		EpicUrl("https://www.epicgames.com/store/p/dying-light/");
+	}
+}

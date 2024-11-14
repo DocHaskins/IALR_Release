@@ -1,0 +1,525 @@
+//VIKING BUNDLE
+
+import "inventorystuff.scr" 
+import "ial_settings.mth"
+
+sub main() 
+{	
+	Item("Melee_AxeBig_Viking", CategoryType_Melee)
+    {
+        GameVersion(36);
+        Visibility(true);
+        ItemType(ItemType_TwoHandedHeavyStick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(40);
+        CriticalCondition(11);
+        Damage(125.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(100.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(195.0 *0.01);
+        DamageToPhysicsObjects(70.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.33);
+        ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Universal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        Flags(1);
+        InventoryMeshHq("wn_axe_viking_b.msh");
+        InventoryMesh("wn_axe_viking_b.msh");
+        Mesh("wn_axe_viking_b.msh");
+        Skin("Default");
+		SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick2Heavy");
+        HudIcon("weapon_axe_viking_b");
+        MinHitSeverity(HitSeverity_Heavy);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(3.0);
+        TwoHanded(true);
+		ThrustAngle(30.0);
+        DestroySound("damaged_heavy_weapon_XX.wav");
+        AiHitSound("axe_heavy");
+        use HitEffects_Sharp_Heavy();
+        use PickupSounds_Default();
+        DamageSize(5.0);
+        StatsType(StatsType_Blunt);
+        FF_EffectName("Hit_Stick2HeavySharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("weapon_heavy_throw.wav");
+        Color(Color_Blue);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_BigAxe);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(2);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("axe_big_viking");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("Stick2HeavySharp");
+        HandInertiaFactor(1.8);
+        HandInertiaRotFactor([0.5, 1.0, 4.0]);
+        Price(2500);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Melee_AxeBig_Viking", CategoryType_Melee)
+    {
+        GameVersion(36);
+        UpgradeLevel(0);
+        Condition(28);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_axe_viking_b_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Melee_AxeBig_Viking", CategoryType_Melee)
+    {
+        GameVersion(36);
+		UpgradeLevel(0);
+        Condition(11);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_axe_viking_b_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+	
+	Item("Melee_ShortSword_Viking", CategoryType_Melee)
+    {
+		GameVersion(36);
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(35);
+        CriticalCondition(11);
+        Damage(213.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(25.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(160.0 *0.01);
+        DamageToPhysicsObjects(50.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.16);
+        ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Metal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        Flags(3);
+        InventoryMeshHq("wn_short_sword_viking.msh");
+        InventoryMesh("wn_short_sword_viking.msh");
+        Mesh("wn_short_sword_viking.msh");
+		Skin("Default");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick");
+        HudIcon("weapon_short_sword_viking");
+        MinHitSeverity(HitSeverity_Light);
+        MaxHitSeverity(HitSeverity_Medium);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,10.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,0.0,-90.0]);
+        DestroySound("damaged_sharp_weapon_XX.wav");
+        AiHitSound("machete");
+        use HitEffects_Sharp();
+        use PickupSounds_Default();
+        DamageSize(4.0);
+        StatsType(StatsType_Cut);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("machete_throw.wav");
+        Color(Color_Blue);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_Machete);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(1);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("short_sword_viking");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("StickSharp");
+        HandInertiaFactor(1.8);
+        Price(9820);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Melee_ShortSword_Viking", CategoryType_Melee)
+    {
+		GameVersion(36);
+        UpgradeLevel(0);
+        Condition(28);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_viking_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Melee_ShortSword_Viking", CategoryType_Melee)
+    {
+		GameVersion(36);
+        UpgradeLevel(0);
+        Condition(11);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_viking_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+	
+	Item("Shield_Pro_Viking", CategoryType_Melee)
+    {
+        Condition(100); 
+		Color(Color_Blue);
+        Mesh("wn_shield_viking_a.msh"); 
+		Skin("Default");
+		SkinTag("Weapon_Craft0");
+        RelevanceRange(50.0);
+        ItemType(ItemType_Shield);
+        Name("&Shield_Pro_Viking_N&");
+        StaminaUsage(0.0);
+        Damage(1.0);
+        PhysicsScript("single_dropped_inventory.phx");
+        DamageType(DamageType_Blunt);
+        EquipmentSlot(2);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(1.9);
+        Force(50.0);
+        PhysicsDamageMul(0.5);
+        SwingSpeed(2.7);
+        HeadSmashProb(0.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        AnimPrefix("Shield");
+        HudIcon("weapon_shield_viking_a");
+        MinDamageAngle(-75.0);
+        MaxDamageAngle(75.0);
+        MinDamageMult(1.0);
+        MaxHitSeverity(HitSeverity_Heavy);
+        MinHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("bip01 r thigh");
+        HolderOffset([0.0,0.1,0.1]);
+        HolderAngle([90.0,-15.0,90.0]);  
+        AiHitSound("shield");
+        use HitEffects_Default();
+        BloodSplatFactor(0.5);        
+        DamageSize(10.0);
+        StatsType(StatsType_Cut);
+        FF_Left(1.0);
+        FF_Right(1.0);
+        FF_Duration(0.5);
+        FF_FadeOut(0.1);
+        AchType(AchType_Knife);
+        Reparable(false);        
+        ConfusionProb(1.0);
+        DamageDuration(1.5);
+        RestrictionFlags(0);
+        EquipmentSlot(2);
+        BlockDuration(1.0);
+        JumpAttackDamage(300);
+        ResistanceTreshold(50);
+        DestroyTreshold(150);
+        DamageReductionMul(0.75);
+        ConditionMullFromBullet(0.1);        
+        BlockHitSound("hit_shield_wood_flesh_XX.wav");
+        BlockHitFx("WoodHit_Small_sequence.fx");
+        BlockHitFxOffset([-0.13, -0.08, 0.0]);        
+        CraftingSlots(0, 0);
+		UniqueFxNameBase("shield_viking");
+		GameVersion(36);
+    }
+	
+	//FIRE VARIANTS
+	
+	Item("Burning_AxeBig_Viking", CategoryType_Melee)
+    {
+		Name("&Burning_Melee_AxeBig_Viking_N&");
+        GameVersion(36);
+        Visibility(true);
+        ItemType(ItemType_TwoHandedHeavyStick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(40);
+        CriticalCondition(11);
+        Damage(125.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(100.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(195.0 *0.01);
+        DamageToPhysicsObjects(70.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.33);
+        ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Universal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        Flags(1);
+        InventoryMeshHq("wn_axe_viking_b.msh");
+        InventoryMesh("wn_axe_viking_b.msh");
+        Mesh("wn_axe_viking_b.msh");
+        Skin("Fire");
+		SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick2Heavy");
+        HudIcon("weapon_axe_viking_b");
+        MinHitSeverity(HitSeverity_Heavy);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(3.0);
+        TwoHanded(true);
+		ThrustAngle(30.0);
+        DestroySound("damaged_heavy_weapon_XX.wav");
+        AiHitSound("axe_heavy");
+        use HitEffects_Sharp_Heavy();
+        use PickupSounds_Default();
+        DamageSize(5.0);
+        StatsType(StatsType_Blunt);
+        FF_EffectName("Hit_Stick2HeavySharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("weapon_heavy_throw.wav");
+        Color(Color_Orange);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_BigHammer);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(2);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("axe_big_viking_burning");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("Stick2HeavySharp");
+        HandInertiaFactor(1.8);
+        HandInertiaRotFactor([0.5, 1.0, 4.0]);
+        Price(2500);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Burning_AxeBig_Viking", CategoryType_Melee)
+    {
+        GameVersion(36);
+        UpgradeLevel(0);
+        Condition(28);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_axe_viking_b_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Burning_AxeBig_Viking", CategoryType_Melee)
+    {
+        GameVersion(36);
+		UpgradeLevel(0);
+        Condition(11);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_axe_viking_b_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+	
+	Item("Burning_ShortSword_Viking", CategoryType_Melee)
+    {
+		Name("&Burning_Melee_ShortSword_Viking_N&");
+		GameVersion(36);
+        Visibility(true);
+        ItemType(ItemType_Stick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(35);
+        CriticalCondition(11);
+        Damage(213.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(25.0);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(160.0 *0.01);
+        DamageToPhysicsObjects(50.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.16);
+        ConfusionProb(0.0);
+        HeadSmashProb(0.0);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Metal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        Flags(3);
+        InventoryMeshHq("wn_short_sword_viking.msh");
+        InventoryMesh("wn_short_sword_viking.msh");
+        Mesh("wn_short_sword_viking.msh");
+		Skin("Fire");
+		SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick");
+        HudIcon("weapon_short_sword_viking");
+        MinHitSeverity(HitSeverity_Light);
+        MaxHitSeverity(HitSeverity_Medium);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,10.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,0.0,-90.0]);
+        DestroySound("damaged_sharp_weapon_XX.wav");
+        AiHitSound("machete");
+        use HitEffects_Sharp();
+        use PickupSounds_Default();
+        DamageSize(4.0);
+        StatsType(StatsType_Cut);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true);
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(3);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("machete_throw.wav");
+        Color(Color_Orange);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_Machete);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(1);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("short_sword_viking_burning");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("StickSharp");
+        HandInertiaFactor(1.8);
+        Price(9820);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Burning_ShortSword_Viking", CategoryType_Melee)
+    {
+		GameVersion(36);
+        UpgradeLevel(0);
+        Condition(28);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_viking_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Burning_ShortSword_Viking", CategoryType_Melee)
+    {
+		GameVersion(36);
+        UpgradeLevel(0);
+        Condition(11);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_short_sword_viking_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+	
+	Item("Burning_Shield_Pro_Viking", CategoryType_Melee)
+    {
+        Condition(100); 
+		Color(Color_Orange);
+        Mesh("wn_shield_viking_a.msh"); 
+		Skin("Fire");
+		SkinTag("Weapon_Craft0");
+        RelevanceRange(50.0);
+        ItemType(ItemType_Shield);
+        Name("&Burning_Shield_Pro_Viking_N&");
+        StaminaUsage(0.0);
+        Damage(1.0);
+        PhysicsScript("single_dropped_inventory.phx");
+        DamageType(DamageType_Blunt);
+        EquipmentSlot(2);
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(1.9);
+        Force(50.0);
+        PhysicsDamageMul(0.5);
+        SwingSpeed(2.7);
+        HeadSmashProb(0.0);
+        HeadCutProb(0.0);
+        ArmsCutProb(0.0);
+        LegsCutProb(0.0);
+        AnimPrefix("Shield");
+        HudIcon("weapon_shield_viking_a");
+        MinDamageAngle(-75.0);
+        MaxDamageAngle(75.0);
+        MinDamageMult(1.0);
+        MaxHitSeverity(HitSeverity_Heavy);
+        MinHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(false);
+        HolderElement("bip01 r thigh");
+        HolderOffset([0.0,0.1,0.1]);
+        HolderAngle([90.0,-15.0,90.0]);  
+        AiHitSound("shield");
+        use HitEffects_Default();
+        BloodSplatFactor(0.5);        
+        DamageSize(10.0);
+        StatsType(StatsType_Cut);
+        FF_Left(1.0);
+        FF_Right(1.0);
+        FF_Duration(0.5);
+        FF_FadeOut(0.1);
+        AchType(AchType_Knife);
+        Reparable(false);        
+        ConfusionProb(1.0);
+        DamageDuration(1.5);
+        RestrictionFlags(0);
+        EquipmentSlot(2);
+        BlockDuration(1.0);
+        JumpAttackDamage(300);
+        ResistanceTreshold(50);
+        DestroyTreshold(150);
+        DamageReductionMul(0.75);
+        ConditionMullFromBullet(0.1);        
+        BlockHitSound("hit_shield_wood_flesh_XX.wav");
+        BlockHitFx("MetalHit_Small_sequence.fx");
+        BlockHitFxOffset([-0.13, -0.08, 0.0]);        
+        CraftingSlots(0, 0);
+		UniqueFxNameBase("shield_viking");
+		GameVersion(36);
+    }
+}

@@ -1,0 +1,31 @@
+!include("ai_method.def")
+
+//die
+Method(Die)
+
+Method(Regenerate)
+Method(SearchForLostTarget)
+Method(VolatileSummon)
+
+// react_on_hit
+Method(ZombieReactOnHitWithPain)
+
+// keep_alive
+Method(FocusOnPotentialEnemy)
+Method(ReachForcedInvisibleTarget)
+Method(WaitForStinger)
+Method(InvestigatePlayerInVisibilityCone)
+Method(ObservePlayerInVisibilityCone)
+Method(TurnToPlayerInVisibilityCone)
+Method(ReactAfterTransformation)
+Method(InvestigateSuspiciousPlace)
+Method(PatrolWhenIlluminatedByFlashlight)
+Method(PatrolBasedOnPatrolPath)
+Method(PatrolAndGeneratePathBasedOnPOI)
+Method(PatrolAndGeneratePath)
+//Method(Patrol)
+Method(Loiter)
+Method(Idle)
+
+// react on light
+Method(ReactOnLight)

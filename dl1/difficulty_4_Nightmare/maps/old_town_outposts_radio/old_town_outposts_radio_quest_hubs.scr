@@ -1,0 +1,98 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("sp_OutOftheAir_AfterBoss")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_Portal_Radio_OldTown_To_Radio")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_Portal_OutOfTheAir_Sewer_To_Nato")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_OutOftheAir_Inside")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("MapStart")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_OutOftheAir_Office")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_OutOftheAir_BeforeBoss")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_OutOftheAir_UpperFloor")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_OutOftheAir_BeforeAmbush")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("sp_Radio_TransmiterTake")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+SpawnPoint("Craftplan_SurpriseMFs_BeforeDeleted")
+{
+    LocationName("old_town_outposts_radio")
+    LocationPicture("save_picture_old_town_outposts_radio")
+}
+
+MapPortal("Portal_Radio_Radio_To_OldTown")
+{
+    Position(26.323523, 55.435520, -24.631371)
+    TargetSpawnPoint("sp_Radio_Portal_RadioInt00_To_OldTown")
+}
+
+MapPortal("OutOfTheAir_Portal_RadioInt_To_OldTown")
+{
+    Position(-2.574631, 65.538185, -18.412958)
+    TargetSpawnPoint("sp_OutOfTheAir_Portal_RadioInt_To_OldTown")
+}
+

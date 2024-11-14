@@ -1,0 +1,331 @@
+//ASTRONAUT BUNDLE
+
+import "inventorystuff.scr" 
+import "ial_settings.mth"
+
+sub main() 
+{		
+    ////////////////////////////////CROSSBOW////////////////////////////////
+	Item("Crossbow_VanCrane", CategoryType_Firearm)
+    {
+        GameVersion(45);
+        Name("&Crossbow_VanCrane_N&");
+        Description("&Crossbow_VanCrane_D&");
+        DamageType(DamageType_Arrow);
+        UsageType(UsageType_Normal);
+        DefaultBulletId("ZZZZ3_Bullet_Bolt");
+        AmmoType(AmmoType_Bolt);
+        BulletSpeed(90.0); //increased bullet speed
+        BulletGravityFactor(0.1);
+        Visibility(true);
+        ItemType(ItemType_Crossbow);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1.0);
+        CriticalProb(0.0);
+        CriticalDamage(1.0);
+		DuckInertiaFactor(0.1);
+        DamageHeadMult(10.0);
+        DamageToPhysicsObjects(20.0);
+        FirePointRange(0, 10.0);
+        FirePointDamage(0, 390.0 * IAL_Weapon_Crossbow_Damage_Mul); 
+        FirePointForce(0, 90.0);
+        FirePointPhysicsDamage(0, 1.5);
+        FirePointRange(1, 25.0);
+        FirePointDamage(1, 195.0 * IAL_Weapon_Crossbow_Damage_Mul);
+        FirePointForce(1, 80.0);
+        FirePointPhysicsDamage(1, 1.3);
+        FirePointRange(2, 50.0);
+        FirePointDamage(2, 97.0 * IAL_Weapon_Crossbow_Damage_Mul);
+        FirePointForce(2, 60.0);
+        FirePointPhysicsDamage(2, 1.1);
+        Mesh("wn_crossbow_f.msh");        
+		BarrelHelperName("bolt_pose");
+        AnimPrefix("crossbow");
+        HudIcon("weapon_crossbow_a");        
+        TwoHanded(true);        
+        DestroySound("break_wooden_weapon_00.wav");
+        AiHitSound("crossbow");
+        use HitEffects_Sharp();
+        BloodSplatFactor(0.25);
+        use PickupSounds_Default();
+        DamageSize(15.0);
+        StatsType(StatsType_Cut);
+        LootLevel(8);
+        LootType(LootType_Sharp);
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Color(Color_Blue);
+		SwayMaxAngle(0.0);
+		JumpInertiaFactor(0.1);
+        ShotTime(0.33);
+        ClipReload(true);
+        BulletsPerShot(1);
+        ShootAnimFactor(1.0);
+        AmmoCount(1);
+        Silenced(true);
+        EnablePenetration(false); 
+        MoveAcurancyLoseFactor(0.2);
+		DodgeAccuracyLoseFactor(5.0);
+        ShootStatAccuracy(100.0);
+        AimFov(1.6);
+        ShotSound("crossbow_upgraded_shot_XX.wav");
+        EmptySound("crossbow_upgraded_empty_XX.wav");
+        BaseSoundPrefix("crossbow_Upgraded");
+        HandOffset(HandModification_Normal, [0.0,-0.01,-0.11]);
+        HandOffset(HandModification_Custom, [0.0,-0.01,-0.11]);
+        ShootMinAngle(0.0);
+		ReloadAnimSpeed(0.9);
+		Skin("Default");
+		Price(16666);
+    }
+    
+    Item("Crossbow_VanCrane", CategoryType_Firearm)
+    {
+        GameVersion(45);
+        UsageType(UsageType_Aim);
+        BulletSpeed(70.0);
+		SwayMaxAngle(0.0);
+        BulletGravityFactor(0.1);
+        HandOffset(HandModification_Normal, [0.0, -0.0014, 0.0]);
+        HandOffset(HandModification_Custom, [0.0, 0.0, 0.0]);
+    }
+
+    ////////////////////////////////PISTOL////////////////////////////////
+	Item("Pistol_VanCrane", CategoryType_Firearm)
+    {
+        Name("&Firearm_Pistol_VanCrane_N&");
+        GameVersion(45);
+        CategoryType(CategoryType_Firearm);
+        Visibility(true);
+        ItemType(ItemType_Pistol);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(-1);
+        DamageRangeMelee(110.0 *0.01);
+        HeadSmashProb(1.0);
+        HeadCutProb(0.9);
+        ArmsCutProb(0.9);
+        LegsCutProb(0.9);
+        CutTypesGroup(CutTypesGroup_Holes);
+        DamageType(DamageType_Bullet);
+        Mesh("wn_pistol_e_hq.msh");
+        Skin("Default");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Singleshot");
+        HudIcon("weapon_pistol_e");
+        ShotTime(0.3);
+        ShotSound("rmngtn_shot_XX.wav");
+        BaseSoundPrefix("Van_Crane_Pistol");
+        DefaultBulletId("Bullet_Pistol_VanCrane");
+        AmmoCount(1);
+		NotInheritBaseAmmoCount();
+        ReloadTime(1.5);
+        EmptySound("Van_Crane_Pistol_empty_00.wav");
+        TwoHanded(false);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,0.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,90.0,-90.0]);
+        HandOffset(HandModification_Normal, [-0.03,-0.03,0.0]);
+        HandOffset(HandModification_Custom, [-0.03,-0.03,0.0]);
+        use HitEffects_Firearm();
+        use PickupSounds_Default();
+        ClipReload(true);
+        FxNameShell("BerettaGunfireShell");
+        ShootFx("PistolGunfireSingle_sequence.fx");
+        AimBlurStart(0.25);
+        AimBlurEnd(0.35);
+        ShootStatAccuracy(95.0);
+        MoveAcurancyLoseFactor(0.2);
+        DuckInertiaFactor(0.3);
+        ShootMinAngle(0.18);
+        ShootMaxAngle(0.25);
+        ShootAngleVel(0.2);
+        ShootAngleCooldown(0.25);
+        ShootVertRecoil(0.04);
+        ShootVertRecoilSpread(0.012);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.09);
+        ShootMode(ShotMode_Single);
+        BulletsPerShot(4);
+        AimFov(1.6);
+        MaxReboundCount(4);
+        DamageSize(4.0);
+        AiHitSound("bullet");
+        StatsType(StatsType_Pistol);
+        Price(11666);
+        FF_EffectName("Shot_StrongPistol");
+        FF_Left(0.3);
+        FF_Right(0.4);
+        FF_Duration(0.1);
+        FF_FadeOut(0.0);
+        CriticalProb(1.0);
+        CriticalDamage(3.0);
+        DamageHeadMult(10.0);
+        DamageToPhysicsObjects(100.0);
+        FirePointRange(0,700.0 *0.01);
+        FirePointDamage(0,666.0 * IAL_Weapon_Firearm_Damage_Mul); 
+        FirePointForce(0,100.0);
+        FirePointRange(1,1100.0 *0.01);
+        FirePointDamage(1,666.0 * IAL_Weapon_Firearm_Damage_Mul);
+        FirePointForce(1,100.0);
+        FirePointRange(2,1600.0 *0.01);
+        FirePointDamage(2,333.0 * IAL_Weapon_Firearm_Damage_Mul);
+        FirePointForce(2,50.0);
+        FirePointRange(3,3000.0 *0.01);
+        FirePointDamage(3,166.0 * IAL_Weapon_Firearm_Damage_Mul);
+        FirePointForce(3,25.0);
+        Color(Color_Blue);
+        GenType(GenType_Firearm);
+        ShotTailDelay(0.5);
+        AchType(AchType_Pistol);
+        NameGender(0);
+        PriceMult(1.1);
+		InstantKill("VOLATILE");
+		NoiseType("LIGHT_SHOT");
+		BulletSpeed(350.0);
+    }
+
+    Item("Pistol_VanCrane", CategoryType_Firearm)
+    {
+        GameVersion(45);
+        CategoryType(CategoryType_Firearm);
+        UsageType(UsageType_Aim);
+        UpgradeLevel(0);
+        HandOffset(HandModification_Normal, [-0.0009,-0.0051,0.2]);
+        HandRot(HandModification_Normal, [0.7237,-0.1293,0.0]);
+        HandOffset(HandModification_Custom, [-0.0003,-0.0003,0.0]);
+        ShootAngleCooldown(0.189);
+        ShootVertRecoil(0.0);
+        ShootVertRecoilSpread(0.0);
+        ShootHorzRecoil(0.0);
+        ShootHorzRecoilSpread(0.0);
+        ShootRecoilTime(0.16);
+    }
+
+	Item("Bullet_Pistol_VanCrane", CategoryType_Ammo)
+    {
+        Mesh("loot_ok_ammo_short.msh");
+        HudIcon("ammo_pistol");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_Pistol);
+		Color(Color_Blue);
+        MaxAmmoCount(20);
+        GameVersion(45);
+    }
+	
+	Item("Bullet_Pistol_VanCrane_Tricky", CategoryType_Ammo)
+    {
+        Mesh("loot_ok_ammo_short.msh");
+        HudIcon("ammo_pistol");
+        ItemType(ItemType_Bullet);
+        AmmoType(AmmoType_Pistol);
+		Color(Color_Blue);
+        MaxAmmoCount(20);
+        GameVersion(45);
+		BulletVis(BulletVis_RifleElectricity);
+        Elemental(Elemental_ShockElectricity, 101);
+		NoiseType("LIGHT_EXPLOSION");
+		ExplosionFx("electric_hit_sequence.fx");
+    }
+  ////////////////////////////////SWORD////////////////////////////////
+	Item("Sword_VanCrane", CategoryType_Melee)
+    {
+        Name("&Sword_VanCrane_N&");
+        GameVersion(45);
+        Visibility(true);
+        ItemType(ItemType_TwoHandedCloseStick);
+        PhysicsScript("single_dropped_inventory.phx");
+        UpgradeLevel(0);
+        Condition(66);
+        CriticalCondition(15);
+        Damage(200.0 * IAL_Weapon_Cut_Damage_Mul);
+        Force(55.0); //increased force
+        CriticalProb(0.0);
+        CriticalDamage(2.0);
+        DamageRange(200.0 *0.01); //increased damage
+        DamageToPhysicsObjects(50.0);
+        PhysicsDamageMul(1.0);
+        StaminaUsage(0.10);
+        HeadCutProb(1.0);
+        ArmsCutProb(1.0);
+        LegsCutProb(1.0);
+        WeaponBuildType(WeaponBuildType_Metal);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        Flags(1);
+        InventoryMeshHq("wn_longsword_c.msh");
+        InventoryMesh("wn_longsword_c.msh");
+        Mesh("wn_longsword_c.msh");
+        Skin("Default");
+        SkinTag("Weapon_Craft0");
+        AnimPrefix("Stick2Close");
+        HudIcon("weapon_longsword_c");
+        MinHitSeverity(HitSeverity_Light);
+        MaxHitSeverity(HitSeverity_Heavy);
+        HorizontalAttackDamageMul(1.0);
+        TwoHanded(true);
+        HolderElement("r_thigh");
+        HolderOffset([0.0,10.0,10.0] *[0.01, 0.01, 0.01]);
+        HolderAngle([0.0,0.0,-90.0]);
+        DestroySound("damaged_sharp_weapon_XX.wav");
+        AiHitSound("swordheavy");
+        use HitEffects_Sharp();
+        use PickupSounds_Default();
+        DamageSize(4.0);
+        StatsType(StatsType_Cut);
+        FF_EffectName("Hit_Sharp");
+        FF_Left(0.6);
+        FF_Right(0.6);
+        FF_Duration(0.2);
+        FF_FadeOut(0.0);
+        Reparable(true); 
+        RepairTags("Weapon_Craft4");
+        RepairPart("Craft_MetalScrap", 1);
+        AllowedRepairs(4);
+        SoundDamagedHit("damaged_sharp_weapon_XX.wav");
+        ThrowBeginSound("machete_throw.wav");
+		Color(Color_Blue);
+        GenLevelMin(1);
+        GenLevelMax(1);
+        AchType(AchType_Machete);
+        DismantleResultItem("Craft_MetalScrap");
+        DismantleResultItemCnt(1);
+        CraftingSlots(1,0);
+        UniqueFxNameBase("sword_spacecommando");
+        RestrictionFlags(0);
+        RagdollBehaviorPrefix("StickSharp");
+        HandInertiaFactor(1.8);
+        Price(9666);
+        GenType(GenType_MeleeWeapon);
+    }
+
+    Item("Sword_VanCrane", CategoryType_Melee)
+    {
+        GameVersion(45);
+        UpgradeLevel(0);
+        Condition(20);
+        CriticalProb(0.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_longsword_c_dm_a.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+    Item("Sword_VanCrane", CategoryType_Melee)
+    {
+        GameVersion(45);
+        UpgradeLevel(0);
+        Condition(10);
+        CriticalProb(1.0);
+		HeadSmashProb(1.0);
+        DamageType(DamageType_Cut);
+        CutTypesGroup(CutTypesGroup_SharpHeavy);
+        InventoryMeshHq("wn_longsword_c_dm_b.msh");
+        RepairPart("Craft_MetalScrap", 1);
+    }
+
+}

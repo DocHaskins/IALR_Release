@@ -1,0 +1,4 @@
+sub portals_slums_cl_parking()
+{
+    Portal("portal_slums_cleansing_parking", "slums_cl_parking", "slums", "sp_slums_cleansing_parking");
+}

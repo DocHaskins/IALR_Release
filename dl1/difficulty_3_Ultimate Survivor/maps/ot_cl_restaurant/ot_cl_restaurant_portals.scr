@@ -1,0 +1,4 @@
+sub portals_ot_cl_restaurant()
+{
+    Portal("portal_to_old_town_from_restaurant", "ot_cl_restaurant", "old_town", "sp_old_town_cleansing_Restaurant");
+}

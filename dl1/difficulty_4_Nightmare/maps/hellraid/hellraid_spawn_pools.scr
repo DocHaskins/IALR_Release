@@ -1,0 +1,20 @@
+// This is a file generated from DW Spawn System.xlsx. Do not edit directly!
+
+!include("common_spawn_presets.scr")
+!include("night_spawn_pools.scr")
+
+	//NOT SETUP FOR HELLRAID
+	
+    Pool("default")
+    {
+        /*Type("default")
+        Preset("Stinger, 10;Vessel_Eating_Corpse, 10;Vessel_In_Attractor, 10;Vessel_Init, 10;DeadZone_Policeman, 25;")*/
+    }
+
+    Pool("empty")
+    {
+        /*Type("empty")
+        Preset("Stinger, 10;Vessel_Eating_Corpse, 10;Vessel_In_Attractor, 10;Vessel_Init, 10;Immposible, 10")*/
+    }
+
+	

@@ -1,0 +1,5 @@
+sub portals_slums_interior()
+{
+    Portal("dlc_1_map_stadium", "slums_interior", "stadium", "dlc16_sp");
+    Portal("portal_slums_interior_to_slums", "slums_interior", "slums", "sp_Hub_LJ_Floor_0");
+}

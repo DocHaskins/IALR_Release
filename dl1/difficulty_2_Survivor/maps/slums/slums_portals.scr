@@ -1,0 +1,31 @@
+sub portals_slums()
+{
+    Portal("portal_slums_to_cave", "slums", "wasteland", "sp_portal_wasteland_to_cave");
+    Portal("Saviors_MP_Slums_TO_Sewers", "slums", "sewers_saviors", "Saviors_SP_Slums_TO_Sewers");
+    Portal("Portal_Slums_TO_Slums_CS_Parking", "slums", "slums_cs", "slums_cs_final_sp_01");
+    Portal("portal_slums_cleansing_tunnel", "slums", "slums_cl_tunnel", "sp_slums_interior_cleansing_09");
+    Portal("portal_slums_cleansing_hangar", "slums", "slums_cl_hangar", "portal_Cleansing_20_hangar_spawn");
+    Portal("portal_Hub_LJ_Floor_0", "slums", "slums_interior", "sp_Hub_LJ_Floor_13");
+    Portal("portal_Hub_LJ_Floor_0_b", "slums", "slums_interior", "cin_jade_courier_pre_movie_sp");
+    Portal("Portal_Slums_To_Hellraid_ArcadeMachine", "slums", "hellraid", "MapStart");
+    Portal("Hub_Slums_Map_Portal_Slums_to_OT", "slums", "old_town", "Hub_OldTown_Scavengers");
+    Portal("dlc_1_map_stadium", "slums", "stadium", "dlc16_sp");
+    Portal("portal_slums_to_slums_interior_a_anabolics01", "slums", "dream", "sq_anabolics_SP_01");
+    Portal("portal_Slums_TO_Slums_Int_Warehouse", "slums", "slums_int_warehouse", "sp_portal_Slums_TO_Slums_Int_Warehouse");
+    Portal("portal_Slums_TO_Slums_Int_Warehouse_Neutral", "slums", "slums_int_warehouse", "sp_portal_Slums_TO_Slums_Int_Warehouse_Neutral");
+    Portal("portal_Slums_TO_Slums_Int_Warehouse_B", "slums", "slums_int_warehouse", "sp_portal_Slums_TO_Slums_Int_Warehouse_B");
+    Portal("portal_Slums_TO_School_Int_03", "slums", "slums_int_school", "sp_portal_Slums_TO_School_Int_03");
+    Portal("portal_Slums_TO_School_Int_02", "slums", "slums_int_school", "sp_portal_Slums_TO_School_Int_02");
+    Portal("slums_cleansing_sidetrack_deco::portal_slums_cleansing_sidetrack", "slums", "slums_cl_sidetrack", "sp_slums_interior_cleansing_02");
+    Portal("portal_slums_to_slums_interior_a_perfectmurder01", "slums", "slums_interior_a", "portal_slums_to_slums_interior_a_perfectmurder01_sp");
+    Portal("Portal_To_Prison_temp", "slums", "prison", "MapStart");
+    Portal("Portal_To_Prison", "slums", "prison", "MapStart");
+    Portal("portal_Slums_TO_Demolition", "slums", "slums_demolition", "MapStart");
+    Portal("portal_slums_cleansing_flat", "slums", "slums_cl_flats", "sp_slums_interior_cleansing_01");
+    Portal("BringGalib_MP_Slums_TO_SlumsInterior", "slums", "slums_interior_a", "BringGalib_SP_Slums_TO_SlumsInterior");
+    Portal("portal_slums_cleansing_market", "slums", "slums_cl_market", "SP_DeadZone_Market_01");
+    Portal("DeathNote_MP_Slums_TO_SlumsInterior_001", "slums", "slums_interior_a", "DeathNote_SP_Slums_TO_SlumsInterior_001");
+    Portal("portal_slums_cleansing_parking", "slums", "slums_cl_parking", "sp_slums_interior_cleansing_16");
+    Portal("portal_Slums_Antenna_to_Slums_B", "slums", "slums_antenna", "portal_Slums_to_Slums_Antenna_B_sp");
+    Portal("portal_Slums_to_Slums_Antenna", "slums", "slums_antenna", "Contact_SP_Slums_TO_SlumsAntenna");
+}

@@ -1,0 +1,23 @@
+sub main() 
+{
+    Param("VALUABLE_ITEM_SELL_PRICE_MOD", 0.40);
+	Param("RANGED_WEAPON_SELL_PRICE_MOD", 0.12);
+    Param("MELEE_WEAPON_SELL_PRICE_MOD",  0.1);
+	Param("COMMON_ITEM_SELL_PRICE_MOD",   0.06);
+    Param("COLOR_ITEM_SELL_PRICE_MOD",    0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

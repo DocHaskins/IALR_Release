@@ -1,0 +1,5 @@
+sub portals_old_town_outposts_radio()
+{
+    Portal("Portal_Radio_Radio_To_OldTown", "old_town_outposts_radio", "old_town", "sp_Radio_Portal_RadioInt00_To_OldTown");
+    Portal("OutOfTheAir_Portal_RadioInt_To_OldTown", "old_town_outposts_radio", "old_town", "sp_OutOfTheAir_Portal_RadioInt_To_OldTown");
+}

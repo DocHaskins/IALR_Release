@@ -1,0 +1,2246 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("story::logic::DarkKnight::SP_DK_Debugpos_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::portal_lobby_to_dk::SP_destination_DK")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Dining_Area_1::SP_debugpos_dining_area_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_08")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_08")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Bossfight::DebugPos_bossfight")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Bossfight::Debugpos_DestroySkull")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Bossfight::Epilogue_Movie::FX_Helper_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Bossfight::Epilogue_Movie::FX_Helper_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Blacksmith::SP_debugpos_blacksmith")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_06")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_05")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_05")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Checkpoint_04")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Respawn_04")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::TheView::SP_debugpos_theview")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::temp_test_pduch::SP_debugpos_tests_pduch")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_04")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_04")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_02B")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_02B")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_2::SP_debugpos_scriptorium_bottom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_2::SP_debugpos_ScriptoriumTop")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_3_Bonus::portal_engine_from_BonusArena::SP_destination_bonus_area")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_4::SP_debugpos_after_Part_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::SP_debugpos_START_DisruptTheRitual")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_01_DisruptTheRitual")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_01_start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::portal_engine_lobby_to_dtr::SP_destination_DTR")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::SP_debugpos_FINAL_ARENA_DisruptTheRitual")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::Respawn_05")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::checkpoints::checkpoint_05")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_4::SP_Goto_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_5_FINAL::secret_walls::FX_Helper_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_5_FINAL::secret_walls::FX_Helper_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::RitualLocation")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_5_FINAL::secret_walls::FX_Helper_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::lava::Lava_sp_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("debug_prison_lever")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Imprisonment_sp_Bindings")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_after_puzzle_room")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_Exp_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_07B_Combat_Arena_3B")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_03A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_3_Floor_LavaRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldTreasureRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("Marker_StoryTower_middle")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo::GatherArtifacts")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_Library")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldLibrary")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07B_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::07B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_Exp_01_AfterGate")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::04_Exploration_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_04_Exploration_Area_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Movie_05_FXHelper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_3_Floor_LavaRoom_Exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07B_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::lava::Lava_sp_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldAtrium")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_Exp_01_MiniBoss")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::10_TrainingRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_08_stairs")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Respawn_prison_03_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::SP_debug_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::secretroom2sp")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Respawn_prison_04_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldArenaB")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_ArenaB_Exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_6")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_03B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_ArenaA_Exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldArenaA")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_6")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_3_Floor_Arena_Entrance")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_torturer_room_Exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::10_Treasure_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::05_Treasure_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_before_torturer_room")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::04B_MiniBoss")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_3_Bonus::portal_engine_to_BonusArea::SP_destination_bonus_area")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_Corridor_End")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::SP_Debugpos_BonusPortal_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_1Back_SP")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_01_BackInRaid")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::lava::Lava_sp_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_ArenaB")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::03B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03B_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Movie_C03B_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_A_or_B_arena")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::MarkerCompare_OldArenaBow")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_03A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Movie_C03A_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::03A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_ArenaA")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Arena_Final")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_13_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Stone1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_Treasure01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Respawn_prison_05_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_End4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_End3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_End2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_End")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_6")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_3Back_SP")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_03_BackInRaid")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::SP_Debugpos_ShootingRange")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_03A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_Exp_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldTreasureRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::SP_Debugpos_BonusPortal_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Movie_05_FXHelper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_04_Exploration_Area_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_07B_Combat_Arena_3B")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::04_Exploration_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_Exp_01_AfterGate")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::07B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07B_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo::GatherArtifacts_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldLibrary")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::geo::GatherArtifacts")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07B_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::lava::Lava_sp_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldAtrium")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_Exp_01_MiniBoss")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::10_TrainingRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_08_stairs")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Movie_06_Marker_BookSecret_FX")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_02_PostOpen")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::sharedmovies::mark999")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_before_first_lever")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_04_Exploration_Area_0_(Not_Planned)")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_1_Floor_before_first_shrine")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::02_Exploration_00")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_02_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Stone3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_13_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_13_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_13_Tower_Arena_Final_Boss_Fight")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_13_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::05G_Start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_first_lever")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05G")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_05A_Combat_Arena_2A")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Respawn_prison_02_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("sp_right_crystal")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::SP_debugpos_LuciusTeleport")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::SP_LuciusLocationCell")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::SP_LuciusLocationCell_0")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::switch_A::SP_crystal__A_debugpos")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo::GatherArtifacts_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_03B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldArenaB")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldArenaA")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_6")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::05_Treasure_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::10_Treasure_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::04B_MiniBoss")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_02_Establishing_Tower")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::sp_RD_Hellraid_BOSS_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07A_Post_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Stone2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DestroyCorruptedLocation::DestroyCorruptedLocation_sp_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo::DestroyCorruptedLocations")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_priest_room_exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Movie_C05A_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("debug_portal_escape_prison")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03B_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo::GatherArtifacts_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Movie_C03B_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::03B_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Movie_C03A_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::03A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::MarkerCompare_OldArenaBow")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_03A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_13_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Arena_Final")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_Treasure01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("LobbyStart")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("RestartPoint_MysteriousPortal")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::newlogic::Sp_RaidOut")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DestroyCorruptedLocation::DestroyCorruptedLocation_sp_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::prison_escape_portal::SP_escape_prison")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::GoOut_a_sp")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DisruptTheRitual::Part_5_FINAL::portal_engine_to_lobby::SP_destination_Lobby")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::DarkKnight::Bossfight::portal_to_lobby::SP_destination_Lobby")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_01_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::07_Treasure_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::TeleportPlayer_SP")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::SideQuestsCards_SP")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Respawn_LuciusLobby")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::bounties::Armory_Spawn")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_church_exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::portal_tower_to_prison::SpDebug_Tower_to_Prison")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::portal_tower_to_prison::Imprisonment_portalMarker")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05A_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_Torturers_room")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::05A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05A_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("Marker_Imprisonment_START")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_Prison_Start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Respawn_prison_01_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Movie_06_Marker_BookSecret_FX")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_02_PostOpen")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::sharedmovies::mark999")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_04_Exploration_Area_0_(Not_Planned)")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_02_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::02_Exploration_00")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_13_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_13_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_13_Tower_Arena_Final_Boss_Fight")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_13_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::05G_Start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05G")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_05A_Combat_Arena_2A")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("MapStart")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("Checkpoint_1_Floor_out_of_water")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::dlc49_sp")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_01_Hub_Room")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_00_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05A_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_Torturers_room_Exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05A_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::Imprisonment_SP_start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::imprisonment::portal_tower_to_prison::SP_start_prison")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07A_Post_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_02_Establishing_Tower")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::sp_RD_Hellraid_BOSS_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Movie_C05A_Grating_FX_Helper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::geo::DestroyCorruptedLocations")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::07A::Chapel_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_07A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_07A_Combat_Arena_3A")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::05B_ExpCombat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_01_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::07_Treasure_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::ArenaStart")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::newlogic::SP_teleport_raid_to_lobby")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05A_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::05A_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05A_5")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_puzzle_arena_exit")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::_Marker_06_Exploration_Area_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Respawn_05B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("lobby::logic::Checkpoint_2_Floor_puzzle_lever")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_01_Hub_Room")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_00_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05A_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05A_4")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::Marker_C07A_GatingFXHelper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_07A_Combat_Arena_3A")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_07A_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::07A::Chapel_Combat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::05B_ExpCombat")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::SP_Debugpos_BonusPortal_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_2Back_SP")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_02_BackInRaid")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::_Marker_06_Exploration_Area_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05B_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Respawn_05B_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::logic::Marker_C07A_GatingFXHelper")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_TreasureRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_TreasureRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewTreasureRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("Marker_Gather_Artifacts_START")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_corridor_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_corridor_backtrack_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_Start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewAtrium")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_ArenaA")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::GoIn_a_sp")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_corridor")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::GatherArtifacts")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewArenaA")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewLibrary")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::GA_geometry_new_light::GatherArtifacts")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::gameplay_artifact_3_water_room::spawngold")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::gp_ga_area1::SP_debugpos_Atrium")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_Atrium_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_WaterRoom_entrance")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_WaterRoom_backtrack")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_Atrium_backtrack_a")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_TorturerRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_WaterRoom_Entrance")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::gp_ga_area1::spt1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_WaterRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_stairs_backtrack")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_WaterRoom")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_Artifact3_Taken")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::gp_ga_area3::SP_debug_area3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewArenaB")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::MarkerCompare_NewArenaBow")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::spawners::spawners_08::SpawnPoint_debugpos_artifact2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_Artifact2_Taken")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_ArenaB")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::GatherArtifacts_sp_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::respawns::Respawn_GA_Bow")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::checkpoints::Checkpoint_GA_BowArena")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::logic::GatherArtifacts::spawners::spawners10::w2::sp_debug_green")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Raid_BONUS_Debugpos_00")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Logic01::BACK_SP_Location_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_02_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::Location_2::SP_debugpos_location2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_2_SP_Location_1_start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::Location_2::logic::SP_debugpos_adepts")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_02_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::logic_central::SP_debugpos_test_wand")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_01_04")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_01_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_03_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_01_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::Location_04::SpawnTest")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_1_SP_Location_1_start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_02_03")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::Location_2::SP_debugpos_chase")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Raid_BONUS_Debugpos_Location_1_00")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_03_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::portals::Portal_3_SP_Location_3_start")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Logic01::Raid_BONUS_Debugpos_Location_1_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Logic01::ENTER_SP_Location_01")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::raid_bonus_locations::logic::Respawn_Location_01_02")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::GA_geometry_new_light::GatherArtifacts_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::GA_geometry_new_light::GatherArtifacts_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::GA_geometry_new_light::GatherArtifacts_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::GatherArtifacts_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::GatherArtifacts_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("story::geo_sidequests::main_geometry::GatherArtifacts_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::geo::GatherArtifacts_1")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::geo::GatherArtifacts_2")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+SpawnPoint("arena::geo::GatherArtifacts_3")
+{
+    LocationName("hellraid")
+    LocationPicture("save_picture_hellraid")
+}
+
+MapPortal("lobby::logic::MP_HRtoSlums")
+{
+    Position(697.565674, 31.741913, -97.355804)
+    TargetSpawnPoint("Portal_Slums_To_Hellraid_SpawnPoint")
+}
+
+MapPortal("lobby::logic::MP_HRtoOldTown")
+{
+    Position(698.164185, 31.707245, -97.337334)
+    TargetSpawnPoint("Hub_OldTown_Scavengers")
+}
+
+MapPortal("lobby::logic::MP_HRtoSlums2")
+{
+    Position(699.004639, 31.390648, -97.705246)
+    TargetSpawnPoint("Portal_Slums_To_Hellraid_SpawnPoint")
+}
+
+MapPortal("lobby::logic::MP_HRtoOldTown2")
+{
+    Position(698.358276, 31.386143, -97.708626)
+    TargetSpawnPoint("Hub_OldTown_Scavengers")
+}
+

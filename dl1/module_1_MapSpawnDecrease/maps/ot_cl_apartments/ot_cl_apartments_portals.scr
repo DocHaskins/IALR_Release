@@ -1,0 +1,4 @@
+sub portals_ot_cl_apartments()
+{
+    Portal("portal_old_town_interior_cleansing_01", "ot_cl_apartments", "old_town", "sp_old_town_cleansing_Apartment");
+}

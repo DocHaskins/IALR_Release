@@ -1,0 +1,62 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("MapStart")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+SpawnPoint("Toilet_door_exp")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+SpawnPoint("cleansing_restaurant_respawn")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+SpawnPoint("push_door_blocker_sound_invoke")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+SpawnPoint("screamer_action")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+SpawnPoint("cleansing_restaurant_start_spawn")
+{
+    LocationName("ot_cl_restaurant")
+    LocationPicture("save_picture_ot_cl_restaurant")
+}
+
+MapPortal("portal_to_old_town_from_restaurant")
+{
+    Position(1.465683, 281.480286, 247.555801)
+    TargetSpawnPoint("sp_old_town_cleansing_Restaurant")
+}
+

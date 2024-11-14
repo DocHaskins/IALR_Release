@@ -1,0 +1,272 @@
+sub main()
+{
+	Update("I Am Legion")
+	{
+		ID(0);
+		Header("I Am Legion Update");
+		Date("Easter Weekend");
+		Image("dlc_new_section_ultimate_survivor_bundle");
+		Paragraph("I Am Legion");
+		Paragraph("Survivor Difficulty");
+		OpenURL("https://www.nexusmods.com/dyinglight/mods/128");
+		
+	}
+	Update("&WhatsNew_Drop0_Header2_Main&")
+	{
+		ID(1);
+		Header("&WhatsNew_Drop0_Header2_Main&");
+		Date("&WhatsNew_Drop0_Date&");
+		Image("WhatsNew_Drop0_Image2");
+		Paragraph("&WhatsNew_Drop0_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop0_Paragraph_3&");
+		Image("WhatsNew_Drop0_Image3");
+		Paragraph("&WhatsNew_Drop0_Paragraph_4&");
+		Image("WhatsNew_Drop0_Image4");
+		Paragraph("&WhatsNew_Drop0_Paragraph_5&");
+		
+	}
+	Update("&WhatsNew_Drop0_Header_Main&")
+	{
+		ID(2);
+		Header("&WhatsNew_Drop0_Header_Main&");
+		Date("&WhatsNew_Drop0_Date&");
+		Image("WhatsNew_Drop0_Image1");
+		Paragraph("&WhatsNew_Drop0_Paragraph_1&");
+		Paragraph("&WhatsNew_Video&");
+		
+		Movie("dl_drop_reinforcements");
+	}
+	Update("&WhatsNew_Drop1_Header2_Main&")
+	{
+		ID(3);
+		Header("&WhatsNew_Drop1_Header2_Main&");
+		Date("&WhatsNew_Drop1_Date&");
+		Image("WhatsNew_Drop1_Image2");
+		Paragraph("&WhatsNew_Drop1_Paragraph_2&");
+		Paragraph("&WhatsNew_Video&");
+
+		Movie("dl_drop_hero");
+	}
+	Update("&WhatsNew_Drop1_Header_Main&")
+	{
+		ID(4);
+		Header("&WhatsNew_Drop1_Header_Main&");
+		Date("&WhatsNew_Drop1_Date&");
+		Image("WhatsNew_Drop1_Image1");
+		Paragraph("&WhatsNew_Drop1_Paragraph_1&");
+		Paragraph("&WhatsNew_Video&");
+		
+		Movie("dl_drop_lethalinventions");
+	}
+	Update("&WhatsNew_Drop2_Header_Main&")
+	{
+		ID(5);
+		Header("&WhatsNew_Drop2_Header_Main&");
+		Date("&WhatsNew_Drop2_Date&");
+		Image("WhatsNew_Drop2_Image1");
+		Paragraph("&WhatsNew_Drop2_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop2_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop2_Paragraph_3&");
+		Paragraph("&WhatsNew_Drop2_Paragraph_4&");
+		Paragraph("&WhatsNew_Video&");
+		
+		Movie("dl_drop_gunsilencer");
+	}
+	Update("&WhatsNew_Event1_Header_Main&")
+	{
+		ID(6);
+		Hidden();
+		Header("&WhatsNew_Event1_Header_Main&");
+		Date("&WhatsNew_Drop2_Date&");
+		Image("WhatsNew_Event1_Image1");
+		Paragraph("&WhatsNew_Event1_Paragraph_1&");
+		Paragraph("&WhatsNew_Event1_Paragraph_2&");
+		Paragraph("&WhatsNew_Event1_Paragraph_3&");
+		Paragraph("&WhatsNew_Event1_Paragraph_4&");
+
+	}
+	Update("&WhatsNew_Drop3_Header_Main&")
+	{
+		ID(7);
+		Header("&WhatsNew_Drop3_Header_Main&");
+		Date("&WhatsNew_Drop3_Date&");
+		Image("WhatsNew_Drop3_Image1");
+		Paragraph("&WhatsNew_Drop3_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop3_Paragraph_2&");
+
+	}
+	Update("&WhatsNew_Event2_Header_Main&")
+	{
+		ID(8);
+		Hidden();
+		Header("&WhatsNew_Event2_Header_Main&");
+		Date("&WhatsNew_Drop4_Date&");
+		Image("WhatsNew_Event2_Image1");
+		Paragraph("&WhatsNew_Event2_Paragraph_1&");
+		Paragraph("&WhatsNew_Event2_Paragraph_2&");
+		Paragraph("&WhatsNew_Event2_Paragraph_3&");
+	}
+	Update("&WhatsNew_Event3_Header_Main&")
+	{
+		ID(9);
+		Hidden();
+		Header("&WhatsNew_Event3_Header_Main&");
+		Date("&WhatsNew_Drop4_Date&");
+		Image("WhatsNew_Event3_Image1");
+		Paragraph("&WhatsNew_Event3_Paragraph_1&");
+		Paragraph("&WhatsNew_Event3_Paragraph_2&");
+		Paragraph("&WhatsNew_Event3_Paragraph_3&");
+	}
+	Update("&WhatsNew_Drop4_Header_Main&")
+	{
+		ID(10);
+		Header("&WhatsNew_Drop4_Header_Main&");
+		Date("&WhatsNew_Drop4_Date&");
+		Image("WhatsNew_Drop4_Image1");
+		Paragraph("&WhatsNew_Drop4_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop4_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop4_Paragraph_3&");
+		Paragraph("&WhatsNew_Drop4_Paragraph_4&");
+	}
+	Update("&WhatsNew_Drop5_Header_Main&")
+	{
+		ID(11);
+		Header("&WhatsNew_Drop5_Header_Main&");
+		Date("&WhatsNew_Drop4_Date&");
+		Image("WhatsNew_Drop5_Image1");
+		Paragraph("&WhatsNew_Drop5_Paragraph_1&");
+	}
+	Update("&WhatsNew_Drop6_Header_Main&")
+	{
+		ID(12);
+		Header("&WhatsNew_Drop6_Header_Main&");
+		Date("&WhatsNew_Drop6_Date&");
+		Image("WhatsNew_Drop6_Image1");
+		Paragraph("&WhatsNew_Drop6_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop6_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop6_Paragraph_3&");
+	}
+	Update("&WhatsNew_Drop7_Header_Main&")
+	{
+		ID(13);
+		Header("&WhatsNew_Drop7_Header_Main&");
+		Date("&WhatsNew_Drop7_Date&");
+		Image("WhatsNew_Drop7_Image1");
+		Paragraph("&WhatsNew_Drop7_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop7_Mask&");
+	}
+	Update("&WhatsNew_Drop8_Header_Main&")
+	{
+		ID(14);
+		Header("&WhatsNew_Drop8_Header_Main&");
+		Date("&WhatsNew_Drop8_Date&");
+		Image("WhatsNew_Drop8_Image1");
+		Paragraph("&WhatsNew_Drop8_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop8_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop8_Paragraph_3&");
+	}
+	Update("&WhatsNew_Drop9_Header_Main&")
+	{
+		ID(15);
+		Header("&WhatsNew_Drop9_Header_Main&");
+		Date("&WhatsNew_Drop9_Date&");
+		Image("WhatsNew_Drop9_Image1");
+		Paragraph("&WhatsNew_Drop9_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop7_Mask&");
+	}
+	Update("&WhatsNew_Drop10_Header_Main&")
+	{
+		ID(16);
+		Header("&WhatsNew_Drop10_Header_Main&");
+		Date("&WhatsNew_Drop10_Date&");
+		Image("WhatsNew_Drop10_Image1");
+		Paragraph("&WhatsNew_Drop10_Paragraph_1&");
+		Paragraph("&WhatsNew_Drop10_Paragraph_2&");
+		Paragraph("&WhatsNew_Drop10_Paragraph_3&");
+		Paragraph("&WhatsNew_Video&");
+		
+		Movie("dl_drop_badlands");
+	}
+	
+	Update("&WhatsNew_Sticky_Header&")
+	{
+		ID(17);
+		Header("&WhatsNew_Sticky_Header&");
+		Date("&WhatsNew_Sticky_Date&");
+		LocalizedImage("WhatsNew_Sticky_TlAccount_Image1_EN")
+		{
+			AddImage("En", "WhatsNew_Sticky_TlAccount_Image1_EN");
+			AddImage("Nl", "WhatsNew_Sticky_TlAccount_Image1_NL");
+			AddImage("De", "WhatsNew_Sticky_TlAccount_Image1_DE");
+			AddImage("Fr", "WhatsNew_Sticky_TlAccount_Image1_FR");
+			AddImage("It", "WhatsNew_Sticky_TlAccount_Image1_IT");
+			AddImage("Es", "WhatsNew_Sticky_TlAccount_Image1_ES");
+			AddImage("El", "WhatsNew_Sticky_TlAccount_Image1_EL");
+			AddImage("Ru", "WhatsNew_Sticky_TlAccount_Image1_RU");
+			AddImage("Jp", "WhatsNew_Sticky_TlAccount_Image1_JP");
+			AddImage("Pl", "WhatsNew_Sticky_TlAccount_Image1_PL");
+			AddImage("Br", "WhatsNew_Sticky_TlAccount_Image1_BR");
+			AddImage("Cn", "WhatsNew_Sticky_TlAccount_Image1_CN");
+			AddImage("Ko", "WhatsNew_Sticky_TlAccount_Image1_KO");
+		}
+		Paragraph("&WhatsNew_Sticky_Paragraph_1&");
+	}
+	
+	//Update("&WhatsNew_Demo_DL2_Header_1&")
+	//{
+	//	ID(17);
+	//	Header("&WhatsNew_Demo_DL2_Header_2&");
+	//	Date("27.08.2019");
+	//	LocalizedImage("WhatsNew_OfficialGameplayDemo_color")
+	//	{
+	//		AddImage("En", "WhatsNew_OfficialGameplayDemo_color_EN");
+	//		AddImage("Nl", "WhatsNew_OfficialGameplayDemo_color_NI");
+	//		AddImage("De", "WhatsNew_OfficialGameplayDemo_color_DE");
+	//		AddImage("Fr", "WhatsNew_OfficialGameplayDemo_color_FR");
+	//		AddImage("It", "WhatsNew_OfficialGameplayDemo_color_IT");
+	//		AddImage("Es", "WhatsNew_OfficialGameplayDemo_color_ES");
+	//		AddImage("El", "WhatsNew_OfficialGameplayDemo_color_EL");
+	//		AddImage("Ru", "WhatsNew_OfficialGameplayDemo_color_RU");
+	//		AddImage("Jp", "WhatsNew_OfficialGameplayDemo_color_JP");
+	//		AddImage("Pl", "WhatsNew_OfficialGameplayDemo_color_PL");
+	//		AddImage("Br", "WhatsNew_OfficialGameplayDemo_color_BR");
+	//		AddImage("Cn", "WhatsNew_OfficialGameplayDemo_color_CN");
+	//		AddImage("Ko", "WhatsNew_OfficialGameplayDemo_color_KO");
+	//		AddImage("Tw", "WhatsNew_OfficialGameplayDemo_color_TW");
+	//		AddImage("Th", "WhatsNew_OfficialGameplayDemo_color_TH");
+	//		AddImage("Tr", "WhatsNew_OfficialGameplayDemo_color_TR");
+	//	}
+	//	Paragraph("&WhatsNew_Demo_DL2_Paragraph_1&", true);	
+	//	Paragraph("&WhatsNew_Demo_DL2_Paragraph_2&");	
+	//	OpenURL("http://bit.ly/DyingLight2_Demo_DL1");
+	//	ActionButtonText("&WhatsNew_Demo_DL2_Action_Button&");
+	//}
+	
+	Update("&dlccontent_hellraid_h_1&")
+	{
+		ID(19);
+		Header("&dlccontent_hellraid_h_1&");
+		Date("13.08.2020");
+		Image("splash_hellraid2");
+		Paragraph("&whatsnew_hell_release_p_1&");
+		Paragraph("&whatsnew_hell_release_p_2&");
+		Paragraph("&whatsnew_hell_release_p_3&");
+	}
+	
+	RegisterURL()
+	{
+		AddLocalized("En", "https://dyinglightgame.com/registration?lang=en_EN");
+		AddLocalized("Nl", "https://dyinglightgame.com/registration?lang=en_EN");
+		AddLocalized("De", "https://dyinglightgame.com/registration?lang=de_DE");
+		AddLocalized("Fr", "https://dyinglightgame.com/registration?lang=fr_FR");
+		AddLocalized("It", "https://dyinglightgame.com/registration?lang=it_IT");
+		AddLocalized("Es", "https://dyinglightgame.com/registration?lang=es_ES");
+		AddLocalized("El", "https://dyinglightgame.com/registration?lang=es_ES");
+		AddLocalized("Ru", "https://dyinglightgame.com/registration?lang=ru_RU");
+		AddLocalized("Jp", "https://dyinglightgame.com/registration?lang=jp_JP");
+		AddLocalized("Pl", "https://dyinglightgame.com/registration?lang=pl_PL");
+		AddLocalized("Br", "https://dyinglightgame.com/registration?lang=pt_BR");
+		AddLocalized("Cn", "https://dyinglightgame.com/registration?lang=cn_CN");
+		AddLocalized("Ko", "https://dyinglightgame.com/registration?lang=ko_KR");
+	}
+}

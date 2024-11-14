@@ -1,0 +1,236 @@
+!QuestHub(s)        //name
+!NotPresentOnMap()
+!Position(f, f, f)  //position (x,y,z)
+!Dir(f, f, f)       //dir (x,y,z)
+!SpawnerName(s)     //spawner_name
+!Description(s)     //description
+!Image(s)           //image
+!SaveGames()
+!FastTravel()
+!Respawn()
+!Join()
+!DLCDependency(i)
+!InitialAvailability()
+!SpawnPoint(s)
+!LocationName(s)
+!LocationPicture(s)
+!MapPortal(s)       //name
+!TargetSpawnPoint(s)
+!MapLayerTransform(i, s)
+
+SpawnPoint("MapStart")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_Portal_OldTown_TO_SlumsIntProj")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Sewers_02")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Sewers_01")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_Marker_02")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("Door128::Door")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Elevator_003")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Elevator_002")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Elevator_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("projectmayhem_elevator_CIN_Down::sp_cin_elevator_01_after_04")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("projectmayhem_elevator_CIN_Down::sp_cin_elevator_01_after_03")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("projectmayhem_elevator_CIN_Down::sp_cin_elevator_01_after_02")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("projectmayhem_elevator_CIN_Down::sp_cin_elevator_01_after_01")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("projectmayhem_elevator_CIN_Down::cin_elevator_MovieCenter")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Floor09_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Floor01_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Floor13_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_Marker_01")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Basement_TalkWithMichael")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Basement_01")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("Craftplan_PoisonBlast_beforeDeleted")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_Marker_05")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Floor12_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("cin_door_zombie_MovieCenter")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("sp_CIN_screamer_presentation_after_002")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("sp_CIN_screamer_presentation_after_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("sp_CIN_screamer_presentation_after_003")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("sp_CIN_screamer_presentation_after_004")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem__01")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("sp_CIN_screamer_presentation")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("Door123::Door")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_DemoStart")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("ProjectMayhem_SP_Floor10_001")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+SpawnPoint("POMIESZCZENIE_MOST_I_SKOK")
+{
+    LocationName("slums_int_projmayhem")
+    LocationPicture("save_picture_slums_int_projmayhem")
+}
+
+MapPortal("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown_002")
+{
+    Position(36.075085, 31.023830, -37.824181)
+    TargetSpawnPoint("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown_002")
+}
+
+MapPortal("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown")
+{
+    Position(107.763458, 26.564877, -12.962620)
+    TargetSpawnPoint("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown")
+}
+

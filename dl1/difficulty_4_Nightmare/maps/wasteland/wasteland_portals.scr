@@ -1,0 +1,4 @@
+sub portals_wasteland()
+{
+    Portal("Portal_Wasteland_To_WastelandFinal", "wasteland", "wasteland_final", "MapStart");
+}

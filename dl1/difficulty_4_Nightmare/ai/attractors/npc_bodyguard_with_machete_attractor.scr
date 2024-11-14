@@ -1,0 +1,40 @@
+!include("ai_data.def")
+!include("ai_timing.def")
+
+!include("ai_goals.def")
+
+EnemyRadius(5)
+ShortHeadRotation()
+StrongAttractor()
+InteractionDist(4)
+PeriodBtwSpecialAnims(10)
+SnapDist(2)
+ReleaseDist(3)
+InteractionLevel(4)
+User("Man")
+
+Usage("ENCOUNTER")
+Usage("AI_USAGE_SYSTEM")
+Usage("VIRTUAL_ATTRACTOR")
+
+Slot("", 1, 1, 1, 0, 0, 0, 0, 0, 1, 1.5)
+{
+    DynamicMesh("wn_machete_a.msh", "R_HandHolder", "holder", "default", 1)
+    AiTypeDataSet("human")
+    {
+        Data("idle:standing:none:stand:none:none:none", -2, "m_npc_melee_fighter_01_idle", -1, 1)
+        Data("idle:standing:none:special:none:none:none", -2, "m_npc_melee_fighter_01_special", -1, 1)
+        Data("idle:standing:none:idle:none:none:none", -2, "m_npc_melee_fighter_01_idle", -1, 1)
+        Data("idle:standing:none:interact:none:none:none", -2, "m_npc_melee_fighter_01_idle", -1, 1)
+        Data("idle:standing:none:from_interact:none:none:none", -2, "m_npc_melee_fighter_01_back_to_position", -1, 1)
+        Data("idle:standing:none:to_interact:none:none:none", -2, "m_npc_melee_fighter_01_step_back", -1, 1)
+    }
+	
+	DiscardOn(GoalAttack)
+	DiscardOn(GoalReactOnBurn)
+	DiscardOn(GoalReactOnElectrocution)
+	DiscardOn(GoalReactOnPoison)
+	DiscardOn(GoalReactOnHit)
+	DiscardOn(GoalChangeAlarmLevel)
+}
+

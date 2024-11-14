@@ -1,0 +1,49 @@
+!include("ai_method.def")
+
+//react on plr low stamina
+Method(ReactOnPlrLowStamina)
+
+//die
+Method(PrimeDie)
+
+// run away
+Method(HideInCrowd)
+Method(RunAwayBasedOnNavMesh)
+Method(PrimeRunBasedOnCrowdPos)
+
+// react_on_hit
+//Method(PrimeReactOnHit)
+Method(ReactOnHitWithKnockDown)
+Method(ReactOnHitWithCounterAttack)
+Method(ZombieReactOnHitWithPain)
+
+// react_on_finisher
+Method(ZombieReactOnFinisher)
+
+// reach
+Method(MoveTo)
+
+// keep_alive
+Method(TurnToHostileSound)
+Method(FocusOnPotentialEnemy)
+Method(ReachForcedInvisibleTarget)
+Method(WaitForStinger)
+Method(InvestigatePlayerInVisibilityCone)
+Method(ObservePlayerInVisibilityCone)
+Method(TurnToPlayerInVisibilityCone)
+Method(ReactAfterTransformation)
+Method(TurnToSuspiciousLocation)
+Method(InvestigateSuspiciousPlace)
+Method(PatrolWhenIlluminatedByFlashlight)
+Method(PatrolBasedOnPatrolPath)
+Method(PatrolAndGeneratePathBasedOnPOI)
+Method(PatrolAndGeneratePath)
+//Method(Patrol)
+Method(Loiter)
+Method(Idle)
+
+// use_attractor
+Method(UseAttractor)
+
+// react on danger
+Method(ReactOnDanger)

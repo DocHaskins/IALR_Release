@@ -1,0 +1,8 @@
+sub portals_slums_interior_a()
+{
+    Portal("BringGalib_MP_SlumsInterior_TO_Slums_02", "slums_interior_a", "slums", "BringGalib_SP_SlumsInterior_TO_Slums_02");
+    Portal("portal_slums_interior_a_to_slums_perfectmurder01", "slums_interior_a", "slums", "portal_slums_interior_a_to_slums_perfectmurder01_sp");
+    Portal("BringGalib_MP_SlumsInterior_TO_Slums", "slums_interior_a", "slums", "BringGalib_SP_SlumsInterior_TO_Slums");
+    Portal("DeathNote_MP_SlumsInterior_TO_Slums_002", "slums_interior_a", "slums", "DeathNote_SP_SlumsInterior_TO_Slums_002");
+    Portal("DeathNote_MP_SlumsInterior_TO_Slums_001", "slums_interior_a", "slums", "DeathNote_SP_SlumsInterior_TO_Slums_001");
+}

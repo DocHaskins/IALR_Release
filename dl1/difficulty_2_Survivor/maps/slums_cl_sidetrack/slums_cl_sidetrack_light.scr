@@ -1,0 +1,15 @@
+// TimeWeather(time [0-24), weather [0-1])
+
+sub main()
+{
+	Group(0)
+	{
+		TimeWeather( 5.0, 0.2);
+		TimeWeather( 7.5, 0.2);
+		TimeWeather( 9.0, 0.2);
+		TimeWeather(18.0, 0.2);
+		TimeWeather(19.5, 0.2);
+		TimeWeather(22.0, 0.2);
+	}
+	Bounces(3);
+}

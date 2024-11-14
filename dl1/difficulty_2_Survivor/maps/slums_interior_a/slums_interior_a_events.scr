@@ -1,0 +1,105 @@
+!include("common_events.scr")
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//EVENTS
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  Event("AirDrop")
+//  {
+//  	Type("AIR_DROP")
+//
+//  	Category("Time")
+//  	DayTimeCondition(19.25)    // godzina wystepowania - uwaga po kropce nie sa minuty tylko ulamek godziny tzn 19:15 powinna byc zapisana jako 19.25
+//
+//  	Category("Frequency")
+//  	TimeBtw(100.)			    // time btw event radnomize [s]
+//  	Probability(30)			// prawdopodobienstwo ze wylosuje sie event [%]
+//
+//  	CreatePlace("Air_Drop_Place")
+//  	{
+//		    Condition("place of discharge", 0.5)
+//  		Condition("air drop", 1.)
+//		
+//  		DistanceFrom("Player", 125., 250.)				//optymalna odleglosc od innego punktu - nazwa "Player" uzywana do okreslenia aktualnej pozycji gracza
+//  	}
+//
+//  	CreatePlace("Punk_Hideout_Place")
+//  	{
+//  		Condition("hideout", 1.)
+//
+//  		DistanceFrom("Air_Drop_Place", 100., 300.)			//optymalna odleglosc od innego punktu
+//  	}
+//
+//  	Action()
+//  	{
+//  		AirDrop()
+//  		{
+//  			UsePlace("Air_Drop_Place")
+//			
+//  			PlaneMeshAndSound("ve_hercules_a.msh", "airplane_hercules_passing.wav", 16.)
+//  			ParcelMesh("military_cargo_a.msh")
+//			
+//  			ParachuteMesh("ve_parachute_a.msh")
+//  			ParachuteLandingAnim("landing")
+//  			ParachuteDropStartAnim("drop_seq")
+//  			TimeAndDistToMugging(800., 25.) //czas i dystans do ograbienia skrzyni
+//
+//			
+//  			TrayMesh("military_cargo_b.msh")
+//  			ItemContinerMesh("military_box_a.msh", [0.488892, 0.211380, 0.234924],   [0.000000, 53.000015, 0.000000])
+//  			ItemContinerMesh("military_box_a.msh", [-0.167236, 0.659706, -0.230927], [-0.971390, -36.217014, 30.917274])
+//  			ItemContinerMesh("military_box_a.msh", [1.760803, 0.097336, 0.467224],   [79.633415, 68.637077, -78.961716])
+//			
+//  			NoItems(1, 3)  //liczba przedmiotow ktore maja sie pojawic
+//			
+//  			Item("Melee_AxeGen", 5)  //prawdodobienstwo wystapienia przedmiotu - wazone
+//  			Item("Melee_MacheteGen", 5)  //prawdodobienstwo wystapienia przedmiotu - wazone
+//  			Item("Medkit_HealthPackMedium", 10)  //prawdodobienstwo wystapienia przedmiotu - wazone
+//  		}
+//  	}
+//  }
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  Event("Prime Hunting")
+//  {
+//  	Type("PRIME_HUNTING")
+//  	TimeBtw(100.)			    // time btw event radnomize [s]
+//  	Probability(30)			// prawdopodobienstwo ze wylosuje sie event [%]
+//
+//  	CreateSpawnPlace("Spawn_Point", "Prime")
+//  	{
+//  		DistanceFrom("Player", 30., 40.)				
+//  	}
+//
+//  	CreatePlacesPool("Graph_Node", 5)
+//  	{
+//  		Condition("vprime node", 1.)
+//  		DistanceFrom("Spawn_Point", 50., 100.)				
+//  	}
+// 
+//  	Action()
+//  	{
+//  		Hunting()
+//  		{
+//  			Preset("Prime")
+//  			SetTargetPool("Graph_Node")
+//  			SetSpawnPlace("Spawn_Point")
+//  			FailDist(55.)
+//  			WaitingTime(1.5)
+//  			Loot("CraftPart_Diamonds")
+//  		}
+//  	}
+//  }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//GROUPS
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+EventsGroup("Air_Events")
+{
+	BlockGroup()
+	AddEvent("AirDrop")
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//RESOURCES
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

@@ -1,0 +1,121 @@
+!include("common_spawn.scr")
+
+//Warning: 
+// 1. Common settings should be moved to common_spawn.scr script file!
+// 2. Only map specific params can be added here.
+
+///////////////////////////////////////////////////////////////////
+//CROWD
+///////////////////////////////////////////////////////////////////
+
+
+
+
+CrowdDynamicPatternLength(100.)
+CrowdDynamicPatternFill(80)
+SetSpawnDistance(100.0)
+CrowdDynamicPatternPeriod(3000.)
+HighDefCrowd()
+SetForceTargetForCrowdOnPlayer()
+
+///////////////////////////////////////////////////////////////////
+//PRESETS
+///////////////////////////////////////////////////////////////////
+
+    PresetDef("Bitter_Arena")
+    {
+        Difficult(7)
+        SpawnCondition("__any__, 1;nav_mesh, -1;t_INIT, -1;p_ROOF, -1;p_INTERIOR, -1")
+        AIPreset("Biter_Man_Fresh;Biter_Woman_Fresh")
+		DiffLvlTableName("Biter_Man;Biter_Woman")
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(0)
+    }
+    PresetDef("NightWalker_Arena")
+    {
+        Difficult(15)
+        AIPreset("Biter_Man;Biter_Woman")
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(1)
+        CanSpawnIntoCrowd(1,"_NW")
+        SarcophagusTime(10.0)
+    }
+    PresetDef("Viral_Init_Arena")
+    {
+        Difficult(15)
+        AIPreset("Viral_Man;Viral_Woman")
+		DiffLvlTableName("Viral_Man;Viral_Woman")
+        SpawnCondition("t_INIT, 0.7;z_INFECTED, 0.7")
+        MinDistBtwZombies(10)
+        ForceTargetType(1)
+        RelativePresets("Suicider_Bomber_Arena")
+        SarcophagusTime(10.0)
+        IgnoreSpawnBlockIntoClearArea()
+    }
+    PresetDef("Suicider_Bomber_Arena")
+    {
+        Difficult(25)
+        AIPreset("RunningBomber")
+        SpawnCondition("t_INIT, 0.7;z_INFECTED, 0.7")
+        MinDistBtwZombies(15)
+        ForceTargetType(1)
+        TimeBtwSpawnZombies(2)
+        RelativePresets("Viral_Init_Arena")
+        SarcophagusTime(10.0)
+        IgnoreSpawnBlockIntoClearArea()
+        OnSpawnSound("suicider_bobmer_spawn_near_ext_00.wav")
+    }
+
+///////////////////////////////////////////////////////////////////
+//POOLS
+///////////////////////////////////////////////////////////////////
+
+    Pool("Bitters")
+    {
+        Type("Start")
+        Preset("Bitter_Arena, 1;")
+    }
+    Pool("NightWalkers")
+    {
+        Type("Transform")
+        Preset("NightWalker_Arena, 3;Viral_Init_Arena, 1;")
+    }
+    Pool("Mix")
+    {
+        Type("Mix")
+        Preset("NightWalker_Arena, 2;Viral_Init_Arena, 6;Suicider_Bomber_Arena, 1;")
+    }
+    Pool("Bomb")
+    {
+        Type("Bomb")
+        Preset("Viral_Init_Arena, 3;Suicider_Bomber_Arena, 3;")
+    }
+
+///////////////////////////////////////////////////////////////////
+//Intensity curves
+///////////////////////////////////////////////////////////////////
+
+IntensityCurve("Arena")
+{
+    BlockCurveResetAfterPlayerDeath()
+
+    PoolType("Start")
+    IntensityKey(5, 0)
+    Wait(60)
+    PoolType("Transform")
+    IntensityKey(5, 40)
+    IntensityKey(5, 30)
+    Wait(40)
+    IntensityKey(5, 60)
+    IntensityKey(5, 30)
+    Wait(60)
+    PoolType("Mix")
+    IntensityKey(5, 90)
+    IntensityKey(5, 50)
+    Wait(60)
+    PoolType("Bomb")
+    IntensityKey(5, 90)
+    Wait(30)
+    IntensityKey(5, 0)
+    Wait(600)
+}

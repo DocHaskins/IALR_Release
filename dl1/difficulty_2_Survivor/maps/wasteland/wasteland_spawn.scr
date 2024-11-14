@@ -1,0 +1,46 @@
+!include("wasteland_pools.scr")
+!include("wasteland_curves.scr")
+!include("wasteland_crowd.scr")
+!include("common_area_pools_and_curves.scr")
+!include("btz_spawn.scr")
+
+///////////////////////////////////////////////////////////////////
+//CROWD
+///////////////////////////////////////////////////////////////////
+
+
+SetPatrolSightRangeMul(4.5)
+SetPatrolYRangeMul(2)
+SetUse360DegVehicleSight()//ustawia 360 stopni widocznosci kiedy gracz w pojezdzie
+SetPatrolConesAreAlwaysVis()//ustawia widocznosc stozkow nawet podczas poscigu
+
+CrowdDynamicPatternLength(100.)
+CrowdDynamicPatternFill(80)
+CrowdDynamicPatternPeriod(3000.)
+
+SetDiffLevelDependentFormPlayerLevels(1)
+SetDiffLevelMod(-8)
+
+SetMaxHeightDiffForCrowdMove(0.2)
+TurnOffScreams()
+SetSpawnDistance(60.0)
+
+HighDefCrowd()
+UseFullShadows()
+
+///////////////////////////////////////////////////////////////////
+//ERROR
+///////////////////////////////////////////////////////////////////
+	Pool("empty")
+    {
+        Type("empty")
+        Preset("Immposible, 10")
+    }
+
+	IntensityCurve("#ERROR")
+	{
+	    UseCondition("Day;Night")
+		PoolType("empty")
+		IntensityKey(100, 0)
+		Wait(300)
+	}

@@ -1,0 +1,4 @@
+!MapSize(s,f,f,f) //level, max_x, max_y, max_z
+
+
+MapSize("wasteland", 0.000000, 0.000000, 0.000000)

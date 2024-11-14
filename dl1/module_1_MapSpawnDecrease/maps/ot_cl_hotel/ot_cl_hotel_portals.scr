@@ -1,0 +1,4 @@
+sub portals_ot_cl_hotel()
+{
+    Portal("Hotel_mapportal", "ot_cl_hotel", "old_town", "sp_old_town_cleansing_Hotel");
+}
