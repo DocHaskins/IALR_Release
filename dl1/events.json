@@ -1,12 +1,3 @@
 {
-    "events": [
-        {
-            "name": "Halloween 2023",
-            "description": "Halloween: Welcome to the first event of IALR. This module is still in development but currently adds Deadly Vampires and killer clowns to the world randomly.",
-            "category": "AI Behavior",
-            "image": "button_events_halloween2023.jpg",
-            "folder": "events_0_Halloween2023",
-            "incompatible": ["WarZones", "Infestation", "Volatiles Begone"]
-        }
-    ]
+    "events": []
 }
