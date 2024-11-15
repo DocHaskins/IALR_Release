@@ -1,4 +1,0 @@
-sub portals_old_town_townhall()
-{
-    Portal("portal_TownHall_To_OldTown", "old_town_townhall", "old_town", "portal_OldTown_To_TownHall");
-}

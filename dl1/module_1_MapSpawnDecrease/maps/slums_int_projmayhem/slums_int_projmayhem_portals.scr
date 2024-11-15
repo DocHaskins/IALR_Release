@@ -1,5 +1,0 @@
-sub portals_slums_int_projmayhem()
-{
-    Portal("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown_002", "slums_int_projmayhem", "old_town", "ProjectMayhem_Portal_SlumsIntProj_TO_OldTown_002");
-    Portal("ProjectMayhem_Portal_SlumsIntProj_TO_OldTown", "slums_int_projmayhem", "old_town", "ProjectMayhem_Portal_SlumsIntProj_TO_OldTown");
-}

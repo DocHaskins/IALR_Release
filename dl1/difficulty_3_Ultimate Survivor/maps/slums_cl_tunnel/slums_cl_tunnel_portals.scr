@@ -1,4 +1,0 @@
-sub portals_slums_cl_tunnel()
-{
-    Portal("portal_exit_slums_cleansing_09_tunnel", "slums_cl_tunnel", "slums", "sp_slums_cleansing_09");
-}

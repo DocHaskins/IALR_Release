@@ -1,5 +1,0 @@
-sub portals_old_town_int_hotel()
-{
-    Portal("portal_OldTownHotel_To_OldTown2", "old_town_int_hotel", "old_town", "portal_OldTown_TO_Hotel2");
-    Portal("portal_OldTownHotel_To_OldTown", "old_town_int_hotel", "old_town", "portal_OldTown_TO_Hotel");
-}

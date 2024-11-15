@@ -1,8 +1,0 @@
-import "inventorystuff.scr" 
-import "ial_settings.mth"
-import "inventory_ial_weapons.scr"
-
-sub main() 
-{
-    use ial_weapons();
-}

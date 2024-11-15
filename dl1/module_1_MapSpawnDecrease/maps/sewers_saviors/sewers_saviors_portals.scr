@@ -1,5 +1,0 @@
-sub portals_sewers_saviors()
-{
-    Portal("Saviors_MP_Sewers_TO_OldTown", "sewers_saviors", "old_town", "Saviors_SP_Sewers_TO_OldTown");
-    Portal("Saviors_MP_Sewers_TO_Slums", "sewers_saviors", "slums", "Saviors_SP_Sewers_TO_Slums");
-}

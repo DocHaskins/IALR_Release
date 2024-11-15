@@ -1,4 +1,0 @@
-sub portals_slums_cl_market()
-{
-    Portal("map_portal_dz_market", "slums_cl_market", "slums", "sp_slums_cleansing_market_01");
-}

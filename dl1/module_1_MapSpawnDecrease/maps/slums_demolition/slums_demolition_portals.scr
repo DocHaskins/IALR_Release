@@ -1,4 +1,0 @@
-sub portals_slums_demolition()
-{
-    Portal("portal_Demolition_TO_Slums", "slums_demolition", "slums", "sp_Demolition_TO_Slums");
-}

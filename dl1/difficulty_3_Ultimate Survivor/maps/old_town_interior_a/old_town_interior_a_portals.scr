@@ -1,7 +1,0 @@
-sub portals_old_town_interior_a()
-{
-    Portal("mp_Motel_Exit", "old_town_interior_a", "old_town", "sp_Motel_Entrance");
-    Portal("portal_KMingdom_Kindergarten_OldTown_Int_A_To_OldTown", "old_town_interior_a", "old_town", "sp_MKingdom_Kindergarten_OldTown_Int_A_To_OldTown");
-    Portal("FanZone_MP_Old_Town_Interior_A_TO_Old_Town", "old_town_interior_a", "old_town", "FanZone_SP_Old_Town_Interior_A_TO_Old_Town");
-    Portal("Ghost_Portal_OldTownInteriorA_TO_OldTown", "old_town_interior_a", "old_town", "Ghost_Portal_OldTownInteriorA_TO_OldTown");
-}

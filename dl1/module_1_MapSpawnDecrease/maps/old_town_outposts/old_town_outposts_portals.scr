@@ -1,5 +1,0 @@
-sub portals_old_town_outposts()
-{
-    Portal("OutPost_Portal_OutPost02_To_OldTown", "old_town_outposts", "old_town", "OutPost_Portal_OutPost02_To_OldTown");
-    Portal("OutPost_Portal_OutPost02b_To_OldTown", "old_town_outposts", "old_town", "OutPost_Portal_OutPost02b_To_OldTown");
-}

@@ -1,4 +1,0 @@
-sub portals_ot_cl_parking()
-{
-    Portal("Police_parking_mapportal", "ot_cl_parking", "old_town", "sp_old_town_cleansing_police_parking");
-}

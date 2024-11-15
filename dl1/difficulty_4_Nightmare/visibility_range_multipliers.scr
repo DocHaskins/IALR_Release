@@ -1,9 +1,0 @@
-// platform(platform_name, visibility range factor, LoD range factor);
-
-sub main()
-{
-    platform("PC10", 15.5, 15.5);
-    platform("PC11", 18.0, 18.0);
-    platform("XBOX1", 2.0, 2.0);
-    platform("PS4", 2.0, 2.0);
-}

@@ -1,7 +1,0 @@
-VarFloat("f_curves_map_v", 139.00000000000000000000)
-VarFloat("f_weather_interior", 1.00000000000000000000)
-VarFloat("f_wind_power", 0.00000000000000000000)
-VarInt("i_lighting_sun_on", 1)
-VarVec3("v_ambient", [0.50196093320846558000, 0.50196093320846558000, 0.50196093320846558000])
-VarVec3("vsunshadowdir", [0.79124003648757935000, 0.57358002662658691000, -0.21201001107692719000])
-VarString("s_env", "env_market.dds")

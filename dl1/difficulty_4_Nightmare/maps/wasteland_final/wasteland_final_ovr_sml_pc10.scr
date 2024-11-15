@@ -1,6 +1,0 @@
-sub skip_mip_levels()
-{
-    res("spc_def") { skipmiplevels(0); }
-
-    default() { skipmiplevels(0); }
-}

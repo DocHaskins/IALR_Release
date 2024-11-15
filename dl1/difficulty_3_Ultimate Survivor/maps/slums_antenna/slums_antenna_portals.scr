@@ -1,5 +1,0 @@
-sub portals_slums_antenna()
-{
-    Portal("Contact_MP_SlumsAntenna_TO_Slums", "slums_antenna", "slums", "Contact_SP_SlumsAntenna_TO_Slums");
-    Portal("Portal_SlumsAntennaToOldTownCanal", "slums_antenna", "old_town", "Contact_SP_OldTown_TO_SlumsAntenna_Second");
-}
