@@ -4,7 +4,7 @@
             "name": "IAL Reshade",
             "description": "Created to give a sharper contrast and more depth from the world",
             "category": "Reshade",
-            "image": "button_modules_Warzones.jpg",
+            "image": "button_modules_default.jpg",
             "folder": "reshade_1_IALReshade",
             "incompatible": []
         },
