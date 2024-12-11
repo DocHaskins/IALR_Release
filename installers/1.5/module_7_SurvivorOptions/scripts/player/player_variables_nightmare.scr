@@ -14,7 +14,7 @@ sub PlayerVariables()
 
     Param("MeleeWpnDurabilityMulReduce", "1.25");
 
-    Param("HealthRegenerationMaxLevel", "HealthRegenerationMaxLevel_Hard");
+    //Param("HealthRegenerationMaxLevel", "HealthRegenerationMaxLevel_Hard");
    //Param("HealthRegenerationMul", "DefaultRegenHardMul");
 	Param("HealthCriticalLevel", "0.25");
 	Param("MaxAutoRegenHealthPercent", "25");

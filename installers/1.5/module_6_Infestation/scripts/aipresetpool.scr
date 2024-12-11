@@ -19897,13 +19897,13 @@ Pool("AD_Winter_Default_C") //Spiters on ranged
     Preset("Character;Viral_Woman_WinterEvent;Scenario;General")
     Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
     Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     Preset("Character;Biter_Woman_WinterEvent;Scenario;General")
     
     Tag("Range")
     {
-    Preset("Character;Spitter;Scenario;General")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     } 
     
     Tag("Special")
@@ -19924,7 +19924,7 @@ Pool("AD_Winter_Default_D") //Armored bitters, Screamer and Spitter
     Tag("Range")
     {
     Preset("Character;Screamer;Scenario;General")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     } 
     
     Tag("Special")
@@ -19969,8 +19969,8 @@ Pool("AD_Winter_Default_F") //Armored Biters, Explosive Biters and Spitters
     
     Tag("Range")
     {
-    Preset("Character;Spitter;Scenario;General")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     } 
     
     Tag("Special")
@@ -19992,7 +19992,7 @@ Pool("AD_Winter_Default_G") //Explosive Biter, Banshee,and Spitter
     Tag("Range")
     {
     Preset("Character;Banshee;Scenario;Special_Infected")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     } 
     
     Tag("Special")
@@ -20097,8 +20097,8 @@ Pool("AD_Winter_Default_Hard_B") //Hard Encounter with Banshee, Spitters and Arm
     
     Tag("Range")
     {
-    Preset("Character;Spitter;Scenario;General")
-    Preset("Character;Spitter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
+    Preset("Character;Spitter_Winter;Scenario;General")
     } 
     
     Tag("Special")
@@ -22332,7 +22332,7 @@ Pool("Virals_JumpScare_Reinforcement_Pool")
 
 Pool("Viral_Rush_Reinforcement_Pool")
 {
-	PresetWeighted("Character;Viral_Sun_Immune", 54)
+	PresetWeighted("Character;Viral_Sun_Immune", 34)
 	PresetWeighted("Character;Suicider", 18)
 	PresetWeighted("Character;Banshee_Weak", 4)
 	PresetWeighted("Character;Viral_Armored_Sun_Immune", 4)

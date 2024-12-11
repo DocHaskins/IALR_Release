@@ -824,6 +824,10 @@
 	<property name="EnemyAffectedByFreezeDamageMulFactor" value_add ="0.01"/>
 </buff>
 
+<buff id="Affix_Outfit_Enemy_Affected_By_Burning_Damage_Buff" duration="-1" max_stacks="100" serialize_on_save="false" >
+	<property name="EnemyAffectedByBurningDamageMulFactor" value_add ="0.01"/>
+</buff>
+
 <buff id="Affix_Weapon_Electric_Mods_Damage_Buff" duration="-1" max_stacks="100" serialize_on_save="false" >
 	<property name="ElectricModsDamageMulFactor" value_add ="0.01"/>
 </buff>
@@ -2567,8 +2571,10 @@
 <buff id="WinterBoon_Jump" duration="180" max_stacks="1" apply_behaviour="ResetDuration"  serialize_on_save="false">
     <property name="NormalHoldJumpTime" value_add="0.7"/>
 	<property name="AdvancedParkourNormalHoldJumpTime" value_add="0.7"/>
-	<property name="HarmfulHeight" value_add="0.8"/>
-    <property name="LethalHeight" value_add="0.8"/>
+	<property name="HarmfulHeight" value_add="10.0"/>
+    <property name="LethalHeight" value_add="10.0"/>
+	<property name="AmortizedLethalHeight" value_add="10.0"/>
+    <property name="AmortizedHarmfulHeight" value_add="10.0"/>
 	<sound t="0.1" event="player_winter_buff_01_start"/>
 	<sound is_end_event="true" event="player_winter_buff_01_end"/>
 	
@@ -2590,6 +2596,24 @@
 
 <buff_random_group name="WinterBoon_Demolishers" sample_count="1">
     <buff id="WinterBoon_XP" weight="1.0"/>
+</buff_random_group>
+
+<buff id="WinterBoon_Ranged" duration="180" max_stacks="3" apply_behaviour="ResetDuration"  serialize_on_save="true">
+
+	<property name="RangedReloadSpeedMul" value_mul="-0.067"/>
+	<property name="BowAndCrossbowDamageMul" value_add="0.15"/>
+	<property name="FirearmDamageMul" value_add="0.15"/>
+	<property name="NoBulletConsumptionChance" value_add="0.15"/>
+    <property name="NoArrowConsumptionChance" value_add="0.15"/>
+    <property name="NoBoltConsumptionChance" value_add="0.15"/>
+	<sound t="0.1" event="player_winter_buff_01_start"/>
+	<sound is_end_event="true" event="player_winter_buff_01_end"/>
+	
+	<hud_icon val="buff_ranged"/>
+</buff>
+
+<buff_random_group name="WinterBoon_Spitters" sample_count="1">
+    <buff id="WinterBoon_Ranged" weight="1.0"/>
 </buff_random_group>
 
 <buff id="Dropkick_buff" duration="7200" max_stacks="1" apply_behaviour="ResetDuration" serialize_on_save="true">

@@ -1479,6 +1479,70 @@ sub appearances()
             ID(129);
         }
         
+        Appearance("Krampus")
+        { 
+            ModelFpp("player_outfit_krampus_fpp.model");
+            ModelTpp("player_outfit_krampus_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_krampus");
+			Category(0);
+            HasCustomUnlockRequirements();
+            ID(130);
+        }
+
+        Appearance("SnakeWarrior")
+        { 
+            ModelFpp("player_outfit_snake_warrior_fpp.model");
+            ModelTpp("player_outfit_snake_warrior_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_snakewarrior");
+			Category(0);
+            StoreID(376);
+            ID(131);
+        }
+
+        Appearance("Evil_Elf_VC")
+        { 
+            ModelFpp("player_outfit_evil_elf_fpp.model");
+            ModelTpp("player_outfit_evil_elf_tpp.model");
+            OverridesOutfit(true);
+            AttachFX("L_Reburn_Bracer_FX_01", "evil_elf_snowflake");
+            AttachFX("L_Reburn_Bracer_FX_02", "evil_elf_snowflake");
+            AttachFX("R_Reburn_Bracer_FX_01", "evil_elf_snowflake");
+            AttachFX("R_Reburn_Bracer_FX_02", "evil_elf_snowflake");
+			Color("Orange");
+            Image("Outfit_Evil_Elf");
+			StoreID(391);
+			Category(0);
+            ID(132);
+        }
+        
+        Appearance("Ranger")
+        { 
+            ModelFpp("player_outfit_ranger_a_fpp.model");
+            ModelTpp("player_outfit_ranger_a_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_ranger");
+            HasCustomUnlockRequirements();
+			Category(0);
+            ID(133);
+        }
+
+        Appearance("SnakeWarrior_docket")
+        { 
+            ModelFpp("player_outfit_snake_warrior_fpp.model");
+            ModelTpp("player_outfit_snake_warrior_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_snakewarrior");
+			Category(0);
+            HasCustomUnlockRequirements();
+            ID(134);
+        }
+        
         Appearance("Halloween_Clown_Under")
         { 
             ModelFpp("player_fpp_halloween_01_skeleton.model");
@@ -3232,6 +3296,41 @@ sub appearances()
 			}
         }
 
+        Variant("Parachute_Backpack_Krampus")
+        {
+            Mesh(1, "player_backpack_a_krampus.msh")
+			{
+			}
+	        Mesh(2, "player_backpack_a_krampus.msh")
+			{
+			}
+	        Mesh(3, "player_backpack_a_krampus.msh")
+			{
+			}
+        }
+
+        Variant("Parachute_Backpack_SnakeWarrior")
+        {
+           Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_snake_warrior.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_snake_warrior.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_snake_warrior.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "null.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+
 	}
 
     OutfitAddon("ShieldHolder")
@@ -3325,7 +3424,7 @@ sub appearances()
 		AffixBoost(60.0);
 	}
 	
-	OutfitSet("MischieviousHelper")
+	OutfitSet("MischievousHelper")
 	{
 		Torso("Outfitset_WinterEvent_Evil_Elf_Torso");
 		Legs("Outfitset_WinterEvent_Evil_Elf_Legs");
@@ -3347,6 +3446,17 @@ sub appearances()
 		TorsoAddon("Outfitset_TolgaFatin_TorsoAddon");
 		AffixGroupBoost("Outfits_tif_set_Affixes");
 		AffixBoost(50.0);
+	}
+
+    OutfitSet("Krampus")
+	{
+		Torso("Outfitset_Krampus_Torso");
+		Legs("Outfitset_Krampus_Legs");
+		Shoes("Outfitset_Krampus_Shoes");
+		Head("Outfitset_Krampus_Head");
+		Gloves("Outfitset_Krampus_Gloves");
+		TorsoAddon("Outfitset_Krampus_TorsoAddon");
+        Skill("krampus_gearset_throw_item");
 	}
 	
 	//LoadoutUnlockCost(1, 10); //index, cost
@@ -3404,9 +3514,10 @@ sub unlock()
     Item("Collectable_Outfit_Acolyte", "PlayerMan1", "Acolyte");
     Item("Collectable_Outfit_Waltz", "PlayerMan1", "Waltz");
     Item("Collectable_Outfit_TolgaFatin", "PlayerMan1", "TolgaFatin");
-    Item("Collectable_Outfit_EvilAiden", "PlayerMan1", "EvilAiden");
     Item("Collectable_Outfit_pilgrimpo", "PlayerMan1", "pilgrimpo");
     Item("Collectable_Outfit_Brecken_DL1_A_seniority", "PlayerMan1", "Brecken_DL1_A");
     Item("Collectable_Outfit_BreckenDark_B", "PlayerMan1", "BreckenDark_B_docket");
     Item("Collectable_Outfit_Vanaiden", "PlayerMan1", "VanAiden");
+    Item("Collectable_Outfit_Krampus", "PlayerMan1", "Krampus");
+    Item("Collectable_Outfit_SnakeWarrior_docket", "PlayerMan1", "SnakeWarrior_docket");
 }

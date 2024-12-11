@@ -4900,6 +4900,43 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
+    Preset("Spitter_Winter_Level_1", "Spitter_Level_1")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_2", "Spitter_Level_2")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_3", "Spitter_Level_3")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_4", "Spitter_Level_4")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_5", "Spitter_Level_5")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_6", "Spitter_Level_6")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_7", "Spitter_Level_7")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_8", "Spitter_Level_8")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_9", "Spitter_Level_9")
+    {
+    
+    }
+
 
     Preset("TR_Suicider_Level_9", "Suicider_Level_9")
     {
@@ -7912,141 +7949,3 @@ sub RumbleFightsGenericDifficultyPresets()
 
 }
 
-sub ForHonorDifficultyPresets()
-{
-    Preset("For_Honor_Samurai_Level_1", "Renegade_Two_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_1");
-    }
-
-    Preset("For_Honor_Samurai_Level_2", "Renegade_Two_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_2");
-    }
-
-    Preset("For_Honor_Samurai_Level_3", "Renegade_Two_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_3");
-    }
-
-    Preset("For_Honor_Samurai_Level_4", "Renegade_Two_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_4");
-    }
-
-    Preset("For_Honor_Samurai_Level_5", "Renegade_Two_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_5");
-    }
-
-    Preset("For_Honor_Samurai_Level_6", "Renegade_Two_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_6");
-    }
-
-    Preset("For_Honor_Samurai_Level_7", "Renegade_Two_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_7");
-    }
-
-    Preset("For_Honor_Samurai_Level_8", "Renegade_Two_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_8");
-    }
-
-    Preset("For_Honor_Samurai_Level_9", "Renegade_Two_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_9");
-    }
-
-    Preset("For_Honor_Knight_Level_1", "Renegade_Two_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_1");
-    }
-
-    Preset("For_Honor_Knight_Level_2", "Renegade_Two_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_2");
-    }
-
-    Preset("For_Honor_Knight_Level_3", "Renegade_Two_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_3");
-    }
-
-    Preset("For_Honor_Knight_Level_4", "Renegade_Two_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_4");
-    }
-
-    Preset("For_Honor_Knight_Level_5", "Renegade_Two_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_5");
-    }
-
-    Preset("For_Honor_Knight_Level_6", "Renegade_Two_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_6");
-    }
-
-    Preset("For_Honor_Knight_Level_7", "Renegade_Two_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_7");
-    }
-
-    Preset("For_Honor_Knight_Level_8", "Renegade_Two_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_8");
-    }
-
-    Preset("For_Honor_Knight_Level_9", "Renegade_Two_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_9");
-    }
-
-    Preset("For_Honor_Viking_Level_1", "Renegade_One_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_1");
-    }
-
-    Preset("For_Honor_Viking_Level_2", "Renegade_One_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_2");
-    }
-
-    Preset("For_Honor_Viking_Level_3", "Renegade_One_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_3");
-    }
-
-    Preset("For_Honor_Viking_Level_4", "Renegade_One_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_4");
-    }
-
-    Preset("For_Honor_Viking_Level_5", "Renegade_One_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_5");
-    }
-
-    Preset("For_Honor_Viking_Level_6", "Renegade_One_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_6");
-    }
-
-    Preset("For_Honor_Viking_Level_7", "Renegade_One_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_7");
-    }
-
-    Preset("For_Honor_Viking_Level_8", "Renegade_One_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_8");
-    }
-
-    Preset("For_Honor_Viking_Level_9", "Renegade_One_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_9");
-    }
-
-}

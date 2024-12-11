@@ -13347,6 +13347,14 @@ sub main()
 	{
 		Item("Token_NightrunnerToken");
     }
+	ItemSet("Docket_Community_Torso")
+	{
+		Item("Outfitset_community_Torso");
+    }
+	ItemSet("Docket_Thebeast_Torso")
+	{
+		Item("Outfitset_Thebeast_Torso");
+    }
 	ItemSet("Docket_Resources_Chapter1_Tokenx2")
 	{
 		Item("Nightrunner_Token_Bundle_2");
@@ -13903,6 +13911,11 @@ sub main()
 		Item("Craftplan_charm_volatoy");
     }
 
+	ItemSet("Docket_Charm_Snakewarrior")
+	{
+		Item("Craftplan_charm_snakewarrior");
+    }
+
 	ItemSet("Docket_Brecken_DL1_A_Seniority")
 	{
 		Item("Collectable_Outfit_Brecken_DL1_A_seniority");
@@ -13911,6 +13924,11 @@ sub main()
 	ItemSet("Docket_Paraglider_Seniority")
 	{
 		Item("ToolSkin_Paraglider_Seniority");
+    }
+
+	ItemSet("Docket_Paraglider_SnakeWarrior")
+	{
+		Item("ToolSkin_Paraglider_SnakeWarrior_docket");
     }
 
 	ItemSet("Docket_PilgrimTwitch")
@@ -13942,6 +13960,11 @@ sub main()
 	{
 		Item("wpn_15hs_04_seniority");
     }
+	ItemSet("Docket_Seniority_Knife")
+	{
+		Item("wpn_1hs_knife_i_seniority");
+    }
+
 
 	ItemSet("Docket_SMG_DL1")
 	{
@@ -13953,40 +13976,236 @@ sub main()
 		Item("wpn_sword_gladius");
     }
 
-	// ItemSet("Docket_Ranger_Torso")
-	// {
-	// 	Item("Outfitset_Ranger_Torso");
-    // }
+	ItemSet("Docket_Ranger_Torso")
+	{
+		Item("Outfitset_Ranger_Torso");
+    }
 
-	// ItemSet("Docket_Ranger_Legs")
-	// {
-	// 	Item("Outfitset_Ranger_Legs");
-    // }
+	ItemSet("Docket_Ranger_Legs")
+	{
+		Item("Outfitset_Ranger_Legs");
+    }
 	
-	// ItemSet("Docket_Ranger_Shoes")
-	// {
-	// 	Item("Outfitset_Ranger_Shoes");
-    // }
+	ItemSet("Docket_Ranger_Shoes")
+	{
+		Item("Outfitset_Ranger_Shoes");
+    }
 
-	// ItemSet("Docket_Ranger_Head")
-	// {
-	// 	Item("Outfitset_Ranger_Head");
-    // }
+	ItemSet("Docket_Ranger_Head")
+	{
+		Item("Outfitset_Ranger_Head");
+    }
 
-	// ItemSet("Docket_Ranger_Gloves")
-	// {
-	// 	Item("Outfitset_Ranger_Gloves");
-    // }
+	ItemSet("Docket_Ranger_Gloves")
+	{
+		Item("Outfitset_Ranger_Gloves");
+    }
 
-	// ItemSet("Docket_Ranger_TorsoAddon")
-	// {
-	// 	Item("Outfitset_Ranger_TorsoAddon");
-    // }
+	ItemSet("Docket_Ranger_TorsoAddon")
+	{
+		Item("Outfitset_Ranger_TorsoAddon");
+    }
 
-	// ItemSet("Docket_Ranger_Appearance")
-	// {
-	// 	Item("Collectable_Outfit_Ranger");
-    // }
+	ItemSet("Docket_Snakewarrior_Torso")
+	{
+		Item("Outfitset_Snakewarrior_docket_Torso");
+    }
+
+	ItemSet("Docket_Snakewarrior_Legs")
+	{
+		Item("Outfitset_Snakewarrior_docket_Legs");
+    }
+	
+	ItemSet("Docket_Snakewarrior_Shoes")
+	{
+		Item("Outfitset_Snakewarrior_docket_Shoes");
+    }
+
+	ItemSet("Docket_Snakewarrior_Head")
+	{
+		Item("Outfitset_Snakewarrior_docket_Head");
+    }
+
+	ItemSet("Docket_Snakewarrior_Gloves")
+	{
+		Item("Outfitset_Snakewarrior_docket_Gloves");
+    }
+
+	ItemSet("Docket_Snakewarrior_TorsoAddon")
+	{
+		Item("Outfitset_Snakewarrior_docket_TorsoAddon");
+    }
+	ItemSet("Docket_Snakewarrior_Outfit")
+	{
+		Item("Collectable_Outfit_SnakeWarrior_docket");
+    }
+
+	ItemSet("Docket_Ranger_Appearance")
+	{
+		Item("Collectable_Outfit_Ranger");
+    }
+	ItemSet("Docket_Ranger_Knife")
+	{
+		Item("wpn_1hs_knife_g_ranger");
+    }
+	ItemSet("Docket_Snakewarrior_Weapon")
+	{
+		Item("wpn_1hs_mach_19_snakewarrior");
+    }
+	//krampus
+	
+	ItemSet("Docket_Krampus_Torso")
+	{
+		Item("Outfitset_Krampus_Torso");
+    }
+
+	ItemSet("Docket_Krampus_Legs")
+	{
+		Item("Outfitset_Krampus_Legs");
+    }
+	
+	ItemSet("Docket_Krampus_Shoes")
+	{
+		Item("Outfitset_Krampus_Shoes");
+    }
+
+	ItemSet("Docket_Krampus_Head")
+	{
+		Item("Outfitset_Krampus_Head");
+    }
+
+	ItemSet("Docket_Krampus_Gloves")
+	{
+		Item("Outfitset_Krampus_Gloves");
+    }
+
+	ItemSet("Docket_Krampus_TorsoAddon")
+	{
+		Item("Outfitset_Krampus_TorsoAddon");
+    }
+	ItemSet("Docket_Krampus_Outfit")
+	{
+		Item("Collectable_Outfit_Krampus");
+    }
+	ItemSet("Docket_Krampus_Weapon")
+	{
+		Item("wpn_2hs_krampus");
+    }
+	//vanaiden
+	ItemSet("Docket_Vanaiden_Knife")
+	{
+		Item("wpn_sword_vanaiden");
+    }
+	ItemSet("Docket_Vanaiden_Sword")
+	{
+		Item("wpn_15hs_l_vanaiden");
+    }
+	ItemSet("Docket_Vanaiden_Crossbow_1")
+	{
+		Item("wpn_2hr_crossbow_e_vanaiden");
+    }
+	ItemSet("Docket_Vanaiden_Crossbow_2")
+	{
+		Item("wpn_2hr_crossbow_e_vanaiden");
+    }
+	ItemSet("Docket_Paraglider_Vanaiden")
+	{
+		Item("ToolSkin_Paraglider_Vanaiden");
+    }
+	ItemSet("Docket_Vanaiden_Torso")
+	{
+		Item("Outfitset_Vanaiden_Torso");
+    }
+
+	ItemSet("Docket_Vanaiden_Legs")
+	{
+		Item("Outfitset_Vanaiden_Legs");
+    }
+	
+	ItemSet("Docket_Vanaiden_Shoes")
+	{
+		Item("Outfitset_Vanaiden_Shoes");
+    }
+
+	ItemSet("Docket_Vanaiden_Head")
+	{
+		Item("Outfitset_Vanaiden_Head");
+    }
+
+	ItemSet("Docket_Vanaiden_Gloves")
+	{
+		Item("Outfitset_Vanaiden_Gloves");
+    }
+
+	ItemSet("Docket_Vanaiden_TorsoAddon")
+	{
+		Item("Outfitset_Vanaiden_TorsoAddon");
+    }
+	
+	
+	ItemSet("TR_VendorOnRaid_UseItems")
+    {
+		Item("Throwable_Decoy_Upgrade7");
+		Item("Throwable_Molotov_Upgrade7");
+		Item("Throwable_ExplosiveGrenade_Upgrade7");
+		Item("Mine_Explosive_Upgrade7");
+		Item("Remote_Explosive_Upgrade7");
+		Item("Potion_DamageReduction_Upgrade7");
+		Item("Potion_HealthRegeneration_Upgrade7");
+		Item("Potion_DamageDealtIncrease_Upgrade7");
+		Item("Throwable_Decoy_Upgrade7");
+		Item("Medkit_Small_Upgrade4");
+		Item("Medkit_Large");
+		Item("LockpickItem_Upgrade7");
+		Item("Potion_Rage_Upgrade7");
+	}
+	
+	ItemSet("TR_VendorOnRaid_UseItems_Rare")
+    {
+		Item("UV_Flare_Upgrade7");
+		Item("Potion_DamageResistance_Poison_Upgrade7");
+		Item("Potion_Antizine_Upgrade7");
+		Item("Foodbar_Gameover_Upgrade2");
+		Item("Large_Ammo_Firearm_Pistol");
+		Item("Large_Ammo_Firearm_SMG");
+		Item("Large_Ammo_Firearm_Rifle");
+		Item("Large_Ammo_Firearm_Shotgun");
+	}
+	
+	ItemSet("TR_VendorOnRaid_LowDuraWeapon")
+    {
+		Item("wpn_1hs_mach_m_LowDurability_T5");
+		Item("wpn_1hs_mach_u_LowDurability_T6");
+		Item("wpn_1hs_axe_b_LowDurability_T7");
+		Item("wpn_1hs_axe_i_LowDurability_T8");
+		Item("wpn_1hb_ham_l_LowDurability_T5");
+		Item("wpn_1hb_stk_a_LowDurability_T6");
+		Item("wpn_1hb_mace_f_LowDurability_T7");
+		Item("wpn_1hb_mace_c_LowDurability_T8");
+		Item("wpn_15hs_f_LowDurability_T5");
+		Item("wpn_15hs_k_LowDurability_T6");
+		Item("wpn_15hs_a_LowDurability_T7");
+		Item("wpn_15hs_c_LowDurability_T8");
+		Item("wpn_15hb_a_LowDurability_T5");
+		Item("wpn_15hb_n_LowDurability_T6");
+		Item("wpn_15hb_c_LowDurability_T7");
+		Item("wpn_15hb_h_LowDurability_T8");
+		Item("wpn_2hs_c_LowDurability_T5");
+		Item("wpn_2hs_d_LowDurability_T6");
+		Item("wpn_2hs_h_LowDurability_T7");
+		Item("wpn_2hs_i_LowDurability_T8");
+		Item("wpn_2hb_g_LowDurability_T5");
+		Item("wpn_2hb_h_LowDurability_T6");
+		Item("wpn_2hb_g_LowDurability_T7");
+		Item("wpn_2hb_h_LowDurability_T8");
+	}
+	
+	ItemSet("TR_VendorOnRaid_InstantUseEffects")
+    {
+		Item("TowerRaidPerk_Session_Insatiable_1");
+		Item("TowerRaidPerk_Session_Reincarnation_1");
+	}
+
 	
 
 	// ItemSet("Docket_EvilElf_Head")

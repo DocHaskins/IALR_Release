@@ -2,1616 +2,10 @@
 //Item(0, "Throwable_ThrowingKnifeAGen") - tier ,  item_name
 import "stash_ialr.scr"
 
-//////IALR MOD COMPATIBILITY\\\\\\\\\\\
-//COPY THE LINES BELOW INTO YOUR MOD\\\
-///_________________________________\\\
-
 sub main()
-{	
-	use ialr_stash();
-
-//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\\
-//Make sure to check the script for other differences, especially IALR_ ones\\\
-//////////////////Cheers\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\	
-
-	DLC_Set("DLC1")
-    {
-        Item(1, "Potion_NightXPBoost");
-        ID(0);
-    }
-
-	DLC_Set("DLC1")
-    {
-        Item(1, "Bundle_Scraps20");
-        ConsumableBundle(true);
-        ID(1);
-    }
-
-    //DLC_Set_With_Cooldown("DLC2", 5400.0)
-    //{
-        //Item(1, "wpn_1hs_axe_c_reload");
-        //ID(2);
-    //}
-
-    //DLC_Set_With_Cooldown("DLC2", 5400.0)
-    //{
-        //Item(1, "wpn_1hs_mach_j_reload");
-        //ID(3);
-    //}
-
-    //DLC_Set_With_Cooldown("DLC3", 5400.0)
-    //{
-        //Item(1, "wpn_1hs_axe_k_legendarynightrunner");
-        //ID(4);
-    //}
-
-    //DLC_Set_With_Cooldown("DLC3", 5400.0)
-    //{
-        //Item(1, "wpn_1hs_mach_b_legendarynightrunner");
-        //ID(5);
-    //}
-
-    DLC_Set("DLC1")
-    {
-        Item(1, "DLC_Bundle_CraftParts");
-        ConsumableBundle(true);
-        ID(6);
-    }
-    
-    DLC_Set("DLC3")
-    {
-        Item(1, "Craftplan_charm_flare");
-        ID(7);
-    }    
-    
-    DLC_Set("DLC3")
-    {
-        Item(1, "Craftplan_charm_best_mom_bucket");
-        ID(8);
-    } 
-	
-
-    //Docket_Set_With_Cooldown("Weapon01", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_mach_c_hussar");
-        //ID(9);
-    //}
-    //Docket_Set_With_Cooldown("Weapon02", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_axe_t_fpp_extinguisher");
-        //ID(10);
-    //}
-    //Docket_Set_With_Cooldown("Weapon03", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_mach_w_fpp_timeout");
-        //ID(11);
-    //}
-    //Docket_Set_With_Cooldown("Weapon04", 18000.0)
-    //{
-        //Item(1, "wpn_2hs_c_fpp_starving_infected");
-        //ID(12);
-    //}
-    //Docket_Set_With_Cooldown("Weapon05", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_axe_u_fpp_scrapslicer");
-        //ID(13);
-    //}
-    Docket_Set_With_Cooldown("Weapon06", 1.0)
-    {
-        Item(1, "wpn_lbow_a_fpp_funkadelic");
-        BlockedByItem("wpn_lbow_a_fpp_funkadelic");
-        ID(14);
-    }
-    //Docket_Set_With_Cooldown("Weapon07", 18000.0)
-    //{
-        //Item(1, "wpn_15hb_k_fpp_mechaslugger");
-        //ID(15);
-    //}
-    //Docket_Set_With_Cooldown("Weapon08", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_axe_r_fpp_tactical_cleaver");
-        //ID(16);
-    //}
-    //Docket_Set_With_Cooldown("Weapon09", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_knuckle_duster_d_fpp_doubledaggers");
-        //ID(17);
-    //}
-	
-    DLC_Set("DLC6")
-    {
-        Item(1, "Outfitset_Tank_Torso_Authority");
-        ID(18);
-    }
-	DLC_Set("DLC6")
-    {
-        Item(1, "Outfitset_Tank_Legs_Authority");
-        ID(19);
-    }
-	DLC_Set("DLC6")
-    {
-        Item(1, "Outfitset_Tank_Shoes_Authority");
-        ID(20);
-    }
-	DLC_Set("DLC7")
-    {
-        Item(1, "Outfitset_Tank_Head_Authority");
-        ID(21);
-    }
-	DLC_Set("DLC7")
-    {
-        Item(1, "Outfitset_Tank_Gloves_Authority");
-        ID(22);
-    }
-	DLC_Set("DLC7")
-    {
-        Item(1, "Outfitset_Tank_TorsoAddon_Authority");
-        ID(23);
-    }
-    //DLC_Set_With_Cooldown("DLC8", 18000.0)
-    //{
-        //Item(1, "wpn_2hb_j_fpp_authority");
-        //ID(24);
-    //}
-	
-	DLC_Set("DLC9")
-    {
-        Item(1, "Outfitset_RangedDPS_Torso_SamuraiSurvivor");
-        ID(25);
-    }
-	DLC_Set("DLC9")
-    {
-        Item(1, "Outfitset_RangedDPS_Legs_SamuraiSurvivor");
-        ID(26);
-    }
-	DLC_Set("DLC9")
-    {
-        Item(1, "Outfitset_RangedDPS_Shoes_SamuraiSurvivor");
-        ID(27);
-    }
-	DLC_Set("DLC10")
-    {
-        Item(1, "Outfitset_RangedDPS_Head_SamuraiSurvivor");
-        ID(28);
-    }
-	DLC_Set("DLC10")
-    {
-        Item(1, "Outfitset_RangedDPS_Gloves_SamuraiSurvivor");
-        ID(29);
-    }
-	DLC_Set("DLC10")
-    {
-        Item(1, "Outfitset_RangedDPS_TorsoAddon_SamuraiSurvivor");
-        ID(30);
-    }
-    //DLC_Set_With_Cooldown("DLC11", 18000.0)
-    //{
-        //Item(1, "wpn_15hs_m_fpp_wisekatana");
-        //ID(31);
-    //}
-    Collectable_Set_With_Cooldown("Craftplan_PKCrossbow", 1.0)
-    {
-        Item(1, "wpn_2hr_crossbow_b_fpp");
-        BlockedByItem("wpn_2hr_crossbow_b_fpp");
-        ID(32);
-    }
-	//Collectable_Set_With_Cooldown("Craftplan_ITEM_goon_event", 36000.0)
-    //{
-        //Item(1, "wpn_2hb_d_goon_event");
-        //ID(33);
-    //}
-    //Docket_Set_With_Cooldown("Weapon11", 36000.0)
-    //{
-        //Item(1, "wpn_2hs_g_dragon_boat");
-        //ID(34);
-    //}
-    //Docket_Set_With_Cooldown("Weapon12", 36000.0)
-    //{
-        //Item(1, "wpn_2hs_g_ancestral_dragon_boat");
-        //ID(35);
-    //}
-   // Docket_Set_With_Cooldown("Weapon13", 36000.0)
-    //{
-        //Item(1, "wpn_2hs_e_AxeCutter");
-        //ID(36);
-    //}
-    //DLC_Set_With_Cooldown("DLC_OperaPreorder", 18000.0)
-    //{
-		//Item(1, "wpn_15hs_o_aristocrat");
-        //ID(37);
-    //}
-	/*
-    Docket_Set_With_Cooldown("Weapon14", 36000.0)
-    {
-        Item(1, "wpn_15hb_a_fpp_prodder");
-        ID(38);
-    }*/
-    //Docket_Set_With_Cooldown("Weapon15", 36000.0)
-    //{
-        //Item(1, "wpn_2hb_a_fpp_Rebarbar");
-        //ID(39);
-    //}
-    //Docket_Set_With_Cooldown("Weapon16", 36000.0)
-    //{
-        //Item(1, "wpn_1hb_mace_d_FelineClaw");
-        //ID(40);
-    //}
-    //DLC_Set_With_Cooldown("DLC_HalloweenClown", 18000.0)
-    //{
-        //Item(1, "wpn_15hb_o_halloween");
-        //ID(41);
-    //}
-	//Docket_Set_With_Cooldown("Weapon17", 18000.0)
-    //{
-        //Item(1, "wpn_2hb_o_fpp_Winter");
-        //ID(42);
-	//}
-    DLC_Set("DLC_NutcrackerBundle")
-    {
-        Item(1, "wpn_1hs_mach_c_nut");
-        ID(43);
-    }
-	Collectable_Set_With_Cooldown("Craftplan_CarnageManica", 1.0)
-    {
-        Item(1, "Craftplan_PlayerShield_Blueprint");
-        BlockedByItem("Craftplan_PlayerShield_Blueprint");
-        ID(44);
-    }
-    DLC_Set("DLC_RaisSkinBundle")
-    {
-        Item(1, "wpn_1hs_mach_rais");
-        ID(45);
-    }
-    //DLC_Set_With_Cooldown("DLC_BreckenSkinBundle", 18000.0)
-    //{
-        //Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
-        //ID(46);
-    //}
-    // DLC_Set("DLC_CraneSkinBundle")
-    // {
-    //     Item(1, "wpn_15hb_u_crane_bat");
-	// 	BlockedByItem("Craftplan_SpectralBaseballBat_Common");
-    //     ID(47);
-    // }
-	//Docket_Set_With_Cooldown("Weapon18", 18000.0)
-    //{
-        //Item(1, "wpn_1hs_mach_rais");
-        //BlockedByItem("ToolSkin_Paraglider_Rais_DLC");
-        //ID(48);
-	//}
-	//Docket_Set_With_Cooldown("Weapon19", 18000.0)
-    //{
-        //Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
-        //BlockedByItem("ToolSkin_Paraglider_Brecken_DLC");
-        //ID(49);
-	//}
-	//Docket_Set_With_Cooldown("Weapon21", 18000.0)
-    //{
-        //Item(1, "wpn_15hb_u_crane_bat");
-        //BlockedByItem("ToolSkin_Paraglider_Crane_DLC");
-        ///ID(50);
-	//}
-	DLC_Set("DLC_ChickenSkinBundle")
-    {
-        Item(1, "wpn_2hs_n_chicken");
-        ID(51);
-    }
-	//Docket_Set_With_Cooldown("Weapon22", 18000.0)
-    //{
-        //Item(1, "wpn_2hs_n_chicken");
-        //BlockedByItem("ToolSkin_Paraglider_Chicken_DLC");
-        //ID(52);
-	//}
-	//DLC_Set_With_Cooldown("DLC_MilitaryBundle", 5400.0)
-    //{
-        //Item(1, "wpn_1hs_axe_r_fpp_tactical_cleaver_DLC");
-        //ID(53);
-    //}
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Torso_Military_DLC");
-        ID(54);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Legs_Military_DLC");
-        ID(55);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Shoes_Military_DLC");
-        ID(56);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Head_Military_DLC");
-        ID(57);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Gloves_Military_DLC");
-        ID(58);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_TorsoAddon_Military_DLC");
-        ID(59);
-    }	
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "wpn_1hs_axe_u_fpp_scrapslicer_DLC");
-        ID(60);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Torso_PostApo_DLC");
-        ID(61);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Legs_PostApo_DLC");
-        ID(62);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Shoes_PostApo_DLC");
-        ID(63);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Head_PostApo_DLC");
-        ID(64);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_Gloves_PostApo_DLC");
-        ID(65);
-    }	
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Outfitset_MeleeDPS_TorsoAddon_PostApo_DLC");
-        ID(66);
-    }		
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "wpn_2hs_e_AxeCutter_DLC");
-        ID(67);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_bracers_DLC");
-        ID(68);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_gloves_DLC");
-        ID(69);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_headwear_DLC");
-        ID(70);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_shoes_DLC");
-        ID(71);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_legs_DLC");
-        ID(72);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "outfit_nightrunner_torso_DLC");
-        ID(73);
-    }	
-	DLC_Set("DLC_SkullfaceBundle")
-    {
-        Item(1, "wpn_1hs_mach_y_opera_dlc");
-        ID(74);
-    }
-	DLC_Set("DLC_SkullfaceBundle")
-    {
-        Item(1, "outfit_skullface_helmet_old_DLC");
-        ID(75);
-    }
-	DLC_Set("DLC_SkullfaceBundle")
-    {
-        Item(1, "outfit_skullface_helmet_normal_DLC");
-        ID(76);
-    }
-	DLC_Set("DLC_SkullfaceBundle")
-    {
-        Item(1, "outfit_skullface_helmet_champion_DLC");
-        ID(77);
-    }
-	
-	DLC_Set("DLC_GunslingerOutfit")
-    {
-        Item(1, "Gunslinger_DLCBundle");
-        ID(78);
-    }
-	
-	DLC_Set("DLC_RahimOutfit")
-    {
-        Item(1, "ViralRush_DLCBundle");
-        ID(79);
-    }
-    
-    Collectable_Set_With_Cooldown("Collectable_ITEM_TWD_Issue01;Collectable_ITEM_TWD_Issue38;Collectable_ITEM_TWD_Issue48;Collectable_ITEM_TWD_Issue50;Collectable_ITEM_TWD_Issue108;Collectable_ITEM_TWD_Issue128;Collectable_ITEM_TWD_Issue137", 1.0)
-    {    
-        Item(1, "Craftplan_charm_walkingdead");
-        BlockedByItem("Craftplan_charm_walkingdead");
-        ID(81);
-    }
-	
-	DLC_Set("DLC_BloodyNightsPack")
-    {
-        Item(1, "BloodyNights_DLC");
-        ID(82);
-    }
-	
-	DLC_Set("DLC_PaydayPack")
-    {
-        Item(1, "Payday2_WeaponBundle");
-        ID(86);
-    }
-	// DLC_Set("DLC_PaydayPack")
-    // {
-        // Item(1, "Craftplan_Payday2Moneybundle_Common");
-        // ID(87);
-    // }
-	
-	DLC_Set("DLC_PaydayPack")
-    {
-        Item(1, "Craftplan_charm_payday2");
-        ID(88);
-    }
-	
-	DLC_Set("DLC_PaydayPack")
-    {
-        Item(400, "Token_MutationSamples");
-        ID(89);
-    }
-	
-	DLC_Set("DLC_WDeadPack")
-    {
-        Item(1, "WalkingDeadNegan_WeaponBundle");
-        ID(90);
-    }
-	
-	// DLC_Set("DLC_WDeadPack")
-    // {
-        // Item(1, "Craftplan_WalkingDead_Negan_Common");
-        // ID(91);
-    // }
-	
-	DLC_Set("DLC_WDeadPack")
-    {
-        Item(1, "WalkingDeadNeganKnife_WeaponBundle");
-        ID(92);
-    }
-	
-	// DLC_Set("DLC_WDeadPack")
-    // {
-        // Item(1, "Craftplan_WalkingDead_Michonne_Common");
-        // ID(93);
-    // }
-	
-	DLC_Set("DLC_WDeadPack")
-    {
-        Item(1, "WalkingDeadMichone_WeaponBundle");
-        ID(94);
-    }
-	
-	// DLC_Set("DLC_WDeadPack")
-    // {
-        // Item(1, "Craftplan_WalkingDead_NeganKnife_Common");
-        // ID(95);
-    // }
-	DLC_Set("DLC_HalloweenClown")
-	{
-        Item(1, "Craftplan_DyingLaughBat_Common");
-        ID(96);
-    }
-	Docket_Set("Weapon19")
-    {
-        Item(1, "Craftplan_VoltaicWrench_Common");
-		BlockedByItem("ToolSkin_Paraglider_Brecken_DLC");
-        ID(97);
-    }
-	Docket_Set("Weapon21")
-    {
-        Item(1, "Craftplan_SpectralBaseballBat_Common");
-		BlockedByItem("ToolSkin_Paraglider_Crane_DLC");
-        ID(98);
-    }
-	Docket_Set("Weapon22")
-    {
-        Item(1, "Craftplan_ChickenClaw_Common");
-		BlockedByItem("ToolSkin_Paraglider_Chicken_DLC");
-        ID(99);
-    }
-	Docket_Set("Weapon18")
-    {
-        Item(1, "Craftplan_Wolfclaw_Common");
-		BlockedByItem("ToolSkin_Paraglider_Rais_DLC");
-        ID(100);
-	}
-	Docket_Set("Weapon13")
-    {
-        Item(1, "Craftplan_CuttingEdge_Common");
-        ID(101);
-    }
-	DLC_Set("DLC_NutcrackerBundle")
-    {
-        Item(1, "Craftplan_NutcrackerSaber_Common");
-        ID(102);
-    }
-	Collectable_Set("Craftplan_ITEM_goon_event")
-    {
-        Item(1, "Craftplan_GoonSmasher_Common");
-        ID(103);
-    }
-	Docket_Set("Weapon08")
-    {
-        Item(1, "Craftplan_TacticalCleaver_Common");
-        ID(104);
-    }
-	Docket_Set("Weapon05")
-    {
-        Item(1, "Craftplan_ScrapSlicer_Common");
-        ID(105);
-    }
-	DLC_Set("DLC_OperaPreorder")
-    {
-		Item(1, "Craftplan_Aristocrat_Common");
-        ID(106);
-    }
-	DLC_Set("DLC8")
-    {
-        Item(1, "Craftplan_Authority_Common");
-        ID(107);
-    }
-	DLC_Set("DLC3")
-    {
-        Item(1, "Craftplan_LegendaryAxe_Common");
-        ID(108);
-    }
-    DLC_Set("DLC3")
-    {
-        Item(1, "Craftplan_LegendaryMachete_Common");
-        ID(109);
-    }
-	DLC_Set("DLC11")
-    {
-        Item(1, "Craftplan_WiseKatana_Common");
-        ID(110);
-    }
-	DLC_Set("DLC2")
-    {
-        Item(1, "Craftplan_ReloadAxe_Common");
-        ID(111);
-    }
-    DLC_Set("DLC2")
-    {
-        Item(1, "Craftplan_ReloadMachete_Common");
-        ID(112);
-    }
-	Docket_Set("Weapon07")
-    {
-        Item(1, "Craftplan_MechSlugger_Common");
-        ID(113);
-    }
-	Docket_Set("Weapon15")
-    {
-        Item(1, "Craftplan_Rebarbar_Common");
-        ID(114);
-    }
-	Docket_Set("Weapon17")
-    {
-        Item(1, "Craftplan_BaubleMace_Common");
-        ID(115);
-	}
-	Docket_Set("Weapon02")
-    {
-        Item(1, "Craftplan_TheExtinguisher_Common");
-        ID(116);
-    }
-	Docket_Set("Weapon03")
-    {
-        Item(1, "Craftplan_Timeout_Common");
-        ID(117);
-    }
-	Docket_Set("Weapon11")
-    {
-        Item(1, "Craftplan_RagingDragon_Common");
-        ID(118);
-    }
-	DLC_Set("DLC_BreckenSkinBundle")
-    {
-        Item(1, "Craftplan_VoltaicWrench_Common");
-        ID(119);
-    }
-	DLC_Set("DLC_BreckenSkinBundle")
-    {
-        Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
-        ID(120);
-    }
-	DLC_Set("DLC_ChickenSkinBundle")
-    {
-        Item(1, "Craftplan_ChickenClaw_Common");
-        ID(121);
-    }
-	DLC_Set("DLC_RaisSkinBundle")
-    {
-        Item(1, "Craftplan_Wolfclaw_Common");
-        ID(122);
-    }
-	DLC_Set("DLC_NightrunnerBundle")
-    {
-        Item(1, "Craftplan_CuttingEdge_Common");
-        ID(123);
-    }
-	DLC_Set("DLC_MilitaryBundle")
-    {
-        Item(1, "Craftplan_TacticalCleaver_Common");
-        ID(124);
-    }
-	DLC_Set("DLC_PostapoBundle")
-    {
-        Item(1, "Craftplan_ScrapSlicer_Common");
-        ID(125);
-    }
-	Docket_Set("Weapon04")
-    {
-        Item(1, "Craftplan_StarvingInfected_Common");
-        ID(126);
-    }
-	Docket_Set("Weapon09")
-    {
-        Item(1, "Craftplan_DoubleDaggers_Common");
-        ID(127);
-    }
-	Docket_Set("Weapon12")
-    {
-        Item(1, "Craftplan_AncestralDragon_Common");
-        ID(128);
-    }
-	Docket_Set("Weapon16")
-    {
-        Item(1, "Craftplan_FelineClaw_Common");
-        ID(129);
-    }
-	DLC_Set("DLC_SkullfaceBundle")
-    {
-        Item(1, "Craftplan_Skullcut_Common");
-        ID(130);
-    }
-	
-	Docket_Set_With_Cooldown("Weapon28", 1.0)
-    {
-        Item(1, "wpn_2hr_crossbow_b_hakon");
-        BlockedByItem("wpn_2hr_crossbow_b_hakon_dlc");
-		BlockedByItem("wpn_2hr_crossbow_b_hakon");
-        ID(131);
-    }
-		
-	Store_Set(2) 
-	{
-		Item(1, "Outfitset_Samurai_Torso");
-		ID(132);
-	}
-	Store_Set(3) 
-	{
-		Item(1, "Outfitset_Samurai_Legs");
-		ID(133);
-	}
-	Store_Set(4) 
-	{
-		Item(1, "Outfitset_Samurai_Shoes");
-		ID(134);
-	}
-	Store_Set(5) 
-	{
-		Item(1, "Outfitset_Samurai_Head");
-		ID(135);
-	}
-	Store_Set(6) 
-	{
-		Item(1, "Outfitset_Samurai_Gloves");
-		ID(136);
-	}
-	Store_Set(7) 
-	{
-		Item(1, "Outfitset_Samurai_TorsoAddon");
-		ID(137);
-	}
-	Store_Set(8) 
-	{
-		Item(1, "wpn_15hs_u_samurai");
-		ID(138);
-	}
-	Store_Set(9) 
-	{
-		Item(1, "Craftplan_charm_samurai");
-		ID(139);
-	}
-	Store_Set(11) 
-	{
-		Item(1, "wpn_2hp_samurai");
-		ID(140);
-	}
-	Store_Set(12) 
-	{
-		Item(1, "Craftplan_Arrows_Samurai");
-		ID(141);
-	}
-	Store_Set(16) 
-	{
-		Item(1, "wpn_15hs_p_vs");
-		ID(142);
-	}
-	Store_Set(28)
-	{
-		Item(1, "Outfitset_Ninja_Torso");
-		ID(143);
-	}
-	Store_Set(29)
-	{
-		Item(1, "Outfitset_Ninja_Legs");
-		ID(144);
-	}
-	Store_Set(30)
-	{
-		Item(1, "Outfitset_Ninja_Shoes");
-		ID(145);
-	}
-	Store_Set(31)
-	{
-		Item(1, "Outfitset_Ninja_Head");
-		ID(146);
-	}
-	Store_Set(32)
-	{
-		Item(1, "Outfitset_Ninja_Gloves");
-		ID(147);
-	}
-	Store_Set(33)
-	{
-		Item(1, "Outfitset_Ninja_TorsoAddon");
-		ID(148);
-	}
-	Store_Set(35)
-	{
-		Item(1, "Craftplan_charm_ninja");
-		ID(149);
-	}	
-	Store_Set(18)
-	{
-		Item(1, "Outfitset_Reburn_Torso");
-		ID(150);
-	}
-	Store_Set(19)
-	{
-		Item(1, "Outfitset_Reburn_Legs");
-		ID(151);
-	}
-	Store_Set(20)
-	{
-		Item(1, "Outfitset_Reburn_Shoes");
-		ID(152);
-	}
-	Store_Set(21)
-	{
-		Item(1, "Outfitset_Reburn_Head");
-		ID(153);
-	}
-	Store_Set(22)
-	{
-		Item(1, "Outfitset_Reburn_Gloves");
-		ID(154);
-	}
-	Store_Set(23)
-	{
-		Item(1, "Outfitset_Reburn_TorsoAddon");
-		ID(155);
-	}
-	Store_Set(24)
-	{
-		Item(1, "wpn_2hs_o_reburn");
-		ID(156);
-	}
-	Store_Set(44)
-	{
-		Item(1, "wpn_2hs_j_vs");
-		ID(157);
-	}
-	Store_Set(45)
-	{
-		Item(1, "wpn_15hb_r_vs");
-		ID(158);
-	}
-	Store_Set(47)
-	{
-		Item(1, "Outfitset_Tank_Torso");
-		ID(159);
-	}
-	Store_Set(48)
-	{
-		Item(1, "Outfitset_Tank_Legs");
-		ID(160);
-	}
-	Store_Set(49)
-	{
-		Item(1, "Outfitset_Tank_Shoes");
-		ID(161);
-	}
-	Store_Set(50)
-	{
-		Item(1, "Outfitset_Tank_Head");
-		ID(162);
-	}
-	Store_Set(51)
-	{
-		Item(1, "Outfitset_Tank_Gloves");
-		ID(163);
-	}
-	Store_Set(52)
-	{
-		Item(1, "Outfitset_Tank_TorsoAddon");
-		ID(164);
-	}
-	Store_Set(65)
-	{
-		Item(1, "Craftplan_charm_army");
-		ID(165);
-	}
-	Store_Set(54)
-	{
-		Item(1, "wpn_15hs_v_gameover");
-		ID(166);
-	}
-	Store_Set(58)
-	{
-		Item(1, "Outfitset_Army_Torso");
-		ID(167);
-	}
-	Store_Set(59)
-	{
-		Item(1, "Outfitset_Army_Legs");
-		ID(168);
-	}
-	Store_Set(60)
-	{
-		Item(1, "Outfitset_Army_Shoes");
-		ID(169);
-	}
-	Store_Set(61)
-	{
-		Item(1, "Outfitset_Army_Head");
-		ID(170);
-	}
-	Store_Set(62)
-	{
-		Item(1, "Outfitset_Army_Gloves");
-		ID(171);
-	}
-	Store_Set(63)
-	{
-		Item(1, "Outfitset_Army_TorsoAddon");
-		ID(172);
-	}
-	Store_Set(64)
-	{
-		Item(1, "wpn_1hs_mach_03_army");
-		ID(173);
-	}
-	Store_Set(68)
-	{
-		Item(1, "outfit_payday2_headwear_DLC");
-		ID(174);
-	}
-	Store_Set(69)
-	{
-		Item(1, "wpn_1hb_stk_n_payday2");
-		ID(175);
-	}
-	Store_Set(70)
-	{
-		Item(1, "Craftplan_charm_payday2");
-		ID(176);
-	}
-	Store_Set(72)
-	{
-		Item(1, "Craftplan_DoubleTrouble_Common");
-		ID(177);
-	}
-	Store_Set(73)
-	{
-		Item(1, "Craftplan_Razorstorm_Common");
-		ID(178);
-	}
-	Store_Set(74)
-	{
-		Item(1, "Craftplan_Junkyard_Common");
-		ID(179);
-	}
-	Store_Set(75)
-	{
-		Item(1, "Craftplan_Samurai_Common");
-		ID(180);
-	}
-	Store_Set(76)
-	{
-		Item(1, "Craftplan_ReburnAxe_Common");
-		ID(181);
-	}
-	Store_Set(77)
-	{
-		Item(1, "Craftplan_Ninja_Common");
-		ID(182);
-	}
-	Store_Set(78)
-	{
-		Item(1, "Craftplan_ArcadeFury_Common");
-		ID(183);
-	}
-	Store_Set(79)
-	{
-		Item(1, "Craftplan_Army_Common");
-		ID(184);
-	}
-	Store_Set(80)
-	{
-		Item(1, "Craftplan_Payday2Moneybundle_Common");
-		ID(185);
-	}
-	Store_Set(81)
-	{
-		Item(1, "ReBurn_Evolving_Item");
-		ID(186);
-	}
-	Store_Set(82)
-	{
-		Item(1, "GameOver_Evolving_Item");
-		ID(187);
-	}
-	Store_Set(34)
-	{
-		Item(1, "wpn_1hs_axe_v_ninja");
-		ID(188);
-	}
-	Store_Set(85)
-	{
-		Item(1, "wpn_15hs_s_walkingdead");
-		ID(191);
-	}
-	Store_Set(86)
-	{
-		Item(1, "Craftplan_WalkingDead_Michonne_Common");
-		ID(192);
-	}
-	Store_Set(87)
-	{
-		Item(1, "wpn_15hb_w_walkingdead");
-		ID(193);
-	}
-	Store_Set(88)
-	{
-		Item(1, "Craftplan_WalkingDead_Negan_Common");
-		ID(194);
-	}
-	Store_Set(89)
-	{
-		Item(1, "wpn_1hs_mach_04_walkingdead");
-		ID(195);
-	}
-	Store_Set(90)
-	{
-		Item(1, "Craftplan_WalkingDead_NeganKnife_Common");
-		ID(196);
-	}
-	Store_Set(94)
-	{
-		Item(200, "Ammo_Bolt");
-		ID(197);
-	}
-	Store_Set(95)
-	{
-		Item(50, "Ammo_Bolt_Fire");
-		ID(198);
-	}
-	Store_Set(96)
-	{
-		Item(1, "BloodyNights_DLC");
-		ID(199);
-	}
-	Store_Set(100)
-	{
-		Item(1, "wpn_1hs_mach_02_gunslinger");
-		ID(200);
-	}
-	Store_Set(101)
-	{
-		Item(1, "Craftplan_Gunslinger_Common");
-		ID(201);
-	}
-	Store_Set(102)
-	{
-		Item(1, "Craftplan_GunslingerDynamite_Explosive");
-		ID(202);
-	}
-	Store_Set(106)
-	{
-		Item(1, "WPN_1HS_AXE_W_Rahim");
-		ID(203);
-	}
-	Store_Set(107)
-	{
-		Item(1, "Craftplan_RahimPickaxe_Common");
-		ID(204);
-	}
-	Store_Set(109)
-	{
-		Item(1, "Outfitset_MeleeDPS_Torso_PostApo_DLC");
-		ID(205);
-	}
-	Store_Set(110)
-	{
-		Item(1, "Outfitset_MeleeDPS_Legs_PostApo_DLC");
-		ID(206);
-	}
-	Store_Set(111)
-	{
-		Item(1, "Outfitset_MeleeDPS_Shoes_PostApo_DLC");
-		ID(207);
-	}
-	Store_Set(112)
-	{
-		Item(1, "Outfitset_MeleeDPS_Gloves_PostApo_DLC");
-		ID(208);
-	}
-	Store_Set(113)
-	{
-		Item(1, "Outfitset_MeleeDPS_Head_PostApo_DLC");
-		ID(209);
-	}
-	Store_Set(114)
-	{
-		Item(1, "Outfitset_MeleeDPS_TorsoAddon_PostApo_DLC");
-		ID(210);
-	}
-	Store_Set(115)
-	{
-		Item(1, "wpn_1hs_axe_u_fpp_scrapslicer_DLC");
-		ID(211);
-	}
-	Store_Set(116)
-	{
-		Item(1, "Craftplan_ScrapSlicer_Common");
-		ID(212);
-	}
-	Store_Set(119)
-	{
-		Item(1, "wpn_2hs_e_AxeCutter_DLC");
-		ID(213);
-	}
-	Store_Set(120)
-	{
-		Item(1, "Craftplan_CuttingEdge_Common");
-		ID(214);
-	}
-	Store_Set(121)
-	{
-		Item(1, "outfit_nightrunner_torso_DLC");
-		ID(215);
-	}
-	Store_Set(122)
-	{
-		Item(1, "outfit_nightrunner_legs_DLC");
-		ID(216);
-	}
-	Store_Set(123)
-	{
-		Item(1, "outfit_nightrunner_shoes_DLC");
-		ID(217);
-	}
-	Store_Set(124)
-	{
-		Item(1, "outfit_nightrunner_gloves_DLC");
-		ID(218);
-	}
-	Store_Set(125)
-	{
-		Item(1, "outfit_nightrunner_headwear_DLC");
-		ID(219);
-	}
-	Store_Set(126)
-	{
-		Item(1, "outfit_nightrunner_bracers_DLC");
-		ID(220);
-	}
-	Store_Set(128)
-	{
-		Item(1, "wpn_2hs_n_chicken");
-		ID(221);
-	}
-	Store_Set(129)
-	{
-		Item(1, "Craftplan_ChickenClaw_Common");
-		ID(222);
-	}
-	Store_Set(132)
-	{
-		Item(1, "wpn_1hs_mach_rais");
-		ID(223);
-	}
-	Store_Set(133)
-	{
-		Item(1, "Craftplan_Wolfclaw_Common");
-		ID(224);
-	}
-	Store_Set(136)
-	{
-		Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
-		ID(225);
-	}
-	Store_Set(137)
-	{
-		Item(1, "Craftplan_VoltaicWrench_Common");
-		ID(226);
-	}
-	Store_Set(140)
-	{
-		Item(1, "wpn_1hs_mach_c_nut");
-		ID(227);
-	}
-	Store_Set(141)
-	{
-		Item(1, "Craftplan_NutcrackerSaber_Common");
-		ID(228);
-	}
-	Store_Set(143)
-	{
-		Item(1, "wpn_15hb_o_halloween");
-		ID(229);
-	}
-	Store_Set(144)
-	{
-		Item(1, "Craftplan_DyingLaughBat_Common");
-		ID(230);
-	}
-	Store_Set(147)
-	{
-		Item(1, "Outfitset_Tank_Torso_Authority");
-		ID(231);
-	}
-	Store_Set(148)
-	{
-		Item(1, "Outfitset_Tank_Legs_Authority");
-		ID(232);
-	}
-	Store_Set(149)
-	{
-		Item(1, "Outfitset_Tank_Shoes_Authority");
-		ID(233);
-	}
-	Store_Set(150)
-	{
-		Item(1, "Outfitset_Tank_Gloves_Authority");
-		ID(234);
-	}
-	Store_Set(151)
-	{
-		Item(1, "Outfitset_Tank_Head_Authority");
-		ID(235);
-	}
-	Store_Set(152)
-	{
-		Item(1, "Outfitset_Tank_TorsoAddon_Authority");
-		ID(236);
-	}
-	Store_Set(153)
-	{
-		Item(1, "wpn_2hb_j_fpp_authority");
-		ID(237);
-	}
-	Store_Set(154)
-	{
-		Item(1, "Craftplan_Authority_Common");
-		ID(238);
-	}
-	Store_Set(156)
-	{
-		Item(1, "Outfitset_RangedDPS_Torso_SamuraiSurvivor");
-		ID(239);
-	}
-	Store_Set(157)
-	{
-		Item(1, "Outfitset_RangedDPS_Legs_SamuraiSurvivor");
-		ID(240);
-	}
-	Store_Set(158)
-	{
-		Item(1, "Outfitset_RangedDPS_Shoes_SamuraiSurvivor");
-		ID(241);
-	}
-	Store_Set(159)
-	{
-		Item(1, "Outfitset_RangedDPS_Gloves_SamuraiSurvivor");
-		ID(242);
-	}
-	Store_Set(160)
-	{
-		Item(1, "Outfitset_RangedDPS_Head_SamuraiSurvivor");
-		ID(243);
-	}
-	Store_Set(161)
-	{
-		Item(1, "Outfitset_RangedDPS_TorsoAddon_SamuraiSurvivor");
-		ID(244);
-	}
-	Store_Set(162)
-	{
-		Item(1, "wpn_15hs_m_fpp_wisekatana");
-		ID(245);
-	}
-	Store_Set(163)
-	{
-		Item(1, "Craftplan_WiseKatana_Common");
-		ID(246);
-	}
-	//Store_Set(221)
-	//{
-	//	Item(1, "LuBu_weapon_Bundle");
-	//	ID(247);
-	//}
-	Store_Set(167)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_Head");
-		ID(248);
-	}
-	Store_Set(168)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_Torso");
-		ID(249);
-	}
-	Store_Set(169)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_Gloves");
-		ID(250);
-	}
-	Store_Set(170)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_Legs");
-		ID(251);
-	}
-	Store_Set(171)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_TorsoAddon");
-		ID(252);
-	}
-	Store_Set(172)
-	{
-		Item(1, "Outfitset_Halloween_Scarecrow_Shoes");
-		ID(253);
-	}
-	Store_Set(173)
-	{
-		Item(1, "wpn_2hs_r_HalloweenScythe");
-		ID(254);
-	}
-	Store_Set(174)
-	{
-		Item(1, "Craftplan_HalloweenScythe_Common");
-		ID(255);
-	}
-	Store_Set(177)
-	{
-		Item(1, "Craftplan_charm_halloween_scarecrow");
-		ID(256);
-	}
-	Store_Set(180)
-	{
-		Item(1, "Outfitset_Halloween_Plague_Head");
-		ID(257);
-	}
-	Store_Set(181)
-	{
-		Item(1, "Outfitset_Halloween_Plague_Torso");
-		ID(258);
-	}
-	Store_Set(182)
-	{
-		Item(1, "Outfitset_Halloween_Plague_Gloves");
-		ID(259);
-	}
-	Store_Set(183)
-	{
-		Item(1, "Outfitset_Halloween_Plague_Legs");
-		ID(260);
-	}
-	Store_Set(184)
-	{
-		Item(1, "Outfitset_Halloween_Plague_TorsoAddon");
-		ID(261);
-	}
-	Store_Set(185)
-	{
-		Item(1, "Outfitset_Halloween_Plague_Shoes");
-		ID(262);
-	}
-	Store_Set(186)
-	{
-		Item(1, "wpn_1hs_axe_01_HalloweenStaff");
-		ID(263);
-	}
-	Store_Set(187)
-	{
-		Item(1, "Craftplan_HalloweenStaff_Common");
-		ID(264);
-	}
-	Docket_Set("Weapon33")
-    {
-        Item(1, "Craftplan_FH_Berserker_Common");
-		BlockedByItem("Craftplan_FH_Berserker_Common");
-		BlockedByItem("Craftplan_FH_Berserker_Uncommon");
-		BlockedByItem("Craftplan_FH_Berserker_Rare");
-		BlockedByItem("Craftplan_FH_Berserker_Unique");
-		BlockedByItem("Craftplan_FH_Berserker_Artifact");
-		BlockedByItem("Craftplan_FH_Berserker_Legendary");
-        ID(265);
-    }
-	Docket_Set("Weapon34")
-    {
-        Item(1, "Craftplan_HydraKnife_Common");
-        ID(266);
-    }
-	Store_Set(190)
-	{
-		Item(1, "wpn_1hs_knuckle_duster_e_wod");
-		ID(267);
-	}
-	Store_Set(191)
-	{
-		Item(1, "Craftplan_WoDKnuckles_Common");
-		ID(268);
-	}
-	Store_Set(192)
-	{
-		Item(1, "Craftplan_charm_wod_brujah");
-		ID(269);
-	}
-	Store_Set(195)
-	{
-		Item(1, "wpn_1hs_axe_v_wod");
-		ID(270);
-	}
-	Store_Set(196)
-	{
-		Item(1, "Craftplan_WoDAxe_Common");
-		ID(271);
-	}
-	Store_Set(197)
-	{
-		Item(1, "Craftplan_charm_wod_tramere");
-		ID(272);
-	}
-	Store_Set(200)
-	{
-		Item(1, "wpn_1hs_mach_05_wod");
-		ID(273);
-	}
-	Store_Set(201)
-	{
-		Item(1, "Craftplan_WoDMachete_Common");
-		ID(274);
-	}
-	Store_Set(202)
-	{
-		Item(1, "Craftplan_charm_wod_banuhaqim");
-		ID(275);
-	}
-	Store_Set(205)
-	{
-		Item(1, "wpn_15hs_y_fh_kensei");
-		ID(276);
-	}
-	Store_Set(206)
-	{
-		Item(1, "Craftplan_FH_Kensei_Common");
-		ID(277);
-	}
-	Store_Set(207)
-	{
-		Item(1, "Craftplan_charm_fh_kensei");
-		ID(278);
-	}
-	Store_Set(210)
-	{
-		Item(1, "wpn_15hs_x_fh_warden");
-		ID(279);
-	}
-	Store_Set(211)
-	{
-		Item(1, "Craftplan_FH_Warden_Common");
-		ID(280);
-	}
-	Store_Set(212)
-	{
-		Item(1, "Craftplan_charm_fh_warden");
-		ID(281);
-	}
-	Store_Set(215)
-	{
-		Item(1, "wpn_1hs_axe_q_fh_berserker");
-		ID(282);
-	}
-	Store_Set(216)
-	{
-		Item(1, "Craftplan_FH_Berserker_Common");
-		ID(283);
-	}
-	Store_Set(217)
-	{
-		Item(1, "Craftplan_charm_fh_berserker");
-		ID(284);
-	}
-	
-	
-	Docket_Set("Weapon38")
-    {
-        Item(1, "Craftplan_DyingLaughBat_Common");
-		BlockedByItem("Craftplan_DyingLaughBat_Common");
-		BlockedByItem("Craftplan_DyingLaughBat_Uncommon");
-		BlockedByItem("Craftplan_DyingLaughBat_Rare");
-		BlockedByItem("Craftplan_DyingLaughBat_Unique");
-		BlockedByItem("Craftplan_DyingLaughBat_Artifact");
-		BlockedByItem("Craftplan_DyingLaughBat_Legendary");
-        ID(285);
-    }
-	Docket_Set("Weapon39")
-    {
-        Item(1, "Craftplan_NutcrackerSaber_Common");
-		BlockedByItem("Craftplan_NutcrackerSaber_Common");
-		BlockedByItem("Craftplan_NutcrackerSaber_Uncommon");
-		BlockedByItem("Craftplan_NutcrackerSaber_Rare");
-		BlockedByItem("Craftplan_NutcrackerSaber_Unique");
-		BlockedByItem("Craftplan_NutcrackerSaber_Artifact");
-		BlockedByItem("Craftplan_NutcrackerSaber_Legendary");
-        ID(286);
-    }
-	
-	DLC_Set("DLC_GunslingerOutfit")
-	{
-		Item(1, "Craftplan_GunslingerDynamite_Explosive");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade1");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade2");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade3");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
-		BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
-		ID(287);
-	}
-	Docket_Set("Weapon37")
-    {
-        Item(1, "Craftplan_SkyPiercerJi_Common");
-		BlockedByItem("Craftplan_SkyPiercerJi_Common");
-		BlockedByItem("Craftplan_SkyPiercerJi_Uncommon");
-		BlockedByItem("Craftplan_SkyPiercerJi_Rare");
-		BlockedByItem("Craftplan_SkyPiercerJi_Unique");
-		BlockedByItem("Craftplan_SkyPiercerJi_Artifact");
-		BlockedByItem("Craftplan_SkyPiercerJi_Legendary");
-        ID(288);
-    }
-	
-	Store_Set(220)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_Head");
-		ID(289);
-	}
-	
-	Store_Set(221)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_Torso");
-		ID(290);
-	}
-	
-	Store_Set(222)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_Gloves");
-		ID(291);
-	}
-	
-	Store_Set(223)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_Legs");
-		ID(292);
-	}
-	
-	Store_Set(224)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_TorsoAddon");
-		ID(293);
-	}
-	
-	Store_Set(225)
-	{
-		Item(1, "Outfitset_WinterEvent_Creepy_Santa_Shoes");
-		ID(294);
-	}
-	
-	Store_Set(226)
-	{
-		Item(1, "wpn_2hs_polearm_creepy_santa");
-		ID(295);
-	}
-	
-	Store_Set(227)
-	{
-		Item(1, "Craftplan_CreepySanta_Artifact");
-		BlockedByItem("Craftplan_CreepySanta_Artifact");
-		BlockedByItem("Craftplan_CreepySanta_Legendary");
-		ID(296);
-	}
-	
-	//This needs to follow offer and items in content to add document, can't just deifne ids yourself!!
-	Store_Set(230)
-	{
-		Item(1, "wpn_15hs_w_LuBu");
-		ID(297);
-	}
-	Store_Set(233)
-	{
-		Item(1, "Craftplan_SkyPiercerJi_Common");
-		BlockedByItem("Craftplan_SkyPiercerJi_Common");
-		BlockedByItem("Craftplan_SkyPiercerJi_Uncommon");
-		BlockedByItem("Craftplan_SkyPiercerJi_Rare");
-		BlockedByItem("Craftplan_SkyPiercerJi_Unique");
-		BlockedByItem("Craftplan_SkyPiercerJi_Artifact");
-		BlockedByItem("Craftplan_SkyPiercerJi_Legendary");
-		ID(298);
-	}
-	Store_Set(232)
-	{
-		Item(1, "Craftplan_charm_dragonwarrior");
-		ID(299);
-	}
-	Docket_Set("Weapon41")
-    {
-        Item(1, "Craftplan_PolearmD_Common");
-		BlockedByItem("Craftplan_PolearmD_Common");
-		BlockedByItem("Craftplan_PolearmD_Uncommon");
-		BlockedByItem("Craftplan_PolearmD_Rare");
-		BlockedByItem("Craftplan_PolearmD_Unique");
-		BlockedByItem("Craftplan_PolearmD_Artifact");
-		BlockedByItem("Craftplan_PolearmD_Legendary");
-        ID(300);
-    }
-    
-    Docket_Set("Weapon40")
-    {
-        Item(1, "Craftplan_Junkyard_Common");
-		BlockedByItem("Craftplan_Junkyard_Common");
-		BlockedByItem("Craftplan_Junkyard_Uncommon");
-		BlockedByItem("Craftplan_Junkyard_Rare");
-		BlockedByItem("Craftplan_Junkyard_Unique");
-		BlockedByItem("Craftplan_Junkyard_Artifact");
-		BlockedByItem("Craftplan_Junkyard_Legendary");
-        ID(301);
-    }
-	
-	////////////////////////////
-    //BundledItem("itemID", "BundleID");
-	// Include all items contained inside a bundle given through DLC
-	// Flag the collectable items as DLC in their definitions as well as the bundle itself
-		
+{
     BundledItem("wpn_2hr_crossbow_b_hakon_dlc", "BloodyNights_DLC");
-	
+    BundledItem("Weapon_Firearm_Rifle_NightVibes", "Rifle_NightVibes_WeaponBundle");
     BundledItem("wpn_1hs_mach_02_gunslinger", "Gunslinger_DLCBundle");
     BundledItem("Craftplan_Gunslinger_Common", "Gunslinger_DLCBundle");
     BundledItem("Craftplan_Gunslinger_Uncommon", "Gunslinger_DLCBundle");
@@ -1626,7 +20,6 @@ sub main()
     BundledItem("Craftplan_GunslingerDynamite_Explosive_Upgrade4", "Gunslinger_DLCBundle");
     BundledItem("Craftplan_GunslingerDynamite_Explosive_Upgrade5", "Gunslinger_DLCBundle");
     BundledItem("Craftplan_GunslingerDynamite_Explosive_Upgrade6", "Gunslinger_DLCBundle");
-	
     BundledItem("WPN_1HS_AXE_W_Rahim", "ViralRush_DLCBundle");
     BundledItem("Craftplan_RahimPickaxe_Common", "ViralRush_DLCBundle");
     BundledItem("Craftplan_RahimPickaxe_Uncommon", "ViralRush_DLCBundle");
@@ -1634,15 +27,13 @@ sub main()
     BundledItem("Craftplan_RahimPickaxe_Unique", "ViralRush_DLCBundle");
     BundledItem("Craftplan_RahimPickaxe_Artifact", "ViralRush_DLCBundle");
     BundledItem("Craftplan_RahimPickaxe_Legendary", "ViralRush_DLCBundle");
-	
-	BundledItem("wpn_15hb_w_walkingdead", "WalkingDeadNegan_WeaponBundle");
+    BundledItem("wpn_15hb_w_walkingdead", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Common", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Uncommon", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Rare", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Unique", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Artifact", "WalkingDeadNegan_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Negan_Legendary", "WalkingDeadNegan_WeaponBundle");
-	
     BundledItem("wpn_1hs_mach_04_walkingdead", "WalkingDeadNeganKnife_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_NeganKnife_Common", "WalkingDeadNeganKnife_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_NeganKnife_Uncommon", "WalkingDeadNeganKnife_WeaponBundle");
@@ -1650,7 +41,6 @@ sub main()
     BundledItem("Craftplan_WalkingDead_NeganKnife_Unique", "WalkingDeadNeganKnife_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_NeganKnife_Artifact", "WalkingDeadNeganKnife_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_NeganKnife_Legendary", "WalkingDeadNeganKnife_WeaponBundle");
-	
     BundledItem("wpn_15hs_s_walkingdead", "WalkingDeadMichone_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Michonne_Common", "WalkingDeadMichone_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Michonne_Uncommon", "WalkingDeadMichone_WeaponBundle");
@@ -1658,7 +48,6 @@ sub main()
     BundledItem("Craftplan_WalkingDead_Michonne_Unique", "WalkingDeadMichone_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Michonne_Artifact", "WalkingDeadMichone_WeaponBundle");
     BundledItem("Craftplan_WalkingDead_Michonne_Legendary", "WalkingDeadMichone_WeaponBundle");
-	
     BundledItem("wpn_1hb_stk_n_payday2", "Payday2_WeaponBundle");
     BundledItem("Craftplan_Payday2Moneybundle_Common", "Payday2_WeaponBundle");
     BundledItem("Craftplan_Payday2Moneybundle_Uncommon", "Payday2_WeaponBundle");
@@ -1666,17 +55,1905 @@ sub main()
     BundledItem("Craftplan_Payday2Moneybundle_Unique", "Payday2_WeaponBundle");
     BundledItem("Craftplan_Payday2Moneybundle_Artifact", "Payday2_WeaponBundle");
     BundledItem("Craftplan_Payday2Moneybundle_Legendary", "Payday2_WeaponBundle");
-	
-	BundledItem("wpn_15hs_w_LuBu", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Common", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Uncommon", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Rare", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Unique", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Artifact", "LuBu_weapon_Bundle");
-	BundledItem("Craftplan_SkyPiercerJi_Legendary", "LuBu_weapon_Bundle");
-
-
-    //NotifyWhenAvailable(iID,sLabel);
-    // ie.: NotifyWhenAvailable(80, "hakon_crossbow_msg");
+    BundledItem("wpn_15hs_w_LuBu", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Common", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Uncommon", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Rare", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Unique", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Artifact", "LuBu_weapon_Bundle");
+    BundledItem("Craftplan_SkyPiercerJi_Legendary", "LuBu_weapon_Bundle");
+    BundledItem("Weapon_Firearm_Pistol_Blue", "Harran_FreeGun_Bundle");
+    BundledItem("Throwable_erlangshenGrenade_Upgrade2", "erlangshen_grenade_Bundle");
+    BundledItem("Foodbar_Gameover_Upgrade2", "gameover_Foodbar_Bundle");
+    BundledItem("Weapon_Firearm_Pistol_welcome", "Welcome_Pistol_Bundle");
+    BundledItem("Medkit_Large", "Welcome_10MedkitLarge_Bundle");
+    BundledItem("Cash_Cash", "Welcome_Cash_Bundle");
+    BundledItem("Ammo_Arrow_DeepFreeze", "Event_WinterEvent_Bundle_Arrow_DeepFreeze");
+    BundledItem("Potion_Peacekeeper", "Potion_Peacekeeper_Bundle");
+    BundledItem("Boomstick_Pirate_Upgrade8", "Boomstick_Pirate_bundle");
+    BundledItem("Throwable_AnubisGrenade_Upgrade8", "Throwable_AnubisGrenade_Bundle");
+    BundledItem("Potion_Pirate", "Potion_Pirate_bundle");
+    BundledItem("wpn_2hr_crossbow_d_anubis", "Anubis_CrossbowBundle");
+    BundledItem("Weapon_Firearm_Submachinegun_Welcome", "Brecken_SMG_Bundle");
+    BundledItem("Weapon_Firearm_Submachinegun_DL1", "SMG_DL1_WeaponBundle");
+    BundledItem("Weapon_Firearm_Submachinegun_Plague", "SMG_Plague_WeaponBundle");
+    BundledItem("Weapon_Firearm_Rifle_Anubis", "Rifle_Anubis_WeaponBundle");
     NotifyWhenAvailable(81, "twd_agregator");
+    use ialr_stash();
+    DLC_Set("DLC1")
+    {
+        Item(1, "Potion_NightXPBoost");
+        ID(0);
+    }
+    DLC_Set("DLC1")
+    {
+        Item(1, "Bundle_Scraps20");
+        ConsumableBundle(true);
+        ID(1);
+    }
+    DLC_Set("DLC1")
+    {
+        Item(1, "DLC_Bundle_CraftParts");
+        ConsumableBundle(true);
+        ID(6);
+    }
+    DLC_Set("DLC3")
+    {
+        Item(1, "Craftplan_charm_flare");
+        ID(7);
+    }
+    DLC_Set("DLC3")
+    {
+        Item(1, "Craftplan_charm_best_mom_bucket");
+        ID(8);
+    }
+    Docket_Set_With_Cooldown("Weapon06", 1.0)
+    {
+        Item(1, "wpn_lbow_a_fpp_funkadelic");
+        BlockedByItem("wpn_lbow_a_fpp_funkadelic");
+        ID(14);
+    }
+    DLC_Set("DLC6")
+    {
+        Item(1, "Outfitset_Tank_Torso_Authority");
+        ID(18);
+    }
+    DLC_Set("DLC6")
+    {
+        Item(1, "Outfitset_Tank_Legs_Authority");
+        ID(19);
+    }
+    DLC_Set("DLC6")
+    {
+        Item(1, "Outfitset_Tank_Shoes_Authority");
+        ID(20);
+    }
+    DLC_Set("DLC7")
+    {
+        Item(1, "Outfitset_Tank_Head_Authority");
+        ID(21);
+    }
+    DLC_Set("DLC7")
+    {
+        Item(1, "Outfitset_Tank_Gloves_Authority");
+        ID(22);
+    }
+    DLC_Set("DLC7")
+    {
+        Item(1, "Outfitset_Tank_TorsoAddon_Authority");
+        ID(23);
+    }
+    DLC_Set("DLC9")
+    {
+        Item(1, "Outfitset_RangedDPS_Torso_SamuraiSurvivor");
+        ID(25);
+    }
+    DLC_Set("DLC9")
+    {
+        Item(1, "Outfitset_RangedDPS_Legs_SamuraiSurvivor");
+        ID(26);
+    }
+    DLC_Set("DLC9")
+    {
+        Item(1, "Outfitset_RangedDPS_Shoes_SamuraiSurvivor");
+        ID(27);
+    }
+    DLC_Set("DLC10")
+    {
+        Item(1, "Outfitset_RangedDPS_Head_SamuraiSurvivor");
+        ID(28);
+    }
+    DLC_Set("DLC10")
+    {
+        Item(1, "Outfitset_RangedDPS_Gloves_SamuraiSurvivor");
+        ID(29);
+    }
+    DLC_Set("DLC10")
+    {
+        Item(1, "Outfitset_RangedDPS_TorsoAddon_SamuraiSurvivor");
+        ID(30);
+    }
+    Collectable_Set_With_Cooldown("Craftplan_PKCrossbow", 1.0)
+    {
+        Item(1, "wpn_2hr_crossbow_b_fpp");
+        BlockedByItem("wpn_2hr_crossbow_b_fpp");
+        ID(32);
+    }
+    DLC_Set("DLC_HalloweenClown")
+    {
+        Item(1, "wpn_15hb_o_halloween");
+        ID(41);
+    }
+    DLC_Set("DLC_NutcrackerBundle")
+    {
+        Item(1, "wpn_1hs_mach_c_nut");
+        ID(43);
+    }
+    Collectable_Set_With_Cooldown("Craftplan_CarnageManica", 1.0)
+    {
+        Item(1, "Craftplan_PlayerShield_Blueprint");
+        BlockedByItem("Craftplan_PlayerShield_Blueprint");
+        ID(44);
+    }
+    DLC_Set("DLC_RaisSkinBundle")
+    {
+        Item(1, "wpn_1hs_mach_rais");
+        ID(45);
+    }
+    DLC_Set("DLC_ChickenSkinBundle")
+    {
+        Item(1, "wpn_2hs_n_chicken");
+        ID(51);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Torso_Military_DLC");
+        ID(54);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Legs_Military_DLC");
+        ID(55);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Shoes_Military_DLC");
+        ID(56);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Head_Military_DLC");
+        ID(57);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Gloves_Military_DLC");
+        ID(58);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_TorsoAddon_Military_DLC");
+        ID(59);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "wpn_1hs_axe_u_fpp_scrapslicer_DLC");
+        ID(60);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Torso_PostApo_DLC");
+        ID(61);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Legs_PostApo_DLC");
+        ID(62);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Shoes_PostApo_DLC");
+        ID(63);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Head_PostApo_DLC");
+        ID(64);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_Gloves_PostApo_DLC");
+        ID(65);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Outfitset_MeleeDPS_TorsoAddon_PostApo_DLC");
+        ID(66);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "wpn_2hs_e_AxeCutter_DLC");
+        ID(67);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_bracers_DLC");
+        ID(68);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_gloves_DLC");
+        ID(69);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_headwear_DLC");
+        ID(70);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_shoes_DLC");
+        ID(71);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_legs_DLC");
+        ID(72);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "outfit_nightrunner_torso_DLC");
+        ID(73);
+    }
+    DLC_Set("DLC_SkullfaceBundle")
+    {
+        Item(1, "wpn_1hs_mach_y_opera_dlc");
+        ID(74);
+    }
+    DLC_Set("DLC_SkullfaceBundle")
+    {
+        Item(1, "outfit_skullface_helmet_old_DLC");
+        ID(75);
+    }
+    DLC_Set("DLC_SkullfaceBundle")
+    {
+        Item(1, "outfit_skullface_helmet_normal_DLC");
+        ID(76);
+    }
+    DLC_Set("DLC_SkullfaceBundle")
+    {
+        Item(1, "outfit_skullface_helmet_champion_DLC");
+        ID(77);
+    }
+    DLC_Set("DLC_GunslingerOutfit")
+    {
+        Item(1, "Gunslinger_DLCBundle");
+        ID(78);
+    }
+    DLC_Set("DLC_RahimOutfit")
+    {
+        Item(1, "ViralRush_DLCBundle");
+        ID(79);
+    }
+    Collectable_Set_With_Cooldown("Collectable_ITEM_TWD_Issue01;Collectable_ITEM_TWD_Issue38;Collectable_ITEM_TWD_Issue48;Collectable_ITEM_TWD_Issue50;Collectable_ITEM_TWD_Issue108;Collectable_ITEM_TWD_Issue128;Collectable_ITEM_TWD_Issue137", 1.0)
+    {
+        Item(1, "Craftplan_charm_walkingdead");
+        BlockedByItem("Craftplan_charm_walkingdead");
+        ID(81);
+    }
+    DLC_Set("DLC_BloodyNightsPack")
+    {
+        Item(1, "BloodyNights_DLC");
+        ID(82);
+    }
+    DLC_Set("DLC_PaydayPack")
+    {
+        Item(1, "Payday2_WeaponBundle");
+        ID(86);
+    }
+    DLC_Set("DLC_PaydayPack")
+    {
+        Item(1, "Craftplan_charm_payday2");
+        ID(88);
+    }
+    DLC_Set("DLC_PaydayPack")
+    {
+        Item(400, "Token_MutationSamples");
+        ID(89);
+    }
+    DLC_Set("DLC_WDeadPack")
+    {
+        Item(1, "WalkingDeadNegan_WeaponBundle");
+        ID(90);
+    }
+    DLC_Set("DLC_WDeadPack")
+    {
+        Item(1, "WalkingDeadNeganKnife_WeaponBundle");
+        ID(92);
+    }
+    DLC_Set("DLC_WDeadPack")
+    {
+        Item(1, "WalkingDeadMichone_WeaponBundle");
+        ID(94);
+    }
+    DLC_Set("DLC_HalloweenClown")
+    {
+        Item(1, "Craftplan_DyingLaughBat_Common");
+        ID(96);
+    }
+    Docket_Set("Weapon19")
+    {
+        Item(1, "Craftplan_VoltaicWrench_Common");
+        BlockedByItem("ToolSkin_Paraglider_Brecken_DLC");
+        ID(97);
+    }
+    Docket_Set("Weapon21")
+    {
+        Item(1, "Craftplan_SpectralBaseballBat_Common");
+        BlockedByItem("ToolSkin_Paraglider_Crane_DLC");
+        ID(98);
+    }
+    Docket_Set("Weapon22")
+    {
+        Item(1, "Craftplan_ChickenClaw_Common");
+        BlockedByItem("ToolSkin_Paraglider_Chicken_DLC");
+        ID(99);
+    }
+    Docket_Set("Weapon18")
+    {
+        Item(1, "Craftplan_Wolfclaw_Common");
+        BlockedByItem("ToolSkin_Paraglider_Rais_DLC");
+        ID(100);
+    }
+    Docket_Set("Weapon13")
+    {
+        Item(1, "Craftplan_CuttingEdge_Common");
+        ID(101);
+    }
+    DLC_Set("DLC_NutcrackerBundle")
+    {
+        Item(1, "Craftplan_NutcrackerSaber_Common");
+        ID(102);
+    }
+    Collectable_Set("Craftplan_ITEM_goon_event")
+    {
+        Item(1, "Craftplan_GoonSmasher_Common");
+        ID(103);
+    }
+    Docket_Set("Weapon08")
+    {
+        Item(1, "Craftplan_TacticalCleaver_Common");
+        ID(104);
+    }
+    Docket_Set("Weapon05")
+    {
+        Item(1, "Craftplan_ScrapSlicer_Common");
+        ID(105);
+    }
+    DLC_Set("DLC_OperaPreorder")
+    {
+        Item(1, "Craftplan_Aristocrat_Common");
+        ID(106);
+    }
+    DLC_Set("DLC8")
+    {
+        Item(1, "Craftplan_Authority_Common");
+        ID(107);
+    }
+    DLC_Set("DLC3")
+    {
+        Item(1, "Craftplan_LegendaryAxe_Common");
+        ID(108);
+    }
+    DLC_Set("DLC3")
+    {
+        Item(1, "Craftplan_LegendaryMachete_Common");
+        ID(109);
+    }
+    DLC_Set("DLC11")
+    {
+        Item(1, "Craftplan_WiseKatana_Common");
+        ID(110);
+    }
+    DLC_Set("DLC2")
+    {
+        Item(1, "Craftplan_ReloadAxe_Common");
+        ID(111);
+    }
+    DLC_Set("DLC2")
+    {
+        Item(1, "Craftplan_ReloadMachete_Common");
+        ID(112);
+    }
+    Docket_Set("Weapon07")
+    {
+        Item(1, "Craftplan_MechSlugger_Common");
+        ID(113);
+    }
+    Docket_Set("Weapon15")
+    {
+        Item(1, "Craftplan_Rebarbar_Common");
+        ID(114);
+    }
+    Docket_Set("Weapon17")
+    {
+        Item(1, "Craftplan_BaubleMace_Common");
+        ID(115);
+    }
+    Docket_Set("Weapon02")
+    {
+        Item(1, "Craftplan_TheExtinguisher_Common");
+        ID(116);
+    }
+    Docket_Set("Weapon03")
+    {
+        Item(1, "Craftplan_Timeout_Common");
+        ID(117);
+    }
+    Docket_Set("Weapon11")
+    {
+        Item(1, "Craftplan_RagingDragon_Common");
+        ID(118);
+    }
+    DLC_Set("DLC_BreckenSkinBundle")
+    {
+        Item(1, "Craftplan_VoltaicWrench_Common");
+        ID(119);
+    }
+    DLC_Set("DLC_BreckenSkinBundle")
+    {
+        Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
+        ID(120);
+    }
+    DLC_Set("DLC_ChickenSkinBundle")
+    {
+        Item(1, "Craftplan_ChickenClaw_Common");
+        ID(121);
+    }
+    DLC_Set("DLC_RaisSkinBundle")
+    {
+        Item(1, "Craftplan_Wolfclaw_Common");
+        ID(122);
+    }
+    DLC_Set("DLC_NightrunnerBundle")
+    {
+        Item(1, "Craftplan_CuttingEdge_Common");
+        ID(123);
+    }
+    DLC_Set("DLC_MilitaryBundle")
+    {
+        Item(1, "Craftplan_TacticalCleaver_Common");
+        ID(124);
+    }
+    DLC_Set("DLC_PostapoBundle")
+    {
+        Item(1, "Craftplan_ScrapSlicer_Common");
+        ID(125);
+    }
+    Docket_Set("Weapon04")
+    {
+        Item(1, "Craftplan_StarvingInfected_Common");
+        ID(126);
+    }
+    Docket_Set("Weapon09")
+    {
+        Item(1, "Craftplan_DoubleDaggers_Common");
+        ID(127);
+    }
+    Docket_Set("Weapon12")
+    {
+        Item(1, "Craftplan_AncestralDragon_Common");
+        ID(128);
+    }
+    Docket_Set("Weapon16")
+    {
+        Item(1, "Craftplan_FelineClaw_Common");
+        ID(129);
+    }
+    DLC_Set("DLC_SkullfaceBundle")
+    {
+        Item(1, "Craftplan_Skullcut_Common");
+        ID(130);
+    }
+    Docket_Set_With_Cooldown("Weapon28", 1.0)
+    {
+        Item(1, "wpn_2hr_crossbow_b_hakon");
+        BlockedByItem("wpn_2hr_crossbow_b_hakon_dlc");
+        BlockedByItem("wpn_2hr_crossbow_b_hakon");
+        ID(131);
+    }
+    Store_Set(2)
+    {
+        Item(1, "Outfitset_Samurai_Torso");
+        ID(132);
+    }
+    Store_Set(3)
+    {
+        Item(1, "Outfitset_Samurai_Legs");
+        ID(133);
+    }
+    Store_Set(4)
+    {
+        Item(1, "Outfitset_Samurai_Shoes");
+        ID(134);
+    }
+    Store_Set(5)
+    {
+        Item(1, "Outfitset_Samurai_Head");
+        ID(135);
+    }
+    Store_Set(6)
+    {
+        Item(1, "Outfitset_Samurai_Gloves");
+        ID(136);
+    }
+    Store_Set(7)
+    {
+        Item(1, "Outfitset_Samurai_TorsoAddon");
+        ID(137);
+    }
+    Store_Set(8)
+    {
+        Item(1, "wpn_15hs_u_samurai");
+        ID(138);
+    }
+    Store_Set(9)
+    {
+        Item(1, "Craftplan_charm_samurai");
+        ID(139);
+    }
+    Store_Set(11)
+    {
+        Item(1, "wpn_2hp_samurai");
+        ID(140);
+    }
+    Store_Set(12)
+    {
+        Item(1, "Craftplan_Arrows_Samurai");
+        ID(141);
+    }
+    Store_Set(16)
+    {
+        Item(1, "wpn_15hs_p_vs");
+        ID(142);
+    }
+    Store_Set(28)
+    {
+        Item(1, "Outfitset_Ninja_Torso");
+        ID(143);
+    }
+    Store_Set(29)
+    {
+        Item(1, "Outfitset_Ninja_Legs");
+        ID(144);
+    }
+    Store_Set(30)
+    {
+        Item(1, "Outfitset_Ninja_Shoes");
+        ID(145);
+    }
+    Store_Set(31)
+    {
+        Item(1, "Outfitset_Ninja_Head");
+        ID(146);
+    }
+    Store_Set(32)
+    {
+        Item(1, "Outfitset_Ninja_Gloves");
+        ID(147);
+    }
+    Store_Set(33)
+    {
+        Item(1, "Outfitset_Ninja_TorsoAddon");
+        ID(148);
+    }
+    Store_Set(35)
+    {
+        Item(1, "Craftplan_charm_ninja");
+        ID(149);
+    }
+    Store_Set(18)
+    {
+        Item(1, "Outfitset_Reburn_Torso");
+        ID(150);
+    }
+    Store_Set(19)
+    {
+        Item(1, "Outfitset_Reburn_Legs");
+        ID(151);
+    }
+    Store_Set(20)
+    {
+        Item(1, "Outfitset_Reburn_Shoes");
+        ID(152);
+    }
+    Store_Set(21)
+    {
+        Item(1, "Outfitset_Reburn_Head");
+        ID(153);
+    }
+    Store_Set(22)
+    {
+        Item(1, "Outfitset_Reburn_Gloves");
+        ID(154);
+    }
+    Store_Set(23)
+    {
+        Item(1, "Outfitset_Reburn_TorsoAddon");
+        ID(155);
+    }
+    Store_Set(24)
+    {
+        Item(1, "wpn_2hs_o_reburn");
+        ID(156);
+    }
+    Store_Set(44)
+    {
+        Item(1, "wpn_2hs_j_vs");
+        ID(157);
+    }
+    Store_Set(45)
+    {
+        Item(1, "wpn_15hb_r_vs");
+        ID(158);
+    }
+    Store_Set(47)
+    {
+        Item(1, "Outfitset_Tank_Torso");
+        ID(159);
+    }
+    Store_Set(48)
+    {
+        Item(1, "Outfitset_Tank_Legs");
+        ID(160);
+    }
+    Store_Set(49)
+    {
+        Item(1, "Outfitset_Tank_Shoes");
+        ID(161);
+    }
+    Store_Set(50)
+    {
+        Item(1, "Outfitset_Tank_Head");
+        ID(162);
+    }
+    Store_Set(51)
+    {
+        Item(1, "Outfitset_Tank_Gloves");
+        ID(163);
+    }
+    Store_Set(52)
+    {
+        Item(1, "Outfitset_Tank_TorsoAddon");
+        ID(164);
+    }
+    Store_Set(65)
+    {
+        Item(1, "Craftplan_charm_army");
+        ID(165);
+    }
+    Store_Set(54)
+    {
+        Item(1, "wpn_15hs_v_gameover");
+        ID(166);
+    }
+    Store_Set(58)
+    {
+        Item(1, "Outfitset_Army_Torso");
+        ID(167);
+    }
+    Store_Set(59)
+    {
+        Item(1, "Outfitset_Army_Legs");
+        ID(168);
+    }
+    Store_Set(60)
+    {
+        Item(1, "Outfitset_Army_Shoes");
+        ID(169);
+    }
+    Store_Set(61)
+    {
+        Item(1, "Outfitset_Army_Head");
+        ID(170);
+    }
+    Store_Set(62)
+    {
+        Item(1, "Outfitset_Army_Gloves");
+        ID(171);
+    }
+    Store_Set(63)
+    {
+        Item(1, "Outfitset_Army_TorsoAddon");
+        ID(172);
+    }
+    Store_Set(64)
+    {
+        Item(1, "wpn_1hs_mach_03_army");
+        ID(173);
+    }
+    Store_Set(68)
+    {
+        Item(1, "outfit_payday2_headwear_DLC");
+        ID(174);
+    }
+    Store_Set(69)
+    {
+        Item(1, "wpn_1hb_stk_n_payday2");
+        ID(175);
+    }
+    Store_Set(70)
+    {
+        Item(1, "Craftplan_charm_payday2");
+        ID(176);
+    }
+    Store_Set(72)
+    {
+        Item(1, "Craftplan_DoubleTrouble_Common");
+        ID(177);
+    }
+    Store_Set(73)
+    {
+        Item(1, "Craftplan_Razorstorm_Common");
+        ID(178);
+    }
+    Store_Set(74)
+    {
+        Item(1, "Craftplan_Junkyard_Common");
+        ID(179);
+    }
+    Store_Set(75)
+    {
+        Item(1, "Craftplan_Samurai_Common");
+        ID(180);
+    }
+    Store_Set(76)
+    {
+        Item(1, "Craftplan_ReburnAxe_Common");
+        ID(181);
+    }
+    Store_Set(77)
+    {
+        Item(1, "Craftplan_Ninja_Common");
+        ID(182);
+    }
+    Store_Set(78)
+    {
+        Item(1, "Craftplan_ArcadeFury_Common");
+        ID(183);
+    }
+    Store_Set(79)
+    {
+        Item(1, "Craftplan_Army_Common");
+        ID(184);
+    }
+    Store_Set(80)
+    {
+        Item(1, "Craftplan_Payday2Moneybundle_Common");
+        ID(185);
+    }
+    Store_Set(81)
+    {
+        Item(1, "ReBurn_Evolving_Item");
+        ID(186);
+    }
+    Store_Set(82)
+    {
+        Item(1, "GameOver_Evolving_Item");
+        ID(187);
+    }
+    Store_Set(34)
+    {
+        Item(1, "wpn_1hs_axe_v_ninja");
+        ID(188);
+    }
+    Store_Set(85)
+    {
+        Item(1, "wpn_15hs_s_walkingdead");
+        ID(191);
+    }
+    Store_Set(86)
+    {
+        Item(1, "Craftplan_WalkingDead_Michonne_Common");
+        ID(192);
+    }
+    Store_Set(87)
+    {
+        Item(1, "wpn_15hb_w_walkingdead");
+        ID(193);
+    }
+    Store_Set(88)
+    {
+        Item(1, "Craftplan_WalkingDead_Negan_Common");
+        ID(194);
+    }
+    Store_Set(89)
+    {
+        Item(1, "wpn_1hs_mach_04_walkingdead");
+        ID(195);
+    }
+    Store_Set(90)
+    {
+        Item(1, "Craftplan_WalkingDead_NeganKnife_Common");
+        ID(196);
+    }
+    Store_Set(94)
+    {
+        Item(200, "Ammo_Bolt");
+        ID(197);
+    }
+    Store_Set(95)
+    {
+        Item(50, "Ammo_Bolt_Fire");
+        ID(198);
+    }
+    Store_Set(96)
+    {
+        Item(1, "BloodyNights_DLC");
+        ID(199);
+    }
+    Store_Set(100)
+    {
+        Item(1, "wpn_1hs_mach_02_gunslinger");
+        ID(200);
+    }
+    Store_Set(101)
+    {
+        Item(1, "Craftplan_Gunslinger_Common");
+        ID(201);
+    }
+    Store_Set(102)
+    {
+        Item(1, "Craftplan_GunslingerDynamite_Explosive");
+        ID(202);
+    }
+    Store_Set(106)
+    {
+        Item(1, "WPN_1HS_AXE_W_Rahim");
+        ID(203);
+    }
+    Store_Set(107)
+    {
+        Item(1, "Craftplan_RahimPickaxe_Common");
+        ID(204);
+    }
+    Store_Set(109)
+    {
+        Item(1, "Outfitset_MeleeDPS_Torso_PostApo_DLC");
+        ID(205);
+    }
+    Store_Set(110)
+    {
+        Item(1, "Outfitset_MeleeDPS_Legs_PostApo_DLC");
+        ID(206);
+    }
+    Store_Set(111)
+    {
+        Item(1, "Outfitset_MeleeDPS_Shoes_PostApo_DLC");
+        ID(207);
+    }
+    Store_Set(112)
+    {
+        Item(1, "Outfitset_MeleeDPS_Gloves_PostApo_DLC");
+        ID(208);
+    }
+    Store_Set(113)
+    {
+        Item(1, "Outfitset_MeleeDPS_Head_PostApo_DLC");
+        ID(209);
+    }
+    Store_Set(114)
+    {
+        Item(1, "Outfitset_MeleeDPS_TorsoAddon_PostApo_DLC");
+        ID(210);
+    }
+    Store_Set(115)
+    {
+        Item(1, "wpn_1hs_axe_u_fpp_scrapslicer_DLC");
+        ID(211);
+    }
+    Store_Set(116)
+    {
+        Item(1, "Craftplan_ScrapSlicer_Common");
+        ID(212);
+    }
+    Store_Set(119)
+    {
+        Item(1, "wpn_2hs_e_AxeCutter_DLC");
+        ID(213);
+    }
+    Store_Set(120)
+    {
+        Item(1, "Craftplan_CuttingEdge_Common");
+        ID(214);
+    }
+    Store_Set(121)
+    {
+        Item(1, "outfit_nightrunner_torso_DLC");
+        ID(215);
+    }
+    Store_Set(122)
+    {
+        Item(1, "outfit_nightrunner_legs_DLC");
+        ID(216);
+    }
+    Store_Set(123)
+    {
+        Item(1, "outfit_nightrunner_shoes_DLC");
+        ID(217);
+    }
+    Store_Set(124)
+    {
+        Item(1, "outfit_nightrunner_gloves_DLC");
+        ID(218);
+    }
+    Store_Set(125)
+    {
+        Item(1, "outfit_nightrunner_headwear_DLC");
+        ID(219);
+    }
+    Store_Set(126)
+    {
+        Item(1, "outfit_nightrunner_bracers_DLC");
+        ID(220);
+    }
+    Store_Set(128)
+    {
+        Item(1, "wpn_2hs_n_chicken");
+        ID(221);
+    }
+    Store_Set(129)
+    {
+        Item(1, "Craftplan_ChickenClaw_Common");
+        ID(222);
+    }
+    Store_Set(132)
+    {
+        Item(1, "wpn_1hs_mach_rais");
+        ID(223);
+    }
+    Store_Set(133)
+    {
+        Item(1, "Craftplan_Wolfclaw_Common");
+        ID(224);
+    }
+    Store_Set(136)
+    {
+        Item(1, "wpn_1hb_stk_m_fpp_breckenwrench");
+        ID(225);
+    }
+    Store_Set(137)
+    {
+        Item(1, "Craftplan_VoltaicWrench_Common");
+        ID(226);
+    }
+    Store_Set(140)
+    {
+        Item(1, "wpn_1hs_mach_c_nut");
+        ID(227);
+    }
+    Store_Set(141)
+    {
+        Item(1, "Craftplan_NutcrackerSaber_Common");
+        ID(228);
+    }
+    Store_Set(143)
+    {
+        Item(1, "wpn_15hb_o_halloween");
+        ID(229);
+    }
+    Store_Set(144)
+    {
+        Item(1, "Craftplan_DyingLaughBat_Common");
+        ID(230);
+    }
+    Store_Set(147)
+    {
+        Item(1, "Outfitset_Tank_Torso_Authority");
+        ID(231);
+    }
+    Store_Set(148)
+    {
+        Item(1, "Outfitset_Tank_Legs_Authority");
+        ID(232);
+    }
+    Store_Set(149)
+    {
+        Item(1, "Outfitset_Tank_Shoes_Authority");
+        ID(233);
+    }
+    Store_Set(150)
+    {
+        Item(1, "Outfitset_Tank_Gloves_Authority");
+        ID(234);
+    }
+    Store_Set(151)
+    {
+        Item(1, "Outfitset_Tank_Head_Authority");
+        ID(235);
+    }
+    Store_Set(152)
+    {
+        Item(1, "Outfitset_Tank_TorsoAddon_Authority");
+        ID(236);
+    }
+    Store_Set(153)
+    {
+        Item(1, "wpn_2hb_j_fpp_authority");
+        ID(237);
+    }
+    Store_Set(154)
+    {
+        Item(1, "Craftplan_Authority_Common");
+        ID(238);
+    }
+    Store_Set(156)
+    {
+        Item(1, "Outfitset_RangedDPS_Torso_SamuraiSurvivor");
+        ID(239);
+    }
+    Store_Set(157)
+    {
+        Item(1, "Outfitset_RangedDPS_Legs_SamuraiSurvivor");
+        ID(240);
+    }
+    Store_Set(158)
+    {
+        Item(1, "Outfitset_RangedDPS_Shoes_SamuraiSurvivor");
+        ID(241);
+    }
+    Store_Set(159)
+    {
+        Item(1, "Outfitset_RangedDPS_Gloves_SamuraiSurvivor");
+        ID(242);
+    }
+    Store_Set(160)
+    {
+        Item(1, "Outfitset_RangedDPS_Head_SamuraiSurvivor");
+        ID(243);
+    }
+    Store_Set(161)
+    {
+        Item(1, "Outfitset_RangedDPS_TorsoAddon_SamuraiSurvivor");
+        ID(244);
+    }
+    Store_Set(162)
+    {
+        Item(1, "wpn_15hs_m_fpp_wisekatana");
+        ID(245);
+    }
+    Store_Set(163)
+    {
+        Item(1, "Craftplan_WiseKatana_Common");
+        ID(246);
+    }
+    Store_Set(167)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_Head");
+        ID(248);
+    }
+    Store_Set(168)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_Torso");
+        ID(249);
+    }
+    Store_Set(169)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_Gloves");
+        ID(250);
+    }
+    Store_Set(170)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_Legs");
+        ID(251);
+    }
+    Store_Set(171)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_TorsoAddon");
+        ID(252);
+    }
+    Store_Set(172)
+    {
+        Item(1, "Outfitset_Halloween_Scarecrow_Shoes");
+        ID(253);
+    }
+    Store_Set(173)
+    {
+        Item(1, "wpn_2hs_r_HalloweenScythe");
+        ID(254);
+    }
+    Store_Set(174)
+    {
+        Item(1, "Craftplan_HalloweenScythe_Common");
+        ID(255);
+    }
+    Store_Set(177)
+    {
+        Item(1, "Craftplan_charm_halloween_scarecrow");
+        ID(256);
+    }
+    Store_Set(180)
+    {
+        Item(1, "Outfitset_Halloween_Plague_Head");
+        ID(257);
+    }
+    Store_Set(181)
+    {
+        Item(1, "Outfitset_Halloween_Plague_Torso");
+        ID(258);
+    }
+    Store_Set(182)
+    {
+        Item(1, "Outfitset_Halloween_Plague_Gloves");
+        ID(259);
+    }
+    Store_Set(183)
+    {
+        Item(1, "Outfitset_Halloween_Plague_Legs");
+        ID(260);
+    }
+    Store_Set(184)
+    {
+        Item(1, "Outfitset_Halloween_Plague_TorsoAddon");
+        ID(261);
+    }
+    Store_Set(185)
+    {
+        Item(1, "Outfitset_Halloween_Plague_Shoes");
+        ID(262);
+    }
+    Store_Set(186)
+    {
+        Item(1, "wpn_1hs_axe_01_HalloweenStaff");
+        ID(263);
+    }
+    Store_Set(187)
+    {
+        Item(1, "Craftplan_HalloweenStaff_Common");
+        ID(264);
+    }
+    Docket_Set("Weapon33")
+    {
+        Item(1, "Craftplan_FH_Berserker_Common");
+        BlockedByItem("Craftplan_FH_Berserker_Common");
+        BlockedByItem("Craftplan_FH_Berserker_Uncommon");
+        BlockedByItem("Craftplan_FH_Berserker_Rare");
+        BlockedByItem("Craftplan_FH_Berserker_Unique");
+        BlockedByItem("Craftplan_FH_Berserker_Artifact");
+        BlockedByItem("Craftplan_FH_Berserker_Legendary");
+        ID(265);
+    }
+    Docket_Set("Weapon34")
+    {
+        Item(1, "Craftplan_HydraKnife_Common");
+        ID(266);
+    }
+    Store_Set(190)
+    {
+        Item(1, "wpn_1hs_knuckle_duster_e_wod");
+        ID(267);
+    }
+    Store_Set(191)
+    {
+        Item(1, "Craftplan_WoDKnuckles_Common");
+        ID(268);
+    }
+    Store_Set(192)
+    {
+        Item(1, "Craftplan_charm_wod_brujah");
+        ID(269);
+    }
+    Store_Set(195)
+    {
+        Item(1, "wpn_1hs_axe_v_wod");
+        ID(270);
+    }
+    Store_Set(196)
+    {
+        Item(1, "Craftplan_WoDAxe_Common");
+        ID(271);
+    }
+    Store_Set(197)
+    {
+        Item(1, "Craftplan_charm_wod_tramere");
+        ID(272);
+    }
+    Store_Set(200)
+    {
+        Item(1, "wpn_1hs_mach_05_wod");
+        ID(273);
+    }
+    Store_Set(201)
+    {
+        Item(1, "Craftplan_WoDMachete_Common");
+        ID(274);
+    }
+    Store_Set(202)
+    {
+        Item(1, "Craftplan_charm_wod_banuhaqim");
+        ID(275);
+    }
+    Store_Set(205)
+    {
+        Item(1, "wpn_15hs_y_fh_kensei");
+        ID(276);
+    }
+    Store_Set(206)
+    {
+        Item(1, "Craftplan_FH_Kensei_Common");
+        ID(277);
+    }
+    Store_Set(207)
+    {
+        Item(1, "Craftplan_charm_fh_kensei");
+        ID(278);
+    }
+    Store_Set(210)
+    {
+        Item(1, "wpn_15hs_x_fh_warden");
+        ID(279);
+    }
+    Store_Set(211)
+    {
+        Item(1, "Craftplan_FH_Warden_Common");
+        ID(280);
+    }
+    Store_Set(212)
+    {
+        Item(1, "Craftplan_charm_fh_warden");
+        ID(281);
+    }
+    Store_Set(215)
+    {
+        Item(1, "wpn_1hs_axe_q_fh_berserker");
+        ID(282);
+    }
+    Store_Set(216)
+    {
+        Item(1, "Craftplan_FH_Berserker_Common");
+        ID(283);
+    }
+    Store_Set(217)
+    {
+        Item(1, "Craftplan_charm_fh_berserker");
+        ID(284);
+    }
+    Docket_Set("Weapon38")
+    {
+        Item(1, "Craftplan_DyingLaughBat_Common");
+        ID(285);
+    }
+    Docket_Set("Weapon39")
+    {
+        Item(1, "Craftplan_NutcrackerSaber_Common");
+        ID(286);
+    }
+    DLC_Set("DLC_GunslingerOutfit")
+    {
+        Item(1, "Craftplan_GunslingerDynamite_Explosive");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade1");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade2");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade3");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade4");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade5");
+        BlockedByItem("Craftplan_GunslingerDynamite_Explosive_Upgrade6");
+        ID(287);
+    }
+    Docket_Set("Weapon37")
+    {
+        Item(1, "Craftplan_SkyPiercerJi_Common");
+        ID(288);
+    }
+    Store_Set(220)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_Head");
+        ID(289);
+    }
+    Store_Set(221)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_Torso");
+        ID(290);
+    }
+    Store_Set(222)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_Gloves");
+        ID(291);
+    }
+    Store_Set(223)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_Legs");
+        ID(292);
+    }
+    Store_Set(224)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_TorsoAddon");
+        ID(293);
+    }
+    Store_Set(225)
+    {
+        Item(1, "Outfitset_WinterEvent_Creepy_Santa_Shoes");
+        ID(294);
+    }
+    Store_Set(226)
+    {
+        Item(1, "wpn_2hs_polearm_creepy_santa");
+        ID(295);
+    }
+    Store_Set(227)
+    {
+        Item(1, "Craftplan_CreepySanta_Artifact");
+        ID(296);
+    }
+    Store_Set(230)
+    {
+        Item(1, "wpn_15hs_w_LuBu");
+        ID(297);
+    }
+    Store_Set(233)
+    {
+        Item(1, "Craftplan_SkyPiercerJi_Common");
+        ID(298);
+    }
+    Store_Set(232)
+    {
+        Item(1, "Craftplan_charm_dragonwarrior");
+        ID(299);
+    }
+    Docket_Set("Weapon41")
+    {
+        Item(1, "Craftplan_PolearmD_Common");
+        ID(300);
+    }
+    Docket_Set("Weapon40")
+    {
+        Item(1, "Craftplan_Junkyard_Common");
+        ID(301);
+    }
+    Docket_Set("Weapon35")
+    {
+        Item(1, "Craftplan_GlassCannon_Common");
+        ID(302);
+    }
+    Docket_Set("Weapon43")
+    {
+        Item(1, "Craftplan_pilgrimpo_Common");
+        ID(303);
+    }
+    Docket_Set_With_Cooldown("Weapon46", 1.0)
+    {
+        Item(1, "wpn_2hr_crossbow_c_pilgrimpo");
+        BlockedByItem("wpn_2hr_crossbow_c_pilgrimpo");
+        ID(306);
+    }
+    Docket_Set("Weapon46")
+    {
+        Item(1, "Craftplan_Bolt");
+        BlockedByItem("Craftplan_Bolt");
+        ID(307);
+    }
+    Store_Set(236)
+    {
+        Item(1, "wpn_1hs_mach_08_NightVibes");
+        ID(308);
+    }
+    Store_Set(237)
+    {
+        Item(1, "Craftplan_NightVibesMachete_Common");
+        ID(309);
+    }
+    Store_Set(238)
+    {
+        Item(1, "wpn_1hs_mach_q_NightVibes");
+        ID(310);
+    }
+    Store_Set(239)
+    {
+        Item(1, "Craftplan_NightVibesScythe_Common");
+        ID(311);
+    }
+    Store_Set(240)
+    {
+        Item(1, "Rifle_NightVibes_WeaponBundle");
+        BlockedByItem("Weapon_Firearm_Rifle_NightVibes");
+        ID(312);
+    }
+    Docket_Set("Weapon47")
+    {
+        Item(1, "Craftplan_AxeFrost_Artifact");
+        BlockedByItem("Craftplan_AxeFrost_Artifact");
+        ID(313);
+    }
+    Server_Set(1)
+    {
+        Item(1, "Harran_FreeGun_Bundle");
+        BlockedByItem("Weapon_Firearm_Pistol_Blue");
+        ID(314);
+    }
+    Store_Set(243)
+    {
+        Item(1, "wpn_15hs_z_erlangshen");
+        ID(315);
+    }
+    Store_Set(244)
+    {
+        Item(1, "Craftplan_ErlangShen_Common");
+        ID(316);
+    }
+    Store_Set(245)
+    {
+        Item(1, "Craftplan_charm_erlangshen");
+        ID(317);
+    }
+    Store_Set(246)
+    {
+        Item(1, "erlangshen_grenade_Bundle");
+        ID(318);
+    }
+    Store_Set(247)
+    {
+        Item(1, "Craftplan_erlangshen_grenade");
+        ID(319);
+    }
+    Store_Set(248)
+    {
+        Item(1, "gameover_Foodbar_Bundle");
+        ID(320);
+    }
+    Store_Set(249)
+    {
+        Item(1, "Craftplan_Foodbar_Gameover");
+        ID(321);
+    }
+    Store_Set(252)
+    {
+        Item(1, "Welcome_Pistol_Bundle");
+        ID(322);
+    }
+    Store_Set(253)
+    {
+        Item(1, "Welcome_10MedkitLarge_Bundle");
+        ID(323);
+    }
+    Store_Set(254)
+    {
+        Item(1, "Welcome_Cash_Bundle");
+        ID(324);
+    }
+    Docket_Set("Weapon48")
+    {
+        Item(1, "Craftplan_HalloweenKnife_Common");
+        ID(325);
+    }
+    Store_Set(265)
+    {
+        Item(1, "wpn_1hs_mach_06_anubis");
+        ID(326);
+    }
+    Store_Set(266)
+    {
+        Item(1, "Craftplan_Anubis_Common");
+        ID(327);
+    }
+    Store_Set(267)
+    {
+        Item(1, "Craftplan_charm_anubis");
+        ID(328);
+    }
+    Store_Set(268)
+    {
+        Item(1, "Anubis_CrossbowBundle");
+        ID(329);
+    }
+    Store_Set(269)
+    {
+        Item(1, "Craftplan_Player_Shield_Anubis");
+        ID(330);
+    }
+    Store_Set(272)
+    {
+        Item(1, "Potion_Peacekeeper_Bundle");
+        ID(331);
+    }
+    Store_Set(273)
+    {
+        Item(1, "Craftplan_Potion_Peacekeeper");
+        ID(332);
+    }
+    Store_Set(274)
+    {
+        Item(1, "wpn_2hs_m_peacekeeper");
+        ID(333);
+    }
+    Store_Set(275)
+    {
+        Item(1, "Craftplan_Peacekeeper_Common");
+        ID(334);
+    }
+    Store_Set(277)
+    {
+        Item(1, "wpn_15hb_y_america");
+        ID(335);
+    }
+    Store_Set(278)
+    {
+        Item(1, "Craftplan_America_Common");
+        ID(336);
+    }
+    Store_Set(257)
+    {
+        Item(1, "wpn_1hs_axe_y_perun");
+        ID(337);
+    }
+    Store_Set(258)
+    {
+        Item(1, "Craftplan_Perun_Common");
+        ID(338);
+    }
+    Store_Set(260)
+    {
+        Item(1, "wpn_2hp_perun");
+        ID(339);
+    }
+    Store_Set(259)
+    {
+        Item(1, "Craftplan_charm_perun");
+        ID(340);
+    }
+    Docket_Set("Weapon50")
+    {
+        Item(1, "Craftplan_Pilgrimtwitch_Common");
+        ID(341);
+    }
+    Docket_Set("Weapon51")
+    {
+        Item(1, "Craftplan_PKtwitch_Common");
+        ID(342);
+    }
+    Store_Set(280)
+    {
+        Item(1, "wpn_1hs_mach_v_pilgrimtwitch");
+        ID(344);
+    }
+    Store_Set(281)
+    {
+        Item(1, "Craftplan_Pilgrimtwitch_Common");
+        ID(345);
+    }
+    Store_Set(282)
+    {
+        Item(1, "wpn_2hb_g_pktwitch");
+        ID(346);
+    }
+    Store_Set(283)
+    {
+        Item(1, "Craftplan_PKtwitch_Common");
+        ID(347);
+    }
+    Store_Set(324)
+    {
+        Item(1, "Brecken_SMG_Bundle");
+        ID(387);
+    }
+    Store_Set(325)
+    {
+        Item(1, "Craftplan_Bolts_Fire");
+        ID(388);
+    }
+    Store_Set(337)
+    {
+        Item(1, "Weapon_Firearm_Submachinegun_Welcome");
+        ID(389);
+    }
+    Store_Set(330)
+    {
+        Item(1, "Outfitset_Gridiron_Torso");
+        ID(390);
+    }
+    Store_Set(331)
+    {
+        Item(1, "Outfitset_Gridiron_Legs");
+        ID(391);
+    }
+    Store_Set(332)
+    {
+        Item(1, "Outfitset_Gridiron_Shoes");
+        ID(392);
+    }
+    Store_Set(333)
+    {
+        Item(1, "Outfitset_Gridiron_Head");
+        ID(393);
+    }
+    Store_Set(334)
+    {
+        Item(1, "Outfitset_Gridiron_Gloves");
+        ID(394);
+    }
+    Store_Set(335)
+    {
+        Item(1, "Outfitset_Gridiron_TorsoAddon");
+        ID(395);
+    }
+    Store_Set(328)
+    {
+        Item(1, "wpn_football_ball_a_gridiron");
+        ID(396);
+    }
+    Store_Set(329)
+    {
+        Item(1, "Craftplan_gridiron_Common");
+        ID(397);
+    }
+    Docket_Set("Weapon54")
+    {
+        Item(1, "Craftplan_EXPcalibur_Common");
+        ID(398);
+    }
+    DLC_Set("DLC_BloodyNightsPack")
+    {
+        Item(1, "Craftplan_Bolts_Fire");
+        ID(400);
+    }
+    Server_Set(2)
+    {
+        Item(1, "Weapon_Firearm_Submachinegun_Welcome");
+        BlockedByItem("Weapon_Firearm_Submachinegun_Welcome");
+        ID(401);
+    }
+    Store_Set(341)
+    {
+        Item(1, "Craftplan_vampire_claws_Common");
+        ID(402);
+    }
+    Store_Set(340)
+    {
+        Item(1, "wpn_1hs_knuckle_duster_vampire");
+        ID(403);
+    }
+    Store_Set(342)
+    {
+        Item(1, "wpn_sword_vampire");
+        ID(404);
+    }
+    Store_Set(343)
+    {
+        Item(1, "Craftplan_vampire_sword_Common");
+        ID(405);
+    }
+    Store_Set(344)
+    {
+        Item(1, "Outfitset_Vampire_Torso");
+        ID(406);
+    }
+    Store_Set(345)
+    {
+        Item(1, "Outfitset_Vampire_Legs");
+        ID(407);
+    }
+    Store_Set(346)
+    {
+        Item(1, "Outfitset_Vampire_Shoes");
+        ID(408);
+    }
+    Store_Set(347)
+    {
+        Item(1, "Outfitset_Vampire_Head");
+        ID(409);
+    }
+    Store_Set(348)
+    {
+        Item(1, "Outfitset_Vampire_Gloves");
+        ID(410);
+    }
+    Store_Set(349)
+    {
+        Item(1, "Outfitset_Vampire_TorsoAddon");
+        ID(411);
+    }
+    Store_Set(350)
+    {
+        Item(1, "Craftplan_charm_vampire");
+        ID(412);
+    }
+    Store_Set(354)
+    {
+        Item(1, "wpn_sword_pirate");
+        ID(413);
+    }
+    Store_Set(355)
+    {
+        Item(1, "Craftplan_pirate_Common");
+        ID(414);
+    }
+    Store_Set(356)
+    {
+        Item(1, "Boomstick_Pirate_bundle");
+        ID(415);
+    }
+    Store_Set(357)
+    {
+        Item(3, "Craftplan_Boomstick_Pirate");
+        ID(416);
+    }
+    Store_Set(358)
+    {
+        Item(1, "Potion_Pirate_bundle");
+        ID(417);
+    }
+    Store_Set(359)
+    {
+        Item(1, "Craftplan_Potion_Pirate");
+        ID(418);
+    }
+    Store_Set(360)
+    {
+        Item(1, "Craftplan_charm_pirate");
+        ID(419);
+    }
+    Store_Set(362)
+    {
+        Item(1, "wpn_scythe_bones");
+        ID(420);
+    }
+    Store_Set(363)
+    {
+        Item(1, "Craftplan_bones_Common");
+        ID(421);
+    }
+    Store_Set(364)
+    {
+        Item(1, "Craftplan_charm_bones");
+        ID(422);
+    }
+    Store_Set(365)
+    {
+        Item(1, "SMG_Plague_WeaponBundle");
+        ID(423);
+    }
+    Store_Set(336)
+    {
+        Item(1, "Rifle_Anubis_WeaponBundle");
+        ID(424);
+    }
+    Store_Set(366)
+    {
+        Item(1, "Throwable_AnubisGrenade_Bundle");
+        ID(425);
+    }
+    Store_Set(367)
+    {
+        Item(1, "Craftplan_AnubisGrenade_Explosive");
+        ID(426);
+    }
+    Docket_Set("Weapon57")
+    {
+        Item(1, "Craftplan_Gladius_Common");
+        ID(427);
+    }
+    Store_Set(370)
+    {
+        Item(1, "wpn_sword_gladius");
+        ID(428);
+    }
+    Store_Set(371)
+    {
+        Item(1, "Craftplan_Gladius_Common");
+        ID(429);
+    }
+    Store_Set(401)
+    {
+        Item(1, "Craftplan_WinterElfBow_Artifact");
+        ID(430);
+    }
+    Store_Set(400)
+    {
+        Item(1, "Craftplan_Arrows_DeepFreeze");
+        ID(431);
+    }
+    Store_Set(392)
+    {
+        Item(1, "wpn_2hp_bow_winter_elf");
+        ID(432);
+    }
+    Store_Set(393)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_Torso");
+        ID(433);
+    }
+    Store_Set(394)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_Legs");
+        ID(434);
+    }
+    Store_Set(395)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_Shoes");
+        ID(435);
+    }
+    Store_Set(396)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_Head");
+        ID(436);
+    }
+    Store_Set(397)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_Gloves");
+        ID(437);
+    }
+    Store_Set(398)
+    {
+        Item(1, "Outfitset_WinterEvent_Evil_Elf_TorsoAddon");
+        ID(438);
+    }
+    Store_Set(402)
+    {
+        Item(1, "Event_WinterEvent_Bundle_Arrow_DeepFreeze");
+        ID(439);
+    }
+    Store_Set(374)
+    {
+        Item(1, "Craftplan_charm_snowman");
+        ID(440);
+    }
+    Store_Set(387)
+    {
+        Item(1, "Craftplan_charm_snakewarrior");
+        ID(442);
+    }
+    Store_Set(372)
+    {
+        Item(1, "wpn_2hb_p_snowman");
+        ID(443);
+    }
+    Store_Set(406)
+    {
+        Item(1, "Craftplan_Snowman_Common");
+        ID(446);
+    }
+    Store_Set(377)
+    {
+        Item(1, "Outfitset_Snakewarrior_Torso");
+        ID(447);
+    }
+    Store_Set(378)
+    {
+        Item(1, "Outfitset_Snakewarrior_Legs");
+        ID(448);
+    }
+    Store_Set(379)
+    {
+        Item(1, "Outfitset_Snakewarrior_Shoes");
+        ID(449);
+    }
+    Store_Set(380)
+    {
+        Item(1, "Outfitset_Snakewarrior_Head");
+        ID(450);
+    }
+    Store_Set(381)
+    {
+        Item(1, "Outfitset_Snakewarrior_Gloves");
+        ID(451);
+    }
+    Store_Set(382)
+    {
+        Item(1, "Outfitset_Snakewarrior_TorsoAddon");
+        ID(452);
+    }
+    Store_Set(384)
+    {
+        Item(1, "wpn_1hs_mach_19_snakewarrior");
+        ID(454);
+    }
+    Store_Set(385)
+    {
+        Item(1, "Craftplan_Snakewarrior_Common");
+        ID(455);
+    }
+    Docket_Set("Weapon63")
+    {
+        Item(1, "Craftplan_Snakewarrior_Common");
+        ID(456);
+    }
 }

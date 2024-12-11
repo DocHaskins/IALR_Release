@@ -1811,7 +1811,7 @@ sub ViralDifficultyPresets()
         SetField("m_PerceptionProfile", "viral_level_2_RGD");
         SetField("m_WeaponSetName", "Viral_RGD_2");
         SetField("m_CustomLootTypeString", "T2_ViralLoot");
-        SetField("m_StaminaPreset", "Regular_RGD9");
+        SetField("m_StaminaPreset", "Viral_RGD2");
         SetField("m_XpForKill", "25");
         use Viral_Model_Tier_01();
     }
@@ -3204,7 +3204,7 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_2_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_2");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_2");
-        SetField("m_CustomLootTypeString", "T2_VolatileLoot");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
         SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
@@ -3217,8 +3217,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_3_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_3");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_3");
-        SetField("m_CustomLootTypeString", "T3_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_3_Nightmare", "Volatile_Level_3")
@@ -3230,8 +3230,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_4_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_4");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_4");
-        SetField("m_CustomLootTypeString", "T4_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_4_Nightmare", "Volatile_Level_4")
@@ -3243,8 +3243,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_5_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_5");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_5");
-        SetField("m_CustomLootTypeString", "T5_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_5_Nightmare", "Volatile_Level_5")
@@ -3256,8 +3256,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_6_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_6");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_6");
-        SetField("m_CustomLootTypeString", "T6_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_6_Nightmare", "Volatile_Level_6")
@@ -3269,8 +3269,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_7_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_7");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_7");
-        SetField("m_CustomLootTypeString", "T7_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_7_Nightmare", "Volatile_Level_7")
@@ -3282,8 +3282,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_8_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_8");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_8");
-        SetField("m_CustomLootTypeString", "T8_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_8_Nightmare", "Volatile_Level_8")
@@ -3295,8 +3295,8 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_ConstFilename", "volatile_profile_level_9_RGD");
         SetField("m_HealthPreset", "Volatile_RGD_9");
         SetField("m_WeaponSetName", "Zombie_Volatile_RGD_9");
-        SetField("m_CustomLootTypeString", "T9_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_default");
+        SetField("m_CustomLootTypeString", "DefaultVolatileLoot");
+        SetField("m_PerceptionProfile", "volatile_default");
 		SetField("m_XpForKill", "100");
     }
     Preset("Volatile_Level_9_Nightmare", "Volatile_Level_9")
@@ -3450,8 +3450,7 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_1", "Volatile_Level_1")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_1");
-		SetField("m_CustomLootTypeString", "T1_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
     	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_1_Nightmare", "Volatile_Hive_Level_1")
@@ -3461,10 +3460,9 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_2", "Volatile_Level_2")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_2");
-		SetField("m_CustomLootTypeString", "T2_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-		SetField("m_XpForKill", "50");
-	}
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
+    }
     Preset("Volatile_Hive_Level_2_Nightmare", "Volatile_Hive_Level_2")
     {
         SetField("m_PerceptionProfile", "volatile_hive_nightmare");
@@ -3472,9 +3470,8 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_3", "Volatile_Level_3")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_3");
-		SetField("m_CustomLootTypeString", "T3_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_3_Nightmare", "Volatile_Hive_Level_3")
     {
@@ -3483,9 +3480,8 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_4", "Volatile_Level_4")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_4");
-		SetField("m_CustomLootTypeString", "T4_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_4_Nightmare", "Volatile_Hive_Level_4")
     {
@@ -3494,9 +3490,8 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_5", "Volatile_Level_5")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_5");
-		SetField("m_CustomLootTypeString", "T5_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_5_Nightmare", "Volatile_Hive_Level_5")
     {
@@ -3505,9 +3500,8 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_6", "Volatile_Level_6")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_6");
-		SetField("m_CustomLootTypeString", "T6_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_6_Nightmare", "Volatile_Hive_Level_6")
     {
@@ -3516,9 +3510,8 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_7", "Volatile_Level_7")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_7");
-		SetField("m_CustomLootTypeString", "T7_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_7_Nightmare", "Volatile_Hive_Level_7")
     {
@@ -3527,16 +3520,18 @@ sub InfectedSpecialDifficultyPresets()
     Preset("Volatile_Hive_Level_8", "Volatile_Level_8")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_8");
-		SetField("m_CustomLootTypeString", "T8_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
+    }
+    Preset("Volatile_Hive_Level_8_Nightmare", "Volatile_Hive_Level_8")
+    {
+        SetField("m_PerceptionProfile", "volatile_hive_nightmare");
     }
     Preset("Volatile_Hive_Level_9", "Volatile_Level_9")
     {
         SetField("m_HealthPreset", "Volatile_Hive_RGD_9");
-		SetField("m_CustomLootTypeString", "T9_VolatileLoot");
-		SetField("m_PerceptionProfile", "volatile_hive_default");
-        SetField("m_XpForKill", "50");
+        SetField("m_PerceptionProfile", "volatile_hive_default");
+    	SetField("m_XpForKill", "50");
     }
     Preset("Volatile_Hive_Level_9_Nightmare", "Volatile_Hive_Level_9")
     {
@@ -4345,6 +4340,43 @@ sub InfectedSpecialDifficultyPresets()
         SetField("m_StaminaPreset", "Regular_RGD9");
         SetField("m_XpForKill", "25");
     }
+    Preset("Spitter_Winter_Level_1", "Spitter_Level_1")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_2", "Spitter_Level_2")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_3", "Spitter_Level_3")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_4", "Spitter_Level_4")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_5", "Spitter_Level_5")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_6", "Spitter_Level_6")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_7", "Spitter_Level_7")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_8", "Spitter_Level_8")
+    {
+    
+    }
+    Preset("Spitter_Winter_Level_9", "Spitter_Level_9")
+    {
+    
+    }
+
 
 	//TowerRaid
 	Preset("TR_Suicider_Level_9", "Suicider_Level_9")
@@ -7020,119 +7052,6 @@ sub RumbleFightsGenericDifficultyPresets()
     {
         SetField("m_ConstFilename", "human_profile_generic_one_handed_tier_9");
         SetField("m_WeaponSetName", "Weapon_pool_blunt_RGD_9");
-    }
-}
-sub ForHonorDifficultyPresets()
-{
-    Preset("For_Honor_Samurai_Level_1", "Renegade_Two_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_1");
-    }
-    Preset("For_Honor_Samurai_Level_2", "Renegade_Two_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_2");
-    }
-    Preset("For_Honor_Samurai_Level_3", "Renegade_Two_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_3");
-    }
-    Preset("For_Honor_Samurai_Level_4", "Renegade_Two_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_4");
-    }
-    Preset("For_Honor_Samurai_Level_5", "Renegade_Two_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_5");
-    }
-    Preset("For_Honor_Samurai_Level_6", "Renegade_Two_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_6");
-    }
-    Preset("For_Honor_Samurai_Level_7", "Renegade_Two_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_7");
-    }
-    Preset("For_Honor_Samurai_Level_8", "Renegade_Two_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_8");
-    }
-    Preset("For_Honor_Samurai_Level_9", "Renegade_Two_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Samurai_RGD_9");
-    }
-
-    Preset("For_Honor_Knight_Level_1", "Renegade_Two_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_1");
-    }
-    Preset("For_Honor_Knight_Level_2", "Renegade_Two_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_2");
-    }
-    Preset("For_Honor_Knight_Level_3", "Renegade_Two_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_3");
-    }
-    Preset("For_Honor_Knight_Level_4", "Renegade_Two_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_4");
-    }
-    Preset("For_Honor_Knight_Level_5", "Renegade_Two_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_5");
-    }
-    Preset("For_Honor_Knight_Level_6", "Renegade_Two_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_6");
-    }
-    Preset("For_Honor_Knight_Level_7", "Renegade_Two_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_7");
-    }
-    Preset("For_Honor_Knight_Level_8", "Renegade_Two_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_8");
-    }
-    Preset("For_Honor_Knight_Level_9", "Renegade_Two_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Knight_RGD_9");
-    }
-
-    Preset("For_Honor_Viking_Level_1", "Renegade_One_Handed_Level_1")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_1");
-    }
-    Preset("For_Honor_Viking_Level_2", "Renegade_One_Handed_Level_2")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_2");
-    }
-    Preset("For_Honor_Viking_Level_3", "Renegade_One_Handed_Level_3")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_3");
-    }
-    Preset("For_Honor_Viking_Level_4", "Renegade_One_Handed_Level_4")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_4");
-    }
-    Preset("For_Honor_Viking_Level_5", "Renegade_One_Handed_Level_5")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_5");
-    }
-    Preset("For_Honor_Viking_Level_6", "Renegade_One_Handed_Level_6")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_6");
-    }
-    Preset("For_Honor_Viking_Level_7", "Renegade_One_Handed_Level_7")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_7");
-    }
-    Preset("For_Honor_Viking_Level_8", "Renegade_One_Handed_Level_8")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_8");
-    }
-    Preset("For_Honor_Viking_Level_9", "Renegade_One_Handed_Level_9")
-    {
-        SetField("m_HealthPreset", "FH_Berserker_RGD_9");
     }
 }
 

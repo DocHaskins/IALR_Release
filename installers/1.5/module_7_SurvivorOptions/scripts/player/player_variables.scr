@@ -154,6 +154,7 @@ sub main()
     Param("BowEnableDamageScalingByForce", "true");
 
     Param("BowPowerShotEnabled", "false");
+    Param("BowPowerShotWhileSlidingEnabled", "true");
     Param("BowPowerShotPrepareDuration", "0.3");
     Param("BowPowerShotPrepareDmgMultiplier", "0.0");
     Param("BowPowerShotChargeStartDuration", "1.5"); // Duration between no charge and perfect shot. 
@@ -1498,6 +1499,8 @@ sub main()
     Param("MeeleTwoHandedStaminaUsageMul", "0.0");
 	Param("MeeleTwoHandedMinLookAngle", "-60.0");
     Param("HalberdMinLookAngle", "-60.0");
+    Param("KnucklesInCrouchMinLookAngle", "-55.0");
+    Param("CrossbowInCrouchMinLookAngle", "-55.0");
     Param("MeeleFistStaminaUsageMul", "0.0");
     Param("StaminaRegenerationOnHalfHealth", "0.0");
     Param("StaminaUsageFactorOnMaxHealth", "1.0");
@@ -1908,6 +1911,8 @@ sub main()
     Param("OutfitParkourDamageBoostFactorCoop", "0.0");
 	Param("OutfitNoAmmoConsumptionChance", "0.0");
 	Param("OutfitInfectedDamageMul", "0.0");
+	Param("OutfitSetThrowChance", "0.0");
+	Param("OutfitSetThrowItem", "");
 
 	Param("OutfitArmorResistanceFactorMul", "1.0");
 	Param("ArmorResistanceMulPhysical", "1.0");
@@ -2286,11 +2291,11 @@ sub main()
     Param("AddCameraShakeOnShoot", "true");
     Param("CameraShotShakePower", "0.25");
 
-    Param("DamageTagsVolatiles", "volatile;volatile_hive;volatile_tyrant");
-    Param("DamageTagsDemolishers", "demolisher;demolisher_sgt;goon");
-    Param("DamageTagsCorruptors", "corruptor");
-    Param("DamageTagsVirals", "viral");
-    Param("DamageTagsBanshees", "banshee;banshee_hag");
+    Param("ActorTagFilterVolatiles", "volatile;volatile_hive;volatile_tyrant");
+    Param("ActorTagFilterDemolishers", "demolisher;demolisher_sgt;goon");
+    Param("ActorTagFilterCorruptors", "corruptor");
+    Param("ActorTagFilterVirals", "viral");
+    Param("ActorTagFilterBanshees", "banshee;banshee_hag");
 
     Param("WeaponDamageVsVolatiles", "0"); //Affix variable
     Param("WeaponDamageVsDemolishers", "0"); //Affix variable
@@ -2496,4 +2501,6 @@ sub main()
 	Param("NoBulletConsumptionSoundEvent", "weapon_no_ammo_consumption_firearms");
 	
 	Param("FirearmsMaxHealthPoolPercentageBasedDamageFactor", "3.5");			
+
+	Param("EnemyAffectedByBurningDamageMulFactor", "0.0");
 }
