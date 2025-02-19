@@ -2680,6 +2680,43 @@ sub main()
 		Item("wpn_1hs_mach_l_fpp_r0", 1, "", "Blue");
     }	
 
+	Preset("RaidHubPrologueSkip_Player_Preset")		// Start from Only Way Out Quest
+    {
+		Skill("height_jump");
+		Skill("parkour_combat");
+		Skill("CubeKey"); // Tool
+		Skill("Binoculars"); // Tool
+		Skill("GreInhibitorDetector"); // Tool
+		
+        use Health_Lvl_1();
+		use Stamina_Lvl_1();
+
+        Level(2, "Traversal", 1.0);
+        Level(2, "Combat", 1.0);
+		Level(4, "Experience", 1.0); //Check
+		
+		Item("outfit_pilgrim_bracers", 1, "");
+		Item("outfit_pilgrim_gloves", 1, "");
+		
+		Item("Craftplan_Lockpick", 1, "");
+		Item("LockpickItem", 2, "");
+		Item("Craftplan_Medkit_Small", 1, "");
+		Item("Medkit_Small", 2, "");
+		Item("Craftplan_ThrowingKnives", 1, "");
+		
+		Item("Craft_Scrap", 80, "");
+		Item("Cash_Cash", 10, "");
+		Item("Plant_Honey", 5, "");
+		Item("Craft_Rags", 10, "");
+		Item("Plant_Chamomile", 10, "");
+		Item("Craft_Resin", 5, "");
+		
+		Item("wpn_1hb_stk_a_fpp_r2_prologue", 1, "", "Blue");
+		Item("wpn_1hs_mach_e_MarkersOfPlague", 1, "", "Blue");
+		Item("wpn_1hs_mach_l_fpp_r0", 1, "", "Blue");
+		Item("wpn_1hb_mace_j_fpp_r0", 1, "", "White");
+    }	
+	
 //////EVERYTHING BELOW TO REMOVE
 
 	Preset("Player_150")		// Quests Prologue 

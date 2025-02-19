@@ -497,14 +497,14 @@ sub main()
     Param("MoveSprintStaminaConsumption", "0.01");
     Param("MoveSpeedFitnessFactor", "0.6");
     Param("MoveSpeedFitnessFactorTime", "5.0");
-    Param("XrayEffectProbability", "XRAY_Chance");
+    Param("XrayEffectProbability", "0.25");
     Param("XRayVisEffectRadius", "0.7");
     Param("XRayVisEffectDuration", "1.5");
     Param("XRayEffectDuration", "0.3");  
     Param("EnableXray", "1");
     Param("EnableXRayEffectOnAllHits", "false");
     Param("DisableXRaySlowMoLimit", "false");
-    Param("SlowMoProbability", "1.0");
+    Param("SlowMoProbability", "0.5");
 	Param("SlowMoLastGroupTime", "30.0");
 	Param("GroupOfEnemiesCount", "8.0");	
     Param("SkipObstacleMechanimsOnEnemyProb", "0.4");
@@ -1150,7 +1150,7 @@ sub main()
     // THROWING SKILL - multi
     Param("ThrowingMultiSkillEnabled", "1");
     Param("ThrowingMultiSkillCooldown", "-1.0");
-    Param("ThrowingMultiSkillMarkingDelay", "0.2");
+    Param("ThrowingMultiSkillMarkingDelay", "0.8");
     Param("ThrowingMultiSkillMaxEnemies", "1.0");
     Param("ThrowingMultiSkillRange", "40.0");
     Param("ThrowingMultiSkillAutoAimAngle", "2.0");
@@ -1510,6 +1510,7 @@ sub main()
     Param("LookSpeedSprintMod", "1.0");
     Param("CarryLookTimeMul", "0.5");
     Param("MovementSpeedMul", "1.0");
+    Param("MeleeAttackSpeedMul", "1.0");
     Param("StepSoundRangeMul", "1.0");
     Param("DefaultLookJumpSpeed", "4.5");    
 	Param("SlopeJumpSpeed", "0.5");
@@ -2446,8 +2447,10 @@ sub main()
     Param("MaxHealthPercentHealOnDecapitation", "0.0");
     Param("TowerRaid_NormalAdditionalRandomModifiers", "0.0");
     Param("TowerRaid_EliteAdditionalRandomModifiers", "0.0");
+    Param("TowerRaid_LiteAdditionalRandomModifiers", "0.0");
     Param("TowerRaid_NormalPositiveModifierAdditionalProbability", "0.0");
     Param("TowerRaid_ElitePositiveModifierAdditionalProbability", "0.0");
+    Param("TowerRaid_LitePositiveModifierAdditionalProbability", "0.0");
     Param("MeleeDamageSpecificHealthMulThreshold", "0.0");
     Param("MeleeDamageSpecificHealthMul", "0.0");
     Param("MeleeDamageEnemyCurrentHealthPoolPercentage", "0.0");
@@ -2473,10 +2476,22 @@ sub main()
     Param("MaxHealthRegenThresholdMul", "1.0");
     Param("MaxHealthPercentHealOnExecution", "0.0");
     Param("TowerRaid_FriendlyThrowableDamageMul", "0.0");
-    Param("TowerRaid_CandyReceivedMul", "0.0");
     Param("TowerRaid_ScrapsReceivedMul", "0.0");
     Param("TowerRaid_DifficultyTierDamageScaling", "9.0");
+    Param("TowerRaid_BlockStaminaConsumptionOnEnteringFloorTime", "0.0");
+	Param("TowerRaid_StaminaFreezeTimerVariant", "0.0");
+    Param("TowerRaid_AmmoIncreaseMul", "0.0");
+    Param("TowerRaid_FloorsPercentCompletedForAmmoIncrease", "0.0");
+    Param("TowerRaid_ConsumablesIncreaseMul", "0.0");
+    Param("TowerRaid_FloorsPercentCompletedForConsumablesIncrease", "0.0");
+    Param("TowerRaid_ChronicInvincibility_OneHitImmuneFloorsPeriodicity", "0.0");
+    Param("TowerRaid_ChronicInvincibility_IsAfterOneHitImmuneInProgress", "false");
+    Param("TowerRaid_RestoredRevivesOnRooftop", "0.0");
+    Param("TowerRaid_AcquiredTaste_FloorsCompletionPercent", "0.0");
+    Param("TowerRaid_AcquiredTaste_HealthRestoredPercent", "0.0");
     // TowerRaid Perks related END
+
+    Param("TowerRaid_FlashlightIntensityMul", "1.0");
 
     Param("WeaponAfterBoostDefaultInputWindow", "2.5");
     Param("WeaponAfterBoostDefaultSpeed", "4.5");
@@ -2495,6 +2510,7 @@ sub main()
 	Param("NightStaminaUsageMul", "1.0");
 	Param("ChaseLevelDamageMul", "0.0");
 	Param("InfectedGrabBlocked", "false");
+	Param("WeaponParkourDamageMul", "0.0");
 	
 	Param("NoArrowConsumptionSoundEvent", "weapon_no_ammo_consumption_bow");
 	Param("NoBoltConsumptionSoundEvent", "weapon_no_ammo_consumption_crossbow");

@@ -1564,6 +1564,28 @@ sub appearances()
             Category(0);
             ID(201);
         }
+        Appearance("GRECleaner")
+        { 
+            ModelFpp("player_outfit_gre_cleaner_hazmat_fpp.model");
+            ModelTpp("player_outfit_gre_cleaner_hazmat_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_GRECleaner");
+			DLC("DLC_GreHazmatBundle");
+			Category(0);
+            ID(138);
+        }
+		Appearance("Brawler_TR")
+        { 
+            ModelFpp("player_outfit_brawler_fpp.model");
+            ModelTpp("player_outfit_brawler_tpp.model");
+            OverridesOutfit(true);
+			Color("Platinum");
+            Image("outfit_brawler");
+            HasCustomUnlockRequirements();
+			Category(0);
+            ID(139);
+        }
         Appearance("Halloween_Banshee")
         { 
             ModelFpp("player_fpp_halloween_03_skeleton.model");
@@ -3330,6 +3352,49 @@ sub appearances()
                 ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
 			}
         }
+		Variant("Parachute_Backpack_vnc_office")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_vnc_office_worker.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_vnc_office_worker.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_vnc_office_worker.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_vnc_office_worker.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+				ReplaceMaterial("player_backpack.mat", "player_backpack_vnc_office_worker.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_a_vnc_office_worker.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
+		
+		Variant("Parachute_Backpack_GRE_Cleaner")
+        {
+            Mesh(1, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(2, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+	        Mesh(3, "player_backpack.msh")
+			{
+                ReplaceMaterial("player_backpack.mat", "player_backpack_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("player_backpack_add_a.mat", "player_backpack_add_gre_cleaner_hazmat.mat");
+                ReplaceMaterial("zipper_a.mat", "zipper_a.mat");
+			}
+        }
 
 	}
 
@@ -3450,6 +3515,7 @@ sub appearances()
 
     OutfitSet("Krampus")
 	{
+		GuiName("&apperance_Krampus&");
 		Torso("Outfitset_Krampus_Torso");
 		Legs("Outfitset_Krampus_Legs");
 		Shoes("Outfitset_Krampus_Shoes");
@@ -3464,11 +3530,11 @@ sub appearances()
 	//LoadoutUnlockCost(3, 30);
 }
 	
-
-    //StatusLevel(int, CharacterId, AppearanceId) - Appearance is unlocked after reching given status level
-    //Chapter(int, CharacterId, AppearanceId) - Appearance is unlocked after reaching certain point in storyline
-    //Item(ItemId, CharacterId, AppearanceId) - Appearance is unlocked after player finds given item in the game world
-
+/*
+    StatusLevel(int, CharacterId, AppearanceId) - Appearance is unlocked after reching given status level
+    Chapter(int, CharacterId, AppearanceId) - Appearance is unlocked after reaching certain point in storyline
+    Item(ItemId, CharacterId, AppearanceId) - Appearance is unlocked after player finds given item in the game world
+*/
 sub unlock()
 {
 	PlayerLevel("Traversal", 0, "PlayerMan1", "Default");
@@ -3519,5 +3585,7 @@ sub unlock()
     Item("Collectable_Outfit_BreckenDark_B", "PlayerMan1", "BreckenDark_B_docket");
     Item("Collectable_Outfit_Vanaiden", "PlayerMan1", "VanAiden");
     Item("Collectable_Outfit_Krampus", "PlayerMan1", "Krampus");
+    Item("Collectable_Outfit_Ranger", "PlayerMan1", "Ranger");
     Item("Collectable_Outfit_SnakeWarrior_docket", "PlayerMan1", "SnakeWarrior_docket");
+	Item("Collectable_Outfit_BadOffice", "PlayerMan1", "BadOffice");
 }

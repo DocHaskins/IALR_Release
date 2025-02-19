@@ -20854,7 +20854,7 @@ Pool("Tower_Raid_Roof_Biter_Mix")
 	PresetWeighted("Character;TR_Biter", 25)
 	PresetWeighted("Character;TR_Biter_Woman", 25)
     //PresetWeighted("Character;TR_Biter_Toxic", 25)
-	PresetWeighted("Character;TR_Biter_Armored", 5)
+	//PresetWeighted("Character;TR_Biter_Armored", 5)
 	PresetWeighted("Character;TR_Biter_GRE", 15)
 	PresetWeighted("Character;TR_Biter_GRE_Woman", 15)
 	PresetWeighted("Character;TR_Biter_XL", 25)
@@ -20924,7 +20924,70 @@ Pool("Tower_Raid_Medical_Viral_Mix")
 	PresetWeighted("Character;TR_Viral_Survivor", 10)
 	PresetWeighted("Character;TR_Viral_Medical", 25)
 	PresetWeighted("Character;TR_Viral_Woman_Medical", 25)
-	PresetWeighted("Character;TR_Viral_Halloween", 7)
+	//PresetWeighted("Character;TR_Viral_Halloween", 7)
+}
+
+Pool("Tower_Raid_Floor_GRE_Sleeping_Mix")
+{
+    PresetWeighted("Character;TR_Biter_GRE_Resting", 15)
+	PresetWeighted("Character;TR_Biter_GRE_Woman_Resting", 15)
+}
+
+Pool("Tower_Raid_Density_Init_Mix")
+{
+    PresetWeighted("Character;TR_Biter", 35)
+	PresetWeighted("Character;TR_Biter_Woman", 35)
+	PresetWeighted("Character;TR_Biter_Resting", 20)
+	PresetWeighted("Character;TR_Viral_Resting", 5)
+	PresetWeighted("Character;TR_Viral", 5)
+	PresetWeighted("Character;TR_Viral_Woman", 5)
+}
+
+Pool("Tower_Raid_Density_Init_Biters")
+{
+    PresetWeighted("Character;TR_Biter", 40)
+	PresetWeighted("Character;TR_Biter_Woman", 40)
+	PresetWeighted("Character;TR_Biter_Resting", 20)
+}
+
+Pool("Floor_16_Tower_Raid_Density_Init_Mix")
+{
+    PresetWeighted("Character;TR_Biter", 15)
+	PresetWeighted("Character;TR_Biter_Woman", 35)
+	PresetWeighted("Character;TR_Biter_Resting", 20)
+	PresetWeighted("Character;TR_Biter_XL", 10)
+	PresetWeighted("Character;TR_Biter_Fire_Gas_Tank", 4)
+	PresetWeighted("Character;TR_Viral_Resting", 5)
+	PresetWeighted("Character;TR_Viral", 5)
+	PresetWeighted("Character;TR_Viral_Woman", 5)
+}
+
+Pool("Floor_16_Tower_Raid_Density_Init_Biters")
+{
+    PresetWeighted("Character;TR_Biter", 20)
+	PresetWeighted("Character;TR_Biter_Woman", 40)
+	PresetWeighted("Character;TR_Biter_XL", 10)
+	PresetWeighted("Character;TR_Biter_Fire_Gas_Tank", 4)
+	PresetWeighted("Character;TR_Biter_Resting", 20)
+}
+
+Pool("Tower_Raid_Density_GRE_Init_Mix")
+{
+    PresetWeighted("Character;TR_Biter_GRE", 35)
+	PresetWeighted("Character;TR_Biter_GRE_Woman", 35)
+	PresetWeighted("Character;TR_Biter_GRE_Resting", 10)
+	PresetWeighted("Character;TR_Biter_GRE_Resting_Woman", 10)
+	PresetWeighted("Character;TR_Viral_Resting", 5)
+	PresetWeighted("Character;TR_Viral_Medical", 5)
+	PresetWeighted("Character;TR_Viral_Woman_Medical", 5)
+}
+
+Pool("Tower_Raid_Density_GRE_Init_Biters")
+{
+    PresetWeighted("Character;TR_Biter_GRE", 40)
+	PresetWeighted("Character;TR_Biter_GRE_Woman", 40)
+	PresetWeighted("Character;TR_Biter_GRE_Resting", 10)
+	PresetWeighted("Character;TR_Biter_GRE_Resting_Woman", 10)
 }
 
 //Pilgrim Mission

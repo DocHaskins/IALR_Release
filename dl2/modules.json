@@ -65,16 +65,8 @@
             "incompatible": []
         },
         {
-            "name": "Custom Map Data",
-            "description": "CUSTOM MAP CHANGES: (!Work in Progress!) This module has several known bugs currently including a main quest block with the Sofi quest. You can enable and disable this at any time. May cause quest bugs/frame loss, adds new custom locations to the Bazaar Exterior.",
-            "category": "Gameplay",
-            "image": "button_modules_MapChanges.jpg",
-            "folder": "module_2_Custommapdata",
-            "incompatible": []
-        },
-        {
             "name": "Stash Unlock",
-            "description": "Unlocks the stash items for IALR, not recommended for new players",
+            "description": "PARTS OF THIS MOD ARE BROKEN DUE TO OFFICIAL UPDATES: Unlocks the stash items for IALR, not recommended for new players.",
             "category": "Gameplay",
             "image": "button_modules_stash.jpg",
             "folder": "module_9_stash",

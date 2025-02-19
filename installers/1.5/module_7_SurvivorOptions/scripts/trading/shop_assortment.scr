@@ -18454,6 +18454,49 @@ sub main()
 		{
 		}
 	}
+	
+	Assortment("OnlineVendorOnRaid")
+    {
+        Buy()
+        {
+			Set("TR_VendorOnRaid_CraftItems", "equal", 2, 2)
+			{
+                Cycle("TowerRaidFloor");
+                Limited(6, 12);
+            }
+			Set("TR_VendorOnRaid_UseItems", "equal", 2, 3)
+			{
+                Cycle("TowerRaidFloor");
+                Limited(2, 3);
+            }
+			Set("TR_VendorOnRaid_UseItems_Rare", "equal", 2, 3)
+			{
+                Cycle("TowerRaidFloor");
+                Limited(1, 2);
+            }
+			Set("TR_VendorOnRaid_LowDuraWeapon", "equal", 2, 3)
+			{
+                Cycle("TowerRaidFloor");
+                Limited(1, 1);
+            }
+        }
+	}
+
+	Assortment("TR_OnlineHub_Workbench")
+    {
+        Buy()
+        {
+			Set("TR_OnlineHub_Blueprints", "default")
+			{
+                MinStatusLevel(1);
+                MaxStatusLevel(50);
+				MinZoneLevel(-100);
+                MaxZoneLevel(100);
+                Limited();
+            }
+        }
+    }
+
 
 //////////////////////////////////////////////IALR\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 

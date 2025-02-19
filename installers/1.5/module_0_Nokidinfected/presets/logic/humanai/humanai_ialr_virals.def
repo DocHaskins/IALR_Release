@@ -41,11 +41,11 @@ sub IALViralPresets()
 	
 	Preset("Viral_Gastank", "Viral_Fresh") //OPEN WORLD
     {
-       SetField("m_AIModelName", "zmb_gastank_a.model;zmb_gastank_b.model;zmb_gastank_c.model;ialr_zmb_gastank_a.model;ialr_zmb_gastank_a_1.model;ialr_zmb_gastank_b.model;ialr_zmb_gastank_b_1.model;ialr_zmb_gastank_c.model;ialr_zmb_gastank_c_1.model;ialr_zmb_gastank_d.model;ialr_zmb_gastank_e.model;ialr_zmb_gastank_f.model");
+       SetField("m_AIModelName", "zmb_gastank_a.model;zmb_gastank_b.model;zmb_gastank_c.model");
 	   SetField("m_ModulesPreset", "modules_viral_gas_tank");
        SetField("m_AttachmentPreset", "gas_tank_explosive_attachment");
        SetField("m_ConstFilename", "viral_profile_gastank");
-       SetField("m_DamageActorTagName", "viral_sun_immune");
+       SetField("m_ActorTagName", "viral_sun_immune");
        SetField("m_AudioEventsScript", "biter_audio_events.scr");
        SetField("m_ScreamPresetNames", "biter_gas_tank_m_a");
 	   SetField("m_BarkPresetNames", "");
@@ -94,7 +94,7 @@ sub IALViralPresets()
 	Preset("Viral_WorldBurner", "Viral") //OPEN WORLD
     {
         SetField("m_AIModelName", "ialr_ren_worldburner_male_01.model;ialr_ren_worldburner_male_02.model;ialr_ren_worldburner_male_03.model;ialr_ren_worldburner_male_04.model;ialr_ren_worldburner_male_05.model");
-		SetField("m_DamageActorTagName", "viral_sun_immune");
+		SetField("m_ActorTagName", "viral_sun_immune");
 		SetField("m_CustomLootTypeString", "WorldBurner");
 		SetField("m_ConstFilename", "viral_profile_gastank");
         SetField("m_ModulesPreset", "modules_viral_gas_tank");
@@ -111,7 +111,7 @@ sub IALViralPresets()
 	Preset("Viral_Swamp", "Viral") 
     {
         // Model override
-        SetField("m_AIModelName", "ialr_viral_man_lvl01_02.model;ialr_viral_man_lvl01_05.model;ialr_viral_man_lvl01_09.model;ialr_viral_man_lvl02_05.model;ialr_viral_man_lvl03_02.model;ialr_zmb_charger_a_swamp.model;ialr_zmb_charger_b_swamp.model;ialr_zmb_charger_c_swamp.model;ialr_zmb_corruptor_a_swamp.model;ialr_zmb_screamer_01.model;ialr_zmb_screamer_02.model;ialr_zmb_screamer_03.model;ialr_zmb_screamer_04.model;ialr_zmb_screamer_swamp.model;ialr_zmb_spitter_a_swamp.model;ialr_zmb_spitter_b_swamp.model;ialr_zmb_suicider_a_swamp.model;ialr_zmb_suicider_b_swamp.model;zmb_swamp_viral_a.model;ialr_swamp_viral_man_01.model;ialr_swamp_viral_man_010.model;ialr_swamp_viral_man_011.model;ialr_swamp_viral_man_012.model;ialr_swamp_viral_man_02.model;ialr_swamp_viral_man_03.model;ialr_swamp_viral_man_04.model;ialr_swamp_viral_man_05.model;ialr_swamp_viral_man_06.model;ialr_swamp_viral_man_07.model;ialr_swamp_viral_man_08.model;ialr_swamp_viral_man_09.model;ialr_swamp_viral_woman_01.model;ialr_swamp_viral_woman_02.model;ialr_swamp_viral_woman_03.model;ialr_swamp_viral_woman_04.model;ialr_swamp_viral_woman_05.model;ialr_swamp_viral_woman_06.model;ialr_swamp_viral_woman_07.model;ialr_swamp_viral_woman_08.model");
+        //SetField("m_AIModelName", "ialr_viral_man_lvl01_02.model;ialr_viral_man_lvl01_05.model;ialr_viral_man_lvl01_09.model;ialr_viral_man_lvl02_05.model;ialr_viral_man_lvl03_02.model;ialr_zmb_charger_a_swamp.model;ialr_zmb_charger_b_swamp.model;ialr_zmb_charger_c_swamp.model;ialr_zmb_corruptor_a_swamp.model;ialr_zmb_screamer_01.model;ialr_zmb_screamer_02.model;ialr_zmb_screamer_03.model;ialr_zmb_screamer_04.model;ialr_zmb_screamer_swamp.model;ialr_zmb_spitter_a_swamp.model;ialr_zmb_spitter_b_swamp.model;ialr_zmb_suicider_a_swamp.model;ialr_zmb_suicider_b_swamp.model;zmb_swamp_viral_a.model;ialr_swamp_viral_man_01.model;ialr_swamp_viral_man_010.model;ialr_swamp_viral_man_011.model;ialr_swamp_viral_man_012.model;ialr_swamp_viral_man_02.model;ialr_swamp_viral_man_03.model;ialr_swamp_viral_man_04.model;ialr_swamp_viral_man_05.model;ialr_swamp_viral_man_06.model;ialr_swamp_viral_man_07.model;ialr_swamp_viral_man_08.model;ialr_swamp_viral_man_09.model;ialr_swamp_viral_woman_01.model;ialr_swamp_viral_woman_02.model;ialr_swamp_viral_woman_03.model;ialr_swamp_viral_woman_04.model;ialr_swamp_viral_woman_05.model;ialr_swamp_viral_woman_06.model;ialr_swamp_viral_woman_07.model;ialr_swamp_viral_woman_08.model");
 		
 		SetField("m_ScreamPresetNames", "suiciderfa_m_a");
         SetField("m_StepPreset", "suiciderfa");

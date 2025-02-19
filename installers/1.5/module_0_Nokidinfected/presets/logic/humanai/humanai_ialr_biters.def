@@ -10,6 +10,7 @@ sub IALBitersPresets()
 
 	Preset("Biter_Thug", "Biter")
     { 
+        SetField("m_AIModelName", "ialr_npc_heavy_abandon_pk_master_brewer.model;ialr_npc_abandon_pk_don.model;ialr_man_sc_worker_06_a.model;ialr_man_srv_craftmaster_01_a.model;ialr_dlc_opera_man_pk_01_a.model;ialr_npc_obese_man_a.model;ialr_colonel_man_heavy_01_a.model");
         SetField("m_CustomDataPreset", "biter_level_walker");
         SetField("m_NavigationPreset", "biter");
         // Logic

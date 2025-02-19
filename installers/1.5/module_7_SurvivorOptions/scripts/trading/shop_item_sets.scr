@@ -14141,70 +14141,81 @@ sub main()
 	{
 		Item("Outfitset_Vanaiden_TorsoAddon");
     }
-	
+
+	ItemSet("TR_VendorOnRaid_CraftItems")
+	{
+		Item("Plant_Honey");
+		Item("Craft_Scrap");
+	}
 	
 	ItemSet("TR_VendorOnRaid_UseItems")
     {
-		Item("Throwable_Decoy_Upgrade7");
-		Item("Throwable_Molotov_Upgrade7");
-		Item("Throwable_ExplosiveGrenade_Upgrade7");
-		Item("Mine_Explosive_Upgrade7");
-		Item("Remote_Explosive_Upgrade7");
-		Item("Potion_DamageReduction_Upgrade7");
-		Item("Potion_HealthRegeneration_Upgrade7");
-		Item("Potion_DamageDealtIncrease_Upgrade7");
-		Item("Throwable_Decoy_Upgrade7");
-		Item("Medkit_Small_Upgrade4");
-		Item("Medkit_Large");
-		Item("LockpickItem_Upgrade7");
-		Item("Potion_Rage_Upgrade7");
+		Item("Medkit_Large_TR");
+		Item("Potion_DamageReduction_Upgrade7_TR");
+		Item("Potion_HealthRegeneration_Upgrade7_TR");
+		Item("Potion_DamageDealtIncrease_Upgrade7_TR");
 	}
 	
 	ItemSet("TR_VendorOnRaid_UseItems_Rare")
     {
 		Item("UV_Flare_Upgrade7");
-		Item("Potion_DamageResistance_Poison_Upgrade7");
-		Item("Potion_Antizine_Upgrade7");
-		Item("Foodbar_Gameover_Upgrade2");
-		Item("Large_Ammo_Firearm_Pistol");
+		Item("Potion_Rage_Upgrade7_TR");
+		Item("Throwable_ExplosiveGrenade_Upgrade7_TR");
+
+		/*Item("Large_Ammo_Firearm_Pistol");
 		Item("Large_Ammo_Firearm_SMG");
 		Item("Large_Ammo_Firearm_Rifle");
-		Item("Large_Ammo_Firearm_Shotgun");
+		Item("Large_Ammo_Firearm_Shotgun");*/
+		Item("TowerRaid_Mag_Bundle_Ammo_Firearm_Pistol");
+		Item("TowerRaid_Mag_Bundle_Ammo_Firearm_SMG");
+		Item("TowerRaid_Mag_Bundle_Ammo_Firearm_Rifle");
+		Item("TowerRaid_Mag_Bundle_Ammo_Firearm_Shotgun"); // TODO: Fix "No space for this item" error in game
 	}
 	
 	ItemSet("TR_VendorOnRaid_LowDuraWeapon")
     {
-		Item("wpn_1hs_mach_m_LowDurability_T5");
-		Item("wpn_1hs_mach_u_LowDurability_T6");
-		Item("wpn_1hs_axe_b_LowDurability_T7");
-		Item("wpn_1hs_axe_i_LowDurability_T8");
-		Item("wpn_1hb_ham_l_LowDurability_T5");
-		Item("wpn_1hb_stk_a_LowDurability_T6");
-		Item("wpn_1hb_mace_f_LowDurability_T7");
-		Item("wpn_1hb_mace_c_LowDurability_T8");
-		Item("wpn_15hs_f_LowDurability_T5");
-		Item("wpn_15hs_k_LowDurability_T6");
-		Item("wpn_15hs_a_LowDurability_T7");
-		Item("wpn_15hs_c_LowDurability_T8");
-		Item("wpn_15hb_a_LowDurability_T5");
-		Item("wpn_15hb_n_LowDurability_T6");
-		Item("wpn_15hb_c_LowDurability_T7");
-		Item("wpn_15hb_h_LowDurability_T8");
-		Item("wpn_2hs_c_LowDurability_T5");
-		Item("wpn_2hs_d_LowDurability_T6");
-		Item("wpn_2hs_h_LowDurability_T7");
-		Item("wpn_2hs_i_LowDurability_T8");
-		Item("wpn_2hb_g_LowDurability_T5");
-		Item("wpn_2hb_h_LowDurability_T6");
-		Item("wpn_2hb_g_LowDurability_T7");
-		Item("wpn_2hb_h_LowDurability_T8");
+		LootUnlockTag("tr.weapon.warsaw"); Item("wpn_1hs_mach_m_LowDurability_T5");
+		LootUnlockTag("tr.weapon.executionersaxe"); Item("wpn_1hs_axe_b_LowDurability_T7");
+		LootUnlockTag("tr.weapon.meatsquasher"); Item("wpn_1hb_ham_l_LowDurability_T5");
+		LootUnlockTag("tr.weapon.turbine"); Item("wpn_1hb_mace_f_LowDurability_T7");
+		LootUnlockTag("tr.weapon.thirstyaxe"); Item("wpn_15hs_f_LowDurability_T5");
+		LootUnlockTag("tr.weapon.streetcleaver"); Item("wpn_15hs_a_LowDurability_T7");
+		LootUnlockTag("tr.weapon.thecrosier"); Item("wpn_15hb_a_LowDurability_T5");
+		LootUnlockTag("tr.weapon.hookstick"); Item("wpn_15hb_c_LowDurability_T7");
+		LootUnlockTag("tr.weapon.glaive"); Item("wpn_2hs_c_LowDurability_T5");
+		LootUnlockTag("tr.weapon.thingamabob"); Item("wpn_2hs_h_LowDurability_T7");
+		// Item("wpn_2hb_g_LowDurability_T5");
+		// Item("wpn_1hs_mach_m_LowDurability_T5");
+		// Item("wpn_1hs_mach_u_LowDurability_T6");
+		// Item("wpn_1hs_axe_b_LowDurability_T7");
+		// Item("wpn_1hs_axe_i_LowDurability_T8");
+		// Item("wpn_1hb_ham_l_LowDurability_T5");
+		// Item("wpn_1hb_stk_a_LowDurability_T6");
+		// Item("wpn_1hb_mace_f_LowDurability_T7");
+		// Item("wpn_1hb_mace_c_LowDurability_T8");
+		// Item("wpn_15hs_f_LowDurability_T5");
+		// Item("wpn_15hs_k_LowDurability_T6");
+		// Item("wpn_15hs_a_LowDurability_T7");
+		// Item("wpn_15hs_c_LowDurability_T8");
+		// Item("wpn_15hb_a_LowDurability_T5");
+		// Item("wpn_15hb_n_LowDurability_T6");
+		// Item("wpn_15hb_c_LowDurability_T7");
+		// Item("wpn_15hb_h_LowDurability_T8");
+		// Item("wpn_2hs_c_LowDurability_T5");
+		// Item("wpn_2hs_d_LowDurability_T6");
+		// Item("wpn_2hs_h_LowDurability_T7");
+		// Item("wpn_2hs_i_LowDurability_T8");
+		// Item("wpn_2hb_g_LowDurability_T5");
+		// Item("wpn_2hb_h_LowDurability_T6");
+		// Item("wpn_2hb_g_LowDurability_T7");
+		// Item("wpn_2hb_h_LowDurability_T8");
 	}
 	
-	ItemSet("TR_VendorOnRaid_InstantUseEffects")
-    {
-		Item("TowerRaidPerk_Session_Insatiable_1");
-		Item("TowerRaidPerk_Session_Reincarnation_1");
-	}
+	// ItemSet("TR_VendorOnRaid_InstantUseEffects")
+    // {
+	// 	Item("TowerRaidPerk_Session_Insatiable_1");
+	// 	Item("TowerRaidPerk_Session_Reincarnation_1");
+	// }
 
 	
 
@@ -14238,7 +14249,119 @@ sub main()
 	// 	Item("Outfitset_WinterEvent_Evil_Elf_Shoes");
     // }
 
+	ItemSet("TR_OnlineHub_Blueprints")
+    {
+		AllItemsAvailableInStore();
+		
+		// WEAPONS
 
+		// THROWABLES
+		Item("Craftplan_TR_ThrowingKnives_Upgrade4");
+		Item("Craftplan_TR_ThrowingKnives_Upgrade7");
+		Item("Craftplan_TR_Firecrackers_Upgrade4");
+		Item("Craftplan_TR_Firecrackers_Upgrade7");
+		Item("Craftplan_TR_Molotov_Upgrade4");
+		Item("Craftplan_TR_Molotov_Upgrade7");
+		Item("Craftplan_TR_Throwable_InfectingKnifeAGen_Upgrade4");
+		Item("Craftplan_TR_Throwable_InfectingKnifeAGen_Upgrade7");
+		Item("Craftplan_TR_Grenade_Upgrade4");
+		Item("Craftplan_TR_Grenade_Upgrade7");
+		
+		// CONSUMABLES
+		Item("Craftplan_TR_Potion_Rage_Upgrade4");
+		Item("Craftplan_TR_Potion_Rage_Upgrade7");	
+		Item("Craftplan_TR_Potion_DamageReduction_Upgrade4");
+		Item("Craftplan_TR_Potion_DamageReduction_Upgrade7");		
+		Item("Craftplan_TR_Potion_DamageDealtIncrease_Upgrade4");
+		Item("Craftplan_TR_Potion_DamageDealtIncrease_Upgrade7");
+		Item("Craftplan_TR_Potion_StaminaUpgrade_Upgrade4");
+		Item("Craftplan_TR_Potion_StaminaUpgrade_Upgrade7");
+		
+		// TOOLS
+		
+		// MODS
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade8_SHAFT");
+
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Toxic_Random_Upgrade8_TIP");
+
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade8_SHAFT");
+
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Bleeding_Random_Upgrade8_TIP");
+
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade8_SHAFT");
+		
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Shock_Random_Upgrade8_TIP");
+		
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade8_SHAFT");
+		
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Impact_Random_Upgrade8_TIP");
+
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade8_SHAFT");
+
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Heat_Random_Upgrade8_TIP");
+
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade4_SHAFT");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade5_SHAFT");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade6_SHAFT");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade7_SHAFT");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade8_SHAFT");
+
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade4_TIP");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade5_TIP");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade6_TIP");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade7_TIP");
+		Item("Craftplan_TR_Mod_Freeze_Random_Upgrade8_TIP");
+		
+		Item("Craftplan_TR_Mod_Damage_Upgrade4");
+		Item("Craftplan_TR_Mod_Damage_Upgrade5");
+		Item("Craftplan_TR_Mod_Damage_Upgrade6");
+		Item("Craftplan_TR_Mod_Damage_Upgrade7");
+	
+		Item("Craftplan_TR_Mod_Reinforce_Upgrade4");
+		Item("Craftplan_TR_Mod_Reinforce_Upgrade5");
+		Item("Craftplan_TR_Mod_Reinforce_Upgrade6");
+		Item("Craftplan_TR_Mod_Reinforce_Upgrade7");
+	}
 
 
 
