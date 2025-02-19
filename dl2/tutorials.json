@@ -1,0 +1,16 @@
+{
+    "InstallableContents": [
+        {
+            "id": "installer",
+            "url": "https://www.youtube.com/watch?v=QIKo045dj7Q",
+            "title": "installer Video Guide",
+            "description": "Learn the basics of installation and setup"
+        },
+        {
+            "id": "multiplayer",
+            "url": "https://www.youtube.com/watch?v=l5mU-5uCxhs",
+            "title": "Multiplayer Video Guide",
+            "description": "Learn the basics of hosting, joining, and debugging coop a session"
+        }
+    ]
+}
