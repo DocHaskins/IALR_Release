@@ -1,0 +1,28 @@
+{
+    "InstallableContents": [
+        {
+            "id": "installer",
+            "url": "https://i.ibb.co/twMJt593/Support-Soon.jpg",
+            "title": "Installer Video Guide",
+            "description": "Learn the basics of installation and setup"
+        },
+        {
+            "id": "modconfig",
+            "url": "https://i.ibb.co/twMJt593/Support-Soon.jpg",
+            "title": "Mod Config Video Guide",
+            "description": "Learn the basics of using the mod config panel"
+        },
+        {
+            "id": "savegame",
+            "url": "https://www.youtube.com/watch?v=l5mU-5uCxhs",
+            "title": "Savegame Video Guide",
+            "description": "Learn the basics of using the savegame panel"
+        },
+        {
+            "id": "multiplayer",
+            "url": "https://www.youtube.com/watch?v=l5mU-5uCxhs",
+            "title": "Multiplayer Video Guide",
+            "description": "Learn the basics of hosting, joining, and debugging coop a session"
+        }
+    ]
+}
