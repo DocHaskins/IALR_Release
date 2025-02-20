@@ -1,3 +1,11 @@
 {
-    "difficulties": []
+    "difficulties": 
+    [
+        {
+            "name": "IALR: Back To Banoi",
+            "description": "IALR: This is a first pass at updating and playing with some of the mechanics in Dead Island similar to the Dying Light 1 and 2 versions",
+            "image": "difficulty_BackToBanoi.jpg",
+            "folder": "IAL_BackToBanoi"
+        }
+    ]
 }
