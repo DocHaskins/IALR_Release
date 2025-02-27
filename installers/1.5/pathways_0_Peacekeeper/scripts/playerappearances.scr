@@ -3525,6 +3525,18 @@ sub appearances()
         Skill("krampus_gearset_throw_item");
 	}
 	
+	OutfitSet("GREHAZMAT")
+	{
+		GuiName("&apperance_GRECleaner&");
+		Torso("Outfitset_GreCleaner_Torso");
+		Legs("Outfitset_GreCleaner_Legs");
+		Shoes("Outfitset_GreCleaner_Shoes");
+		Head("Outfitset_GreCleaner_Head");
+		Gloves("Outfitset_GreCleaner_Gloves");
+		TorsoAddon("Outfitset_GreCleaner_TorsoAddon");
+        Skill("grecleaner_gearset_headshot_burn");
+	}
+	
 	//LoadoutUnlockCost(1, 10); //index, cost
 	//LoadoutUnlockCost(2, 20);
 	//LoadoutUnlockCost(3, 30);
