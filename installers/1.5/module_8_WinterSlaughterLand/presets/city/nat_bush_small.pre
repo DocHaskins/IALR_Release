@@ -1,4 +1,0 @@
-sub main()
-{
-	Import("generic_nature_spawn_type.pre");
-}

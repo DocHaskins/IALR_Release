@@ -1,4 +1,0 @@
-sub main()
-{
-	Import("generic_nature_ivy_floor_color.pre");
-}
