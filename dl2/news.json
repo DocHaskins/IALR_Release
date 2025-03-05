@@ -2,7 +2,23 @@
     "news": [
         {
             "header": "Updated to 1.21.3",
-            "body": "IALR 1.6pre23 supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+            "body": "IALR 1.6 supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "I Am Legion: Reborn 1.6 Released",
+            "body": "A new official version of IALR is released, stay tuned for more features coming soon!"
+        },
+        {
+            "header": "IALR now supports 14 languages in Dying Light 2!",
+            "body": "Make sure to check out the full release notes on the discord if you would like to help with the translations"
+        },
+        {
+            "header": "New DoomsDay Prepper and Apex Predator Skins",
+            "body": "The DoomsDay Prepper and Apex Predator have finally gotten their new skin, start a new game to check out their new items and skins. You can equip these skins any time from the Stash Extras section, but won't get the items that come with starting with a new pathway. All items given can be found ingame with IALR."
+        },
+        {
+            "header": "New Launcher Release - 2.2d",
+            "body": "This update includes a visual overhaul and several important fixes to the Launcher to prepare for the Unofficial Dev Tools being added to the interface. Feedback is appreciated!"
         },
         {
             "header": "Dying Light: The Beast",
