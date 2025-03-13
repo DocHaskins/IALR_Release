@@ -4,26 +4,26 @@
     {
       "Url": "https://github.com/DocHaskins/IALR_Release/raw/refs/heads/main/IALR_Launcher/IALR_Launcher.zip",
       "FileName": "IALR_Launcher.zip",
-      "Hash": "00cba08960631c59d409da7cb973f9c616fd09fad78721b9e44a7e215a2ce1ad",
+      "Hash": "9245f1aae495c455d8964f876bf8332db7fe46bd9bc1714bc764952788496fd5",
       "Size": 99614720
     },
     {
       "Url": "https://github.com/DocHaskins/IALR_Release/raw/refs/heads/main/IALR_Launcher/IALR_Launcher.z02",
       "FileName": "IALR_Launcher.z02",
-      "Hash": "ab49a47342a6a3c0113893ec6fde5f77db0641a006a70b935d967499b7195a82",
+      "Hash": "b1bdc6ed92adfaf2f1ae1ebf51bc3c34216f84211b4d0b0ea76379e053b70457",
       "Size": 99614720
     },
     {
       "Url": "https://github.com/DocHaskins/IALR_Release/raw/refs/heads/main/IALR_Launcher/IALR_Launcher.z03",
       "FileName": "IALR_Launcher.z03",
-      "Hash": "322b4a1b326b2b2a99c3ae04a6ae1957c07841dede21107891e2b5b1d46ca890",
+      "Hash": "edf043a3c2d526dbdf6ebd707cd852b97dcf72e308f11c6f1e7f479ec960cbf1",
       "Size": 99614720
     },
     {
       "Url": "https://github.com/DocHaskins/IALR_Release/raw/refs/heads/main/IALR_Launcher/IALR_Launcher.z04",
       "FileName": "IALR_Launcher.z04",
-      "Hash": "fd8a6a23a6e21cf1ad4b956e921c83b65fe1d899988bb99583ebb39e940719f4",
-      "Size": 49132705
+      "Hash": "5f5a60b33677924e0105bf1991568509fbfb206a8963739afdfb2cc92a2c072e",
+      "Size": 49130268
     }
   ]
 }
