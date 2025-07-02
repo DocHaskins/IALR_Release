@@ -1,12 +1,16 @@
 {
     "news": [
         {
-            "header": "Updated to 1.33b",
-            "body": "IAL 1.33b supports the latest version of DL 1.52.0.0, Please report bugs on the Discord ial-dl-bug-reporting channel, thanks and happy gaming"
+            "header": "Updated to 1.34",
+            "body": "IAL 1.34 supports the latest version of DL 1.52.0.0, Please report bugs on the Discord ial-dl-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "New re-balancing update",
+            "body": "I Am Legion 1.34 brings more diversity to the world with a range of new enemies and friendlies you can encounter. Please report bugs to the Discord IAL-dl1-bug-reporting section."
         },
         {
             "header": "Dying Light 1 Texture Update",
-            "body": "I Am Legion has been updated to support the latest release of the game. Please report bugs to the Discord IAL-dl1-bug-reporting section."
+            "body": "I Am Legion has been updated to support the latest release of the game."
         },
         {
             "header": "Dying Light: The Beast",
