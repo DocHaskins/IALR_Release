@@ -71,6 +71,14 @@
             "image": "button_modules_stash.jpg",
             "folder": "module_9_stash",
             "incompatible": []
+        },
+        {
+            "name": "Levels Be Gone",
+            "description": "This flattens the RPG Level tiers to use a single health and single damage value for all weapons and enemies. This will help reduce the scaling challenges in the base game for some weapons. Feedback is appreciated.",
+            "category": "Gameplay",
+            "image": "button_modules_lvlbegone.jpg",
+            "folder": "module_12_LevelsBeGone",
+            "incompatible": []
         }
     ]
 }
