@@ -26,7 +26,7 @@
         },
         {
             "name": "Hyper Mode",
-            "description": "New fun module meant to play around in DL2 and have fun, this is not lore friendly.",
+            "description": "Based on Techlands hypermode event, this event uses my new Physics Overhaul ragdoll code to the maximum and makes all of your attacks blast your enemies into oblivion.",
             "category": "Physics",
             "image": "button_modules_HyperMode.jpg",
             "folder": "event_5_HyperMode",
