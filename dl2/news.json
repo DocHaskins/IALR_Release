@@ -2,11 +2,15 @@
     "news": [
         {
             "header": "Updated to 1.24.2",
-            "body": "IALR 1.6h supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+            "body": "IALR 1.6i supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
         },
         {
             "header": "I Am Legion: Reborn 1.6 Released",
             "body": "A new official version of IALR is released, stay tuned for more features coming soon!"
+        },
+        {
+            "header": "New Events and Modules released",
+            "body": "Make sure to check out the installer to see all the latest modules, events, and pathways!"
         },
         {
             "header": "14 languages supported in IALR!",

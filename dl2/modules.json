@@ -33,7 +33,7 @@
             "incompatible": ["Deadly Humans"]
         },
         {
-            "name": "Volatiles Begone",
+            "name": "Volatiles Be Gone",
             "description": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free using the Casual Survivor spawn settings but without Volatiles. This is not compatible with Warzones or Infestation",
             "category": "Spawns",
             "image": "button_modules_VoliBegone.jpg",
@@ -57,14 +57,6 @@
             "incompatible": ["Hunger and Thirst"]
         },
         {
-            "name": "Winter SlaughterLand",
-            "description": "Villadoor is covered in snow with lite snows, snowfall, rain and snow, and blizzards added to the weather.",
-            "category": "Visuals",
-            "image": "button_modules_WinterSlaughterland.jpg",
-            "folder": "module_8_WinterSlaughterLand",
-            "incompatible": []
-        },
-        {
             "name": "Stash Unlock",
             "description": "PARTS OF THIS MOD ARE BROKEN DUE TO OFFICIAL UPDATES: Unlocks the stash items for IALR, not recommended for new players.",
             "category": "Gameplay",
@@ -78,6 +70,14 @@
             "category": "Gameplay",
             "image": "button_modules_lvlbegone.jpg",
             "folder": "module_12_LevelsBeGone",
+            "incompatible": []
+        },
+        {
+            "name": "Physics Overhaul",
+            "description": "New changes to the physics system to be primarily Ragdoll based physics like DL1. This does have some bugs and can cause lag, open data3 and delete physics folder if your PC slows down",
+            "category": "Physics",
+            "image": "button_modules_physicsoverhaul.jpg",
+            "folder": "module_13_PhysicsOverhaul",
             "incompatible": []
         }
     ]
