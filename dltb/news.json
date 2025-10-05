@@ -1,10 +1,14 @@
 {
     "news": [
         {
+            "header": "Updated to 1.2.3",
+            "body": "IALR 0.2a supports the latest version of DL2. Please report bugs using the Bug Report page in the Launcher, thanks and happy gaming"
+        },
+        {
             "header": "4 new difficulties have arrived!",
             "body": "Casual, Survivor, Ultimate, and Insanity have arrived on The Beast. They still need love but heading in a good direction!"
         },
-	{
+	    {
             "header": "New Mod Config Options",
             "body": "Use the mod config page to modify and create your own mods! Save your changes to a custom config and apply after any official update."
         },
