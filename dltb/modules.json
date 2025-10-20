@@ -15,6 +15,14 @@
             "image": "button_modules_NoWeaponModVisuals.jpg",
             "folder": "module_3_RemoveWeaponMod",
             "incompatible": []
+        },
+        {
+            "name": "Biters - Run and Climb",
+            "description": "This module turns most of the biters in the world into runners and climbers, so no where it safe except a safezone. These are not virals, they are still biters but are able to climb and run",
+            "category": "Behavior",
+            "image": "button_modules_BitersRunClimb.jpg",
+            "folder": "module_5_BitersRunClimb",
+            "incompatible": []
         }
     ]
 }
