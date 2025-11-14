@@ -1,6 +1,14 @@
 {
     "modules": [
         {
+            "name": "Disable Official Events",
+            "description": "Uses an old method to disable official events while the Forced Events are happening from Techland",
+            "category": "Disable",
+            "image": "button_modules_DisableEvents.jpg",
+            "folder": "module_14_DisableEvents",
+            "incompatible": []
+        },
+        {
             "name": "Remove Child Infected",
             "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
             "category": "Disable",
