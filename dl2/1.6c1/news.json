@@ -1,0 +1,32 @@
+{
+    "news": [
+        {
+            "header": "Updated to 1.21.5",
+            "body": "IALR 1.6c1 supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "I Am Legion: Reborn 1.6 Released",
+            "body": "A new official version of IALR is released, stay tuned for more features coming soon!"
+        },
+        {
+            "header": "14 languages supported in IALR!",
+            "body": "Make sure to check out the full release notes on the discord if you would like to help with the translations"
+        },
+        {
+            "header": "New Skins",
+            "body": "The DoomsDay Prepper and Apex Predator have a new skin each for Pathways, select a pathway and then start a new game to check out their new items and skins. You can equip these skins any time from the Stash Extras section, but won't get the items that come with starting with a new pathway. All items given can be found ingame with IALR."
+        },
+        {
+            "header": "New Launcher Release - 2.2d",
+            "body": "This update includes a visual overhaul and several important fixes to the Launcher to prepare for the Unofficial Dev Tools being added to the interface. Feedback is appreciated!"
+        },
+        {
+            "header": "Dying Light: The Beast",
+            "body": "I Am Legion will be coming to The Beast when it is released so stay tuned."
+        },
+        {
+            "header": "Unofficial Dev Tools",
+            "body": "Development on IALR will continue after the tools have been finished. A large amount of the data support has been completed, but the individual tools are still under development."
+        }
+    ]
+}

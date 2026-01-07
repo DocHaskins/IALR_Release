@@ -1,0 +1,39 @@
+{
+    "pathways": [
+        {
+            "name": "Peacekeeper",
+            "description": "Keeper of the Peace: Peacekeeper Armor Set, Peacekeeper 1 Handed Axe, Weak Sharpshooter Crossbow and bolts, 15 tier 1 UV flares, 10 Blue Glowsticks, 2 Clean Bandages, 6 Tiers of Crafting PeaceKeeper Reinforcements Recipes, 1 Tier 1 Peacekeeper Reinforcements",
+            "category": "Basic",
+            "image": "button_pathways_peacekeeper.jpg",
+            "folder": "pathways_0_Peacekeeper"
+        },
+        {
+            "name": "Veteran",
+            "description": "The Veteran: Starts out with a Tier 1 Military Armor Set, a Pistol, 48 rounds of ammo, 1 Handed Club, Renegade 2 Handed Axe, 5 tier 1 Molotovs, 2 Basic Bandages",
+            "category": "Basic",
+            "image": "button_pathways_veteran.jpg",
+            "folder": "pathways_1_Veteran"
+        },
+        {
+            "name": "RoadWarrior",
+            "description": "Road Warrior: Mixed Renegade and Bandit Armor Set, Renegade 1 Handed Blade, Renegade 2 Handed Axe, 5 tier 1 Molotovs, , 2 Basic Bandages, Rage and Damage potions",
+            "category": "Basic",
+            "image": "button_pathways_roadwarrior.jpg",
+            "folder": "pathways_2_RoadWarrior"
+        },
+        {
+            "name": "DoomsDayPrepper",
+            "description": "The DoomsDay Prepper: This version is for those of you who want to get to the good stuff already, 6 starting weapons including a Rifle, Pistol, Bow, and Crossbow, A custom paraglider that can be equiped to boost your current paraglider, $5000 starting cash, several potions, crafting items, grenades and other explosives, and crafting mods.",
+            "category": "Basic",
+            "image": "button_pathways_doomsday.jpg",
+            "folder": "pathways_3_DoomsDayPrepper"
+        },
+        {
+            "name": "Apex Predator",
+            "description": "Full Legendary Tier Skinner Tyrant Armor Set, Max Level and Lots of new starting toys to start enjoying the world when skipping the prologue, Includes 5 Legendary weapons, along with a new Legendary Crossbow and Bow, A Legendary Tier custom paraglider that can be equiped to boost your current paraglider, $25000 starting cash, several potions, crafting items, grenades and other explosives, and crafting mods.",
+            "category": "Basic",
+            "image": "button_pathways_apexpredator.jpg",
+            "folder": "pathways_4_ApexPredator"
+        }
+    ]
+}

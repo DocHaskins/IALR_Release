@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "name": "Winter SlaughterLand",
+            "description": "Villadoor is covered in snow with lite snows, snowfall, rain and snow, and blizzards added to the weather.",
+            "category": "Visuals",
+            "image": "button_modules_WinterSlaughterland.jpg",
+            "folder": "event_1_WinterSlaughterLand",
+            "incompatible": []
+        },
+        {
+            "name": "Low Gravity",
+            "description": "All gravity for the player and enemies has been set to low gravity. This event is meant for fun, this is not lore friendly.",
+            "category": "Physics",
+            "image": "button_modules_lowgravity.jpg",
+            "folder": "event_2_LowGravity",
+            "incompatible": []
+        },
+        {
+            "name": "5479 Days Later",
+            "description": "Based on 28 Days Later, DL2 style, the world has been overcome by the rage virus. All enemy spawns are Biters and Virals hunting you at all times. Can you survive the apocalypse?",
+            "category": "Spawns",
+            "image": "button_modules_5479DaysLater.jpg",
+            "folder": "event_4_5479DaysLater",
+            "incompatible": []
+        },
+        {
+            "name": "Hyper Mode",
+            "description": "Based on Techlands hypermode event, this event uses my new Physics Overhaul ragdoll code to the maximum and makes all of your attacks blast your enemies into oblivion.",
+            "category": "Physics",
+            "image": "button_modules_HyperMode.jpg",
+            "folder": "event_5_HyperMode",
+            "incompatible": []
+        }
+    ]
+}

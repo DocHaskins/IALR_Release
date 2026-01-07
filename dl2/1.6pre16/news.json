@@ -1,0 +1,28 @@
+{
+    "news": [
+        {
+            "header": "Updated to 1.20.1",
+            "body": "IALR 1.6pre16 supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "Dying Light: The Beast",
+            "body": "I Am Legion will be coming to The Beast when it is released so stay tuned."
+        },
+        {
+            "header": "Unofficial Dev Tools",
+            "body": "Development on IALR will continue after the tools have been finished. The tools are currently at 95% completion and alpha releases will hoping go out in November"
+        },
+        {
+            "header": "Known Bugs:",
+            "body": "Currently the Flamethrowers break the audio due to the 1.15 update, I have to recreate them for them to work properly. Armor clipping is still an issue with all custom armors (still no fix in sight). Custom Maps Optional still has the Sofia bug when trying to continue the quest, I'll return to using the Techland Mod tools eventually but for now there's too much to do in other areas. I noticed that some savegames seem to have the wrong flashlight settings baked into the savegame, so if your flashlight is super weak it may be due to that."
+        },
+        {
+            "header": "Updated to support Nightmare Difficulty",
+            "body": "Welcome back! The mod has been updated to support Nightmare difficulty, please let me know any specific issues you spot on the Discord IALR-Feedback channel or ialr-dl2-bug-reporting"
+        },
+        {
+            "header": "New Veteran Skin released",
+            "body": "Check out the Stash > Extras to try out the new Veteran skin or select the Veteran Pathway when starting a new game!"
+        }
+    ]
+}

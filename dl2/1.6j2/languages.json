@@ -1,0 +1,88 @@
+{
+    "languages": [
+        {
+            "name": "Arabic",
+            "description": "Change the mod item descriptions and names to Arabic. Requires switching the game language to Arabic",
+            "image": "button_languages_arabic.jpg",
+            "folder": "language_12_Arabic"
+        },
+        {
+            "name": "Chinese",
+            "description": "Change the mod item descriptions and names to Chinese. Requires switching the game language to Chinese",
+            "image": "button_languages_chinese.jpg",
+            "folder": "language_10_Chinese"
+        },
+        {
+            "name": "Czech",
+            "description": "Change the mod item descriptions and names to Czech",
+            "image": "button_languages_czech.jpg",
+            "folder": "language_6_Czech"
+        },
+        {
+            "name": "French",
+            "description": "Change the mod item descriptions and names to French",
+            "image": "button_languages_french.jpg",
+            "folder": "language_0_French"
+        },
+        {
+            "name": "German",
+            "description": "Change the mod item descriptions and names to German",
+            "image": "button_languages_german.jpg",
+            "folder": "language_1_German"
+        },
+        {
+            "name": "Hungarian",
+            "description": "Change the mod item descriptions and names to Hungarian",
+            "image": "button_languages_hungarian.jpg",
+            "folder": "language_9_Hungarian"
+        },
+        {
+            "name": "Italian",
+            "description": "Change the mod item descriptions and names to Italian",
+            "image": "button_languages_italian.jpg",
+            "folder": "language_2_Italian"
+        },
+        {
+            "name": "Japanese",
+            "description": "Change the mod item descriptions and names to Japanese. Requires switching the game language to Japanese",
+            "image": "button_languages_japanese.jpg",
+            "folder": "language_8_Japanese"
+        },
+        {
+            "name": "Korean",
+            "description": "Change the mod item descriptions and names to Korean. Requires switching the game language to Korean",
+            "image": "button_languages_korean.jpg",
+            "folder": "language_11_Korean"
+        },
+        {
+            "name": "Polish",
+            "description": "Change the mod item descriptions and names to Polish",
+            "image": "button_languages_polish.jpg",
+            "folder": "language_3_Polish"
+        },
+        {
+            "name": "Portuguese",
+            "description": "Change the mod item descriptions and names to Portuguese",
+            "image": "button_languages_portuguese.jpg",
+            "folder": "language_4_Portuguese"
+        },
+        {
+            "name": "Russian",
+            "description": "Change the mod item descriptions and names to Russian",
+            "image": "button_languages_russian.jpg",
+            "folder": "language_7_Russian"
+        },
+        {
+            "name": "Spanish",
+            "description": "Change the mod item descriptions and names to Spanish",
+            "image": "button_languages_spain.jpg",
+            "folder": "language_5_Spanish"
+        },
+        {
+            "name": "Turkish",
+            "description": "Change the mod item descriptions and names to Turkish",
+            "image": "button_languages_turkish.jpg",
+            "folder": "language_13_turkish"
+        }
+    ]
+}

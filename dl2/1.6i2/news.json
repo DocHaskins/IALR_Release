@@ -1,0 +1,40 @@
+{
+    "news": [
+        {
+            "header": "Updated to 1.25.0",
+            "body": "IALR 1.6i2 supports the latest version of DL2. Please report bugs on the Discord ialr-dl2-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "Release of the 3.0 Launcher",
+            "body": "The new 3.0 Launcher is out! Make sure to grab the latest launcher"
+        },
+        {
+            "header": "New Mod Config Options",
+            "body": "Use the mod config page to modify and create your own mods! Save your changes to a custom config and apply after any official update."
+        },
+        {
+            "header": "I Am Legion: Reborn 1.6 Released",
+            "body": "A new official version of IALR is released, stay tuned for more features coming soon!"
+        },
+        {
+            "header": "New Events and Modules released",
+            "body": "Make sure to check out the installer to see all the latest modules, events, and pathways!"
+        },
+        {
+            "header": "14 languages supported in IALR!",
+            "body": "Make sure to check out the full release notes on the discord if you would like to help with the translations"
+        },
+        {
+            "header": "New Skins",
+            "body": "The DoomsDay Prepper and Apex Predator have a new skin each for Pathways, select a pathway and then start a new game to check out their new items and skins. You can equip these skins any time from the Stash Extras section, but won't get the items that come with starting with a new pathway. All items given can be found ingame with IALR."
+        },
+        {
+            "header": "Dying Light: The Beast",
+            "body": "I Am Legion will be coming to The Beast when it is released so stay tuned."
+        },
+        {
+            "header": "Unofficial Dev Tools",
+            "body": "Development on IALR will continue after the tools have been finished. A large amount of the data support has been completed, but the individual tools are still under development."
+        }
+    ]
+}
