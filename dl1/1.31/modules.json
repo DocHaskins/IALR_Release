@@ -1,0 +1,13 @@
+{
+    "modules": [
+        {
+            "name": "Normal Biter Spawns",
+            "description": "Decreases the amount of biters in the world to be closer to the vanilla spawns",
+            "url": "https://www.youtube.com/watch?v=qtMzSOPcswM",
+            "category": "Disable",
+            "image": "button_modules_default.jpg",
+            "folder": "module_1_MapSpawnDecrease",
+            "incompatible": []
+        }
+    ]
+}

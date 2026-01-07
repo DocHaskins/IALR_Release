@@ -1,0 +1,16 @@
+{
+    "news": [
+        {
+            "header": "Updated to 1.33",
+            "body": "IAL 1.33 supports the latest version of DL 1.50.0.0, Please report bugs on the Discord ial-dl-bug-reporting channel, thanks and happy gaming"
+        },
+        {
+            "header": "Dying Light: The Beast",
+            "body": "I Am Legion will be coming to The Beast when it is released so stay tuned."
+        },
+        {
+            "header": "Unofficial Dev Tools",
+            "body": "Development on IALR will continue after the tools have been finished. The tools are currently at 95% completion and alpha releases will hoping go out in November"
+        }
+    ]
+}

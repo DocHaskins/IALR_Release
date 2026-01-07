@@ -1,0 +1,22 @@
+{
+    "modules": [
+        {
+            "name": "Normal Biter Spawns",
+            "description": "Decreases the amount of biters in the world to be closer to the vanilla spawns",
+            "url": "",
+            "category": "Disable",
+            "image": "button_modules_default.jpg",
+            "folder": "module_1_MapSpawnDecrease",
+            "incompatible": []
+        },
+        {
+            "name": "Hellraid support",
+            "description": "Adds the IAL difficulty to the Hellraid DLC, make sure not to enable this if you don't own Hellraid",
+            "url": "",
+            "category": "DLC",
+            "image": "button_modules_hellraid.jpg",
+            "folder": "module_2_HellraidSupport",
+            "incompatible": []
+        }
+    ]
+}
