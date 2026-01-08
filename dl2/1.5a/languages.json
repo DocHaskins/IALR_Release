@@ -1,0 +1,28 @@
+{
+    "languages": [
+        {
+            "name": "French",
+            "description": "Change the mod text to French"
+        },
+        {
+            "name": "German",
+            "description": "Change the mod text to German"
+        },
+        {
+            "name": "Italian",
+            "description": "Change the mod text to Italian"
+        },
+        {
+            "name": "Polish",
+            "description": "Change the mod text to Polish"
+        },
+        {
+            "name": "Portuguese",
+            "description": "Change the mod text to Portuguese"
+        },
+        {
+            "name": "Spanish",
+            "description": "Change the mod text to Spanish"
+        }
+    ]
+}

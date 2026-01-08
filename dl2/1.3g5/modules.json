@@ -1,0 +1,20 @@
+{
+    "modules": [
+        {
+            "name": "Remove Child Infected",
+            "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
+            "category": "Disable",
+            "image": "button_modules_NoKids.jpg",
+            "folder": "module_0_Nokidinfected",
+            "incompatible": []
+        },
+        {
+            "name": "Map Changes",
+            "description": "Custom map modifications and changes",
+            "category": "Maps",
+            "image": "button_modules_mapchanges.jpg",
+            "folder": "module_MapChanges",
+            "incompatible": []
+        }
+    ]
+}

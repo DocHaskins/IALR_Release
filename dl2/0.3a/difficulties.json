@@ -1,0 +1,10 @@
+{
+    "difficulties": [
+        {
+            "name": "Ultimate Survivor",
+            "description": "This version is meant to give players something new once they have played the game and know the basic functions and actions. Running can trigger enemies spawning and hunting for you.",
+            "image": "button_difficulties_ultimate.jpg",
+            "folder": "difficulty_3_UltimateSurvivor"
+        }
+    ]
+}

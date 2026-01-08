@@ -1,0 +1,20 @@
+{
+    "modules": [
+        {
+            "name": "Remove Child Infected",
+            "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
+            "category": "Disable",
+            "image": "button_modules_NoKids.jpg",
+            "folder": "module_0_Nokidinfected",
+            "incompatible": []
+        },
+        {
+            "name": "Restore Glider",
+            "description": "Restores the paraglider functionality",
+            "category": "Gameplay",
+            "image": "button_modules_glider.jpg",
+            "folder": "module_RestoreGlider",
+            "incompatible": []
+        }
+    ]
+}

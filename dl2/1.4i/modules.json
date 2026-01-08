@@ -1,0 +1,31 @@
+{
+    "modules": [
+        {
+            "name": "Remove Child Infected",
+            "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
+            "category": "Disable",
+            "image": "button_modules_NoKids.jpg",
+            "folder": "module_0_Nokidinfected",
+            "incompatible": []
+        },
+        {
+            "name": "WarZones",
+            "description": "The city is called to arms during the day to reclaim their territories. All human enemies will run in packs around the city. This is not compatible with Volatiles Begone or Infestation",
+            "category": "Spawns",
+            "image": "button_modules_Warzones.jpg",
+            "folder": "module_1_Warzones",
+            "incompatible": [
+                "Volatiles Begone",
+                "Infestation"
+            ]
+        },
+        {
+            "name": "Map Changes",
+            "description": "Custom map modifications and changes",
+            "category": "Maps",
+            "image": "button_modules_mapchanges.jpg",
+            "folder": "module_MapChanges",
+            "incompatible": []
+        }
+    ]
+}

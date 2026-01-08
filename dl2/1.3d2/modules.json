@@ -1,0 +1,12 @@
+{
+    "modules": [
+        {
+            "name": "Remove Child Infected",
+            "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
+            "category": "Disable",
+            "image": "button_modules_NoKids.jpg",
+            "folder": "module_0_Nokidinfected",
+            "incompatible": []
+        }
+    ]
+}

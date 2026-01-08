@@ -1,0 +1,40 @@
+{
+    "languages": [
+        {
+            "name": "French",
+            "description": "Change the mod item descriptions and names to French",
+            "image": "button_languages_french.jpg",
+            "folder": "language_0_French"
+        },
+        {
+            "name": "German",
+            "description": "Change the mod item descriptions and names to German",
+            "image": "button_languages_german.jpg",
+            "folder": "language_1_German"
+        },
+        {
+            "name": "Italian",
+            "description": "Change the mod item descriptions and names to Italian",
+            "image": "button_languages_italian.jpg",
+            "folder": "language_2_Italian"
+        },
+        {
+            "name": "Polish",
+            "description": "Change the mod item descriptions and names to Polish",
+            "image": "button_languages_polish.jpg",
+            "folder": "language_3_Polish"
+        },
+        {
+            "name": "Portuguese",
+            "description": "Change the mod item descriptions and names to Portuguese",
+            "image": "button_languages_portuguese.jpg",
+            "folder": "language_4_Portuguese"
+        },
+        {
+            "name": "Spanish",
+            "description": "Change the mod item descriptions and names to Spanish",
+            "image": "button_languages_spain.jpg",
+            "folder": "language_5_Spanish"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "difficulties": [
+        {
+            "name": "Casual Survivor",
+            "description": "This version of the mod reduces the threat of the Volatiles from the vanilla game while increasing the intelligence of the humans, biters, and other infected. Great for players who want to learn the ropes.",
+            "image": "button_difficulties_casual.jpg",
+            "folder": "difficulty_1_CasualSurvivor"
+        },
+        {
+            "name": "Survivor",
+            "description": "This version of the mod is meant for all the Lore based players who want a challenging and interesting game without the intensity. Zombies will be more dense on the map than Casual Survivor.",
+            "image": "button_difficulties_survivor.jpg",
+            "folder": "difficulty_2_Survivor"
+        },
+        {
+            "name": "Ultimate Survivor",
+            "description": "This version is meant to give players something new once they have played the game and know the basic functions and actions. Running can trigger enemies spawning and hunting for you.",
+            "image": "button_difficulties_ultimate.jpg",
+            "folder": "difficulty_3_UltimateSurvivor"
+        },
+        {
+            "name": "Insanity",
+            "description": "This version of the mod is meant for the players that want a serious challenge when leaving the safezones in the day and night. IALR Veterans recommended.",
+            "image": "button_difficulties_insanity.jpg",
+            "folder": "difficulty_4_Insanity"
+        }
+    ]
+}
