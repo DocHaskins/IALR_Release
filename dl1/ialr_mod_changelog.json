@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "title": "I Am Legion Mod Changelog",
+    "game": "Dying Light 1",
+    "lastUpdated": "2025-10-02",
+    "schema": {
+      "version": "1.0",
+      "description": "Mod changelog entries grouped by year, sorted newest first"
+    }
+  },
+  "years": [
+    {
+      "year": 2025,
+      "months": [
+        {
+          "month": "October",
+          "entries": [
+            {
+              "version": "1.35",
+              "date": "2025-10-02",
+              "gameVersionCompatibility": "1.54.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.54.0"
+                ],
+                "launcher": [
+                  "New version of the launcher released (3.0)",
+                  "Newly designed Mod Config, Savegame tools, and Multiplayer tools based on feedback",
+                  "System designed from the ground up to detect games, savegames, and system logs",
+                  "Supports Steam, Epic, and Gog",
+                  "Start of Unofficial Dev Tools auto-healing code",
+                  "Can access Player_variables.scr and skills.xml and make changes, save to custom config",
+                  "New backup tools will create backups when new game versions come out without mod released"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.34a",
+              "date": "2025-07-05",
+              "gameVersionCompatibility": "1.52.0",
+              "categories": {
+                "fixes": [
+                  "Fix for Rais's men having animation glitches when holding rifles inside bases",
+                  "Issue was caused by trying to get Rais's men to shoot infected near their fence line",
+                  "Behavior places that force different animations on NPCs require them to not be holding weapons at ready"
+                ]
+              }
+            },
+            {
+              "version": "1.34",
+              "date": "2025-07-01",
+              "gameVersionCompatibility": "1.52.0",
+              "categories": {
+                "balance": [
+                  "Rebalanced the world - redesigned overall difficulty flow for the game",
+                  "Progression throughout playthrough ensures meeting the largest amount of different enemy types",
+                  "Enemies present new challenges while being fair",
+                  "Can select any ingame difficulty to work with mod difficulties"
+                ],
+                "worldDiversity": [
+                  "Added more NPCs from quests and other unused NPCs",
+                  "Randomly generated NPCs added using Unofficial Dev Tool code",
+                  "NPCs show up as friendlies trying to fight to survive",
+                  "Roughly 332 males and 50 females added to the world randomly"
+                ],
+                "fixes": [
+                  "Final fix for the creature from the black lagoon morph nightmare showing up for early players",
+                  "Fix for spawn issues where biters were acting as humans and humans were acting as biters",
+                  "Can add Normal Spawns module to remove hardcoded spawn point issues"
+                ],
+                "notes": [
+                  "Module coming soon to restore original music as optional"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.33b",
+              "date": "2025-06-26",
+              "gameVersionCompatibility": "1.52.0",
+              "categories": {
+                "fixes": [
+                  "Changed the Menu from the old do-nothing button into text"
+                ]
+              }
+            },
+            {
+              "version": "1.33a",
+              "date": "2025-06-26",
+              "gameVersionCompatibility": "1.52.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.52.0",
+                  "Supports the new Texture update released on 06/26/25"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "1.33",
+              "date": "2025-02-03",
+              "gameVersionCompatibility": "1.50.0.0",
+              "categories": {
+                "fixes": [
+                  "Fix for crashes on Survivor difficulty due to restructuring Mod Config data",
+                  "Added more support for making changes to Mod Config"
+                ],
+                "newModule": [
+                  "Hellraid Support: Previously DLC scripts were built into IAL but caused errors for users without the DLC",
+                  "Added as optional module for users who have Hellraid"
+                ],
+                "installer": [
+                  "Fix for Reshade installer - code should now properly install Reshade if selected as Module",
+                  "Uninstaller should properly remove Reshade"
+                ],
+                "notes": [
+                  "Mod config currently defaults to Casual in Launcher for DL1",
+                  "Casual difficulty coming soon - set to your installed difficulty when modifying values"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "January",
+          "entries": [
+            {
+              "version": "1.32",
+              "date": "2025-01-29",
+              "gameVersionCompatibility": "1.50.0.0",
+              "categories": {
+                "updates": [
+                  "Update to 1.50.0.0"
+                ]
+              }
+            },
+            {
+              "version": "1.31",
+              "date": "2025-01-21",
+              "gameVersionCompatibility": "1.49.0.10",
+              "categories": {
+                "fixes": [
+                  "Fix for bad merge with previous Audio fixes in Ultimate and Insanity",
+                  "Fix for failure to properly install Insanity difficulty through the launcher"
+                ]
+              }
+            },
+            {
+              "version": "1.30",
+              "date": "2025-01-13",
+              "gameVersionCompatibility": "1.49.0.10",
+              "categories": {
+                "updates": [
+                  "Updated to 1.49.0.10"
+                ],
+                "fixes": [
+                  "Fix for random crashes in Slums and Old Town",
+                  "Small various fixes found on code review"
+                ],
+                "notes": [
+                  "Launcher now supports very basic version of Mod Config for DL1",
+                  "Entire system in launcher getting rework",
+                  "Some Mod config values may not currently impact gameplay"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "1.29a",
+              "date": "2024-12-16",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "fixes": [
+                  "Fix for silent runners",
+                  "Fix for mesh tearing on some of the biters"
+                ],
+                "launcher": [
+                  "New Launcher added to the I Am Legion mod page",
+                  "Launcher currently doesn't support Mod config for DL1 - coming soon"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "months": [
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.29",
+              "date": "2023-06-21",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "features": [
+                  "Updated the mod to support Hellraid",
+                  "Increased Hellraid enemy difficulty for both Ultimate and Insanity",
+                  "Insanity has a chance to spawn special enemies in common pools"
+                ],
+                "installer": [
+                  "Clean up and improvements to the installer"
+                ],
+                "notes": [
+                  "Highly recommend COOP friends or high level play for Insanity Hellraid"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "entries": [
+            {
+              "version": "1.28b",
+              "date": "2023-05-20",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "newWeapons": [
+                  "Added 21 new crossbows to the world - added to loot, airdrops, and traders",
+                  "Bolts added to the world traders",
+                  "5 Ironclad Siege crossbows - more damage but fire slower, bolts punch through enemies",
+                  "5 Marksmen crossbows - better aim but shoot slower",
+                  "5 Rapidfire automatic crossbows",
+                  "Rare Automatic Crossbow Type B - fires 5 bolts at a time rapid fire"
+                ],
+                "fixes": [
+                  "Fix for not being able to use the hook while sprinting",
+                  "Restored ability to use weapons while sprinting",
+                  "Added the ability to pull zombies with the grapple",
+                  "Fix for the zombie deformed bug"
+                ],
+                "balance": [
+                  "Added higher chance for humans to randomly spawn on the map",
+                  "Reduced view distance for enemy AI on Ultimate"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "April",
+          "entries": [
+            {
+              "version": "1.28a",
+              "date": "2023-04-09",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "fixes": [
+                  "Fixed multiple errors in Survivor edition of the Mod",
+                  "Fixes for the visuals of the models",
+                  "Removed the Giant Miners helmet easter egg (people thought it was a bug)"
+                ],
+                "balance": [
+                  "Ultimate Survivor now features a blend of Runners and Walkers",
+                  "Insanity is all runners"
+                ],
+                "features": [
+                  "Added non-actionable menu button on startup to show if mod is properly installed",
+                  "Added new CONFIG option for health modifier for zombies"
+                ],
+                "installer": [
+                  "Reversed Optional Map Spawn to Decrease the Zombies, not increase",
+                  "Includes features for view distance and density system"
+                ]
+              }
+            },
+            {
+              "version": "1.28",
+              "date": "2023-04-04",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "majorUpdate": [
+                  "Ultimate Survivor and Insanity difficulties released"
+                ],
+                "difficulties": {
+                  "ultimateSurvivor": [
+                    "Common biters hunt the player, searching area and moving randomly across map",
+                    "Makes nowhere safe - biters search high and low",
+                    "Biters scream when spotting player, calling more biters",
+                    "Biters can climb, jump, and crawl towards player",
+                    "Relentless enemies - run until you have high ground"
+                  ],
+                  "insanity": [
+                    "Similar to Ultimate but takes things up another notch",
+                    "All enemies can see you at further distance and chase you further",
+                    "Makes escape much more difficult over time"
+                  ]
+                },
+                "features": [
+                  "Spawn Amount (Optional) included with installer",
+                  "Reshade (Optional) included with installer for modern visual restoration",
+                  "Home key - Reshade Menu, End key - Toggle on/off"
+                ],
+                "installer": [
+                  "Release of the I Am Legion Installer for easier updates"
+                ],
+                "notes": [
+                  "Casual Survivor and improvements to Survivor coming soon"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "March",
+          "entries": [
+            {
+              "version": "1.27c2",
+              "date": "2023-03-03",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "fixes": [
+                  "Fix for loot spawn bug and system slowdown (maxed out the engine on spawns)",
+                  "Removed firearms not being used by Rais's men",
+                  "Reduced the amount of 'Large helmet' zombies",
+                  "Fix for diversity not working due to Loot spawn bug"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "1.27c1",
+              "date": "2023-02-24",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "fixes": [
+                  "Fix for Old Town spawn bug - glitching zombies"
+                ]
+              }
+            },
+            {
+              "version": "1.27c",
+              "date": "2023-02-23",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "features": [
+                  "Properly restored most of the AI features for the mod",
+                  "Restored the trader functionalities - firearms back in shops early in game"
+                ],
+                "fixes": [
+                  "Ton of fixes across the board from 1.27b release",
+                  "Restored a lot of immersion components"
+                ],
+                "loot": [
+                  "Updated loot system and inventory systems with improved loot spawns",
+                  "Airdrops may contain firearms and ammo",
+                  "Police and military vehicles may contain explosives and firearms"
+                ]
+              }
+            },
+            {
+              "version": "1.27b",
+              "date": "2023-02-20",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "features": [
+                  "Diverse Zombies added to the spawns",
+                  "Improved view distance for the world and LODs",
+                  "Improved AI Logic"
+                ],
+                "balance": [
+                  "Better balancing for Human spawns in the world",
+                  "Randomly stumble upon other humans trying to survive"
+                ]
+              }
+            },
+            {
+              "version": "1.27a",
+              "date": "2023-02-19",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "fixes": [
+                  "Fix for black screen bug for Easy, Normal, and Hard players"
+                ]
+              }
+            },
+            {
+              "version": "1.27",
+              "date": "2023-02-19",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "majorUpdate": [
+                  "Part 1 of the overhaul for Dying Light 1"
+                ],
+                "features": [
+                  "Added the IAL_Settings.mth config with lots of new options",
+                  "Map density increased for each map (more zombies)",
+                  "Some zombies now hunt for you and can climb",
+                  "Improved grouping and AI communications for zombies and Humans"
+                ],
+                "fixes": [
+                  "Fix for the Audio bug causing zombies to be silent"
+                ],
+                "spawns": [
+                  "Bandit spawn diverse spawns return to the world"
+                ],
+                "notes": [
+                  "The 3 difficulty versions and installer with optionals coming with Part 2",
+                  "Definitely needs balancing, more coming soon"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "months": [
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.26",
+              "date": "2022-07-12",
+              "gameVersionCompatibility": "1.49.0",
+              "categories": {
+                "updates": [
+                  "Updated Dying Light 1's Survivor version with the latest 1.49.0 files"
+                ],
+                "features": [
+                  "Added support for push to talk",
+                  "Added all the new inventory and store items from DLCs"
+                ],
+                "notes": [
+                  "This isn't the overhaul being worked on",
+                  "Doesn't include the runner (ultimate) version yet",
+                  "Should be more stable and include all new updates"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

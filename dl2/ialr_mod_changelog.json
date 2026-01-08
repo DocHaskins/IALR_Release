@@ -1,0 +1,4312 @@
+{
+  "metadata": {
+    "title": "IALR Mod Changelog",
+    "game": "Dying Light 2",
+    "lastUpdated": "2025-12-18",
+    "schema": {
+      "version": "1.0",
+      "description": "Mod changelog entries grouped by year, sorted newest first"
+    }
+  },
+  "years": [
+    {
+      "year": 2025,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "1.6j4",
+              "date": "2025-12-18",
+              "gameVersionCompatibility": "1.26.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.26.0"
+                ],
+                "notes": [
+                  "This is a 1.#.0 update, which means there may be new bugs, new things not working",
+                  "Please check online for vanilla bugs first before writing mod bug reports",
+                  "Tested with and without the event and everything seems to run fine, didn't get any crashes and the event seems to work with the mod"
+                ]
+              }
+            },
+            {
+              "version": "1.6j3",
+              "date": "2025-12-02",
+              "gameVersionCompatibility": "1.25.4",
+              "categories": {
+                "fixes": [
+                  "Fix for Survivor difficulty using Apex Predator pathway skin without armor",
+                  "This was due to updating the code from an official update and a bad github push"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "1.6j2",
+              "date": "2025-11-25",
+              "gameVersionCompatibility": "1.25.4",
+              "categories": {
+                "updates": [
+                  "Updated to 1.25.4"
+                ]
+              }
+            },
+            {
+              "version": "1.6j1",
+              "date": "2025-11-14",
+              "gameVersionCompatibility": "1.25.2",
+              "categories": {
+                "newModule": [
+                  "Disable Official Events: Backend way of turning off events that didn't work before",
+                  "Recommended this module is always added to mod selections"
+                ],
+                "fixes": [
+                  "Fix for backpack clipping on Dooms Day Prepper"
+                ]
+              }
+            },
+            {
+              "version": "1.6j",
+              "date": "2025-11-13",
+              "gameVersionCompatibility": "1.25.2",
+              "categories": {
+                "restoration": [
+                  "Restoration of custom Chaos spawn system - An official update broke the functionality",
+                  "This system makes a huge impact on Ultimate and Insanity difficulties, along with the Warzones and Infestation modules",
+                  "Restoration of the Swamp Biome - An official update broke a lot of custom infected for the biome"
+                ],
+                "newContent": [
+                  "Added new Demolishers, Screamers, and Spitters to the Swamp biome"
+                ]
+              }
+            },
+            {
+              "version": "1.6i5",
+              "date": "2025-11-06",
+              "gameVersionCompatibility": "1.25.2",
+              "categories": {
+                "fixes": [
+                  "Fix for LevelsBeGone crash due to update"
+                ]
+              }
+            },
+            {
+              "version": "1.6i4",
+              "date": "2025-11-06",
+              "gameVersionCompatibility": "1.25.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.25.2"
+                ],
+                "notes": [
+                  "Due to the ongoing event, please play in offline mode to avoid large parts of the mod not working due to events potentially being forced"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "October",
+          "entries": [
+            {
+              "version": "1.6i3",
+              "date": "2025-10-31",
+              "gameVersionCompatibility": "1.25.1",
+              "categories": {
+                "updates": [
+                  "Updated to 1.25.1"
+                ],
+                "notes": [
+                  "This update was binary, not the data files",
+                  "There is a known crash happening due to Techlands latest event code",
+                  "If you're able to successfully switch to offline mode, then you will be able to play the mod"
+                ]
+              }
+            },
+            {
+              "version": "1.6i2",
+              "date": "2025-10-30",
+              "gameVersionCompatibility": "1.25.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.25.0"
+                ],
+                "notes": [
+                  "The last few official events have been forced, even if you set it to off in the Options menu",
+                  "Parts of the mod may not work properly without switching to offline mode"
+                ]
+              }
+            },
+            {
+              "version": "1.6i1",
+              "date": "2025-10-19",
+              "gameVersionCompatibility": "1.25.0",
+              "categories": {
+                "removedModules": [
+                  "Removed Hunger & Thirst from Module list due to an official update removing the concept of stamina from basic movement"
+                ],
+                "fixes": [
+                  "Fix for water adding a stamina regen buff without having Hunger and Thirst installed"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "September",
+          "entries": [
+            {
+              "version": "1.6i",
+              "date": "2025-09-08",
+              "gameVersionCompatibility": "1.24.2",
+              "categories": {
+                "newModule": [
+                  "Physics Overhaul: All changes from the physics and reactions system have been made into an optional module"
+                ],
+                "newEvents": [
+                  "HyperMode: Based on Techlands Hypermode, built around new ragdoll code. Enemies will blast away with your attacks",
+                  "Low Gravity: The player and all enemies now have low gravity set",
+                  "5479 Days Later: Based on 28 Days Later movie, all spawns are Biters and Virals hunting human survivors at all times"
+                ],
+                "notes": [
+                  "Winter Slaughterland has been moved from Modules to Events",
+                  "All Physics events are compatible with each other"
+                ]
+              }
+            },
+            {
+              "version": "1.6h",
+              "date": "2025-09-04",
+              "gameVersionCompatibility": "1.24.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.24.2"
+                ],
+                "newModule": [
+                  "Levels Be Gone: Flattens all tier systems in the game, makes all weapons and enemies do the same damage and have the same health"
+                ],
+                "physicsOverhaul": [
+                  "Went back to Dying Light 1 and combed through all physics code to dial in DL2",
+                  "Enemies are more likely to ragdoll with hits",
+                  "Enemies will bump into each other and knock each other down",
+                  "Enemies will ragdoll when on the ground or dead",
+                  "Enemies better naturally respond to hits in different areas of the body"
+                ],
+                "firearmsRebalance": [
+                  "All firearms dialed in to feel more natural based on their attributes",
+                  "Shotguns no longer able to snipe enemies across the map",
+                  "Firearms now cause enemies to wake up and come find you around the map",
+                  "Enemies will start to build up from around the maps edges"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "August",
+          "entries": [
+            {
+              "version": "1.6f5",
+              "date": "2025-08-21",
+              "gameVersionCompatibility": "1.24.1",
+              "categories": {
+                "updates": [
+                  "Updated to 1.24.1"
+                ],
+                "notes": [
+                  "This update caused serious frame loss, fixed by updating the Nvidia driver",
+                  "New modules on the way soon and potentially an event"
+                ]
+              }
+            },
+            {
+              "version": "1.6f4",
+              "date": "2025-08-19",
+              "gameVersionCompatibility": "1.24.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.24.0"
+                ],
+                "fixes": [
+                  "Fix for Biters climbing - biters walking around and then climbing up the side of buildings or climbing down without animations has been fixed"
+                ],
+                "notes": [
+                  "For all difficulties, you can change the runners and climbers using the Mod config > NPC Settings > Behavior Settings"
+                ]
+              }
+            },
+            {
+              "version": "1.6f3",
+              "date": "2025-08-17",
+              "gameVersionCompatibility": "1.24.0",
+              "categories": {
+                "features": [
+                  "Added more custom IALR bows and crossbows to traders around the world"
+                ],
+                "fixes": [
+                  "Fix for Balatro Content quest bug (found by community member Beatoriche)",
+                  "Fix for loot bugs - order of loot items causing random issues",
+                  "Small Fixes for NPC AI",
+                  "Fix for companion costs - some purchases were still set to original testing prices"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.6f2",
+              "date": "2025-07-07",
+              "gameVersionCompatibility": "1.23.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.23.2"
+                ],
+                "notes": [
+                  "The new official update was a very small hotfix released by Techland"
+                ]
+              }
+            },
+            {
+              "version": "1.6f1",
+              "date": "2025-07-05",
+              "gameVersionCompatibility": "1.23.1",
+              "categories": {
+                "updates": [
+                  "Updated to 1.23.1"
+                ],
+                "fixes": [
+                  "Fix for Warzones - Removes issues where players were seeing enemy LODs but no enemies would show up in the distance"
+                ],
+                "notes": [
+                  "There seems to be a new and ongoing multiplayer bug after the 1.23.0 update (vanilla bug)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.6f",
+              "date": "2025-06-26",
+              "gameVersionCompatibility": "1.23.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.23.0"
+                ],
+                "fixes": [
+                  "Fix for spawn bug - fixed a larger balancing bug with spawning in the mod that broke a while back",
+                  "Fix for missing Crossbows and Bows - Added back to traders around the world",
+                  "You can find more Crossbows at the PK traders than survivors"
+                ]
+              }
+            },
+            {
+              "version": "1.6e4",
+              "date": "2025-06-17",
+              "gameVersionCompatibility": "1.22.5",
+              "categories": {
+                "newContent": [
+                  "Added 16 new custom female PK bowmen/soldiers to the world - hand crafted new models"
+                ],
+                "fixes": [
+                  "Fixes the invisible PK bug reported",
+                  "Fix for Apex Predator First person view - Updated to properly show the torso with Apex Predator armor",
+                  "Fix for Auto-aim bug reported"
+                ],
+                "notes": [
+                  "Weapon clipping can still be an issue with Apex Predator armor and skin (no known fix currently)"
+                ]
+              }
+            },
+            {
+              "version": "1.6e3",
+              "date": "2025-06-13",
+              "gameVersionCompatibility": "1.22.5",
+              "categories": {
+                "removed": [
+                  "Removed the outdated crafting system - IALR crafting changes to vanilla systems removed until proper balancing",
+                  "Removed the vanilla periodic spawn system for virals on Casual, Survivor, and Ultimate"
+                ],
+                "notes": [
+                  "The periodic viral spawn system just randomly throws virals at the player, not needed with the mod's world-based spawning"
+                ]
+              }
+            },
+            {
+              "version": "1.6e2",
+              "date": "2025-06-07",
+              "gameVersionCompatibility": "1.22.5",
+              "categories": {
+                "fixes": [
+                  "Small bugfix for reported Loot bug on Nexusmods"
+                ]
+              }
+            },
+            {
+              "version": "1.6e1",
+              "date": "2025-06-07",
+              "gameVersionCompatibility": "1.22.5",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.22.5"
+                ],
+                "fixes": [
+                  "Fix for damage not properly scaling when adding mods to weapons (syntax bug)",
+                  "Fix for stash module causing errors"
+                ],
+                "balance": [
+                  "Rebalancing of loot tables to have a few more items on biters and virals beyond just camo",
+                  "Removed glowsticks and flares from showing up at shops",
+                  "Rebalanced traders to have more accessories from the mod"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "entries": [
+            {
+              "version": "1.6e",
+              "date": "2025-05-12",
+              "gameVersionCompatibility": "1.22.4",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.22.4"
+                ],
+                "newFeature": [
+                  "New Camo Conversion system - Combine different camos into new and stronger blends using new craft blueprints found in Stash Extras",
+                  "New camo blends found at shops"
+                ],
+                "balance": [
+                  "Reduced amount of initial Volatiles in world and chases for Casual Survivor until level 2 & 3",
+                  "Added back Fuel Bombs and Fire Bombs - Easier to find at shops and cost less to make",
+                  "Fixes for large number of Nocturnal weapon drops - Rebalanced loot",
+                  "Fix for Grip bug - grip and reinforcement mods should show back up now"
+                ],
+                "lootBalance": [
+                  "Rebalanced glowstick and signal flares showing up in the world and at traders",
+                  "Rebalanced infected to be more likely to drop camouflage and contain less jewelry and cash",
+                  "Rebalanced Small trophies to be more likely to show up"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "April",
+          "entries": [
+            {
+              "version": "1.6d6",
+              "date": "2025-04-25",
+              "gameVersionCompatibility": "1.22.3",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.22.3"
+                ]
+              }
+            },
+            {
+              "version": "1.6d5",
+              "date": "2025-04-22",
+              "gameVersionCompatibility": "1.22.2",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.22.2"
+                ]
+              }
+            },
+            {
+              "version": "1.6d4",
+              "date": "2025-04-17",
+              "gameVersionCompatibility": "1.22.0",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.22.0"
+                ],
+                "fixes": [
+                  "Fix for Tower Raids Shop bug"
+                ],
+                "notes": [
+                  "Techland added new code for throwing weapons, which means all custom throwing weapons may be broken"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "March",
+          "entries": [
+            {
+              "version": "1.6d3",
+              "date": "2025-03-23",
+              "gameVersionCompatibility": "1.21.5",
+              "categories": {
+                "features": [
+                  "Hunger & Thirst Inventory slot Count support - Can properly adjust numbers inside mod config for Weapons, Equipment, Consumables, and Ammo slots"
+                ]
+              }
+            },
+            {
+              "version": "1.6d2",
+              "date": "2025-03-22",
+              "gameVersionCompatibility": "1.21.5",
+              "categories": {
+                "fixes": [
+                  "Hotfix for broken containers showing up in the world"
+                ]
+              }
+            },
+            {
+              "version": "1.6d",
+              "date": "2025-03-21",
+              "gameVersionCompatibility": "1.21.5",
+              "categories": {
+                "modConfig": [
+                  "Cleaned up and improved the ModConfig data in the new Launcher",
+                  "Added back Inventory settings - can now adjust slots for Weapons, Equipment, Consumables, and Ammo"
+                ],
+                "features": [
+                  "Added Language support to new Infected Hud",
+                  "Reduced distance for the hud to show"
+                ],
+                "languages": [
+                  "Updated all Language support packs with more player contributions"
+                ],
+                "fixes": [
+                  "Fix for chaos system working too close to the player"
+                ],
+                "notes": [
+                  "Please backup savegames - inventory settings are a known corruption issue when setting custom values"
+                ]
+              }
+            },
+            {
+              "version": "1.6c1",
+              "date": "2025-03-20",
+              "gameVersionCompatibility": "1.21.5",
+              "categories": {
+                "updates": [
+                  "Updated to 1.21.5c - Minor fixes for Tower Raids"
+                ],
+                "newInfected": [
+                  "Release of Enraged, Viral, and Armored variants of Charger, Goon, and Demolisher",
+                  "Enraged will attempt to run you down but can't climb",
+                  "Viral can climb and jump between buildings",
+                  "Armored are undead Dreadnaughts - think 'Juggernaut' with hud health bar",
+                  "Alpha Volatiles also have a chance to spawn with hud health bar",
+                  "Chemical and Venom variants now have Hud displays"
+                ],
+                "features": [
+                  "Restored Running in Bases - may not work on all of them"
+                ],
+                "balance": [
+                  "Alcohol is now stored in Inventory again based on feedback"
+                ]
+              }
+            },
+            {
+              "version": "1.6c",
+              "date": "2025-03-15",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "features": [
+                  "Base building content added back to traders",
+                  "Deployable UV light kits and PK reinforcements can be found at PK traders"
+                ],
+                "fixes": [
+                  "Fix for IALR Survivor Sense - Mod config will now properly toggle the visuals (broken due to official update)"
+                ],
+                "notes": [
+                  "Please submit bug reports for issues - developer relies on community to create bug reports"
+                ]
+              }
+            },
+            {
+              "version": "1.6b4",
+              "date": "2025-03-12",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "fixes": [
+                  "Hotfix for food/drink items getting stuck in Weapon slots after refactor"
+                ]
+              }
+            },
+            {
+              "version": "1.6b3",
+              "date": "2025-03-12",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "refactor": [
+                  "Refactor for all food, alcohol, and water",
+                  "Updated all animations and buffs for the mod for both base game and Hunger and Thirst module",
+                  "Player will now properly eat or drink items",
+                  "All food, water, and alcohol are instant consume on the base mod",
+                  "Some items are instant consume on Hunger and Thirst (perishable), while cans and smoked foods go into inventory"
+                ],
+                "fixes": [
+                  "Fix for Hunger and Thirst bug with consuming food and not adding stamina"
+                ]
+              }
+            },
+            {
+              "version": "1.6b2",
+              "date": "2025-03-12",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "fixes": [
+                  "Fixes for all firearms - missing audio, animations, etc"
+                ],
+                "stashModule": [
+                  "Added multiple firearm bundles to the stash module"
+                ],
+                "fixes2": [
+                  "Infinite stamina fix - Patched issue with consuming food items after last update",
+                  "All food should now properly heal only without Hunger & Thirst Module"
+                ]
+              }
+            },
+            {
+              "version": "1.6b",
+              "date": "2025-03-11",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "features": [
+                  "Instant consume food items - All food found around the world (without Hunger & Thirst module) will drop out of inventory and be instantly consumed for small percentage of health",
+                  "Food items continue to be stored in inventory with Hunger & Thirst module"
+                ],
+                "balance": [
+                  "Nerfed Volatile difficulty and spawn rates for Survivor - Reduced large volume of Volatiles spawning during chases",
+                  "Can still adjust amounts in Mod Config Chase section"
+                ],
+                "fixes": [
+                  "Fix for health regen on Hunger & Thirst module"
+                ]
+              }
+            },
+            {
+              "version": "1.6a1",
+              "date": "2025-03-11",
+              "gameVersionCompatibility": "1.21.4",
+              "categories": {
+                "updates": [
+                  "Updated to 1.21.4"
+                ],
+                "fixes": [
+                  "Potential fix for Large ammo boxes being un-lootable"
+                ]
+              }
+            },
+            {
+              "version": "1.6a",
+              "date": "2025-03-08",
+              "gameVersionCompatibility": "1.21.3",
+              "categories": {
+                "languages": [
+                  "Updated Language packs to include the latest translations",
+                  "Huge shoutout to Reclord for finishing translations for IALR in Turkish"
+                ],
+                "fixes": [
+                  "Fix for Crafting menu options - feature temp removed to better support official changes"
+                ]
+              }
+            },
+            {
+              "version": "1.6",
+              "date": "2025-03-05",
+              "gameVersionCompatibility": "1.21.3",
+              "categories": {
+                "majorUpdate": [
+                  "1.6 Released - Fresh start after extended pre-release cycle"
+                ],
+                "newSkins": [
+                  "New DoomsDay Prepper and Apex Predator Skins - start a new game with these pathways or equip from Stash Extras section",
+                  "Skins work under outfits and are completely FPP compatible"
+                ],
+                "towerRaids": [
+                  "TowerRaids virals and biters added to the world spawns"
+                ],
+                "languages": [
+                  "IALR now supports 14 languages in Dying Light 2"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre24",
+              "date": "2025-03-04",
+              "gameVersionCompatibility": "1.21.3",
+              "categories": {
+                "languages": [
+                  "Added support for 6 new languages: Arabic, Chinese, Hungarian, Japanese, Korean, and Russian",
+                  "Large majority still done by Google Translate but it's a start"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre23",
+              "date": "2025-03-03",
+              "gameVersionCompatibility": "1.21.3",
+              "categories": {
+                "languages": [
+                  "Overhaul to all languages - new tools for converting translations from Language translation excel into the game",
+                  "All languages now have special characters",
+                  "Still struggling to get Russian, Japanese, Korean, and Chinese working"
+                ],
+                "fixes": [
+                  "Fix for The Raid Quest - AI behavior issue after official update 1.21.0 with AI walking towards player",
+                  "Fix for The Stash Module - Techland removed code needed, temp work around implemented"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "1.6pre22",
+              "date": "2025-02-27",
+              "gameVersionCompatibility": "1.21.3",
+              "categories": {
+                "updates": [
+                  "Updated to 1.21.3"
+                ],
+                "notes": [
+                  "Some players may still be experiencing issue with renegade enemies running at player and not attacking after 1.21.1 update"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre21",
+              "date": "2025-02-21",
+              "gameVersionCompatibility": "1.21.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.21.2 - This update made inventory changes so grab latest version to prevent savegame corruption"
+                ],
+                "fixes": [
+                  "Fixes to child biters - missing arms and hands fixed"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre20",
+              "date": "2025-02-20",
+              "gameVersionCompatibility": "1.21.1",
+              "categories": {
+                "towerRaids": [
+                  "Support for TowerRaids - biters and enemies should properly work now",
+                  "May want to play Tower Raids on Casual Survivor as it will be hard with the mod"
+                ],
+                "fixes": [
+                  "Fix for more AI issues - distance calculation for AI for humans, demolishers, goons, and volatiles (during the day)",
+                  "Fix for Stash items - fixed several starter bundles, Trophy Conversion bundle, and other IALR start bundles to work as 1 time use"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre19b",
+              "date": "2025-02-19",
+              "gameVersionCompatibility": "1.21.1",
+              "categories": {
+                "fixes": [
+                  "Human AI bug hotfix - This latest update refactored a lot of XML code which deeply affects NPC AI"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre19",
+              "date": "2025-02-19",
+              "gameVersionCompatibility": "1.21.1",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.21.1"
+                ],
+                "balance": [
+                  "Reduced the Volatile spawns on Survivor difficulty",
+                  "Removed Volatile Chemical and Venom variants from Survivor"
+                ],
+                "modules": [
+                  "Various fixes to each Module",
+                  "Removed Custom Map Changes Module - very outdated and needs to be remade"
+                ],
+                "notes": [
+                  "Update 1.21.1 introduced a large change to all AI and how the XML calculates AI movement"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre18",
+              "date": "2025-02-10",
+              "gameVersionCompatibility": "1.21.0",
+              "categories": {
+                "fixes": [
+                  "Potential fix for daytime crashes after official update - took a lot of trial and error but able to run through city without crashes"
+                ],
+                "launcher": [
+                  "New launcher update with lots of fixes"
+                ],
+                "modConfig": [
+                  "Updated all IAL_Settings.mth's across all difficulties to use the new generated file from the launcher"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre17",
+              "date": "2025-02-07",
+              "gameVersionCompatibility": "1.21.0",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.21.0"
+                ],
+                "fixes": [
+                  "Fix for VolatilesBeGone to now properly remove all roaming Volatiles - please play on Casual or Survivor for this to work with all other features",
+                  "Fix for PK troops not using UV flares",
+                  "Fix for human AI not properly spotting and attacking enemies - Humans are much more aggressive towards biters"
+                ],
+                "removed": [
+                  "Removed random UV lights showing up all over some parts of the city - too easy to farm currently"
+                ],
+                "models": [
+                  "Added 20 new child infected biters",
+                  "Reworked the PK visuals to use more of the original colors (less bright blue) and added 36 new looks for patrolling PK",
+                  "Fixes for some visual glitches with biters, clipping through other materials"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "1.6pre16",
+              "date": "2024-12-17",
+              "gameVersionCompatibility": "1.20.1",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.20.1"
+                ],
+                "notes": [
+                  "Make sure to run the installer again to make sure the update applies when it downloads on the launcher"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre15",
+              "date": "2024-12-11",
+              "gameVersionCompatibility": "1.20.0",
+              "categories": {
+                "launcher": [
+                  "Launcher updated to 2.0e"
+                ],
+                "updates": [
+                  "Mod updated to 1.6pre15"
+                ],
+                "fixes": [
+                  "Fix for the update process, new autoinstaller feature implemented",
+                  "Fix for a large number of small bugs and glitched visuals on the new infected"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre14",
+              "date": "2024-12-03",
+              "gameVersionCompatibility": "1.19.3",
+              "categories": {
+                "updates": [
+                  "Updated to 1.19.3"
+                ],
+                "newContent": [
+                  "Added 75 new biters, slowly bringing back the custom infected"
+                ],
+                "fixes": [
+                  "Fix for infestation crash",
+                  "Fix for Vanilla + IALR Content blob"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "1.6pre13",
+              "date": "2024-11-14",
+              "gameVersionCompatibility": "1.19.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.19.2"
+                ],
+                "notes": [
+                  "Developer was working on a gamejam for 7 days, now back working on launcher and 1.6"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre12",
+              "date": "2024-11-07",
+              "gameVersionCompatibility": "1.19.1",
+              "categories": {
+                "updates": [
+                  "Updated to 1.19.1"
+                ],
+                "fixes": [
+                  "Fix for biters climbing after 1.19.0 on Ultimate and Insanity and through the Mod config",
+                  "Fix for virals attacking the player",
+                  "Fix for language modules not working properly - large overhaul coming with 1.6"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "October",
+          "entries": [
+            {
+              "version": "1.6pre11",
+              "date": "2024-10-30",
+              "gameVersionCompatibility": "1.19.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.19.0 - generated around 75% with auto-heal code but still has ways to go"
+                ],
+                "chaosSystem": [
+                  "Improved Chaos system - helps remove enemies spawning directly in front of player",
+                  "Events should now take place further away from player",
+                  "Horde may be waiting around a corner or inside an interior"
+                ],
+                "fixes": [
+                  "Fixes for spawn bugs - spawn issue with large amounts of volatiles and enemies constantly spawning in interiors after update",
+                  "Fixes for shops and inventory - found small bugs using new Unofficial Dev Tools"
+                ],
+                "knownBugs": [
+                  "Viral spitter not spitting",
+                  "Random bandits not attacking"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "August",
+          "entries": [
+            {
+              "version": "1.6pre10",
+              "date": "2024-08-21",
+              "gameVersionCompatibility": "1.18.0",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.18.0"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.6pre9",
+              "date": "2024-07-06",
+              "gameVersionCompatibility": "1.17.2",
+              "categories": {
+                "updates": [
+                  "Updated to 1.17.2"
+                ],
+                "fixes": [
+                  "Fix for Vanilla bug in loot tables for Walkie-Talkies due to vanilla typo"
+                ],
+                "notes": [
+                  "Confirmed PK Summons, Traders, companions, and other tools are working",
+                  "If having issues, run File Verification on game, remove all other mods, and install only IALR using the IALR Launcher Installer"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.6pre8",
+              "date": "2024-06-28",
+              "gameVersionCompatibility": "1.17.0",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.17.0.1"
+                ],
+                "newModule": [
+                  "Added New Module: Stash Unlock - provides all IALR content immediately in stash (not recommended for newcomers)"
+                ],
+                "newPathway": [
+                  "Added New Pathway: Apex Predator - skip ahead and get cooler items, adds all skills and higher level options from start (not recommended for newcomers)",
+                  "Recommended to skip prologue with Apex Predator to avoid tutorial bug softlock"
+                ],
+                "features": [
+                  "Added support for Nightmare difficulty to Survivor Options: Thirst and Hunger"
+                ],
+                "patreon": [
+                  "Releasing Patreon Thank You pack content to everyone as it was never meant to be a paywall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "entries": [
+            {
+              "version": "1.6pre7",
+              "date": "2024-05-02",
+              "gameVersionCompatibility": "1.19.2",
+              "categories": {
+                "updates": [
+                  "Updated to support 1.19.2"
+                ],
+                "notes": [
+                  "Pushing hard to have the new launcher and 1.6 done by the end of this month"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "April",
+          "entries": [
+            {
+              "version": "1.6pre6",
+              "date": "2024-04-25",
+              "gameVersionCompatibility": "1.16.1",
+              "categories": {
+                "updates": [
+                  "Updated to 1.16.1"
+                ],
+                "fixes": [
+                  "Fix for outdated crafting items not having names (by removing them for now)",
+                  "Removed continuous enemy spawns in Casual Survivor and Survivor difficulty - Survivor has enough challenges with increased spawns"
+                ],
+                "notes": [
+                  "Survival Options - Hunger and Thirst module does not currently support Nightmare difficulty due to new 'advanced/tactical stamina' update after 1.16.0",
+                  "Switch to Hard difficulty if using that module"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre5",
+              "date": "2024-04-18",
+              "gameVersionCompatibility": "1.16.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.16",
+                  "Updated to support Nightmare difficulty",
+                  "All modules, events, pathways, and languages have been updated to support the 1.16 update"
+                ],
+                "fixes": [
+                  "Fix for Pathway selections PK, Veteran, and Roadwarrior to support a new skin when starting a new game",
+                  "Armor that had clipping issues was removed from the starting character"
+                ],
+                "knownBugs": [
+                  "Armor clipping is still an issue with all custom armors (still no fix in sight)",
+                  "Custom Maps Optional still has the Sofia bug when trying to continue the quest",
+                  "Some savegames seem to have the wrong flashlight settings baked in"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre4",
+              "date": "2024-04-10",
+              "gameVersionCompatibility": "1.15.4",
+              "categories": {
+                "newContent": [
+                  "Added new Veteran skin to Stash for all players and to the Veteran Pathway"
+                ],
+                "fixes": [
+                  "Fix for IALR_Content difficulty having a stamina bug"
+                ],
+                "notes": [
+                  "Skin is compatible with most ingame outfit pieces and easy to enable and disable"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "March",
+          "entries": [
+            {
+              "version": "1.6pre3",
+              "date": "2024-03-21",
+              "gameVersionCompatibility": "1.15.4",
+              "categories": {
+                "updates": [
+                  "Updated the mod to support 1.15.4"
+                ],
+                "fixes": [
+                  "Fix for spawns on Insanity to fix roaming Volatiles - camouflage is now 100% required for movement at night",
+                  "Everything can smell and track you across the map",
+                  "Fix for some biters always running even with Mod Config settings set to Walker"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre2",
+              "date": "2024-03-15",
+              "gameVersionCompatibility": "1.15.3",
+              "categories": {
+                "fixes": [
+                  "Fix for warzone like spawns occurring throughout the city - city spawns have been better balanced",
+                  "Fix for Volatile health being super tanky - due to a repeat value in preset",
+                  "Fix for Biter_Fresh running or walking being set by the config - can now easily set all Biters to run and climb or walk through Mod config",
+                  "Fix for crash from VolatilesBeGone module",
+                  "Fix for Invisible Virals - All IALR Models have now been removed for the Infected, being redesigned for 1.6 release",
+                  "Fix for Reinforcements now spawning from different factions - had to be re-written after 1.15 update"
+                ],
+                "notes": [
+                  "Added description when loading IALR Content warning that 70% of features are disabled in that difficulty setting"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre1",
+              "date": "2024-03-13",
+              "gameVersionCompatibility": "1.15.3",
+              "categories": {
+                "balance": [
+                  "Infestation has been rebalanced to focus on more infected and less humans spawning in the world",
+                  "Patrols and new factions still randomly in world, but more spawns focused on Biters and infected"
+                ],
+                "fixes": [
+                  "Fix for black screen crash when starting a new save",
+                  "Fix for crashes with Deadly Humans, Infestation, and Survivor Module",
+                  "Updated all modules with 1.6pre changes and improved balancing"
+                ]
+              }
+            },
+            {
+              "version": "1.6pre",
+              "date": "2024-03-11",
+              "gameVersionCompatibility": "1.15.3",
+              "categories": {
+                "updates": [
+                  "Updated to 1.15.3"
+                ],
+                "spawnSystem": [
+                  "Refactor for balancing for all difficulties to improve spawn systems and fix bugs",
+                  "Spawns have been rebalanced to bring the most populated map yet",
+                  "If performance issues, use Mod Config > World Spawns > Performance tab to adjust IAL_Spawn_Max_AI_Count (default 120) and IAL_Spawn_Max_AI_Zombie_Spawn_Distance (default 80)"
+                ],
+                "firearms": [
+                  "Firearms can now be traded, dropped, and added to the stash",
+                  "Firearms have received balancing updates to make damage more appropriate",
+                  "5 new Firearms in development - available through patreon stash content for Insanity and Ultimate supporters"
+                ],
+                "insanity": [
+                  "Insanity difficulty completely refactored to be most difficult to date",
+                  "Enemies can now smell you, even high up on buildings",
+                  "Best way to avoid being slaughtered is using Camouflage as you move"
+                ],
+                "interiorSpawns": [
+                  "Interior Spawns working again with custom spawns",
+                  "Updated to 'self activate' so no longer have to walk into interior to make AI search for you",
+                  "Makes them much more deadly but may increase performance costs"
+                ],
+                "modConfig": [
+                  "Removed Inventory slots - should not be set unless willing to risk savegame corruption",
+                  "Removed Cheats - Infinite Stamina",
+                  "Removed FOV Camera setting (AntiFov is set to 0.0 in the mod)"
+                ]
+              }
+            },
+            {
+              "version": "1.5i9",
+              "date": "2024-03-04",
+              "gameVersionCompatibility": "1.15.2",
+              "categories": {
+                "fixes": [
+                  "Resolved crash caused by Banshee Stalker AI",
+                  "Restored IALR spawn systems",
+                  "Restored interior spawn systems",
+                  "Improved savegame stability and corruption prevention"
+                ],
+                "notes": [
+                  "Savegames now store more persistent data; switching between modded and vanilla gameplay may cause corruption",
+                  "Recommended to use IALR_Content difficulty when playing vanilla to prevent savegame damage"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "1.5i8",
+              "date": "2024-02-27",
+              "gameVersionCompatibility": "1.15.2",
+              "categories": {
+                "updates": [
+                  "Updated mod to support Dying Light 2 version 1.15.2",
+                  "Compatibility fixes for latest game patch"
+                ]
+              }
+            },
+            {
+              "version": "1.5i7",
+              "date": "2024-02-27",
+              "gameVersionCompatibility": "1.15.1",
+              "categories": {
+                "fixes": [
+                  "Resolved spawn crash caused by PK Shieldbearer AI",
+                  "Restored all enemy types to spawn system",
+                  "Fixed backend compatibility issues with game update"
+                ]
+              }
+            },
+            {
+              "version": "1.5i6",
+              "date": "2024-02-26",
+              "gameVersionCompatibility": "1.15.1",
+              "categories": {
+                "stability": [
+                  "Addressed random crashes in spawn code",
+                  "Identified vanilla game bugs affecting module stability",
+                  "Warzones and Infestation modules temporarily unstable pending fixes",
+                  "Base mod configuration most stable option"
+                ]
+              }
+            },
+            {
+              "version": "1.5i5",
+              "date": "2024-02-23",
+              "gameVersionCompatibility": "1.15.1",
+              "categories": {
+                "restoration": [
+                  "Restored Day Hunter and Night Hunter systems for Ultimate and Insanity difficulties",
+                  "Restored Volatile scream mechanics",
+                  "Completely rewrote noise detection systems",
+                  "Rebuilt spawn system for each difficulty"
+                ],
+                "fixes": [
+                  "Fixed crash related to new firearm events",
+                  "Temporarily removed custom biter visuals and special infected pending version 1.6"
+                ]
+              }
+            },
+            {
+              "version": "1.5i4",
+              "date": "2024-02-22",
+              "gameVersionCompatibility": "1.15.1",
+              "categories": {
+                "fixes": [
+                  "Resolved crash caused by Deadly Humans module"
+                ]
+              }
+            },
+            {
+              "version": "1.5i3",
+              "date": "2024-02-22",
+              "gameVersionCompatibility": "1.15.1",
+              "categories": {
+                "majorUpdate": [
+                  "Updated to support Dying Light 2 version 1.15.1",
+                  "Added firearms to Pathways (Veteran starts with pistol, DoomsDayPrepper starts with pistol and rifle)"
+                ],
+                "moduleUpdates": [
+                  "Infestation: Increased infected damage, faster Volatiles, increased spawn frequency",
+                  "Deadly Humans: Enhanced enemy intelligence and lethality at lower levels",
+                  "Casual Survivor: Removed daytime Volatile street spawns, reduced Volatile difficulty"
+                ],
+                "maintenance": [
+                  "Manually updated all IALR custom Biter and Viral models for compatibility"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "January",
+          "entries": [
+            {
+              "version": "1.5i2",
+              "date": "2024-01-28",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "features": [
+                  "Added scaling tier system for Biters, Virals, and special infected to address one-shot kills at late game"
+                ],
+                "fixes": [
+                  "Improved fix for 'Unable to do quest, enemies nearby' issue",
+                  "Fixed Screamer causing player death when screaming",
+                  "Restored electrical effects in game"
+                ]
+              }
+            },
+            {
+              "version": "1.5i1",
+              "date": "2024-01-15",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "survivalOptions": [
+                  "Eating and drinking provides immediate stamina boost based on food quality",
+                  "Rooftop water collection now grants stamina boost during collection"
+                ],
+                "volatilesBeGoneModule": [
+                  "Enhanced code to further eliminate Volatile spawns"
+                ]
+              }
+            },
+            {
+              "version": "1.5i",
+              "date": "2024-01-02",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "spawnSystemRefactor": [
+                  "Complete rebuild of daytime spawn system",
+                  "New Mod Config controls for spawn density and distribution",
+                  "Spawn Horde size configuration (min/max enemies per group)",
+                  "Density distance controls for horde spacing",
+                  "Global spawn density controls for area coverage",
+                  "Performance tab for spawn limits and physics settings"
+                ],
+                "newModules": [
+                  "Infestation: Infected roam freely during daytime, no longer affected by sunlight (incompatible with Warzones)",
+                  "Deadly Humans: Significantly enhanced human enemy difficulty",
+                  "Remove Volatiles: Casual Survivor settings without Volatiles (incompatible with Warzones and Infestation)",
+                  "Remove Weapon Mod Visuals: Eliminates weapon attachment visuals"
+                ],
+                "languages": [
+                  "Added Czech language support",
+                  "Updated all existing language packs"
+                ],
+                "configurations": [
+                  "New local configs for Medium and Large horde sizes",
+                  "Unlimited weapon durability config",
+                  "All biters as runners and climbers config"
+                ],
+                "balance": [
+                  "Increased time between hunger and thirst requirements in Survival Options",
+                  "Added rooftop rain collectors for water refills"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "1.5h2",
+              "date": "2024-01-01",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "fixes": [
+                  "Added UV Lights to PK encounters for improved world logic",
+                  "Attempted fix for 'Enemies Nearby, cannot activate' quest bug",
+                  "Fixed PK Reinforcements not spawning when beacons thrown",
+                  "Resolved green interior bug and graphics glitching",
+                  "Fixed IALR Content mode companion and PK reinforcement spawning",
+                  "Corrected Bow damage display and damage application"
+                ]
+              }
+            },
+            {
+              "version": "1.5h1",
+              "date": "2023-12-31",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "fixes": [
+                  "Fixed weather visual glitch in Winter Slaughter-Land module"
+                ]
+              }
+            },
+            {
+              "version": "1.5h",
+              "date": "2023-12-31",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "newModule": [
+                  "Winter Slaughter-Land: Transforms map to winter setting with new weather conditions (clear, light snow, snow, snow with rain, blizzard)"
+                ]
+              }
+            },
+            {
+              "version": "1.5g2",
+              "date": "2023-12-30",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "fixes": [
+                  "Minor fixes to Human AI behavior",
+                  "Code review improvements",
+                  "Crash investigation for event-disabled gameplay"
+                ]
+              }
+            },
+            {
+              "version": "1.5g1",
+              "date": "2023-12-29",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "fixes": [
+                  "Human AI behavior improvements",
+                  "Minor code corrections"
+                ]
+              }
+            },
+            {
+              "version": "1.5g",
+              "date": "2023-12-29",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "humanAIRefactor": [
+                  "Enhanced companion aggression and pathfinding",
+                  "NPCs now utilize parkour elements (buildings, cars, signs)",
+                  "Improved enemy avoidance and survival tactics",
+                  "Level-based scaling for companion weapons, stamina, and health",
+                  "Defensive movement patterns while tracking player",
+                  "Reduced road usage in favor of parkour traversal"
+                ],
+                "balance": [
+                  "Reduced Chaos spawn frequency on Survivor difficulty",
+                  "Updated zone-specific enemy patrols and spawns"
+                ],
+                "fixes": [
+                  "Bandages now function as healing items instead of consumables"
+                ]
+              }
+            },
+            {
+              "version": "1.5f",
+              "date": "2023-12-28",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "newModule": [
+                  "Survival Options: Hunger and Thirst - Stamina no longer automatically regenerates",
+                  "Health regeneration disabled on empty stomach",
+                  "Food consumption required for stamina regeneration",
+                  "20 new food items added to world",
+                  "Food items provide health and stamina benefits",
+                  "Shops sell food items globally",
+                  "Savegame backup strongly recommended before enabling"
+                ],
+                "features": [
+                  "All custom Crossbows, Bows, and Flamethrowers now repairable at shops"
+                ],
+                "fixes": [
+                  "Restored IALR Traders functionality"
+                ]
+              }
+            },
+            {
+              "version": "1.5e1",
+              "date": "2023-12-26",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "fixes": [
+                  "Resolved loot system bug when playing without event active"
+                ]
+              }
+            },
+            {
+              "version": "1.5e",
+              "date": "2023-12-22",
+              "gameVersionCompatibility": "1.14.0",
+              "categories": {
+                "newFeatures": [
+                  "Trophy Exchange system repair and crafting recipe additions"
+                ],
+                "languages": [
+                  "Added Czech language support",
+                  "Updated French, German, Italian, Polish, Portuguese, and Spanish translations"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "1.5c4",
+              "date": "2023-11-28",
+              "gameVersionCompatibility": "1.13.3",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.13.3"
+                ],
+                "balance": [
+                  "Adjusted Survivor difficulty Volatile spawns"
+                ],
+                "knownIssues": [
+                  "Noise and reinforcement spawn systems temporarily offline",
+                  "Day Hunter, Volatile, Howler, and Night Hunter systems being restored"
+                ]
+              }
+            },
+            {
+              "version": "1.5c3",
+              "date": "2023-11-26",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "fixes": [
+                  "Updated instant heal consumables for new item compatibility",
+                  "Fixed Bow and Crossbow draw mechanics",
+                  "Prevented Volatile Hives from spawning outdoors"
+                ],
+                "balance": [
+                  "Reduced Goon and Demolisher Chaos agents on Ultimate difficulty",
+                  "Decreased overall Chaos frequency on Survivor difficulty"
+                ]
+              }
+            },
+            {
+              "version": "1.5c2",
+              "date": "2023-11-24",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "chaosSystemBalance": [
+                  "Removed 8 difficult agents from Survivor difficulty",
+                  "Removed all Chaos agents from Casual Survivor difficulty",
+                  "Reduced agent spawn rates for Survivor, Ultimate, and Insanity",
+                  "Warzones module recommended for maximum Chaos gameplay"
+                ],
+                "fixes": [
+                  "Updated companion spawn mechanics"
+                ]
+              }
+            },
+            {
+              "version": "1.5c1",
+              "date": "2023-11-23",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "chaosSystemExpansion": [
+                  "Added 9 additional Chaos agents (18 total)",
+                  "Improved epic moment generation"
+                ],
+                "warzonesRefactor": [
+                  "Rebuilt using new Chaos system",
+                  "Squad and group spawn mechanics",
+                  "Larger enemy forces and new patrol systems",
+                  "Factions: Bandits, Renegades, PK, PK Commandos, Colonel's Men, Colonel's Commandos, Wolves, WorldBurners, Survivors",
+                  "Special spawns: Volatile packs, Hives, Demolishers, Goons, Hordes"
+                ],
+                "difficultyImprovements": [
+                  "Rebalanced Survivor, Ultimate, and Insanity using Chaos systems",
+                  "Enhanced world atmosphere and danger levels"
+                ]
+              }
+            },
+            {
+              "version": "1.5c",
+              "date": "2023-11-22",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "newChaosSystem": [
+                  "9 AI Chaos agents for random epic encounters",
+                  "AI Director-inspired spawn system (Left 4 Dead style)",
+                  "Random enemy and ally summoning",
+                  "First phase implementation with ongoing refinement"
+                ],
+                "volatiles": [
+                  "Removed forced Chase initiation",
+                  "Rebalanced spawn frequency across all difficulties",
+                  "Mix of Chase-initiating and pack-summoning Volatiles"
+                ],
+                "ialrLootSystem": [
+                  "Restored and fully functional",
+                  "Mod Config loot balancing re-enabled",
+                  "Option to disable IALR items in Mod Config"
+                ],
+                "fixes": [
+                  "Resolved audio event bugs from version 1.13.0"
+                ],
+                "knownIssues": [
+                  "For Honor event may cause inventory glitches",
+                  "Spawn systems not functional with event enabled",
+                  "Best experience with event disabled"
+                ]
+              }
+            },
+            {
+              "version": "1.5b5",
+              "date": "2023-11-16",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.13.0 hotfix"
+                ],
+                "knownIssues": [
+                  "Loot system Mod Config options temporarily disabled due to version 1.13.0 bug",
+                  "Noise system and Daystalker/Night stalker spawn system under investigation",
+                  "Some invisible zombies may have returned"
+                ]
+              }
+            },
+            {
+              "version": "1.5b4",
+              "date": "2023-11-13",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "humanAIOverhaul": [
+                  "Improved detection and world interaction",
+                  "Enhanced AI-to-AI communication",
+                  "Fixed aggression and blocking behaviors"
+                ],
+                "difficultyRebalancing": [
+                  "Fresh rebalance across all difficulty levels"
+                ],
+                "volatiles": [
+                  "Volatiles now always initiate Hunt/Chase events"
+                ],
+                "visualChanges": [
+                  "Removed visual effects from Biters and Infected"
+                ],
+                "fixes": [
+                  "Resolved inventory size crash when modified in Mod Config"
+                ]
+              }
+            },
+            {
+              "version": "1.5b3",
+              "date": "2023-11-12",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "fixes": [
+                  "Corrected human melee enemy damage values"
+                ]
+              }
+            },
+            {
+              "version": "1.5b2",
+              "date": "2023-11-05",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "chaosSystemBalance": [
+                  "Removed 8 difficult agents from Survivor difficulty",
+                  "Removed all Chaos agents from Casual Survivor",
+                  "Reduced overall agent spawn frequency across all difficulties",
+                  "Warzones module provides maximum Chaos experience"
+                ],
+                "fixes": [
+                  "Updated companion spawn code for version 1.13.0 compatibility"
+                ]
+              }
+            },
+            {
+              "version": "1.5b1",
+              "date": "2023-11-04",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "fixes": [
+                  "Corrected Casual Survivor spawn bug (no zombies issue)"
+                ]
+              }
+            },
+            {
+              "version": "1.5b",
+              "date": "2023-11-03",
+              "gameVersionCompatibility": "1.13.0",
+              "categories": {
+                "majorUpdate": [
+                  "Updated to support Dying Light 2 version 1.13.0",
+                  "IALR Halloween event live (Killer Clowns and Vampires)",
+                  "Two Vampire tiers with red eyes and enhanced speed"
+                ],
+                "difficultyAdjustments": [
+                  "Insanity and Ultimate: Increased Volatile spawns and tracking",
+                  "Heavy armor movement fixes for directional and inverted movement"
+                ],
+                "fixes": [
+                  "Resolved NG+ crash",
+                  "Fixed spawn issues for multiple modules and pathways"
+                ],
+                "eventNote": [
+                  "Compatibility patch required for Winter Tales event",
+                  "Crashes may occur without event compatibility installation"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "September",
+          "entries": [
+            {
+              "version": "1.5pre",
+              "date": "2023-09-30",
+              "gameVersionCompatibility": "1.12.2",
+              "categories": {
+                "majorUpdate": [
+                  "IALR Armorer: 240 new Gold tier armors",
+                  "100 new Platinum tier armors",
+                  "Unique skills for each armor piece",
+                  "New Torsoaddon (Bracer slot) and helmet armors",
+                  "Weight system (Light, Medium, Heavy armor)",
+                  "IALR Armorer trader added to Stash",
+                  "Random world armor drops"
+                ],
+                "statSystem": [
+                  "Quick stat summary display for each armor",
+                  "Unique perk visualization"
+                ],
+                "scalingSystem": [
+                  "White armor: No scaling",
+                  "Green armor: Late game scaling",
+                  "Blue armor: Mid-Late game scaling",
+                  "Violet armor: Mid game scaling",
+                  "Gold tier: Early game scaling",
+                  "Platinum tier: Early game scaling"
+                ],
+                "hordeSystem": [
+                  "New Mod Config Performance and Horde tabs",
+                  "Performance tab: Enemy count, distance, and physics controls",
+                  "Horde tab: Min/max daytime horde size configuration",
+                  "Density controls for horde spacing",
+                  "Two new horde configurations (Medium and Large)",
+                  "Unlimited weapon durability config",
+                  "All biters as runners and climbers config"
+                ],
+                "fixes": [
+                  "Reduced global gas tank explosion frequency",
+                  "Updated mine explosive damage to limbs and body parts"
+                ],
+                "note": [
+                  "Released pending EULA agreement resolution"
+                ]
+              }
+            },
+            {
+              "version": "1.4i3",
+              "date": "2023-09-21",
+              "gameVersionCompatibility": "1.12.2",
+              "categories": {
+                "newSurvivorSenseSystem": [
+                  "Custom colors for each infected type",
+                  "Opacity controls per enemy type",
+                  "Duration settings for each category",
+                  "Individual color configuration for major infected groups",
+                  "Difficulty-based Survivor Sense limitations"
+                ],
+                "modConfigToolEnhancements": [
+                  "New Color Picker feature for custom color creation",
+                  "Forced value type validation (Float, INT, String, Boolean)",
+                  "Syntax error prevention and detection",
+                  "'Changed to >' value display for error checking"
+                ],
+                "uiSettings": [
+                  "Map color customization",
+                  "HUD color customization",
+                  "Objective icon color configuration",
+                  "Saved as part of Mod Config"
+                ],
+                "mergeConfigFeature": [
+                  "Select baseline difficulty for merge",
+                  "Merge single or multiple local configs",
+                  "Import unique values from configs",
+                  "Easy difficulty switching with custom settings preservation"
+                ],
+                "additionalFeatures": [
+                  "Delete Configs buttons for config management",
+                  "Config file version upgrade system (Version 1.6)",
+                  "Automatic backups during upgrades"
+                ],
+                "fixes": [
+                  "Reduced Volatile spawns in Casual Survivor and Survivor at night"
+                ]
+              }
+            },
+            {
+              "version": "1.4i1",
+              "date": "2023-09-07",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "majorUpdates": [
+                  "Updated to support Dying Light 2 version 1.12.1",
+                  "Pathways now compatible with Skip Prologue feature",
+                  "Enhanced area clearing system (reduced respawns until player leaves area)"
+                ],
+                "densitySystem": [
+                  "Improved balancing for Casual and Survivor daytime spawns"
+                ],
+                "biomeAdditions": [
+                  "47 new Swamp biome zombies and infected",
+                  "Bloater/Vomit zombies added to Swamp region",
+                  "New Swamp GRE Volatile that can initiate Chases"
+                ],
+                "fixes": [
+                  "Swamp biome texture issues resolved",
+                  "Swamp Goon attack and weapon loading corrected",
+                  "Updated French, German, Italian, Polish, Portuguese, and Spanish language support",
+                  "Fixed invisible zombie spawns",
+                  "Corrected Volatile Tyrant attack mechanics",
+                  "Fixed Resting Volatile states",
+                  "Hazmat and Worldburner Virals now immune to sunlight",
+                  "Charger sunlight immunity restored",
+                  "Interior Volatile and enemy spawn prevention in Darkzones",
+                  "Screamer enemy callout functionality restored",
+                  "Safezone bugs fixed (bed sleeping, enemy spawning)",
+                  "Renegade bowman fire rate normalized",
+                  "Custom Map Optional quest bugs addressed (Sofie quest, Windmill quest)"
+                ],
+                "knownIssues": [
+                  "Armor visual clipping (material-level limitation)",
+                  "Quest-specific archer behavior requiring savegame for debugging"
+                ]
+              }
+            },
+            {
+              "version": "1.4i",
+              "date": "2023-09-06",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "developmentTools": [
+                  "IALR Syntax Debug tool created",
+                  "Comprehensive code error checking",
+                  "Legacy bug detection and resolution"
+                ],
+                "visuals": [
+                  "47 new Swamp biome zombies and infected",
+                  "Bloater/Vomit zombies added to Swamp region"
+                ],
+                "fixes": [
+                  "Swamp biome texture corruption resolved",
+                  "Swamp Goon attack and weapon functionality restored",
+                  "All invisible zombies eliminated",
+                  "Volatiles and enemy Darkzone spawning corrected",
+                  "Screamer position callout restored",
+                  "Safezone functionality (bed sleeping, enemy prevention)",
+                  "Renegade bowman fire rate normalized",
+                  "Custom Map Optional quest compatibility improved"
+                ],
+                "languages": [
+                  "Updated French, German, Italian, Polish, Portuguese, and Spanish support",
+                  "Special character support still pending"
+                ],
+                "knownIssues": [
+                  "Armor visual clipping (engine limitation)",
+                  "Quest-specific archer issues requiring savegame for debugging"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "August",
+          "entries": [
+            {
+              "version": "1.4h4",
+              "date": "2023-08-19",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "fixes": [
+                  "Prologue zombie resting behavior corrected (new game only)"
+                ]
+              }
+            },
+            {
+              "version": "1.4h3",
+              "date": "2023-08-28",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "newFeature": [
+                  "Vanilla + IALR Content: New difficulty providing Mod Config, DiverseZ's, weapons, and armors",
+                  "Excludes detection and AI changes",
+                  "Feedback requested for balancing"
+                ],
+                "difficultyAdjustments": [
+                  "Insanity: Improved runner/walker mix based on Mod Config",
+                  "Ultimate Survivor: Nightwalkers active at night, mixed day spawns, increased non-Pack Leader Volatiles",
+                  "Survivor: Reduced damage, improved spawn tables, fewer nighttime Volatiles",
+                  "Casual Survivor: Restored from vanilla-only version with better balancing"
+                ],
+                "fixes": [
+                  "Blob zombie visual glitch resolved",
+                  "Invisible zombie spawns corrected",
+                  "Map Custom Optional windmill quest compatibility (removed custom player house)",
+                  "Remove Child Biters optional legless zombie walk prevention"
+                ]
+              }
+            },
+            {
+              "version": "1.4h2",
+              "date": "2023-08-18",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "difficultyRebalancing": [
+                  "Insanity: Significant difficulty increase, properly challenging",
+                  "Survivor: Removed Day_Hunter system for exploration without chaos (Night_Hunter still active)",
+                  "Ultimate: Day_Hunter system now active during day, Night_Hunter at night",
+                  "Casual Survivor: Removed running biters, reduced overall spawn chaos"
+                ],
+                "modConfigFixes": [
+                  "Runners and Walkers settings functional for Ultimate and Insanity",
+                  "Climbers settings functional for Ultimate and Insanity"
+                ],
+                "balanceAdjustments": [
+                  "Ultimate: No longer all-running biters, improved walker/runner balance",
+                  "Survivor: Reduced chaos agent frequency",
+                  "All difficulties: Rebalanced spawn pools with more Volatiles at night and Screamers",
+                  "Ultimate and Insanity: Increased Hives and special infected in daytime interiors"
+                ],
+                "special": [
+                  "Insanity: Minimum hit counts added (Volatiles: 6, Tyrants: 8, Demolishers: 8, Goons: 6)"
+                ],
+                "fixes": [
+                  "Corrected Viral random spawn bug when running"
+                ]
+              }
+            },
+            {
+              "version": "1.4h1",
+              "date": "2023-08-12",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "fixes": [
+                  "Bow and crossbow damage display corrected",
+                  "One-shot kill bug resolved across all difficulties",
+                  "Human damage scaling improved with level progression",
+                  "Renegade Sniper accuracy rebalanced (increased miss chance)",
+                  "Legless visual biter walk animation removed (crawlers only)",
+                  "Toxic cloud removed from green Plague Bearer faction deaths",
+                  "Spawn system rebalancing for noise-based spawning",
+                  "Demolisher, Goon, and Volatile day/night spawn increases via sound system"
+                ],
+                "knownIssues": [
+                  "Warzones and Infestation modules may cause crashes pending vanilla bug fixes"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.4h",
+              "date": "2023-07-22",
+              "gameVersionCompatibility": "1.12.1",
+              "categories": {
+                "newFeature": [
+                  "Trader Item Config: Mod Config section TRADER ITEM AMOUNT MODIFIERS",
+                  "Min/Max value controls for trader inventory quantities",
+                  "Increase or decrease item availability globally",
+                  "IALR content added to all world traders",
+                  "Bows available at Survivor traders",
+                  "Crossbows available at PK traders",
+                  "Flamethrowers available at all traders",
+                  "Ammo, explosives, tools, fuel, and consumables added to traders"
+                ],
+                "balance": [
+                  "Reduced IALR custom content pricing to prevent price inflation"
+                ],
+                "fixes": [
+                  "Female PK invisible arms resolved",
+                  "Volatile Camouflage drop rate reduced by 50%"
+                ],
+                "patreonContentUpdates": [
+                  "Never Work Again Bundles released",
+                  "XP Boost system (1 hour, 2 hour, 24 hour, permanent options)",
+                  "Trophy, Valuable, Money, Crystal, Military Tech, and Boost Bundles",
+                  "Unlimited money generation options",
+                  "Walking Dead bundle functionality restored"
+                ]
+              }
+            },
+            {
+              "version": "1.4g7",
+              "date": "2023-07-13",
+              "gameVersionCompatibility": "1.11.4",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.11.4",
+                  "Casual Survivor: Added nerfed Volatiles",
+                  "Improved Volatile health range system for Survivor, Ultimate, and Insanity (size-scaled difficulty)",
+                  "Boosted Volatile hive health for enhanced survivability and pack calling"
+                ]
+              }
+            },
+            {
+              "version": "1.4g",
+              "date": "2023-07-15",
+              "gameVersionCompatibility": "1.11.3",
+              "categories": {
+                "newCustomInfected": {
+                  "banshee_stalker": [
+                    "Rooftop tracking and pursuit",
+                    "Position callouts",
+                    "Spits at player and human AI",
+                    "Early tier Banshee variant"
+                  ],
+                  "refactored_enraged_crawlers": [
+                    "Visual damage indicators (damaged legs)",
+                    "Improved AI logic",
+                    "Pre-detection screaming and crawling",
+                    "Lashing attacks"
+                  ],
+                  "venom_enraged_crawlers": [
+                    "Burnt/damaged infected visuals (Screamers, Banshees, Bolters)",
+                    "Venomous bite inflicts poison damage",
+                    "Damage controlled via Mod Config (IAL_Biter_Leg_Chomp_DMG_Percent)"
+                  ],
+                  "biter_thugs": [
+                    "Three new attack types",
+                    "Deep growling voices",
+                    "Increased health pool",
+                    "Heavy attack patterns",
+                    "Uses standard male biter visuals"
+                  ],
+                  "enraged_spitters": [
+                    "Non-defensive behavior",
+                    "Screaming and attacking without player detection",
+                    "Faster attack speed",
+                    "Increased damage output"
+                  ],
+                  "boomers_vomit_infected": [
+                    "Exploding zombie visuals",
+                    "Toxic vomit primary attack",
+                    "Vomit marks player location on map",
+                    "Triggers enemy spawns"
+                  ]
+                },
+                "screamerUpdates": [
+                  "Chase behavior enabled",
+                  "Shove attacks",
+                  "Rooftop shove danger",
+                  "Increased scream frequency for position callouts"
+                ],
+                "bansheeImprovements": [
+                  "Reduced autoaim on leap attacks"
+                ],
+                "interiorInfected": [
+                  "Enhanced search and movement AI",
+                  "Improved player and raiding AI detection"
+                ],
+                "modConfig": [
+                  "10 additional Screamer pool slots",
+                  "10 additional Day Hunter pool slots"
+                ],
+                "encounters": [
+                  "10 new unique encounters featuring: Goons, Demolishers, Banshee Stalkers, Enraged Spitters, Vomit Infected, Biter Thugs, Enraged Crawlers, and combinations"
+                ],
+                "worldSpawns": [
+                  "Increased WorldBurner faction encounter frequency"
+                ],
+                "knownIssues": [
+                  "Occasional invisible biters and virals",
+                  "Armor clipping (material limitation)",
+                  "Random glitched biter blob (preset loading issue)",
+                  "Custom Map Optional windmill and quest glitches"
+                ]
+              }
+            },
+            {
+              "version": "1.4f4",
+              "date": "2023-07-13",
+              "gameVersionCompatibility": "1.11.4",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.11.4",
+                  "Volatile spawn balancing for Survivor difficulty",
+                  "Improved Screamer and Volatile balance across all difficulties",
+                  "Chase system rebalancing"
+                ],
+                "fixes": [
+                  "Human AI dodging behavior for thrown weapons normalized"
+                ],
+                "maintenance": [
+                  "Removed 157 custom biter visuals",
+                  "Recreated all 863 custom biters to eliminate invisible enemies",
+                  "Custom containers temporarily removed (grey cube bug from update)",
+                  "Honor the Fallen event ended due to container system issues"
+                ],
+                "knownIssues": [
+                  "Armor clipping (material setting limitation)",
+                  "Random glitched biter blob (preset limitation)",
+                  "Custom Map Optional quest compatibility issues"
+                ]
+              }
+            },
+            {
+              "version": "1.4f3",
+              "date": "2023-07-12",
+              "gameVersionCompatibility": "1.11.3",
+              "categories": {
+                "visuals": [
+                  "157 new custom biter visuals added"
+                ],
+                "maintenance": [
+                  "Recreated 863 custom biters to eliminate invisible enemies",
+                  "Biter visual bug reporting requested with screenshots"
+                ],
+                "fixes": [
+                  "Grey cube bug resolved (removed all custom containers)",
+                  "Volatile spawn reduction on Survivor difficulty",
+                  "Screamer and Volatile balance improvements",
+                  "Human AI throwing weapon dodge behavior normalized",
+                  "Ultimate and Insanity face disappearance bug from bad code push"
+                ],
+                "event": [
+                  "Honor the Fallen event ended"
+                ],
+                "knownIssues": [
+                  "Armor clipping glitch (material setting limitation)",
+                  "Random glitched biter blob (preset loading limitation)",
+                  "Custom Map Optional windmill and quest glitches"
+                ]
+              }
+            },
+            {
+              "version": "1.4f2",
+              "date": "2023-07-09",
+              "gameVersionCompatibility": "1.11.3",
+              "categories": {
+                "fixes": [
+                  "Survivor bow damage reduced",
+                  "Casual Survivor damage and health modifiers removed",
+                  "Grey cube visual bug resolved",
+                  "Invisible head with custom helmets corrected (disabled head-disabling armor due to Techland update)"
+                ],
+                "knownIssues": [
+                  "Invisible biter in world"
+                ]
+              }
+            },
+            {
+              "version": "1.4f1",
+              "date": "2023-07-08",
+              "gameVersionCompatibility": "1.11.3",
+              "categories": {
+                "features": [
+                  "Viral Children spawn system using Nighthunter pools",
+                  "10 additional Night Hunter pool slots in Mod Config for diversity",
+                  "Safezone weapon usage restored",
+                  "Gasoline container world spawns restored",
+                  "Increased Gasoline availability (Darkzones, homes, infected areas)"
+                ],
+                "difficulty": [
+                  "Survivor: Reduced human damage"
+                ],
+                "fixes": [
+                  "Female outfit glitch resolved (remove helmet/gloves, press X in inventory)",
+                  "PK Reinforcement icons changed to walkie talkie",
+                  "Fresh Viral Women animation and audio corrected",
+                  "Viral missing arms resolved",
+                  "Shrieker tool noise event functionality restored",
+                  "Larger special infected colliders improved for doorway navigation",
+                  "Screamer variant visuals enhanced",
+                  "Trophy Exchange System redemption persistence"
+                ],
+                "balance": [
+                  "Casual Survivor: Removed Goons and Demolishers from Chase spawns (Banshees, Chargers, Spitters, Virals remain)"
+                ]
+              }
+            },
+            {
+              "version": "1.4f",
+              "date": "2023-07-04",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.10.2c"
+                ],
+                "newFeature": [
+                  "Trophy Exchange: Blueprint in Stash > Extra section",
+                  "Conversions: Uncommon (5) to Rare (1), Uncommon (20) to Epic (1), Rare (3) to Epic (1), Epic (1) to Rare (3), Epic (1) to Uncommon (20), Rare (1) to Uncommon (5)",
+                  "Festive fireworks added to Stash > Extra section"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.4e1",
+              "date": "2023-07-03",
+              "gameVersionCompatibility": "1.11.3",
+              "categories": {
+                "fixes": [
+                  "Hazmat Virals movement and chase behavior restored",
+                  "Enemies Nearby Quest Bug balance improvements",
+                  "Camouflage buffing enabled",
+                  "All camouflage types spawn balanced on special infected"
+                ],
+                "knownIssues": [
+                  "IALR Custom traders broken (backend protections)",
+                  "Mod Config trader settings non-functional (code protection)"
+                ]
+              }
+            },
+            {
+              "version": "1.4e",
+              "date": "2023-06-29",
+              "gameVersionCompatibility": "1.11.1c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.11.1c"
+                ],
+                "features": [
+                  "Daytime reinforcements favor human spawns",
+                  "Nighttime reinforcements favor infected spawns (Virals, Banshees, Demolishers, Chargers, more Volatiles)",
+                  "Enhanced noise detection for special infected (day and night differentiated)",
+                  "Screamers retained (not replaced by Volatiles)"
+                ]
+              }
+            },
+            {
+              "version": "1.4d5",
+              "date": "2023-07-03",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Casual Survivor and Survivor volatile spawn corrections",
+                  "Survivor volatile chase initiation improved",
+                  "Howler scream now guarantees volatile Pack Leader spawn (uses Screamer pool in Mod Config)",
+                  "Updated IALR .mth configs for version 1.5d changes",
+                  "Automatic local config merge with new changes"
+                ]
+              }
+            },
+            {
+              "version": "1.4d4",
+              "date": "2023-07-02",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Viral visibility issues resolved"
+                ]
+              }
+            },
+            {
+              "version": "1.4d",
+              "date": "2023-06-29",
+              "gameVersionCompatibility": "1.11.1c",
+              "categories": {
+                "noiseSpawnSystemRestoration": [
+                  "Day Hunter, Night Hunter, Volatile, Chase, and Screamer systems restored",
+                  "New balancing across all difficulties",
+                  "Day Hunter disabled on Casual and Survivor",
+                  "Bug fixes for noise detection system"
+                ],
+                "chaseSystem": [
+                  "Updated and rebalanced",
+                  "Work in progress with ongoing refinement"
+                ],
+                "fixes": [
+                  "Invisible Viral spawns corrected",
+                  "Fresh Viral appearance temporarily removed (new feature in development)",
+                  "Survivor high Volatile spawn rates rebalanced",
+                  "Howler scream triggers Volatile Pack Leader with Screamer pool spawns"
+                ],
+                "configs": [
+                  "Updated IALR .mth configs for version 1.5d",
+                  "Automatic local config merge recommended"
+                ]
+              }
+            },
+            {
+              "version": "1.4c3",
+              "date": "2023-06-19",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Crawler UV light and sunlight effects enabled",
+                  "Crawler damage reduced with new Mod Config setting (Biter_Leg_Chomp)",
+                  "Crawler grab inflicts damage and bleeding effect",
+                  "PlagueBearers spawn reduced in Warzones Optional",
+                  "Casual Survivor: Disabled new Noise and Chase systems for vanilla-like experience"
+                ]
+              }
+            },
+            {
+              "version": "1.4c2",
+              "date": "2023-06-06",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "newFeature": [
+                  "Warzones Optional: All human factions engage in street warfare during daytime",
+                  "Non-lore friendly, designed for chaotic gameplay",
+                  "Ultimate and Insanity: Weapon drops enabled by default (configurable in Mod Config)",
+                  "Scales with game progression (more enemies in city and NG+)",
+                  "Nighttime unaffected"
+                ],
+                "improvements": [
+                  "Stash system merge support for easier installation",
+                  "Interior infected spawn improvements (reduced flooding)",
+                  "Casual Survivor: Removed special infected Volatiles, Tyrants, Goons, Chargers, and custom infected from interiors"
+                ],
+                "fixes": [
+                  "7 invisible Viral spawns corrected",
+                  "Stash system Pilgrim Outpost compatibility",
+                  "Installer improvements for easier module selection and descriptions"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "entries": [
+            {
+              "version": "1.4c1",
+              "date": "2023-05-30",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Dynamic music functionality restored",
+                  "PK Reinforcements now use Fallen Hero dog tags instead of PK dog tags",
+                  "GRE Anomalies arena escape prevention"
+                ]
+              }
+            },
+            {
+              "version": "1.4c",
+              "date": "2023-05-29",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "newEvent": [
+                  "Honor the Fallen: 22 new military infected added",
+                  "36 new Colonel NPCs",
+                  "Colonel Patrols implemented",
+                  "Undead Military biters and Gasmask military biters",
+                  "Bloater/Vomit zombies in swamp region",
+                  "Reward system using dog tags"
+                ],
+                "carePackageSystem": [
+                  "Four tiers: Wooden, Metal, Military, Legendary",
+                  "Crafting recipes available from Military Trader",
+                  "Military Trader summonable from Stash (fights enemies, searches for Colonels)",
+                  "Random rewards including weapons, armor, items, ammo, valuables"
+                ],
+                "newCompanion": [
+                  "Colonel militia and Gasmask militia summonable from Stash"
+                ],
+                "visuals": [
+                  "800+ models updated with improved visuals",
+                  "Biters appear worn and dirty",
+                  "Virals and special infected blood-covered and dirty",
+                  "Volatile Venom variant: Black scorched and bloody with red glowing eyes (removed jet black with red crest)"
+                ],
+                "fixes": [
+                  "Casual Difficulty Survivor Sense restored"
+                ],
+                "knownIssues": [
+                  "Armor visual clipping (material limitation)",
+                  "Quest-specific archer behavior requiring savegame debugging"
+                ]
+              }
+            },
+            {
+              "version": "1.4b3",
+              "date": "2023-05-24",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "newFeatures": {
+                  "traderItemConfig": [
+                    "TRADER ITEM AMOUNT MODIFIERS in Mod Config",
+                    "Set Min/Max values for trader inventory items",
+                    "Adjust global item availability",
+                    "All IALR content added to traders worldwide",
+                    "Random blending of items across traders",
+                    "Bows at Survivor traders",
+                    "Crossbows at PK traders",
+                    "Flamethrowers at all traders",
+                    "Ammo, explosives, tools, fuel, and supplies available"
+                  ]
+                },
+                "economy": [
+                  "Reduced IALR content pricing to prevent inflation"
+                ],
+                "fixes": [
+                  "Female PK invisible arms corrected",
+                  "Volatile Camouflage drop rate reduced by 50%"
+                ]
+              }
+            },
+            {
+              "version": "1.4b2",
+              "date": "2023-05-24",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "modConfigUpdates": {
+                  "economySettings": [
+                    "World item value configuration by category",
+                    "Reduced prices for Survivor, Ultimate, and Insanity",
+                    "Category-based balancing for economic resource management"
+                  ],
+                  "difficultySettings": [
+                    "Overall damage resistance controls",
+                    "Buff configuration",
+                    "Daytime and Nighttime damage settings",
+                    "Singleplayer and Coop balance options"
+                  ],
+                  "lootSettings": [
+                    "9 new Loot configuration sections",
+                    "Trophy drop controls",
+                    "Cash drop settings",
+                    "Item drop from enemies",
+                    "Valuable drop rates"
+                  ],
+                  "ialrCustomLootDisable": [
+                    "Category-based disable options",
+                    "LOOT SYSTEM section with IALR subsection",
+                    "Set MAX to 0 to disable: Overall Mod items, Alcohol, Camouflage, Custom armors"
+                  ],
+                  "weaponPhysicsSettings": [
+                    "Weapon type-specific physics configuration",
+                    "Enemy knockback customization"
+                  ],
+                  "weaponDurability": [
+                    "Color-based durability configuration"
+                  ],
+                  "arrowsBoltsObjectAttachment": [
+                    "Attachment probability settings"
+                  ]
+                },
+                "fixes": [
+                  "Infected Bandit model visibility corrected",
+                  "Generic Urban Armor spawn reduced",
+                  "Companion world encounter increased across all difficulties"
+                ]
+              }
+            },
+            {
+              "version": "1.4b1",
+              "date": "2023-05-25",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Prologue biter spawns corrected (new game starts only)"
+                ]
+              }
+            },
+            {
+              "version": "1.4b",
+              "date": "2023-05-24",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "modConfigOverhaul": [
+                  "Complete refactor with new features",
+                  "New documentation paired with Mod Manual",
+                  "Category-based organization",
+                  "Comprehensive settings breakdown"
+                ],
+                "newFeatures": {
+                  "initialDamageEnemyHealthSystem": [
+                    "Health range variation for all enemies",
+                    "Initial damage application",
+                    "Visual-based health scaling",
+                    "Immersive damage states"
+                  ],
+                  "randomizedRangedDamageSystem": [
+                    "Random damage per hit within configured ranges",
+                    "Tier and difficulty-based damage scaling",
+                    "Unique combat experiences"
+                  ]
+                },
+                "fixes": [
+                  "Swiftshot bow damage corrected",
+                  "Renegade Sniper accuracy rebalanced (reduced player hits)",
+                  "Legless biter walk animation removed (crawlers only)",
+                  "Toxic cloud removed from green Plague Bearer deaths",
+                  "Spawn system improvements and rebalancing",
+                  "Demolisher, Goon, Volatile day/night spawns increased"
+                ],
+                "restoredContent": [
+                  "Multiple prefabs returned after stability confirmation"
+                ],
+                "inventory": [
+                  "Increased item stack limit to 999",
+                  "Stack limits configurable in Mod Config (Stacks and Slots section)"
+                ],
+                "knownIssues": [
+                  "Blob zombies",
+                  "Some invisible zombies",
+                  "Custom Map Optional windmill quest bugs"
+                ]
+              }
+            },
+            {
+              "version": "1.4a1",
+              "date": "2023-05-13",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "All difficulty one-shot damage bug corrected",
+                  "Bow damage normalized",
+                  "Renegade Sniper feel improved (increased miss probability)",
+                  "Legless biter walk animation removed (crawlers only)",
+                  "Human damage scaling with level progression",
+                  "Toxic cloud removed from green Plague Bearer faction deaths",
+                  "Spawn system rebalancing and bug fixes",
+                  "Day and night sound-based spawns increased (Demolishers, Goons, Volatiles)"
+                ]
+              }
+            },
+            {
+              "version": "1.4a",
+              "date": "2023-05-13",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "fixes": [
+                  "Endgame Villador city crash resolved",
+                  "Swamp Goon arm material corruption corrected",
+                  "Camouflage drop rate on fallen infected reduced",
+                  "Coffee crafting recipes temporarily removed (returning later)"
+                ]
+              }
+            },
+            {
+              "version": "1.4",
+              "date": "2023-05-13",
+              "gameVersionCompatibility": "1.10.3c",
+              "categories": {
+                "majorUpdate": [
+                  "New Difficulty: Insanity - All mod systems and enemies active",
+                  "Constant enemy pressure while running",
+                  "Walk Toggle in settings to avoid awakening infected and daytime hunters",
+                  "Increased default loot",
+                  "Improved walker/runner balance",
+                  "Designed for IALR veterans",
+                  "Campaign completion achievement tracked"
+                ],
+                "casualSurvivorRebalancing": [
+                  "All new features without difficulty systems",
+                  "Closer to vanilla gameplay",
+                  "Full mod content accessible"
+                ],
+                "newFeature": {
+                  "camouflageSystem": [
+                    "Harvest infected parts for stealth disguises",
+                    "Walk to maximize duration, running depletes faster",
+                    "Toggle in Options menu",
+                    "Takedowns functional, weapon attacks break stealth",
+                    "16 camouflage types from different infected"
+                  ],
+                  "camouflageTypes": [
+                    "Volatile Putrid Potion",
+                    "Volatile Tyrant Putrid Essence",
+                    "Demolisher Putrid Disguise",
+                    "Viral Putrid Vapor",
+                    "Goon Putrid Grime",
+                    "Banshee Putrid Perfume",
+                    "Charger Putrid Paste",
+                    "Drowner Putrid Decoction",
+                    "Scorched Howler Putrid Smoke",
+                    "Weakened Howler Putrid Miasma",
+                    "Howler Putrid Haze",
+                    "Bomber Putrid Brew",
+                    "Biter Putrid Blend",
+                    "Bolter Putrid Balm",
+                    "Spitter Putrid Slime",
+                    "GRE Anomaly Putrid Elixir"
+                  ]
+                },
+                "newChaseSystemAndHordes": {
+                  "threeHowlerTypes": [
+                    "Scorched Howlers (Old Villador, burnt husks, stealth takedown, weaker call)",
+                    "Weak Howlers (smaller, stealth takedown)",
+                    "Howler (loud call, gathers nearby infected, forms moving hordes)"
+                  ],
+                  "greAnomalyVolatile": [
+                    "Spawns when Howler screams",
+                    "Initiates Chase with custom spawn list (configurable in Mod Config)",
+                    "Volatile pack summoning on pursuit (disabled on Casual Survivor)"
+                  ],
+                  "shriekerTools": [
+                    "Obtained from dead Howlers",
+                    "Mimics Howler scream",
+                    "Creates 45-second infected horde at target location"
+                  ]
+                },
+                "dayAndNightRandomSpawnSystem": {
+                  "description": "10 enemy/ally spawn pools, Sound-based spawning while running, Configurable frequency by difficulty",
+                  "casualSurvivor": {
+                    "day": "Every 3 minutes while running",
+                    "night": "Every 2 minutes 5 seconds while running",
+                    "spawnList": "Biters, Virals, occasional Volatile DayStalker (day), Biters, Virals, occasional Howler and Volatile (night)"
+                  },
+                  "survivor": {
+                    "day": "Every 1 minute 30 seconds while running",
+                    "night": "Every 1 minute 5 seconds while running",
+                    "spawnList": "Biters, Virals, occasional Volatile DayStalker (day), Biters, Virals, occasional Howler and Volatile (night)"
+                  },
+                  "ultimateSurvivor": {
+                    "day": "Every 1 minute 30 seconds while running",
+                    "night": "Every 45 seconds while running",
+                    "spawnList": "Biters, Virals, Demolishers, Goons, Volatile DayStalkers (day), Virals and Special Infected (night)"
+                  },
+                  "insanity": {
+                    "day": "Every 20 seconds while running",
+                    "night": "Every 15 seconds while running",
+                    "spawnList": "Virals, Demolishers, Goons, Volatile DayStalkers, occasional Renegade Summoner (day), Virals, Special Infected, Chemical Volatiles, occasional GRE Anomaly Volatile (night)"
+                  }
+                },
+                "worldDiversity": [
+                  "Increased faction encounters: WorldBurners, Wolves, PK Commandos, Plague Bearers",
+                  "Original Renegades restored to Hag Mounds",
+                  "Volatile pack, Hive, Demolisher, Goon, and Horde spawns"
+                ],
+                "newEnemies": {
+                  "viralWorldBurners": ["Flamethrower and fuel loot"],
+                  "hazmatVirals": ["Hazmat supplies and fuel"]
+                },
+                "newCompanions": [
+                  "Brecken and Rahim (melee weapons)",
+                  "18 random travelers (9 melee, 9 bow)",
+                  "2 PK Commando companions (spawn near PK bases)",
+                  "Wolves faction companion (dropped by Wolves faction kills)"
+                ],
+                "moreDeadBodiesAndXP": [
+                  "Extended corpse persistence",
+                  "XP for assisted kills",
+                  "Small XP for damaging dead enemies"
+                ],
+                "fixes": [
+                  "Swiftshot bow damage corrected",
+                  "Bowmen attack stutter resolved",
+                  "NPC enemy advancement and attack behavior improved"
+                ],
+                "disableFeature": [
+                  "Set SpawnType to '' in SPAWN LOGIC section of Mod Config to disable running-based enemy spawns"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "April",
+          "entries": [
+            {
+              "version": "1.3g4",
+              "date": "2023-04-22",
+              "gameVersionCompatibility": "1.10.2",
+              "categories": {
+                "stabilityUpdate": [
+                  "File verification and reinstall recommended",
+                  "Removed custom map content to optional for stability",
+                  "Prevents object and quest glitches",
+                  "Map content now experimental optional (data5.pak)",
+                  "Improved core mod stability"
+                ]
+              }
+            },
+            {
+              "version": "1.3g3",
+              "date": "2023-04-22",
+              "gameVersionCompatibility": "1.10.2",
+              "categories": {
+                "updates": [
+                  "795 zombie models updated for new damage system",
+                  "Special infected damage system compatibility",
+                  "Volatile arm functionality with new skins",
+                  "Grey lootable cube removal"
+                ],
+                "note": [
+                  "Custom Maps optional experimental",
+                  "Map glitches resolved by removing data5.pak"
+                ]
+              }
+            },
+            {
+              "version": "1.3g2",
+              "date": "2023-04-20",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Broken custom armor system repaired",
+                  "Small inventory glitch corrected",
+                  "Viral unlimited health bug resolved"
+                ]
+              }
+            },
+            {
+              "version": "1.3g1",
+              "date": "2023-04-20",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Inventory bug from version 1.3g corrected"
+                ]
+              }
+            },
+            {
+              "version": "1.3g",
+              "date": "2023-04-20",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.10.1e",
+                  "400+ custom models updated with new damage system",
+                  "Traders now sell bows and crossbows"
+                ],
+                "knownIssues": [
+                  "Steam Cloud save bug overwriting local saves",
+                  "Savegame location inaccessible",
+                  "Testing complicated by save file issues",
+                  "Rollback feature available for save corruption"
+                ]
+              }
+            },
+            {
+              "version": "1.3f1",
+              "date": "2023-04-19",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Quest bug resolved (Custom Map Optional related)"
+                ]
+              }
+            },
+            {
+              "version": "1.3f",
+              "date": "2023-04-17",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "customMapOptional": [
+                  "New destroyed Windmill design",
+                  "Cage bottom floor for enemy elimination",
+                  "Improved home area on top floor",
+                  "Wall dive escape option"
+                ],
+                "weatherSystem": [
+                  "New Weather section in Mod Config",
+                  "Probability and duration settings for each weather type"
+                ],
+                "encounters": [
+                  "Random encounter spawns on first map",
+                  "Requires additional testing"
+                ],
+                "language": [
+                  "Updated Polish translation optional"
+                ],
+                "fixes": [
+                  "Perfect Block restored for human AI (most enemy types)",
+                  "Bazaar interior returned to default (quests preserved, outer wall defenses intact)",
+                  "Spawn system improvements for interior reduced special infected street flooding",
+                  "Invisible Viral spawn corrected",
+                  "Uninstaller bug in IALR Installer resolved"
+                ]
+              }
+            },
+            {
+              "version": "1.3e",
+              "date": "2023-04-01",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "massiveRangedWeaponUpdate": {
+                  "63NewCustomBows": {
+                    "swiftshotBows": {
+                      "count": "23 standard, 4 Legendary",
+                      "legendaries": ["Relentless Storm", "Ruins Whisper", "Unyielding Tempest", "Apocalypse's Fury"],
+                      "features": [
+                        "Rapid arrow firing",
+                        "Faster bullet speed and shorter charge time",
+                        "Lower stamina damage and headshot multiplier"
+                      ]
+                    },
+                    "powerdrawBows": {
+                      "count": "23 standard, 4 Legendary",
+                      "legendaries": ["Piercing Wind", "Reckonings Might", "Far-Reaching Gale", "Devastation's Grasp"],
+                      "features": [
+                        "Devastating blows with slower draw",
+                        "Higher stamina damage and headshot multiplier",
+                        "Slower bullet speed and longer charge time"
+                      ]
+                    },
+                    "balancedBows": {
+                      "count": "9 total",
+                      "features": [
+                        "Harmonious balance between power and speed",
+                        "Reliable all-around performance",
+                        "Suitable for all skill levels"
+                      ]
+                    }
+                  },
+                  "bowConditions": [
+                    "Weak, Used, or New/Legendary",
+                    "Affects condition and quality",
+                    "Legendary weapons have unlimited condition"
+                  ],
+                  "42NewCustomCrossbows": {
+                    "ironcladCrossbows": {
+                      "count": "10 standard, 2 Legendary",
+                      "legendaries": ["Ironclad Annihilator", "Titanium Piercer"],
+                      "features": [
+                        "High-quality iron construction",
+                        "Superior durability and strength",
+                        "Reinforced stock reduces recoil"
+                      ]
+                    },
+                    "marksmanCrossbows": {
+                      "count": "10 standard, 2 Legendary",
+                      "legendaries": ["Deadshot", "Hawks Eye"],
+                      "features": [
+                        "Precise aim and deadly accuracy",
+                        "Custom sight for long-distance shots"
+                      ]
+                    },
+                    "rapidfireCrossbows": {
+                      "count": "10 standard, 2 Legendary",
+                      "legendaries": ["Thunderbolt", "Vulcan Fury"],
+                      "features": [
+                        "Fast firing rate",
+                        "Rapid target engagement"
+                      ]
+                    },
+                    "pkStandardIssueCrossbows": {
+                      "count": "6 total",
+                      "types": [
+                        "Damaged Basic PK Crossbow",
+                        "Standard PK Crossbow",
+                        "Reinforced PK Crossbow",
+                        "Automatic PK Crossbow",
+                        "Automatic PK Crossbow Prototype B",
+                        "PK Assassin Class Crossbow"
+                      ],
+                      "location": "Found on fallen PK soldiers and in Military camps and Darkzones"
+                    }
+                  }
+                },
+                "crafting": [
+                  "Broken Arrow shafts lootable",
+                  "Makeshift Arrows craftable"
+                ],
+                "newOptional": [
+                  "Bazaar Map Update (DATA5): 5 new traders in Bazaar",
+                  "New wall defenses",
+                  "Guards and guard towers",
+                  "Cleaned player sleep area"
+                ],
+                "lootSystem": [
+                  "46 new custom containers worldwide"
+                ],
+                "fixes": [
+                  "Flamethrower damage corrections",
+                  "Basic Arrow crafting repair"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "March",
+          "entries": [
+            {
+              "version": "1.3d2",
+              "date": "2023-03-21",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.9.4c"
+                ],
+                "fixes": [
+                  "Armor and weapon name improvements",
+                  "Spawn system bug corrections",
+                  "Flamethrower damage increases",
+                  "Bowman shoot frequency reduced for Survivor and Casual Survivor",
+                  "Human AI dodge and kick cooldown increased"
+                ]
+              }
+            },
+            {
+              "version": "1.3d1",
+              "date": "2023-03-13",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "fixes": [
+                  "External and interior spawn bug resolved",
+                  "Navmesh agent AI pathing overhaul by faction and creature type",
+                  "Humans no longer super-jump to rooftops",
+                  "Proper pathfinding between buildings and ledges",
+                  "Zombie appearance bugs corrected (female with human face, missing legs)",
+                  "Urban Outfit names fixed",
+                  "Food items temporarily removed (Survival optional in development)"
+                ],
+                "knownIssues": [
+                  "Armor visual clipping (material limitation)",
+                  "Quest-specific archers standing without attacking (requires savegame for debugging)"
+                ]
+              }
+            },
+            {
+              "version": "1.3d",
+              "date": "2023-03-07",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "features": [
+                  "Basic crossbow bolt recipe (available from traders or new game bundle)",
+                  "Broken crossbow bolts craftable into new bolts",
+                  "Complete item name and description overhaul for immersion",
+                  "All IALR items updated with capitalization improvements",
+                  "New companion icons and descriptions",
+                  "Armor perk and class fixes (PK Tank, Leather Healer)",
+                  "Alternative costs removed from several items",
+                  "Flamethrower upgrade recipe now available from traders and world",
+                  "Spawn fixes for first map zombies"
+                ],
+                "notes": [
+                  "Items not yet translated",
+                  "International Language Excel available for translation feedback"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "1.3c1",
+              "date": "2023-02-28",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "fixes": [
+                  "Casual Difficulty bug resolved",
+                  "Restore Glider optional icon restoration",
+                  "No Kid Zombies Optional functionality corrected"
+                ]
+              }
+            },
+            {
+              "version": "1.3c",
+              "date": "2023-02-28",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "updates": [
+                  "Custom item capitalization fixes across 1,200+ items",
+                  "Language optionals: French, German, Italian, Polish, Portuguese, Spanish (work in progress)",
+                  "Custom characters not yet functional in languages"
+                ],
+                "improvements": [
+                  "Human AI abilities across all groups",
+                  "Survivor, Colonel, and PlagueBearers detection enhanced",
+                  "Custom Opera DLC profiles (reduced retreating)"
+                ],
+                "fixes": [
+                  "Female zombie with human face corrected",
+                  "Human arm dismemberment disabled by default (retreat and bleed-out code in progress)",
+                  "Paraglider skills compatibility improved"
+                ]
+              }
+            },
+            {
+              "version": "1.3b3",
+              "date": "2023-02-26",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "fixes": [
+                  "Lower case items in inventory corrected",
+                  "Item names and descriptions improved",
+                  "Armor and weapon unique identifiers added",
+                  "Inventory size increased for Accessories, Consumables, and Stash"
+                ]
+              }
+            },
+            {
+              "version": "1.3b2",
+              "date": "2023-02-26",
+              "gameVersionCompatibility": "1.9.4c",
+              "categories": {
+                "fixes": [
+                  "PK Aggression potential fix",
+                  "Lower case custom items corrected with proper capitalization",
+                  "Improved naming and identifiers for armors and weapons",
+                  "Inventory size slightly increased (Accessories, Consumables, Stash)"
+                ]
+              }
+            },
+            {
+              "version": "1.3b1",
+              "date": "2023-02-16",
+              "gameVersionCompatibility": "1.9.3p",
+              "categories": {
+                "fixes": [
+                  "Paraglider functionality using new skillset (reduced confusion with vanilla)",
+                  "Additional restore feature for specific savegames (icon may remain disabled but paraglider functional)",
+                  "Unique factions for companions, Wolves, and WorldBurners",
+                  "Companions now attack Renegades and hostile groups",
+                  "Wolves hostile towards most groups",
+                  "WorldBurners hostile towards all",
+                  "Ranged weapons, arrows, crossbows, bolts lootable from fallen PK, Survivors, and Renegades",
+                  "Repair broken flamethrower craft recipe restored",
+                  "Higher tier biter health slightly increased"
+                ]
+              }
+            },
+            {
+              "version": "1.3b",
+              "date": "2023-02-16",
+              "gameVersionCompatibility": "1.9.3p",
+              "categories": {
+                "majorCrossbowUpdate": {
+                  "6NewTacticalCrossbows": [
+                    "Weak Basic Crossbow (Starter bundle in Stash)",
+                    "Basic Crossbow",
+                    "Reinforced Crossbow",
+                    "Automatic Crossbow",
+                    "Automatic Crossbow Prototype B (new model)",
+                    "Assassin Crossbow"
+                  ],
+                  "patreonAccess": [
+                    "Crossbow bundles immediately available",
+                    "Ultimate: Prototype B and Assassin Crossbow with unlimited ammo"
+                  ]
+                },
+                "improvements": [
+                  "Enhanced companion detection and fighting",
+                  "Loyal Wolf Companion functionality restored",
+                  "Restore Paraglider potions in Stash (fixes glitched paragliders by tier)",
+                  "WorldBurner and Wolves faction encounter increased",
+                  "Hazmat Viral spawn chance increased"
+                ],
+                "fixes": [
+                  "Cutscene bug resolved",
+                  "Lower tier custom armor spawn reduced",
+                  "Polish translation improvements for main menu",
+                  "Consumable description enhancements"
+                ]
+              }
+            },
+            {
+              "version": "1.3a1",
+              "date": "2023-02-15",
+              "gameVersionCompatibility": "1.9.3p",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.9.3p hotfix",
+                  "Support for international languages on main menu",
+                  "Replaced grey box on main menu",
+                  "Loot overhaul testing initiated (requires additional validation)"
+                ]
+              }
+            },
+            {
+              "version": "1.3a",
+              "date": "2023-02-09",
+              "gameVersionCompatibility": "1.9.2p",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.9.2p"
+                ],
+                "newCompanions": [
+                  "Survivor Bowmen (lower cooldown than Crane)",
+                  "Survivor Melee Fighter (lower cooldown than Crane)",
+                  "Wolf companion findable when fighting Wolves faction"
+                ]
+              }
+            },
+            {
+              "version": "1.3",
+              "date": "2023-02-07",
+              "gameVersionCompatibility": "1.9.0p",
+              "categories": {
+                "majorUpdate": [
+                  "1 Year Anniversary update"
+                ],
+                "newCompanions": [
+                  "7 Legendary companions: Aitor, Barney, Crane, Frank, Hakon, Lawan, Spike",
+                  "Kyle Crane companion in Stash on cooldown (thank you gift)"
+                ],
+                "newFactions": [
+                  "Wolves Faction (Rais's men) in world encounters",
+                  "WorldBurners Faction (Flamethrower loot) in world encounters"
+                ],
+                "newUnits": [
+                  "PK Shield Bearers",
+                  "PK Engineers (multiple tiers, place different UV light tiers, base building loot)",
+                  "PK Bowmen throw UV Flares"
+                ],
+                "playableContent": [
+                  "Crane outfit (wearable with armor, first and third person)"
+                ],
+                "improvements": [
+                  "Opera DLC human AI enhancements",
+                  "Bowmen movement and firing (no longer stationary)",
+                  "Survivor Bowmen spawn bug fixed"
+                ],
+                "crafting": [
+                  "Expanded crafting menu for new items and materials"
+                ],
+                "economy": [
+                  "All armor and weapons droppable",
+                  "Shop improvements for random custom items (previously PK-focused)"
+                ],
+                "pkReinforcements": [
+                  "6 tiers available",
+                  "Includes new PK Commandos",
+                  "Obtained through story/side quests or hostage rescues"
+                ],
+                "fixes": [
+                  "Inventory settings crash removed from Config",
+                  "Alcohol buff damage reduction corrected"
+                ],
+                "knownIssues": [
+                  "PK Random Aggression (may be vanilla bug amplified by mod)",
+                  "Event: 1.9.0P event disables custom loot, spawns, and systems (play offline for full experience)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "January",
+          "entries": [
+            {
+              "version": "1.2i2",
+              "date": "2023-02-03",
+              "gameVersionCompatibility": "1.9.3p",
+              "categories": {
+                "fixes": [
+                  "Zipline functionality restored",
+                  "Stamina regen bug resolved"
+                ]
+              }
+            },
+            {
+              "version": "1.2i1",
+              "date": "2023-02-02",
+              "gameVersionCompatibility": "1.9.3p",
+              "categories": {
+                "fixes": [
+                  "Running in shallow water bug resolved",
+                  "Glider fully restored to default",
+                  "PK patrol size reduced",
+                  "Weather effects updated for new version",
+                  "NPC water avoidance added (instant-death water prevention)",
+                  "Minor fixes for potential 1.9.0 savegame brick issues"
+                ],
+                "knownBugs": [
+                  "PK random aggression ongoing",
+                  "Anniversary event disables: Spawns, Custom Loot, Player_Variables.scr (affects Mod Config)",
+                  "Play Steam Offline for full mod experience during event"
+                ]
+              }
+            },
+            {
+              "version": "1.2i",
+              "date": "2023-01-31",
+              "gameVersionCompatibility": "1.9.0p",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.9.0p",
+                  "Main menu banner reduced by 160MB",
+                  "Version compatibility checking via banner"
+                ],
+                "features": [
+                  "PK Engineers place Tier 2 UV lights along patrol paths (remain until game close, may not sync in Coop)",
+                  "5 new UV light tiers in IALR Trader",
+                  "5 new summonable Companions in IALR Trader"
+                ],
+                "fixes": [
+                  "Biter scaling corrections",
+                  "Glider restored by default (custom gliders boost default glider when worn)",
+                  "Minor quality of life improvements"
+                ]
+              }
+            },
+            {
+              "version": "1.2h2",
+              "date": "2023-01-22",
+              "gameVersionCompatibility": "1.9.0p",
+              "categories": {
+                "newFeatures": {
+                  "tradingSystem": [
+                    "Mod Config Trading System section",
+                    "Removed difficulty-based trader restrictions",
+                    "Sell items on higher difficulties"
+                  ],
+                  "lockpickSystem": [
+                    "Mod Config Lockpick System section",
+                    "Adjust lockpicking difficulty",
+                    "Breaking lock controls"
+                  ],
+                  "lootSystem": [
+                    "Mod Config Loot System section",
+                    "Increase world loot gathering rates"
+                  ]
+                },
+                "fixes": [
+                  "Prologue quest bug with Pathways resolved",
+                  "Bow functionality restored from version 1.3h",
+                  "Interior and nighttime infected spawns corrected"
+                ]
+              }
+            },
+            {
+              "version": "1.2h1",
+              "date": "2023-01-21",
+              "gameVersionCompatibility": "1.9.0p",
+              "categories": {
+                "fixes": [
+                  "Weapon durability restoration from version 1.2h2",
+                  "DoomsDayPrepper skill unlock removed (tutorials disabled pending fix)",
+                  "New game restart required for DoomsDayPrepper"
+                ]
+              }
+            },
+            {
+              "version": "1.2h",
+              "date": "2023-01-22",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "newFeature": [
+                  "IALR Trader: Summonable custom trader with cooldown",
+                  "Access to base building and custom content",
+                  "Limited random capacity",
+                  "Custom traders in world pending development"
+                ],
+                "fixes": [
+                  "Human AI Push attack restricted to infected and zombies (improved survival vs. infected)",
+                  "Armor perk reduction (excessive stats corrected)",
+                  "Minor quality of life improvements"
+                ],
+                "knownIssues": [
+                  "Armor clipping (material setting limitation)",
+                  "Random glitched biter blob (preset loading limitation)",
+                  "Custom Map Optional quest compatibility issues"
+                ]
+              }
+            },
+            {
+              "version": "1.2g2",
+              "date": "2023-01-20",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "fixes": [
+                  "Ammo bug from Config update resolved",
+                  "Perfect Shotgun naming system and crafting color set to Violet"
+                ]
+              }
+            },
+            {
+              "version": "1.2g1",
+              "date": "2023-01-21",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "fixes": [
+                  "Boss healing during fights disabled",
+                  "Ultimate Survivor: Deadly Volatile melee damage, poison damage from Volatile spit",
+                  "Ultimate Survivor: Slow movers added with runners and climbers"
+                ],
+                "installerOptional": [
+                  "Remove Zombie kids (Biters, Virals, Banshees) via Data4.pak",
+                  "Remove Glider Overhaul for Survivor and Ultimate Survivor via Data3.pak",
+                  "Restore Survivor Sense detecting Enemy NPCs via Data3.pak"
+                ]
+              }
+            },
+            {
+              "version": "1.2g",
+              "date": "2023-01-20",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "worldBurnersContent": [
+                  "4 Flamethrower tiers (Broken, Damaged, Standard, Perfected)",
+                  "World Burner Flamethrower (Legendary, Patreon exclusive pending world integration)",
+                  "Each tier: increased range, damage, reduced flame drift",
+                  "Ammo: Accelerant-based and Gasoline-based fuel",
+                  "Fuel Bomb (gasoline grenade, high damage, path blocking)",
+                  "Fire Bomb (accelerant grenade, burning damage, path blocking)",
+                  "Gasoline containers (empty and filled) lootable in world",
+                  "Full Tank of Gas craftable (sellable valuable or fuel crafting)",
+                  "Accelerant lootable in world",
+                  "Starter flamethrower bundle in Stash",
+                  "Blueprints at traders"
+                ],
+                "patreonContent": [
+                  "World Burner content (all tiers)",
+                  "Unlimited ammo for all flamethrowers (Ultimate tier)",
+                  "Easter Egg bundles (Techland hidden secrets)",
+                  "Survivor tier: All content",
+                  "Casual tier: All non-legendary content"
+                ]
+              }
+            },
+            {
+              "version": "1.2f",
+              "date": "2023-01-18",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "configUpdate": [
+                  "Falling zombie damage by type",
+                  "IALR exclusive script versions for reduced mod compatibility conflicts"
+                ],
+                "features": [
+                  "Biters fall down and off ledges",
+                  "Biters overwhelm player (multiple simultaneous attacks)",
+                  "Biters use player-reserved attacks on NPCs",
+                  "Enraged Crawler (persistent crawlers, extra hits, constant screams)",
+                  "Humans pinned and overwhelmed by infected (player can intervene)"
+                ],
+                "baseBuilding": [
+                  "Large update pending",
+                  "Area clearing and purging capability",
+                  "Sandbags for rough defenses",
+                  "Prefab storage limitations discovered (session-based building)",
+                  "Temporary/popup base concept in development"
+                ],
+                "fixes": [
+                  "Banshee armor FOV glitch resolved",
+                  "Volatile UV flare detection while roaming",
+                  "Dogtag drop rate slightly increased"
+                ]
+              }
+            },
+            {
+              "version": "1.2e",
+              "date": "2023-01-14",
+              "gameVersionCompatibility": "1.10.2c",
+              "categories": {
+                "spawnSystemRefactor": [
+                  "Zone ID-based spawn tables",
+                  "Custom spawn table for easy modification",
+                  "Zone-specific realism and encounters",
+                  "Easier zones: Survivor or PK claimed",
+                  "Wild zones: Renegade and Unclaimed (more enemy spawns and diversity)",
+                  "PK zones: Increased PK undead (dog tags)"
+                ],
+                "biters": [
+                  "Completely rebalanced for faction-specific loot",
+                  "Increased Weak, Biter, and Fresh biter variants",
+                  "Biter Nightwalker return (configurable running at night, walking during day, disabled by default)",
+                  "80 unique viral additions to spawn tables"
+                ],
+                "fixes": [
+                  "Volatile behavior and attack patterns restored",
+                  "Skinner armor first-person visibility (includes Volatile legs)",
+                  "Spawn system bug reduction (reduced random enemy spawning in front of player)"
+                ],
+                "overhaul": [
+                  "Common IALR script refactor for mod compatibility and long-term support"
+                ],
+                "knownIssues": [
+                  "Invisible viral in world"
+                ]
+              }
+            },
+            {
+              "version": "1.2d5",
+              "date": "2023-01-10",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Volatile Chase behavior during Hunt",
+                  "Viral Chase aggression and damage restored",
+                  "Swamp Volatile spawning in Sunken City",
+                  "Swamp Goons (shambling, high damage)"
+                ]
+              }
+            },
+            {
+              "version": "1.2d4",
+              "date": "2023-01-08",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Interior cells activation before entry",
+                  "Noise now triggers interiors citywide",
+                  "Volatiles and Ultimate zombie chase behavior",
+                  "Spawn file overhaul (excessive Survivor spawns corrected)",
+                  "Bandits and Renegades standing in place resolved"
+                ],
+                "optional": [
+                  "Warzone human-centric spawns in development"
+                ]
+              }
+            },
+            {
+              "version": "1.2d3",
+              "date": "2023-01-08",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Bandit and Renegade combat initiation and movement",
+                  "Human AI combat behavior restored"
+                ]
+              }
+            },
+            {
+              "version": "1.2d2",
+              "date": "2023-01-08",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "floodedCityUpdate": [
+                  "Large diversity increase (new Virals, biters, Swamp Volatile)",
+                  "DayStalker Volatiles (mud/chemical covered, daytime roaming, rare spawns)",
+                  "Swamp Volatiles (Flooded City variant)"
+                ],
+                "fixes": [
+                  "Bandit and Renegade player approach and attack",
+                  "Human AI world awareness improvements (reduced player watching)",
+                  "Charger daytime walking and non-attack behavior"
+                ]
+              }
+            },
+            {
+              "version": "1.2d1",
+              "date": "2023-01-08",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "fixes": [
+                  "Interior human AI combat functionality restored for world and quest NPCs"
+                ]
+              }
+            },
+            {
+              "version": "1.2d",
+              "date": "2023-01-08",
+              "gameVersionCompatibility": "1.10.1e",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.10.1e",
+                  "Increased ranged weapon headshot damage",
+                  "Character selection system largely complete (accessible via Stash)"
+                ],
+                "characterSelection": [
+                  "9 new male skins, 10 female skins",
+                  "5 male story skins, 5 male legendary skins",
+                  "6 female story skins, 6 female legendary skins",
+                  "First-person view matches selected race/gender",
+                  "Stash outfit icon navigation (Skeletons: legendary, Plague: male, Female icons: females, X to toggle)"
+                ],
+                "fixes": [
+                  "Banshees daytime roaming and city spawning",
+                  "Chrome weather effect under investigation"
+                ],
+                "note": [
+                  "Armor implementation incomplete",
+                  "5 armor sets in loot tables and hidden in world",
+                  "Optional glider overhaul feedback requested"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "1.2c2",
+              "date": "2022-12-27",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "fixes": [
+                  "Damage bug for biters (overly spongy health)"
+                ]
+              }
+            },
+            {
+              "version": "1.2c1",
+              "date": "2022-12-27",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "fixes": [
+                  "Crash from syntax error",
+                  "Invisible zombie mass spawns (reference error)",
+                  "Alcohol buff damage reduction corrected",
+                  "Basic and clean bandage healing increased",
+                  "Tier 1 PK reinforcements findable by rescuing hostage PK"
+                ]
+              }
+            },
+            {
+              "version": "1.2c",
+              "date": "2022-12-26",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.8.2p",
+                  "25 custom swamp biome biters (not active during holiday event)",
+                  "e3 PK coloring for custom faction setup",
+                  "38 new Male and Female PK commander variants"
+                ],
+                "features": [
+                  "PK Commanders summon additional troops",
+                  "Renegades summon more renegades",
+                  "Improved Renegade AI (aggressive, player boxing tactics)",
+                  "PK Bowmen on base walls (fire down at enemies)",
+                  "PK Reinforcement system (6 tiers including PK Commandos)",
+                  "Metro Hub night raids"
+                ],
+                "fixes": [
+                  "Spawn location user reports",
+                  "For Honor event compatibility (works without crashes but inventory glitches and spawn issues reported, best played with event off)"
+                ],
+                "knownIssues": [
+                  "PK Random Aggression (may be vanilla bug)",
+                  "Event: Custom loot, spawns, and systems may be buggy or non-functional (play offline for full experience)"
+                ]
+              }
+            },
+            {
+              "version": "1.2b3",
+              "date": "2022-12-30",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "newFeatures": {
+                  "28NewGliders": [
+                    "6 Legendary unique gliders with unique characteristics",
+                    "Gliders now equipment items (trade armor slot for glider)",
+                    "Starter glider awarded after 'Let's Waltz' quest",
+                    "6 paragliding levels (vanilla had 3, level 3 adds boost)",
+                    "Only specific gliders have boost capability",
+                    "Existing players: Default level 3 glider (need to find better glider for boost)"
+                  ],
+                  "16NewBackpacks": [
+                    "Forager armor type",
+                    "Carry more objects",
+                    "Unique armor for inventory expansion"
+                  ]
+                },
+                "customNamesAndDescriptions": [
+                  "Armor sets have unique names and descriptions"
+                ],
+                "icons": [
+                  "Updated armor icons (removed newspaper placeholders)"
+                ],
+                "note": [
+                  "Casual Survivor: Vanilla paragliding feature maintained (no glider overhaul)",
+                  "Feedback requested on glider overhaul as optional"
+                ]
+              }
+            },
+            {
+              "version": "1.2b2",
+              "date": "2022-12-30",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "fixes": [
+                  "Zipline functionality restored",
+                  "Stamina regen bug resolved"
+                ]
+              }
+            },
+            {
+              "version": "1.2b1",
+              "date": "2022-12-30",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "fixes": [
+                  "Inventory glitch causing empty inventory",
+                  "Crafting glitch"
+                ]
+              }
+            },
+            {
+              "version": "1.2b",
+              "date": "2022-12-30",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "newFeatures": {
+                  "backpacks": [
+                    "Working backpacks with stat displays",
+                    "Varying degrees of increased slots (Weapons, Equipment, Consumables)",
+                    "Medium and Large backpacks affect gliding"
+                  ],
+                  "modConfig": [
+                    "Inventory size controls (overall, Weapons, Equipment, Consumables)",
+                    "IAL_Inventory_Weapon_Slots, IAL_Inventory_Equipment_Slots, IAL_Inventory_Consumables_Slots",
+                    "Consumables increased for new custom content"
+                  ]
+                },
+                "biters": [
+                  "2 new variants: Fresh Dead and Nightwalker",
+                  "Fresh Dead: Limited running and climbing, various spawn amounts by difficulty",
+                  "Nightwalker: Run at night, walk during day (DL1 style, configurable, disabled by default for Survivor)",
+                  "Walk and climb toggle in config"
+                ],
+                "visuals": [
+                  "8 female Gas Tank variations",
+                  "14 new zombies (fallen players/scavengers with backpacks containing loot)",
+                  "2 new zombie variants (Fresh Dead, Nightwalker, disabled during Winter Event)"
+                ],
+                "fixes": [
+                  "Interior detection improved (better balancing after event)",
+                  "Texture tearing on biters improved"
+                ]
+              }
+            },
+            {
+              "version": "1.2a1",
+              "date": "2022-12-27",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "fixes": [
+                  "Damage bug causing overly spongy biter health"
+                ]
+              }
+            },
+            {
+              "version": "1.2a",
+              "date": "2022-12-27",
+              "gameVersionCompatibility": "1.8.2p",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.8.2p"
+                ],
+                "installer": [
+                  "Custom installer/menu",
+                  "Casual Survivor: Toned-down Survivor, easier exploration",
+                  "Survivor: First-time DL2 players, good fight, closer to DL1",
+                  "Ultimate Survivor: Challenge mode, running your only option initially",
+                  "Custom Menu/Rpack Overrides: DiverseZ's, no XRAY sight, better spawn system, custom menu"
+                ],
+                "fixes": [
+                  "Virals not dying but running around",
+                  "Cheater vision removed (Survivor Sense for loot only, not AI)",
+                  "Zombies with weapons not dying or chasing",
+                  "Custom main menu (if Custom menu/Custom Rpacks selected)",
+                  "Plague cloud from green Plague Bearer zombie deaths removed",
+                  "20 new Drowner infected variations (previously only 1 model)",
+                  "108 Male and Female PK variations",
+                  "Increased spawn count in specific areas (watch towers, storylines)"
+                ]
+              }
+            },
+            {
+              "version": "1.1d3",
+              "date": "2022-12-16",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "fixes": [
+                  "Config values error from 1.4.0c update (wrong value types, removed for now)",
+                  "Configuration update in development"
+                ]
+              }
+            },
+            {
+              "version": "1.1d2",
+              "date": "2022-12-16",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "fixes": [
+                  "Human reaction to kicks, vaults, grapple",
+                  "Reduced human dodge frequency",
+                  "Volatile logic and attack patterns"
+                ]
+              }
+            },
+            {
+              "version": "1.1d1",
+              "date": "2022-12-15",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "fixes": [
+                  "Syntax errors with collectables",
+                  "Missing loot from update",
+                  "Updated Hive spawns (February 2022 modifications to reflect current game state)"
+                ]
+              }
+            },
+            {
+              "version": "1.1d",
+              "date": "2022-12-14",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.8.1c",
+                  "80 new armor pieces (work in progress)"
+                ],
+                "classSystemPreview": {
+                  "classes": [
+                    "Custom Class (1 legendary)",
+                    "Melee Class (6 pieces)",
+                    "Runner Class (3 pieces)",
+                    "Bandit Class (8 pieces)",
+                    "PK Class (13 pieces)",
+                    "Rugged Class (2 pieces)",
+                    "Worker Class (10 pieces)",
+                    "Leather Class (6 pieces)",
+                    "Urban Class (12 pieces)",
+                    "Military Class (10 pieces)",
+                    "Hazmat Class (8 pieces)",
+                    "Plus cosmetic pieces"
+                  ]
+                },
+                "system": [
+                  "Standalone armor pieces (not retextured materials but unique pieces)",
+                  "2-3 variations per set potential",
+                  "Estimated 150 unique pieces, 200-250 total new lootable armors"
+                ],
+                "fixes": [
+                  "Takedown detection from infected",
+                  "Convoy glitch (less random spawn events temporarily)",
+                  "Stun kick on perfect block"
+                ]
+              }
+            },
+            {
+              "version": "1.1c",
+              "date": "2022-12-11",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "healingSystem": [
+                  "Basic Bandages (rags + alcohol, less healing)",
+                  "Aspirin (faster healing)",
+                  "Morphine (even faster healing)",
+                  "Canned food and Small Snacks (small healing edibles)",
+                  "Vanilla medkit requirements lowered"
+                ],
+                "modConfig": [
+                  "Survivor Sense cleanup (removed outdated values, added documentation)",
+                  "White Loot Survivor Sense toggle (on by default at 20.0)"
+                ],
+                "locomotion": [
+                  "IALR_Locomotion_Setting (biter_level_runner or biter_level_walker)",
+                  "IALR_Climbing_Setting (biter_ultimate for climbing or biter)"
+                ],
+                "fixes": [
+                  "Restore glider optional inventory and loot breaking",
+                  "LOD zombie spawns (may be vanilla LOD bug, partial mod fix)",
+                  "UV Flares thrown only at zombies by human AI",
+                  "Grenades removed from 2-handed PK (map destruction prevention)"
+                ],
+                "casualSurvivor": [
+                  "Reduced mod footprint while maintaining new features",
+                  "Easier difficulty for broader player access",
+                  "Removed Goons and Demolishers from Chase spawns (Banshees, Chargers, Spitters, Virals remain)"
+                ]
+              }
+            },
+            {
+              "version": "1.1b",
+              "date": "2022-12-10",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "fixes": [
+                  "Running in shallow water bug",
+                  "Glider fully restored by default",
+                  "PK patrol reduction",
+                  "Weather effects updated for latest version",
+                  "NPC water avoidance (instant-death water)",
+                  "Minor 1.9.0 savegame brick potential fixes"
+                ],
+                "knownBugs": [
+                  "PK random aggression",
+                  "Anniversary event disables Spawns, Custom Loot, Player_Variables.scr (affects Mod Config)",
+                  "Play offline for full mod experience during event"
+                ]
+              }
+            },
+            {
+              "version": "1.1a",
+              "date": "2022-12-09",
+              "gameVersionCompatibility": "1.8.1c",
+              "categories": {
+                "fixes": [
+                  "Ammo bug from Config update",
+                  "Perfect Shotgun naming and crafting color (Violet)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "1.1b",
+              "date": "2022-11-08",
+              "gameVersionCompatibility": "1.7.3c",
+              "categories": {
+                "features": [
+                  "Weapons now drop from specific groups of human enemies",
+                  "Humans use grenades, flares, and decoys intelligently",
+                  "Weapon throwing mechanics implemented (damage functionality in progress)",
+                  "Colonel's Men added to world with new conflict matrix",
+                  "Colonel's Men work together, neutral to player unless attacked",
+                  "Colonel's Men attack bandits and renegades",
+                  "PK Commandos added to world",
+                  "PK Summoners added to world",
+                  "10 new Goon visual variants",
+                  "12 new Banshee appearances",
+                  "1 new Screamer appearance",
+                  "Red Biomarkers for zombie horde",
+                  "Proper mouth textures for zombie horde"
+                ],
+                "fixes": [
+                  "Random bandit model stuck in place corrected",
+                  "Lowered nighttime interior spawns",
+                  "Spawn system fixes from previous release"
+                ]
+              }
+            },
+            {
+              "version": "1.1a",
+              "date": "2022-11-07",
+              "gameVersionCompatibility": "1.7.3c",
+              "categories": {
+                "diverseZsAddition": [
+                  "Over 1,000 new custom enemies added to the game",
+                  "729 new zombies in spawn lists",
+                  "300 new virals",
+                  "E3 preview characters included"
+                ],
+                "armorSystemOverhaul": [
+                  "Over 200 new custom armors with unique perks and abilities",
+                  "1,097 new armor pieces (104 unique pieces)",
+                  "700+ armor variations with balancing and unique skills"
+                ],
+                "armorSets": {
+                  "hazmatArmorSets": {
+                    "count": 13,
+                    "features": ["Increased Darkzone and night time duration", "5 helmet variants", "4 torsos", "3 pants", "air tank"]
+                  },
+                  "pkArmorSets": {
+                    "count": 21,
+                    "features": ["6 Legendary sets", "3 helmets", "6 torso pieces", "1 gloves", "5 armor plates", "6 pants", "6 versions with scaled perks"]
+                  },
+                  "leisureArmorSets": {
+                    "count": 6,
+                    "features": ["1 Gold torso", "1 helmet", "3 torsos", "2 pants", "6 versions with scaled perks"]
+                  },
+                  "brawlerArmorSets": {
+                    "count": 14,
+                    "features": ["Arena DLC-based", "melee fighter focused", "2 torsos", "4 additional armor pieces", "5 pants", "2 shoes", "6 versions with scaled perks"]
+                  },
+                  "runnerArmorSets": {
+                    "count": 9,
+                    "features": ["Faster movement", "longer wall-run duration", "4 torsos", "5 pants", "6 versions with scaled perks"]
+                  },
+                  "banditArmorSets": {
+                    "count": 26,
+                    "features": ["Medium armor", "melee combat focused", "4 legendary", "7 helmets", "4 torsos", "8 armor addons", "1 gloves", "4 pants"]
+                  },
+                  "renegadeArmorSets": {
+                    "count": 15,
+                    "features": ["Medium armor", "melee combat focused", "6 legendary pieces", "8 helmets", "1 torso", "5 additional armor pieces", "1 pants"]
+                  },
+                  "leatherSets": ["Light armor", "healer focus", "5 conditions plus 5 legendary pieces"],
+                  "militarySets": ["Heavy armor", "tank focus", "5 conditions plus 5 legendary pieces"],
+                  "medicalSets": ["3 legendary versions", "high healing boost for level 20+ players"]
+                },
+                "playTheZombieUpdate": [
+                  "Full Banshee armor set with weapons and boosters",
+                  "Play the Goon update (incomplete but available)",
+                  "Play the Volatile and Volatile Tyrant (incomplete but available)",
+                  "Platinum loot drops hidden in world"
+                ],
+                "characterSelection": [
+                  "Over 40 custom playable characters accessible via Stash",
+                  "9 male character skins",
+                  "10 female character skins",
+                  "5 male story characters with legendary alternatives",
+                  "6 female story characters with legendary alternatives",
+                  "First-person view matches selected gender/ethnicity",
+                  "Stash navigation: Skeletons for legendary, Plague for male, Female icons for females, X to toggle"
+                ],
+                "lootSystem": [
+                  "Complete loot system rebalancing",
+                  "Armor and clothing more likely in appropriate containers",
+                  "Darkzones, GRE, and military containers rebalanced",
+                  "Custom armor sellable in shops"
+                ],
+                "aiImprovements": [
+                  "Greatly improved biter tracking and seeking when spotted",
+                  "Biters chase player when Chase begins (all difficulties)",
+                  "Colonel custom encounters",
+                  "Rooftop code support for infected and bandits",
+                  "World encounter diversity increased",
+                  "Improved Volatile code in Darkzones",
+                  "Interior and Darkzone spawn improvements",
+                  "Special infected returned to interiors"
+                ],
+                "fixes": [
+                  "Chrome weather bug finally fixed",
+                  "Inventory system stability improvements",
+                  "Clipping issues reduced for custom armor"
+                ]
+              }
+            },
+            {
+              "version": "1.1",
+              "date": "2022-11-06",
+              "gameVersionCompatibility": "1.7.3c",
+              "categories": {
+                "changelog": [
+                  "Custom and unique interior spawns by difficulty and region",
+                  "Reduced nighttime interior spawns (especially starter zones)",
+                  "Zone-specific spawn variations (balanced by design)",
+                  "Improved realistic warzone spawns",
+                  "City areas fortified during day, retreated inside walls",
+                  "Bow and arrow damage fixes",
+                  "PK-specific bows with increased power",
+                  "Volatile AI behavioral improvements",
+                  "Explosions spawn virals, biters, and banshees",
+                  "Banshee visual glitch fix",
+                  "Biter/Infected world visual glitch fix",
+                  "Improved Warzone spawn system (zone ownership and control)",
+                  "Detection glitch logic fix",
+                  "Zombie random speed variation for diversity",
+                  "AI detection and group work improvements (band together vs. enemies)",
+                  "Bowmen logic and behavior improvements",
+                  "Survivors use lower quality UV Flares",
+                  "PK drop UV Flares with loot"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "July",
+          "entries": [
+            {
+              "version": "1.0f",
+              "date": "2022-07-06",
+              "gameVersionCompatibility": "1.4.2c",
+              "categories": {
+                "humanAIOverhaul": [
+                  "Improved human climbing and fighting mechanics",
+                  "Better weapon handling and equipping",
+                  "Balanced bowmen accuracy and fire rates",
+                  "Enhanced melee fighter behavior"
+                ],
+                "visualImprovements": [
+                  "Custom Viral appearances",
+                  "Armored zombie variants",
+                  "Renegade zombie variations",
+                  "PK visual improvements with better loadout and armor diversity"
+                ],
+                "aiBehavior": [
+                  "Banshee logic fixes (no longer run infinitely)",
+                  "Volatile logic improvements (proper sunlight avoidance)",
+                  "Mini-chase system restored for Volatiles",
+                  "Better detection ranges for all AI types"
+                ],
+                "combatBalance": [
+                  "Human AI weapon drops rebalanced",
+                  "Improved grenade and explosive usage by enemies",
+                  "Better crowd control mechanics"
+                ]
+              }
+            },
+            {
+              "version": "1.0e",
+              "date": "2022-07-05",
+              "gameVersionCompatibility": "1.4.2c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.4.2c"
+                ],
+                "fixes": [
+                  "Endgame boss states with update 1.4.2"
+                ],
+                "features": [
+                  "Volatile Tyrants added to Ultimate edition spawn list (rare spawn)",
+                  "Volatile Tyrant speed and intensity boosted"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "June",
+          "entries": [
+            {
+              "version": "1.0d4",
+              "date": "2022-06-22",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Takedown detection from infected",
+                  "Convoy glitch (spawn system needs rebalancing, potentially fewer random events)",
+                  "Stun kick not appearing on perfect block"
+                ]
+              }
+            },
+            {
+              "version": "1.0d3",
+              "date": "2022-06-16",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Values error from 1.4.0c update (wrong value types, configuration overhaul in development)"
+                ]
+              }
+            },
+            {
+              "version": "1.0d2",
+              "date": "2022-06-16",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Human reaction to kicks, vaults, grapple",
+                  "Human dodge frequency reduction",
+                  "Volatile logic and attack patterns"
+                ]
+              }
+            },
+            {
+              "version": "1.0d1",
+              "date": "2022-06-15",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Syntax errors with collectables",
+                  "Missing loot from update",
+                  "Updated Hive spawns (modified February 2022)"
+                ]
+              }
+            },
+            {
+              "version": "1.0d",
+              "date": "2022-06-14",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "updates": [
+                  "Updated to support Dying Light 2 version 1.4.0c",
+                  "Various AI fixes (physics glitching, spawn issues)",
+                  "Decreased Volatile health after level 6 (challenging but not impossible)",
+                  "Rebalanced Screamers and Volatiles for 3 difficulties"
+                ]
+              }
+            },
+            {
+              "version": "1.0c3",
+              "date": "2022-06-08",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Female outfit issues",
+                  "Spawn system adjustments"
+                ]
+              }
+            },
+            {
+              "version": "1.0c2",
+              "date": "2022-06-08",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "fixes": [
+                  "Removed excess PK in world",
+                  "Minor tweaks"
+                ]
+              }
+            },
+            {
+              "version": "1.0c1",
+              "date": "2022-06-06",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "hotfix": [
+                  "Blue viral glitch fix",
+                  "Volatiles investigate firecrackers (higher alert, detect player in FOV)",
+                  "Remnant wave spawning volatile fix",
+                  "Custom GUI color removal",
+                  "Enemy health bar toggle restored"
+                ]
+              }
+            },
+            {
+              "version": "1.0c",
+              "date": "2022-06-06",
+              "gameVersionCompatibility": "1.4.0c",
+              "categories": {
+                "initialReleaseHotfixList": {
+                  "bugs": [
+                    "Blue viral",
+                    "Human attack timing in large groups (higher difficulties)",
+                    "Howler and Volatile night spawn balancing (difficulty-based)",
+                    "Vanilla game loot balance (more interesting loot)",
+                    "Firecrackers revealing player position to Volatiles",
+                    "Broken configuration links (config overhaul planned)",
+                    "Game physics",
+                    "Awake virals in Darkzones (difficult, hard to stealth)",
+                    "Human spawns in Darkzones (aggression/NPC teaming issues)"
+                  ],
+                  "investigations": [
+                    "Optional stamina drain for difficulty",
+                    "Human dodging frequency",
+                    "Volatile daytime pathing to Darkzones"
+                  ],
+                  "improvements": [
+                    "Tool utility and interest",
+                    "Better config options for spawn balancing (looting, exploration)"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "entries": [
+            {
+              "version": "0.9a",
+              "date": "2022-05-01",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "fixes": [
+                  "Ragdoll physics bugs corrected",
+                  "Grapple mechanics improved",
+                  "Density adjustments for better performance",
+                  "Chase spawn table additions and balancing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "April",
+          "entries": [
+            {
+              "version": "0.9",
+              "date": "2022-04-01",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "newChaseSystem": [
+                  "Special zombies incorporated into chase events",
+                  "Banshees, Goons, and Demolishers now climb and charge players",
+                  "Dynamic chase encounters based on player actions"
+                ],
+                "bansheeRework": [
+                  "Banshees stalk players after being summoned during chase",
+                  "Improved pouncing and tracking behavior",
+                  "Enhanced AI for rooftop pursuit"
+                ],
+                "persistenceSystem": [
+                  "Special zombies spawned during chase may remain in area",
+                  "Enemies persist even after player death and respawn",
+                  "Creates ongoing threat in previously cleared areas"
+                ],
+                "hudAndConfiguration": [
+                  "New HUD configuration system",
+                  "Color scheme customization options",
+                  "Timescale settings",
+                  "Easy access to color variables"
+                ],
+                "balance": [
+                  "Improved grenade mechanics",
+                  "Faster walker movement speeds",
+                  "Chase difficulty scaling"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "March",
+          "entries": [
+            {
+              "version": "0.8",
+              "date": "2022-03-01",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "configurationSystem": [
+                  "New configuration system for storing settings across updates",
+                  "AutoAim now toggle feature instead of forced setting",
+                  "Player preference persistence"
+                ],
+                "newZombieTypes": [
+                  "Zombie and viral kids added",
+                  "New female zombie variants for increased variety",
+                  "Enhanced visual diversity across infected types"
+                ],
+                "aiBehaviorImprovements": {
+                  "banshees": [
+                    "Track player from above",
+                    "Attack only through pouncing",
+                    "Improved stalking behavior"
+                  ],
+                  "goons": [
+                    "Run at high speeds",
+                    "Attack more frequently",
+                    "Enhanced pursuit mechanics"
+                  ],
+                  "screamersAndSpitters": [
+                    "Can climb and track player",
+                    "Improved vertical movement",
+                    "Better player detection"
+                  ]
+                },
+                "technicalImprovements": [
+                  "Zombies no longer drown",
+                  "Improved hitboxes for all weapons and projectiles",
+                  "Enhanced noise detection system",
+                  "Better collision detection"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "February",
+          "entries": [
+            {
+              "version": "0.7",
+              "date": "2022-02-01",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "completeHumanAIOverhaul": [
+                  "New types of human AI introduced",
+                  "Enhanced behavior patterns and decision-making",
+                  "Improved combat tactics"
+                ],
+                "survivors": [
+                  "Can use bows effectively",
+                  "Receive better weapons in cities",
+                  "Improved AI cooperation"
+                ],
+                "pkImprovements": [
+                  "PK watchtowers manned 24/7",
+                  "All humans updated to use more bows for street clearing",
+                  "Better defensive positioning"
+                ],
+                "realismImprovements": [
+                  "Updated human climbing behavior",
+                  "Improved jumping mechanics for humans",
+                  "More realistic movement patterns",
+                  "Enhanced human sensors for easier stealth missions"
+                ],
+                "balanceChanges": [
+                  "Increased toxic and chemical biter effect areas by level",
+                  "Removed daytime special infected",
+                  "Removed human-looking virals",
+                  "Added rooftop volatiles",
+                  "Added street volatiles"
+                ]
+              }
+            },
+            {
+              "version": "0.6",
+              "date": "2022-01-15",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "humanAIAndBalancing": [
+                  "Improvements with special AI types",
+                  "Tweaks to cooldowns and reactions",
+                  "Reinforcement system adjustments",
+                  "Intensity level balancing"
+                ],
+                "noiseSystemRework": [
+                  "Infected use new inspection methods",
+                  "Humans use new detection methods",
+                  "Enhanced sensing when player is nearby",
+                  "Improved audio cue system"
+                ],
+                "physicsSystemFixes": [
+                  "Fixed weapons causing one-hit ragdolls",
+                  "Improved human climbing system",
+                  "Enhanced jumping mechanics",
+                  "Better collision detection"
+                ],
+                "bugFixes": [
+                  "Howler bugs causing spawn glitches resolved",
+                  "Volatiles UV immunity bug fixed",
+                  "Volatiles running into bases prevented"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "January",
+          "entries": [
+            {
+              "version": "0.5",
+              "date": "2022-01-01",
+              "gameVersionCompatibility": "1.0.6.0",
+              "categories": {
+                "completeModRecreation": [
+                  "Mod recreated from ground up",
+                  "Removed howler glitches and errors",
+                  "Improved stability and performance",
+                  "Cleaner code foundation"
+                ],
+                "newIntensitySystem": [
+                  "Daytime intensity system implemented",
+                  "Nighttime intensity system implemented",
+                  "Dynamic difficulty scaling based on player actions"
+                ],
+                "specialZombieSpawning": [
+                  "Special zombies now spawn in world during exploration",
+                  "Reduced human detection to support stealth gameplay",
+                  "Better spawn distribution"
+                ],
+                "rareSpawnAdjustments": [
+                  "GRE Corruptors made very rare spawns",
+                  "Improved gameplay flow",
+                  "Reduced frustrating encounters"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "months": [
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "0.4",
+              "date": "2021-11-01",
+              "gameVersionCompatibility": "1.0.0.0",
+              "categories": {
+                "audioAndSpawnFixes": [
+                  "Fixed audio issues with running biters",
+                  "Increased spawn numbers for zombies",
+                  "Improved group sizes"
+                ],
+                "nightPatrols": [
+                  "Added night patrols for PeaceKeepers",
+                  "Volatile spawn patrols implemented",
+                  "Enhanced nighttime danger"
+                ],
+                "interiorSpawning": [
+                  "Specials now spawn inside interiors during day",
+                  "Specials now spawn inside interiors during night",
+                  "Increased interior exploration risk"
+                ],
+                "weatherSystem": [
+                  "Initial weather system implementation",
+                  "Known issues under investigation"
+                ],
+                "foundationSystems": [
+                  "Spawn logic support for intense quests",
+                  "Storyline encounter support",
+                  "Dynamic spawn system foundation"
+                ],
+                "knownIssues": [
+                  "Weather system bugs under investigation",
+                  "Physics glitches with weapons system"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

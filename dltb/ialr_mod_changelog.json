@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "title": "I Am Legion Reborn Mod Changelog",
+    "game": "Dying Light: The Beast",
+    "lastUpdated": "2025-12-18",
+    "schema": {
+      "version": "1.0",
+      "description": "Mod changelog entries grouped by year, sorted newest first"
+    }
+  },
+  "years": [
+    {
+      "year": 2025,
+      "months": [
+        {
+          "month": "December",
+          "entries": [
+            {
+              "version": "0.3i",
+              "date": "2025-12-18",
+              "gameVersionCompatibility": "1.5.0.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.5.0.0"
+                ],
+                "features": [
+                  "Added the Apex Volatile to the chance to spawn lists for screamer howls and chase start on Ultimate and Insanity",
+                  "Can add Apex Volatile to any difficulty via Mod config by adding 'Volatile_Apex' to spawn lists under Noise Spawns"
+                ],
+                "notes": [
+                  "This is a 1.#.0 update, which means there may be new bugs, new things not working",
+                  "Please check online for vanilla bugs first before writing mod bug reports"
+                ]
+              }
+            },
+            {
+              "version": "0.3h",
+              "date": "2025-12-02",
+              "gameVersionCompatibility": "1.4.0.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.4.0.0"
+                ],
+                "notes": [
+                  "Official update refactored a lot of code, broke a lot of the mods code, took longer to release"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "November",
+          "entries": [
+            {
+              "version": "0.3g",
+              "date": "2025-11-21",
+              "gameVersionCompatibility": "1.3.1.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.3.1.0"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "month": "October",
+          "entries": [
+            {
+              "version": "0.3f",
+              "date": "2025-10-30",
+              "gameVersionCompatibility": "1.3.0",
+              "categories": {
+                "updates": [
+                  "Updated to 1.3.0"
+                ],
+                "notes": [
+                  "This is a 1.#.0 update, which means there may be new bugs, new things not working",
+                  "Please check online for vanilla bugs first before writing mod bug reports"
+                ]
+              }
+            },
+            {
+              "version": "0.3e",
+              "date": "2025-10-19",
+              "gameVersionCompatibility": "1.2.5",
+              "categories": {
+                "newModule": [
+                  "Biters - Run and Climb: Dedicated module for toggling on biters running and climbing"
+                ],
+                "fixes": [
+                  "Fix for where official update broke the runners and climbers that were previously working"
+                ],
+                "notes": [
+                  "Insanity still forces biters to run and climb for balancing"
+                ]
+              }
+            },
+            {
+              "version": "0.3d",
+              "date": "2025-10-17",
+              "gameVersionCompatibility": "1.2.5",
+              "categories": {
+                "updates": [
+                  "Updated to 1.2.5"
+                ],
+                "fixes": [
+                  "Fix for Durability multiplier in Mod config also increasing the critical condition",
+                  "Previously users who drastically boost the multiplier would end up with weapons flashing red around 40% of the damage"
+                ]
+              }
+            },
+            {
+              "version": "0.3c",
+              "date": "2025-10-12",
+              "gameVersionCompatibility": "1.2.4",
+              "categories": {
+                "fixes": [
+                  "Another fix for Biter Crawler bug - missed another edge case on the last update"
+                ]
+              }
+            },
+            {
+              "version": "0.3b",
+              "date": "2025-10-10",
+              "gameVersionCompatibility": "1.2.4",
+              "categories": {
+                "updates": [
+                  "Updated to 1.2.4"
+                ],
+                "fixes": [
+                  "Fix for Biter Crawler bug"
+                ]
+              }
+            },
+            {
+              "version": "0.3",
+              "date": "2025-10-07",
+              "gameVersionCompatibility": "1.2.3",
+              "categories": {
+                "newEvents": [
+                  "HyperMode: Based on Techlands Hypermode, built around new ragdoll code. Enemies blast away with attacks, all physics effects drastically increased",
+                  "7670 Days Later: Based on 28 Days Later movie. All spawns are Biters and Virals hunting human survivors. Not for casual players - grab ammo and blast through hordes. Biters run/climb based on Mod Difficulty",
+                  "Low Gravity: Player and all enemies have low gravity for better ragdoll effects",
+                  "Winter SlaughterLand: Castor Woods covered in snow with lite snows, snowfall, rain and snow added to weather"
+                ],
+                "newModules": [
+                  "Volatile Be Gone: Removes all Volatiles from open world. Requires manually removing volatiles from Mod Config based on installed difficulty",
+                  "Remove Weapon Mod Visuals: Removes visuals from weapons when modified to remove janky look. Keeps effects of Mods without the clutter"
+                ],
+                "notes": [
+                  "All events are compatible with each other and can be toggled at any time",
+                  "Can use Mod Config to change World Spawn density"
+                ]
+              }
+            },
+            {
+              "version": "0.2a",
+              "date": "2025-10-05",
+              "gameVersionCompatibility": "1.2.3",
+              "categories": {
+                "fixes": [
+                  "Fix for Loot not working",
+                  "Fix for some items in inventory being affected by Mod config modifiers (durability, price, and physics multiplier)",
+                  "Fix for lightning bug particles being broken"
+                ],
+                "knownIssues": [
+                  "No projects configured bug: Open Documents/IALR Launcher folder, delete data folder (or data/ModData/DyingLightTheBeast), then run launcher again"
+                ]
+              }
+            },
+            {
+              "version": "0.2",
+              "date": "2025-10-05",
+              "gameVersionCompatibility": "1.2.3",
+              "categories": {
+                "majorUpdate": [
+                  "Added Casual, Survivor, Ultimate, and Insanity difficulties"
+                ],
+                "difficulties": {
+                  "casual": [
+                    "Allows use of Mod config with some core update features"
+                  ],
+                  "survivor": [
+                    "Goto difficulty with higher amounts of biters and infected in the world",
+                    "Currently does not use custom spawn table (on the way)",
+                    "At night banshees, goons, demolishers, chargers will hunt for you the more you run"
+                  ],
+                  "ultimate": [
+                    "Brings on the runners - all biters can run and climb and will hunt for you",
+                    "More infected will hunt for you in the day and night"
+                  ],
+                  "insanity": [
+                    "Painful difficulty - balancing forces use of camouflage and keep moving",
+                    "Chases are brutal",
+                    "Not for everyone"
+                  ]
+                },
+                "launcher": [
+                  "New version of Launcher released 3.1.4 that fixed small update bug"
+                ]
+              }
+            },
+            {
+              "version": "0.1",
+              "date": "2025-10-02",
+              "gameVersionCompatibility": "1.2.3",
+              "categories": {
+                "initialRelease": [
+                  "Initial release for Dying Light: The Beast"
+                ],
+                "launcher": [
+                  "New version of the launcher released (3.0)",
+                  "Newly designed Mod Config, Savegame tools, and Multiplayer tools based on feedback",
+                  "System designed from the ground up to detect games, savegames, and system logs",
+                  "Supports Steam, Epic, and Gog",
+                  "Start of Unofficial Dev Tools auto-healing code - around 350 scripts supported",
+                  "Can access Player_variables.scr and skills.xml and make changes, save to custom config",
+                  "New backup tools will create backups when new game versions come out without mod released"
+                ],
+                "notes": [
+                  "Without new custom tools, a lot of work that went into DL2 will not be coming to DLTB due to how games code is hidden or unmodifiable",
+                  "Going script by script to see what works",
+                  "Smaller events and modules released while working on the code"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
