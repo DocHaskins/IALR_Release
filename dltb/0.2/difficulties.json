@@ -1,0 +1,28 @@
+{
+    "difficulties": [
+        {
+            "name": "Casual Survivor",
+            "description": "Casual Survivor: This version of the mod adds new options in the Mod config for you to use to balance the game how you want. It's less of a focus on difficulty and more of a way to provide more options for players who want to learn the ropes and enjoy Parkour without worrying as much.",
+            "image": "button_difficulties_casual.jpg",
+            "folder": "difficulty_1_CasualSurvivor"
+        },
+        {
+            "name": "Survivor",
+            "description": "Survivor: This version of the mod is meant for all the Lore based players who want a challenging and interesting game without the intensity. Biters will be more dense on the map than Casual Survivor and will also be able to hear the players actions better. This should be everyone's recommended difficulty to start with, if you want and easier experience then change to Casual and if you are familiar with the game and want to be always under threat when outside a base, look to Ultimate. Day Hunter is disabled in Survivor but Night Hunter will ensure that the more you run, the more they pick up your trail.",
+            "image": "button_difficulties_survivor.jpg",
+            "folder": "difficulty_2_Survivor"
+        },
+        {
+            "name": "Ultimate Survivor",
+            "description": "Ultimate Survivor: This version is meant to give players something new once they have played the game and know the basic functions and actions. Running can trigger enemies spawning and hunting for you. There are a mix of biters in the world with a higher density of enemies. The Day Hunter and Night Hunter system will spawn heavy special infected, but you can configure everything in the Mod config. The biters can run and climb and will hunt for you. The chases are harder and more enemies can follow. The spawns are much higher, the volatiles more deadly, and HumanAI will be relentless. You will need to use tools and camoflauge to survive this difficulty. You can set your Walk Toggle in the games settings to avoid awakening the Infected and Daytime hunters.",
+            "image": "button_difficulties_ultimate.jpg",
+            "folder": "difficulty_3_UltimateSurvivor"
+        },
+        {
+            "name": "Insanity",
+            "description": "Insanity: This version of the mod is meant for the players that want a serious challenge when leaving the safezones in the day and night. This difficulty was originally designed to make the game almost unplayable hard, some people like that level of challenge. Put that camouflage to good use, you'll need it. IALR Veterans recommended.",
+            "image": "button_difficulties_insanity.jpg",
+            "folder": "difficulty_4_Insanity"
+        }
+    ]
+}

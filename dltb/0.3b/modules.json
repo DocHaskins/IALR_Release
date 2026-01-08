@@ -1,0 +1,20 @@
+{
+    "modules": [
+        {
+            "name": "Volatiles Be Gone",
+            "description": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free without Volatiles. Make sure to update your IAL Mod Config Spawns for Noise spawns if you have volatiles (based on mod difficulty)",
+            "category": "Spawns",
+            "image": "button_modules_VoliBegone.jpg",
+            "folder": "module_4_VolatilesBegone",
+            "incompatible": []
+        },
+        {
+            "name": "Remove Weapon Mod Visuals",
+            "description": "Want to get rid of those attachments on your weapons that ruin your sense of immersion? Toggle on this module to enjoy the game without the cluttered weapon appearances",
+            "category": "Disable",
+            "image": "button_modules_NoWeaponModVisuals.jpg",
+            "folder": "module_3_RemoveWeaponMod",
+            "incompatible": []
+        }
+    ]
+}
