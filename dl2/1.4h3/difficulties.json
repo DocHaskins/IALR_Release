@@ -1,10 +1,10 @@
 {
     "difficulties": [
         {
-            "name": "Vanilla",
-            "description": "Vanilla game mode with base difficulty settings",
-            "image": "button_difficulties_vanilla.jpg",
-            "folder": "difficulty_0_Vanilla"
+            "name": "IALR Content",
+            "description": "Vanilla + IALR Content: Play the vanilla game with a savegame that has the IALR items already added, this is not for playing the actual mod, only to support players who want to try to play Vanilla events with less chance of corrupting their savegames. You should still backup your savegame",
+            "image": "button_difficulties_content.jpg",
+            "folder": "difficulty_0_IALRContent"
         },
         {
             "name": "Casual Survivor",
