@@ -2,7 +2,7 @@
     "difficulties": [
         {
             "name": "Ultimate Survivor",
-            "description": "This version is meant to give players something new once they have played the game and know the basic functions and actions. Running can trigger enemies spawning and hunting for you.",
+            "description": "Ultimate Survivor: This version is meant to give players something new once they have played the game and know the basic functions and actions. Running can trigger enemies spawning and hunting for you, including the Daystalker Volatile. There are a mix of biters in the world with a higher density of enemies and hordes. There are more fresh dead (running and climbing zombies) than in Survivor but with better balancing for the experienced player looking to play Ultimate Survivor through the main quest. The spawns are much higher, the volatiles more deadly, and HumanAI will be relentless. You will need to use tools such as decoys, deployable UV lights, explosives, and camoflauge to survive this difficulty. You can set your Walk Toggle in the games settings to avoid awakening the Infected and Daytime hunters.",
             "image": "button_difficulties_ultimate.jpg",
             "folder": "difficulty_3_UltimateSurvivor"
         }

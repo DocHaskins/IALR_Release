@@ -1,7 +1,7 @@
 {
     "modules": [
         {
-            "name": "No Kid Infected",
+            "name": "Remove Child Infected",
             "description": "Removes child-like visuals from all biters, virals, and banshees in the world",
             "category": "Disable",
             "image": "button_modules_NoKids.jpg",
@@ -14,7 +14,10 @@
             "category": "Spawns",
             "image": "button_modules_Warzones.jpg",
             "folder": "module_1_Warzones",
-            "incompatible": ["Volatiles Begone", "Infestation"]
+            "incompatible": [
+                "Volatiles Begone",
+                "Infestation"
+            ]
         },
         {
             "name": "Infestation",
@@ -22,7 +25,10 @@
             "category": "Spawns",
             "image": "button_modules_Infestation.jpg",
             "folder": "module_6_Infestation",
-            "incompatible": ["WarZones", "Volatiles Begone"]
+            "incompatible": [
+                "WarZones",
+                "Volatiles Begone"
+            ]
         },
         {
             "name": "Hunger and Thirst",
@@ -33,12 +39,15 @@
             "incompatible": []
         },
         {
-            "name": "Volatiles Begone",
+            "name": "Volatiles Be Gone",
             "description": "Tired of getting slaughtered by the Volatiles at night? Now you can roam free using the Casual Survivor spawn settings but without Volatiles. This is not compatible with Warzones or Infestation",
             "category": "Spawns",
             "image": "button_modules_VoliBegone.jpg",
             "folder": "module_4_VolatilesBegone",
-            "incompatible": ["WarZones", "Infestation"]
+            "incompatible": [
+                "WarZones",
+                "Infestation"
+            ]
         },
         {
             "name": "Remove Weapon Mod Visuals",
@@ -54,7 +63,9 @@
             "category": "Difficulty",
             "image": "button_modules_DeadlyHumans.jpg",
             "folder": "module_5_DeadlyHumans",
-            "incompatible": []
+            "incompatible": [
+                "Hunger and Thirst"
+            ]
         },
         {
             "name": "Winter SlaughterLand",

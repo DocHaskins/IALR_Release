@@ -2,7 +2,7 @@
     "difficulties": [
         {
             "name": "IALR Content",
-            "description": "Vanilla + IALR Content: Play the vanilla game with the Mods content including hundreds of new weapons including bows, crossbows, flamethrowers, throwing weapons, throwables, and items. This version also adds over 1500+ new enemy and human variants to the game. Modify the vanilla game to your ideal playstyle with the Mod config.",
+            "description": "Vanilla + IALR Content: Play the vanilla game with a savegame that has the IALR items already added, this is not for playing the actual mod, only to support players who want to try to play Vanilla events with less chance of corrupting their savegames. You should still backup your savegame",
             "image": "button_difficulties_content.jpg",
             "folder": "difficulty_0_IALRContent"
         },

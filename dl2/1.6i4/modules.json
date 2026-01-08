@@ -14,7 +14,10 @@
             "category": "Spawns",
             "image": "button_modules_Warzones.jpg",
             "folder": "module_1_Warzones",
-            "incompatible": ["Volatiles Begone", "Infestation"]
+            "incompatible": [
+                "Volatiles Begone",
+                "Infestation"
+            ]
         },
         {
             "name": "Infestation",
@@ -22,7 +25,10 @@
             "category": "Spawns",
             "image": "button_modules_Infestation.jpg",
             "folder": "module_6_Infestation",
-            "incompatible": ["WarZones", "Volatiles Begone"]
+            "incompatible": [
+                "WarZones",
+                "Volatiles Begone"
+            ]
         },
         {
             "name": "Volatiles Be Gone",
@@ -30,7 +36,10 @@
             "category": "Spawns",
             "image": "button_modules_VoliBegone.jpg",
             "folder": "module_4_VolatilesBegone",
-            "incompatible": ["WarZones", "Infestation"]
+            "incompatible": [
+                "WarZones",
+                "Infestation"
+            ]
         },
         {
             "name": "Remove Weapon Mod Visuals",
@@ -46,7 +55,9 @@
             "category": "Difficulty",
             "image": "button_modules_DeadlyHumans.jpg",
             "folder": "module_5_DeadlyHumans",
-            "incompatible": ["Hunger and Thirst"]
+            "incompatible": [
+                "Hunger and Thirst"
+            ]
         },
         {
             "name": "Stash Unlock",

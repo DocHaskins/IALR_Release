@@ -2,13 +2,13 @@
     "languages": [
         {
             "name": "Arabic",
-            "description": "Change the mod item descriptions and names to Arabic",
-            "image": "button_languages_default.jpg",
+            "description": "Change the mod item descriptions and names to Arabic. Requires switching the game language to Arabic",
+            "image": "button_languages_arabic.jpg",
             "folder": "language_12_Arabic"
         },
         {
             "name": "Chinese",
-            "description": "Change the mod item descriptions and names to Chinese",
+            "description": "Change the mod item descriptions and names to Chinese. Requires switching the game language to Chinese",
             "image": "button_languages_chinese.jpg",
             "folder": "language_10_Chinese"
         },
@@ -44,14 +44,14 @@
         },
         {
             "name": "Japanese",
-            "description": "Change the mod item descriptions and names to Japanese",
+            "description": "Change the mod item descriptions and names to Japanese. Requires switching the game language to Japanese",
             "image": "button_languages_japanese.jpg",
             "folder": "language_8_Japanese"
         },
         {
             "name": "Korean",
-            "description": "Change the mod item descriptions and names to Korean",
-            "image": "button_languages_default.jpg",
+            "description": "Change the mod item descriptions and names to Korean. Requires switching the game language to Korean",
+            "image": "button_languages_korean.jpg",
             "folder": "language_11_Korean"
         },
         {
